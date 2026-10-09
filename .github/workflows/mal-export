@@ -1,0 +1,74 @@
+# GitHub Action: Monatlicher MAL-Pull per API v2
+# Ablageort im Repo: .github/workflows/mal-sync.yml
+# Voraussetzung: Repo ist public (damit der Vibe-GitHub-Connector die JSON lesen kann).
+# Secret anlegen: Repo -> Settings -> Secrets and variables -> Actions -> New repository secret
+#   Name: MAL_CLIENT_ID   Wert: deine MAL API Client-ID (https://myanimelist.net/apiconfig)
+
+name: MAL Sync
+
+on:
+  schedule:
+    # Jeden Montag, 04:00 UTC = 05:00 CET (im Sommer 06:00 Uhr MESZ am Ortsclock)
+    - cron: '0 4 * * 1'
+  workflow_dispatch: {}  # manueller Start über den "Run workflow"-Button
+
+permissions:
+  contents: write
+
+env:
+  MAL_USER: DevOpsElfMage
+
+jobs:
+  mal-pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: MAL-Listen per API v2 ziehen
+        env:
+          MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
+        run: |
+          set -euo pipefail
+
+          fetch_list() {
+            local kind="$1"        # anime | manga
+            local extra_fields="$2"
+            local url page_data next ndjson
+            ndjson="raw_${kind}.ndjson"
+            : > "$ndjson"
+            url="https://api.myanimelist.net/v2/users/${MAL_USER}/${kind}list?fields=list_status${extra_fields}&limit=500"
+
+            while [ -n "$url" ]; do
+              page_data=$(curl -sfS --retry 3 --retry-delay 5 \
+                -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" "$url")
+
+              # Pro Eintrag: node-Metadaten + list_status (Score, Status etc.) zusammenführen
+              jq -c '.data[] | . as $e | $e.node + {list_status: $e.list_status}' \
+                <<<"$page_data" >> "$ndjson"
+
+              url=$(jq -r '.paging.next // empty' <<<"$page_data")
+            done
+
+            jq -s --arg user "$MAL_USER" --arg kind "$kind" \
+              '{generated_at: (now | todate), source: "MAL API v2", user: $user, kind: $kind, count: length, list: .}' \
+              "$ndjson" > "mal_${kind}.json"
+            echo "mal_${kind}.json: $(jq '.count' "mal_${kind}.json") Eintraege"
+            rm -f "$ndjson"
+          }
+
+          fetch_list anime ',num_episodes'
+          fetch_list manga ',num_chapters,num_volumes'
+
+      - name: Committen (nur wenn sich etwas geändert hat)
+        run: |
+          set -euo pipefail
+          git config user.name  "mal-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add mal_anime.json mal_manga.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen seit letztem Pull - kein Commit noetig."
+          else
+            git commit -m "MAL export $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
