@@ -37,7 +37,7 @@ jobs:
             local url page_data next ndjson
             ndjson="raw_${kind}.ndjson"
             : > "$ndjson"
-            url="https://api.myanimelist.net/v2/users/${MAL_USER}/${kind}list?fields=list_status${extra_fields}&limit=500"
+            url="https://api.myanimelist.net/v2/users/${MAL_USER}/${kind}list?fields=list_status${extra_fields}&nsfw=true&limit=500"
 
             while [ -n "$url" ]; do
               page_data=$(curl -sfS --retry 3 --retry-delay 5 \
