@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const API = 'https://graphql.anilist.co';
-const BATCH = 25;        // Aliasse pro Request (konservativ wegen Complexity-Budget)
+const BATCH = 25;        // IDs pro Request (konservativ wegen Complexity-Budget)
 const SLEEP_MS = 1200;    // ~50 req/min → weit unter dem 90er-Limit
 
 const headers = {
@@ -36,7 +36,11 @@ if (!animeIds.length || !mangaIds.length) {
   throw new Error('Keine IDs gefunden – Export-Format oder Dateipfad prüfen!');
 }
 
-// --- 2) GraphQL-Batch-Query per idMal-Aliasse ---
+// --- 2) GraphQL-Batch-Query via Page.media(idMal_in) ---
+// Wichtig: KEINE Media(idMal: …)-Aliasse! AniList antwortet mit HTTP 404 und
+// nullt den GESAMTEN Request, sobald auch nur eine idMal kein Mapping hat.
+// Page.media(idMal_in: …) liefert nur die Treffer — fehlende IDs landen
+// anschließend sauber in "unmapped" statt den Job zu sprengen.
 const FIELDS = `
   id
   idMal
@@ -73,19 +77,21 @@ async function callGraphQL(query, variables) {
 async function dumpAll(ids, type) {
   const entries = [];
   const missing = []; // MAL-IDs ohne AniList-Eintrag
+  const query = `
+    query ($ids: [Int], $type: MediaType) {
+      Page(page: 1, perPage: ${2 * BATCH}) {
+        media(idMal_in: $ids, type: $type) { ${FIELDS} }
+      }
+    }`;
   for (let i = 0; i < ids.length; i += BATCH) {
     const batch = ids.slice(i, i + BATCH);
-    const variables = Object.fromEntries(batch.map((id, j) => [`id${j}`, id]));
-    const query =
-      `query (${batch.map((_, j) => `$id${j}: Int`).join(', ')}) {\n` +
-      batch.map((_, j) => `m${j}: Media(idMal: $id${j}, type: ${type}) { ${FIELDS} }`).join('\n') +
-      `\n}`;
-    const data = await callGraphQL(query, variables);
-    batch.forEach((malId, j) => {
-      const media = data?.[`m${j}`];
-      if (media) entries.push(media);
-      else missing.push(malId);
-    });
+    const data = await callGraphQL(query, { ids: batch, type });
+    const found = data?.Page?.media ?? [];
+    const foundMal = new Set(found.map((m) => m.idMal));
+    // Treffer übernehmen (auch Mehrfach-Mappings, z.B. LN + "the Comic")
+    for (const media of found) entries.push(media);
+    // Anfrage-IDs ohne Treffer → unmapped
+    for (const malId of batch) if (!foundMal.has(malId)) missing.push(malId);
     process.stdout.write(`\r${type}: ${Math.min(i + BATCH, ids.length)}/${ids.length} verarbeitet`);
     await sleep(SLEEP_MS);
   }
