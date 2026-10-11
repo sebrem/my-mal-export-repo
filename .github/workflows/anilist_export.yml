@@ -1,0 +1,39 @@
+name: AniList Export
+
+on:
+  schedule:
+    - cron: "30 4 * * 1"   # montags 04:30 UTC, direkt nach dem MAL-Export
+  workflow_dispatch: {}    # manuelles Triggern im Actions-Tab möglich
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anilist-export
+  cancel-in-progress: false
+
+jobs:
+  anilist-dump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (MAL-Exporte lesen)
+        uses: actions/checkout@v4
+
+      - name: Node setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: AniList-Dump erzeugen
+        env:
+          # Optional: ohne dieses Secret läuft das Script einfach unauthentisiert
+          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}
+        run: node scripts/anilist_dump.mjs
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anilist_dump.json
+          git diff --cached --quiet || git commit -m "chore: weekly anilist dump ($(date -u +%F))"
+          git push
