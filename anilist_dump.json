@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T13:45:47.608Z",
+ "generated_at": "2026-10-11T14:07:33.758Z",
  "source": "graphql.anilist.co (v2), Matching über idMal",
  "anime": [
   {
@@ -2782,7 +2782,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792308600,
-    "timeUntilAiring": 582482
+    "timeUntilAiring": 581132
    }
   },
   {
@@ -2825,6 +2825,43 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 192867,
+   "idMal": 61694,
+   "format": "TV_SHORT",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Sci-Fi"
+   ],
+   "averageScore": 60,
+   "title": {
+    "romaji": "Android wa Keiken Ninzuu ni Hairimasu ka??",
+    "english": "Does it Count if You Lose Your Innocence to an Android?",
+    "native": "アンドロイドは経験人数に入りますか？？"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/hanisuka_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://hanisuka.deregula.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/351",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 216895,
    "idMal": 65009,
    "format": "TV",
@@ -2860,7 +2897,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792153560,
-    "timeUntilAiring": 427442
+    "timeUntilAiring": 426092
    }
   },
   {
@@ -6579,7 +6616,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1791900000,
-    "timeUntilAiring": 173877
+    "timeUntilAiring": 172527
    }
   },
   {
@@ -8687,7 +8724,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791808200,
-    "timeUntilAiring": 82074
+    "timeUntilAiring": 80724
    }
   },
   {
@@ -10905,7 +10942,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792067400,
-    "timeUntilAiring": 341271
+    "timeUntilAiring": 339921
    }
   },
   {
@@ -10946,7 +10983,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795676400,
-    "timeUntilAiring": 3950271
+    "timeUntilAiring": 3948921
    }
   },
   {
@@ -15879,8 +15916,47 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792161000,
-    "timeUntilAiring": 434864
+    "timeUntilAiring": 433515
    }
+  },
+  {
+   "id": 206166,
+   "idMal": 63310,
+   "format": "TV_SHORT",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Ecchi"
+   ],
+   "averageScore": 45,
+   "title": {
+    "romaji": "Ingoku Danchi",
+    "english": "Ingoku Danchi:Deviant's Apartment Complex",
+    "native": "インゴクダンチ"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/ingoku_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://ingoku-danchi.deregula.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/412",
+     "type": "STREAMING"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/411",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
   },
   {
    "id": 207675,
@@ -15960,7 +16036,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792081680,
-    "timeUntilAiring": 355544
+    "timeUntilAiring": 354195
    }
   },
   {
@@ -18192,6 +18268,43 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 113425,
+   "idMal": 40750,
+   "format": "TV",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "averageScore": 57,
+   "title": {
+    "romaji": "Kaifuku Jutsushi no Yarinaoshi",
+    "english": "Redo of Healer",
+    "native": "回復術士のやり直し"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/kaiyari_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "http://kaiyari.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "HIDIVE",
+     "url": "https://www.hidive.com/tv/redo-of-healer",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 115740,
    "idMal": 41312,
    "format": "TV",
@@ -18876,7 +18989,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791730800,
-    "timeUntilAiring": 4660
+    "timeUntilAiring": 3311
    }
   },
   {
@@ -19488,7 +19601,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791992700,
-    "timeUntilAiring": 266558
+    "timeUntilAiring": 265209
    }
   },
   {
@@ -19928,7 +20041,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792254600,
-    "timeUntilAiring": 528458
+    "timeUntilAiring": 527109
    }
   },
   {
@@ -20788,7 +20901,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1799416800,
-    "timeUntilAiring": 7690657
+    "timeUntilAiring": 7689308
    }
   },
   {
@@ -21802,7 +21915,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792076400,
-    "timeUntilAiring": 350256
+    "timeUntilAiring": 348907
    }
   },
   {
@@ -22902,7 +23015,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792076160,
-    "timeUntilAiring": 350014
+    "timeUntilAiring": 348665
    }
   },
   {
@@ -23775,7 +23888,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792159200,
-    "timeUntilAiring": 433053
+    "timeUntilAiring": 431704
    }
   },
   {
@@ -23890,7 +24003,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1796914800,
-    "timeUntilAiring": 5188653
+    "timeUntilAiring": 5187304
    }
   },
   {
@@ -25504,7 +25617,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795100400,
-    "timeUntilAiring": 3374250
+    "timeUntilAiring": 3372902
    }
   },
   {
@@ -26701,7 +26814,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1802962800,
-    "timeUntilAiring": 11236648
+    "timeUntilAiring": 11235300
    }
   },
   {
@@ -26887,7 +27000,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792229100,
-    "timeUntilAiring": 502948
+    "timeUntilAiring": 501600
    }
   },
   {
@@ -27788,7 +27901,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792326600,
-    "timeUntilAiring": 600447
+    "timeUntilAiring": 599099
    }
   },
   {
@@ -30963,8 +31076,59 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792328400,
-    "timeUntilAiring": 602225
+    "timeUntilAiring": 600875
    }
+  },
+  {
+   "id": 204319,
+   "idMal": 63248,
+   "format": "TV_SHORT",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Ecchi",
+    "Romance",
+    "Sports"
+   ],
+   "averageScore": 58,
+   "title": {
+    "romaji": "Ookii Onnanoko wa Suki desu ka?",
+    "english": "Do You Like Big Girls?",
+    "native": "大きい女の子は好きですか？"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/Ookii_Onnanoko",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://ookii-onnanoko.af-original.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/397",
+     "type": "STREAMING"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/396",
+     "type": "STREAMING"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/414",
+     "type": "STREAMING"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/413",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
   },
   {
    "id": 206523,
@@ -30996,8 +31160,42 @@
    "nextAiringEpisode": {
     "episode": 29,
     "airingAt": 1792283400,
-    "timeUntilAiring": 557225
+    "timeUntilAiring": 555875
    }
+  },
+  {
+   "id": 208685,
+   "idMal": 63619,
+   "format": "ONA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Hentai"
+   ],
+   "averageScore": 58,
+   "title": {
+    "romaji": "Onaji Zemi no Someya-san ga Sexy Joyuu Datta Hanashi.",
+    "english": "My Classmate’s a Sexy Actress, and Now We Live Together?!",
+    "native": "同じゼミの染谷さんがセクシー女優だった話。"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/someyasan_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://someyasan-anime.af-original.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/450",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
   },
   {
    "id": 329,
@@ -32880,7 +33078,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792252560,
-    "timeUntilAiring": 526382
+    "timeUntilAiring": 525032
    }
   },
   {
@@ -33552,7 +33750,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792238400,
-    "timeUntilAiring": 512221
+    "timeUntilAiring": 510871
    }
   },
   {
@@ -34344,7 +34542,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791982800,
-    "timeUntilAiring": 256619
+    "timeUntilAiring": 255270
    }
   },
   {
@@ -35870,7 +36068,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792251000,
-    "timeUntilAiring": 524818
+    "timeUntilAiring": 523468
    }
   },
   {
@@ -35977,7 +36175,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1792076400,
-    "timeUntilAiring": 350218
+    "timeUntilAiring": 348868
    }
   },
   {
@@ -36069,7 +36267,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791982800,
-    "timeUntilAiring": 256618
+    "timeUntilAiring": 255268
    }
   },
   {
@@ -37168,7 +37366,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1791729000,
-    "timeUntilAiring": 2816
+    "timeUntilAiring": 1467
    }
   },
   {
@@ -38191,7 +38389,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791896400,
-    "timeUntilAiring": 170215
+    "timeUntilAiring": 168866
    }
   },
   {
@@ -41235,7 +41433,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1791810000,
-    "timeUntilAiring": 83811
+    "timeUntilAiring": 82462
    }
   },
   {
@@ -41312,7 +41510,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1791729000,
-    "timeUntilAiring": 2811
+    "timeUntilAiring": 1462
    }
   },
   {
@@ -41986,7 +42184,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1791991800,
-    "timeUntilAiring": 265609
+    "timeUntilAiring": 264260
    }
   },
   {
@@ -42348,7 +42546,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1791729000,
-    "timeUntilAiring": 2809
+    "timeUntilAiring": 1460
    }
   },
   {
@@ -42403,7 +42601,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792242000,
-    "timeUntilAiring": 515809
+    "timeUntilAiring": 514460
    }
   },
   {
@@ -43360,7 +43558,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792076400,
-    "timeUntilAiring": 350208
+    "timeUntilAiring": 348859
    }
   },
   {
@@ -44283,7 +44481,7 @@
    "nextAiringEpisode": {
     "episode": 16,
     "airingAt": 1792077960,
-    "timeUntilAiring": 351767
+    "timeUntilAiring": 350418
    }
   },
   {
@@ -44535,7 +44733,7 @@
    "nextAiringEpisode": {
     "episode": 15,
     "airingAt": 1792162800,
-    "timeUntilAiring": 436607
+    "timeUntilAiring": 435258
    }
   },
   {
@@ -44596,7 +44794,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791903600,
-    "timeUntilAiring": 177407
+    "timeUntilAiring": 176058
    }
   },
   {
@@ -46555,7 +46753,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1792922400,
-    "timeUntilAiring": 1196204
+    "timeUntilAiring": 1194855
    }
   },
   {
@@ -47499,7 +47697,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792243800,
-    "timeUntilAiring": 517602
+    "timeUntilAiring": 516254
    }
   },
   {
@@ -48503,7 +48701,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1791729000,
-    "timeUntilAiring": 2801
+    "timeUntilAiring": 1453
    }
   },
   {
@@ -55880,6 +56078,40 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 130736,
+   "idMal": 144359,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 57,
+   "title": {
+    "romaji": "Dappou Tamer no Nariagari Boukentan: S Rank Bishoujo Boukensha ga Ore no Kemono Ma ni Naa Tamer Su",
+    "english": "Rise of the Outlaw Tamer and His Wild S-Rank Cat Girl",
+    "native": "脱法テイマーの成り上がり冒険譚 ～Sランク美少女冒険者が俺の獣魔になっテイマす～"
+   },
+   "externalLinks": [
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/rise-of-the-outlaw-tamer-and-his-wild-s-rank-cat-girl-manga/",
+     "type": "INFO"
+    },
+    {
+     "site": "Comic Ride",
+     "url": "https://www.comicride.jp/book/tamer/",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 137303,
    "idMal": 139756,
    "format": "MANGA",
@@ -56576,7 +56808,7 @@
     "Comedy",
     "Fantasy"
    ],
-   "averageScore": 66,
+   "averageScore": 65,
    "title": {
     "romaji": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀",
     "english": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀",
@@ -63218,6 +63450,36 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 105589,
+   "idMal": 116512,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "averageScore": 67,
+   "title": {
+    "romaji": "Itoshi no XL Size",
+    "english": "His Extra-Large, Ever-So-Lovely...",
+    "native": "愛しのXLサイズ"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://data.ichijinsha.co.jp/detail/75807906",
+     "type": "INFO"
+    },
+    {
+     "site": "Kodansha USA",
+     "url": "https://kodansha.us/volume/his-extra-large-ever-so-lovely-1/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 107414,
    "idMal": 119159,
    "format": "MANGA",
@@ -68531,7 +68793,7 @@
     "Fantasy",
     "Romance"
    ],
-   "averageScore": 60,
+   "averageScore": 59,
    "title": {
     "romaji": "Koujo Denka no Kateikyoushi",
     "english": "Private Tutor to the Duke's Daughter",
@@ -68547,6 +68809,53 @@
      "site": "J-Novel Club",
      "url": "https://j-novel.club/series/private-tutor-to-the-duke-s-daughter-manga",
      "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 125060,
+   "idMal": 131446,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "RELEASING",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Slice of Life"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Kou Iu no ga Ii",
+    "english": null,
+    "native": "こういうのがいい"
+   },
+   "externalLinks": [
+    {
+     "site": "Tonari no Young Jump",
+     "url": "https://tonarinoyj.jp/episode/13933686331720966304",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Nico Nico Seiga",
+     "url": "https://seiga.nicovideo.jp/comic/52729",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Piccoma",
+     "url": "https://piccoma.com/web/product/64492?etype=episode",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Naver Series",
+     "url": "https://series.naver.com/comic/detail.series?productNo=9423731",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-891887-7",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -68777,6 +69086,40 @@
      "site": "Comico",
      "url": "https://www.comico.jp/comic/12459",
      "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 176580,
+   "idMal": 167686,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "RELEASING",
+   "genres": [
+    "Romance"
+   ],
+   "averageScore": 74,
+   "title": {
+    "romaji": "Kowamote no Rinjin ga Ω datta Toki no Taishohou",
+    "english": "How to Deal When Your Intimidating Neighbor is Actually an Omega",
+    "native": "コワモテの隣人がΩだった時の対処法"
+   },
+   "externalLinks": [
+    {
+     "site": "Ichijin Plus",
+     "url": "https://ichicomi.com/episode/2550912965919401251",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.ichijinsha.co.jp/gateau/title/ニクヤ乾/",
+     "type": "INFO"
+    },
+    {
+     "site": "Kodansha USA",
+     "url": "https://kodansha.us/series/how-to-deal-when-your-intimidating-neighbor-is-actually-an-omega/",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -73210,6 +73553,57 @@
      "site": "Official Site",
      "url": "https://tokyopop.com/products/9781427880567_trapped-by-his-love-the-dukes-unexpected-bride-volume-1",
      "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 176289,
+   "idMal": 167261,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "averageScore": 56,
+   "title": {
+    "romaji": "Apjip Na-Ri",
+    "english": "My Neighbor Nari",
+    "native": "앞집나리"
+   },
+   "externalLinks": [
+    {
+     "site": "Naver Webtoon",
+     "url": "https://comic.naver.com/webtoon/list?titleId=802293",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Tappytoon",
+     "url": "https://www.tappytoon.com/en/book/my-neighbor-nari",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Naver Series",
+     "url": "https://series.naver.com/comic/detail.series?productNo=9086036",
+     "type": "STREAMING"
+    },
+    {
+     "site": "WEBTOON",
+     "url": "https://www.webtoons.com/zh-hant/romance/front-house-nari/list?title_no=5213",
+     "type": "STREAMING"
+    },
+    {
+     "site": "WEBTOON",
+     "url": "https://www.webtoons.com/th/romance/nari/list?title_no=5303",
+     "type": "STREAMING"
+    },
+    {
+     "site": "WEBTOON",
+     "url": "https://www.webtoons.com/fr/romance/nari/list?title_no=5428",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -84520,6 +84914,33 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 134443,
+   "idMal": 140485,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 67,
+   "title": {
+    "romaji": "Toshishita no Senpai",
+    "english": null,
+    "native": "年下の先輩"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://yanmaga.jp/comics/%E5%B9%B4%E4%B8%8B%E3%81%AE%E5%85%88%E8%BC%A9",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 138373,
    "idMal": 140330,
    "format": "MANGA",
@@ -86005,6 +86426,26 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 52638,
+   "idMal": 22638,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Ecchi",
+    "Romance"
+   ],
+   "averageScore": 66,
+   "title": {
+    "romaji": "Velvet Kiss",
+    "english": "Velvet Kiss",
+    "native": "ベルベット・キス"
+   },
+   "externalLinks": [],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 55148,
    "idMal": 25148,
    "format": "MANGA",
@@ -86492,6 +86933,41 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 165205,
+   "idMal": 161184,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "RELEASING",
+   "genres": [
+    "Ecchi",
+    "Romance"
+   ],
+   "averageScore": 70,
+   "title": {
+    "romaji": "Utsushicha Dame na Kao",
+    "english": null,
+    "native": "映しちゃダメな顔"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://www.ichijinsha.co.jp/yurihime/title/flowerchild/映しちゃダメな顔/",
+     "type": "INFO"
+    },
+    {
+     "site": "Ichijin Plus",
+     "url": "https://ichicomi.com/episode/2550912965919401763",
+     "type": "STREAMING"
+    },
+    {
+     "site": "TOKYOPOP",
+     "url": "https://tokyopop.de/Buecher/Girls-Love/Your-naughty-face-is-only-mine/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 168697,
    "idMal": 173223,
    "format": "MANGA",
@@ -86839,6 +87315,61 @@
     {
      "site": "Naver Series",
      "url": "https://series.naver.com/comic/detail.series?productNo=8619259",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 86342,
+   "idMal": 108021,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "What Does the Fox Say?",
+    "english": "What Does the Fox Say?",
+    "native": "What Does the Fox Say?"
+   },
+   "externalLinks": [
+    {
+     "site": "KakaoPage",
+     "url": "https://page.kakao.com/home/52111205",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Lezhin",
+     "url": "https://www.delitoon.com/detail/daf_0000114",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Lezhin",
+     "url": "https://www.lezhin.com/ko/comic/wdfs_19",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Tapas",
+     "url": "https://tapas.io/series/what-does-the-fox-say-mature/info",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bomtoon",
+     "url": "https://www.bomtoon.com/comic/ep_list/WDFS",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Naver Series",
+     "url": "https://series.naver.com/comic/detail.series?productNo=5144709",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comico",
+     "url": "https://www.comico.kr/comic/2277",
      "type": "STREAMING"
     }
    ],
@@ -89153,6 +89684,49 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 159187,
+   "idMal": 154528,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 64,
+   "title": {
+    "romaji": "Yuusha ni Zenbu Ubawareta Ore wa Yuusha no Hahaoya to Party wo Kumimashita!",
+    "english": "Betrayed by the Hero, I Formed a MILF Party with His Mom",
+    "native": "勇者に全部奪われた俺は勇者の母親とパーティを組みました！"
+   },
+   "externalLinks": [
+    {
+     "site": "Kadocomi",
+     "url": "https://comic-walker.com/contents/detail/KDCW_CW01203595010000_68",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Nico Nico Seiga",
+     "url": "https://seiga.nicovideo.jp/comic/61438",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.kadokawa.co.jp/product/322302000476/",
+     "type": "INFO"
+    },
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/betrayed-by-the-hero-i-formed-a-milf-party-with-his-mom-manga/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 160769,
    "idMal": 154156,
    "format": "MANGA",
@@ -89301,12 +89875,9 @@
  "unmapped": {
   "anime": [
    64569,
-   61694,
    63998,
    42519,
    65103,
-   63310,
-   40750,
    61971,
    65047,
    61134,
@@ -89314,8 +89885,6 @@
    62932,
    53585,
    65025,
-   63619,
-   63248,
    64462,
    62422,
    63121,
@@ -89339,14 +89908,12 @@
    171181,
    187890,
    165525,
-   144359,
    196906,
    184213,
    187888,
    163398,
    160597,
    177623,
-   116512,
    170038,
    151970,
    164454,
@@ -89354,10 +89921,7 @@
    174219,
    181961,
    171731,
-   131446,
-   167686,
    144676,
-   167261,
    188437,
    118924,
    182336,
@@ -89376,18 +89940,13 @@
    179318,
    177377,
    173136,
-   140485,
    147607,
    120616,
-   161184,
-   22638,
    178710,
-   108021,
    129980,
    146325,
    113554,
    191866,
-   154528,
    172612
   ]
  }
