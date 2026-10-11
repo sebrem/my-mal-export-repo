@@ -21,7 +21,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // --- 1) MAL-IDs aus den Exporten extrahieren (defensiv, mehrere Formate) ---
 function extractIds(file) {
   const raw = JSON.parse(readFileSync(file, 'utf8'));
-  const arr = Array.isArray(raw) ? raw : (raw.data ?? []);
+  const arr = Array.isArray(raw) ? raw : (raw.list ?? raw.data ?? []);
   return arr
     .map((e) => e?.node?.id ?? e?.id)
     .filter((id) => Number.isInteger(id) && id > 0);
@@ -30,6 +30,11 @@ function extractIds(file) {
 const animeIds = extractIds('mal_anime.json');
 const mangaIds = extractIds('mal_manga.json');
 console.log(`Gefunden: ${animeIds.length} Anime-IDs, ${mangaIds.length} Manga/LN-IDs`);
+
+// Fail-Fast: leere oder fehlende Exporte → Job abbrechen statt leeren Dump committen
+if (!animeIds.length || !mangaIds.length) {
+  throw new Error('Keine IDs gefunden – Export-Format oder Dateipfad prüfen!');
+}
 
 // --- 2) GraphQL-Batch-Query per idMal-Aliasse ---
 const FIELDS = `
