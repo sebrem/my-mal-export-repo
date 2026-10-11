@@ -45,6 +45,7 @@ const FIELDS = `
   id
   idMal
   format
+  isAdult
   status
   genres
   averageScore
