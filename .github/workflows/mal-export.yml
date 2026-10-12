@@ -1,15 +1,14 @@
-# GitHub Action: Monatlicher MAL-Pull per API v2
-# Ablageort im Repo: .github/workflows/mal-sync.yml
-# Voraussetzung: Repo ist public (damit der Vibe-GitHub-Connector die JSON lesen kann).
-# Secret anlegen: Repo -> Settings -> Secrets and variables -> Actions -> New repository secret
-#   Name: MAL_CLIENT_ID   Wert: deine MAL API Client-ID (https://myanimelist.net/apiconfig)
+# GitHub Action: Wöchentlicher MAL-Pull per API v2 (jeden Montag)
+# Ablageort im Repo: .github/workflows/mal-export.yml
+# Cron auf :17 statt :00 - GitHub verwirft/verzoegert Scheduled Runs zu vollen Stunden
+# (Peak-Time-Queueing); Off-Peak-Minuten kommen deutlich zuverlaessiger.
 
 name: MAL Sync
 
 on:
   schedule:
-    # Jeden Montag, 04:00 UTC = 05:00 CET (im Sommer 06:00 Uhr MESZ am Ortsclock)
-    - cron: '0 4 * * 1'
+    # Jeden Montag, 04:17 UTC (bewusst off-peak statt 04:00; s.o.)
+    - cron: '17 4 * * 1'
   workflow_dispatch: {}  # manueller Start über den "Run workflow"-Button
 
 permissions:
