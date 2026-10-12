@@ -2,7 +2,9 @@ name: AniList Export
 
 on:
   schedule:
-    - cron: "30 4 * * 1"   # montags 04:30 UTC, direkt nach dem MAL-Export
+    # montags 04:47 UTC, nach dem MAL-Export (04:17 UTC); off-peak statt :30
+    # (GitHub verzoegert/verwirft Scheduled Runs zu vollen/halben Stunden haeufiger)
+    - cron: "47 4 * * 1"
   workflow_dispatch: {}    # manuelles Triggern im Actions-Tab möglich
 
 permissions:
