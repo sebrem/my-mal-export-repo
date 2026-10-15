@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:28:02.780Z",
+ "generated_at": "2026-10-15T15:10:32.522Z",
  "source": "graphql.anilist.co (v2), Matching über idMal",
  "anime": [
   {
@@ -442,7 +442,7 @@
    "genres": [
     "Comedy"
    ],
-   "averageScore": 57,
+   "averageScore": 56,
    "title": {
     "romaji": "Aharen-san wa Hakarenai Mini",
     "english": null,
@@ -974,6 +974,37 @@
     "native": "五等分の花嫁 新作OVA"
    },
    "externalLinks": [],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 213929,
+   "idMal": 64569,
+   "format": "TV",
+   "isAdult": false,
+   "status": "NOT_YET_RELEASED",
+   "genres": [
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "7-nin no Nemuri Hime",
+    "english": null,
+    "native": "7人の眠り姫"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/seven_sleeping",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "http://7-sleepingbeauties.com/",
+     "type": "INFO"
+    }
+   ],
    "nextAiringEpisode": null
   },
   {
@@ -2782,7 +2813,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792308600,
-    "timeUntilAiring": 309905
+    "timeUntilAiring": 231755
    }
   },
   {
@@ -2871,7 +2902,7 @@
     "Adventure",
     "Fantasy"
    ],
-   "averageScore": 50,
+   "averageScore": 51,
    "title": {
     "romaji": "Aoki Denshou: Welsh & Shedar",
     "english": "Welsh & Shedar",
@@ -2897,7 +2928,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792153560,
-    "timeUntilAiring": 154865
+    "timeUntilAiring": 76715
    }
   },
   {
@@ -6616,7 +6647,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792504800,
-    "timeUntilAiring": 506099
+    "timeUntilAiring": 427950
    }
   },
   {
@@ -8724,7 +8755,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792413000,
-    "timeUntilAiring": 414296
+    "timeUntilAiring": 336147
    }
   },
   {
@@ -10940,9 +10971,9 @@
     }
    ],
    "nextAiringEpisode": {
-    "episode": 3,
-    "airingAt": 1792067400,
-    "timeUntilAiring": 68693
+    "episode": 4,
+    "airingAt": 1792672200,
+    "timeUntilAiring": 595344
    }
   },
   {
@@ -10983,7 +11014,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795676400,
-    "timeUntilAiring": 3677693
+    "timeUntilAiring": 3599544
    }
   },
   {
@@ -15916,7 +15947,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792161000,
-    "timeUntilAiring": 162285
+    "timeUntilAiring": 84137
    }
   },
   {
@@ -16036,7 +16067,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792081680,
-    "timeUntilAiring": 82965
+    "timeUntilAiring": 4817
    }
   },
   {
@@ -18013,7 +18044,11 @@
      "type": "SOCIAL"
     }
    ],
-   "nextAiringEpisode": null
+   "nextAiringEpisode": {
+    "episode": 1,
+    "airingAt": 1799335560,
+    "timeUntilAiring": 7258695
+   }
   },
   {
    "id": 209132,
@@ -18989,7 +19024,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792335600,
-    "timeUntilAiring": 336880
+    "timeUntilAiring": 258733
    }
   },
   {
@@ -19570,7 +19605,7 @@
     "Adventure",
     "Fantasy"
    ],
-   "averageScore": 69,
+   "averageScore": 70,
    "title": {
     "romaji": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
     "english": "A Returner's Magic Should be Special Season 2",
@@ -19601,7 +19636,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792597500,
-    "timeUntilAiring": 598778
+    "timeUntilAiring": 520632
    }
   },
   {
@@ -20041,7 +20076,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792254600,
-    "timeUntilAiring": 255878
+    "timeUntilAiring": 177732
    }
   },
   {
@@ -20738,7 +20773,7 @@
     "Romance",
     "Slice of Life"
    ],
-   "averageScore": 67,
+   "averageScore": 68,
    "title": {
     "romaji": "Kirio Fanclub",
     "english": "Kirio Fan Club",
@@ -20901,7 +20936,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1799416800,
-    "timeUntilAiring": 7418077
+    "timeUntilAiring": 7339931
    }
   },
   {
@@ -21889,7 +21924,7 @@
     "Fantasy",
     "Romance"
    ],
-   "averageScore": 54,
+   "averageScore": 55,
    "title": {
     "romaji": "Kizu darake Seijo yori Houfuku wo Komete Season2",
     "english": "With Vengeance, Sincerely, Your Broken Saintess Season 2",
@@ -21913,9 +21948,9 @@
     }
    ],
    "nextAiringEpisode": {
-    "episode": 3,
-    "airingAt": 1792076400,
-    "timeUntilAiring": 77675
+    "episode": 4,
+    "airingAt": 1792681200,
+    "timeUntilAiring": 604329
    }
   },
   {
@@ -23013,9 +23048,9 @@
     }
    ],
    "nextAiringEpisode": {
-    "episode": 3,
-    "airingAt": 1792076160,
-    "timeUntilAiring": 77434
+    "episode": 4,
+    "airingAt": 1792680960,
+    "timeUntilAiring": 604088
    }
   },
   {
@@ -23888,7 +23923,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792159200,
-    "timeUntilAiring": 160472
+    "timeUntilAiring": 82326
    }
   },
   {
@@ -24003,7 +24038,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1796914800,
-    "timeUntilAiring": 4916072
+    "timeUntilAiring": 4837926
    }
   },
   {
@@ -25617,7 +25652,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795100400,
-    "timeUntilAiring": 3101669
+    "timeUntilAiring": 3023524
    }
   },
   {
@@ -26814,7 +26849,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1802962800,
-    "timeUntilAiring": 10964067
+    "timeUntilAiring": 10885922
    }
   },
   {
@@ -27000,7 +27035,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792229100,
-    "timeUntilAiring": 230367
+    "timeUntilAiring": 152222
    }
   },
   {
@@ -27886,7 +27921,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792326600,
-    "timeUntilAiring": 327866
+    "timeUntilAiring": 249721
    }
   },
   {
@@ -31063,7 +31098,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792328400,
-    "timeUntilAiring": 329648
+    "timeUntilAiring": 251498
    }
   },
   {
@@ -31147,7 +31182,7 @@
    "nextAiringEpisode": {
     "episode": 29,
     "airingAt": 1792283400,
-    "timeUntilAiring": 284648
+    "timeUntilAiring": 206498
    }
   },
   {
@@ -31665,7 +31700,7 @@
     "Romance",
     "Slice of Life"
    ],
-   "averageScore": 70,
+   "averageScore": 71,
    "title": {
     "romaji": "Ore wo Suki nano wa Omae dake ka yo",
     "english": "ORESUKI: Are you the only one who loves me?",
@@ -33082,7 +33117,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792252560,
-    "timeUntilAiring": 253805
+    "timeUntilAiring": 175655
    }
   },
   {
@@ -33780,7 +33815,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792238400,
-    "timeUntilAiring": 239644
+    "timeUntilAiring": 161493
    }
   },
   {
@@ -34542,7 +34577,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792587600,
-    "timeUntilAiring": 588842
+    "timeUntilAiring": 510692
    }
   },
   {
@@ -34840,7 +34875,7 @@
     "Music",
     "Slice of Life"
    ],
-   "averageScore": 70,
+   "averageScore": 71,
    "title": {
     "romaji": "Saishuu Gakushou Hibike! Euphonium - Kouhen",
     "english": null,
@@ -35057,7 +35092,7 @@
    "genres": [
     "Romance"
    ],
-   "averageScore": 59,
+   "averageScore": 60,
    "title": {
     "romaji": "Saishinwa",
     "english": "Latest Episode",
@@ -36037,7 +36072,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792251000,
-    "timeUntilAiring": 252241
+    "timeUntilAiring": 174091
    }
   },
   {
@@ -36096,7 +36131,7 @@
    "idMal": 62582,
    "format": "MOVIE",
    "isAdult": false,
-   "status": "NOT_YET_RELEASED",
+   "status": "FINISHED",
    "genres": [
     "Drama",
     "Psychological",
@@ -36141,11 +36176,7 @@
      "type": "SOCIAL"
     }
    ],
-   "nextAiringEpisode": {
-    "episode": 1,
-    "airingAt": 1792076400,
-    "timeUntilAiring": 77641
-   }
+   "nextAiringEpisode": null
   },
   {
    "id": 210031,
@@ -36200,7 +36231,7 @@
     "Comedy",
     "Fantasy"
    ],
-   "averageScore": 67,
+   "averageScore": 68,
    "title": {
     "romaji": "Sekai Saikyou no Majo, Hajimemashita",
     "english": "The World's Strongest Witch",
@@ -36236,7 +36267,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792587600,
-    "timeUntilAiring": 588841
+    "timeUntilAiring": 510691
    }
   },
   {
@@ -37372,7 +37403,7 @@
     "Mystery",
     "Thriller"
    ],
-   "averageScore": 69,
+   "averageScore": 70,
    "title": {
     "romaji": "Shibou Yuugi de Meshi wo Kuu. 44: CLOUDY BEACH",
     "english": "SHIBOYUGI: Playing Death Games to Put Food on the Table 44: CLOUDY BEACH",
@@ -38295,7 +38326,7 @@
    "nextAiringEpisode": {
     "episode": 2,
     "airingAt": 1792333800,
-    "timeUntilAiring": 335037
+    "timeUntilAiring": 256888
    }
   },
   {
@@ -38379,7 +38410,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792501200,
-    "timeUntilAiring": 502437
+    "timeUntilAiring": 424288
    }
   },
   {
@@ -41482,7 +41513,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792333800,
-    "timeUntilAiring": 335033
+    "timeUntilAiring": 256884
    }
   },
   {
@@ -41622,7 +41653,7 @@
     "Comedy",
     "Fantasy"
    ],
-   "averageScore": 83,
+   "averageScore": 82,
    "title": {
     "romaji": "Tensei Shitara Slime Datta Ken 2nd Season",
     "english": "That Time I Got Reincarnated as a Slime Season 2",
@@ -42156,7 +42187,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792596600,
-    "timeUntilAiring": 597831
+    "timeUntilAiring": 519682
    }
   },
   {
@@ -42518,7 +42549,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792333800,
-    "timeUntilAiring": 335031
+    "timeUntilAiring": 256882
    }
   },
   {
@@ -42573,7 +42604,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792242000,
-    "timeUntilAiring": 243231
+    "timeUntilAiring": 165082
    }
   },
   {
@@ -42631,7 +42662,7 @@
     "Fantasy",
     "Romance"
    ],
-   "averageScore": 67,
+   "averageScore": 66,
    "title": {
     "romaji": "Tensei Goblin Dakedo Shitsumon Aru?",
     "english": "So What's Wrong with Getting Reborn as a Goblin?",
@@ -42672,7 +42703,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792414800,
-    "timeUntilAiring": 416031
+    "timeUntilAiring": 337882
    }
   },
   {
@@ -43586,9 +43617,9 @@
     }
    ],
    "nextAiringEpisode": {
-    "episode": 2,
-    "airingAt": 1792076400,
-    "timeUntilAiring": 77630
+    "episode": 3,
+    "airingAt": 1792681200,
+    "timeUntilAiring": 604281
    }
   },
   {
@@ -44433,7 +44464,7 @@
    "nextAiringEpisode": {
     "episode": 16,
     "airingAt": 1792077960,
-    "timeUntilAiring": 79188
+    "timeUntilAiring": 1040
    }
   },
   {
@@ -44730,7 +44761,7 @@
    "nextAiringEpisode": {
     "episode": 15,
     "airingAt": 1792162800,
-    "timeUntilAiring": 164028
+    "timeUntilAiring": 85880
    }
   },
   {
@@ -44791,7 +44822,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792508400,
-    "timeUntilAiring": 509628
+    "timeUntilAiring": 431480
    }
   },
   {
@@ -46698,7 +46729,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1792922400,
-    "timeUntilAiring": 923625
+    "timeUntilAiring": 845477
    }
   },
   {
@@ -47727,7 +47758,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1792243800,
-    "timeUntilAiring": 245023
+    "timeUntilAiring": 166875
    }
   },
   {
@@ -48652,7 +48683,7 @@
    "nextAiringEpisode": {
     "episode": 3,
     "airingAt": 1792333800,
-    "timeUntilAiring": 335022
+    "timeUntilAiring": 256874
    }
   },
   {
@@ -48666,7 +48697,7 @@
     "Fantasy",
     "Romance"
    ],
-   "averageScore": 61,
+   "averageScore": 62,
    "title": {
     "romaji": "Yonghansonyeo",
     "english": "Dragon Girl Problem",
@@ -54141,6 +54172,40 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 99404,
+   "idMal": 103444,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action"
+   ],
+   "averageScore": 71,
+   "title": {
+    "romaji": "CANDY & CIGARETTES",
+    "english": "CANDY AND CIGARETTES",
+    "native": "CANDY & CIGARETTES"
+   },
+   "externalLinks": [
+    {
+     "site": "Comic Days",
+     "url": "https://comic-days.com/episode/13932016480030220026",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/candy-and-cigarettes/",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://magazine.yanmaga.jp/c/candyandcigarettes/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 99775,
    "idMal": 106810,
    "format": "MANGA",
@@ -54661,53 +54726,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 206719,
-   "idMal": 190679,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Comedy",
-    "Music",
-    "Sci-Fi"
-   ],
-   "averageScore": 53,
-   "title": {
-    "romaji": "Chou Kaguya-hime!",
-    "english": null,
-    "native": "超かぐや姫！"
-   },
-   "externalLinks": [
-    {
-     "site": "Kadocomi",
-     "url": "https://comic-walker.com/detail/KC_008281_S",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.kadokawa.co.jp/product/322509000193/",
-     "type": "INFO"
-    },
-    {
-     "site": "Piccoma",
-     "url": "https://piccoma.com/web/product/202948?etype=episode",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Comico",
-     "url": "https://www.comico.jp/magazine_comic/258339",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Nico Nico Seiga",
-     "url": "https://manga.nicovideo.jp/comic/75964",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 34334,
    "idMal": 4334,
    "format": "MANGA",
@@ -55178,7 +55196,7 @@
     "Ecchi",
     "Romance"
    ],
-   "averageScore": 69,
+   "averageScore": 68,
    "title": {
     "romaji": "Class no Daikirai na Joshi to Kekkon Suru Koto ni Natta.",
     "english": "I Got Married to the Girl I Hate Most in Class",
@@ -55385,38 +55403,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 152720,
-   "idMal": 149640,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Adventure",
-    "Comedy",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 60,
-   "title": {
-    "romaji": "Daishizen no Mahoushi Asht, Sutareta Ryouchi de Slow Life",
-    "english": "Nature Mage Ashto’s Slow Life in an Abandoned Forest",
-    "native": "大自然の魔法師アシュト、廃れた領地でスローライフ"
-   },
-   "externalLinks": [
-    {
-     "site": "AlphaPolis",
-     "url": "https://www.alphapolis.co.jp/manga/official/366000343",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Alpha Manga",
-     "url": "https://www.alpha-manga.com/manga/366000343",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 179903,
    "idMal": 173779,
    "format": "MANGA",
@@ -55555,6 +55541,53 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 206719,
+   "idMal": 190679,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Comedy",
+    "Music",
+    "Sci-Fi"
+   ],
+   "averageScore": 53,
+   "title": {
+    "romaji": "Chou Kaguya-hime!",
+    "english": null,
+    "native": "超かぐや姫！"
+   },
+   "externalLinks": [
+    {
+     "site": "Kadocomi",
+     "url": "https://comic-walker.com/detail/KC_008281_S",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.kadokawa.co.jp/product/322509000193/",
+     "type": "INFO"
+    },
+    {
+     "site": "Piccoma",
+     "url": "https://piccoma.com/web/product/202948?etype=episode",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comico",
+     "url": "https://www.comico.jp/magazine_comic/258339",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Nico Nico Seiga",
+     "url": "https://manga.nicovideo.jp/comic/75964",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 31133,
    "idMal": 1133,
    "format": "MANGA",
@@ -55625,67 +55658,6 @@
      "site": "Twitter",
      "url": "https://x.com/daisyyaoyorozu/",
      "type": "SOCIAL"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 39699,
-   "idMal": 9699,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 81,
-   "title": {
-    "romaji": "Doukyuusei",
-    "english": "Classmates",
-    "native": "同級生"
-   },
-   "externalLinks": [
-    {
-     "site": "Seven Seas Entertainment",
-     "url": "https://sevenseasentertainment.com/series/classmates-dou-kyu-sei/",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://akaneshinsha.com/opera/comics/9687/",
-     "type": "INFO"
-    },
-    {
-     "site": "KakaoPage",
-     "url": "https://page.kakao.com/content/52556271",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Naver Series",
-     "url": "https://series.naver.com/comic/detail.series?productNo=4023516",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Piccoma",
-     "url": "https://piccoma.com/web/product/170916",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.boys-loves.fr/yaoi/index.php?s=produit-manga&ref=1256",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.cross-cult.de/produkte/details/doukyusei-verliebt-in-meinen-mitschueler/",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.ediciones-tomodomo.com/fichas-titulos/en-la-misma-clase",
-     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -56222,6 +56194,38 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 152720,
+   "idMal": 149640,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 60,
+   "title": {
+    "romaji": "Daishizen no Mahoushi Asht, Sutareta Ryouchi de Slow Life",
+    "english": "Nature Mage Ashto’s Slow Life in an Abandoned Forest",
+    "native": "大自然の魔法師アシュト、廃れた領地でスローライフ"
+   },
+   "externalLinks": [
+    {
+     "site": "AlphaPolis",
+     "url": "https://www.alphapolis.co.jp/manga/official/366000343",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Alpha Manga",
+     "url": "https://www.alpha-manga.com/manga/366000343",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 156717,
    "idMal": 161179,
    "format": "MANGA",
@@ -56404,6 +56408,67 @@
      "site": "Pixiv",
      "url": "https://comic.pixiv.net/works/12107",
      "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 39699,
+   "idMal": 9699,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 81,
+   "title": {
+    "romaji": "Doukyuusei",
+    "english": "Classmates",
+    "native": "同級生"
+   },
+   "externalLinks": [
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/classmates-dou-kyu-sei/",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://akaneshinsha.com/opera/comics/9687/",
+     "type": "INFO"
+    },
+    {
+     "site": "KakaoPage",
+     "url": "https://page.kakao.com/content/52556271",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Naver Series",
+     "url": "https://series.naver.com/comic/detail.series?productNo=4023516",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Piccoma",
+     "url": "https://piccoma.com/web/product/170916",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.boys-loves.fr/yaoi/index.php?s=produit-manga&ref=1256",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.cross-cult.de/produkte/details/doukyusei-verliebt-in-meinen-mitschueler/",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.ediciones-tomodomo.com/fichas-titulos/en-la-misma-clase",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -56687,38 +56752,6 @@
      "site": "J-Novel Club",
      "url": "https://j-novel.club/series/the-invincible-little-lady-manga",
      "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 106474,
-   "idMal": 118803,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Ecchi",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 71,
-   "title": {
-    "romaji": "Fechippuru: Bokura no Junsui na Koi",
-    "english": "What I Love About You",
-    "native": "フェチップル～僕らの純粋な恋～"
-   },
-   "externalLinks": [
-    {
-     "site": "Pocket Magazine",
-     "url": "https://pocket.shonenmagazine.com/episode/10834108156633701775",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Kodansha USA",
-     "url": "https://kodansha.us/series/what-i-love-about-you/",
-     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -57721,6 +57754,38 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 106474,
+   "idMal": 118803,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 71,
+   "title": {
+    "romaji": "Fechippuru: Bokura no Junsui na Koi",
+    "english": "What I Love About You",
+    "native": "フェチップル～僕らの純粋な恋～"
+   },
+   "externalLinks": [
+    {
+     "site": "Pocket Magazine",
+     "url": "https://pocket.shonenmagazine.com/episode/10834108156633701775",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Kodansha USA",
+     "url": "https://kodansha.us/series/what-i-love-about-you/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 110140,
    "idMal": 120367,
    "format": "MANGA",
@@ -58115,41 +58180,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 160604,
-   "idMal": 155271,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Comedy",
-    "Romance"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Gal ni Yasashii Otaku-kun",
-    "english": "Otaku x Gal",
-    "native": "ギャルに優しいオタク君"
-   },
-   "externalLinks": [
-    {
-     "site": "Gangan Online",
-     "url": "https://www.ganganonline.com/title/1599",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Manga UP!",
-     "url": "https://global.manga-up.com/manga/535",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://squareenixmangaandbooks.square-enix-games.com/en-us/series/otaku-x-gal",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 173343,
    "idMal": 166080,
    "format": "MANGA",
@@ -58243,6 +58273,11 @@
     {
      "site": "Sunday Webry",
      "url": "https://www.sunday-webry.com/episode/2551460909779976003",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Nico Nico Seiga",
+     "url": "https://manga.nicovideo.jp/comic/76913",
      "type": "STREAMING"
     }
    ],
@@ -58862,41 +58897,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 138928,
-   "idMal": 142799,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Comedy",
-    "Romance"
-   ],
-   "averageScore": 79,
-   "title": {
-    "romaji": "Goukon ni Ittara Onna ga Inakatta Hanashi",
-    "english": "How I Attended an All-Guy's Mixer",
-    "native": "合コンに行ったら女がいなかった話"
-   },
-   "externalLinks": [
-    {
-     "site": "Gangan Online",
-     "url": "https://www.ganganonline.com/title/1045",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Pixiv",
-     "url": "https://www.pixiv.net/user/30612000/series/82799",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Manga UP!",
-     "url": "https://global.manga-up.com/manga/5",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 143379,
    "idMal": 165663,
    "format": "MANGA",
@@ -58992,6 +58992,41 @@
     {
      "site": "Seven Seas Entertainment",
      "url": "https://sevenseasentertainment.com/series/the-fed-up-office-lady-wants-to-serve-the-villainess/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 160604,
+   "idMal": 155271,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Gal ni Yasashii Otaku-kun",
+    "english": "Otaku x Gal",
+    "native": "ギャルに優しいオタク君"
+   },
+   "externalLinks": [
+    {
+     "site": "Gangan Online",
+     "url": "https://www.ganganonline.com/title/1599",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Manga UP!",
+     "url": "https://global.manga-up.com/manga/535",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://squareenixmangaandbooks.square-enix-games.com/en-us/series/otaku-x-gal",
      "type": "INFO"
     }
    ],
@@ -59690,6 +59725,41 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 138928,
+   "idMal": 142799,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "averageScore": 79,
+   "title": {
+    "romaji": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+    "english": "How I Attended an All-Guy's Mixer",
+    "native": "合コンに行ったら女がいなかった話"
+   },
+   "externalLinks": [
+    {
+     "site": "Gangan Online",
+     "url": "https://www.ganganonline.com/title/1045",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Pixiv",
+     "url": "https://www.pixiv.net/user/30612000/series/82799",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Manga UP!",
+     "url": "https://global.manga-up.com/manga/5",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 143216,
    "idMal": 147549,
    "format": "MANGA",
@@ -59943,41 +60013,6 @@
      "site": "Manga UP!",
      "url": "https://global.manga-up.com/manga/1053",
      "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 203957,
-   "idMal": 189411,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Drama",
-    "Supernatural"
-   ],
-   "averageScore": 70,
-   "title": {
-    "romaji": "Hatori to Furuta no Hinichijou Sahanji",
-    "english": "Hatori and Furuta's Extraordinarily Ordinary Life",
-    "native": "羽鳥と古田の非日常茶飯事"
-   },
-   "externalLinks": [
-    {
-     "site": "Shonen Jump Plus",
-     "url": "https://shonenjumpplus.com/episode/17107094912731880261",
-     "type": "STREAMING"
-    },
-    {
-     "site": "MANGA Plus",
-     "url": "https://mangaplus.shueisha.co.jp/titles/100643",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-885056-6",
-     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -60704,42 +60739,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 173421,
-   "idMal": 165364,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Fantasy",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 59,
-   "title": {
-    "romaji": "Hinekure Kishi to Fuwafuwa Hime-sama: Kojou Gurashi to Chiisana Ouchi",
-    "english": "The Cynical Knight and Gentle Princess: Building Fairy Homes and a Life Together",
-    "native": "ひねくれ騎士とふわふわ姫様 古城暮らしと小さなおうち"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://magazine.jp.square-enix.com/gangan/introduction/hinehuwa/",
-     "type": "INFO"
-    },
-    {
-     "site": "Gangan Online",
-     "url": "https://www.ganganonline.com/title/1878",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Manga UP!",
-     "url": "https://global.manga-up.com/manga/592",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 178202,
    "idMal": 171196,
    "format": "MANGA",
@@ -60842,6 +60841,41 @@
      "site": "Kadocomi",
      "url": "https://comic-walker.com/detail/KC_006463_S",
      "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 203957,
+   "idMal": 189411,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Drama",
+    "Supernatural"
+   ],
+   "averageScore": 70,
+   "title": {
+    "romaji": "Hatori to Furuta no Hinichijou Sahanji",
+    "english": "Hatori and Furuta's Extraordinarily Ordinary Life",
+    "native": "羽鳥と古田の非日常茶飯事"
+   },
+   "externalLinks": [
+    {
+     "site": "Shonen Jump Plus",
+     "url": "https://shonenjumpplus.com/episode/17107094912731880261",
+     "type": "STREAMING"
+    },
+    {
+     "site": "MANGA Plus",
+     "url": "https://mangaplus.shueisha.co.jp/titles/100643",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-885056-6",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -61090,31 +61124,6 @@
     "native": "ひとりぼっちの○○生活"
    },
    "externalLinks": [],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 87307,
-   "idMal": 69035,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 51,
-   "title": {
-    "romaji": "Houkago Saikoro Club",
-    "english": null,
-    "native": "放課後さいころ倶楽部"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://gekkansunday.net/series/saikoro",
-     "type": "INFO"
-    }
-   ],
    "nextAiringEpisode": null
   },
   {
@@ -61715,6 +61724,42 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 173421,
+   "idMal": 165364,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Fantasy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 59,
+   "title": {
+    "romaji": "Hinekure Kishi to Fuwafuwa Hime-sama: Kojou Gurashi to Chiisana Ouchi",
+    "english": "The Cynical Knight and Gentle Princess: Building Fairy Homes and a Life Together",
+    "native": "ひねくれ騎士とふわふわ姫様 古城暮らしと小さなおうち"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://magazine.jp.square-enix.com/gangan/introduction/hinehuwa/",
+     "type": "INFO"
+    },
+    {
+     "site": "Gangan Online",
+     "url": "https://www.ganganonline.com/title/1878",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Manga UP!",
+     "url": "https://global.manga-up.com/manga/592",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 187845,
    "idMal": 179679,
    "format": "MANGA",
@@ -61842,31 +61887,26 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 87220,
-   "idMal": 86043,
+   "id": 87307,
+   "idMal": 69035,
    "format": "MANGA",
    "isAdult": false,
    "status": "FINISHED",
    "genres": [
-    "Adventure",
-    "Fantasy"
+    "Comedy",
+    "Slice of Life"
    ],
-   "averageScore": 66,
+   "averageScore": 51,
    "title": {
-    "romaji": "Isekai de \"Kuro no Iyashi Te\" tte Yobareteimasu",
-    "english": "The Black Healer",
-    "native": "異世界で『黒の癒し手』って呼ばれています"
+    "romaji": "Houkago Saikoro Club",
+    "english": null,
+    "native": "放課後さいころ倶楽部"
    },
    "externalLinks": [
     {
      "site": "Official Site",
-     "url": "https://www.alphapolis.co.jp/manga/official/393000081",
+     "url": "http://gekkansunday.net/series/saikoro",
      "type": "INFO"
-    },
-    {
-     "site": "Alpha Manga",
-     "url": "https://www.alpha-manga.com/manga/393000081",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -62349,7 +62389,7 @@
     "Romance",
     "Slice of Life"
    ],
-   "averageScore": 71,
+   "averageScore": 72,
    "title": {
     "romaji": "Imaizumin-chi wa Douyara Gal no Tamariba ni Natteru rashii: DEEP",
     "english": "Imaizumi Brings All the Gals to His House",
@@ -62600,6 +62640,36 @@
      "site": "Seven Seas Entertainment",
      "url": "https://sevenseasentertainment.com/series/how-not-to-summon-a-demon-lord/",
      "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 87220,
+   "idMal": 86043,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 66,
+   "title": {
+    "romaji": "Isekai de \"Kuro no Iyashi Te\" tte Yobareteimasu",
+    "english": "The Black Healer",
+    "native": "異世界で『黒の癒し手』って呼ばれています"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://www.alphapolis.co.jp/manga/official/393000081",
+     "type": "INFO"
+    },
+    {
+     "site": "Alpha Manga",
+     "url": "https://www.alpha-manga.com/manga/393000081",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -62860,37 +62930,6 @@
      "site": "Official Site",
      "url": "https://www.onepeacebooks.com/jt/FarmingLife.html",
      "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 101739,
-   "idMal": 112342,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Adventure",
-    "Fantasy",
-    "Slice of Life"
-   ],
-   "averageScore": 67,
-   "title": {
-    "romaji": "Isekai Yururi Kikou: Kosodate Shinagara Boukensha Shimasu",
-    "english": "A Journey Through Another World ~Raising Kids While Adventuring~",
-    "native": "異世界ゆるり紀行 ～子育てしながら冒険者します～"
-   },
-   "externalLinks": [
-    {
-     "site": "Alpha Manga",
-     "url": "https://www.alpha-manga.com/manga/881000200",
-     "type": "STREAMING"
-    },
-    {
-     "site": "AlphaPolis",
-     "url": "https://www.alphapolis.co.jp/manga/official/881000200",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -63445,6 +63484,37 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 101739,
+   "idMal": 112342,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Slice of Life"
+   ],
+   "averageScore": 67,
+   "title": {
+    "romaji": "Isekai Yururi Kikou: Kosodate Shinagara Boukensha Shimasu",
+    "english": "A Journey Through Another World ~Raising Kids While Adventuring~",
+    "native": "異世界ゆるり紀行 ～子育てしながら冒険者します～"
+   },
+   "externalLinks": [
+    {
+     "site": "Alpha Manga",
+     "url": "https://www.alpha-manga.com/manga/881000200",
+     "type": "STREAMING"
+    },
+    {
+     "site": "AlphaPolis",
+     "url": "https://www.alphapolis.co.jp/manga/official/881000200",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 103204,
    "idMal": 114300,
    "format": "MANGA",
@@ -63795,32 +63865,6 @@
     "native": "地味姫と黒猫の、円満な婚約破棄"
    },
    "externalLinks": [],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 125025,
-   "idMal": 130661,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 79,
-   "title": {
-    "romaji": "Josee to Tora to Sakana-tachi",
-    "english": "Josee, the Tiger and the Fish",
-    "native": "ジョゼと虎と魚たち"
-   },
-   "externalLinks": [
-    {
-     "site": "Yen Press",
-     "url": "https://yenpress.com/series/josee-the-tiger-and-the-fish-manga",
-     "type": "INFO"
-    }
-   ],
    "nextAiringEpisode": null
   },
   {
@@ -64255,45 +64299,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 101614,
-   "idMal": 110677,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Supernatural"
-   ],
-   "averageScore": 67,
-   "title": {
-    "romaji": "Kakuriyo no Yadomeshi: Ayakashi Oyado ni Yomeiri Shimasu.",
-    "english": "Kakuriyo: Bed & Breakfast for Spirits",
-    "native": "かくりよの宿飯 あやかしお宿に嫁入りします。"
-   },
-   "externalLinks": [
-    {
-     "site": "VIZ",
-     "url": "https://www.viz.com/kakuriyo-bed-breakfast-for-spirits",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Pixiv Comic",
-     "url": "https://comic.pixiv.net/works/2297",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Kadocomi",
-     "url": "https://comic-walker.com/contents/detail/KDCW_EB03000038010000_68/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://bslogcomic.com/series/kakuriyono_yadomeshi/",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 108919,
    "idMal": 120329,
    "format": "MANGA",
@@ -64502,6 +64507,32 @@
     "native": "解雇された暗黒兵士（30代）のスローなセカンドライフ"
    },
    "externalLinks": [],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 125025,
+   "idMal": 130661,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 79,
+   "title": {
+    "romaji": "Josee to Tora to Sakana-tachi",
+    "english": "Josee, the Tiger and the Fish",
+    "native": "ジョゼと虎と魚たち"
+   },
+   "externalLinks": [
+    {
+     "site": "Yen Press",
+     "url": "https://yenpress.com/series/josee-the-tiger-and-the-fish-manga",
+     "type": "INFO"
+    }
+   ],
    "nextAiringEpisode": null
   },
   {
@@ -64898,43 +64929,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 30017,
-   "idMal": 17,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Drama",
-    "Psychological",
-    "Romance"
-   ],
-   "averageScore": 78,
-   "title": {
-    "romaji": "Kareshi Kanojo no Jijou",
-    "english": "Kare Kano: His and Her Circumstances",
-    "native": "彼氏彼女の事情"
-   },
-   "externalLinks": [
-    {
-     "site": "Manga Park",
-     "url": "https://manga-park.com/title/4268",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.hakusensha.co.jp/comicslist/48182/",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.tongli.com.tw/BooksDetail.aspx?BD=HC52601",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 30923,
    "idMal": 923,
    "format": "MANGA",
@@ -65114,6 +65108,45 @@
     {
      "site": "Kodansha USA",
      "url": "https://kodansha.us/series/kakushigoto-my-dads-secret-ambition/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 101614,
+   "idMal": 110677,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Supernatural"
+   ],
+   "averageScore": 67,
+   "title": {
+    "romaji": "Kakuriyo no Yadomeshi: Ayakashi Oyado ni Yomeiri Shimasu.",
+    "english": "Kakuriyo: Bed & Breakfast for Spirits",
+    "native": "かくりよの宿飯 あやかしお宿に嫁入りします。"
+   },
+   "externalLinks": [
+    {
+     "site": "VIZ",
+     "url": "https://www.viz.com/kakuriyo-bed-breakfast-for-spirits",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Pixiv Comic",
+     "url": "https://comic.pixiv.net/works/2297",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Kadocomi",
+     "url": "https://comic-walker.com/contents/detail/KDCW_EB03000038010000_68/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://bslogcomic.com/series/kakuriyono_yadomeshi/",
      "type": "INFO"
     }
    ],
@@ -65717,7 +65750,7 @@
     "Fantasy",
     "Supernatural"
    ],
-   "averageScore": 55,
+   "averageScore": 54,
    "title": {
     "romaji": "Kami Yomu Futari",
     "english": "The Oracles of Kami",
@@ -65737,6 +65770,43 @@
     {
      "site": "Official Site",
      "url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-885164-8",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 30017,
+   "idMal": 17,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Psychological",
+    "Romance"
+   ],
+   "averageScore": 78,
+   "title": {
+    "romaji": "Kareshi Kanojo no Jijou",
+    "english": "Kare Kano: His and Her Circumstances",
+    "native": "彼氏彼女の事情"
+   },
+   "externalLinks": [
+    {
+     "site": "Manga Park",
+     "url": "https://manga-park.com/title/4268",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.hakusensha.co.jp/comicslist/48182/",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.tongli.com.tw/BooksDetail.aspx?BD=HC52601",
      "type": "INFO"
     }
    ],
@@ -65886,32 +65956,6 @@
     {
      "site": "Official Site",
      "url": "https://www.pika.fr/livres-series-your-name-0/",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 100670,
-   "idMal": 106755,
-   "format": "NOVEL",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Kimi to Boku no Saigo no Senjo, Arui wa Sekai ga Hajimaru Seisen",
-    "english": "Our Last Crusade or the Rise of a New World",
-    "native": "キミと僕の最後の戦場、あるいは世界が始まる聖戦"
-   },
-   "externalLinks": [
-    {
-     "site": "Yen Press",
-     "url": "https://yenpress.com/series/our-last-crusade-or-the-rise-of-a-new-world",
      "type": "INFO"
     }
    ],
@@ -66949,6 +66993,32 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 100670,
+   "idMal": 106755,
+   "format": "NOVEL",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Kimi to Boku no Saigo no Senjo, Arui wa Sekai ga Hajimaru Seisen",
+    "english": "Our Last Crusade or the Rise of a New World",
+    "native": "キミと僕の最後の戦場、あるいは世界が始まる聖戦"
+   },
+   "externalLinks": [
+    {
+     "site": "Yen Press",
+     "url": "https://yenpress.com/series/our-last-crusade-or-the-rise-of-a-new-world",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 103644,
    "idMal": 116943,
    "format": "MANGA",
@@ -67135,45 +67205,6 @@
      "site": "Yen Press",
      "url": "https://yenpress.com/series/when-i-became-a-commoner-they-broke-off-our-engagement",
      "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 127165,
-   "idMal": 131342,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 66,
-   "title": {
-    "romaji": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
-    "english": "Noble Reincarnation ~Born Blessed, So I’ll Obtain Ultimate Power~",
-    "native": "貴族転生 ～恵まれた生まれから最強の力を得る～"
-   },
-   "externalLinks": [
-    {
-     "site": "Manga UP!",
-     "url": "https://global.manga-up.com/manga/22",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.ching-win.com.tw/products/?First=10265101",
-     "type": "INFO"
-    },
-    {
-     "site": "Gangan Online",
-     "url": "https://www.ganganonline.com/title/979",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -68117,6 +68148,45 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 127165,
+   "idMal": 131342,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 66,
+   "title": {
+    "romaji": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
+    "english": "Noble Reincarnation ~Born Blessed, So I’ll Obtain Ultimate Power~",
+    "native": "貴族転生 ～恵まれた生まれから最強の力を得る～"
+   },
+   "externalLinks": [
+    {
+     "site": "Manga UP!",
+     "url": "https://global.manga-up.com/manga/22",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.ching-win.com.tw/products/?First=10265101",
+     "type": "INFO"
+    },
+    {
+     "site": "Gangan Online",
+     "url": "https://www.ganganonline.com/title/979",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 132744,
    "idMal": 144055,
    "format": "NOVEL",
@@ -68212,31 +68282,6 @@
      "site": "Nico Nico Seiga",
      "url": "https://sp.seiga.nicovideo.jp/comic/58434?nicorepotwitter_fav_manga",
      "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 145025,
-   "idMal": 146947,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Adventure",
-    "Supernatural"
-   ],
-   "averageScore": 55,
-   "title": {
-    "romaji": "Kono Hon wo Nusumu Mono wa",
-    "english": "Whoever Steals This Book",
-    "native": "この本を盗む者は"
-   },
-   "externalLinks": [
-    {
-     "site": "Yen Press",
-     "url": "https://yenpress.com/series/whoever-steals-this-book",
-     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -68755,57 +68800,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 112981,
-   "idMal": 122448,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 78,
-   "title": {
-    "romaji": "Kubo-san wa Mob wo Yurusanai",
-    "english": "Kubo Won't Let Me Be Invisible",
-    "native": "久保さんは僕を許さない"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://ynjn.jp/app/title/973",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/yj_kubosan",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Shonen Jump Plus",
-     "url": "https://shonenjumpplus.com/episode/13933686331692600972",
-     "type": "STREAMING"
-    },
-    {
-     "site": "MANGA Plus",
-     "url": "https://mangaplus.shueisha.co.jp/titles/100170",
-     "type": "STREAMING"
-    },
-    {
-     "site": "VIZ",
-     "url": "https://www.viz.com/shonenjump/chapters/kubo-wont-let-me-be-invisible",
-     "type": "STREAMING"
-    },
-    {
-     "site": "MANGA Plus",
-     "url": "https://mangaplus.shueisha.co.jp/titles/200089",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 116333,
    "idMal": 118819,
    "format": "MANGA",
@@ -69029,6 +69023,31 @@
     {
      "site": "Seven Seas Entertainment",
      "url": "https://sevenseasentertainment.com/series/draw-this-then-die/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 145025,
+   "idMal": 146947,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Adventure",
+    "Supernatural"
+   ],
+   "averageScore": 55,
+   "title": {
+    "romaji": "Kono Hon wo Nusumu Mono wa",
+    "english": "Whoever Steals This Book",
+    "native": "この本を盗む者は"
+   },
+   "externalLinks": [
+    {
+     "site": "Yen Press",
+     "url": "https://yenpress.com/series/whoever-steals-this-book",
      "type": "INFO"
     }
    ],
@@ -69546,37 +69565,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 94717,
-   "idMal": 88595,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life",
-    "Sports"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Long Riders!",
-    "english": null,
-    "native": "ろんぐらいだぁす！"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://www.ichijinsha.co.jp/special/rex/longriderscomic/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/longriderscomic/",
-     "type": "SOCIAL"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 97929,
    "idMal": 100512,
    "format": "NOVEL",
@@ -69833,6 +69821,57 @@
      "site": "Kodansha USA",
      "url": "https://kodansha.us/series/i-cant-say-no-to-the-lonely-girl/",
      "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 112981,
+   "idMal": 122448,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 78,
+   "title": {
+    "romaji": "Kubo-san wa Mob wo Yurusanai",
+    "english": "Kubo Won't Let Me Be Invisible",
+    "native": "久保さんは僕を許さない"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://ynjn.jp/app/title/973",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/yj_kubosan",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Shonen Jump Plus",
+     "url": "https://shonenjumpplus.com/episode/13933686331692600972",
+     "type": "STREAMING"
+    },
+    {
+     "site": "MANGA Plus",
+     "url": "https://mangaplus.shueisha.co.jp/titles/100170",
+     "type": "STREAMING"
+    },
+    {
+     "site": "VIZ",
+     "url": "https://www.viz.com/shonenjump/chapters/kubo-wont-let-me-be-invisible",
+     "type": "STREAMING"
+    },
+    {
+     "site": "MANGA Plus",
+     "url": "https://mangaplus.shueisha.co.jp/titles/200089",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -70429,6 +70468,37 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 94717,
+   "idMal": 88595,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Sports"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Long Riders!",
+    "english": null,
+    "native": "ろんぐらいだぁす！"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://www.ichijinsha.co.jp/special/rex/longriderscomic/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/longriderscomic/",
+     "type": "SOCIAL"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 99410,
    "idMal": 106785,
    "format": "MANGA",
@@ -70859,31 +70929,6 @@
     {
      "site": "Official Site",
      "url": "https://mfbooks.jp/special/dariya/portal.html",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 126502,
-   "idMal": 139271,
-   "format": "NOVEL",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Majo to Ryouken",
-    "english": null,
-    "native": "魔女と猟犬"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://witch-and-hound.com/",
      "type": "INFO"
     }
    ],
@@ -71489,7 +71534,7 @@
     "Fantasy",
     "Romance"
    ],
-   "averageScore": 73,
+   "averageScore": 72,
    "title": {
     "romaji": "Maou ni Natta node, Dungeon Tsukutte Jingai Musume to Honobono suru",
     "english": "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon",
@@ -71659,6 +71704,31 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 126502,
+   "idMal": 139271,
+   "format": "NOVEL",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Majo to Ryouken",
+    "english": null,
+    "native": "魔女と猟犬"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://witch-and-hound.com/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 135276,
    "idMal": 138481,
    "format": "NOVEL",
@@ -71684,63 +71754,6 @@
      "site": "Seven Seas Entertainment",
      "url": "https://sevenseasentertainment.com/series/too-many-losing-heroines-light-novel/",
      "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 147329,
-   "idMal": 146211,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "averageScore": 75,
-   "title": {
-    "romaji": "Marriagetoxin",
-    "english": "Marriage Toxin",
-    "native": "マリッジトキシン"
-   },
-   "externalLinks": [
-    {
-     "site": "Shonen Jump Plus",
-     "url": "https://shonenjumpplus.com/episode/3269754496881854355",
-     "type": "STREAMING"
-    },
-    {
-     "site": "MANGA Plus",
-     "url": "https://mangaplus.shueisha.co.jp/titles/100190",
-     "type": "STREAMING"
-    },
-    {
-     "site": "VIZ",
-     "url": "https://www.viz.com/shonenjump/chapters/marriage-toxin",
-     "type": "STREAMING"
-    },
-    {
-     "site": "VIZ",
-     "url": "https://www.viz.com/marriage-toxin",
-     "type": "STREAMING"
-    },
-    {
-     "site": "KakaoPage",
-     "url": "https://page.kakao.com/content/63197156",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Naver Series",
-     "url": "https://series.naver.com/comic/detail.series?productNo=10403373",
-     "type": "STREAMING"
-    },
-    {
-     "site": "MANGA MILLION",
-     "url": "https://mangamillion.shueisha.co.jp/en/title/1039",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -72247,62 +72260,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 101845,
-   "idMal": 105877,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 74,
-   "title": {
-    "romaji": "Mobuko no Koi",
-    "english": "A Side Character's Love Story",
-    "native": "モブ子の恋"
-   },
-   "externalLinks": [
-    {
-     "site": "Tapas",
-     "url": "https://tapas.io/series/a-side-characters-love-story/info",
-     "type": "STREAMING"
-    },
-    {
-     "site": "MangaPlaza",
-     "url": "https://mangaplaza.com/title/0303001436/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Comikey",
-     "url": "https://comikey.com/comics/a-side-characters-love-story-manga/418/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/mobukonokoi",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "KakaoPage",
-     "url": "https://page.kakao.com/content/53375105",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Comic Zenon",
-     "url": "https://comic-zenon.com/episode/10834108156688953433",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Omoi",
-     "url": "https://azuki.co/series/a-side-characters-love-story",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 104864,
    "idMal": 113938,
    "format": "MANGA",
@@ -72720,6 +72677,63 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 147329,
+   "idMal": 146211,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "averageScore": 75,
+   "title": {
+    "romaji": "Marriagetoxin",
+    "english": "Marriage Toxin",
+    "native": "マリッジトキシン"
+   },
+   "externalLinks": [
+    {
+     "site": "Shonen Jump Plus",
+     "url": "https://shonenjumpplus.com/episode/3269754496881854355",
+     "type": "STREAMING"
+    },
+    {
+     "site": "MANGA Plus",
+     "url": "https://mangaplus.shueisha.co.jp/titles/100190",
+     "type": "STREAMING"
+    },
+    {
+     "site": "VIZ",
+     "url": "https://www.viz.com/shonenjump/chapters/marriage-toxin",
+     "type": "STREAMING"
+    },
+    {
+     "site": "VIZ",
+     "url": "https://www.viz.com/marriage-toxin",
+     "type": "STREAMING"
+    },
+    {
+     "site": "KakaoPage",
+     "url": "https://page.kakao.com/content/63197156",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Naver Series",
+     "url": "https://series.naver.com/comic/detail.series?productNo=10403373",
+     "type": "STREAMING"
+    },
+    {
+     "site": "MANGA MILLION",
+     "url": "https://mangamillion.shueisha.co.jp/en/title/1039",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 162901,
    "idMal": 157084,
    "format": "MANGA",
@@ -73095,6 +73109,62 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 101845,
+   "idMal": 105877,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 74,
+   "title": {
+    "romaji": "Mobuko no Koi",
+    "english": "A Side Character's Love Story",
+    "native": "モブ子の恋"
+   },
+   "externalLinks": [
+    {
+     "site": "Tapas",
+     "url": "https://tapas.io/series/a-side-characters-love-story/info",
+     "type": "STREAMING"
+    },
+    {
+     "site": "MangaPlaza",
+     "url": "https://mangaplaza.com/title/0303001436/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comikey",
+     "url": "https://comikey.com/comics/a-side-characters-love-story-manga/418/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/mobukonokoi",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "KakaoPage",
+     "url": "https://page.kakao.com/content/53375105",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comic Zenon",
+     "url": "https://comic-zenon.com/episode/10834108156688953433",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Omoi",
+     "url": "https://azuki.co/series/a-side-characters-love-story",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 102211,
    "idMal": 111798,
    "format": "MANGA",
@@ -73330,41 +73400,6 @@
      "site": "J-Novel Club",
      "url": "https://j-novel.club/series/you-like-me-not-my-daughter",
      "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 119165,
-   "idMal": 134022,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 70,
-   "title": {
-    "romaji": "Neko no Massageya-san",
-    "english": "Cat Massage Therapy",
-    "native": "ねこのマッサージ屋さん"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://over-lap.co.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ZQ0011",
-     "type": "INFO"
-    },
-    {
-     "site": "Pixiv Comic",
-     "url": "https://comic.pixiv.net/works/6437",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Seven Seas Entertainment",
-     "url": "https://sevenseasentertainment.com/series/cat-massage-therapy/",
-     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -73618,7 +73653,7 @@
     "Music",
     "Romance"
    ],
-   "averageScore": 78,
+   "averageScore": 77,
    "title": {
     "romaji": "Museru Kurai no Ai wo Ageru",
     "english": "Choking on Love",
@@ -74339,6 +74374,41 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 119165,
+   "idMal": 134022,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life"
+   ],
+   "averageScore": 70,
+   "title": {
+    "romaji": "Neko no Massageya-san",
+    "english": "Cat Massage Therapy",
+    "native": "ねこのマッサージ屋さん"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://over-lap.co.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ZQ0011",
+     "type": "INFO"
+    },
+    {
+     "site": "Pixiv Comic",
+     "url": "https://comic.pixiv.net/works/6437",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/cat-massage-therapy/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 122739,
    "idMal": 129280,
    "format": "MANGA",
@@ -74558,38 +74628,6 @@
      "site": "Yen Press",
      "url": "https://yenpress.com/series/the-fake-alchemist",
      "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 186371,
-   "idMal": 190230,
-   "format": "NOVEL",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Comedy",
-    "Drama"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Noroware Ryourinin wa Meikyuu de Mofumimi Shoujo-tachi wo Sodatemasu",
-    "english": "The Accursed Chef and His Pair of Furry Foodies",
-    "native": "呪われ料理人は迷宮でモフミミ少女たちを育てます"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://drecom-media.jp/drenovels/product/73",
-     "type": "INFO"
-    },
-    {
-     "site": "J-Novel Club",
-     "url": "https://j-novel.club/series/the-accursed-chef-and-his-pair-of-furry-foodies",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -74995,7 +75033,7 @@
    "idMal": 114121,
    "format": "MANGA",
    "isAdult": false,
-   "status": "RELEASING",
+   "status": "FINISHED",
    "genres": [
     "Comedy",
     "Slice of Life"
@@ -75333,6 +75371,38 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 186371,
+   "idMal": 190230,
+   "format": "NOVEL",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Noroware Ryourinin wa Meikyuu de Mofumimi Shoujo-tachi wo Sodatemasu",
+    "english": "The Accursed Chef and His Pair of Furry Foodies",
+    "native": "呪われ料理人は迷宮でモフミミ少女たちを育てます"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://drecom-media.jp/drenovels/product/73",
+     "type": "INFO"
+    },
+    {
+     "site": "J-Novel Club",
+     "url": "https://j-novel.club/series/the-accursed-chef-and-his-pair-of-furry-foodies",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 188778,
    "idMal": 127198,
    "format": "MANGA",
@@ -75602,37 +75672,6 @@
     "native": "俺の姫靴を履いてくれ"
    },
    "externalLinks": [],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 98831,
-   "idMal": 106759,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 70,
-   "title": {
-    "romaji": "Osake wa Fuufu ni Natte kara",
-    "english": null,
-    "native": "お酒は夫婦になってから"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://yawaspi.com/osake/index.html",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/yawaspi",
-     "type": "SOCIAL"
-    }
-   ],
    "nextAiringEpisode": null
   },
   {
@@ -76385,6 +76424,37 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 98831,
+   "idMal": 106759,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 70,
+   "title": {
+    "romaji": "Osake wa Fuufu ni Natte kara",
+    "english": null,
+    "native": "お酒は夫婦になってから"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://yawaspi.com/osake/index.html",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/yawaspi",
+     "type": "SOCIAL"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 100962,
    "idMal": 111942,
    "format": "MANGA",
@@ -76900,32 +76970,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 174829,
-   "idMal": 165945,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Ecchi",
-    "Slice of Life"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Pon no Michi: Ryuukyoku Shanyuu-hen",
-    "english": null,
-    "native": "ぽんのみち 流局西入編"
-   },
-   "externalLinks": [
-    {
-     "site": "Yanmaga",
-     "url": "https://yanmaga.jp/comics/ぽんのみち_流局西入編",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 176688,
    "idMal": 165540,
    "format": "MANGA",
@@ -77078,28 +77122,6 @@
      "type": "STREAMING"
     }
    ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 31676,
-   "idMal": 1676,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Drama",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Ribbon no Kishi",
-    "english": "Princess Knight",
-    "native": "リボンの騎士"
-   },
-   "externalLinks": [],
    "nextAiringEpisode": null
   },
   {
@@ -77724,6 +77746,32 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 174829,
+   "idMal": 165945,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Slice of Life"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Pon no Michi: Ryuukyoku Shanyuu-hen",
+    "english": null,
+    "native": "ぽんのみち 流局西入編"
+   },
+   "externalLinks": [
+    {
+     "site": "Yanmaga",
+     "url": "https://yanmaga.jp/comics/ぽんのみち_流局西入編",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 177877,
    "idMal": 170074,
    "format": "MANGA",
@@ -77826,6 +77874,28 @@
     "romaji": "Renkinjutsushi no Henkyou Saisei Slow Life: S-kyuu Party de Koritsu Shita Shoujo wo Kabattara Tsuihousareta no de, Issho ni Shiawase ni Kurashimasu",
     "english": null,
     "native": "錬金術師の辺境再生スローライフ～S級パーティーで孤立した少女をかばったら追放されたので、一緒に幸せに暮らします～ 鏈金術士的邊境重生慢生活～因袒護S級隊伍中孤立的少女而被逐出，於是與她一同幸福生活"
+   },
+   "externalLinks": [],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 31676,
+   "idMal": 1676,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Ribbon no Kishi",
+    "english": "Princess Knight",
+    "native": "リボンの騎士"
    },
    "externalLinks": [],
    "nextAiringEpisode": null
@@ -78541,37 +78611,6 @@
      "site": "Seven Seas Entertainment",
      "url": "https://sevenseasentertainment.com/series/the-last-elf/",
      "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 204130,
-   "idMal": 172019,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Saikyou F-Rank Boukensha no Kimamana Henkyou Seikatsu?",
-    "english": "The Carefree Frontier Life of the Strongest F-Ranked Adventurer",
-    "native": "最強Fランク冒険者の気ままな辺境生活？"
-   },
-   "externalLinks": [
-    {
-     "site": "Alpha Manga",
-     "url": "https://www.alpha-manga.com/manga/998000381",
-     "type": "STREAMING"
-    },
-    {
-     "site": "AlphaPolis",
-     "url": "https://www.alphapolis.co.jp/manga/official/998000381",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -79470,6 +79509,37 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 204130,
+   "idMal": 172019,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Saikyou F-Rank Boukensha no Kimamana Henkyou Seikatsu?",
+    "english": "The Carefree Frontier Life of the Strongest F-Ranked Adventurer",
+    "native": "最強Fランク冒険者の気ままな辺境生活？"
+   },
+   "externalLinks": [
+    {
+     "site": "Alpha Manga",
+     "url": "https://www.alpha-manga.com/manga/998000381",
+     "type": "STREAMING"
+    },
+    {
+     "site": "AlphaPolis",
+     "url": "https://www.alphapolis.co.jp/manga/official/998000381",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 67707,
    "idMal": 37707,
    "format": "MANGA",
@@ -79596,57 +79666,6 @@
      "site": "Tonari no Young Jump",
      "url": "http://www.tonarinoyj.jp/manga/shakunetu/",
      "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 87208,
-   "idMal": 97244,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Psychological",
-    "Slice of Life"
-   ],
-   "averageScore": 84,
-   "title": {
-    "romaji": "Shimanami Tasogare",
-    "english": "Our Dreams at Dusk: Shimanami Tasogare",
-    "native": "しまなみ誰そ彼"
-   },
-   "externalLinks": [
-    {
-     "site": "Seven Seas Entertainment",
-     "url": "https://sevenseasentertainment.com/series/shimanami-tasogare/",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.ediciones-tomodomo.com/sombras-sobre-shimanami",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.akata.fr/series/eclats-dame",
-     "type": "INFO"
-    },
-    {
-     "site": "Pixiv Comic",
-     "url": "https://comic.pixiv.net/works/2408",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Piccoma",
-     "url": "https://piccoma.com/web/product/6966?etype=episode",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Carlsen Manga!",
-     "url": "https://www.carlsen.de/reihe/wer-bist-du-zur-blauen-stunde",
-     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -80310,7 +80329,7 @@
     "Comedy",
     "Romance"
    ],
-   "averageScore": 67,
+   "averageScore": 68,
    "title": {
     "romaji": "Shachou to Sake to Hoshi",
     "english": "Me and the Prez, Drinking Under the Stars",
@@ -80431,6 +80450,57 @@
      "site": "Twitter",
      "url": "https://x.com/shojoshumatsu",
      "type": "SOCIAL"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 87208,
+   "idMal": 97244,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Psychological",
+    "Slice of Life"
+   ],
+   "averageScore": 84,
+   "title": {
+    "romaji": "Shimanami Tasogare",
+    "english": "Our Dreams at Dusk: Shimanami Tasogare",
+    "native": "しまなみ誰そ彼"
+   },
+   "externalLinks": [
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/shimanami-tasogare/",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.ediciones-tomodomo.com/sombras-sobre-shimanami",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.akata.fr/series/eclats-dame",
+     "type": "INFO"
+    },
+    {
+     "site": "Pixiv Comic",
+     "url": "https://comic.pixiv.net/works/2408",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Piccoma",
+     "url": "https://piccoma.com/web/product/6966?etype=episode",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Carlsen Manga!",
+     "url": "https://www.carlsen.de/reihe/wer-bist-du-zur-blauen-stunde",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -81000,36 +81070,6 @@
     {
      "site": "Yen Press",
      "url": "https://yenpress.com/series/shino-ren",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 179850,
-   "idMal": 169340,
-   "format": "NOVEL",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 64,
-   "title": {
-    "romaji": "Shousetsu Sousou no Frieren ~Zensou～",
-    "english": "Frieren: Beyond Journey’s End ~Prelude~",
-    "native": "小説 葬送のフリーレン　～前奏～"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://www.shogakukan.co.jp/books/09853236",
-     "type": "INFO"
-    },
-    {
-     "site": "Yen Press",
-     "url": "https://yenpress.com/series/frieren",
      "type": "INFO"
     }
    ],
@@ -81759,37 +81799,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 142505,
-   "idMal": 140147,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 75,
-   "title": {
-    "romaji": "Sono Koi wa Ichigo no Youni",
-    "english": "Strawberry Love",
-    "native": "その恋はいちごのように"
-   },
-   "externalLinks": [
-    {
-     "site": "Pixiv Comic",
-     "url": "https://comic.pixiv.net/works/5045",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Manga UP!",
-     "url": "https://global.manga-up.com/manga/4",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 142616,
    "idMal": 154758,
    "format": "MANGA",
@@ -81884,6 +81893,36 @@
      "site": "Young Champion Web",
      "url": "https://youngchampion.jp/series/e95df2815bad1",
      "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 179850,
+   "idMal": 169340,
+   "format": "NOVEL",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 64,
+   "title": {
+    "romaji": "Shousetsu Sousou no Frieren ~Zensou～",
+    "english": "Frieren: Beyond Journey’s End ~Prelude~",
+    "native": "小説 葬送のフリーレン　～前奏～"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://www.shogakukan.co.jp/books/09853236",
+     "type": "INFO"
+    },
+    {
+     "site": "Yen Press",
+     "url": "https://yenpress.com/series/frieren",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -82494,32 +82533,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 111969,
-   "idMal": 122624,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 65,
-   "title": {
-    "romaji": "Syrup: Shakaijin Yuri Anthology",
-    "english": "Syrup: A Yuri Anthology",
-    "native": "シロップ 社会人百合アンソロジー"
-   },
-   "externalLinks": [
-    {
-     "site": "Seven Seas Entertainment",
-     "url": "https://sevenseasentertainment.com/series/syrup-a-yuri-anthology/",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 118586,
    "idMal": 126287,
    "format": "MANGA",
@@ -82790,6 +82803,37 @@
      "site": "Yen Press",
      "url": "https://yenpress.com/series/sugar-apple-fairy-tale-manga",
      "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 142505,
+   "idMal": 140147,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 75,
+   "title": {
+    "romaji": "Sono Koi wa Ichigo no Youni",
+    "english": "Strawberry Love",
+    "native": "その恋はいちごのように"
+   },
+   "externalLinks": [
+    {
+     "site": "Pixiv Comic",
+     "url": "https://comic.pixiv.net/works/5045",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Manga UP!",
+     "url": "https://global.manga-up.com/manga/4",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -83117,8 +83161,8 @@
      "type": "INFO"
     },
     {
-     "site": "Comico",
-     "url": "https://www.comico.jp/magazine_comic/209215",
+     "site": "Kadocomi",
+     "url": "https://comic-walker.com/detail/KC_001105_S/episodes/KC_0011050000100011_E?episodeType=first",
      "type": "STREAMING"
     }
    ],
@@ -83410,6 +83454,32 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 111969,
+   "idMal": 122624,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 65,
+   "title": {
+    "romaji": "Syrup: Shakaijin Yuri Anthology",
+    "english": "Syrup: A Yuri Anthology",
+    "native": "シロップ 社会人百合アンソロジー"
+   },
+   "externalLinks": [
+    {
+     "site": "Seven Seas Entertainment",
+     "url": "https://sevenseasentertainment.com/series/syrup-a-yuri-anthology/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 135395,
    "idMal": 141572,
    "format": "MANGA",
@@ -83503,7 +83573,7 @@
     "Fantasy",
     "Romance"
    ],
-   "averageScore": 70,
+   "averageScore": 71,
    "title": {
     "romaji": "Agi Daramjwiga Da Jalhaeyo",
     "english": "Talented Baby Squirrel",
@@ -83699,36 +83769,6 @@
     {
      "site": "Comic Days",
      "url": "https://comic-days.com/episode/2550689798664187537",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 180880,
-   "idMal": 173091,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Supernatural"
-   ],
-   "averageScore": 62,
-   "title": {
-    "romaji": "Tenbou Daikaku",
-    "english": "Empyreal Cabinet",
-    "native": "天傍台閣"
-   },
-   "externalLinks": [
-    {
-     "site": "MANGA Plus",
-     "url": "https://mangaplus.shueisha.co.jp/titles/100340",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Shonen Jump Plus",
-     "url": "https://shonenjumpplus.com/episode/17106371892805347520",
      "type": "STREAMING"
     }
    ],
@@ -84366,7 +84406,7 @@
     "Fantasy",
     "Slice of Life"
    ],
-   "averageScore": 65,
+   "averageScore": 64,
    "title": {
     "romaji": "Tensei Shitara Yadoya no Musuko deshita: Inaka Machi de Nonbiri Slow Life wo Okurou",
     "english": "I Got Reincarnated as a Son of Innkeepers!",
@@ -84539,32 +84579,31 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 181499,
-   "idMal": 172851,
+   "id": 180880,
+   "idMal": 173091,
    "format": "MANGA",
    "isAdult": false,
    "status": "RELEASING",
    "genres": [
-    "Adventure",
-    "Comedy",
-    "Fantasy"
+    "Action",
+    "Supernatural"
    ],
-   "averageScore": 54,
+   "averageScore": 62,
    "title": {
-    "romaji": "Tensei Yuusha no Kimama Tabi",
-    "english": "The Carefree Journey of the Reincarnated Hero",
-    "native": "転生勇者の気まま旅"
+    "romaji": "Tenbou Daikaku",
+    "english": "Empyreal Cabinet",
+    "native": "天傍台閣"
    },
    "externalLinks": [
     {
-     "site": "Manga UP!",
-     "url": "https://www.manga-up.com/titles/1061",
+     "site": "MANGA Plus",
+     "url": "https://mangaplus.shueisha.co.jp/titles/100340",
      "type": "STREAMING"
     },
     {
-     "site": "Official Site",
-     "url": "https://global.manga-up.com/manga/529",
-     "type": "INFO"
+     "site": "Shonen Jump Plus",
+     "url": "https://shonenjumpplus.com/episode/17106371892805347520",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -85074,66 +85113,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 115132,
-   "idMal": 122435,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Fantasy",
-    "Slice of Life"
-   ],
-   "averageScore": 77,
-   "title": {
-    "romaji": "Tongari Boushi no Kitchen",
-    "english": "Witch Hat Atelier Kitchen",
-    "native": "とんがり帽子のキッチン"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://morning.kodansha.co.jp/c/tongarikitchen/",
-     "type": "INFO"
-    },
-    {
-     "site": "Kodansha USA",
-     "url": "https://kodansha.us/series/witch-hat-atelier-kitchen/",
-     "type": "INFO"
-    },
-    {
-     "site": "Comic Days",
-     "url": "https://comic-days.com/episode/13933686331642317154",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.kodansha.co.jp/comic/products/0000340926",
-     "type": "INFO"
-    },
-    {
-     "site": "INKR",
-     "url": "https://comics.inkr.com/title/3643-witch-hat-atelier-kitchen",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Omoi",
-     "url": "https://www.omoi.com/series/witch-hat-atelier-kitchen",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.pika.fr/livres-series-la-cuisine-des-sorciers/",
-     "type": "INFO"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.milkywayediciones.com/products/kitchen-of-witch-hat-vol-1",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 121688,
    "idMal": 118567,
    "format": "MANGA",
@@ -85404,6 +85383,37 @@
      "site": "Twitter",
      "url": "https://x.com/mmk_sunday",
      "type": "SOCIAL"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 181499,
+   "idMal": 172851,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "averageScore": 54,
+   "title": {
+    "romaji": "Tensei Yuusha no Kimama Tabi",
+    "english": "The Carefree Journey of the Reincarnated Hero",
+    "native": "転生勇者の気まま旅"
+   },
+   "externalLinks": [
+    {
+     "site": "Manga UP!",
+     "url": "https://www.manga-up.com/titles/1061",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://global.manga-up.com/manga/529",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -85755,53 +85765,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 109047,
-   "idMal": 121553,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 75,
-   "title": {
-    "romaji": "Tsuma, Shougakusei ni Naru.",
-    "english": "Tsumasho",
-    "native": "妻、小学生になる。"
-   },
-   "externalLinks": [
-    {
-     "site": "Nico Nico Seiga",
-     "url": "https://manga.nicovideo.jp/comic/37871",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Comic Fuz",
-     "url": "https://comic-fuz.com/manga/1549",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://shukanmanga.jp/work_list/detail/wife-es-student/",
-     "type": "INFO"
-    },
-    {
-     "site": "Comikey",
-     "url": "https://comikey.com/comics/tsumasho-manga/845/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Comic Trail",
-     "url": "https://comic-trail.com/episode/3269754496618303037",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 113659,
    "idMal": 122977,
    "format": "MANGA",
@@ -85822,6 +85785,66 @@
      "site": "Pixiv Comic",
      "url": "https://comic.pixiv.net/works/5924",
      "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 115132,
+   "idMal": 122435,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Fantasy",
+    "Slice of Life"
+   ],
+   "averageScore": 77,
+   "title": {
+    "romaji": "Tongari Boushi no Kitchen",
+    "english": "Witch Hat Atelier Kitchen",
+    "native": "とんがり帽子のキッチン"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://morning.kodansha.co.jp/c/tongarikitchen/",
+     "type": "INFO"
+    },
+    {
+     "site": "Kodansha USA",
+     "url": "https://kodansha.us/series/witch-hat-atelier-kitchen/",
+     "type": "INFO"
+    },
+    {
+     "site": "Comic Days",
+     "url": "https://comic-days.com/episode/13933686331642317154",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.kodansha.co.jp/comic/products/0000340926",
+     "type": "INFO"
+    },
+    {
+     "site": "INKR",
+     "url": "https://comics.inkr.com/title/3643-witch-hat-atelier-kitchen",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Omoi",
+     "url": "https://www.omoi.com/series/witch-hat-atelier-kitchen",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.pika.fr/livres-series-la-cuisine-des-sorciers/",
+     "type": "INFO"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.milkywayediciones.com/products/kitchen-of-witch-hat-vol-1",
+     "type": "INFO"
     }
    ],
    "nextAiringEpisode": null
@@ -86164,7 +86187,7 @@
     "Fantasy",
     "Slice of Life"
    ],
-   "averageScore": 53,
+   "averageScore": 52,
    "title": {
     "romaji": "Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
     "english": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
@@ -86517,40 +86540,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 85134,
-   "idMal": 55215,
-   "format": "NOVEL",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Mystery",
-    "Psychological",
-    "Romance",
-    "Supernatural",
-    "Thriller"
-   ],
-   "averageScore": 84,
-   "title": {
-    "romaji": "Utsuro no Hako to Zero no Maria",
-    "english": "The Empty Box and Zeroth Maria",
-    "native": "空ろの箱と零のマリア"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://dengekibunko.jp/product/zeromari/200812000199.html",
-     "type": "INFO"
-    },
-    {
-     "site": "Yen Press",
-     "url": "https://yenpress.com/series/the-empty-box-and-zeroth-maria",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 87376,
    "idMal": 86870,
    "format": "NOVEL",
@@ -86804,6 +86793,53 @@
      "site": "Official Site",
      "url": "https://www.ichijinsha.co.jp/yurihime/title/コダマナオコ/海猫荘days/",
      "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 109047,
+   "idMal": 121553,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 75,
+   "title": {
+    "romaji": "Tsuma, Shougakusei ni Naru.",
+    "english": "Tsumasho",
+    "native": "妻、小学生になる。"
+   },
+   "externalLinks": [
+    {
+     "site": "Nico Nico Seiga",
+     "url": "https://manga.nicovideo.jp/comic/37871",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comic Fuz",
+     "url": "https://comic-fuz.com/manga/1549",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://shukanmanga.jp/work_list/detail/wife-es-student/",
+     "type": "INFO"
+    },
+    {
+     "site": "Comikey",
+     "url": "https://comikey.com/comics/tsumasho-manga/845/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comic Trail",
+     "url": "https://comic-trail.com/episode/3269754496618303037",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null
@@ -87357,6 +87393,40 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 85134,
+   "idMal": 55215,
+   "format": "NOVEL",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Mystery",
+    "Psychological",
+    "Romance",
+    "Supernatural",
+    "Thriller"
+   ],
+   "averageScore": 84,
+   "title": {
+    "romaji": "Utsuro no Hako to Zero no Maria",
+    "english": "The Empty Box and Zeroth Maria",
+    "native": "空ろの箱と零のマリア"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://dengekibunko.jp/product/zeromari/200812000199.html",
+     "type": "INFO"
+    },
+    {
+     "site": "Yen Press",
+     "url": "https://yenpress.com/series/the-empty-box-and-zeroth-maria",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 85703,
    "idMal": 77827,
    "format": "MANGA",
@@ -87437,61 +87507,6 @@
     {
      "site": "MangaPlaza",
      "url": "https://mangaplaza.com/title/0303001890/",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 86342,
-   "idMal": 108021,
-   "format": "MANGA",
-   "isAdult": true,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "averageScore": 73,
-   "title": {
-    "romaji": "What Does the Fox Say?",
-    "english": "What Does the Fox Say?",
-    "native": "What Does the Fox Say?"
-   },
-   "externalLinks": [
-    {
-     "site": "KakaoPage",
-     "url": "https://page.kakao.com/home/52111205",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Lezhin",
-     "url": "https://www.delitoon.com/detail/daf_0000114",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Lezhin",
-     "url": "https://www.lezhin.com/ko/comic/wdfs_19",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Tapas",
-     "url": "https://tapas.io/series/what-does-the-fox-say-mature/info",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bomtoon",
-     "url": "https://www.bomtoon.com/comic/ep_list/WDFS",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Naver Series",
-     "url": "https://series.naver.com/comic/detail.series?productNo=5144709",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Comico",
-     "url": "https://www.comico.kr/comic/2277",
      "type": "STREAMING"
     }
    ],
@@ -88206,32 +88221,6 @@
    "nextAiringEpisode": null
   },
   {
-   "id": 31155,
-   "idMal": 1155,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 74,
-   "title": {
-    "romaji": "Yesterday wo Utatte",
-    "english": "Sing “Yesterday” For Me",
-    "native": "イエスタデイをうたって"
-   },
-   "externalLinks": [
-    {
-     "site": "MANGA MILLION",
-     "url": "https://mangamillion.shueisha.co.jp/en/title/190",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null
-  },
-  {
    "id": 33044,
    "idMal": 3044,
    "format": "MANGA",
@@ -88371,6 +88360,61 @@
     {
      "site": "Naver Series",
      "url": "https://series.naver.com/comic/detail.series?productNo=8619259",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 86342,
+   "idMal": 108021,
+   "format": "MANGA",
+   "isAdult": true,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "What Does the Fox Say?",
+    "english": "What Does the Fox Say?",
+    "native": "What Does the Fox Say?"
+   },
+   "externalLinks": [
+    {
+     "site": "KakaoPage",
+     "url": "https://page.kakao.com/home/52111205",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Lezhin",
+     "url": "https://www.delitoon.com/detail/daf_0000114",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Lezhin",
+     "url": "https://www.lezhin.com/ko/comic/wdfs_19",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Tapas",
+     "url": "https://tapas.io/series/what-does-the-fox-say-mature/info",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bomtoon",
+     "url": "https://www.bomtoon.com/comic/ep_list/WDFS",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Naver Series",
+     "url": "https://series.naver.com/comic/detail.series?productNo=5144709",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Comico",
+     "url": "https://www.comico.kr/comic/2277",
      "type": "STREAMING"
     }
    ],
@@ -89204,6 +89248,32 @@
    "nextAiringEpisode": null
   },
   {
+   "id": 31155,
+   "idMal": 1155,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 74,
+   "title": {
+    "romaji": "Yesterday wo Utatte",
+    "english": "Sing “Yesterday” For Me",
+    "native": "イエスタデイをうたって"
+   },
+   "externalLinks": [
+    {
+     "site": "MANGA MILLION",
+     "url": "https://mangamillion.shueisha.co.jp/en/title/190",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null
+  },
+  {
    "id": 40386,
    "idMal": 10386,
    "format": "MANGA",
@@ -89501,25 +89571,6 @@
      "type": "STREAMING"
     }
    ],
-   "nextAiringEpisode": null
-  },
-  {
-   "id": 114798,
-   "idMal": 148031,
-   "format": "MANGA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "averageScore": 67,
-   "title": {
-    "romaji": "Yuri to Koe to Kaze Matoi",
-    "english": "Lilies and Voices Born Upon the Wind",
-    "native": "百合と声と風纏い"
-   },
-   "externalLinks": [],
    "nextAiringEpisode": null
   },
   {
@@ -89897,7 +89948,7 @@
    "genres": [
     "Romance"
    ],
-   "averageScore": 66,
+   "averageScore": 67,
    "title": {
     "romaji": "Yugami no Toriko",
     "english": "Twisted Devotion",
@@ -90153,6 +90204,25 @@
      "type": "STREAMING"
     }
    ],
+   "nextAiringEpisode": null
+  },
+  {
+   "id": 114798,
+   "idMal": 148031,
+   "format": "MANGA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "averageScore": 67,
+   "title": {
+    "romaji": "Yuri to Koe to Kaze Matoi",
+    "english": "Lilies and Voices Born Upon the Wind",
+    "native": "百合と声と風纏い"
+   },
+   "externalLinks": [],
    "nextAiringEpisode": null
   },
   {
@@ -90461,8 +90531,8 @@
    },
    "externalLinks": [
     {
-     "site": "Comico",
-     "url": "https://comico.jp/comic/7600",
+     "site": "Piccoma",
+     "url": "https://piccoma.com/web/product/55071?etype=episode",
      "type": "STREAMING"
     },
     {
@@ -90481,8 +90551,8 @@
      "type": "INFO"
     },
     {
-     "site": "Lezhin",
-     "url": "https://lezhin.jp/comic/t5_931005",
+     "site": "Pixiv Comic",
+     "url": "https://comic.pixiv.net/works/11853",
      "type": "STREAMING"
     },
     {
@@ -90634,7 +90704,6 @@
  ],
  "unmapped": {
   "anime": [
-   64569,
    63998,
    42519,
    65103,
