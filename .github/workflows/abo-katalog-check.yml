@@ -34,6 +34,11 @@ jobs:
           MP_EMAIL: ${{ secrets.MP_EMAIL }}
           MP_PASSWORD: ${{ secrets.MP_PASSWORD }}
 
+      - name: Manga-UP!-Katalog abgleichen
+        run: python scripts/mangaup_catalog.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
