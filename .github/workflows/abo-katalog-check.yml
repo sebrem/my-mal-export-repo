@@ -39,6 +39,15 @@ jobs:
         env:
           REPO_ROOT: ${{ github.workspace }}
 
+      # Manga+-Katalog: Protobuf-API hinter der Vue-SPA; braucht den
+      # SESSION-TOKEN-Header (Null-UUID reicht). continue-on-error
+      # haelt die Pipeline am Laufen, falls Shueisha die API aendert.
+      - name: Manga+-Katalog abgleichen
+        run: python scripts/mangaplus_catalog.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
