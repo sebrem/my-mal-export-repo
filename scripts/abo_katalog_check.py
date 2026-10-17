@@ -15,27 +15,38 @@ from bs4 import BeautifulSoup
 REPO = Path(os.environ.get("REPO_ROOT", str(Path.cwd())))
 SNAP_DIR = REPO / "abo_snapshots"
 SNAP_DIR.mkdir(exist_ok=True)
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AboKatalogCheck/1.0"}
+UA = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/131.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 def now():
     return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # ---------- MangaPlaza Read-in-Full ----------
+MP_COOKIES = {"age_verification": "1", "adult": "1", "mp_age_check": "1"}
+
 def scrape_mangaplaza():
     """Titel der Read-in-Full-Premium-Liste, alle Seiten bis Listenende."""
     titles = {}
     errors = []
+    debug_head = ""
     for page in range(1, 21):          # Sicherheitslimit; real heute 9 Seiten
         url = ("https://mangaplaza.com/subscription/read_in_full/all_titles/"
                f"?page={page}")
         try:
-            r = requests.get(url, headers=UA, timeout=60)
+            r = requests.get(url, headers=UA, cookies=MP_COOKIES, timeout=60)
             r.raise_for_status()
         except Exception as e:
             errors.append(f"mangaplaza page {page}: {e}")
             break
         text = BeautifulSoup(r.text, "html.parser").get_text("\n")
         lines = [l.strip() for l in text.split("\n")]
+        if page == 1:
+            debug_head = " ".join(lines)[:600]   # Diagnose, falls Parsing leer
         # Titel ist die Zeile direkt vor einer "Chapter X+ ..." Zeile
         found = 0
         for i, line in enumerate(lines):
@@ -59,48 +70,83 @@ def scrape_mangaplaza():
             }
             found += 1
         if found == 0:
+            if page == 1:
+                errors.append(
+                    "mangaplaza: 0 Titel auf Seite 1 – HTML-Anfang: "
+                    + debug_head)
             break                       # Listenende erreicht
     return titles, errors
 
-# ---------- J-Novel Club (labs GraphQL) ----------
-JNC_QUERY = """
-query {
-  seriesPagination {
-    items {
-      title
-      slug
-      status
-      tags { name }
-      imprint { name }
-    }
-  }
-}
-"""
+# ---------- J-Novel Club + JNC Nina (labs REST API v2) ----------
+# Endpunkt-Schema aus jncep (github.com/gvellut/jncep, jncapi.py):
+#   GET {base}/app/v2/series?format=json&limit=500&skip=N
+#   Pagination: response.pagination {limit, lastPage}
+# Auth: optional; falls Secrets JNC_EMAIL/JNC_PASSWORD gesetzt sind,
+# wird Bearer-Token per POST /app/v2/auth/login geholt.
+
+def _jnc_login(base, email, password):
+    r = requests.post(
+        f"{base}/app/v2/auth/login?format=json",
+        json={"login": email, "password": password, "slim": True},
+        headers=UA, timeout=60)
+    r.raise_for_status()
+    return r.json()["id"]
 
 def scrape_jnc():
-    """Serienliste inkl. Tags/Status über die offizielle labs-API."""
-    try:
-        r = requests.post(
-            "https://labs.j-novel.club/graphql",
-            json={"query": JNC_QUERY},
-            headers={**UA, "Content-Type": "application/json"},
-            timeout=60,
-        )
-        data = r.json()
-        if "errors" in data or "data" not in data or not data.get("data"):
-            return {}, [{"jnc": f"GraphQL-Fehler: {json.dumps(data)[:300]}"}]
-        items = data["data"].get("seriesPagination", {}).get("items", [])
-        out = {}
-        for s in items:
-            out[s["title"]] = {
-                "slug": s.get("slug"),
-                "status": s.get("status"),
-                "tags": sorted(t.get("name", "") for t in (s.get("tags") or [])),
-                "imprint": (s.get("imprint") or {}).get("name"),
-            }
-        return out, []
-    except Exception as e:
-        return {}, [{"jnc": f"Verbindung/Schema-Fehler: {e}"}]
+    """Serienliste inkl. Tags/Status; JNC main + JNC Nina (falls konfiguriert)."""
+    sources = [("jnc", "https://labs.j-novel.club")]
+    nina_user = os.environ.get("JNC_NINA_EMAIL")
+    nina_pass = os.environ.get("JNC_NINA_PASSWORD")
+    if nina_user and nina_pass:
+        sources.append(("jnc_nina", "https://api.jnc-nina.eu"))
+    all_out, all_err = {}, []
+    for key, base in sources:
+        out, errors = {}, []
+        headers = dict(UA)
+        try:
+            user = os.environ.get("JNC_EMAIL")
+            pw = os.environ.get("JNC_PASSWORD")
+            if key == "jnc_nina":
+                user, pw = nina_user, nina_pass
+            if user and pw:
+                token = _jnc_login(base, user, pw)
+                headers["Authorization"] = f"Bearer {token}"
+            skip = 0
+            while True:
+                r = requests.get(
+                    f"{base}/app/v2/series",
+                    params={"format": "json", "limit": 500, "skip": skip},
+                    headers=headers, timeout=60)
+                if r.status_code == 401:
+                    errors.append(f"{key}: 401 – Auth nötig/ungültig "
+                                  "(Secrets prüfen)")
+                    break
+                r.raise_for_status()
+                data = r.json()
+                series = data.get("series", [])
+                for s in series:
+                    out[s.get("title", "?")] = {
+                        "slug": s.get("slug"),
+                        "status": s.get("status"),
+                        "type": s.get("type"),
+                        "tags": sorted(t.get("name", "") if isinstance(t, dict)
+                                       else str(t)
+                                       for t in (s.get("tags") or [])),
+                        "imprint": (s.get("imprint") or {}).get("name")
+                                   if isinstance(s.get("imprint"), dict)
+                                   else s.get("imprint"),
+                    }
+                pagination = data.get("pagination", {})
+                if pagination.get("lastPage") or not series:
+                    break
+                skip = int(pagination.get("limit", 500)) + skip
+        except Exception as e:
+            errors.append(f"{key}: {e}")
+        # Namenskollisionen zwischen JNC und Nina vermeiden
+        for t, v in out.items():
+            all_out[f"[{key}] {t}"] = v
+        all_err.extend(errors)
+    return all_out, all_err
 
 # ---------- Diff ----------
 def diff(name, current, snapshot_path):
