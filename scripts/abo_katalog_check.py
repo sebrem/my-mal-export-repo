@@ -68,7 +68,9 @@ def _mp_login(session):
                    f"Antwort: {json.dumps(body)[:200]})")
 
 def scrape_mangaplaza():
-    """Titel der Read-in-Full-Premium-Liste, alle Seiten bis Listenende."""
+    """Titel der Read-in-Full-Premium-Liste, alle Seiten bis Listenende.
+    Parser-Anchor: Jede Titel-Karte enthält einen Link auf /title/<id>/
+    und die Kapitel-Info 'Chapter X+ (Complete|Ongoing) #N-M'."""
     titles = {}
     errors = []
     debug_head = ""
@@ -78,6 +80,8 @@ def scrape_mangaplaza():
     ok, err = _mp_login(session)
     if not ok:
         return {}, [err] if err else []
+    chapter_re = re.compile(r"Chapter (\d+)\+ (Complete|Ongoing) #(\d+)-(\d+)")
+    rating_re = re.compile(r"\d\.\d \(\d[\d,]*\)")
     for page in range(1, 21):          # Sicherheitslimit; real heute 9 Seiten
         url = ("https://mangaplaza.com/subscription/read_in_full/all_titles/"
                f"?page={page}")
@@ -87,36 +91,46 @@ def scrape_mangaplaza():
         except Exception as e:
             errors.append(f"mangaplaza page {page}: {e}")
             break
-        text = BeautifulSoup(r.text, "html.parser").get_text("\n")
-        lines = [l.strip() for l in text.split("\n")]
+        soup = BeautifulSoup(r.text, "html.parser")
         if page == 1:
-            debug_head = " ".join(lines)[:600]   # Diagnose, falls Parsing leer
-        # Titel ist die Zeile direkt vor einer "Chapter X+ ..." Zeile
+            debug_head = soup.get_text(" ", strip=True)[:600]
+        # Kapitel-Info-Elemente sind der robuste Einstiegspunkt
         found = 0
-        for i, line in enumerate(lines):
-            m = re.match(r"^Chapter (\d+)\+ (Complete|Ongoing) #(\d+)-(\d+)", line)
-            if not m:
-                continue
-            title = lines[i - 1]
-            if not title or title.lower() in ("find titles", "all genres"):
-                continue
-            author = lines[i + 2] if i + 2 < len(lines) else ""
-            rating = ""
-            for j in range(i, min(i + 8, len(lines))):
-                if re.match(r"^\d\.\d \(\d[\d,]*\)$", lines[j]):
-                    rating = lines[j]
+        for el in soup.find_all(string=chapter_re):
+            # Karten-Container suchen (bis 5 Ebenen hoch): derjenige,
+            # der genau einen /title/<id>/-Link enthält
+            card = el
+            for _ in range(5):
+                card = card.parent
+                if card is None:
                     break
+                links = [a for a in card.find_all("a", href=True)
+                         if re.search(r"/title/\d+", a["href"])]
+                if len(links) >= 1:
+                    break
+            else:
+                card = None
+            if card is None:
+                continue
+            link = links[0]
+            m = chapter_re.search(el if isinstance(el, str) else el.get_text())
+            title = link.get_text(" ", strip=True)
+            if not title:
+                continue
+            card_text = card.get_text(" ", strip=True)
+            rm = rating_re.search(card_text)
             titles[title] = {
-                "rating": rating,
-                "chapters": line.replace("Chapter ", ""),
-                "author": author,
-                "url": url,
+                "rating": rm.group(0) if rm else "",
+                "chapters": m.group(0).replace("Chapter ", "") if m else "",
+                "title_url": "https://mangaplaza.com"
+                             + re.sub(r"\?.*$", "", link["href"]),
+                "list_url": url,
             }
             found += 1
         if found == 0:
             if page == 1:
                 errors.append(
-                    "mangaplaza: 0 Titel auf Seite 1 – HTML-Anfang: "
+                    "mangaplaza: 0 Titel auf Seite 1 – Text-Anfang: "
                     + debug_head)
             break                       # Listenende erreicht
     return titles, errors
