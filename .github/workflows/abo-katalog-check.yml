@@ -11,9 +11,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -22,11 +22,13 @@ jobs:
 
       - name: Kataloge abgleichen
         run: python scripts/abo_katalog_check.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
 
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add abo_snapshots/ abo_changes.json
+          git add abo_snapshots abo_changes.json
           git diff --cached --quiet || git commit -m "Abo-Katalog-Check: Snapshot + Changes $(date -u +%F)"
           git push
