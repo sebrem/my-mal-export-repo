@@ -5,12 +5,14 @@ Liefert abo_changes.json mit Neu-/Entfern-/Änderungs-Deltas gegen den
 Snapshot in abo_snapshots/. Lane-Bewertung passiert NICHT hier, sondern in
 Vibes wöchentlicher Abgleich-Aufgabe (siehe Abschnitt 4).
 """
-import json, re, sys, datetime
+import json, os, re, sys, datetime
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-REPO = Path(__file__).resolve().parents[1]
+# Repo-Root robust ermitteln: vom Workflow gesetzt (github.workspace),
+# Fallback: aktuelles Verzeichnis (in Actions = Checkout-Root)
+REPO = Path(os.environ.get("REPO_ROOT", str(Path.cwd())))
 SNAP_DIR = REPO / "abo_snapshots"
 SNAP_DIR.mkdir(exist_ok=True)
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AboKatalogCheck/1.0"}
@@ -119,3 +121,23 @@ def diff(name, current, snapshot_path):
 
 def main():
     changes = {"run_at": now(), "mangaplaza": {}, "jnc": {}, "errors": []}
+
+    mp, err = scrape_mangaplaza()
+    changes["errors"] += err
+    if mp:
+        changes["mangaplaza"] = diff(
+            "mangaplaza", mp, SNAP_DIR / "mangaplaza_readinfull.json")
+
+    jnc, err = scrape_jnc()
+    changes["errors"] += err
+    if jnc:
+        changes["jnc"] = diff("jnc", jnc, SNAP_DIR / "jnc_series.json")
+
+    (REPO / "abo_changes.json").write_text(
+        json.dumps(changes, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Repo-Root: {REPO}")
+    print(f"Titel MangaPlaza: {len(mp)} · JNC: {len(jnc)}")
+    print(json.dumps(changes, ensure_ascii=False, indent=1)[:2000])
+
+if __name__ == "__main__":
+    sys.exit(main())
