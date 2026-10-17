@@ -27,18 +27,62 @@ def now():
     return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 # ---------- MangaPlaza Read-in-Full ----------
-MP_COOKIES = {"age_verification": "1", "adult": "1", "mp_age_check": "1"}
+MP_COOKIES = {"age_verification": "1", "adult": "1", "mp_cookie_notice": "OK"}
+
+def _mp_login(session):
+    """Login per /api/login/check/ (Laravel-Session, CSRF aus Cookie).
+    Benötigt MP_EMAIL/MP_PASSWORD als Repo-Secrets. Gibt True zurück,
+    wenn der Login erfolgreich war."""
+    email = os.environ.get("MP_EMAIL")
+    password = os.environ.get("MP_PASSWORD")
+    if not email or not password:
+        return False, ("mangaplaza: keine Credentials (MP_EMAIL/"
+                       "MP_PASSWORD) – Read-in-Full ist nur eingeloggt "
+                       "sichtbar, Schritt wird übersprungen")
+    # 1. CSRF-Token über Login-Seite + Cookie beziehen
+    r = session.get("https://mangaplaza.com/login/", timeout=60)
+    r.raise_for_status()
+    csrf = session.cookies.get("XSRF-TOKEN", "")
+    if not csrf:
+        return False, "mangaplaza: kein XSRF-TOKEN erhalten"
+    # 2. Login-POST (Felder: email, password; URL-encoded wie im Browser)
+    r = session.post(
+        "https://mangaplaza.com/api/login/check/",
+        data={"email": email, "password": password},
+        headers={
+            "X-CSRF-TOKEN": csrf,
+            "X-XSRF-TOKEN": csrf,
+            "X-Requested-With": "XMLHttpRequest",
+            "Accept": "application/json, text/plain, */*",
+            "Referer": "https://mangaplaza.com/login/?back_url=%2F",
+        },
+        timeout=60,
+    )
+    try:
+        body = r.json()
+    except Exception:
+        body = {}
+    if r.status_code == 200 and body.get("result", {}).get("status") == "OK":
+        return True, None
+    return False, (f"mangaplaza: Login fehlgeschlagen (HTTP {r.status_code}, "
+                   f"Antwort: {json.dumps(body)[:200]})")
 
 def scrape_mangaplaza():
     """Titel der Read-in-Full-Premium-Liste, alle Seiten bis Listenende."""
     titles = {}
     errors = []
     debug_head = ""
+    session = requests.Session()
+    session.headers.update(UA)
+    session.cookies.update(MP_COOKIES)
+    ok, err = _mp_login(session)
+    if not ok:
+        return {}, [err] if err else []
     for page in range(1, 21):          # Sicherheitslimit; real heute 9 Seiten
         url = ("https://mangaplaza.com/subscription/read_in_full/all_titles/"
                f"?page={page}")
         try:
-            r = requests.get(url, headers=UA, cookies=MP_COOKIES, timeout=60)
+            r = session.get(url, timeout=60)
             r.raise_for_status()
         except Exception as e:
             errors.append(f"mangaplaza page {page}: {e}")
@@ -148,6 +192,57 @@ def scrape_jnc():
         all_err.extend(errors)
     return all_out, all_err
 
+# ---------- Stufe 2: JNC-Watchlist-Volume-Status ----------
+def fetch_watchlist_status():
+    """Für jede Serie in jnc_watchlist.json Volume-Daten holen
+    (Band-Anzahl, letzter Release, Status). Liest die Watchlist NUR –
+    Änderungen daran passieren per Copy-Paste/Chat (Lane-Entscheidung)."""
+    wl_path = REPO / "jnc_watchlist.json"
+    if not wl_path.exists():
+        return {}, [{"watchlist": "jnc_watchlist.json fehlt – Stufe 2 übersprungen"}]
+    watchlist = json.loads(wl_path.read_text(encoding="utf-8"))
+    out, errors = {}, []
+    headers = dict(UA)
+    user = os.environ.get("JNC_EMAIL")
+    pw = os.environ.get("JNC_PASSWORD")
+    try:
+        if user and pw:
+            token = _jnc_login("https://labs.j-novel.club", user, pw)
+            headers["Authorization"] = f"Bearer {token}"
+        for entry in watchlist:
+            key = entry.get("key")                      # "[jnc] Titel"
+            slug = entry.get("slug")
+            base = ("https://api.jnc-nina.eu" if key.startswith("[jnc_nina]")
+                    else "https://labs.j-novel.club")
+            try:
+                r = requests.get(f"{base}/app/v2/series/{slug}",
+                                params={"format": "json"},
+                                headers=headers, timeout=60)
+                r.raise_for_status()
+                series = r.json().get("series", {})
+                r2 = requests.get(f"{base}/app/v2/series/{slug}/volumes",
+                                  params={"format": "json", "limit": 500},
+                                  headers=headers, timeout=60)
+                r2.raise_for_status()
+                volumes = r2.json().get("volumes", [])
+                released = [v for v in volumes
+                            if (v.get("publishDate") or "") <= now()[:10]]
+                out[key] = {
+                    "slug": slug,
+                    "status": series.get("status"),
+                    "volumes_total": len(volumes),
+                    "volumes_released": len(released),
+                    "latest_volume": (released[-1].get("title")
+                                      if released else None),
+                    "latest_date": (released[-1].get("publishDate")
+                                    if released else None),
+                }
+            except Exception as e:
+                errors.append(f"watchlist {key}: {e}")
+    except Exception as e:
+        errors.append(f"watchlist login: {e}")
+    return out, errors
+
 # ---------- Diff ----------
 def diff(name, current, snapshot_path):
     old = {}
@@ -178,6 +273,13 @@ def main():
     changes["errors"] += err
     if jnc:
         changes["jnc"] = diff("jnc", jnc, SNAP_DIR / "jnc_series.json")
+
+    # Stufe 2: Watchlist-Volume-Status (Deltas gegen letzten Stand)
+    wl_status, err = fetch_watchlist_status()
+    changes["errors"] += err
+    if wl_status:
+        changes["jnc_watchlist"] = diff(
+            "watchlist", wl_status, SNAP_DIR / "jnc_watchlist_status.json")
 
     (REPO / "abo_changes.json").write_text(
         json.dumps(changes, ensure_ascii=False, indent=1), encoding="utf-8")
