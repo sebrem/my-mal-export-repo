@@ -129,17 +129,18 @@ def scrape_mangaplaza():
     return titles, errors
 
 # ---------- J-Novel Club + JNC Nina (labs REST API v2) ----------
-# Endpunkt-Schema aus jncep (github.com/gvellut/jncep, jncapi.py):
-#   GET {base}/app/v2/series?format=json&limit=500&skip=N
-#   Pagination: response.pagination {limit, lastPage}
-# Auth: optional; falls Secrets JNC_EMAIL/JNC_PASSWORD gesetzt sind,
-# wird Bearer-Token per POST /app/v2/auth/login geholt.
+# Header-Konvention aus jncep: API-Calls OHNE Browser-UA, mit reinem
+# JSON-Accept (Nina antwortet auf Browser-artige Requests mit 418).
+JNC_API_HEADERS = {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+}
 
 def _jnc_login(base, email, password):
     r = requests.post(
         f"{base}/app/v2/auth/login?format=json",
         json={"login": email, "password": password, "slim": True},
-        headers=UA, timeout=60)
+        headers=JNC_API_HEADERS, timeout=60)
     r.raise_for_status()
     return r.json()["id"]
 
@@ -153,7 +154,7 @@ def scrape_jnc():
     all_out, all_err = {}, []
     for key, base in sources:
         out, errors = {}, []
-        headers = dict(UA)
+        headers = dict(JNC_API_HEADERS)
         try:
             user = os.environ.get("JNC_EMAIL")
             pw = os.environ.get("JNC_PASSWORD")
@@ -209,7 +210,7 @@ def fetch_watchlist_status():
         return {}, [{"watchlist": "jnc_watchlist.json fehlt – Stufe 2 übersprungen"}]
     watchlist = json.loads(wl_path.read_text(encoding="utf-8"))
     out, errors = {}, []
-    headers = dict(UA)
+    headers = dict(JNC_API_HEADERS)
     user = os.environ.get("JNC_EMAIL")
     pw = os.environ.get("JNC_PASSWORD")
     try:
