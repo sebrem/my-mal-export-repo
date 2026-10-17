@@ -94,36 +94,23 @@ def scrape_mangaplaza():
         soup = BeautifulSoup(r.text, "html.parser")
         if page == 1:
             debug_head = soup.get_text(" ", strip=True)[:600]
-        # Kapitel-Info-Elemente sind der robuste Einstiegspunkt
+        # Anker: Titel-Links /title/<id>/ (serverseitig im HTML,
+        # im Gegensatz zur JS-gesetzen "Chapter"-Info)
         found = 0
-        for el in soup.find_all(string=chapter_re):
-            # Karten-Container suchen (bis 5 Ebenen hoch): derjenige,
-            # der genau einen /title/<id>/-Link enthält
-            card = el
-            for _ in range(5):
-                card = card.parent
-                if card is None:
-                    break
-                links = [a for a in card.find_all("a", href=True)
-                         if re.search(r"/title/\d+", a["href"])]
-                if len(links) >= 1:
-                    break
-            else:
-                card = None
-            if card is None:
+        seen = set()
+        for a in soup.find_all("a", href=True):
+            m = re.search(r"/title/(\d+)", a["href"])
+            if not m:
                 continue
-            link = links[0]
-            m = chapter_re.search(el if isinstance(el, str) else el.get_text())
-            title = link.get_text(" ", strip=True)
-            if not title:
+            title = a.get_text(" ", strip=True)
+            if not title or m.group(1) in seen:
+                continue          # Nav-/Footer-Links haben leeren Text
+            if title.lower() in ("find titles", "all genres", "read now"):
                 continue
-            card_text = card.get_text(" ", strip=True)
-            rm = rating_re.search(card_text)
+            seen.add(m.group(1))
             titles[title] = {
-                "rating": rm.group(0) if rm else "",
-                "chapters": m.group(0).replace("Chapter ", "") if m else "",
-                "title_url": "https://mangaplaza.com"
-                             + re.sub(r"\?.*$", "", link["href"]),
+                "title_id": m.group(1),
+                "title_url": f"https://mangaplaza.com/title/{m.group(1)}/",
                 "list_url": url,
             }
             found += 1
