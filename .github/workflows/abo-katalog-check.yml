@@ -4,12 +4,27 @@ on:
     - cron: "30 3 * * 1"   # montags 03:30 UTC, vor dem MAL-Export-Pull (04:17)
   workflow_dispatch: {}      # manuelles Triggern über den Reiter "Actions" möglich
 
+concurrency:
+  group: abo-katalog-check
+  cancel-in-progress: false  # neue Runs warten, statt laufende abzubrechen
+
 permissions:
   contents: write
 
+# Abhaengigkeitsstruktur:
+#   kataloge (MangaPlaza/JNC + MangaUP + Manga+)  ──┐
+#                                                   ├──> abgleich (Alias-Match + Commit)
+#   anilist (AniList-Dump)                        ──┘
+# Job 1 und 2 laufen PARALLEL (keine Querverbindung),
+# Job 3 braucht beide Artefakte und pusht einmal atomar.
+
 jobs:
-  check:
+  # -----------------------------------------------------------------
+  # Job 1: Katalog-Scrapes (braucht nur Secrets, nichts anderes)
+  # -----------------------------------------------------------------
+  kataloge:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
 
@@ -20,11 +35,11 @@ jobs:
       - name: Abhängigkeiten
         run: pip install requests beautifulsoup4
 
-      - name: Kataloge abgleichen
+      - name: MangaPlaza + JNC abgleichen
         run: python scripts/abo_katalog_check.py
         env:
           REPO_ROOT: ${{ github.workspace }}
-          # optional: ermöglicht authentifizierte JNC-API-Zugriffe
+          # optional: authentifizierte JNC-API-Zugriffe
           # (Repo Settings → Secrets and variables → Actions anlegen)
           JNC_EMAIL: ${{ secrets.JNC_EMAIL }}
           JNC_PASSWORD: ${{ secrets.JNC_PASSWORD }}
@@ -34,35 +49,82 @@ jobs:
           MP_EMAIL: ${{ secrets.MP_EMAIL }}
           MP_PASSWORD: ${{ secrets.MP_PASSWORD }}
 
+      # Manga-UP!-Katalog: reine stdlib, nur REPO_ROOT noetig
       - name: Manga-UP!-Katalog abgleichen
         run: python scripts/mangaup_catalog.py
         env:
           REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
 
       # Manga+-Katalog: Protobuf-API hinter der Vue-SPA; braucht den
-      # SESSION-TOKEN-Header (Null-UUID reicht). continue-on-error
-      # haelt die Pipeline am Laufen, falls Shueisha die API aendert.
+      # SESSION-TOKEN-Header (Null-UUID reicht, wird nicht validiert)
       - name: Manga+-Katalog abgleichen
         run: python scripts/mangaplus_catalog.py
         env:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
-      # AniList-Dump erneuern (~2 min; Quelle fuer die Alias-Lane).
-      # Laeuft vor mal_aliases, damit die EN-Titel frisch sind.
+      - name: Katalog-Artefakte hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: abo-kataloge
+          path: |
+            abo_snapshots/
+            abo_changes.json
+            jnc_watchlist.json
+          if-no-files-found: warn
+
+  # -----------------------------------------------------------------
+  # Job 2: AniList-Dump (parallel zu Job 1, liest nur Repo-Dateien)
+  # -----------------------------------------------------------------
+  anilist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      # ~2 min; EN-Titel-Quelle fuer die Alias-Lane in Job 3.
+      # Bei AniList-Downtime: alter Dump wird committet, Match laeuft
+      # trotzdem (continue-on-error).
       - name: AniList-Dump erneuern
         run: node scripts/anilist_dump.mjs
         continue-on-error: true
 
-      # MAL-Alias-Lane: loest Romaji-Titel zu EN-Titeln auf, Primaer-
-      # quelle anilist_dump.json (kein API-Call, laeuft in Sekunden;
-      # Jikan nur optional via USE_JIKAN=1 als Fallback) und matcht die
-      # offenen Titel aus open_titles.json automatisch gegen alle 4
-      # Katalog-Snapshots -> abo_snapshots/open_title_hints.json
+      - name: AniList-Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: abo-anilist
+          path: anilist_dump.json
+          if-no-files-found: warn
+
+  # -----------------------------------------------------------------
+  # Job 3: Alias-Match + Commit (braucht Job 1 UND Job 2)
+  # -----------------------------------------------------------------
+  abgleich:
+    needs: [kataloge, anilist]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # beide Artefakte ins Workspace entpacken (merge in Root)
+      - name: Artefakte herunterladen
+        uses: actions/download-artifact@v4
+        with:
+          pattern: abo-*
+          merge-multiple: true
+
+      # Alias-Lane: Romaji -> EN via anilist_dump.json (kein API-Call),
+      # offene Titel aus open_titles.json automatisch gegen alle 4
+      # Katalog-Snapshots matchen -> open_title_hints.json
       - name: MAL-Aliase + offene Titel matchen
         run: python scripts/mal_aliases.py
         env:
