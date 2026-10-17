@@ -24,6 +24,12 @@ jobs:
         run: python scripts/abo_katalog_check.py
         env:
           REPO_ROOT: ${{ github.workspace }}
+          # optional: ermöglicht authentifizierte JNC-API-Zugriffe
+          # (Repo Settings → Secrets and variables → Actions anlegen)
+          JNC_EMAIL: ${{ secrets.JNC_EMAIL }}
+          JNC_PASSWORD: ${{ secrets.JNC_PASSWORD }}
+          JNC_NINA_EMAIL: ${{ secrets.JNC_NINA_EMAIL }}
+          JNC_NINA_PASSWORD: ${{ secrets.JNC_NINA_PASSWORD }}
 
       - name: Änderungen committen
         run: |
