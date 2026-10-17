@@ -1,7 +1,7 @@
 name: Abo-Katalog-Check
 on:
   schedule:
-    - cron: "30 3 * * 1"   # montags 03:30 UTC, vor dem MAL-Export-Pull (04:17)
+    - cron: "17 5 * * 1"   # montags 05:17 UTC, NACH MAL-Export (04:17) und AniList-Dump (04:47)
   workflow_dispatch: {}      # manuelles Triggern über den Reiter "Actions" möglich
 
 concurrency:
@@ -11,12 +11,14 @@ concurrency:
 permissions:
   contents: write
 
-# Abhaengigkeitsstruktur:
-#   kataloge (MangaPlaza/JNC + MangaUP + Manga+)  ──┐
-#                                                   ├──> abgleich (Alias-Match + Commit)
-#   anilist (AniList-Dump)                        ──┘
-# Job 1 und 2 laufen PARALLEL (keine Querverbindung),
-# Job 3 braucht beide Artefakte und pusht einmal atomar.
+# Abhaengigkeitsstruktur (2-Job-Pipeline):
+#   kataloge (MangaPlaza/JNC + MangaUP + Manga+)  ──> abgleich (Alias-Match + Commit)
+#
+# Der AniList-Dump wird NICHT mehr hier erneuert: der separate Workflow
+# anilist_export.yml laeuft montags 04:47 UTC und committet den frischen
+# anilist_dump.json VOR diesem Lauf. Der abgleich-Job checkt das Repo
+# frisch aus und liest den Dump direkt aus dem Working Tree.
+# (Mal-Export: 04:17 -> AniList-Dump: 04:47 -> Abo-Check: 05:17)
 
 jobs:
   # -----------------------------------------------------------------
@@ -75,37 +77,11 @@ jobs:
           if-no-files-found: warn
 
   # -----------------------------------------------------------------
-  # Job 2: AniList-Dump (parallel zu Job 1, liest nur Repo-Dateien)
-  # -----------------------------------------------------------------
-  anilist:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - uses: actions/checkout@v5
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      # ~2 min; EN-Titel-Quelle fuer die Alias-Lane in Job 3.
-      # Bei AniList-Downtime: alter Dump wird committet, Match laeuft
-      # trotzdem (continue-on-error).
-      - name: AniList-Dump erneuern
-        run: node scripts/anilist_dump.mjs
-        continue-on-error: true
-
-      - name: AniList-Artefakt hochladen
-        uses: actions/upload-artifact@v4
-        with:
-          name: abo-anilist
-          path: anilist_dump.json
-          if-no-files-found: warn
-
-  # -----------------------------------------------------------------
-  # Job 3: Alias-Match + Commit (braucht Job 1 UND Job 2)
+  # Job 2: Alias-Match + Commit (braucht Job 1; AniList-Dump kommt
+  # frisch aus dem Repo-Checkout vom 04:47er-Lauf)
   # -----------------------------------------------------------------
   abgleich:
-    needs: [kataloge, anilist]
+    needs: [kataloge]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -115,16 +91,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      # beide Artefakte ins Workspace entpacken (merge in Root)
+      # Katalog-Artefakte ins Workspace entpacken (merge in Root)
       - name: Artefakte herunterladen
         uses: actions/download-artifact@v4
         with:
           pattern: abo-*
           merge-multiple: true
 
-      # Alias-Lane: Romaji -> EN via anilist_dump.json (kein API-Call),
-      # offene Titel aus open_titles.json automatisch gegen alle 4
-      # Katalog-Snapshots matchen -> open_title_hints.json
+      # Alias-Lane: Romaji -> EN via anilist_dump.json aus dem Repo
+      # (kein API-Call), offene Titel aus open_titles.json automatisch
+      # gegen alle 4 Katalog-Snapshots matchen -> open_title_hints.json
       - name: MAL-Aliase + offene Titel matchen
         run: python scripts/mal_aliases.py
         env:
@@ -135,6 +111,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add abo_snapshots abo_changes.json jnc_watchlist.json anilist_dump.json
+          git add abo_snapshots abo_changes.json jnc_watchlist.json
           git diff --cached --quiet || git commit -m "Abo-Katalog-Check: Snapshot + Changes $(date -u +%F)"
           git push
