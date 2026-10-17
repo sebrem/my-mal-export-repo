@@ -48,6 +48,16 @@ jobs:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
+      # AniList-Dump erneuern (~2 min; Quelle fuer die Alias-Lane).
+      # Laeuft vor mal_aliases, damit die EN-Titel frisch sind.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: AniList-Dump erneuern
+        run: node scripts/anilist_dump.mjs
+        continue-on-error: true
+
       # MAL-Alias-Lane: loest Romaji-Titel zu EN-Titeln auf, Primaer-
       # quelle anilist_dump.json (kein API-Call, laeuft in Sekunden;
       # Jikan nur optional via USE_JIKAN=1 als Fallback) und matcht die
@@ -63,6 +73,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add abo_snapshots abo_changes.json jnc_watchlist.json
+          git add abo_snapshots abo_changes.json jnc_watchlist.json anilist_dump.json
           git diff --cached --quiet || git commit -m "Abo-Katalog-Check: Snapshot + Changes $(date -u +%F)"
           git push
