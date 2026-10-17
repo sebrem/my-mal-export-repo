@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-17T13:08:03Z",
+ "run_at": "2026-10-17T13:24:09Z",
  "mangaplaza": {},
  "jnc": {
   "new": {},
@@ -7,21 +7,12 @@
   "changed": {}
  },
  "errors": [
-  "mangaplaza: 0 Titel auf Seite 1 – HTML-Anfang:                Read in Full | MangaPlaza Premium Membership                                                                                                                                  This will show mature content. Are you over the age of 18?       No Yes               Cookie Notice     We use cookies to help personalize your MangaPlaza experience.   By using this website, you agree to allow the use of cookies.   For more information, click here .       OK                         Sorry! You need an account to do that! Sign up now to get the most out of your MangaPlaza experience!      Reg",
+  "mangaplaza: 0 Titel auf Seite 1 – Text-Anfang: Read in Full | MangaPlaza Premium Membership This will show mature content. Are you over the age of 18? No Yes Cookie Notice We use cookies to help personalize your MangaPlaza experience. By using this website, you agree to allow the use of cookies. For more information, click here . OK Sorry! You need an account to do that! Sign up now to get the most out of your MangaPlaza experience! Register For Free! Already registered? Log In An error has occurred. Please make sure you have a stable connection and try again. OK An error has occurred. Please make sure you have a stable connection and try ",
   "watchlist [jnc] Around 40 Kenja no Isekai Seikatsu Nikki: 404 Client Error: Not Found for url: https://labs.j-novel.club/app/v2/series/around-40-kenja-no-isekai-seikatsu-nikki?format=json",
   "watchlist [jnc] Around 40 Otoko no Isekai Tsuuhan Seikatsu: 404 Client Error: Not Found for url: https://labs.j-novel.club/app/v2/series/around-40-otoko-no-isekai-tsuuhan-seikatsu?format=json"
  ],
  "jnc_watchlist": {
-  "new": {
-   "[jnc] A Cozy Life in the Woods with the White Witch": {
-    "slug": "a-cozy-life-in-the-woods-with-the-white-witch",
-    "status": null,
-    "volumes_total": 2,
-    "volumes_released": 2,
-    "latest_volume": "A Cozy Life in the Woods with the White Witch: Volume 2",
-    "latest_date": null
-   }
-  },
+  "new": {},
   "removed": [],
   "changed": {}
  }
