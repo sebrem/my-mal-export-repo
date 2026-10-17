@@ -48,6 +48,17 @@ jobs:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
+      # MAL-Alias-Lane: loest Romaji-Titel zu EN-Titeln auf, Primaer-
+      # quelle anilist_dump.json (kein API-Call, laeuft in Sekunden;
+      # Jikan nur optional via USE_JIKAN=1 als Fallback) und matcht die
+      # offenen Titel aus open_titles.json automatisch gegen alle 4
+      # Katalog-Snapshots -> abo_snapshots/open_title_hints.json
+      - name: MAL-Aliase + offene Titel matchen
+        run: python scripts/mal_aliases.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
