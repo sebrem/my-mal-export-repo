@@ -30,11 +30,14 @@ jobs:
           JNC_PASSWORD: ${{ secrets.JNC_PASSWORD }}
           JNC_NINA_EMAIL: ${{ secrets.JNC_NINA_EMAIL }}
           JNC_NINA_PASSWORD: ${{ secrets.JNC_NINA_PASSWORD }}
+          # MangaPlaza-Premium-Login (Read-in-Full nur eingeloggt sichtbar)
+          MP_EMAIL: ${{ secrets.MP_EMAIL }}
+          MP_PASSWORD: ${{ secrets.MP_PASSWORD }}
 
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add abo_snapshots abo_changes.json
+          git add abo_snapshots abo_changes.json jnc_watchlist.json
           git diff --cached --quiet || git commit -m "Abo-Katalog-Check: Snapshot + Changes $(date -u +%F)"
           git push
