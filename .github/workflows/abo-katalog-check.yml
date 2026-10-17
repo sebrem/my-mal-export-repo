@@ -1,0 +1,32 @@
+name: Abo-Katalog-Check
+on:
+  schedule:
+    - cron: "30 3 * * 1"   # montags 03:30 UTC, vor dem MAL-Export-Pull (04:17)
+  workflow_dispatch: {}      # manuelles Triggern über den Reiter "Actions" möglich
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten
+        run: pip install requests beautifulsoup4
+
+      - name: Kataloge abgleichen
+        run: python scripts/abo_katalog_check.py
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add abo_snapshots/ abo_changes.json
+          git diff --cached --quiet || git commit -m "Abo-Katalog-Check: Snapshot + Changes $(date -u +%F)"
+          git push
