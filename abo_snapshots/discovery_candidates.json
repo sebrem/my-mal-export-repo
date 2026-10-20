@@ -1,0 +1,1845 @@
+{
+ "generated_at": "2026-10-20T14:12:46.787006+00:00",
+ "note": "Vorfilter fuer Abo-Discovery-Check (20./Monat). Fund != Empfehlung: Kandidaten vom Agenten verifizieren (Doppelkauf-Check-Sequenz + MAL-Lesestand nach Format-Lesarten). already_tracked nicht als Neufund melden (Status-Drift pruefen). mp_noise ignorieren.",
+ "counts": {
+  "candidates": 108,
+  "already_tracked": 31,
+  "mp_noise": 10
+ },
+ "candidates": {
+  "mangaup": [
+   {
+    "title": "The World is Full of Monsters, but With My Fluffy Feline Companion, I'll Be Okay",
+    "title_id": "981",
+    "title_url": "https://global.manga-up.com/manga/981",
+    "platform": "mangaup",
+    "patterns": [
+     "Katzen",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Bitter Knight in My Sweet Café",
+    "title_id": "888",
+    "title_url": "https://global.manga-up.com/manga/888",
+    "platform": "mangaup",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Dungeon Farm: Kicked Out of My Home, So I'm Homesteading in a Dungeon!",
+    "title_id": "658",
+    "title_url": "https://global.manga-up.com/manga/658",
+    "platform": "mangaup",
+    "patterns": [
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "How a Country Girl Reincarnated as a Villainess Tries to Avoid a Bad Ending ~I Don’t Want to Die So I Need to Become Stronger than the Final Boss~",
+    "title_id": "843",
+    "title_url": "https://global.manga-up.com/manga/843",
+    "platform": "mangaup",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Proud to be the Villainess: I'm Doomed After Stealing my Half-Sister's Fiance and Having Her Banished",
+    "title_id": "514",
+    "title_url": "https://global.manga-up.com/manga/514",
+    "platform": "mangaup",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Ice Guy and His Cool Female Colleague",
+    "title_id": "153",
+    "title_url": "https://global.manga-up.com/manga/153",
+    "platform": "mangaup",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Strongest Middle-Aged Hunter Goes to Another World: This Time, He Wants to Have a Simple Life",
+    "title_id": "92",
+    "title_url": "https://global.manga-up.com/manga/92",
+    "platform": "mangaup",
+    "patterns": [
+     "Erwachsenen-Romance"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   }
+  ],
+  "mangaplus": [
+   {
+    "title": "An Opening Act of Cats and Distant Lands",
+    "title_id": "100552",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100552",
+    "platform": "mangaplus",
+    "patterns": [
+     "Katzen"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Esa gal de Hokkaido es demasiado linda",
+    "title_id": "200056",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/200056",
+    "platform": "mangaplus",
+    "patterns": [
+     "Gal-x-Introvert"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Food Wars!: Shokugeki no Sanji",
+    "title_id": "100172",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100172",
+    "platform": "mangaplus",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Food Wars!: Shokugeki no Soma",
+    "title_id": "100013",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100013",
+    "platform": "mangaplus",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Food Wars!: Shokugeki no Soma ~Le Dessert~",
+    "title_id": "100065",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100065",
+    "platform": "mangaplus",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Friendship Between Introverts",
+    "title_id": "100524",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100524",
+    "platform": "mangaplus",
+    "patterns": [
+     "Kuudere/Isolation"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "How to heal from schizophrenia",
+    "title_id": "100255",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100255",
+    "platform": "mangaplus",
+    "patterns": [
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Owan-chan's Ramen Adventures",
+    "title_id": "100570",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100570",
+    "platform": "mangaplus",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Smile Restaurant of Hell",
+    "title_id": "100456",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100456",
+    "platform": "mangaplus",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Taro Miyao Becomes A Cat Parent?!",
+    "title_id": "100325",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100325",
+    "platform": "mangaplus",
+    "patterns": [
+     "Katzen"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The High School Bento Blues",
+    "title_id": "100412",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100412",
+    "platform": "mangaplus",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Shut-in Steps Out",
+    "title_id": "100505",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100505",
+    "platform": "mangaplus",
+    "patterns": [
+     "Kuudere/Isolation"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Workplace Bullying: Hitman in Training",
+    "title_id": "100482",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100482",
+    "platform": "mangaplus",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   }
+  ],
+  "mangaplaza": [
+   {
+    "title": "A WIFE WHO HEALS WITH TIGHTS[PIN-UP VERSION]",
+    "title_id": "0303008447",
+    "title_url": "https://mangaplaza.com/title/0303008447/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "29-Year Old's Glass Slippers",
+    "title_id": "0303002648",
+    "title_url": "https://mangaplaza.com/title/0303002648/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Erwachsenen-Romance"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "A WILLFUL MARRIAGE",
+    "title_id": "0303003563",
+    "title_url": "https://mangaplaza.com/title/0303003563/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Cooking",
+    "title_id": "0303001987",
+    "title_url": "https://mangaplaza.com/title/0303001987/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Drifting Net Cafe",
+    "title_id": "0303002348",
+    "title_url": "https://mangaplaza.com/title/0303002348/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "FOOD EXPLOSION",
+    "title_id": "0303000167",
+    "title_url": "https://mangaplaza.com/title/0303000167/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "Flora's Defiance",
+    "title_id": "0303006390",
+    "title_url": "https://mangaplaza.com/title/0303006390/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "KENKA RAMEN",
+    "title_id": "0303001476",
+    "title_url": "https://mangaplaza.com/title/0303001476/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "KISS THE BRIDESMAID",
+    "title_id": "0303000583",
+    "title_url": "https://mangaplaza.com/title/0303000583/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "SURRENDER TO HER SPANISH HUSBAND",
+    "title_id": "0303002397",
+    "title_url": "https://mangaplaza.com/title/0303002397/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "THE BONNY BRIDE",
+    "title_id": "0303001030",
+    "title_url": "https://mangaplaza.com/title/0303001030/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "THE MARRIAGE PROPOSITION",
+    "title_id": "0303004028",
+    "title_url": "https://mangaplaza.com/title/0303004028/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "THE TROUBLEMAKER BRIDE",
+    "title_id": "0303003553",
+    "title_url": "https://mangaplaza.com/title/0303003553/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Dinner with the Dormant Aphrodisiac Trap",
+    "title_id": "0303000124",
+    "title_url": "https://mangaplaza.com/title/0303000124/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Temptations of a Cooking Man",
+    "title_id": "0303005021",
+    "title_url": "https://mangaplaza.com/title/0303005021/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   }
+  ],
+  "jnc": [
+   {
+    "title": "[jnc] Engaging with the Plot: A Former Cat’s Attempt to Save Her Now Temporary Fiancé",
+    "title_id": "engaging-with-the-plot-a-former-cat-s-attempt-to-save-her-now-temporary-fiance",
+    "title_url": "https://j-novel.club/series/engaging-with-the-plot-a-former-cat-s-attempt-to-save-her-now-temporary-fiance",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Food/Slow-Life",
+     "Katzen"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Enough with This Slow Life! I Was Reincarnated as a High Elf and Now I’m Bored",
+    "title_id": "enough-with-this-slow-life-i-was-reincarnated-as-a-high-elf-and-now-i-m-bored",
+    "title_url": "https://j-novel.club/series/enough-with-this-slow-life-i-was-reincarnated-as-a-high-elf-and-now-i-m-bored",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Kreaturen/Fantasy",
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Retired Demon of the Maxed-Out Village",
+    "title_id": "the-retired-demon-of-the-maxed-out-village",
+    "title_url": "https://j-novel.club/series/the-retired-demon-of-the-maxed-out-village",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Kreaturen/Fantasy",
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Retired Demon of the Maxed-Out Village (Manga)",
+    "title_id": "the-retired-demon-of-the-maxed-out-village-manga",
+    "title_url": "https://j-novel.club/series/the-retired-demon-of-the-maxed-out-village-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Kreaturen/Fantasy",
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Apparently It's My Fault That My Husband Has the Head of a Beast",
+    "title_id": "apparently-it-s-my-fault-that-my-husband-has-the-head-of-a-beast",
+    "title_url": "https://j-novel.club/series/apparently-it-s-my-fault-that-my-husband-has-the-head-of-a-beast",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] I Don't Want to Be the Dragon Duke's Maid! Serving My Ex-Fiancé from My Past Life",
+    "title_id": "i-don-t-want-to-be-the-dragon-duke-s-maid-serving-my-ex-fianc-from-my-past-life",
+    "title_url": "https://j-novel.club/series/i-don-t-want-to-be-the-dragon-duke-s-maid-serving-my-ex-fianc-from-my-past-life",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King",
+    "title_id": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
+    "title_url": "https://j-novel.club/series/lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Marriage, Divorce, and Beyond: The White Mage and Black Knight's Romance Reignited",
+    "title_id": "marriage-divorce-and-beyond-the-white-mage-and-black-knight-s-romance-reignited",
+    "title_url": "https://j-novel.club/series/marriage-divorce-and-beyond-the-white-mage-and-black-knight-s-romance-reignited",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Erwachsenen-Romance"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] RVing My Way into Exile with My Beloved Cat: This Villainess Is Trippin'",
+    "title_id": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin",
+    "title_url": "https://j-novel.club/series/rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Katzen"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Seriously Seeking Sister! Ultimate Vampire Princess Just Wants Little Sister; Plenty of Service Will Be Provided!",
+    "title_id": "seriously-seeking-sister-ultimate-vampire-princess-just-wants-little-sister-plenty-of-service-will-be-provided",
+    "title_url": "https://j-novel.club/series/seriously-seeking-sister-ultimate-vampire-princess-just-wants-little-sister-plenty-of-service-will-be-provided",
+    "platform": "jnc",
+    "patterns": [
+     "Kreaturen/Fantasy",
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Take These Talents Elsewhere: A Delightful Demotion to the Countryside",
+    "title_id": "take-these-talents-elsewhere-a-delightful-demotion-to-the-countryside",
+    "title_url": "https://j-novel.club/series/take-these-talents-elsewhere-a-delightful-demotion-to-the-countryside",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Taking My Reincarnation One Step at a Time: No One Told Me There Would Be Monsters!",
+    "title_id": "taking-my-reincarnation-one-step-at-a-time",
+    "title_url": "https://j-novel.club/series/taking-my-reincarnation-one-step-at-a-time",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Azure Dragon's Devotion: An Offering of Three Centuries to You",
+    "title_id": "the-azure-dragon-s-devotion-an-offering-of-three-centuries-to-you",
+    "title_url": "https://j-novel.club/series/the-azure-dragon-s-devotion-an-offering-of-three-centuries-to-you",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Countess Is a Coward No More! This Reincarnated Witch Just Wants a Break",
+    "title_id": "the-countess-is-a-coward-no-more-this-reincarnated-witch-just-wants-a-break",
+    "title_url": "https://j-novel.club/series/the-countess-is-a-coward-no-more-this-reincarnated-witch-just-wants-a-break",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Ideal Sponger Life",
+    "title_id": "the-ideal-sponger-life",
+    "title_url": "https://j-novel.club/series/the-ideal-sponger-life",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Royal Hostage Has Vanished: The Black Wolf Knight Yearns for the Persecuted Princess",
+    "title_id": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess",
+    "title_url": "https://j-novel.club/series/the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] This Gyaru’s Got a Thing for...Vampire Hunters?!",
+    "title_id": "this-gyaru-s-got-a-thing-for-vampire-hunters",
+    "title_url": "https://j-novel.club/series/this-gyaru-s-got-a-thing-for-vampire-hunters",
+    "platform": "jnc",
+    "patterns": [
+     "Gal-x-Introvert",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+    "title_id": "villainess-level-99",
+    "title_url": "https://j-novel.club/series/villainess-level-99",
+    "platform": "jnc",
+    "patterns": [
+     "Kreaturen/Fantasy",
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt!",
+    "title_id": "schritt-f-r-schritt-in-einer-neuen-welt-niemand-hat-mir-gesagt-dass-es-hier-monster-gibt",
+    "title_url": "https://j-novel.club/series/schritt-f-r-schritt-in-einer-neuen-welt-niemand-hat-mir-gesagt-dass-es-hier-monster-gibt",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life",
+     "Kreaturen/Fantasy"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince!",
+    "title_id": "a-royal-rebound",
+    "title_url": "https://j-novel.club/series/a-royal-rebound",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince! (Manga)",
+    "title_id": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga",
+    "title_url": "https://j-novel.club/series/a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Amagi Brilliant Park",
+    "title_id": "amagi-brilliant-park",
+    "title_url": "https://j-novel.club/series/amagi-brilliant-park",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill",
+    "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill",
+    "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill (Manga)",
+    "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill-manga",
+    "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill: Sui’s Great Adventure",
+    "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
+    "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Can Someone Please Explain What’s Going On?!",
+    "title_id": "can-someone-please-explain-what-s-going-on",
+    "title_url": "https://j-novel.club/series/can-someone-please-explain-what-s-going-on",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Dagashi-ya Yahagi: Setting Up a Sweets Shop in Another World",
+    "title_id": "dagashi-ya-yahagi-setting-up-a-sweets-shop-in-another-world",
+    "title_url": "https://j-novel.club/series/dagashi-ya-yahagi-setting-up-a-sweets-shop-in-another-world",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Duchess in the Attic",
+    "title_id": "duchess-in-the-attic",
+    "title_url": "https://j-novel.club/series/duchess-in-the-attic",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Duchess in the Attic (Manga)",
+    "title_id": "duchess-in-the-attic-manga",
+    "title_url": "https://j-novel.club/series/duchess-in-the-attic-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Elegance in Exile: From Alchemy to Luxury with My Ardent Knight",
+    "title_id": "elegance-in-exile-from-alchemy-to-luxury-with-my-ardent-knight",
+    "title_url": "https://j-novel.club/series/elegance-in-exile-from-alchemy-to-luxury-with-my-ardent-knight",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Fake It to Break It! I Faked Amnesia to Break Off My Engagement and Now He's All Lovey-Dovey?!",
+    "title_id": "fake-it-to-break-it-i-faked-amnesia-to-break-off-my-engagement-and-now-he-s-all-lovey-dovey",
+    "title_url": "https://j-novel.club/series/fake-it-to-break-it-i-faked-amnesia-to-break-off-my-engagement-and-now-he-s-all-lovey-dovey",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Father, Have You Sinned? An Assassin in Priest’s Robes",
+    "title_id": "father-have-you-sinned-an-assassin-in-priest-s-robes",
+    "title_url": "https://j-novel.club/series/father-have-you-sinned-an-assassin-in-priest-s-robes",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Fiancée No More: The Forsaken Lady, the Prince, and Their Make-Believe Love",
+    "title_id": "fianc-e-no-more-the-forsaken-lady-the-prince-and-their-make-believe-love",
+    "title_url": "https://j-novel.club/series/fianc-e-no-more-the-forsaken-lady-the-prince-and-their-make-believe-love",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Fraudulent Fiancés",
+    "title_id": "fraudulent-fianc-s",
+    "title_url": "https://j-novel.club/series/fraudulent-fianc-s",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] From Desk Job to Death Beam: In Another World with My Almighty Lasers",
+    "title_id": "from-desk-job-to-death-beam-in-another-world-with-my-almighty-lasers",
+    "title_url": "https://j-novel.club/series/from-desk-job-to-death-beam-in-another-world-with-my-almighty-lasers",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Genius in the Library: This Bookish Rookie Will Save the Day!",
+    "title_id": "genius-in-the-library-this-bookish-rookie-will-save-the-day",
+    "title_url": "https://j-novel.club/series/genius-in-the-library-this-bookish-rookie-will-save-the-day",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Girls Kingdom",
+    "title_id": "girls-kingdom",
+    "title_url": "https://j-novel.club/series/girls-kingdom",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Goodbye Otherworld, See You Tomorrow",
+    "title_id": "goodbye-otherworld-see-you-tomorrow",
+    "title_url": "https://j-novel.club/series/goodbye-otherworld-see-you-tomorrow",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Gushing over Magical Girls",
+    "title_id": "gushing-over-magical-girls",
+    "title_url": "https://j-novel.club/series/gushing-over-magical-girls",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] His Reluctant Thrall",
+    "title_id": "his-reluctant-thrall",
+    "title_url": "https://j-novel.club/series/his-reluctant-thrall",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] I Love Yuri and I Got Bodyswapped With a Fujoshi!",
+    "title_id": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi",
+    "title_url": "https://j-novel.club/series/i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Jeanette the Genius: Defying My Evil Stepmother by Starting a Business with My Ride-or-Die Fiancé!",
+    "title_id": "jeanette-the-genius-defying-my-evil-stepmother-by-starting-a-business-with-my-ride-or-die-fianc",
+    "title_url": "https://j-novel.club/series/jeanette-the-genius-defying-my-evil-stepmother-by-starting-a-business-with-my-ride-or-die-fianc",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Jeanette the Genius: Defying My Evil Stepmother by Starting a Business with My Ride-or-Die Fiancé! (Manga)",
+    "title_id": "jeanette-the-genius-defying-my-evil-stepmother-by-starting-a-business-with-my-ride-or-die-fianc-manga",
+    "title_url": "https://j-novel.club/series/jeanette-the-genius-defying-my-evil-stepmother-by-starting-a-business-with-my-ride-or-die-fianc-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Knock Yourself Out! The Goddess Beat the Final Boss in the Tutorial, So Now I'm Free to Do Whatever",
+    "title_id": "knock-yourself-out-the-goddess-beat-the-final-boss-in-the-tutorial-so-now-i-m-free-to-do-whatever",
+    "title_url": "https://j-novel.club/series/knock-yourself-out-the-goddess-beat-the-final-boss-in-the-tutorial-so-now-i-m-free-to-do-whatever",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Lady Bumpkin and Her Lord Villain",
+    "title_id": "lady-bumpkin-and-her-lord-villain",
+    "title_url": "https://j-novel.club/series/lady-bumpkin-and-her-lord-villain",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Long Story Short, I’m Living in the Mountains",
+    "title_id": "long-story-short-i-m-living-in-the-mountains",
+    "title_url": "https://j-novel.club/series/long-story-short-i-m-living-in-the-mountains",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Middle-Aged Businessman, Arise in Another World!",
+    "title_id": "middle-aged-businessman-arise-in-another-world",
+    "title_url": "https://j-novel.club/series/middle-aged-businessman-arise-in-another-world",
+    "platform": "jnc",
+    "patterns": [
+     "Erwachsenen-Romance"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest",
+    "title_id": "middle-aged-and-mid-no-more-rising-in-ranks-over-drinks-with-an-elite-priest",
+    "title_url": "https://j-novel.club/series/middle-aged-and-mid-no-more-rising-in-ranks-over-drinks-with-an-elite-priest",
+    "platform": "jnc",
+    "patterns": [
+     "Erwachsenen-Romance"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Mirror, Mirror on the Wall",
+    "title_id": "mirror-mirror-on-the-wall",
+    "title_url": "https://j-novel.club/series/mirror-mirror-on-the-wall",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] No Wife, No Problem: A Mage's Life with His Beloved Daughter",
+    "title_id": "no-wife-no-problem-a-mage-s-life-with-his-beloved-daughter",
+    "title_url": "https://j-novel.club/series/no-wife-no-problem-a-mage-s-life-with-his-beloved-daughter",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Peddler in Another World: I Can Go Back to My World Whenever I Want (Manga)",
+    "title_id": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga",
+    "title_url": "https://j-novel.club/series/peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Peddler in Another World: I Can Go Back to My World Whenever I Want!",
+    "title_id": "peddler-in-another-world",
+    "title_url": "https://j-novel.club/series/peddler-in-another-world",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Reforming an Icy Final Boss: Getting Back at the Self-Proclaimed Villainess with the Power of Friendship",
+    "title_id": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship",
+    "title_url": "https://j-novel.club/series/reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Romance Revived: An NPC Was the Final Boss's Love",
+    "title_id": "romance-revived-an-npc-was-the-final-boss-s-love",
+    "title_url": "https://j-novel.club/series/romance-revived-an-npc-was-the-final-boss-s-love",
+    "platform": "jnc",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Side-By-Side Dreamers",
+    "title_id": "side-by-side-dreamers",
+    "title_url": "https://j-novel.club/series/side-by-side-dreamers",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Sweet Reincarnation",
+    "title_id": "sweet-reincarnation",
+    "title_url": "https://j-novel.club/series/sweet-reincarnation",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Banished Former Hero Lives as He Pleases",
+    "title_id": "the-banished-former-hero-lives-as-he-pleases",
+    "title_url": "https://j-novel.club/series/the-banished-former-hero-lives-as-he-pleases",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Banished Former Hero Lives as He Pleases (Manga)",
+    "title_id": "the-banished-former-hero-lives-as-he-pleases-manga",
+    "title_url": "https://j-novel.club/series/the-banished-former-hero-lives-as-he-pleases-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride",
+    "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
+    "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga)",
+    "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
+    "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Exiled Noble Rises as the Holy King: Befriending Fluffy Beasts and a Holy Maiden with My Ultimate Cheat Skill!",
+    "title_id": "the-exiled-noble-rises-as-the-holy-king-befriending-fluffy-beasts-and-a-holy-maiden-with-my-ultimate-cheat-skill",
+    "title_url": "https://j-novel.club/series/the-exiled-noble-rises-as-the-holy-king-befriending-fluffy-beasts-and-a-holy-maiden-with-my-ultimate-cheat-skill",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World",
+    "title_id": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world",
+    "title_url": "https://j-novel.club/series/the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world",
+    "platform": "jnc",
+    "patterns": [
+     "Slow-Life/Iyashikei"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Reincarnator and the Goblin Maiden’s Happily Ever After: Using a Past Life to Keep a Joyful Wife",
+    "title_id": "the-reincarnator-and-the-goblin-maiden-s-happily-ever-after-using-a-past-life-to-keep-a-joyful-wife",
+    "title_url": "https://j-novel.club/series/the-reincarnator-and-the-goblin-maiden-s-happily-ever-after-using-a-past-life-to-keep-a-joyful-wife",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Ryuo’s Work Is Never Done!",
+    "title_id": "the-ryuo-s-work-is-never-done",
+    "title_url": "https://j-novel.club/series/the-ryuo-s-work-is-never-done",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Tanaka Family Reincarnates",
+    "title_id": "the-tanaka-family-reincarnates",
+    "title_url": "https://j-novel.club/series/the-tanaka-family-reincarnates",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] The Young Lady Is the Substitute Harvest Goddess",
+    "title_id": "the-young-lady-is-the-substitute-harvest-goddess",
+    "title_url": "https://j-novel.club/series/the-young-lady-is-the-substitute-harvest-goddess",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] What's with the Bag, Kamiyama-san? (Manga)",
+    "title_id": "what-s-with-the-bag-kamiyama-san-manga",
+    "title_url": "https://j-novel.club/series/what-s-with-the-bag-kamiyama-san-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] 7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Light Novel)",
+    "title_id": "7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-light-novel",
+    "title_url": "https://j-novel.club/series/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-light-novel",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] 7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Manga)",
+    "title_id": "7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy",
+    "title_url": "https://j-novel.club/series/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] Asahina-sans Bento",
+    "title_id": "asahina-sans-bento",
+    "title_url": "https://j-novel.club/series/asahina-sans-bento",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] Lady Tamer: Das Comeback der Versagerinnen",
+    "title_id": "lady-tamer-das-comeback-der-versagerinnen",
+    "title_url": "https://j-novel.club/series/lady-tamer-das-comeback-der-versagerinnen",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] Lass mich dich flicken (Manga)",
+    "title_id": "lass-mich-dich-flicken",
+    "title_url": "https://j-novel.club/series/lass-mich-dich-flicken",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc_nina] Tränen des Homunkulus – Alchemie für alle, die verschwinden möchten",
+    "title_id": "tr-nen-des-homunkulus-alchemie-f-r-alle-die-verschwinden-m-chten",
+    "title_url": "https://j-novel.club/series/tr-nen-des-homunkulus-alchemie-f-r-alle-die-verschwinden-m-chten",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   }
+  ]
+ },
+ "already_tracked": [
+  {
+   "title": "Cheat Mode Farming in Another World",
+   "title_id": "32",
+   "title_url": "https://global.manga-up.com/manga/32",
+   "platform": "mangaup",
+   "patterns": [
+    "Slow-Life/Iyashikei"
+   ],
+   "mal_id": 138924,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "Learning to Love My Cat-like Classmate",
+   "title_id": "580",
+   "title_url": "https://global.manga-up.com/manga/580",
+   "platform": "mangaup",
+   "patterns": [
+    "Katzen"
+   ],
+   "mal_id": 165770,
+   "mal_status": "reading",
+   "mal_score": 9
+  },
+  {
+   "title": "Otaku x Gal",
+   "title_id": "535",
+   "title_url": "https://global.manga-up.com/manga/535",
+   "platform": "mangaup",
+   "patterns": [
+    "Gal-x-Introvert"
+   ],
+   "mal_id": 155271,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "The Daily Life of a Middle-Aged Online Shopper in Another World",
+   "title_id": "36",
+   "title_url": "https://global.manga-up.com/manga/36",
+   "platform": "mangaup",
+   "patterns": [
+    "Erwachsenen-Romance"
+   ],
+   "mal_id": 147199,
+   "mal_status": "completed",
+   "mal_score": 8
+  },
+  {
+   "title": "The Diary of a Middle-Aged Teacher's Carefree Life in Another World",
+   "title_id": "37",
+   "title_url": "https://global.manga-up.com/manga/37",
+   "platform": "mangaup",
+   "patterns": [
+    "Erwachsenen-Romance"
+   ],
+   "mal_id": 157784,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "The Strongest Wizard Becomes a Countryside Guard After Taking an Arrow to the Knee",
+   "title_id": "144",
+   "title_url": "https://global.manga-up.com/manga/144",
+   "platform": "mangaup",
+   "patterns": [
+    "Slow-Life/Iyashikei"
+   ],
+   "mal_id": 119304,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "Red Cat Ramen",
+   "title_id": "100261",
+   "title_url": "https://mangaplus.shueisha.co.jp/titles/100261",
+   "platform": "mangaplus",
+   "patterns": [
+    "Food/Slow-Life",
+    "Katzen"
+   ],
+   "mal_id": 154933,
+   "mal_status": "reading",
+   "mal_score": 9
+  },
+  {
+   "title": "[jnc] A Wild Last Boss Appeared!",
+   "title_id": "a-wild-last-boss-appeared",
+   "title_url": "https://j-novel.club/series/a-wild-last-boss-appeared",
+   "platform": "jnc",
+   "patterns": [
+    "Office/Workplace"
+   ],
+   "mal_id": 108598,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] A Wild Last Boss Appeared! (Manga)",
+   "title_id": "a-wild-last-boss-appeared-manga",
+   "title_url": "https://j-novel.club/series/a-wild-last-boss-appeared-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Office/Workplace"
+   ],
+   "mal_id": 108598,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] An Archdemon's Dilemma: How to Love Your Elf Bride",
+   "title_id": "an-archdemon-s-dilemma-how-to-love-your-slave-elf-bride",
+   "title_url": "https://j-novel.club/series/an-archdemon-s-dilemma-how-to-love-your-slave-elf-bride",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 103707,
+   "mal_status": "reading",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
+   "title_id": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga",
+   "title_url": "https://j-novel.club/series/an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 103707,
+   "mal_status": "reading",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] An Introvert's Hookup Hiccups: This Gyaru Is Head Over Heels for Me!",
+   "title_id": "an-introvert-s-hookup-hiccups",
+   "title_url": "https://j-novel.club/series/an-introvert-s-hookup-hiccups",
+   "platform": "jnc",
+   "patterns": [
+    "Gal-x-Introvert",
+    "Kuudere/Isolation"
+   ],
+   "mal_id": 142817,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] Fluffy-Eared Realm Restoration: Taking It Slow with My Cool Big Brother",
+   "title_id": "fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother",
+   "title_url": "https://j-novel.club/series/fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 183326,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] Fluffy-Eared Realm Restoration: Taking It Slow with My Cool Big Brother (Manga)",
+   "title_id": "fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother-manga",
+   "title_url": "https://j-novel.club/series/fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 183326,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] Fushi no Kami: Rebuilding Civilization Starts With a Village",
+   "title_id": "fushi-no-kami-rebuilding-civilization-starts-with-a-village",
+   "title_url": "https://j-novel.club/series/fushi-no-kami-rebuilding-civilization-starts-with-a-village",
+   "platform": "jnc",
+   "patterns": [
+    "Slow-Life/Iyashikei"
+   ],
+   "mal_id": 133309,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] Fushi no Kami: Rebuilding Civilization Starts With a Village (Manga)",
+   "title_id": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga",
+   "title_url": "https://j-novel.club/series/fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Slow-Life/Iyashikei"
+   ],
+   "mal_id": 133309,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] My Fiancé Cheated, But a New Love Rings!",
+   "title_id": "my-fianc-cheated-but-a-new-love-rings",
+   "title_url": "https://j-novel.club/series/my-fianc-cheated-but-a-new-love-rings",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 179252,
+   "mal_status": "reading",
+   "mal_score": 9
+  },
+  {
+   "title": "[jnc] My Fiancé Cheated, But a New Love Rings! (Manga)",
+   "title_id": "my-fianc-cheated-but-a-new-love-rings-manga",
+   "title_url": "https://j-novel.club/series/my-fianc-cheated-but-a-new-love-rings-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 179252,
+   "mal_status": "reading",
+   "mal_score": 9
+  },
+  {
+   "title": "[jnc] Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon",
+   "title_id": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon",
+   "title_url": "https://j-novel.club/series/now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 110329,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon (Manga)",
+   "title_id": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga",
+   "title_url": "https://j-novel.club/series/now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 110329,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Accursed Chef and His Pair of Furry Foodies",
+   "title_id": "the-accursed-chef-and-his-pair-of-furry-foodies",
+   "title_url": "https://j-novel.club/series/the-accursed-chef-and-his-pair-of-furry-foodies",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 190230,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Accursed Chef and His Pair of Furry Foodies (Manga)",
+   "title_id": "the-accursed-chef-and-his-pair-of-furry-foodies-manga",
+   "title_url": "https://j-novel.club/series/the-accursed-chef-and-his-pair-of-furry-foodies-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 190230,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Diary of a Middle-Aged Sage's Carefree Life in Another World",
+   "title_id": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world",
+   "title_url": "https://j-novel.club/series/the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world",
+   "platform": "jnc",
+   "patterns": [
+    "Erwachsenen-Romance"
+   ],
+   "mal_id": 104063,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Oblivious Saint Can't Contain Her Power: Disgraced No Longer, I'm Finding Happiness with the Prince! (Manga)",
+   "title_id": "the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga",
+   "title_url": "https://j-novel.club/series/the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 162848,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] The Oblivious Saint Can't Contain Her Power: Forget My Sister! Turns Out I Was the Real Saint All Along!",
+   "title_id": "the-oblivious-saint-can-t-contain-her-power-forget-my-sister-turns-out-i-was-the-real-saint-all-along",
+   "title_url": "https://j-novel.club/series/the-oblivious-saint-can-t-contain-her-power-forget-my-sister-turns-out-i-was-the-real-saint-all-along",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 164903,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Water Magician",
+   "title_id": "the-water-magician",
+   "title_url": "https://j-novel.club/series/the-water-magician",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 164607,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] The Water Magician (Manga)",
+   "title_id": "the-water-magician-manga",
+   "title_url": "https://j-novel.club/series/the-water-magician-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 164607,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] The White Cat's Revenge as Plotted from the Dragon King's Lap",
+   "title_id": "the-white-cat-s-revenge-as-plotted-from-the-dragon-king-s-lap",
+   "title_url": "https://j-novel.club/series/the-white-cat-s-revenge-as-plotted-from-the-dragon-king-s-lap",
+   "platform": "jnc",
+   "patterns": [
+    "Katzen",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 109073,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
+   "title": "[jnc] This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga)",
+   "title_id": "this-alluring-dark-elf-has-the-heart-of-a-middle-aged-man-manga",
+   "title_url": "https://j-novel.club/series/this-alluring-dark-elf-has-the-heart-of-a-middle-aged-man-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Erwachsenen-Romance",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 174676,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc_nina] An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
+   "title_id": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga",
+   "title_url": "https://j-novel.club/series/an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 103707,
+   "mal_status": "reading",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc_nina] The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom (Manga)",
+   "title_id": "the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom-manga",
+   "title_url": "https://j-novel.club/series/the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 152370,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  }
+ ],
+ "mp_noise": [
+  {
+   "title": "A WEDDING AT THE ITALIAN'S DEMAND",
+   "title_id": "0303004661",
+   "title_url": "https://mangaplaza.com/title/0303004661/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "SECRET SON, CONVENIENT WIFE",
+   "title_id": "0303003427",
+   "title_url": "https://mangaplaza.com/title/0303003427/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "Self-Love and Lingerie How to Love Your Coworker",
+   "title_id": "0303005534",
+   "title_url": "https://mangaplaza.com/title/0303005534/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Office/Workplace"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "THE BILLIONAIRE CLAIMS HIS WIFE",
+   "title_id": "0303004238",
+   "title_url": "https://mangaplaza.com/title/0303004238/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "THE BOSS'S SECRET MISTRESS",
+   "title_id": "0303000694",
+   "title_url": "https://mangaplaza.com/title/0303000694/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Office/Workplace"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "THE MILLIONAIRE BOSS'S BABY",
+   "title_id": "0303003439",
+   "title_url": "https://mangaplaza.com/title/0303003439/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Office/Workplace"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "THE RUTHLESS ITALIAN'S INEXPERIENCED WIFE",
+   "title_id": "0303000833",
+   "title_url": "https://mangaplaza.com/title/0303000833/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "The Italian Billionaire's Bride",
+   "title_id": "0303005614",
+   "title_url": "https://mangaplaza.com/title/0303005614/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "The Sheikh's Ransomed Bride",
+   "title_id": "0303005343",
+   "title_url": "https://mangaplaza.com/title/0303005343/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  },
+  {
+   "title": "The secretary and the Boss's virginity ~ delicate underwear~",
+   "title_id": "0303000121",
+   "title_url": "https://mangaplaza.com/title/0303000121/",
+   "platform": "mangaplaza",
+   "patterns": [
+    "Office/Workplace"
+   ],
+   "mal_id": null,
+   "mal_status": null,
+   "mal_score": null
+  }
+ ]
+}

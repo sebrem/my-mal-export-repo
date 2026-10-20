@@ -1,12 +1,129 @@
 {
- "run_at": "2026-10-19T10:47:38Z",
+ "run_at": "2026-10-20T14:12:22Z",
  "mangaplaza": {
   "new": {},
-  "removed": [],
-  "changed": {}
+  "removed": [
+   "The Guy I Admired Saved Me From a Stalker, but He Turned Out to Be Even Worse"
+  ],
+  "changed": {
+   "Father's Vampire": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=4",
+     "title_id": "0303008317",
+     "title_url": "https://mangaplaza.com/title/0303008317/"
+    },
+    "new": {
+     "title_id": "0303008317",
+     "title_url": "https://mangaplaza.com/title/0303008317/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=3"
+    }
+   },
+   "ISHIBASHI DEFENSE CORPS (Official)": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=5",
+     "title_id": "0303006304",
+     "title_url": "https://mangaplaza.com/title/0303006304/"
+    },
+    "new": {
+     "title_id": "0303006304",
+     "title_url": "https://mangaplaza.com/title/0303006304/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=4"
+    }
+   },
+   "KASANE NO TAO": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=8",
+     "title_id": "0303000184",
+     "title_url": "https://mangaplaza.com/title/0303000184/"
+    },
+    "new": {
+     "title_id": "0303000184",
+     "title_url": "https://mangaplaza.com/title/0303000184/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=7"
+    }
+   },
+   "Lady and the Butler's Adventures in Wonderland": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=9",
+     "title_id": "0303000118",
+     "title_url": "https://mangaplaza.com/title/0303000118/"
+    },
+    "new": {
+     "title_id": "0303000118",
+     "title_url": "https://mangaplaza.com/title/0303000118/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=8"
+    }
+   },
+   "MY DESTINED OMEGA~I'LL STILL LOVE YOU, MY BETA~": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=2",
+     "title_id": "0303005587",
+     "title_url": "https://mangaplaza.com/title/0303005587/"
+    },
+    "new": {
+     "title_id": "0303005587",
+     "title_url": "https://mangaplaza.com/title/0303005587/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=1"
+    }
+   },
+   "THE BONNY BRIDE": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=3",
+     "title_id": "0303001030",
+     "title_url": "https://mangaplaza.com/title/0303001030/"
+    },
+    "new": {
+     "title_id": "0303001030",
+     "title_url": "https://mangaplaza.com/title/0303001030/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=2"
+    }
+   },
+   "itazurana Kiss": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=7",
+     "title_id": "0303001824",
+     "title_url": "https://mangaplaza.com/title/0303001824/"
+    },
+    "new": {
+     "title_id": "0303001824",
+     "title_url": "https://mangaplaza.com/title/0303001824/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=6"
+    }
+   },
+   "kalyx": {
+    "old": {
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=6",
+     "title_id": "0303002347",
+     "title_url": "https://mangaplaza.com/title/0303002347/"
+    },
+    "new": {
+     "title_id": "0303002347",
+     "title_url": "https://mangaplaza.com/title/0303002347/",
+     "list_url": "https://mangaplaza.com/subscription/read_in_full/all_titles/?page=5"
+    }
+   }
+  }
  },
  "jnc": {
-  "new": {},
+  "new": {
+   "[jnc] His Reluctant Thrall": {
+    "slug": "his-reluctant-thrall",
+    "status": "DEFAULT",
+    "type": "NOVEL",
+    "tags": [
+     "Boys' Love",
+     "changed by love",
+     "cohabitation",
+     "contracts",
+     "drama",
+     "j-novel knight",
+     "romance",
+     "slow burn romance",
+     "vampires"
+    ],
+    "imprint": null
+   }
+  },
   "removed": [],
   "changed": {}
  },
@@ -17,12 +134,23 @@
   "changed": {}
  },
  "mangaup": {
-  "new": {},
+  "new": {
+   "The Imperial Court’s Floral Stylist": {
+    "title_id": "1101",
+    "title_url": "https://global.manga-up.com/manga/1101"
+   }
+  },
   "removed": [],
   "changed": {}
  },
  "mangaplus": {
-  "new": {},
+  "new": {
+   "Kamisama’s Requiem": {
+    "title_id": "100848",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100848",
+    "status": "one-shot"
+   }
+  },
   "removed": [],
   "changed": {}
  },
