@@ -107,6 +107,15 @@ jobs:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
+      # Abo-Discovery-Vorfilter: Kernmuster-Kandidaten aus allen 4
+      # Katalog-Snapshots + MAL-Tracking-Check -> discovery_candidates.json
+      # (Verifikation bleibt dem monatlichen Abo-Discovery-Check überlassen)
+      - name: Abo-Discovery-Kandidaten (Vorfilter)
+        run: python scripts/abo_discovery.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
