@@ -40,12 +40,13 @@ jobs:
                 n=$(jq '.data | length' <<<"$resp")
                 [ "$n" -eq 0 ] && break
                 # Nur Score >= 8, Titel nicht in Sebastians eigener Liste, f-Index statt Name
+                # MAL API: Einträge sind Paare {"node": {...}, "list_status": {...}}
                 jq -c --arg idx "$idx" --rawfile own own_ids.txt \
-                  '.data[].node | select(.list_status.score >= 8)
-                   | select((.id|tostring) as $id | ($own | split("\n") | index($id) | not))
-                   | {mal_id: .id, title: .title, score: .list_status.score,
-                      status: .list_status.status, kind: .list_status, friend: $idx}' <<<"$resp" >> candidates.ndjson \
-                  || true
+                  '.data[] | select(.list_status.score >= 8)
+                   | select((.node.id|tostring) as $id | ($own | split("\n") | index($id) | not))
+                   | {mal_id: .node.id, title: .node.title, score: .list_status.score,
+                      status: .list_status.status, friend: $idx}' <<<"$resp" >> candidates.ndjson \
+                  || echo "  ! jq-Filterfehler bei ${idx} ${kind}"
                 offset=$((offset + n))
                 [ "$n" -lt 500 ] && break
               done
