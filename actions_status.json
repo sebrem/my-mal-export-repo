@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-22T08:36:32.380803+00:00",
+  "ok": false,
+  "grace_hours": 4,
+  "workflows": [
+    {
+      "name": "MAL Sync",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-19T09:59:31Z (Run 39234161908)",
+      "expected": "2026-10-19T04:17:00+00:00"
+    },
+    {
+      "name": "MAL Friends Candidates",
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-19T04:35:00+00:00"
+    },
+    {
+      "name": "AniList Export",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-19T10:19:14Z (Run 39236605498)",
+      "expected": "2026-10-19T04:47:00+00:00"
+    },
+    {
+      "name": "Abo-Katalog-Check",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-19T10:47:27Z (Run 39239964556)",
+      "expected": "2026-10-19T05:17:00+00:00"
+    },
+    {
+      "name": "Verlags-Announcements",
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-21T05:47:00+00:00"
+    },
+    {
+      "name": "Release-Kalender",
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-22T04:30:00+00:00"
+    }
+  ]
+}
