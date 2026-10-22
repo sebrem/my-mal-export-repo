@@ -26,6 +26,8 @@ jobs:
           node-version: 24
 
       - name: Seiyuu & Themes Harvest erzeugen
+        env:
+          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}
         run: node scripts/theme_seiyuu_harvest.mjs
 
       - name: Commit & Push
