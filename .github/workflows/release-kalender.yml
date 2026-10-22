@@ -1,0 +1,48 @@
+name: Release-Kalender
+on:
+  schedule:
+    - cron: "30 4 * * 4"   # donnerstags 04:30 UTC (nach Mi-Verlags-Harvest 05:47 mit Jitter; frisch vor den Tasks am 1./15.; Jitter beachten)
+  workflow_dispatch: {}      # manuelles Triggern ueber den Reiter "Actions" moeglich
+
+concurrency:
+  group: release-kalender
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+# Release-Watch gegen den Seed release_series.json (Repo-Root, von Vibe gepflegt,
+# Sebastian committet via Web-UI - Kette: Knowledge -> Seed -> Repo).
+# Ausgabe:
+#   release_kalender.json  - kumulierter Stand je Serie (gefundenen Produkt-Titel)
+#   release_changes.json   - NEUE/verschwundene Titel je Serie seit letztem Lauf
+# Design: KEIN Bandnummern-Parsing in v1 - stattdessen Titel-Harvest + Diff
+# (neuer Titel in der Liste = neuer Release/Vorbestellung, robust gegen Format-
+# und Lane-Fallen). Lane-Regeln (Omnibus, LN/Manga) bleiben Konsum-Regeln beim
+# Lesen des Diffs - der Harvest liefert nur Fakten ("was ist gelistet").
+# kindle-en: bewusst OHNE Automatik (Amazon unzuverlaessig scrapbar, Befund
+# "Kindle-Ungeklaert"-Liste) - Serien erscheinen mit manual_check im Output.
+
+jobs:
+  release-watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Release-Kalender Harvest
+        run: python scripts/release_kalender.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add release_kalender.json release_changes.json
+          git diff --cached --quiet || git commit -m "Release-Kalender: Harvest $(date -u +%F)"
+          git push
