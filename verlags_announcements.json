@@ -1,37 +1,9 @@
 {
-  "generated_at": "2026-10-22T06:22:34.460590+00:00",
+  "generated_at": "2026-10-22T06:26:42.795401+00:00",
   "sources": {
-    "altraverse": {
-      "errors": [
-        "https://altraverse.de/news/: HTTPError: HTTP Error 404: Not Found"
-      ],
-      "items": []
-    },
     "carlsen": {
-      "errors": [
-        "https://www.carlsen.de/manga/news: HTTPError: HTTP Error 404: Not Found"
-      ],
+      "errors": [],
       "items": [
-        {
-          "date": null,
-          "title": "Alle Kinderbücher",
-          "url": "https://www.carlsen.de/kinderbuch/kinderbuch-neuheiten"
-        },
-        {
-          "date": null,
-          "title": "Baby &amp; Kleinkind",
-          "url": "https://www.carlsen.de/kinderbuch/baby-kleinkind"
-        },
-        {
-          "date": null,
-          "title": "Bilderbücher &amp; Vorlesegeschichten",
-          "url": "https://www.carlsen.de/kinderbuch/vorlesegeschichten-und-bilderbuecher"
-        },
-        {
-          "date": null,
-          "title": "Schulkind 6-11 Jahre",
-          "url": "https://www.carlsen.de/kinderbuch/schulkind"
-        },
         {
           "date": null,
           "title": "Young Adult &amp; New Adult",
@@ -49,38 +21,8 @@
         },
         {
           "date": null,
-          "title": "Alle Titel von A - Z",
-          "url": "https://www.carlsen.de/manga/manga-uebersicht"
-        },
-        {
-          "date": null,
-          "title": "Titel nach Genre",
-          "url": "https://www.carlsen.de/manga/genre-uebersicht"
-        },
-        {
-          "date": null,
           "title": "Aktuelle Termine",
           "url": "https://www.carlsen.de/manga/aktuelle-termine-signierstunden"
-        },
-        {
-          "date": null,
-          "title": "Spirou und Fantasio",
-          "url": "https://www.carlsen.de/comics/spirou-und-fantasio"
-        },
-        {
-          "date": null,
-          "title": "Tim und Struppi",
-          "url": "https://www.carlsen.de/comics/tim-und-struppi"
-        },
-        {
-          "date": null,
-          "title": "Clever und Smart",
-          "url": "https://www.carlsen.de/comics/clever-und-smart"
-        },
-        {
-          "date": null,
-          "title": "Science Fiction-Comics",
-          "url": "https://www.carlsen.de/comics/science-fiction-comics"
         },
         {
           "date": null,
@@ -99,48 +41,8 @@
         },
         {
           "date": null,
-          "title": "Unterrichtsmaterial",
-          "url": "https://www.carlsen.de/schule/unterrichtsmaterial"
-        },
-        {
-          "date": null,
-          "title": "Lizenzen/Rights",
-          "url": "https://www.carlsen.de/lizenzen"
-        },
-        {
-          "date": null,
           "title": "Kindermedienagentur",
           "url": "https://www.carlsen.de/carlsen-k"
-        },
-        {
-          "date": null,
-          "title": "FAQ &amp; Hilfe",
-          "url": "https://www.carlsen.de/faq-hilfe"
-        },
-        {
-          "date": null,
-          "title": "AGB Online Shop",
-          "url": "https://www.carlsen.de/agb-online-shop"
-        },
-        {
-          "date": null,
-          "title": "Datenschutzerklärung",
-          "url": "https://www.carlsen.de/datenschutzerklaerung"
-        },
-        {
-          "date": null,
-          "title": "Barrierefreiheitserklärung",
-          "url": "https://www.carlsen.de/barrierefreiheitserklaerung"
-        },
-        {
-          "date": null,
-          "title": "Alle Treffer anzeigen",
-          "url": "https://www.carlsen.de/suche"
-        },
-        {
-          "date": null,
-          "title": "Hier geht es zum Katalog",
-          "url": "https://www.carlsen.de/katalog"
         },
         {
           "date": null,
@@ -164,18 +66,8 @@
         },
         {
           "date": null,
-          "title": "Alle Print-Neuheiten ansehen",
-          "url": "https://www.carlsen.de/manga/manga-uebersicht?f%5B0%5D=month%3A2026-11"
-        },
-        {
-          "date": null,
           "title": "Taschenbuch One Piece 113 7,50 €",
           "url": "https://www.carlsen.de/taschenbuch/one-piece-113/978-3-551-80522-5"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/17240"
         },
         {
           "date": null,
@@ -184,28 +76,8 @@
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/47210"
-        },
-        {
-          "date": null,
           "title": "Hardcover Under the Oak Tree (Roman) 1 28,00 €",
           "url": "https://www.carlsen.de/hardcover/under-oak-tree-roman-1/978-3-551-63218-0"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/46159"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/46158"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/48988"
         },
         {
           "date": null,
@@ -214,18 +86,8 @@
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/40998"
-        },
-        {
-          "date": null,
           "title": "Taschenbuch Boruto – Two Blue Vortex 6 7,50 €",
           "url": "https://www.carlsen.de/taschenbuch/boruto-two-blue-vortex-6/978-3-551-80966-7"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/47533"
         },
         {
           "date": null,
@@ -234,18 +96,8 @@
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/47911"
-        },
-        {
-          "date": null,
           "title": "Taschenbuch Black Butler 35 7,50 €",
           "url": "https://www.carlsen.de/taschenbuch/black-butler-35/978-3-551-80883-7"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/45473"
         },
         {
           "date": null,
@@ -254,18 +106,8 @@
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/41470"
-        },
-        {
-          "date": null,
           "title": "Hardcover Deserter 25,00 €",
           "url": "https://www.carlsen.de/hardcover/deserter/978-3-551-80959-9"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/47362"
         },
         {
           "date": null,
@@ -274,18 +116,8 @@
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/46554"
-        },
-        {
-          "date": null,
           "title": "Taschenbuch Good Haunting! 2 9,00 €",
           "url": "https://www.carlsen.de/taschenbuch/good-haunting-2/978-3-551-62674-5"
-        },
-        {
-          "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/48957"
         },
         {
           "date": null,
@@ -294,38 +126,13 @@
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/41966"
-        },
-        {
-          "date": null,
           "title": "Taschenbuch Liar Satsuki Can See Death 8 8,50 €",
           "url": "https://www.carlsen.de/taschenbuch/liar-satsuki-can-see-death-8/978-3-551-62587-8"
         },
         {
           "date": null,
-          "title": "Nach Ähnlichem stöbern",
-          "url": "https://www.carlsen.de/stoeberecke/44082"
-        },
-        {
-          "date": null,
-          "title": "Hier geht&#039;s zu den neuen E-Manga im Oktober",
-          "url": "https://www.carlsen.de/manga/e-manga-uebersicht?f[0]=month:2026-10"
-        },
-        {
-          "date": null,
-          "title": "Slice of Life-Manga",
-          "url": "https://www.carlsen.de/manga/genre-uebersicht/slice-of-life"
-        },
-        {
-          "date": null,
           "title": "Boys Love-Manga",
           "url": "https://www.carlsen.de/hayabusa-manga/boys-love"
-        },
-        {
-          "date": null,
-          "title": "Girls-Love-Manga",
-          "url": "https://www.carlsen.de/manga/genre-uebersicht/girls-love-yuri"
         },
         {
           "date": null,
@@ -536,37 +343,12 @@
           "date": null,
           "title": "Reihe Rock Lee Massiv",
           "url": "https://www.carlsen.de/reihe/rock-lee-massiv"
-        },
-        {
-          "date": null,
-          "title": "Vertrag widerrufen",
-          "url": "https://bonniershop.carlsen.de/widerruf-formular"
         }
       ]
     },
     "danibooks": {
       "errors": [],
       "items": [
-        {
-          "date": null,
-          "title": "Persönliche Daten",
-          "url": "https://www.danibooks.de/index.php?controller=identity"
-        },
-        {
-          "date": null,
-          "title": "Hauptadresse anlegen",
-          "url": "https://www.danibooks.de/index.php?controller=address"
-        },
-        {
-          "date": null,
-          "title": "Meine Bestellungen",
-          "url": "https://www.danibooks.de/index.php?controller=history"
-        },
-        {
-          "date": null,
-          "title": "Rückvergütungen",
-          "url": "https://www.danibooks.de/index.php?controller=order-slip"
-        },
         {
           "date": null,
           "title": "Gesamtverzeichnis",
@@ -879,59 +661,14 @@
         },
         {
           "date": null,
-          "title": "Versand und Versandkosten",
-          "url": "https://www.danibooks.de/content/11-versand-und-versandkosten"
-        },
-        {
-          "date": null,
           "title": "AGB und Gewährleistung",
           "url": "https://www.danibooks.de/content/8-agb-und-gewaehrleistung"
-        },
-        {
-          "date": null,
-          "title": "Vertrag widerrufen",
-          "url": "https://www.danibooks.de/order-withdrawl"
-        },
-        {
-          "date": null,
-          "title": "Passwort vergessen?",
-          "url": "https://www.danibooks.de/index.php?controller=password"
         }
       ]
     },
     "dokico": {
       "errors": [],
       "items": [
-        {
-          "date": null,
-          "title": "Hilfe &amp; Kontakt",
-          "url": "https://dokico.de/pages/contact"
-        },
-        {
-          "date": null,
-          "title": "Versand &amp; Lieferung",
-          "url": "https://dokico.de/policies/shipping-policy"
-        },
-        {
-          "date": null,
-          "title": "Teilnahmebedingungen für Gewinnspiele",
-          "url": "https://dokico.de/pages/teilnahmebedingungen-fur-gewinnspiele"
-        },
-        {
-          "date": null,
-          "title": "Allgemeine Geschäftsbedingungen",
-          "url": "https://dokico.de/policies/terms-of-service"
-        },
-        {
-          "date": null,
-          "title": "Mit E-Mail anmelden Anmelden",
-          "url": "https://dokico.de/customer_authentication/login?return_to=%2F&locale=de&ui_hint=full&region_country=DE"
-        },
-        {
-          "date": null,
-          "title": "Weiter einkaufen",
-          "url": "https://dokico.de/collections/katalog"
-        },
         {
           "date": null,
           "title": "Dem Mond das Gift, der Nacht die Medizin, Band 1: Die Assassine, die sterben will, und eine Vampirin, deren Tod erwünscht ist - Supporter Edition",
@@ -1054,16 +791,6 @@
         },
         {
           "date": null,
-          "title": "Datenschutzerklärung",
-          "url": "https://dokico.de/policies/privacy-policy"
-        },
-        {
-          "date": null,
-          "title": "Kontaktinformationen",
-          "url": "https://dokico.de/policies/contact-information"
-        },
-        {
-          "date": null,
           "title": "Kaya-chan hat keine Angst, Band 01-06 im Sammelschuber (Vollbox)",
           "url": "https://dokico.de/products/kaya-chan-hat-keine-angst-band-06-limited-edition-vollbox"
         },
@@ -1081,11 +808,6 @@
           "date": null,
           "title": "Kaya-chan hat keine Angst, Band 05 - Limited Edition",
           "url": "https://dokico.de/products/kaya-chan-hat-keine-angst-band-05-limited-edition"
-        },
-        {
-          "date": null,
-          "title": "Kostenloser EU Widerrufsbutton",
-          "url": "https://apps.shopify.com/eu-widerrufsbutton"
         }
       ]
     },
@@ -1556,16 +1278,6 @@
         },
         {
           "date": null,
-          "title": "Frequently Asked Questions",
-          "url": "https://j-novel.club/faq"
-        },
-        {
-          "date": null,
-          "title": "Terms of Service",
-          "url": "https://j-novel.club/tos"
-        },
-        {
-          "date": null,
           "title": "EU GPSR Information",
           "url": "https://www.hachette.co.uk/landing-page/eu-economic-operators/"
         }
@@ -1586,11 +1298,6 @@
         },
         {
           "date": null,
-          "title": "Weitere Meldungen",
-          "url": "https://www.manga-passion.de/news/german"
-        },
-        {
-          "date": null,
           "title": "Modern Graphics",
           "url": "https://modern-graphics.de/"
         }
@@ -1603,11 +1310,6 @@
           "date": null,
           "title": "Manga-Neuheiten",
           "url": "https://www.manga2you.de/news/guides/neuheiten/"
-        },
-        {
-          "date": null,
-          "title": "Verlagsvorschau",
-          "url": "https://www.manga2you.de/news/lizenzen/"
         },
         {
           "date": null,
@@ -1698,32 +1400,12 @@
           "date": null,
           "title": "»Kaya-chan hat keine Angst« erhält Sammelschuber",
           "url": "https://www.manga2you.de/news/96031/kaya-chan-hat-keine-angst-band-6-schuber/"
-        },
-        {
-          "date": null,
-          "title": "${esc(data.privacyUrl)}",
-          "url": "https://www.manga2you.de/${esc(data.privacyUrl)}"
         }
       ]
     },
     "tokyopop": {
       "errors": [],
       "items": [
-        {
-          "date": null,
-          "title": "Persönliches Profil",
-          "url": "https://tokyopop.de/account/profile"
-        },
-        {
-          "date": null,
-          "title": "Warenkorb 0,00 €*",
-          "url": "https://tokyopop.de/checkout/cart"
-        },
-        {
-          "date": null,
-          "title": "Zur Kategorie Bücher",
-          "url": "https://tokyopop.de/buecher/"
-        },
         {
           "date": null,
           "title": "Jubiläumseditionen",
@@ -1733,61 +1415,6 @@
           "date": null,
           "title": "Yomimono Magazin",
           "url": "https://tokyopop.de/buecher/yomimono/"
-        },
-        {
-          "date": null,
-          "title": "Zur Kategorie Merchandising",
-          "url": "https://tokyopop.de/merchandising/"
-        },
-        {
-          "date": null,
-          "title": "Manga Merchandise",
-          "url": "https://tokyopop.de/merchandising/manga-merchandise/"
-        },
-        {
-          "date": null,
-          "title": "TOKYOPOP Merchandise",
-          "url": "https://tokyopop.de/merchandising/tokyopop-merchandise/"
-        },
-        {
-          "date": null,
-          "title": "Zur Kategorie Kalender",
-          "url": "https://tokyopop.de/kalender/"
-        },
-        {
-          "date": null,
-          "title": "Veröffentlichungen am 12. August 2026",
-          "url": "https://tokyopop.de/Kalender/Veroeffentlichungen-am-12.-August-2026/"
-        },
-        {
-          "date": null,
-          "title": "Veröffentlichungen am 9. September 2026",
-          "url": "https://tokyopop.de/Kalender/Veroeffentlichungen-am-9.-September-2026/"
-        },
-        {
-          "date": null,
-          "title": "Veröffentlichungen am 14. Oktober 2026",
-          "url": "https://tokyopop.de/Kalender/Veroeffentlichungen-am-14.-Oktober-2026/"
-        },
-        {
-          "date": null,
-          "title": "Programmvorschau",
-          "url": "https://tokyopop.de/blog/programmvorschau-ab-september-2026-uebersicht"
-        },
-        {
-          "date": null,
-          "title": "Release-Updates",
-          "url": "https://tokyopop.de/kalender/weitere-erscheinungstermine/"
-        },
-        {
-          "date": null,
-          "title": "Zur Kategorie Leseproben",
-          "url": "https://tokyopop.de/leseproben/"
-        },
-        {
-          "date": null,
-          "title": "Zeige alle Kategorien",
-          "url": "https://tokyopop.de/widgets/menu/offcanvas"
         },
         {
           "date": null,
@@ -1871,11 +1498,6 @@
         },
         {
           "date": null,
-          "title": "Preview Lizenzen",
-          "url": "https://tokyopop.de/blog/preview-lizenzen"
-        },
-        {
-          "date": null,
           "title": "Gute Nacht Punpun – Perfect Edition",
           "url": "https://tokyopop.de/blog/gute-nacht-punpun-perfect-edition"
         },
@@ -1903,127 +1525,12 @@
           "date": null,
           "title": "Top 20 im Januar 2026",
           "url": "https://tokyopop.de/blog/top-20-im-januar-2026"
-        },
-        {
-          "date": null,
-          "title": "Datenschutzbestimmungen",
-          "url": "https://tokyopop.de/widgets/cms/0191a0f620b8711c9c504c0cadd6707c"
-        },
-        {
-          "date": null,
-          "title": "Hilfe &amp; Antworten",
-          "url": "https://tokyopop.de/Service/Hilfe-Antworten/"
-        },
-        {
-          "date": null,
-          "title": "Versand und Zahlungsbedingungen",
-          "url": "https://tokyopop.de/Service/Versand-und-Zahlungsbedingungen/"
-        },
-        {
-          "date": null,
-          "title": "Vertrag widerrufen",
-          "url": "https://tokyopop.de/Service/Vertrag-widerrufen/"
-        },
-        {
-          "date": null,
-          "title": "Infos zur Buchpreisbindung",
-          "url": "https://tokyopop.de/Service/Infos-zur-Buchpreisbindung/"
-        },
-        {
-          "date": null,
-          "title": "Defekter Artikel",
-          "url": "https://tokyopop.de/Service/Defekter-Artikel/"
-        },
-        {
-          "date": null,
-          "title": "Stellenangebote",
-          "url": "https://tokyopop.de/Informationen/Stellenangebote/"
-        },
-        {
-          "date": null,
-          "title": "Datenschutz Facebook",
-          "url": "https://tokyopop.de/Datenschutz-Facebook/"
-        },
-        {
-          "date": null,
-          "title": "Datenschutz InstaGram",
-          "url": "https://tokyopop.de/Datenschutz-InstaGram/"
-        },
-        {
-          "date": null,
-          "title": "Datenschutz TikTok",
-          "url": "https://tokyopop.de/Datenschutz-TikTok/"
-        },
-        {
-          "date": null,
-          "title": "Zum E-Book Download",
-          "url": "https://tokyopop.de/account/order"
         }
       ]
     },
     "yenpress": {
       "errors": [],
       "items": [
-        {
-          "date": null,
-          "title": "Action and Adventure",
-          "url": "https://yenpress.com/genres?category=light-novels&genre=action-and-adventure"
-        },
-        {
-          "date": null,
-          "title": "Crime and Mystery",
-          "url": "https://yenpress.com/genres?category=light-novels&genre=crime-and-mystery"
-        },
-        {
-          "date": null,
-          "title": "Science Fiction",
-          "url": "https://yenpress.com/genres?category=light-novels&genre=science-fiction"
-        },
-        {
-          "date": null,
-          "title": "Special Interest",
-          "url": "https://yenpress.com/genres?category=light-novels&genre=special-interest"
-        },
-        {
-          "date": null,
-          "title": "Action and Adventure",
-          "url": "https://yenpress.com/genres?category=manga&genre=action-and-adventure"
-        },
-        {
-          "date": null,
-          "title": "Crime and Mystery",
-          "url": "https://yenpress.com/genres?category=manga&genre=crime-and-mystery"
-        },
-        {
-          "date": null,
-          "title": "Science Fiction",
-          "url": "https://yenpress.com/genres?category=manga&genre=science-fiction"
-        },
-        {
-          "date": null,
-          "title": "Special Interest",
-          "url": "https://yenpress.com/genres?category=manga&genre=special-interest"
-        },
-        {
-          "date": null,
-          "title": "Action and Adventure",
-          "url": "https://yenpress.com/genres?category=comics&genre=action-and-adventure"
-        },
-        {
-          "date": null,
-          "title": "Crime and Mystery",
-          "url": "https://yenpress.com/genres?category=comics&genre=crime-and-mystery"
-        },
-        {
-          "date": null,
-          "title": "Science Fiction",
-          "url": "https://yenpress.com/genres?category=comics&genre=science-fiction"
-        },
-        {
-          "date": null,
-          "title": "Special Interest",
-          "url": "https://yenpress.com/genres?category=comics&genre=special-interest"
-        },
         {
           "date": null,
           "title": "The Remarried Empress, Vol. 11 2026",
@@ -2048,26 +1555,6 @@
           "date": null,
           "title": "The World After the Fall, Vol. 15 2026",
           "url": "https://yenpress.com/titles/9798400905360-the-world-after-the-fall-vol-15"
-        },
-        {
-          "date": null,
-          "title": "Action and Adventure",
-          "url": "https://yenpress.com/genres?category=audio-books&genre=action-and-adventure"
-        },
-        {
-          "date": null,
-          "title": "Crime and Mystery",
-          "url": "https://yenpress.com/genres?category=audio-books&genre=crime-and-mystery"
-        },
-        {
-          "date": null,
-          "title": "Science Fiction",
-          "url": "https://yenpress.com/genres?category=audio-books&genre=science-fiction"
-        },
-        {
-          "date": null,
-          "title": "Special Interest",
-          "url": "https://yenpress.com/genres?category=audio-books&genre=special-interest"
         },
         {
           "date": null,
@@ -2096,26 +1583,6 @@
         },
         {
           "date": null,
-          "title": "Action and Adventure",
-          "url": "https://yenpress.com/genres?category=digital-ebooks&genre=action-and-adventure"
-        },
-        {
-          "date": null,
-          "title": "Crime and Mystery",
-          "url": "https://yenpress.com/genres?category=digital-ebooks&genre=crime-and-mystery"
-        },
-        {
-          "date": null,
-          "title": "Science Fiction",
-          "url": "https://yenpress.com/genres?category=digital-ebooks&genre=science-fiction"
-        },
-        {
-          "date": null,
-          "title": "Special Interest",
-          "url": "https://yenpress.com/genres?category=digital-ebooks&genre=special-interest"
-        },
-        {
-          "date": null,
           "title": "The Summer Hikaru Died, Chapter 51 2026",
           "url": "https://yenpress.com/titles/9798855454383-the-summer-hikaru-died-chapter-51"
         },
@@ -2141,23 +1608,8 @@
         },
         {
           "date": null,
-          "title": "Accessibility Statement",
-          "url": "https://yenpress.com/accessibility-statement"
-        },
-        {
-          "date": null,
-          "title": "Search by Search by -->",
-          "url": "https://yenpress.com/search"
-        },
-        {
-          "date": null,
           "title": "EU Economic Operators",
           "url": "https://yenpress.com/eu-economic-operators"
-        },
-        {
-          "date": null,
-          "title": "Website by: eDesign",
-          "url": "https://edesigninteractive.com/"
         }
       ]
     }
