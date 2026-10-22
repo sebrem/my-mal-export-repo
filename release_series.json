@@ -1,657 +1,101 @@
 {
-  "comment": "Seed fuer Release-Kalender-Action (Roadmap Punkt 3, 22.10.2026). Generiert aus litfass-bestand.md (Laufende Serien, print-de) + beobachtungsliste-verfuegbarkeit.md (Kobo-/E-Book-Beobachtung, kobo-en/kindle-en). lane: print-de = dt. Print beim Verlag/buchhandel.de beobachten; kobo-en = kobo US-Suche (Skill-Regeln beachten); kindle-en = Amazon-Kindle. watch = naechster erwarteter Band lt. Beobachtungsliste (Stand 22.10.2026). Nach groesseren Bestandsaenderungen manuell reviewen. Kauf-Backlog (BESTELLBAR-JETZT-Listen) bewusst NICHT enthalten - das ist Task-Entscheidung, nicht Release-Watch.",
+  "comment": "Seed fuer Release-Kalender-Action (Roadmap Punkt 3, 22.10.2026; v2 22.10.2026: Umlaut-Doppelkodierung der print-de-Titel aus der Bash-Extraktionspipeline korrigiert). Generiert aus litfass-bestand.md (Laufende Serien, print-de) + beobachtungsliste-verfuegbarkeit.md (Kobo-/E-Book-Beobachtung, kobo-en/kindle-en). lane: print-de = dt. Print beim Verlag/buchhandel.de beobachten; kobo-en = kobo US-Suche (Skill-Regeln beachten); kindle-en = Amazon-Kindle. watch = naechster erwarteter Band lt. Beobachtungsliste (Stand 22.10.2026). Nach groesseren Bestandsaenderungen manuell reviewen. Kauf-Backlog (BESTELLBAR-JETZT-Listen) bewusst NICHT enthalten - das ist Task-Entscheidung, nicht Release-Watch.",
   "generated": "2026-10-22",
   "series": [
-    {
-      "id": "a-yuri-love-story-that-begins-with-getting-rejected-in-a-dream",
-      "title": "A Yuri Love Story That Begins with Getting Rejected in a Dream",
-      "orig": "Yume de Furarete Hajimaru Yuri",
-      "publisher": "Yomeru",
-      "lane": "print-de"
-    },
-    {
-      "id": "adeus-adeus",
-      "title": "Adeus Adeus",
-      "orig": "Adeus Adeus",
-      "publisher": "Splitter",
-      "lane": "print-de"
-    },
-    {
-      "id": "asayake-refrain",
-      "title": "Asayake Refrain",
-      "orig": "Asayake Refrain",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "atelier-of-witch-hat",
-      "title": "Atelier of Witch Hat",
-      "orig": "Tongari Boushi no Atelier",
-      "publisher": "Egmont Manga",
-      "lane": "print-de"
-    },
-    {
-      "id": "bambus-samurai",
-      "title": "Bambus Samurai",
-      "orig": "Takemitsuzamurai",
-      "publisher": "Reprodukt",
-      "lane": "print-de"
-    },
-    {
-      "id": "bocchi-the-rock",
-      "title": "Bocchi the Rock!",
-      "orig": "Bocchi the Rock!",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "bride-of-the-barrier-master",
-      "title": "Bride of the Barrier Master",
-      "orig": "Kekkaishi no Ichirinka",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "candy-cigarettes",
-      "title": "Candy & Cigarettes",
-      "orig": "Candy & Cigarettes",
-      "publisher": "Altraverse",
-      "lane": "print-de"
-    },
-    {
-      "id": "call-of-the-night",
-      "title": "Call of the Night",
-      "orig": "Yofukashi no Uta",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "cat-s-eye-ein-supertrio",
-      "title": "Cat's Eye - Ein Supertrio",
-      "orig": "Cat's Eye",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "cat-life-balance",
-      "title": "Cat-Life Balance",
-      "orig": "Kurone-san wa Nyaa to Nakanai",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "colorful-antinomy",
-      "title": "Colorful Antinomy",
-      "orig": "Colorful Antinomy",
-      "publisher": "Splitter",
-      "lane": "print-de"
-    },
-    {
-      "id": "dating-a-vampire",
-      "title": "Dating a Vampire",
-      "orig": "Vampire-sama ga Akiramenai!",
-      "publisher": "Loewe",
-      "lane": "print-de"
-    },
-    {
-      "id": "dai-dark",
-      "title": "Dai Dark",
-      "orig": "Dai Dark",
-      "publisher": "Manga Cult",
-      "lane": "print-de"
-    },
-    {
-      "id": "das-fast-perfekte-fr-ulein-und-sein-butler",
-      "title": "Das (fast) perfekte FrÃ¤ulein und sein Butler",
-      "orig": "Saijo no Osewa",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "das-m-dchen-aus-dem-monsterwald",
-      "title": "Das MÃ¤dchen aus dem Monsterwald",
-      "orig": "Mamono no Mori no Shoujo Nova",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "der-blick-aus-133-cm-h-he",
-      "title": "Der Blick aus 133 cm HÃ¶he",
-      "orig": "133 cm no Keshiki",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "der-kleine-laden-der-blumenhexe",
-      "title": "Der kleine Laden der Blumenhexe",
-      "orig": "Majo no Hanaya-san",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "die-letzte-elfe",
-      "title": "Die letzte Elfe",
-      "orig": "Saigo no Elf",
-      "publisher": "Yomeru",
-      "lane": "print-de"
-    },
-    {
-      "id": "die-tageb-cher-der-apothekerin-light-novel",
-      "title": "Die TagebÃ¼cher der Apothekerin (Light Novel)",
-      "orig": "Kusuriya no Hitorigoto",
-      "publisher": "Manga Cult",
-      "lane": "print-de"
-    },
-    {
-      "id": "die-tageb-cher-der-apothekerin-shaolans-erinnerungen",
-      "title": "Die TagebÃ¼cher der Apothekerin â Shaolans Erinnerungen",
-      "orig": "Kusuriya no Hitorigoto Gaiden: Xiaolan Kaisouroku",
-      "publisher": "Manga Cult",
-      "lane": "print-de"
-    },
-    {
-      "id": "die-tochter-des-knochendrachen",
-      "title": "Die Tochter des Knochendrachen",
-      "orig": "Hone Dragon no Mana Musume",
-      "publisher": "Panini",
-      "lane": "print-de"
-    },
-    {
-      "id": "dorohedoro",
-      "title": "Dorohedoro",
-      "orig": "Dorohedoro",
-      "publisher": "Manga Cult",
-      "lane": "print-de"
-    },
-    {
-      "id": "du-bist-nicht-allein",
-      "title": "Du bist nicht allein",
-      "orig": "Hitori de Ikiru wa Mama Naranu",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "even-introverted-gals-want-to-look-cool",
-      "title": "Even Introverted Gals Want to Look Cool!",
-      "orig": "Inkya Gal demo Ikigaritai!",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "frieren-nach-dem-ende-der-reise",
-      "title": "Frieren - Nach dem Ende der Reise",
-      "orig": "Sousou no Frieren",
-      "publisher": "Altraverse",
-      "lane": "print-de"
-    },
-    {
-      "id": "frieren-pr-ludium-roman",
-      "title": "Frieren: PrÃ¤ludium (Roman)",
-      "orig": "Shousetsu Sousou no Frieren: Zensou",
-      "publisher": "Altraverse",
-      "lane": "print-de"
-    },
-    {
-      "id": "hana-kimi-pearls",
-      "title": "Hana-Kimi Pearls",
-      "orig": "Hanazakari no Kimitachi e",
-      "publisher": "Carlsen",
-      "lane": "print-de"
-    },
-    {
-      "id": "heimweg-nach-der-schule",
-      "title": "Heimweg nach der Schule",
-      "orig": "Houkago Kitaku Biyori",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "herr-unsichtbar-und-seine-zuk-nftige-frau",
-      "title": "Herr Unsichtbar und seine zukÃ¼nftige Frau",
-      "orig": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari",
-      "publisher": "Egmont Manga",
-      "lane": "print-de"
-    },
-    {
-      "id": "i-married-my-female-friend",
-      "title": "I Married My Female Friend",
-      "orig": "Onna Tomodachi to Kekkon Shitemita.",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "i-want-to-end-this-love-game-en",
-      "title": "I Want to End This Love Game (EN)",
-      "orig": "Aishiteru Game wo Owarasetai",
-      "publisher": "Viz (EN)",
-      "lane": "print-de"
-    },
-    {
-      "id": "jaadugar-eine-hexe-in-der-mongolei",
-      "title": "Jaadugar: Eine Hexe in der Mongolei",
-      "orig": "Tenmaku no Jaadugar",
-      "publisher": "Panini",
-      "lane": "print-de"
-    },
-    {
-      "id": "jenseits-der-worte",
-      "title": "Jenseits der Worte",
-      "orig": "Kemutai Hanashi",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "kaijin-fugeki-kindled-spirits",
-      "title": "Kaijin Fugeki - Kindled Spirits",
-      "orig": "Kaijin Fugeki",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "k-tzchen-komugis-backabenteuer",
-      "title": "KÃ¤tzchen Komugis Backabenteuer",
-      "orig": "Komugi ga Jiman no Panya-san",
-      "publisher": "Splitter",
-      "lane": "print-de"
-    },
-    {
-      "id": "kirio-fanclub",
-      "title": "Kirio Fanclub",
-      "orig": "Kirio Fanclub",
-      "publisher": "Carlsen",
-      "lane": "print-de"
-    },
-    {
-      "id": "haruko-ein-leben-f-r-die-tiere",
-      "title": "Haruko - Ein Leben fÃ¼r die Tiere",
-      "orig": "Haruko (Yamaura, Saku)",
-      "publisher": "Carlsen",
-      "lane": "print-de"
-    },
-    {
-      "id": "verarmt-verlobt-verschleimt-eine-unerwartet-gl-ckliche-beziehung",
-      "title": "Verarmt, verlobt, verschleimt: Eine unerwartet glÃ¼ckliche Beziehung",
-      "orig": "Slime Taikou to Botsuraku Reijou no Angai Shiawase na Konyaku",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "leichtf-ig-auf-der-tanzfl-che",
-      "title": "LeichtfÃ¼Ãig auf der TanzflÃ¤che",
-      "orig": "Odoriba ni Skirt ga Naru",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "looking-at-your-profile",
-      "title": "Looking at Your Profile",
-      "orig": "Kimi no Yokogao wo Miteita",
-      "publisher": "Schreiber",
-      "lane": "print-de"
-    },
-    {
-      "id": "luna-die-champignonhexe",
-      "title": "Luna - Die Champignonhexe",
-      "orig": "Champignon no Majo",
-      "publisher": "Altraverse",
-      "lane": "print-de"
-    },
-    {
-      "id": "meine-kollegin-musubu",
-      "title": "Meine Kollegin Musubu",
-      "orig": "Asoko de Hataraku Musubu-san",
-      "publisher": "Kaze",
-      "lane": "print-de"
-    },
-    {
-      "id": "miss-kobayashi-s-dragon-maid",
-      "title": "Miss Kobayashi's Dragon Maid",
-      "orig": "Kobayashi-san Chi no Maid Dragon",
-      "publisher": "dani books",
-      "lane": "print-de"
-    },
-    {
-      "id": "miss-kobayashi-s-dragon-maid-kannas-daily-life",
-      "title": "Miss Kobayashi's Dragon Maid: Kannas Daily Life",
-      "orig": "Kobayashi-san Chi no Maid Dragon: Kanna no Nichijou",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "mit-dir-durchs-all",
-      "title": "Mit dir durchs All",
-      "orig": "Kimi to Uchuu wo Aruku Tame ni",
-      "publisher": "Pegasus Manga",
-      "lane": "print-de"
-    },
-    {
-      "id": "ruridragon",
-      "title": "RuriDragon",
-      "orig": "Ruri Dragon",
-      "publisher": "Egmont Manga",
-      "lane": "print-de"
-    },
-    {
-      "id": "rascal-does-not-dream-of-bunny-girl-senpai-light-novel-en",
-      "title": "Rascal Does Not Dream of Bunny Girl Senpai (Light Novel, EN)",
-      "orig": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
-      "publisher": "Yen Press (EN-Import)",
-      "lane": "print-de"
-    },
-    {
-      "id": "rascal-does-not-dream-of-bunny-girl-senpai-manga-en",
-      "title": "Rascal Does Not Dream of Bunny Girl Senpai (Manga, EN)",
-      "orig": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai (Manga)",
-      "publisher": "Yen Press (EN-Import)",
-      "lane": "print-de"
-    },
-    {
-      "id": "sawa-wants-to-fish-and-eat",
-      "title": "Sawa Wants to Fish and Eat",
-      "orig": "Tsutte Tabetai Gal Sawa-san",
-      "publisher": "Panini",
-      "lane": "print-de"
-    },
-    {
-      "id": "schneeengel",
-      "title": "Schneeengel",
-      "orig": "Kono Setsugen de Kimi ga Zutto Waratteirareru You ni",
-      "publisher": "Loewe",
-      "lane": "print-de"
-    },
-    {
-      "id": "seirei-gensouki-spirit-chronicles-manga",
-      "title": "Seirei Gensouki: Spirit Chronicles (Manga)",
-      "orig": "Seirei Gensouki",
-      "publisher": "AniMachon",
-      "lane": "print-de"
-    },
-    {
-      "id": "show-ha-shoten-champions-of-comedy",
-      "title": "Show-ha Shoten! Champions of Comedy",
-      "orig": "Shouha Shouten!",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "smoking-behind-the-supermarket",
-      "title": "Smoking Behind the Supermarket",
-      "orig": "Super no Ura de Yani Suu Futari",
-      "publisher": "Carlsen",
-      "lane": "print-de"
-    },
-    {
-      "id": "solanin",
-      "title": "Solanin",
-      "orig": "Solanin",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "the-fallen-summoner-and-i-the-invisible-one",
-      "title": "The Fallen Summoner and I, the Invisible One",
-      "orig": "Ochikobore Shoukanshi to Toumei na Boku",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "the-food-diary-of-miss-maid",
-      "title": "The Food Diary of Miss Maid",
-      "orig": "Maid-san wa Taberu dake",
-      "publisher": "Dokico",
-      "lane": "print-de"
-    },
-    {
-      "id": "the-gender-of-mona-lisa",
-      "title": "The Gender of Mona Lisa",
-      "orig": "Seibetsu \"Mona Lisa\" no Kimi e.",
-      "publisher": "Carlsen",
-      "lane": "print-de"
-    },
-    {
-      "id": "they-re-still-being-shaken-this-morning",
-      "title": "They're Still Being Shaken This Morning",
-      "orig": "Kesa mo Yuraretemasu",
-      "publisher": "Panini",
-      "lane": "print-de"
-    },
-    {
-      "id": "tonaneko-meine-katzenhafte-mitsch-lerin",
-      "title": "TonaNeko - Meine katzenhafte MitschÃ¼lerin",
-      "orig": "Tonari no Neko to Koi Shirazu",
-      "publisher": "Panini",
-      "lane": "print-de"
-    },
-    {
-      "id": "touring-after-the-apocalypse",
-      "title": "Touring After the Apocalypse",
-      "orig": "Shuumatsu Touring",
-      "publisher": "Carlsen",
-      "lane": "print-de"
-    },
-    {
-      "id": "welcome-to-japan-ms-elf-manga-dt-print",
-      "title": "Welcome to Japan, Ms. Elf! (Manga, dt. Print)",
-      "orig": "Nihon e Youkoso Elf-san.",
-      "publisher": "Yomeru",
-      "lane": "print-de"
-    },
-    {
-      "id": "wistoria-zauberstab-amp-schwert",
-      "title": "Wistoria - Zauberstab &amp; Schwert",
-      "orig": "Tsue to Tsurugi no Wistoria",
-      "publisher": "Altraverse",
-      "lane": "print-de"
-    },
-    {
-      "id": "your-naughty-face-is-only-mine",
-      "title": "Your Naughty Face Is Only Mine",
-      "orig": "Utsushicha Dame na Kao",
-      "publisher": "Tokyopop",
-      "lane": "print-de"
-    },
-    {
-      "id": "2nd-prettiest-girl",
-      "title": "I Made Friends with the 2nd Prettiest Girl in My Class",
-      "lane": "kobo-en",
-      "watch": "EN Bd. 4"
-    },
-    {
-      "id": "anjou-san",
-      "title": "Yancha Gal no Anjou-san (Mischievous Gal Anjou-san)",
-      "lane": "kobo-en",
-      "watch": "EN Bd. 4+",
-      "notes": "kobo-Titelsuche versagt - nur per Autor-Suche 'Yuichi Katou' + Release-Sortierung; parallel DE Yomeru Print Bd. 4+ beobachten"
-    },
-    {
-      "id": "gals-cant-be-kind",
-      "title": "Gals Can't Be Kind to Otaku!?",
-      "lane": "kobo-en",
-      "watch": "EN Bd. 3+",
-      "notes": "EN Yen Press weit hinter JP; DE-Panini-Lizenz seit 2024 parallel beobachten"
-    },
-    {
-      "id": "water-magician-manga",
-      "title": "The Water Magician (Manga)",
-      "lane": "kobo-en",
-      "watch": "naechster Manga-Band",
-      "notes": "kobo-Titelsuche zeigt primär LN-Lane - Manga per Mangaka-Suche; JNC-Release-Schedule als Fruehindikator (Sebastian liest Kapitel vorab im JNC-Abo)"
-    },
-    {
-      "id": "mono",
-      "title": "mono",
-      "lane": "kobo-en",
-      "watch": "EN Bd. 5",
-      "notes": "JP-Hiatus seit 27.07.2026 (Afro) - EN-Release der existierenden JP-Bde. unberuehrt, JP Bd. 6+ erst nach Hiatus-Ende"
-    },
-    {
-      "id": "aharen-omnibus",
-      "title": "Aharen-san is Indecipherable (Omnibus)",
-      "lane": "kobo-en",
-      "watch": "Omni 7-8",
-      "notes": "Omnibus-Lane! kobo listet auch Einzelbaende bis 14 - NICHT kaufen"
-    },
-    {
-      "id": "exiled-heavy-knight-omnibus",
-      "title": "The Exiled Heavy Knight (Omnibus)",
-      "lane": "kobo-en",
-      "watch": "Omni Vol. 5-6"
-    },
-    {
-      "id": "inn-on-dungeon-island-omnibus",
-      "title": "Let's Run an Inn on Dungeon Island! (Omnibus)",
-      "lane": "kobo-en",
-      "watch": "Omni 5-6",
-      "notes": "parallel Einzelband-Lane Bd. 3 sofort kaufbar (BESTELLBAR-JETZT, Kauf-Entscheidung, nicht Release-Watch)"
-    },
-    {
-      "id": "chillin-level2",
-      "title": "Chillin' in Another World with Level 2 (Manga)",
-      "lane": "kobo-en",
-      "watch": "Vol. 14"
-    },
-    {
-      "id": "my-senpai-is-annoying",
-      "title": "My Senpai is Annoying",
-      "lane": "kobo-en",
-      "watch": "Vol. 14"
-    },
-    {
-      "id": "archdemons-dilemma-manga",
-      "title": "A Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
-      "lane": "kobo-en",
-      "watch": "Vol. 15"
-    },
-    {
-      "id": "tale-of-the-secret-saint",
-      "title": "A Tale of the Secret Saint",
-      "lane": "kobo-en",
-      "watch": "Vol. 13"
-    },
-    {
-      "id": "brilliant-healer",
-      "title": "The Brilliant Healer's New Life",
-      "lane": "kobo-en",
-      "watch": "Bd. 6",
-      "notes": "auf kobo IN gelistet - DE-Shop mitpruefen"
-    },
-    {
-      "id": "what-i-love-about-you",
-      "title": "What I Love About You",
-      "lane": "kobo-en",
-      "watch": "Bd. 3",
-      "notes": "bei Manga Mirai gelistet"
-    },
-    {
-      "id": "elf-wife-hunting",
-      "title": "Hunting in Another World with My Elf Wife",
-      "lane": "kobo-en",
-      "watch": "Bd. 8",
-      "notes": "Vol-Nummern nur aus der Produktkontextzeile lesen"
-    },
-    {
-      "id": "chainsmoker-cat",
-      "title": "Chainsmoker Cat",
-      "lane": "kobo-en",
-      "watch": "Bd. 5",
-      "notes": "Kodansha"
-    },
-    {
-      "id": "silent-witch-ln",
-      "title": "Secrets of the Silent Witch (LN)",
-      "lane": "kobo-en",
-      "watch": "Bd. 9"
-    },
-    {
-      "id": "shy-demon-king",
-      "title": "The Shy Demon King",
-      "lane": "kobo-en",
-      "watch": "Bd. 5"
-    },
-    {
-      "id": "melody-of-the-boundary",
-      "title": "Melody of the Boundary",
-      "lane": "kobo-en",
-      "watch": "Bd. 2"
-    },
-    {
-      "id": "how-to-grill-our-love",
-      "title": "How to Grill Our Love",
-      "lane": "kobo-en",
-      "watch": "Bd. 23"
-    },
-    {
-      "id": "akutsu-san",
-      "title": "Please Go Home, Miss Akutsu!",
-      "lane": "kobo-en",
-      "watch": "Bd. 12"
-    },
-    {
-      "id": "ein-gefuehl-namens-liebe",
-      "title": "Ein Gefühl namens Liebe",
-      "lane": "print-de",
-      "publisher": "Carlsen",
-      "watch": "finaler dt. Bd. 19"
-    },
-    {
-      "id": "goblin-reborn-manga",
-      "title": "So What's Wrong with Getting Reborn as a Goblin?! (Manga)",
-      "lane": "kobo-en",
-      "watch": "Manga-Bd. 8",
-      "notes": "kobo-Treffer 'Vol. 8-10' vermutlich LN-Lane - Format der Listung pruefen"
-    },
-    {
-      "id": "virgin-knight-manga",
-      "title": "Virgin Knight (Manga)",
-      "lane": "kobo-en",
-      "watch": "Manga-Bd. 4",
-      "notes": "gelistete 'Bd. 4' ist die LN-Lane - Sebastian liest Manga-Lane"
-    },
-    {
-      "id": "rise-of-the-outlaw-tamer",
-      "title": "Rise of the Outlaw Tamer (Manga)",
-      "lane": "kobo-en",
-      "watch": "Bd. 8"
-    },
-    {
-      "id": "pass-the-monster-meat",
-      "title": "Pass the Monster Meat",
-      "lane": "kobo-en",
-      "watch": "Bd. 11"
-    },
-    {
-      "id": "great-cleric-ln",
-      "title": "Great Cleric (LN)",
-      "lane": "kobo-en",
-      "watch": "Bd. 17",
-      "notes": "J-Novel Club"
-    },
-    {
-      "id": "invincible-little-lady",
-      "title": "Invincible Little Lady",
-      "lane": "kobo-en",
-      "watch": "Bd. 14",
-      "notes": "J-Novel Club"
-    },
-    {
-      "id": "the-black-healer",
-      "title": "The Black Healer",
-      "lane": "kindle-en",
-      "watch": "EN Vol. 8"
-    },
-    {
-      "id": "2-5d-seduction",
-      "title": "2.5D Seduction",
-      "lane": "kobo-en",
-      "watch": "Bd. 20",
-      "notes": "vorbestellt fuer 17.11. - nur Erscheinen bestaetigen"
-    },
-    {
-      "id": "fluffy-cafe",
-      "title": "Fluffy Cafe in Another World",
-      "lane": "kindle-en",
-      "watch": "Vol. 5",
-      "notes": "Seven-Seas-Release vermutlich 30.03.2027; Vol. 4 sofort kaufbar (Kauf-Backlog)"
-    }
+    {"id": "a-yuri-love-story-that-begins-with-getting-rejected-in-a-dream", "title": "A Yuri Love Story That Begins with Getting Rejected in a Dream", "orig": "Yume de Furarete Hajimaru Yuri", "publisher": "Yomeru", "lane": "print-de"},
+    {"id": "adeus-adeus", "title": "Adeus Adeus", "orig": "Adeus Adeus", "publisher": "Splitter", "lane": "print-de"},
+    {"id": "asayake-refrain", "title": "Asayake Refrain", "orig": "Asayake Refrain", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "atelier-of-witch-hat", "title": "Atelier of Witch Hat", "orig": "Tongari Boushi no Atelier", "publisher": "Egmont Manga", "lane": "print-de"},
+    {"id": "bambus-samurai", "title": "Bambus Samurai", "orig": "Takemitsuzamurai", "publisher": "Reprodukt", "lane": "print-de"},
+    {"id": "bocchi-the-rock", "title": "Bocchi the Rock!", "orig": "Bocchi the Rock!", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "bride-of-the-barrier-master", "title": "Bride of the Barrier Master", "orig": "Kekkaishi no Ichirinka", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "candy-cigarettes", "title": "Candy & Cigarettes", "orig": "Candy & Cigarettes", "publisher": "Altraverse", "lane": "print-de"},
+    {"id": "call-of-the-night", "title": "Call of the Night", "orig": "Yofukashi no Uta", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "cat-s-eye-ein-supertrio", "title": "Cat's Eye - Ein Supertrio", "orig": "Cat's Eye", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "cat-life-balance", "title": "Cat-Life Balance", "orig": "Kurone-san wa Nyaa to Nakanai", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "colorful-antinomy", "title": "Colorful Antinomy", "orig": "Colorful Antinomy", "publisher": "Splitter", "lane": "print-de"},
+    {"id": "dating-a-vampire", "title": "Dating a Vampire", "orig": "Vampire-sama ga Akiramenai!", "publisher": "Loewe", "lane": "print-de"},
+    {"id": "dai-dark", "title": "Dai Dark", "orig": "Dai Dark", "publisher": "Manga Cult", "lane": "print-de"},
+    {"id": "das-fast-perfekte-fraeulein-und-sein-butler", "title": "Das (fast) perfekte Fräulein und sein Butler", "orig": "Saijo no Osewa", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "das-maedchen-aus-dem-monsterwald", "title": "Das Mädchen aus dem Monsterwald", "orig": "Mamono no Mori no Shoujo Nova", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "der-blick-aus-133-cm-hoehe", "title": "Der Blick aus 133 cm Höhe", "orig": "133 cm no Keshiki", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "der-kleine-laden-der-blumenhexe", "title": "Der kleine Laden der Blumenhexe", "orig": "Majo no Hanaya-san", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "die-letzte-elfe", "title": "Die letzte Elfe", "orig": "Saigo no Elf", "publisher": "Yomeru", "lane": "print-de"},
+    {"id": "die-tagebuecher-der-apothekerin-light-novel", "title": "Die Tagebücher der Apothekerin (Light Novel)", "orig": "Kusuriya no Hitorigoto", "publisher": "Manga Cult", "lane": "print-de"},
+    {"id": "die-tagebuecher-der-apothekerin-shaolans-erinnerungen", "title": "Die Tagebücher der Apothekerin – Shaolans Erinnerungen", "orig": "Kusuriya no Hitorigoto Gaiden: Xiaolan Kaisouroku", "publisher": "Manga Cult", "lane": "print-de"},
+    {"id": "die-tochter-des-knochendrachen", "title": "Die Tochter des Knochendrachen", "orig": "Hone Dragon no Mana Musume", "publisher": "Panini", "lane": "print-de"},
+    {"id": "dorohedoro", "title": "Dorohedoro", "orig": "Dorohedoro", "publisher": "Manga Cult", "lane": "print-de"},
+    {"id": "du-bist-nicht-allein", "title": "Du bist nicht allein", "orig": "Hitori de Ikiru wa Mama Naranu", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "even-introverted-gals-want-to-look-cool", "title": "Even Introverted Gals Want to Look Cool!", "orig": "Inkya Gal demo Ikigaritai!", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "frieren-nach-dem-ende-der-reise", "title": "Frieren - Nach dem Ende der Reise", "orig": "Sousou no Frieren", "publisher": "Altraverse", "lane": "print-de"},
+    {"id": "frieren-praeludium-roman", "title": "Frieren: Präludium (Roman)", "orig": "Shousetsu Sousou no Frieren: Zensou", "publisher": "Altraverse", "lane": "print-de"},
+    {"id": "hana-kimi-pearls", "title": "Hana-Kimi Pearls", "orig": "Hanazakari no Kimitachi e", "publisher": "Carlsen", "lane": "print-de"},
+    {"id": "heimweg-nach-der-schule", "title": "Heimweg nach der Schule", "orig": "Houkago Kitaku Biyori", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "herr-unsichtbar-und-seine-zukuenftige-frau", "title": "Herr Unsichtbar und seine zukünftige Frau", "orig": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari", "publisher": "Egmont Manga", "lane": "print-de"},
+    {"id": "i-married-my-female-friend", "title": "I Married My Female Friend", "orig": "Onna Tomodachi to Kekkon Shitemita.", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "i-want-to-end-this-love-game-en", "title": "I Want to End This Love Game (EN)", "orig": "Aishiteru Game wo Owarasetai", "publisher": "Viz (EN)", "lane": "print-de"},
+    {"id": "jaadugar-eine-hexe-in-der-mongolei", "title": "Jaadugar: Eine Hexe in der Mongolei", "orig": "Tenmaku no Jaadugar", "publisher": "Panini", "lane": "print-de"},
+    {"id": "jenseits-der-worte", "title": "Jenseits der Worte", "orig": "Kemutai Hanashi", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "kaijin-fugeki-kindled-spirits", "title": "Kaijin Fugeki - Kindled Spirits", "orig": "Kaijin Fugeki", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "kaetzchen-komugis-backabenteuer", "title": "Kätzchen Komugis Backabenteuer", "orig": "Komugi ga Jiman no Panya-san", "publisher": "Splitter", "lane": "print-de"},
+    {"id": "kirio-fanclub", "title": "Kirio Fanclub", "orig": "Kirio Fanclub", "publisher": "Carlsen", "lane": "print-de"},
+    {"id": "haruko-ein-leben-fuer-die-tiere", "title": "Haruko - Ein Leben für die Tiere", "orig": "Haruko (Yamaura, Saku)", "publisher": "Carlsen", "lane": "print-de"},
+    {"id": "verarmt-verlobt-verschleimt-eine-unerwartet-glueckliche-beziehung", "title": "Verarmt, verlobt, verschleimt: Eine unerwartet glückliche Beziehung", "orig": "Slime Taikou to Botsuraku Reijou no Angai Shiawase na Konyaku", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "leichtfuegig-auf-der-tanzflaeche", "title": "Leichtfüßig auf der Tanzfläche", "orig": "Odoriba ni Skirt ga Naru", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "looking-at-your-profile", "title": "Looking at Your Profile", "orig": "Kimi no Yokogao wo Miteita", "publisher": "Schreiber", "lane": "print-de"},
+    {"id": "luna-die-champignonhexe", "title": "Luna - Die Champignonhexe", "orig": "Champignon no Majo", "publisher": "Altraverse", "lane": "print-de"},
+    {"id": "meine-kollegin-musubu", "title": "Meine Kollegin Musubu", "orig": "Asoko de Hataraku Musubu-san", "publisher": "Kaze", "lane": "print-de"},
+    {"id": "miss-kobayashi-s-dragon-maid", "title": "Miss Kobayashi's Dragon Maid", "orig": "Kobayashi-san Chi no Maid Dragon", "publisher": "dani books", "lane": "print-de"},
+    {"id": "miss-kobayashi-s-dragon-maid-kannas-daily-life", "title": "Miss Kobayashi's Dragon Maid: Kannas Daily Life", "orig": "Kobayashi-san Chi no Maid Dragon: Kanna no Nichijou", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "mit-dir-durchs-all", "title": "Mit dir durchs All", "orig": "Kimi to Uchuu wo Aruku Tame ni", "publisher": "Pegasus Manga", "lane": "print-de"},
+    {"id": "ruridragon", "title": "RuriDragon", "orig": "Ruri Dragon", "publisher": "Egmont Manga", "lane": "print-de"},
+    {"id": "rascal-does-not-dream-of-bunny-girl-senpai-light-novel-en", "title": "Rascal Does Not Dream of Bunny Girl Senpai (Light Novel, EN)", "orig": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "publisher": "Yen Press (EN-Import)", "lane": "print-de"},
+    {"id": "rascal-does-not-dream-of-bunny-girl-senpai-manga-en", "title": "Rascal Does Not Dream of Bunny Girl Senpai (Manga, EN)", "orig": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai (Manga)", "publisher": "Yen Press (EN-Import)", "lane": "print-de"},
+    {"id": "sawa-wants-to-fish-and-eat", "title": "Sawa Wants to Fish and Eat", "orig": "Tsutte Tabetai Gal Sawa-san", "publisher": "Panini", "lane": "print-de"},
+    {"id": "schneeengel", "title": "Schneeengel", "orig": "Kono Setsugen de Kimi ga Zutto Waratteirareru You ni", "publisher": "Loewe", "lane": "print-de"},
+    {"id": "seirei-gensouki-spirit-chronicles-manga", "title": "Seirei Gensouki: Spirit Chronicles (Manga)", "orig": "Seirei Gensouki", "publisher": "AniMachon", "lane": "print-de"},
+    {"id": "show-ha-shoten-champions-of-comedy", "title": "Show-ha Shoten! Champions of Comedy", "orig": "Shouha Shouten!", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "smoking-behind-the-supermarket", "title": "Smoking Behind the Supermarket", "orig": "Super no Ura de Yani Suu Futari", "publisher": "Carlsen", "lane": "print-de"},
+    {"id": "solanin", "title": "Solanin", "orig": "Solanin", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "the-fallen-summoner-and-i-the-invisible-one", "title": "The Fallen Summoner and I, the Invisible One", "orig": "Ochikobore Shoukanshi to Toumei na Boku", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "the-food-diary-of-miss-maid", "title": "The Food Diary of Miss Maid", "orig": "Maid-san wa Taberu dake", "publisher": "Dokico", "lane": "print-de"},
+    {"id": "the-gender-of-mona-lisa", "title": "The Gender of Mona Lisa", "orig": "Seibetsu \"Mona Lisa\" no Kimi e.", "publisher": "Carlsen", "lane": "print-de"},
+    {"id": "they-re-still-being-shaken-this-morning", "title": "They're Still Being Shaken This Morning", "orig": "Kesa mo Yuraretemasu", "publisher": "Panini", "lane": "print-de"},
+    {"id": "tonaneko-meine-katzenhafte-mitschuelerin", "title": "TonaNeko - Meine katzenhafte Mitschülerin", "orig": "Tonari no Neko to Koi Shirazu", "publisher": "Panini", "lane": "print-de"},
+    {"id": "touring-after-the-apocalypse", "title": "Touring After the Apocalypse", "orig": "Shuumatsu Touring", "publisher": "Carlsen", "lane": "print-de"},
+    {"id": "welcome-to-japan-ms-elf-manga-dt-print", "title": "Welcome to Japan, Ms. Elf! (Manga, dt. Print)", "orig": "Nihon e Youkoso Elf-san.", "publisher": "Yomeru", "lane": "print-de"},
+    {"id": "wistoria-zauberstab-schwert", "title": "Wistoria - Zauberstab & Schwert", "orig": "Tsue to Tsurugi no Wistoria", "publisher": "Altraverse", "lane": "print-de"},
+    {"id": "your-naughty-face-is-only-mine", "title": "Your Naughty Face Is Only Mine", "orig": "Utsushicha Dame na Kao", "publisher": "Tokyopop", "lane": "print-de"},
+    {"id": "2nd-prettiest-girl", "title": "I Made Friends with the 2nd Prettiest Girl in My Class", "lane": "kobo-en", "watch": "EN Bd. 4"},
+    {"id": "anjou-san", "title": "Yancha Gal no Anjou-san (Mischievous Gal Anjou-san)", "lane": "kobo-en", "watch": "EN Bd. 4+", "notes": "kobo-Titelsuche versagt - nur per Autor-Suche 'Yuichi Katou' + Release-Sortierung; parallel DE Yomeru Print Bd. 4+ beobachten"},
+    {"id": "gals-cant-be-kind", "title": "Gals Can't Be Kind to Otaku!?", "lane": "kobo-en", "watch": "EN Bd. 3+", "notes": "EN Yen Press weit hinter JP; DE-Panini-Lizenz seit 2024 parallel beobachten"},
+    {"id": "water-magician-manga", "title": "The Water Magician (Manga)", "lane": "kobo-en", "watch": "naechster Manga-Band", "notes": "kobo-Titelsuche zeigt primär LN-Lane - Manga per Mangaka-Suche; JNC-Release-Schedule als Fruehindikator (Sebastian liest Kapitel vorab im JNC-Abo)"},
+    {"id": "mono", "title": "mono", "lane": "kobo-en", "watch": "EN Bd. 5", "notes": "JP-Hiatus seit 27.07.2026 (Afro) - EN-Release der existierenden JP-Bde. unberuehrt, JP Bd. 6+ erst nach Hiatus-Ende"},
+    {"id": "aharen-omnibus", "title": "Aharen-san is Indecipherable (Omnibus)", "lane": "kobo-en", "watch": "Omni 7-8", "notes": "Omnibus-Lane! kobo listet auch Einzelbaende bis 14 - NICHT kaufen"},
+    {"id": "exiled-heavy-knight-omnibus", "title": "The Exiled Heavy Knight (Omnibus)", "lane": "kobo-en", "watch": "Omni Vol. 5-6"},
+    {"id": "inn-on-dungeon-island-omnibus", "title": "Let's Run an Inn on Dungeon Island! (Omnibus)", "lane": "kobo-en", "watch": "Omni 5-6", "notes": "parallel Einzelband-Lane Bd. 3 sofort kaufbar (BESTELLBAR-JETZT, Kauf-Entscheidung, nicht Release-Watch)"},
+    {"id": "chillin-level2", "title": "Chillin' in Another World with Level 2 (Manga)", "lane": "kobo-en", "watch": "Vol. 14"},
+    {"id": "my-senpai-is-annoying", "title": "My Senpai is Annoying", "lane": "kobo-en", "watch": "Vol. 14"},
+    {"id": "archdemons-dilemma-manga", "title": "A Archdemon's Dilemma: How to Love Your Elf Bride (Manga)", "lane": "kobo-en", "watch": "Vol. 15"},
+    {"id": "tale-of-the-secret-saint", "title": "A Tale of the Secret Saint", "lane": "kobo-en", "watch": "Vol. 13"},
+    {"id": "brilliant-healer", "title": "The Brilliant Healer's New Life", "lane": "kobo-en", "watch": "Bd. 6", "notes": "auf kobo IN gelistet - DE-Shop mitpruefen"},
+    {"id": "what-i-love-about-you", "title": "What I Love About You", "lane": "kobo-en", "watch": "Bd. 3", "notes": "bei Manga Mirai gelistet"},
+    {"id": "elf-wife-hunting", "title": "Hunting in Another World with My Elf Wife", "lane": "kobo-en", "watch": "Bd. 8", "notes": "Vol-Nummern nur aus der Produktkontextzeile lesen"},
+    {"id": "chainsmoker-cat", "title": "Chainsmoker Cat", "lane": "kobo-en", "watch": "Bd. 5", "notes": "Kodansha"},
+    {"id": "silent-witch-ln", "title": "Secrets of the Silent Witch (LN)", "lane": "kobo-en", "watch": "Bd. 9"},
+    {"id": "shy-demon-king", "title": "The Shy Demon King", "lane": "kobo-en", "watch": "Bd. 5"},
+    {"id": "melody-of-the-boundary", "title": "Melody of the Boundary", "lane": "kobo-en", "watch": "Bd. 2"},
+    {"id": "how-to-grill-our-love", "title": "How to Grill Our Love", "lane": "kobo-en", "watch": "Bd. 23"},
+    {"id": "akutsu-san", "title": "Please Go Home, Miss Akutsu!", "lane": "kobo-en", "watch": "Bd. 12"},
+    {"id": "ein-gefuehl-namens-liebe", "title": "Ein Gefühl namens Liebe", "lane": "print-de", "publisher": "Carlsen", "watch": "finaler dt. Bd. 19"},
+    {"id": "goblin-reborn-manga", "title": "So What's Wrong with Getting Reborn as a Goblin?! (Manga)", "lane": "kobo-en", "watch": "Manga-Bd. 8", "notes": "kobo-Treffer 'Vol. 8-10' vermutlich LN-Lane - Format der Listung pruefen"},
+    {"id": "virgin-knight-manga", "title": "Virgin Knight (Manga)", "lane": "kobo-en", "watch": "Manga-Bd. 4", "notes": "gelistete 'Bd. 4' ist die LN-Lane - Sebastian liest Manga-Lane"},
+    {"id": "rise-of-the-outlaw-tamer", "title": "Rise of the Outlaw Tamer (Manga)", "lane": "kobo-en", "watch": "Bd. 8"},
+    {"id": "pass-the-monster-meat", "title": "Pass the Monster Meat", "lane": "kobo-en", "watch": "Bd. 11"},
+    {"id": "great-cleric-ln", "title": "Great Cleric (LN)", "lane": "kobo-en", "watch": "Bd. 17", "notes": "J-Novel Club"},
+    {"id": "invincible-little-lady", "title": "Invincible Little Lady", "lane": "kobo-en", "watch": "Bd. 14", "notes": "J-Novel Club"},
+    {"id": "the-black-healer", "title": "The Black Healer", "lane": "kindle-en", "watch": "EN Vol. 8"},
+    {"id": "2-5d-seduction", "title": "2.5D Seduction", "lane": "kobo-en", "watch": "Bd. 20", "notes": "vorbestellt fuer 17.11. - nur Erscheinen bestaetigen"},
+    {"id": "fluffy-cafe", "title": "Fluffy Cafe in Another World", "lane": "kindle-en", "watch": "Vol. 5", "notes": "Seven-Seas-Release vermutlich 30.03.2027; Vol. 4 sofort kaufbar (Kauf-Backlog)"}
   ]
 }
