@@ -180,6 +180,7 @@ for (const e of favs) {
     for (const t of themes) {
       for (const a of t.artists) {
         if (/\(CV:/i.test(a)) continue; // Charakter-/Seiyuu-Songs zaehlen nicht als Live-Act
+        if (/^(more|\d+)$/.test(a)) continue; // Website-Abschneide-Artefakte ("N more") rausfiltern; per_show-Rohdaten unangetastet
         artistFreq.set(a, (artistFreq.get(a) || 0) + 1);
       }
     }
