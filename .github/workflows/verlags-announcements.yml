@@ -1,0 +1,45 @@
+name: Verlags-Announcements
+on:
+  schedule:
+    - cron: "47 5 * * 3"   # mittwochs 05:47 UTC (nach Mo-Exporten, versetzt zu den anderen Workflows; Schedule-Jitter beachten)
+  workflow_dispatch: {}      # manuelles Triggern ueber den Reiter "Actions" moeglich
+
+concurrency:
+  group: verlags-announcements
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+# Zaehlt Lizenz-/Neuheiten-Ankündigungen der relevanten Verlage und
+# Manga-Passion als DE-Aggregator wöchentlich ab. Läuft analog zum
+# Abo-Katalog-Check: pro Quelle continue-on-error inside script,
+# Fehler landen je Quelle in verlags_announcements.json (errors).
+# Ausgabe:
+#   verlags_announcements.json        - kumulierter Stand (Retention 180 Tage)
+#   verlags_announcements_changes.json - nur die NEUEN Items dieses Laufs
+# (Mal-Export: Mo 04:17 -> AniList: 04:47 -> Abo-Check: 05:17 -> Verlage: Mi 05:47)
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Verlags-Announcements harvesten
+        run: python scripts/verlags_announcements.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add verlags_announcements.json verlags_announcements_changes.json
+          git diff --cached --quiet || git commit -m "Verlags-Announcements: Harvest $(date -u +%F)"
+          git push
