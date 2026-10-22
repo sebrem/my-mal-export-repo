@@ -39,15 +39,11 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 SOURCES = {
     "carlsen": [
         {"type": "html", "url": "https://www.carlsen.de/manga/monatsuebersicht"},
-        {"type": "html", "url": "https://www.carlsen.de/manga/news"},
     ],
     "tokyopop": [
         {"type": "html", "url": "https://tokyopop.de/News/"},
     ],
-    "altraverse": [
-        {"type": "html", "url": "https://altraverse.de/news/"},
-    ],
-    "manga2you-altraverse": [  # Aggregator-Fallback: altraverse-Lizenzrunden
+    "manga2you-altraverse": [  # altraverse-Lizenzrunden (altraverse.de/news/ = 404, 22.10.2026)
         {"type": "html", "url": "https://www.manga2you.de/kategorie/verlage/altraverse/"},
     ],
     "dokico": [
@@ -57,14 +53,17 @@ SOURCES = {
         {"type": "html", "url": "https://www.danibooks.de/"},
     ],
     "jnc": [
-        {"type": "rss", "url": "https://api.j-novel.club/rss"},
+        {"type": "rss", "url": "https://api.j-novel.club/rss"},  # gelegentlich kaputt (22.10.2026: not well-formed) - Fallback unten greift
         {"type": "html", "url": "https://j-novel.club/blog"},
     ],
     "yenpress": [
         {"type": "html", "url": "https://yenpress.com/news/category/news"},
+        {"type": "html", "url": "https://yenpress.com/news/tag/announcements"},
     ],
-    "manga-passion": [  # DE-Aggregator, deckt viele Kleinverlage mit ab
-        {"type": "html", "url": "https://www.manga-passion.de/articles"},
+    "manga-passion": [  # DE-Aggregator; /articles selbst ist JS-gerendert (nur 4 Links, 22.10.2026) - Unterseiten als Kandidaten, Fehler je Endpunkt toleriert
+        {"type": "html", "url": "https://www.manga-passion.de/news"},
+        {"type": "html", "url": "https://www.manga-passion.de/news/german"},
+        {"type": "html", "url": "https://www.manga-passion.de/news/international"},
     ],
 }
 
@@ -75,6 +74,37 @@ ANCHOR_RE = re.compile(
 TAG_RE = re.compile(r"<[^>]+>")
 TITLE_MIN = 15   # Noise-Filter: Nav-/Footer-Links sind meist kuerzer
 TITLE_MAX = 220
+
+# Noise-Filter (22.10.2026, nach Erst-Lauf-Analyse): Nav-/Footer-/Policy-/Shop-
+# Service-Links rauswerfen, damit die Diffs sauber bleiben. URL- und Titel-
+# Muster kombiniert; bewusst breit - falsch Positive verlieren nichts,
+# weil die Titel im Changes-File ohnehin nochmal gelesen werden.
+NOISE_URL_RE = re.compile(
+    r"(/policies/|datenschutz|datenschutzerklaerung|/agb|widerruf|"
+    r"barrierefreiheit|/faq|/tos\b|accessibility|/search\b|/suche\b|"
+    r"genre|/account|/checkout|/cart\b|login|authentication|password|"
+    r"controller=|/contact|/kontakt|shipping|versand-und|terms-of-service|"
+    r"privacy|/help|/hilfe|/service/|/informationen/|stellenangebote|"
+    r"apps\.shopify|edesigninteractive|/widgets/|/stoeberecke/|/katalog\b|"
+    r"rights|lizenzen\b|unterrichtsmaterial|/kinderbuch/|/comics/|"
+    r"/schuler|-uebersicht\b|/kalender\b|/merchandising|/leseproben\b)",
+    re.IGNORECASE,
+)
+NOISE_TITLE_RE = re.compile(
+    r"^(alle |zur kategorie|zeige alle|nach [\"'„]?[ÄA]hnlichem|"
+    r"hier geht|persönlich|hauptadresse|rückvergütung|meine bestellungen|"
+    r"passwort|vertrag|kostenloser|website by|search by|teardownbedingungen|"
+    r"teilnahmebedingungen|versand und|kontaktinformationen)",
+    re.IGNORECASE,
+)
+
+
+def is_noise(url, title):
+    if NOISE_URL_RE.search(url):
+        return True
+    if NOISE_TITLE_RE.match(title):
+        return True
+    return False
 
 
 def fetch(url):
@@ -113,7 +143,7 @@ def harvest_rss(url):
                 date = child.text.strip()[:10]
         if title and link:
             items.append({"title": title[:TITLE_MAX], "url": link, "date": date})
-    return items
+    return [it for it in items if not is_noise(it["url"], it["title"])]
 
 
 def harvest_html(url):
@@ -134,6 +164,8 @@ def harvest_html(url):
         if href in seen:
             continue
         seen.add(href)
+        if is_noise(href, title):
+            continue
         items.append({"title": title, "url": href, "date": None})
     return items
 
