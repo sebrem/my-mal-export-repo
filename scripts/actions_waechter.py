@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Actions-Waechter (stdlib only).
+"""Actions-Waechter v2 (stdlib only).
 
 Taeglicher Watchdog ueber alle geplanten Workflows des Repos. Pro erwartetem
 Workflow wird geprueft, ob seit dessen letztem erwarteten Cron-Termin ein
@@ -7,23 +7,31 @@ erfolgreicher scheduled Run existiert. Ergebnisse:
   - ok      : Erfolg-Run seit letztem erwarteten Termin vorhanden
   - failed  : Run(s) vorhanden, aber kein Erfolg (conclusion != success)
   - missing : gar kein scheduled Run seit letztem erwarteten Termin
-  - error   : Workflow/API nicht abrufbar (Starke-Metrik, im Issue genannt)
+  - error   : Workflow/API nicht abrufbar
 
 Alarmweg: GitHub-Issue mit Label "actions-waechter" (ein offenes
 Sammel-Issue, aktualisiert statt vermehrt; wird bei Erholung geschlossen).
 Zusatz: actions_status.json als Heartbeat-/Status-Datei (Commit macht der
-Workflow, nicht das Skript).
+Workflow, nicht das Skript - dort mit if: always(), damit der Status auch
+bei rot abgelegten Check landet).
+
+v2-Haertung (22.10.2026, Erst-Lauf rot): Der Alarm-Pfad ist komplett in
+try/except gekapselt; API-Fehler liefern jetzt den GitHub-Fehlerkörper
+mit (z.B. "Resource not accessible by integration"), und ein gescheiterter
+Alarmweg macht den Run ROT mit vollem Traceback im Log - rot heisst dann
+praezise: "Waechter konnte nicht alarmieren", nicht "geplante Action
+fehlgeschlagen". Das Status-File wird vorher geschrieben und committet.
 
 Jitter-Behandlung: Ein Run zaehlt als "puenktlich", wenn er ab
 (termin - 4h GRACE) gestartet ist. Verspaetungen bis zur Watchdog-Laufzeit
 sind damit unkritisch; laeuft eine Action erst NACH dem Watchdog, erscheint
-sie spaetestens beim naechsten Watchdog-Lauf als ok (kein Fehlalarm, nur
-eine Verzoegerung von max. 24h bei der Entdeckung).
+sie spaetestens beim naechsten Watchdog-Lauf als ok.
 """
 
 import json
 import os
 import sys
+import traceback
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -48,6 +56,10 @@ EXPECTED = [
 ]
 
 
+class ApiError(Exception):
+    """GitHub-API-Fehler inkl. Antwortkörper (darin steht die Ursache)."""
+
+
 def api(path, method="GET", body=None, params=None):
     """GitHub REST-API-Call mit Token. Liefert geparstes JSON."""
     url = "https://api.github.com" + path
@@ -60,8 +72,16 @@ def api(path, method="GET", body=None, params=None):
         "X-GitHub-Api-Version": "2022-11-28",
         "User-Agent": "actions-waechter",
     })
-    with urllib.request.urlopen(req) as resp:
-        raw = resp.read().decode()
+    try:
+        with urllib.request.urlopen(req) as resp:
+            raw = resp.read().decode()
+    except urllib.error.HTTPError as e:
+        detail = ""
+        try:
+            detail = e.read().decode(errors="replace")[:300]
+        except Exception:
+            pass
+        raise ApiError(f"HTTP {e.code} bei {method} {path}: {detail}") from e
     return json.loads(raw) if raw else {}
 
 
@@ -91,13 +111,9 @@ def check_workflow(wf, now):
     try:
         data = api(f"/repos/{REPO}/actions/workflows/{wf['file']}/runs",
                    params={"event": "schedule", "per_page": 30})
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return {"name": wf["name"], "status": "error",
-                    "detail": f"Workflow-Datei {wf['file']} nicht gefunden",
-                    "expected": expected_at.isoformat()}
+    except ApiError as e:
         return {"name": wf["name"], "status": "error",
-                "detail": f"API-Fehler {e.code}", "expected": expected_at.isoformat()}
+                "detail": str(e)[:200], "expected": expected_at.isoformat()}
 
     runs = [r for r in data.get("workflow_runs", [])
             if parse_ts(r["created_at"]) >= since]
@@ -125,25 +141,21 @@ def check_workflow(wf, now):
 
 def ensure_label():
     try:
-        api(f"/repos/{REPO}/labels")
-    except urllib.error.HTTPError:
-        pass
-    try:
         api(f"/repos/{REPO}/labels/{LABEL}")
-    except urllib.error.HTTPError:
+    except ApiError:
         try:
             api(f"/repos/{REPO}/labels", method="POST",
                 body={"name": LABEL, "color": "d93f0b",
                       "description": "Actions-Waechter Alarm"})
-        except urllib.error.HTTPError:
+        except ApiError:
             pass  # Label anlegen schlug fehl -> Issue ohne Label anlegen
 
 
 def find_open_issue():
     try:
         issues = api(f"/repos/{REPO}/issues",
-                    params={"labels": LABEL, "state": "open", "per_page": 5})
-    except urllib.error.HTTPError:
+                     params={"labels": LABEL, "state": "open", "per_page": 5})
+    except ApiError:
         return None
     for iss in issues:
         if "pull_request" not in iss:
@@ -151,7 +163,7 @@ def find_open_issue():
     return None
 
 
-def issue_body(results, problems):
+def issue_body(results):
     lines = ["**Actions-Waechter Alarm** - geplante Workflows nicht ok.",
              "",
              "| Workflow | Status | Detail | Erwartet (UTC) |",
@@ -168,7 +180,7 @@ def manage_issue(results, problems, now):
     open_issue = find_open_issue()
     stamp = now.strftime("%Y-%m-%d %H:%M UTC")
     if problems:
-        body = issue_body(results, problems)
+        body = issue_body(results)
         title = f"Actions-Waechter: {len(problems)} Workflow(s) nicht ok ({stamp})"
         if open_issue:
             api(f"/repos/{REPO}/issues/{open_issue['number']}",
@@ -207,11 +219,18 @@ def main():
         print(f"[{r['status'].upper():7}] {r['name']}: {r['detail']}")
     if problems:
         print(f"{len(problems)} Problem(e) -> Issue-Alarm")
-    else:
-        print("Alle erwarteten Workflows ok.")
 
-    manage_issue(results, problems, now)
-    sys.exit(0)  # Alarmweg ist das Issue; der Workflow-Run bleibt gruen
+    try:
+        manage_issue(results, problems, now)
+    except Exception:
+        # Alarmweg gescheitert: ROT machen, Traceback + API-Fehlerkoerper
+        # stehen dann im Actions-Log (Status-File ist bereits geschrieben).
+        traceback.print_exc()
+        print("ALARM-WEG FEHLGESCHLAGEN - Watchdog konnte nicht alarmieren.",
+              file=sys.stderr)
+        sys.exit(1)
+
+    sys.exit(0)
 
 
 if __name__ == "__main__":
