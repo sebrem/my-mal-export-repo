@@ -82,6 +82,8 @@ def api(path, method="GET", body=None, params=None):
         except Exception:
             pass
         raise ApiError(f"HTTP {e.code} bei {method} {path}: {detail}") from e
+    except Exception as e:   # URLError, Timeout, SSL - auch ApiError melden
+        raise ApiError(f"{type(e).__name__} bei {method} {path}: {e}") from e
     return json.loads(raw) if raw else {}
 
 
@@ -106,14 +108,19 @@ def check_workflow(wf, now):
         return {"name": wf["name"], "status": "error",
                 "detail": "kein erwarteter Termin berechenbar (Konfig?)",
                 "expected": None}
-    since = (expected_at - timedelta(hours=GRACE_HOURS)).isoformat()
+    # als datetime, NICHT isoformat() - String-Vergleich gegen parse_ts()
+    # war der Erst-Lauf-Bug (TypeError datetime >= str, 22.10.2026)
+    since = expected_at - timedelta(hours=GRACE_HOURS)
 
     try:
         data = api(f"/repos/{REPO}/actions/workflows/{wf['file']}/runs",
                    params={"event": "schedule", "per_page": 30})
-    except ApiError as e:
+        runs = [r for r in data.get("workflow_runs", [])
+                if parse_ts(r["created_at"]) >= since]
+    except Exception as e:   # ApiError, URLError und alles andere: nie rot
         return {"name": wf["name"], "status": "error",
-                "detail": str(e)[:200], "expected": expected_at.isoformat()}
+                "detail": f"{type(e).__name__}: {str(e)[:150]}",
+                "expected": expected_at.isoformat()}
 
     runs = [r for r in data.get("workflow_runs", [])
             if parse_ts(r["created_at"]) >= since]
