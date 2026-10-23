@@ -1,5 +1,5 @@
 {
-  "run": "2026-10-23T12:23:53.629Z",
+  "run": "2026-10-23T12:34:45.866Z",
   "source": "api2.werstreamt.es (Pilot, Katalogstufe)",
   "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: my_direct_hits (Abo-Dienste direkt) > my_channel_hits (aniverse-Prime-Channel) > crunchyroll_channel_caveat (nicht CR-direct!) ; legal_de_other_providers = legal in DE verfügbar, aber nicht abonniert (Signal fürs Re-Lizenz-Monitoring).",
   "diagnostics": {
@@ -9,42 +9,56 @@
         "url": "https://api2.werstreamt.es/getStreamProviders",
         "status": 0,
         "contentType": null,
-        "bodySnippet": "TypeError: fetch failed"
+        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
       },
       {
         "endpoint": "providers_alt",
         "url": "https://api2.werstreamt.es/providers",
         "status": 0,
         "contentType": null,
-        "bodySnippet": "TypeError: fetch failed"
+        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
       },
       {
         "endpoint": "lookup_legacy",
         "url": "https://api2.werstreamt.es/lookup?type=Show&titles[]=Harukana%20Receive",
         "status": 0,
         "contentType": null,
-        "bodySnippet": "TypeError: fetch failed"
+        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
       },
       {
         "endpoint": "search_underscore",
         "url": "https://api2.werstreamt.es/_search?q=Harukana%20Receive",
         "status": 0,
         "contentType": null,
-        "bodySnippet": "TypeError: fetch failed"
+        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
       },
       {
         "endpoint": "search_plain",
         "url": "https://api2.werstreamt.es/search?q=Harukana%20Receive",
         "status": 0,
         "contentType": null,
-        "bodySnippet": "TypeError: fetch failed"
+        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
       },
       {
         "endpoint": "search_titles",
         "url": "https://api2.werstreamt.es/titles/search?title=Harukana%20Receive",
         "status": 0,
         "contentType": null,
-        "bodySnippet": "TypeError: fetch failed"
+        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
+      }
+    ],
+    "justwatch_probe": [
+      {
+        "url": "https://apis.justwatch.com/graphql",
+        "status": 422,
+        "contentType": "application/json",
+        "bodySnippet": "{\"errors\":[{\"message\":\"Cannot query field \\\"title\\\" on type \\\"MovieOrShow\\\".\",\"locations\":[{\"line\":1,\"column\":113}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Unknown argument \\\"query\\\" on field \\\"Query.searchTitles\\\".\",\"locations\":[{\"line\":1,\"column\":3}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Field \\\"searchTitles\\\" argument \\\"source\\\" of type \\\"String!\\\" is required, but it was not provided.\",\"locations\":[{\"line\":1,\"column\":3}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}}],\"data\":null}"
+      },
+      {
+        "url": "https://content-gql.justwatch.com/graphql",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed | cause: ENOTFOUND"
       }
     ]
   },
@@ -146,5 +160,5 @@
       }
     }
   ],
-  "abort_reason": "Kein funktionsfähiger Search-Endpoint gefunden – Diagnose-Modus, Titel-Queries übersprungen. Nächste Schritte: bodySnippets prüfen (HTML-Blockseite? anderer Pfad? JustWatch-Fallback erwägen)."
+  "abort_reason": "Kein funktionsfähiger werstreamt-Search-Endpoint gefunden – Diagnose-Modus. Auch JustWatch-Sonde ohne verwertbares Ergebnis -> causes prüfen."
 }
