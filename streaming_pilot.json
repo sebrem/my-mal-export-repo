@@ -1,0 +1,150 @@
+{
+  "run": "2026-10-23T12:23:53.629Z",
+  "source": "api2.werstreamt.es (Pilot, Katalogstufe)",
+  "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: my_direct_hits (Abo-Dienste direkt) > my_channel_hits (aniverse-Prime-Channel) > crunchyroll_channel_caveat (nicht CR-direct!) ; legal_de_other_providers = legal in DE verfügbar, aber nicht abonniert (Signal fürs Re-Lizenz-Monitoring).",
+  "diagnostics": {
+    "endpoint_probe": [
+      {
+        "endpoint": "providers_legacy",
+        "url": "https://api2.werstreamt.es/getStreamProviders",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed"
+      },
+      {
+        "endpoint": "providers_alt",
+        "url": "https://api2.werstreamt.es/providers",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed"
+      },
+      {
+        "endpoint": "lookup_legacy",
+        "url": "https://api2.werstreamt.es/lookup?type=Show&titles[]=Harukana%20Receive",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed"
+      },
+      {
+        "endpoint": "search_underscore",
+        "url": "https://api2.werstreamt.es/_search?q=Harukana%20Receive",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed"
+      },
+      {
+        "endpoint": "search_plain",
+        "url": "https://api2.werstreamt.es/search?q=Harukana%20Receive",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed"
+      },
+      {
+        "endpoint": "search_titles",
+        "url": "https://api2.werstreamt.es/titles/search?title=Harukana%20Receive",
+        "status": 0,
+        "contentType": null,
+        "bodySnippet": "TypeError: fetch failed"
+      }
+    ]
+  },
+  "providers_raw": null,
+  "results": [],
+  "active_universe": {
+    "status_filter": "alles außer dropped/completed",
+    "count": 830
+  },
+  "queue_match": [
+    {
+      "key": "harukana_receive",
+      "expected": "hit",
+      "mal": {
+        "mal_id": 35983,
+        "title": "Harukana Receive",
+        "status": "watching"
+      }
+    },
+    {
+      "key": "sousou_no_frieren",
+      "expected": "hit",
+      "mal": {
+        "mal_id": 63816,
+        "title": "Sousou no Frieren: Ougonkyou-hen",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "kusuriya",
+      "expected": "hit",
+      "mal": {
+        "mal_id": 61987,
+        "title": "Kusuriya no Hitorigoto 3rd Season",
+        "status": "watching"
+      }
+    },
+    {
+      "key": "senryuu_shoujo",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 38787,
+        "title": "Senryuu Shoujo",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "anima_yell",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 37206,
+        "title": "Anima Yell!",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "sakura_quest",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 34494,
+        "title": "Sakura Quest",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "two_car",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 36009,
+        "title": "Two Car",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "www_wagnaria",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 33094,
+        "title": "WWW.Working!!",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "yuru_camp",
+      "expected": "probe",
+      "mal": {
+        "mal_id": 34798,
+        "title": "Yuru Camp△",
+        "status": "plan_to_watch"
+      }
+    },
+    {
+      "key": "non_non_biyori",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 17549,
+        "title": "Non Non Biyori",
+        "status": "plan_to_watch"
+      }
+    }
+  ],
+  "abort_reason": "Kein funktionsfähiger Search-Endpoint gefunden – Diagnose-Modus, Titel-Queries übersprungen. Nächste Schritte: bodySnippets prüfen (HTML-Blockseite? anderer Pfad? JustWatch-Fallback erwägen)."
+}
