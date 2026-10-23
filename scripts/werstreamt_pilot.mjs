@@ -1,137 +1,83 @@
-// WerStreamt.es Pilot – MAL-Anime × Streaming-Verfügbarkeit (Katalogstufe)
-// Zweck: 1) Endpoint-Discovery auf api2.werstreamt.es, 2) Pilot-Abgleich 10 Titel
-//        (Positive/Negative-Kontrollen aus dem Streaming-Monitoring), 3) Fund ≠ Empfehlung:
-//        Output ist Kandidatenliste für den Verfügbarkeits-Rollcheck, KEINE Video-Ebene-Verifikation.
+// MAL × Streaming-Verfügbarkeit V7 – JustWatch-GraphQL (Pilot, Katalogstufe)
+// Datenquelle: apis.justwatch.com/graphql (inoffiziell, country DE/language de).
+// werstreamt.es wurde verworfen: api2.werstreamt.es leitet auf sich selbst weiter (301-Selbstloop,
+// Cloudflare-Anti-Bot, ohne Cookie) – für Automation unbrauchbar; GitHub-Runner-Test 23.10.2026
+// und Sandbox-Live-Trace bestätigen dasselbe Bild. JustWatch deckt denselben Zweck ab (DE-Verfügbarkeit).
+// Fund ≠ Empfehlung: Output ist Kandidatenliste für den Verfügbarkeits-Rollcheck, KEINE
+// Video-Ebenen-Verifikation.
 // Aufruf im Repo-Root: node scripts/werstreamt_pilot.mjs
-// Output: streaming_pilot.json (Repo-Root; wird committet + als Artifact hochgeladen)
+// Output: streaming_pilot.json (wird committet + als Artifact hochgeladen)
 
 import fs from 'node:fs';
 
-const API = 'https://api2.werstreamt.es';
+const JW = 'https://apis.justwatch.com/graphql';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
-const FETCH_TIMEOUT_MS = 8000;          // kurze Timeouts: hängende Verbindungen sollen den Lauf nicht fransen
-const RUN_DEADLINE_MS = 15 * 60 * 1000; // Selbst-Deadline UNTER dem 20-Min-Job-Timeout -> Ergebnis wird sicher geschrieben
+const FETCH_TIMEOUT_MS = 8000;
+const RUN_DEADLINE_MS = 15 * 60 * 1000;
 const RUN_START = Date.now();
 function timeLeft() { return RUN_DEADLINE_MS - (Date.now() - RUN_START); }
-const HDRS = {
-  'User-Agent': UA,
-  'Accept': 'application/json, text/plain, */*',
-  'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
-  'Referer': 'https://www.werstreamt.es/',
-  'Origin': 'https://www.werstreamt.es',
+
+// JustWatch-Provider-ShortNames -> Klassifizierung (3 Ebenen, Nutzer-Klarstellung 23.10.2026):
+//  direct: ADN, Crunchyroll direkt, Netflix, Prime Video, Disney+, waipu, Nebula, YouTube Premium
+//  channel: aniverse-Prime-Channel (zählt);  caveat: Crunchyroll-Prime-Channel (cra) = NICHT CR-direct
+//  other:  legal in DE verfügbar, nicht abonniert (Signal fürs Re-Lizenz-Monitoring)
+const PROVIDER_MAP = {
+  nfx: { name: 'Netflix', tier: 'direct' },
+  amp: { name: 'Amazon Prime Video', tier: 'direct' },
+  amz: { name: 'Amazon Prime Video', tier: 'direct' },
+  dis: { name: 'Disney+', tier: 'direct' },
+  cru: { name: 'Crunchyroll', tier: 'direct' },
+  adn: { name: 'ADN (Animation Digital Network)', tier: 'direct' },
+  adn2: { name: 'ADN', tier: 'direct' },
+  wai: { name: 'waipu.tv', tier: 'direct' },
+  ytb: { name: 'YouTube', tier: 'direct' },
+  ytp: { name: 'YouTube Premium', tier: 'direct' },
+  neb: { name: 'Nebula', tier: 'direct' },
+  ani: { name: 'aniverse (Prime Channel)', tier: 'channel' },
+  cra: { name: 'Crunchyroll (Amazon-Channel)', tier: 'cr_channel_caveat',
+         note: 'Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).' },
 };
+function classifyPackage(shortName) {
+  const p = PROVIDER_MAP[shortName];
+  if (p) return { provider: shortName, name: p.name, tier: p.tier, note: p.note || null };
+  return { provider: shortName, name: null, tier: 'other', note: 'unmapped shortName – Map nach erstem Lauf verfeinern' };
+}
 
-// Provider-Klassifizierung in 3 Ebenen (Nutzer-Klarstellung 23.10.2026):
-//  1. DIRECT:  direkt abonnierte Dienste (ADN, Crunchyroll direkt, Netflix, Prime Video,
-//              Disney+, waipu.tv, Nebula, YouTube Premium)
-//  2. CHANNEL: Prime-Video-Channel, den Sebastian hat (nur aniverse). Crunchyroll-Prime-Channel
-//              gilt NICHT als Crunchyroll-direct (Katalog weicht ab – Nutzer-Erfahrung).
-//  3. Sonstige: nicht abonniert, aber "legal in DE verfügbar" – eigenständiges Signal
-//              fürs Re-Lizenz-Monitoring (DE-Lizenz vorhanden erhöht Chance auf Wechsel zu Sebastians Diensten).
-// werstreamt-Provider-Titel werden beim Pilot-Lauf gedumpt; diese Maps danach verifizieren.
-const MY_DIRECT = [
-  'netflix', 'amazon prime video', 'prime video', 'disney', 'crunchyroll',
-  'adn', 'animation digital network', 'waipu', 'nebula', 'youtube',
-];
-const MY_CHANNELS = ['aniverse'];
-
-// Pilot-Queue: Kontrollen aus knowledge/anime-manga/streaming-monitoring.md (Stand 23.10.2026)
-// expected: 'hit' = auf Sebastians Diensten verfügbar erwartet, 'miss' = nicht verfügbar erwartet,
-//           'probe' = offen, Diagnose-Titel.
 const PILOT_QUEUE = [
-  { key: 'harukana_receive', aliases: ['Harukana Receive', 'はるかなレシーブ'], expected: 'hit' },      // CR DE verifiziert (werstreamt stimmte schon einmal)
-  { key: 'sousou_no_frieren', aliases: ['Sousou no Frieren', 'Frieren', '葬送のフリーレン'], expected: 'hit' },
+  { key: 'harukana_receive', aliases: ['Harukana Receive', 'はるかなレシーブ'], expected: 'hit' },
+  { key: 'sousou_no_frieren', aliases: ['Sousou no Frieren', 'Frieren', 'Frieren: Beyond Journey\'s End', '葬送のフリーレン'], expected: 'hit' },
   { key: 'kusuriya', aliases: ['Kusuriya no Hitorigoto', 'The Apothecary Diaries', '薬屋のひとりごと'], expected: 'hit' },
-  { key: 'senryuu_shoujo', aliases: ['Senryuu Shoujo', 'Senryu Girl', '川柳少女'], expected: 'miss' },
-  { key: 'anima_yell', aliases: ['Anima Yell', 'アニマエイル'], expected: 'miss' },
+  { key: 'senryuu_shoujo', aliases: ['Senryuu Shoujo', 'Senryu Girl', 'Senryuu Girl', '川柳少女'], expected: 'miss' },
+  { key: 'anima_yell', aliases: ['Anima Yell', 'Anima Yell!', 'アニマエイル'], expected: 'miss' },
   { key: 'sakura_quest', aliases: ['Sakura Quest', 'サクラクエスト'], expected: 'miss' },
   { key: 'two_car', aliases: ['Two Car', 'つうかあ'], expected: 'miss' },
-  { key: 'www_wagnaria', aliases: ['WWW.WAGNARIA!!', 'WWW.WORKING!!'], expected: 'miss' }, // Prime-Placeholder-Falle
+  { key: 'www_wagnaria', aliases: ['WWW.WORKING!!', 'WWW.WAGNARIA!!'], expected: 'miss' },
   { key: 'yuru_camp', aliases: ['Yuru Camp', 'Laid-Back Camp', 'ゆるキャン△'], expected: 'probe' },
-  { key: 'non_non_biyori', aliases: ['Non Non Biyori', 'のんのんびより'], expected: 'miss' }, // dokumentiert: DE nicht verfügbar, Manga-Lane
+  { key: 'non_non_biyori', aliases: ['Non Non Biyori', 'のんのんびより'], expected: 'miss' },
 ];
 
-async function fetchSafe(url, init) {
+function causeStr(e) {
+  const cause = e?.cause;
+  return cause?.code ?? cause?.message ?? String(cause ?? 'unbekannt');
+}
+
+async function gql(query) {
   try {
-    const res = await fetch(url, { ...init, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-      headers: { ...HDRS, ...(init?.headers || {}) } });
+    const res = await fetch(JW, { method: 'POST', signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json',
+                 'User-Agent': UA, 'Accept-Language': 'de-DE,de;q=0.9' },
+      body: JSON.stringify({ query }) });
     const text = await res.text();
-    return { status: res.status, ok: res.ok, text, headers: Object.fromEntries(res.headers) };
+    return { status: res.status, text, data: (() => { try { return JSON.parse(text); } catch { return null; } })() };
   } catch (e) {
-    // cause-Logging: "fetch failed" hat immer eine Ursache (ENOTFOUND = DNS raus,
-    // ECONNREFUSED/UND_ERR_CONNECT_TIMEOUT = Verbindung geblockt, UND_ERR = TLS-Abbruch).
-    // Das entscheidet, ob api2.werstreamt.es GitHub-Runner-IPs blockt (dann JustWatch-Fallback).
-    const cause = e?.cause;
-    const causeStr = cause?.code ?? cause?.message ?? String(cause ?? 'unbekannt');
-    return { status: 0, ok: false, text: `TypeError: fetch failed | cause: ${causeStr}`, headers: {} };
+    return { status: 0, text: `fetch failed | cause: ${causeStr(e)}`, data: null };
   }
 }
 
-// JustWatch-GraphQL-Sonde (Fallback-Kandidat): nur Diagnose, ob der Endpoint vom Runner aus erreichbar ist.
-async function probeJustWatch(probeTitle) {
-  const gqlBodies = [
-    { url: 'https://apis.justwatch.com/graphql',
-      body: JSON.stringify({ query: `{ searchTitles(country: "DE", language: "de", first: 1, query: "${probeTitle.replace(/"/g, '')}") { edges { node { id objectId title } } } }` }) },
-    { url: 'https://content-gql.justwatch.com/graphql',
-      body: JSON.stringify({ query: `{ searchTitles(country: "DE", language: "de", first: 1, query: "${probeTitle.replace(/"/g, '')}") { edges { node { id objectId title } } } }` }) },
-  ];
-  const results = [];
-  for (const g of gqlBodies) {
-    try {
-      const res = await fetch(g.url, { method: 'POST', signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json',
-                   'User-Agent': UA, 'Accept-Language': 'de-DE,de;q=0.9' },
-        body: g.body });
-      const text = await res.text();
-      results.push({ url: g.url, status: res.status, contentType: res.headers.get('content-type'),
-                     bodySnippet: text.slice(0, 800) });
-    } catch (e) {
-      const cause = e?.cause;
-      results.push({ url: g.url, status: 0, contentType: null,
-                     bodySnippet: `TypeError: fetch failed | cause: ${cause?.code ?? cause?.message ?? String(cause ?? 'unbekannt')}` });
-    }
-  }
-  return results;
-}
-
-// --- Phase 1: Endpoint-Discovery --------------------------------------------
-// Bekannte/historische Endpoint-Muster werden der Reihe nach geprobt; Roh-Antworten
-// (gekürzt) landen im Diagnose-Block des Outputs. Legacy-Struktur (2018-Crawler):
-//   /getStreamProviders -> {response:{Items:[{ID,Title}]}}
-//   /lookup?type=Show&titles[]=<name>&year=<y> -> {response:[{ID,Title,...}]}
-//   /getDetails?ContentID=<id> -> {response:{Streams:[{ProviderTitle,Offers,Link}]}}
-async function discoverEndpoints(probeTitle) {
-  const candidates = [
-    { name: 'providers_legacy', url: `${API}/getStreamProviders` },
-    { name: 'providers_alt', url: `${API}/providers` },
-    { name: 'lookup_legacy', url: `${API}/lookup?type=Show&titles[]=${encodeURIComponent(probeTitle)}` },
-    { name: 'search_underscore', url: `${API}/_search?q=${encodeURIComponent(probeTitle)}` },
-    { name: 'search_plain', url: `${API}/search?q=${encodeURIComponent(probeTitle)}` },
-    { name: 'search_titles', url: `${API}/titles/search?title=${encodeURIComponent(probeTitle)}` },
-  ];
-  const diag = [];
-  for (const c of candidates) {
-    const r = await fetchSafe(c.url);
-    diag.push({ endpoint: c.name, url: c.url, status: r.status, contentType: r.headers['content-type'] || null,
-                bodySnippet: r.text.slice(0, 800) });
-    const d = diag[diag.length - 1];
-    if (r.status === 429 || r.status === 403) d.note = 'Blocked/Rate-Limit – ggf. Delay/Headers anpassen (vgl. 418-Teapot-Lektion Manga+).';
-  }
-  return diag;
-}
-
-function tryParse(text) {
-  try { return JSON.parse(text); } catch { return null; }
-}
-
-// --- Phase 2: MAL-Export laden, Kontrollen matchen ----------------------------
-// Echte Repo-Formate (verifiziert 23.10.2026 gegen Rohdateien):
-//   mal_anime.json   = {generated_at, source, user, kind, count, list: [{id, title, list_status:{status,...}}]}
-//   anilist_dump.json = {generated_at, source, anime: [{id, idMal, title:{romaji,english,native}, ...}]}
+// --- Phase 1: MAL-Export laden (Repo-Formate: mal_anime.json=.list[], anilist_dump.json=.anime[])
 function loadCandidates() {
   const malRaw = JSON.parse(fs.readFileSync('mal_anime.json', 'utf8'));
-  const mal = Array.isArray(malRaw) ? malRaw
-    : (Array.isArray(malRaw?.list) ? malRaw.list : []);
+  const mal = Array.isArray(malRaw) ? malRaw : (Array.isArray(malRaw?.list) ? malRaw.list : []);
   const alRaw = fs.existsSync('anilist_dump.json')
     ? JSON.parse(fs.readFileSync('anilist_dump.json', 'utf8')) : null;
   const anilist = Array.isArray(alRaw) ? alRaw
@@ -139,7 +85,6 @@ function loadCandidates() {
     : (Array.isArray(alRaw?.data) ? alRaw.data : []));
   if (mal.length === 0) throw new Error('mal_anime.json: keine Liste gefunden (erwartet: .list[])');
 
-  // Alias-Index aus AniList-Dump (idMal -> Titel-Set)
   const aliasIndex = new Map();
   for (const rec of anilist) {
     const idMal = rec?.idMal ?? rec?.media?.idMal ?? rec?.mal_id;
@@ -152,7 +97,6 @@ function loadCandidates() {
     aliasIndex.set(idMal, set);
   }
 
-  // Aktive Einträge: alles außer dropped/completed
   const active = mal.filter(e => {
     const st = e?.list_status?.status ?? e?.status ?? '';
     return !['dropped', 'completed'].includes(String(st).toLowerCase());
@@ -169,158 +113,139 @@ function loadCandidates() {
     return { ...q, mal: entry ? { mal_id: entry.mal_id ?? entry.id, title: entry.title,
             status: entry.list_status?.status ?? entry.status } : null };
   });
-  return { matched, activeCount: active.length };
+  return { matched, activeCount: active.length, aliasIndex };
 }
 
-// --- Phase 3: Suche + Details je Queue-Titel ----------------------------------
-async function queryTitle(alias) {
-  const q = encodeURIComponent(alias);
-  const attempts = [
-    `${API}/lookup?type=Show&titles[]=${q}`,
-    `${API}/_search?q=${q}`,
-    `${API}/search?q=${q}`,
-    `${API}/titles/search?title=${q}`,
-  ];
-  for (const url of attempts) {
-    const r = await fetchSafe(url);
-    const j = tryParse(r.text);
-    const list = j?.response?.Items || j?.response || j?.results || j?.items || (Array.isArray(j) ? j : null);
-    if (r.ok && Array.isArray(list) && list.length) {
-      const first = list[0];
-      const id = first?.ID ?? first?.id ?? first?.ContentID;
-      if (id != null) return { via: url.split('?')[0], id, raw: first };
-    }
-  }
+// --- Phase 2: JustWatch-Suche + Offers -----------------------------------------
+// JustWatch DE liefert lokalisierte Titel ("Frieren - Nach dem Ende der Reise") und
+// Schreibvarianten ("Senryuu Girl" vs. "Senryu Girl"). Matching deshalb 2-stufig:
+//  a) normalisierte Gleichheit gegen Alias-Set (MAL-Titel + Queue-Aliase + AniList-Aliase)
+//  b) Token-Überlappung: mind. 1 gemeinsames Token mit >=7 Zeichen (>=5 wäre zu locker:
+//     "quest" matchte fälschlich "Galaxy Quest" – Pilot-Befund 23.10.2026)
+function norm(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9äöüß]/g, ''); }
+function tokens(s) {
+  return String(s || '').toLowerCase().replace(/[^a-z0-9äöüß ]/g, ' ').split(/\s+/).filter(t => t.length >= 5);
+}
+// liefert 'exact' | 'token' | null
+function titleMatchConf(jwTitle, wantedNorm, wantedTokens) {
+  const jn = norm(jwTitle);
+  if (wantedNorm.has(jn)) return 'exact';
+  const jt = new Set(tokens(jwTitle));
+  for (const t of wantedTokens) if (jt.has(t) && t.length >= 7) return 'token';
   return null;
 }
 
-async function queryDetails(id) {
-  const attempts = [
-    `${API}/getDetails?ContentID=${id}`,
-    `${API}/titles/${id}`,
-    `${API}/details?id=${id}`,
-  ];
-  for (const url of attempts) {
-    const r = await fetchSafe(url);
-    const j = tryParse(r.text);
-    const d = j?.response || j;
-    if (r.ok && d) return { via: url.split('?')[0], data: d };
-  }
-  return null;
+async function searchJustWatch(query, first = 5) {
+  const r = await gql(`query { searchTitles(source: "web", country: DE, language: de, first: ${first}, ` +
+    `filter: {searchQuery: ${JSON.stringify(query)}}) { edges { node { id objectId objectType ` +
+    `content(country: DE, language: de) { title fullPath } } } } }`);
+  const edges = r?.data?.data?.searchTitles?.edges;
+  return { status: r.status, edges: Array.isArray(edges) ? edges.map(e => e.node) : null, raw: r.text.slice(0, 500) };
 }
 
-function extractStreams(details) {
-  const d = details?.data ?? details ?? {};
-  const streams = d?.Streams || d?.streams || d?.Offers || d?.offers || [];
-  return streams.map(s => {
-    const offerList = s.Offers?.map(o => (o.OfferType ?? o.type)).join(',') || null;
-    return {
-      provider: s.ProviderTitle ?? s.provider_title ?? s.provider ?? null,
-      offerType: offerList ?? (s.Type ?? s.type ?? null),
-      link: s.Link ?? s.link ?? s.url ?? null,
-    };
-  });
-}
-
-// Provider einordnen: {tier: 'direct'|'channel'|'cr_channel_caveat'|'other', note}
-function classifyProvider(provider) {
-  if (!provider) return { tier: 'other', note: null };
-  const p = String(provider).toLowerCase();
-  const isChannel = p.includes('channel') || p.includes('kanal');
-  // Crunchyroll über Prime-Channel: explizit NICHT als CR-direct werten
-  if (p.includes('crunchyroll') && isChannel) {
-    return { tier: 'cr_channel_caveat', note: 'Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung) – nicht als CR-Direct-Treffer werten.' };
-  }
-  if (MY_CHANNELS.some(s => p.includes(s))) return { tier: 'channel', note: 'Prime-Video-Channel im eigenen Abo (aniverse).' };
-  if (MY_DIRECT.some(s => p.includes(s))) return { tier: 'direct', note: null };
-  return { tier: 'other', note: isChannel ? 'Prime-Channel ohne eigenes Abo' : null };
+async function offersJustWatch(nodeId) {
+  const r = await gql(`query { node(id: ${JSON.stringify(nodeId)}) { ... on MovieOrShow { id ` +
+    `offers(country: DE, platform: WEB) { package { shortName } standardWebURL } } } }`);
+  const offers = r?.data?.data?.node?.offers;
+  return { status: r.status, offers: Array.isArray(offers) ? offers : null, raw: r.text.slice(0, 500) };
 }
 
 // --- Main ----------------------------------------------------------------------
 async function main() {
-  const out = { run: new Date().toISOString(), source: 'api2.werstreamt.es (Pilot, Katalogstufe)',
+  const out = { run: new Date().toISOString(),
+                source: 'apis.justwatch.com/graphql (DE, Katalogstufe)',
                 disclaimer: 'Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. ' +
-                            'Treffer-Tiers: my_direct_hits (Abo-Dienste direkt) > my_channel_hits (aniverse-Prime-Channel) > ' +
-                            'crunchyroll_channel_caveat (nicht CR-direct!) ; legal_de_other_providers = legal in DE verfügbar, ' +
-                            'aber nicht abonniert (Signal fürs Re-Lizenz-Monitoring).',
-                diagnostics: {}, providers_raw: null, results: [] };
+                            'Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > ' +
+                            'hit_cr_channel_caveat (nicht CR-direct!) ; de_legal_only = legal in DE verfügbar, ' +
+                            'aber nicht auf eigenen Diensten (Re-Lizenz-Monitoring-Signal). ' +
+                            'werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar.',
+                results: [], unmapped_providers: [] };
 
-  const { matched, activeCount } = loadCandidates();
+  const { matched, activeCount, aliasIndex } = loadCandidates();
   out.active_universe = { status_filter: 'alles außer dropped/completed', count: activeCount };
   out.queue_match = matched.map(m => ({ key: m.key, expected: m.expected, mal: m.mal }));
 
-  const probeAlias = matched.find(m => m.mal)?.aliases[0] || 'Frieren';
-  out.diagnostics.endpoint_probe = await discoverEndpoints(probeAlias);
-  out.diagnostics.justwatch_probe = await probeJustWatch(probeAlias);
-
-  // Diagnose-First: Wenn KEIN Search-Endpoint antwortet, sind alle Titel-Queries
-  // zum Scheitern verurteilt -> Diagnose schreiben und sauber beenden (kein 20-Min-Timeout mehr).
-  const workingSearch = out.diagnostics.endpoint_probe.filter(d =>
-    d.status === 200 && !/^\s*</.test(d.bodySnippet)); // HTML-Antwort (Block/403-Seite) zählt nicht
-  const workingJustWatch = (out.diagnostics.justwatch_probe || []).some(d =>
-    d.status === 200 && d.bodySnippet.includes('"edges"'));
-  if (workingSearch.length === 0) {
-    out.abort_reason = 'Kein funktionsfähiger werstreamt-Search-Endpoint gefunden – Diagnose-Modus. ' +
-                       (workingJustWatch
-                         ? 'JustWatch-GraphQL antwortet! -> Fallback-Entscheidung auf Basis der causes/Ergebnisse treffen.'
-                         : 'Auch JustWatch-Sonde ohne verwertbares Ergebnis -> causes prüfen.');
-    fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2));
-    console.log(out.abort_reason);
-    console.log('Geschrieben: streaming_pilot.json (nur Diagnose)');
-    return;
-  }
-
-  // Provider-Liste roh dumpen (für Map-Verifizierung der MY_DIRECT-/MY_CHANNELS-Namen)
-  for (const u of [`${API}/getStreamProviders`, `${API}/providers`]) {
-    const r = await fetchSafe(u);
-    const j = tryParse(r.text);
-    const items = j?.response?.Items || j?.response || (Array.isArray(j) ? j : null);
-    if (r.ok && Array.isArray(items)) { out.providers_raw = items.map(p => p.Title ?? p.title ?? p); break; }
-  }
-
   for (const q of matched) {
-    if (timeLeft() < 120000) { // unter 2 Min Restbudget: lieber sauber finishen als vom Job kassiert zu werden
-      out.abort_reason = 'Selbst-Deadline vor Titel ' + q.key + ' erreicht – Teil-Ergebnis wird gesichert.';
-      break;
-    }
-    // max. 2 Such-Aliase (JP-Export-Titel + kürzester EN-Alias), um den Lauf kurz zu halten
-    const searchAliases = [q.mal?.title, q.aliases[0]].filter(Boolean).slice(0, 2);
+    if (timeLeft() < 120000) { out.abort_reason = 'Selbst-Deadline vor ' + q.key + ' – Teil-Ergebnis gesichert.'; break; }
     let hit = null, errors = [];
+    // Alias-Set fürs Matching: MAL-Titel + Queue-Aliase + AniList-Aliase der MAL-ID
+    const wantedNorm = new Set();
+    const wantedTokens = new Set();
+    const addWanted = (s) => { if (s) { wantedNorm.add(norm(s)); tokens(s).forEach(t => wantedTokens.add(t)); } };
+    addWanted(q.mal?.title);
+    q.aliases.forEach(addWanted);
+    if (q.mal?.mal_id && aliasIndex) for (const a of (aliasIndex.get(q.mal.mal_id) || [])) addWanted(a);
+    const searchAliases = [q.mal?.title, ...q.aliases].filter(Boolean).slice(0, 3);
     for (const alias of searchAliases) {
       try {
-        const found = await queryTitle(alias);
-        if (!found) continue;
-        const det = await queryDetails(found.id);
-        const streams = det ? extractStreams(det) : [];
-        const classified = streams.map(s => ({ provider: s.provider, offerType: s.offerType, link: s.link,
-                                                ...classifyProvider(s.provider) }));
-        const direct = classified.filter(s => s.tier === 'direct');
-        const channel = classified.filter(s => s.tier === 'channel');
-        const crChannel = classified.filter(s => s.tier === 'cr_channel_caveat');
-        const otherLegal = classified.filter(s => s.tier === 'other');
-        hit = { searched_as: alias, wses_id: found.id, wses_title: found.raw?.Title ?? found.raw?.title ?? null,
-                providers_classified: classified,
-                my_direct_hits: direct, my_channel_hits: channel, crunchyroll_channel_caveat: crChannel,
-                legal_de_other_providers: otherLegal.map(s => s.provider),
-                de_legal_availability: classified.length > 0 };
+        const s = await searchJustWatch(alias);
+        if (!s.edges || s.edges.length === 0) continue;
+        // 1) exakte/token-basierte Matches (sicher). 2) Fallback: Top-1-Treffer, wenn SHOW
+        // (kein Film wie "Galaxy Quest") – als match_confidence 'low' gekennzeichnet, manuell prüfen.
+        const withConf = s.edges.map(n => ({ n, conf: titleMatchConf(n?.content?.title, wantedNorm, wantedTokens) }));
+        const matchedTuples = withConf.filter(x => x.conf);
+        let nodes = matchedTuples.map(x => x.n);
+        let matchConfidence = matchedTuples.length ? matchedTuples[0].conf : null;
+        if (nodes.length === 0 && s.edges[0] && s.edges[0].objectType === 'SHOW') {
+          nodes = [s.edges[0]];
+          matchConfidence = 'low'; // Top-1-SHOW-Fallback: dt. lokalisierte Titel ("Die Tagebücher der Apothekerin") sind per Token nicht matchbar
+        }
+        if (nodes.length === 0) { errors.push(`${alias}: JW-Treffer ohne Titel-Match (${s.edges.map(n=>n.content?.title).slice(0,3).join(', ')})`); continue; }
+        // Es koennen mehrere Knoten matchen (Film + Serie, EN- + DE-Eintrag): den mit
+        // tatsaechlichen Offers bevorzugen (max. 2 Kandidaten anfragen), sonst den ersten.
+        let node = null, o = null;
+        for (const cand of nodes.slice(0, 2)) {
+          const oo = await offersJustWatch(cand.id);
+          if (oo.offers && oo.offers.length > 0) { node = cand; o = oo; break; }
+          if (!node) { node = cand; o = oo; }
+        }
+        // Alle Match-Kandidaten ohne Offers? -> Top-1-SHOW (oft der dt. lokalisierte
+        // Serien-Eintrag wie "Die Tagebücher der Apothekerin") mit niedriger Confidence versuchen.
+        if (o.offers && o.offers.length === 0 && s.edges[0] && s.edges[0].objectType === 'SHOW'
+            && s.edges[0].id !== node.id) {
+          const oo = await offersJustWatch(s.edges[0].id);
+          if (oo.offers && oo.offers.length > 0) {
+            node = s.edges[0];
+            matchConfidence = 'low';
+            o = oo;
+          }
+        }
+        if (!node) continue;
+        const offers = (o.offers || []).map(of => {
+          const c = classifyPackage(of?.package?.shortName);
+          if (c.tier === 'other') out.unmapped_providers.push(of?.package?.shortName);
+          return { ...c, url: of?.standardWebURL ?? null };
+        });
+        const direct = offers.filter(x => x.tier === 'direct');
+        const channel = offers.filter(x => x.tier === 'channel');
+        const crCaveat = offers.filter(x => x.tier === 'cr_channel_caveat');
+        const other = offers.filter(x => x.tier === 'other');
+        hit = { searched_as: alias, jw_id: node.id, jw_title: node.content?.title,
+                jw_path: node.content?.fullPath || null,
+                match_confidence: matchConfidence,
+                offers_classified: offers,
+                my_direct_hits: direct, my_channel_hits: channel, crunchyroll_channel_caveat: crCaveat,
+                legal_de_other_providers: other,
+                de_legal_availability: offers.length > 0 };
         break;
       } catch (e) { errors.push(`${alias}: ${String(e)}`); }
     }
     out.results.push({ key: q.key, expected: q.expected, mal: q.mal, result: hit, errors });
-    fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2)); // inkrementell: Stand geht auch bei Abbruch nicht verloren
-    await new Promise(r2 => setTimeout(r2, 1000)); // Rate-Limit-Respekt
+    fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2)); // inkrementell
+    await new Promise(r2 => setTimeout(r2, 700)); // Rate-Limit-Respekt
   }
 
-  const verdict = out.results.map(r => ({
+  out.verdict = out.results.map(r => ({
     key: r.key, expected: r.expected,
     observed: r.result ? (r.result.my_direct_hits.length ? 'hit_direct'
       : (r.result.my_channel_hits.length ? 'hit_channel'
       : (r.result.crunchyroll_channel_caveat.length ? 'hit_cr_channel_caveat'
       : (r.result.legal_de_other_providers.length ? 'de_legal_only' : 'no_hit')))) : 'no_match',
   }));
-  out.verdict = verdict;
+  out.unmapped_providers = [...new Set(out.unmapped_providers)];
   fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2));
-  console.log(JSON.stringify(verdict, null, 2));
+  console.log(JSON.stringify(out.verdict, null, 2));
+  console.log('Unmapped ShortNames:', JSON.stringify(out.unmapped_providers));
   console.log('Geschrieben: streaming_pilot.json');
 }
 
