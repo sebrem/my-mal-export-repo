@@ -58,6 +58,17 @@ const PROVIDER_MAP = {
          note: 'Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).' },
   jyn: { name: 'Joyn (nicht abonniert)', tier: 'other',
          note: 'Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.' },
+  atp: { name: 'Apple TV+', tier: 'direct',
+         note: 'Abo vorhanden (Nutzer 23.10.2026); kaum Anime, aber direkter Dienst.' },
+  mxx: { name: 'HBO Max (nicht abonniert)', tier: 'other' },
+  etv: { name: 'MagentaTV (nicht abonniert)', tier: 'other' },
+  fmd: { name: 'freenet video (nicht abonniert)', tier: 'other' },
+  itu: { name: 'Apple TV Store (Kauf/Leihe)', tier: 'buy_physical',
+         note: 'itu = iTunes-Store, transaktional – NICHT Apple TV+ (atp).' },
+  bzs: { name: 'Buyzoxs (Disc)', tier: 'buy_physical' },
+  mds: { name: 'Maxdome Store (Kauf)', tier: 'buy_physical' },
+  aho: { name: 'Prime-Channel (aho)', tier: 'channel_candidate',
+         note: 'watch.amazon.de-Signatur wie ava – Video-Ebene im Prime-Check verifizieren.' },
   // Kauf-/Disc-Shops: legal, aber KEIN Streaming -> eigenes Tier, kein Re-Lizenz-Signal
   adb: { name: 'Amazon (Kauf)', tier: 'buy_physical' },
   thl: { name: 'Thalia (Disc)', tier: 'buy_physical' },
@@ -72,6 +83,9 @@ function classifyPackage(shortName) {
   if (p) return { provider: shortName, name: p.name, tier: p.tier, note: p.note || null };
   return { provider: shortName, name: null, tier: 'other', note: 'unmapped shortName – Map verfeinern' };
 }
+
+// Anime-typische Provider fuer den Fehltreffer-Schutz bei Token-Matches
+const ANIME_PROVIDERS = new Set(['cru', 'cra', 'adn', 'adn2', 'ani', 'ava', 'ada', 'akp', 'vik']);
 
 function causeStr(e) {
   const cause = e?.cause;
@@ -238,6 +252,14 @@ async function main() {
           const mc = titleMatchConf(cand.content?.title, wantedNorm, wantedTokens);
           if (!mc) continue;
           const oo = await offersJustWatch(cand.id);
+          // Fehltreffer-Schutz (Befund 23.10.2026: "Brothers Conflict" matchte
+          // "Band of Brothers" via Token "brothers" -> Prime-direct-Fehlalarm):
+          // Token-Matches (nicht exakt) akzeptieren nur Offers mit Anime-Provider.
+          // Exakte Matches zaehlen immer. Bekannter Trade-off: ein Anime, der
+          // NUR auf Prime-Abo laeuft und nur per Token matcht, wird uebersehen
+          // (Low-Confidence-Verifizierung bleibt dem Video-Rollcheck).
+          if (mc === 'token' && oo.offers && oo.offers.length > 0
+              && !oo.offers.some(of => ANIME_PROVIDERS.has(of?.package?.shortName))) continue;
           if (oo.offers && oo.offers.length > 0) { node = cand; o = oo; matchConfidence = mc; break; }
           if (!node) { node = cand; o = oo; }
         }
