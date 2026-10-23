@@ -1,5 +1,5 @@
 {
-  "run": "2026-10-23T12:55:37.094Z",
+  "run": "2026-10-23T13:08:53.453Z",
   "source": "apis.justwatch.com/graphql (DE, Katalogstufe)",
   "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > hit_cr_channel_caveat (nicht CR-direct!) ; de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten (Re-Lizenz-Monitoring-Signal). werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar.",
   "results": [
@@ -48,23 +48,23 @@
           },
           {
             "provider": "adb",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.amazon.de/dp/B09GJGFWDC?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1060202203"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1060433609"
           }
         ],
@@ -85,6 +85,7 @@
           }
         ],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [
           {
             "provider": "cra",
@@ -101,26 +102,27 @@
             "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.84c2ca59-a49f-4f16-9ca6-dae598e72316"
           }
         ],
-        "legal_de_other_providers": [
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
           {
             "provider": "adb",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.amazon.de/dp/B09GJGFWDC?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1060202203"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1060433609"
           }
         ],
@@ -187,51 +189,51 @@
           },
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
           },
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
           },
           {
             "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
             "url": "https://www.netflix.com/title/81726714"
           },
           {
             "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
             "url": "https://www.netflix.com/title/81726714"
           },
           {
             "provider": "jpc",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "JPC (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.jpc.de/jpcng/movie/detail/-/art/frieren-beyond-journey-s-end-nach-dem-ende-der-reise-vol-2/hnum/12130065"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487061"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487059"
           }
         ],
@@ -263,9 +265,24 @@
             "tier": "direct",
             "note": null,
             "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "nfa",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "nfa",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+            "url": "https://www.netflix.com/title/81726714"
           }
         ],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [
           {
             "provider": "cra",
@@ -285,51 +302,39 @@
         "legal_de_other_providers": [
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
           },
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
-          },
-          {
-            "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
-            "url": "https://www.netflix.com/title/81726714"
-          },
-          {
-            "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
-            "url": "https://www.netflix.com/title/81726714"
-          },
+          }
+        ],
+        "buy_physical_offers": [
           {
             "provider": "jpc",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "JPC (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.jpc.de/jpcng/movie/detail/-/art/frieren-beyond-journey-s-end-nach-dem-ende-der-reise-vol-2/hnum/12130065"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487061"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487059"
           }
         ],
@@ -368,16 +373,16 @@
           },
           {
             "provider": "adb",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.amazon.de/dp/B0FJG3CRH5?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
             "provider": "adb",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.amazon.de/dp/B0F545WV97?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
@@ -410,72 +415,72 @@
           },
           {
             "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
             "url": "https://www.netflix.com/title/81712068"
           },
           {
             "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
             "url": "https://www.netflix.com/title/81712068"
           },
           {
             "provider": "bue",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.awin1.com/pclick.php?p=43811274979&a=400165&m=14584"
           },
           {
             "provider": "bue",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.awin1.com/pclick.php?p=43811274978&a=400165&m=14584"
           },
           {
             "provider": "zav",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Zavvi (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.zavvi.de/p/blu-ray/the-apothecary-diaries-season-1-part-2/16058877/"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1075485792"
           },
           {
             "provider": "hgl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Hugendubel (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-50486040)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fdvd%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_3_dvd_-50486040-produkt-details.html)"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1073702314"
           },
           {
             "provider": "hgl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Hugendubel (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-51985544)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_4_blu_ray_-51985544-produkt-details.html)"
           },
           {
             "provider": "jpc",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "JPC (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.jpc.de/jpcng/movie/detail/-/art/the-apothecary-diaries-die-tagebuecher-der-apothekerin-staffel-1/hnum/12804304"
           }
         ],
@@ -507,9 +512,24 @@
             "tier": "direct",
             "note": null,
             "url": "https://www.crunchyroll.com/watch/G0DUMNJ5K"
+          },
+          {
+            "provider": "nfa",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "nfa",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+            "url": "https://www.netflix.com/title/81712068"
           }
         ],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [
           {
             "provider": "cra",
@@ -526,89 +546,76 @@
             "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.09bc7869-150b-41c6-80c5-77cc284dff0e"
           }
         ],
-        "legal_de_other_providers": [
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
           {
             "provider": "adb",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.amazon.de/dp/B0FJG3CRH5?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
             "provider": "adb",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.amazon.de/dp/B0F545WV97?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
-            "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
-            "url": "https://www.netflix.com/title/81712068"
-          },
-          {
-            "provider": "nfa",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
-            "url": "https://www.netflix.com/title/81712068"
-          },
-          {
             "provider": "bue",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.awin1.com/pclick.php?p=43811274979&a=400165&m=14584"
           },
           {
             "provider": "bue",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.awin1.com/pclick.php?p=43811274978&a=400165&m=14584"
           },
           {
             "provider": "zav",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Zavvi (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.zavvi.de/p/blu-ray/the-apothecary-diaries-season-1-part-2/16058877/"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1075485792"
           },
           {
             "provider": "hgl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Hugendubel (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-50486040)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fdvd%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_3_dvd_-50486040-produkt-details.html)"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1073702314"
           },
           {
             "provider": "hgl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Hugendubel (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-51985544)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_4_blu_ray_-51985544-produkt-details.html)"
           },
           {
             "provider": "jpc",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "JPC (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.jpc.de/jpcng/movie/detail/-/art/the-apothecary-diaries-die-tagebuecher-der-apothekerin-staffel-1/hnum/12804304"
           }
         ],
@@ -633,8 +640,10 @@
         "offers_classified": [],
         "my_direct_hits": [],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "legal_de_other_providers": [],
+        "buy_physical_offers": [],
         "de_legal_availability": false
       },
       "errors": []
@@ -686,8 +695,10 @@
           }
         ],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "legal_de_other_providers": [],
+        "buy_physical_offers": [],
         "de_legal_availability": true
       },
       "errors": []
@@ -709,8 +720,10 @@
         "offers_classified": [],
         "my_direct_hits": [],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "legal_de_other_providers": [],
+        "buy_physical_offers": [],
         "de_legal_availability": false
       },
       "errors": []
@@ -732,78 +745,81 @@
         "offers_classified": [
           {
             "provider": "ava",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Prime-Channel (aniverse-Verdacht)",
+            "tier": "channel_candidate",
+            "note": "Katalogstufe unsicher – beim Fund Video-Ebene/Channel im Prime-Check verifizieren.",
             "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
           },
           {
             "provider": "ava",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Prime-Channel (aniverse-Verdacht)",
+            "tier": "channel_candidate",
+            "note": "Katalogstufe unsicher – beim Fund Video-Ebene/Channel im Prime-Check verifizieren.",
             "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
           },
           {
             "provider": "amz",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+            "tier": "other",
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
             "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
           },
           {
             "provider": "amz",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+            "tier": "other",
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
             "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
           },
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1059125145"
           }
         ],
-        "my_direct_hits": [
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [
           {
-            "provider": "amz",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+            "provider": "ava",
+            "name": "Prime-Channel (aniverse-Verdacht)",
+            "tier": "channel_candidate",
+            "note": "Katalogstufe unsicher – beim Fund Video-Ebene/Channel im Prime-Check verifizieren.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
           },
           {
-            "provider": "amz",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+            "provider": "ava",
+            "name": "Prime-Channel (aniverse-Verdacht)",
+            "tier": "channel_candidate",
+            "note": "Katalogstufe unsicher – beim Fund Video-Ebene/Channel im Prime-Check verifizieren.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
           }
         ],
-        "my_channel_hits": [],
         "crunchyroll_channel_caveat": [],
         "legal_de_other_providers": [
           {
-            "provider": "ava",
-            "name": null,
+            "provider": "amz",
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
           },
           {
-            "provider": "ava",
-            "name": null,
+            "provider": "amz",
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
-          },
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+          }
+        ],
+        "buy_physical_offers": [
           {
             "provider": "thl",
-            "name": null,
-            "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
             "url": "https://www.thalia.de/shop/home/artikeldetails/A1059125145"
           }
         ],
@@ -828,8 +844,10 @@
         "offers_classified": [],
         "my_direct_hits": [],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "legal_de_other_providers": [],
+        "buy_physical_offers": [],
         "de_legal_availability": false
       },
       "errors": []
@@ -879,16 +897,16 @@
           },
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/laid-back-camp"
           },
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/laid-back-camp"
           }
         ],
@@ -909,6 +927,7 @@
           }
         ],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [
           {
             "provider": "cra",
@@ -928,19 +947,20 @@
         "legal_de_other_providers": [
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/laid-back-camp"
           },
           {
             "provider": "jyn",
-            "name": null,
+            "name": "Joyn (nicht abonniert)",
             "tier": "other",
-            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
             "url": "https://www.joyn.de/serien/laid-back-camp"
           }
         ],
+        "buy_physical_offers": [],
         "de_legal_availability": true
       },
       "errors": []
@@ -962,24 +982,16 @@
         "offers_classified": [],
         "my_direct_hits": [],
         "my_channel_hits": [],
+        "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "legal_de_other_providers": [],
+        "buy_physical_offers": [],
         "de_legal_availability": false
       },
       "errors": []
     }
   ],
-  "unmapped_providers": [
-    "adb",
-    "thl",
-    "jyn",
-    "nfa",
-    "jpc",
-    "bue",
-    "zav",
-    "hgl",
-    "ava"
-  ],
+  "unmapped_providers": [],
   "active_universe": {
     "status_filter": "alles außer dropped/completed",
     "count": 830
@@ -1110,7 +1122,7 @@
     {
       "key": "two_car",
       "expected": "miss",
-      "observed": "hit_direct"
+      "observed": "hit_channel_candidate"
     },
     {
       "key": "www_wagnaria",
