@@ -10,6 +10,10 @@ import path from 'node:path';
 
 const API = 'https://api2.werstreamt.es';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+const FETCH_TIMEOUT_MS = 8000;          // kurze Timeouts: hängende Verbindungen sollen den Lauf nicht fransen
+const RUN_DEADLINE_MS = 15 * 60 * 1000; // Selbst-Deadline UNTER dem 20-Min-Job-Timeout -> Artifact wird sicher geschrieben
+const RUN_START = Date.now();
+function timeLeft() { return RUN_DEADLINE_MS - (Date.now() - RUN_START); }
 const HDRS = {
   'User-Agent': UA,
   'Accept': 'application/json, text/plain, */*',
@@ -50,7 +54,7 @@ const PILOT_QUEUE = [
 
 async function fetchSafe(url, init) {
   try {
-    const res = await fetch(url, { ...init, signal: AbortSignal.timeout(15000),
+    const res = await fetch(url, { ...init, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
       headers: { ...HDRS, ...(init?.headers || {}) } });
     const text = await res.text();
     return { status: res.status, ok: res.ok, text, headers: Object.fromEntries(res.headers) };
@@ -201,6 +205,19 @@ async function main() {
   const probeAlias = matched.find(m => m.mal)?.aliases[0] || 'Frieren';
   out.diagnostics.endpoint_probe = await discoverEndpoints(probeAlias);
 
+  // Diagnose-First: Wenn KEIN Search-Endpoint antwortet, sind alle Titel-Queries
+  // zum Scheitern verurteilt -> Diagnose schreiben und sauber beenden (kein 20-Min-Timeout mehr).
+  const workingSearch = out.diagnostics.endpoint_probe.filter(d =>
+    d.status === 200 && !/^\s*</.test(d.bodySnippet)); // HTML-Antwort (Block/403-Seite) zählt nicht
+  if (workingSearch.length === 0) {
+    out.abort_reason = 'Kein funktionsfähiger Search-Endpoint gefunden – Diagnose-Modus, Titel-Queries übersprungen. ' +
+                       'Nächste Schritte: bodySnippets prüfen (HTML-Blockseite? anderer Pfad? JustWatch-Fallback erwägen).';
+    fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2));
+    console.log(out.abort_reason);
+    console.log('Geschrieben: streaming_pilot.json (nur Diagnose)');
+    return;
+  }
+
   // Provider-Liste roh dumpen (für Map-Verifizierung der MY_DIRECT-/MY_CHANNELS-Namen)
   for (const u of [`${API}/getStreamProviders`, `${API}/providers`]) {
     const r = await fetchSafe(u);
@@ -210,7 +227,12 @@ async function main() {
   }
 
   for (const q of matched) {
-    const searchAliases = [...(q.mal ? [q.mal.title] : []), ...q.aliases];
+    if (timeLeft() < 120000) { // unter 2 Min Restbudget: lieber sauber finishen als vom Job kassiert werden
+      out.abort_reason = 'Selbst-Deadline vor Titel ' + q.key + ' erreicht – Teil-Ergebnis wird gesichert.';
+      break;
+    }
+    // max. 2 Such-Aliase (JP-Export-Titel + kürzester EN-Alias), um den Lauf kurz zu halten
+    const searchAliases = [q.mal?.title, q.aliases[0]].filter(Boolean).slice(0, 2);
     let hit = null, errors = [];
     for (const alias of searchAliases) {
       try {
@@ -233,7 +255,8 @@ async function main() {
       } catch (e) { errors.push(`${alias}: ${String(e)}`); }
     }
     out.results.push({ key: q.key, expected: q.expected, mal: q.mal, result: hit, errors });
-    await new Promise(r2 => setTimeout(r2, 1500)); // Rate-Limit-Respekt
+    fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2)); // inkrementell: Stand geht auch bei Abbruch nicht verloren
+    await new Promise(r2 => setTimeout(r2, 1000)); // Rate-Limit-Respekt
   }
 
   const verdict = out.results.map(r => ({
