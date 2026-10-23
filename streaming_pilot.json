@@ -1,69 +1,985 @@
 {
-  "run": "2026-10-23T12:34:45.866Z",
-  "source": "api2.werstreamt.es (Pilot, Katalogstufe)",
-  "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: my_direct_hits (Abo-Dienste direkt) > my_channel_hits (aniverse-Prime-Channel) > crunchyroll_channel_caveat (nicht CR-direct!) ; legal_de_other_providers = legal in DE verfügbar, aber nicht abonniert (Signal fürs Re-Lizenz-Monitoring).",
-  "diagnostics": {
-    "endpoint_probe": [
-      {
-        "endpoint": "providers_legacy",
-        "url": "https://api2.werstreamt.es/getStreamProviders",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
+  "run": "2026-10-23T12:55:37.094Z",
+  "source": "apis.justwatch.com/graphql (DE, Katalogstufe)",
+  "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > hit_cr_channel_caveat (nicht CR-direct!) ; de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten (Re-Lizenz-Monitoring-Signal). werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar.",
+  "results": [
+    {
+      "key": "harukana_receive",
+      "expected": "hit",
+      "mal": {
+        "mal_id": 35983,
+        "title": "Harukana Receive",
+        "status": "watching"
       },
-      {
-        "endpoint": "providers_alt",
-        "url": "https://api2.werstreamt.es/providers",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
+      "result": {
+        "searched_as": "Harukana Receive",
+        "jw_id": "ts82116",
+        "jw_title": "Harukana Receive",
+        "jw_path": "/de/Serie/harukanareshibu",
+        "match_confidence": "exact",
+        "offers_classified": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN0M94"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN0M94"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.84c2ca59-a49f-4f16-9ca6-dae598e72316"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.84c2ca59-a49f-4f16-9ca6-dae598e72316"
+          },
+          {
+            "provider": "adb",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.amazon.de/dp/B09GJGFWDC?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1060202203"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1060433609"
+          }
+        ],
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN0M94"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN0M94"
+          }
+        ],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.84c2ca59-a49f-4f16-9ca6-dae598e72316"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.84c2ca59-a49f-4f16-9ca6-dae598e72316"
+          }
+        ],
+        "legal_de_other_providers": [
+          {
+            "provider": "adb",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.amazon.de/dp/B09GJGFWDC?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1060202203"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1060433609"
+          }
+        ],
+        "de_legal_availability": true
       },
-      {
-        "endpoint": "lookup_legacy",
-        "url": "https://api2.werstreamt.es/lookup?type=Show&titles[]=Harukana%20Receive",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
+      "errors": []
+    },
+    {
+      "key": "sousou_no_frieren",
+      "expected": "hit",
+      "mal": {
+        "mal_id": 63816,
+        "title": "Sousou no Frieren: Ougonkyou-hen",
+        "status": "plan_to_watch"
       },
-      {
-        "endpoint": "search_underscore",
-        "url": "https://api2.werstreamt.es/_search?q=Harukana%20Receive",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
+      "result": {
+        "searched_as": "Sousou no Frieren: Ougonkyou-hen",
+        "jw_id": "ts364792",
+        "jw_title": "Frieren - Nach dem Ende der Reise",
+        "jw_path": "/de/Serie/frieren-nach-dem-ende-der-reise",
+        "match_confidence": "token",
+        "offers_classified": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00324920PLPL"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00324920PLPL"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.268244a6-ec4b-4464-88b3-8ea8809871cc"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.268244a6-ec4b-4464-88b3-8ea8809871cc"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
+          },
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "jpc",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.jpc.de/jpcng/movie/detail/-/art/frieren-beyond-journey-s-end-nach-dem-ende-der-reise-vol-2/hnum/12130065"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487061"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487059"
+          }
+        ],
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00324920PLPL"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00324920PLPL"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81726714"
+          }
+        ],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.268244a6-ec4b-4464-88b3-8ea8809871cc"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.268244a6-ec4b-4464-88b3-8ea8809871cc"
+          }
+        ],
+        "legal_de_other_providers": [
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
+          },
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/frieren-nach-dem-ende-der-reise"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81726714"
+          },
+          {
+            "provider": "jpc",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.jpc.de/jpcng/movie/detail/-/art/frieren-beyond-journey-s-end-nach-dem-ende-der-reise-vol-2/hnum/12130065"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487061"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072487059"
+          }
+        ],
+        "de_legal_availability": true
       },
-      {
-        "endpoint": "search_plain",
-        "url": "https://api2.werstreamt.es/search?q=Harukana%20Receive",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
+      "errors": []
+    },
+    {
+      "key": "kusuriya",
+      "expected": "hit",
+      "mal": {
+        "mal_id": 61987,
+        "title": "Kusuriya no Hitorigoto 3rd Season",
+        "status": "watching"
       },
-      {
-        "endpoint": "search_titles",
-        "url": "https://api2.werstreamt.es/titles/search?title=Harukana%20Receive",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: redirect count exceeded"
-      }
-    ],
-    "justwatch_probe": [
-      {
-        "url": "https://apis.justwatch.com/graphql",
-        "status": 422,
-        "contentType": "application/json",
-        "bodySnippet": "{\"errors\":[{\"message\":\"Cannot query field \\\"title\\\" on type \\\"MovieOrShow\\\".\",\"locations\":[{\"line\":1,\"column\":113}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Unknown argument \\\"query\\\" on field \\\"Query.searchTitles\\\".\",\"locations\":[{\"line\":1,\"column\":3}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Field \\\"searchTitles\\\" argument \\\"source\\\" of type \\\"String!\\\" is required, but it was not provided.\",\"locations\":[{\"line\":1,\"column\":3}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}}],\"data\":null}"
+      "result": {
+        "searched_as": "Kusuriya no Hitorigoto 3rd Season",
+        "jw_id": "ts395707",
+        "jw_title": "Die Tagebücher der Apothekerin",
+        "jw_path": "/de/Serie/die-tagebuecher-der-apothekerin",
+        "match_confidence": "low",
+        "offers_classified": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.09bc7869-150b-41c6-80c5-77cc284dff0e"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.09bc7869-150b-41c6-80c5-77cc284dff0e"
+          },
+          {
+            "provider": "adb",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.amazon.de/dp/B0FJG3CRH5?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "adb",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.amazon.de/dp/B0F545WV97?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUMNJ5K"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUMNJ5K"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "bue",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.awin1.com/pclick.php?p=43811274979&a=400165&m=14584"
+          },
+          {
+            "provider": "bue",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.awin1.com/pclick.php?p=43811274978&a=400165&m=14584"
+          },
+          {
+            "provider": "zav",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.zavvi.de/p/blu-ray/the-apothecary-diaries-season-1-part-2/16058877/"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1075485792"
+          },
+          {
+            "provider": "hgl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-50486040)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fdvd%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_3_dvd_-50486040-produkt-details.html)"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1073702314"
+          },
+          {
+            "provider": "hgl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-51985544)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_4_blu_ray_-51985544-produkt-details.html)"
+          },
+          {
+            "provider": "jpc",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.jpc.de/jpcng/movie/detail/-/art/the-apothecary-diaries-die-tagebuecher-der-apothekerin-staffel-1/hnum/12804304"
+          }
+        ],
+        "my_direct_hits": [
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUMNJ5K"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUMNJ5K"
+          }
+        ],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.09bc7869-150b-41c6-80c5-77cc284dff0e"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.09bc7869-150b-41c6-80c5-77cc284dff0e"
+          }
+        ],
+        "legal_de_other_providers": [
+          {
+            "provider": "adb",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.amazon.de/dp/B0FJG3CRH5?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "adb",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.amazon.de/dp/B0F545WV97?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "nfa",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.netflix.com/title/81712068"
+          },
+          {
+            "provider": "bue",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.awin1.com/pclick.php?p=43811274979&a=400165&m=14584"
+          },
+          {
+            "provider": "bue",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.awin1.com/pclick.php?p=43811274978&a=400165&m=14584"
+          },
+          {
+            "provider": "zav",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.zavvi.de/p/blu-ray/the-apothecary-diaries-season-1-part-2/16058877/"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1075485792"
+          },
+          {
+            "provider": "hgl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-50486040)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fdvd%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_3_dvd_-50486040-produkt-details.html)"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1073702314"
+          },
+          {
+            "provider": "hgl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-51985544)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fthe_apothecary_diaries_die_tagebuecher_der_apothekerin_staffel_1_vol_4_blu_ray_-51985544-produkt-details.html)"
+          },
+          {
+            "provider": "jpc",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.jpc.de/jpcng/movie/detail/-/art/the-apothecary-diaries-die-tagebuecher-der-apothekerin-staffel-1/hnum/12804304"
+          }
+        ],
+        "de_legal_availability": true
       },
-      {
-        "url": "https://content-gql.justwatch.com/graphql",
-        "status": 0,
-        "contentType": null,
-        "bodySnippet": "TypeError: fetch failed | cause: ENOTFOUND"
-      }
-    ]
-  },
-  "providers_raw": null,
-  "results": [],
+      "errors": []
+    },
+    {
+      "key": "senryuu_shoujo",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 38787,
+        "title": "Senryuu Shoujo",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "Senryuu Shoujo",
+        "jw_id": "ts396065",
+        "jw_title": "Senryuu Girl",
+        "jw_path": null,
+        "match_confidence": "exact",
+        "offers_classified": [],
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "key": "anima_yell",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 37206,
+        "title": "Anima Yell!",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "Anima Yell!",
+        "jw_id": "ts84464",
+        "jw_title": "Anima Yell!",
+        "jw_path": "/de/Serie/animaeru",
+        "match_confidence": "exact",
+        "offers_classified": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G65PJVN76"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G65PJVN76"
+          }
+        ],
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G65PJVN76"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G65PJVN76"
+          }
+        ],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "key": "sakura_quest",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 34494,
+        "title": "Sakura Quest",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "Sakura Quest",
+        "jw_id": "ts56245",
+        "jw_title": "Sakura Quest",
+        "jw_path": "/de/Serie/sakura-quest",
+        "match_confidence": "exact",
+        "offers_classified": [],
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "key": "two_car",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 36009,
+        "title": "Two Car",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "Two Car",
+        "jw_id": "ts75861",
+        "jw_title": "Two Car",
+        "jw_path": "/de/Serie/Two-Car",
+        "match_confidence": "exact",
+        "offers_classified": [
+          {
+            "provider": "ava",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
+          },
+          {
+            "provider": "ava",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
+          },
+          {
+            "provider": "amz",
+            "name": "Amazon Prime Video",
+            "tier": "direct",
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+          },
+          {
+            "provider": "amz",
+            "name": "Amazon Prime Video",
+            "tier": "direct",
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059125145"
+          }
+        ],
+        "my_direct_hits": [
+          {
+            "provider": "amz",
+            "name": "Amazon Prime Video",
+            "tier": "direct",
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+          },
+          {
+            "provider": "amz",
+            "name": "Amazon Prime Video",
+            "tier": "direct",
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c1a2cac7-2d2b-4fc5-a8d9-37d904509eed"
+          }
+        ],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [],
+        "legal_de_other_providers": [
+          {
+            "provider": "ava",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
+          },
+          {
+            "provider": "ava",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a549388a-602d-43a8-866f-c49e1c734415"
+          },
+          {
+            "provider": "thl",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059125145"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "key": "www_wagnaria",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 33094,
+        "title": "WWW.Working!!",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "WWW.Working!!",
+        "jw_id": "ts47701",
+        "jw_title": "www.Working!!",
+        "jw_path": null,
+        "match_confidence": "exact",
+        "offers_classified": [],
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "key": "yuru_camp",
+      "expected": "probe",
+      "mal": {
+        "mal_id": 34798,
+        "title": "Yuru Camp△",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "Yuru Camp△",
+        "jw_id": "ts77726",
+        "jw_title": "Laid-Back Camp",
+        "jw_path": "/de/Serie/yurukiyan",
+        "match_confidence": "exact",
+        "offers_classified": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN19QJ"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN19QJ"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.935caaf7-c00d-45c4-b387-5c59ed4f6fd6"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.935caaf7-c00d-45c4-b387-5c59ed4f6fd6"
+          },
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/laid-back-camp"
+          },
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/laid-back-camp"
+          }
+        ],
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN19QJ"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN19QJ"
+          }
+        ],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.935caaf7-c00d-45c4-b387-5c59ed4f6fd6"
+          },
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.935caaf7-c00d-45c4-b387-5c59ed4f6fd6"
+          }
+        ],
+        "legal_de_other_providers": [
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/laid-back-camp"
+          },
+          {
+            "provider": "jyn",
+            "name": null,
+            "tier": "other",
+            "note": "unmapped shortName – Map nach erstem Lauf verfeinern",
+            "url": "https://www.joyn.de/serien/laid-back-camp"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "key": "non_non_biyori",
+      "expected": "miss",
+      "mal": {
+        "mal_id": 17549,
+        "title": "Non Non Biyori",
+        "status": "plan_to_watch"
+      },
+      "result": {
+        "searched_as": "Non Non Biyori",
+        "jw_id": "ts44298",
+        "jw_title": "Non Non Biyori",
+        "jw_path": "/de/Serie/nonnonbiyori",
+        "match_confidence": "exact",
+        "offers_classified": [],
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "crunchyroll_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    }
+  ],
+  "unmapped_providers": [
+    "adb",
+    "thl",
+    "jyn",
+    "nfa",
+    "jpc",
+    "bue",
+    "zav",
+    "hgl",
+    "ava"
+  ],
   "active_universe": {
     "status_filter": "alles außer dropped/completed",
     "count": 830
@@ -160,5 +1076,56 @@
       }
     }
   ],
-  "abort_reason": "Kein funktionsfähiger werstreamt-Search-Endpoint gefunden – Diagnose-Modus. Auch JustWatch-Sonde ohne verwertbares Ergebnis -> causes prüfen."
+  "verdict": [
+    {
+      "key": "harukana_receive",
+      "expected": "hit",
+      "observed": "hit_direct"
+    },
+    {
+      "key": "sousou_no_frieren",
+      "expected": "hit",
+      "observed": "hit_direct"
+    },
+    {
+      "key": "kusuriya",
+      "expected": "hit",
+      "observed": "hit_direct"
+    },
+    {
+      "key": "senryuu_shoujo",
+      "expected": "miss",
+      "observed": "no_hit"
+    },
+    {
+      "key": "anima_yell",
+      "expected": "miss",
+      "observed": "hit_direct"
+    },
+    {
+      "key": "sakura_quest",
+      "expected": "miss",
+      "observed": "no_hit"
+    },
+    {
+      "key": "two_car",
+      "expected": "miss",
+      "observed": "hit_direct"
+    },
+    {
+      "key": "www_wagnaria",
+      "expected": "miss",
+      "observed": "no_hit"
+    },
+    {
+      "key": "yuru_camp",
+      "expected": "probe",
+      "observed": "hit_direct"
+    },
+    {
+      "key": "non_non_biyori",
+      "expected": "miss",
+      "observed": "no_hit"
+    }
+  ]
 }
