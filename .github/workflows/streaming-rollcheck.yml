@@ -1,0 +1,44 @@
+name: Streaming Rollcheck (MAL x JustWatch, Katalogstufe)
+
+on:
+  workflow_dispatch: {}          # manuell für Extra-Läufe
+  schedule:
+    - cron: '17 3 * * *'         # täglich 03:17 UTC (05:17 MESZ): 1 Chunk (~45 Titel)
+                                  # 830 aktive Titel / 45 = ~19 Läufe pro Voll-Cycle (~3 Wochen)
+
+permissions:
+  contents: write
+
+jobs:
+  rollcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Rollcheck-Lauf (naechster Chunk, State aus streaming_state.json)
+        run: node scripts/streaming_rollcheck.mjs
+        env:
+          ROLLCHECK_CHUNK: '45'
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streaming_rollcheck.json streaming_state.json
+          git commit -m "Streaming Rollcheck: Chunk $(date -u +%Y-%m-%d)" || echo "Keine Änderungen"
+          git push
+
+      - name: Artifact hochladen
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: streaming-rollcheck-${{ github.run_id }}
+          path: |
+            streaming_rollcheck.json
+            streaming_state.json
+          retention-days: 30
