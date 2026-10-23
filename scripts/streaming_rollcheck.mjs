@@ -40,13 +40,17 @@ const PROVIDER_MAP = {
   ytp: { name: 'YouTube Premium', tier: 'direct' },
   neb: { name: 'Nebula', tier: 'direct' },
   ani: { name: 'aniverse (Prime Channel)', tier: 'channel' },
-  ava: { name: 'Prime-Channel (aniverse-Verdacht)', tier: 'channel_candidate',
-         note: 'Katalogstufe unsicher – beim Fund Video-Ebene/Channel im Prime-Check verifizieren.' },
-  // weitere Prime-Channel-Pakete (Rollcheck Chunk 1, 23.10.2026): watch.amazon.de-URLs wie ava
-  pva: { name: 'Prime-Channel (pva)', tier: 'channel_candidate',
-         note: 'Prime-Channel-Paket, Katalogstufe unsicher – Video-Ebene im Prime-Check verifizieren.' },
-  ada: { name: 'Prime-Channel (ada)', tier: 'channel_candidate',
-         note: 'Prime-Channel-Paket, Katalogstufe unsicher – Video-Ebene im Prime-Check verifizieren.' },
+  // ava = aniverse: Nutzer-Prime-Check 23.10.2026 (AnoHana-Serie, Akatsuki no Yona,
+  // Akuyaku Reijou Tensei Ojisan, Akane-banashi S1 – jeweils aniverse angezeigt)
+  ava: { name: 'aniverse (Prime Channel)', tier: 'channel',
+         note: 'Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.' },
+  // pva = Prime-Kauf/Leihe-Variante (Yona-Check 23.10.: prime selbst + aniverse + kaufen/leihen
+  // auf derselben GTI; amp=Prime-Abo, ava=aniverse, pva=kaufen/leihen)
+  pva: { name: 'Prime Video (Kauf/Leihe, pva)', tier: 'buy_physical',
+         note: 'Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).' },
+  // ada = ADN-Prime-Channel (Akuyaku-Check 23.10.: aniverse, ADN, kaufen/leihen)
+  ada: { name: 'ADN (Amazon-Channel)', tier: 'adn_channel_caveat',
+         note: 'ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.' },
   // echte Streaming-Dienste ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal
   vik: { name: 'Rakuten Viki (nicht abonniert)', tier: 'other' },
   akp: { name: 'Akibapass (nicht abonniert)', tier: 'other' },
@@ -137,8 +141,22 @@ function titleMatchConf(jwTitle, wantedNorm, wantedTokens) {
   return null;
 }
 
+// JustWatch rate-limtet Runner-IPs gelegentlich mit 429 (Repo-Lauf 23.10.2026, Titel 43-45).
+// Backoff-Retry: 2x mit wachsender Wartezeit; 429 im Such-Step ist die dominierende Fehlerart.
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+async function gqlWithBackoff(query, label) {
+  const waits = [0, 30000, 60000];
+  let r = null;
+  for (let i = 0; i < waits.length; i++) {
+    if (waits[i]) await sleep(waits[i]);
+    r = await gql(query);
+    if (r.status !== 429) return r;
+  }
+  return r; // letzter Versuch (429) – Aufrufer entscheidet über Abbruch
+}
+
 async function searchJustWatch(query, first = 5) {
-  const r = await gql(`query { searchTitles(source: "web", country: DE, language: de, first: ${first}, ` +
+  const r = await gqlWithBackoff(`query { searchTitles(source: "web", country: DE, language: de, first: ${first}, ` +
     `filter: {searchQuery: ${JSON.stringify(query)}}) { edges { node { id objectId objectType ` +
     `content(country: DE, language: de) { title fullPath } } } } }`);
   const edges = r?.data?.data?.searchTitles?.edges;
@@ -146,7 +164,7 @@ async function searchJustWatch(query, first = 5) {
 }
 
 async function offersJustWatch(nodeId) {
-  const r = await gql(`query { node(id: ${JSON.stringify(nodeId)}) { ... on MovieOrShow { id ` +
+  const r = await gqlWithBackoff(`query { node(id: ${JSON.stringify(nodeId)}) { ... on MovieOrShow { id ` +
     `offers(country: DE, platform: WEB) { package { shortName } standardWebURL } } } }`);
   const offers = r?.data?.data?.node?.offers;
   return { status: r.status, offers: Array.isArray(offers) ? offers : null, raw: r.text.slice(0, 500) };
@@ -172,7 +190,8 @@ async function main() {
                 chunk_size: CHUNK_SIZE,
                 disclaimer: 'Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. ' +
                             'Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > ' +
-                            'hit_channel_candidate (Prime-Channel-Verdacht) > hit_cr_channel_caveat (nicht CR-direct!) ; ' +
+                            'hit_channel_candidate (Prime-Channel-Verdacht) > hit_cr_channel_caveat / ' +
+                            'hit_adn_channel_caveat (Channel-Katalog weicht ab – nicht CR-/ADN-direct!) ; ' +
                             'de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten ' +
                             '(Re-Lizenz-Monitoring-Signal). buy_physical = Disc/Kauf, kein Streaming-Signal. ' +
                             'werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar.',
@@ -239,6 +258,7 @@ async function main() {
         const channel = offers.filter(x => x.tier === 'channel');
         const channelCand = offers.filter(x => x.tier === 'channel_candidate');
         const crCaveat = offers.filter(x => x.tier === 'cr_channel_caveat');
+        const adnCaveat = offers.filter(x => x.tier === 'adn_channel_caveat');
         const other = offers.filter(x => x.tier === 'other');
         const buy = offers.filter(x => x.tier === 'buy_physical');
         const streaming = offers.filter(x => x.tier !== 'buy_physical');
@@ -247,6 +267,7 @@ async function main() {
           : channel.length ? 'hit_channel'
           : channelCand.length ? 'hit_channel_candidate'
           : crCaveat.length ? 'hit_cr_channel_caveat'
+          : adnCaveat.length ? 'hit_adn_channel_caveat'
           : other.length ? 'de_legal_only'
           : (streaming.length === 0 && offers.length === 0 ? 'no_hit' : 'no_stream_hit');
         hit = { searched_as: alias, jw_id: node.id, jw_title: node.content?.title,
@@ -256,11 +277,18 @@ async function main() {
                 my_direct_hits: dedup(direct), my_channel_hits: dedup(channel),
                 channel_candidates: dedup(channelCand),
                 crunchyroll_channel_caveat: dedup(crCaveat),
+                adn_channel_caveat: dedup(adnCaveat),
                 legal_de_other_providers: dedup(other),
                 buy_physical_offers: dedup(buy),
                 de_legal_availability: streaming.length > 0 };
         break;
       } catch (e) { errors.push(`${alias}: ${String(e)}`); }
+    }
+    // 429 auch nach Backoff-Retries -> Chunk hier abbrechen, Titel NICHT als processed
+    // markieren (wird im nächsten Lauf wiederholt; Repo-Vorfall 23.10.2026).
+    if (!hit && errors.some(e => e.includes('429'))) {
+      out.abort_reason = `JustWatch-Rate-Limit (429) bei "${t.title}" trotz Backoff – Chunk abgebrochen, Titel wird im nächsten Lauf wiederholt.`;
+      break;
     }
     const rec = { mal_id: t.mal_id, title: t.title, status: t.status,
                   result: hit || (errors.length ? null : { verdict: 'no_match' }),
@@ -275,6 +303,7 @@ async function main() {
                                my_direct_hits: hit.my_direct_hits, my_channel_hits: hit.my_channel_hits,
                                channel_candidates: hit.channel_candidates,
                                crunchyroll_channel_caveat: hit.crunchyroll_channel_caveat,
+                               adn_channel_caveat: hit.adn_channel_caveat,
                                legal_de_other_providers: hit.legal_de_other_providers };
     } else if (state.hits[t.mal_id]) {
       state.hits[t.mal_id].checked_at = out.run; // no_hit: Timestamp aktualisieren, Eintrag behalten
