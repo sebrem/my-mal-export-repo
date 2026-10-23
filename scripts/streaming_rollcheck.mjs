@@ -1,4 +1,11 @@
-// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.5 – JustWatch-GraphQL (Katalogstufe)
+// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.5.1 – JustWatch-GraphQL (Katalogstufe)
+// V8.5.1 (23.10.2026): (1) ADN-URL-Normalisierung – JW-Offers verlinken FOLGEN-Seiten
+// (.../de/video/<show>/<video>-folge-1), deren __NEXT_DATA__ KEINEN data.show-Query
+// enthaelt -> adnVideoCheck kuerzt die Offer-URL auf die Show-Seite
+// (.../de/video/<show>) vor dem Abruf (erster Lauf: 6x available=null trotz HTTP 200
+// und season_video_count -> genau diese Ursache; geo_suspect war False-Positive).
+// (2) PROVIDER_MAP: rps = RTL+, rlm = RTL+ Max (Amazon Channel), tog = TOGGO
+// (Verifikat Haikyuu-Offers 23.10.2026: plus.rtl.de / watch.amazon.de / toggo.de).
 // V8.5 (23.10.2026): ADN-Video-Ebenen-Check. Fuer Titel mit ADN-direct-Offer wird
 // die im Offer gespeicherte ADN-Show-URL abgerufen und aus __NEXT_DATA__ gezogen:
 // available (true/false), languages, episode_count, season_video_count.
@@ -83,6 +90,13 @@ const PROVIDER_MAP = {
          note: 'Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).' },
   jyn: { name: 'Joyn (nicht abonniert)', tier: 'other',
          note: 'Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.' },
+  // V8.5.1 (23.10.2026, Verifikat Haikyuu-Offers: plus.rtl.de / watch.amazon.de / toggo.de):
+  rps: { name: 'RTL+', tier: 'other',
+         note: 'RTL+-Abo-Dienst (Offer-URL plus.rtl.de); nicht abonniert -> Re-Lizenz-Monitoring-Signal.' },
+  rlm: { name: 'RTL+ Max (Amazon Channel)', tier: 'channel_candidate',
+         note: 'RTL+-Prime-Channel (Offer-URL watch.amazon.de): Katalogabweichung moeglich, Fund != RTL+-direct. Video-Ebene im Prime-Check verifizieren.' },
+  tog: { name: 'TOGGO (kostenlos, ad-financed)', tier: 'other',
+         note: 'RTL-Kids-Plattform toggo.de, gratis/werbefinanziert – legales Streaming-Signal, aber kein Abo-Dienst.' },
   atp: { name: 'Apple TV+', tier: 'direct',
          note: 'Abo vorhanden (Nutzer 23.10.2026); kaum Anime, aber direkter Dienst.' },
   mxx: { name: 'HBO Max (nicht abonniert)', tier: 'other' },
@@ -212,15 +226,19 @@ async function offersJustWatch(nodeId) {
 // --- V8.5: ADN-Video-Ebenen-Check (HTML-Show-Seite -> __NEXT_DATA__) -----------
 async function adnVideoCheck(adnUrl) {
   try {
-    const res = await fetch(adnUrl, { method: 'GET', redirect: 'follow',
+    // V8.5.1: Offer-URL kann eine FOLGEN-Seite sein (.../de/video/<show>/<video>-folge-N);
+    // nur Show-Seiten enthalten den data.show-Query -> auf Show-Segment kuerzen.
+    const mUrl = adnUrl.match(/^https:\/\/animationdigitalnetwork\.com\/de\/video\/[^/]+/);
+    const showUrl = mUrl ? mUrl[0] : adnUrl;
+    const res = await fetch(showUrl, { method: 'GET', redirect: 'follow',
       signal: AbortSignal.timeout(ADN_FETCH_TIMEOUT_MS),
       headers: { 'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml',
                  'Accept-Language': 'de-DE,de;q=0.9,fr;q=0.5' } });
-    if (!res.ok) return { url: adnUrl, status: res.status, available: null,
+    if (!res.ok) return { url: showUrl, status: res.status, available: null,
       note: `ADN-Seite nicht abrufbar (HTTP ${res.status})` };
     const html = await res.text();
     const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
-    if (!m) return { url: adnUrl, status: res.status, available: null,
+    if (!m) return { url: showUrl, status: res.status, available: null,
       note: 'kein __NEXT_DATA__ auf der ADN-Seite' };
     const queries = (JSON.parse(m[1])?.props?.pageProps?.dehydratedState?.queries) || [];
     let show = null, seasons = null;
@@ -232,7 +250,7 @@ async function adnVideoCheck(adnUrl) {
     }
     const videoCount = Array.isArray(seasons)
       ? seasons.reduce((n, s) => n + (Array.isArray(s?.videos) ? s.videos.length : 0), 0) : null;
-    return { url: adnUrl, status: res.status,
+    return { url: showUrl, status: res.status,
       adn_title: show?.title ?? null,
       available: typeof show?.available === 'boolean' ? show.available : null,
       languages: show?.languages ?? null,
@@ -240,7 +258,7 @@ async function adnVideoCheck(adnUrl) {
       season_video_count: videoCount,
       note: 'ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)' };
   } catch (e) {
-    return { url: adnUrl, available: null, note: 'adn check failed: ' + causeStr(e) };
+    return { url: showUrl, available: null, note: 'adn check failed: ' + causeStr(e) };
   }
 }
 
