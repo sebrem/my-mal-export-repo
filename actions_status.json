@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T17:19:29.864266+00:00",
-  "ok": false,
+  "generated_at": "2026-10-23T14:06:35.053503+00:00",
+  "ok": true,
   "grace_hours": 4,
   "workflows": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "name": "MAL Friends Candidates",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "pending",
+      "detail": "live seit 2026-10-21T12:30Z; erwarteter Termin 2026-10-19T04:35:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-10-19T04:35:00+00:00"
     },
     {
@@ -29,15 +29,27 @@
     },
     {
       "name": "Verlags-Announcements",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "pending",
+      "detail": "live seit 2026-10-22T08:00Z; erwarteter Termin 2026-10-21T05:47:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-10-21T05:47:00+00:00"
     },
     {
       "name": "Release-Kalender",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "pending",
+      "detail": "live seit 2026-10-22T08:15Z; erwarteter Termin 2026-10-22T04:30:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-10-22T04:30:00+00:00"
+    },
+    {
+      "name": "Streaming Rollcheck",
+      "status": "pending",
+      "detail": "live seit 2026-10-23T13:24Z; erwarteter Termin 2026-10-23T03:17:00+00:00 davor - erster Cron steht noch aus",
+      "expected": "2026-10-23T03:17:00+00:00"
+    },
+    {
+      "name": "Theme & Seiyuu Harvest",
+      "status": "pending",
+      "detail": "live seit 2026-10-22T13:30Z; erwarteter Termin 2026-10-01T05:03:00+00:00 davor - erster Cron steht noch aus",
+      "expected": "2026-10-01T05:03:00+00:00"
     }
   ]
 }
