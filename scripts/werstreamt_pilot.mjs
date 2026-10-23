@@ -58,8 +58,40 @@ async function fetchSafe(url, init) {
     const text = await res.text();
     return { status: res.status, ok: res.ok, text, headers: Object.fromEntries(res.headers) };
   } catch (e) {
-    return { status: 0, ok: false, text: String(e), headers: {} };
+    // cause-Logging: "fetch failed" hat immer eine Ursache (ENOTFOUND = DNS raus,
+    // ECONNREFUSED/UND_ERR_CONNECT_TIMEOUT = Verbindung geblockt, UND_ERR = TLS-Abbruch).
+    // Das entscheidet, ob api2.werstreamt.es GitHub-Runner-IPs blockt (dann JustWatch-Fallback).
+    const cause = e?.cause;
+    const causeStr = cause?.code ?? cause?.message ?? String(cause ?? 'unbekannt');
+    return { status: 0, ok: false, text: `TypeError: fetch failed | cause: ${causeStr}`, headers: {} };
   }
+}
+
+// JustWatch-GraphQL-Sonde (Fallback-Kandidat): nur Diagnose, ob der Endpoint vom Runner aus erreichbar ist.
+async function probeJustWatch(probeTitle) {
+  const gqlBodies = [
+    { url: 'https://apis.justwatch.com/graphql',
+      body: JSON.stringify({ query: `{ searchTitles(country: "DE", language: "de", first: 1, query: "${probeTitle.replace(/"/g, '')}") { edges { node { id objectId title } } } }` }) },
+    { url: 'https://content-gql.justwatch.com/graphql',
+      body: JSON.stringify({ query: `{ searchTitles(country: "DE", language: "de", first: 1, query: "${probeTitle.replace(/"/g, '')}") { edges { node { id objectId title } } } }` }) },
+  ];
+  const results = [];
+  for (const g of gqlBodies) {
+    try {
+      const res = await fetch(g.url, { method: 'POST', signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json',
+                   'User-Agent': UA, 'Accept-Language': 'de-DE,de;q=0.9' },
+        body: g.body });
+      const text = await res.text();
+      results.push({ url: g.url, status: res.status, contentType: res.headers.get('content-type'),
+                     bodySnippet: text.slice(0, 800) });
+    } catch (e) {
+      const cause = e?.cause;
+      results.push({ url: g.url, status: 0, contentType: null,
+                     bodySnippet: `TypeError: fetch failed | cause: ${cause?.code ?? cause?.message ?? String(cause ?? 'unbekannt')}` });
+    }
+  }
+  return results;
 }
 
 // --- Phase 1: Endpoint-Discovery --------------------------------------------
@@ -219,14 +251,19 @@ async function main() {
 
   const probeAlias = matched.find(m => m.mal)?.aliases[0] || 'Frieren';
   out.diagnostics.endpoint_probe = await discoverEndpoints(probeAlias);
+  out.diagnostics.justwatch_probe = await probeJustWatch(probeAlias);
 
   // Diagnose-First: Wenn KEIN Search-Endpoint antwortet, sind alle Titel-Queries
   // zum Scheitern verurteilt -> Diagnose schreiben und sauber beenden (kein 20-Min-Timeout mehr).
   const workingSearch = out.diagnostics.endpoint_probe.filter(d =>
     d.status === 200 && !/^\s*</.test(d.bodySnippet)); // HTML-Antwort (Block/403-Seite) zählt nicht
+  const workingJustWatch = (out.diagnostics.justwatch_probe || []).some(d =>
+    d.status === 200 && d.bodySnippet.includes('"edges"'));
   if (workingSearch.length === 0) {
-    out.abort_reason = 'Kein funktionsfähiger Search-Endpoint gefunden – Diagnose-Modus, Titel-Queries übersprungen. ' +
-                       'Nächste Schritte: bodySnippets prüfen (HTML-Blockseite? anderer Pfad? JustWatch-Fallback erwägen).';
+    out.abort_reason = 'Kein funktionsfähiger werstreamt-Search-Endpoint gefunden – Diagnose-Modus. ' +
+                       (workingJustWatch
+                         ? 'JustWatch-GraphQL antwortet! -> Fallback-Entscheidung auf Basis der causes/Ergebnisse treffen.'
+                         : 'Auch JustWatch-Sonde ohne verwertbares Ergebnis -> causes prüfen.');
     fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2));
     console.log(out.abort_reason);
     console.log('Geschrieben: streaming_pilot.json (nur Diagnose)');
