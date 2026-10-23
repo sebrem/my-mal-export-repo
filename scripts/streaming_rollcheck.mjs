@@ -1,4 +1,7 @@
-// MAL x Streaming-Verfügbarkeit ROLLCHECK V8 – JustWatch-GraphQL (Katalogstufe)
+// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.4 – JustWatch-GraphQL (Katalogstufe)
+// V8.4 (23.10.2026): dnp = Disney+ ins PROVIDER_MAP aufgenommen (Verifikat: Dorohedoro-
+// dnp-Offer verlinkt disneyplus.com; Nutzer-Wissen Medalist & Wandance auf Disney+;
+// externe JustWatch-Dokus). dis als Legacy-Alias gehalten (in DE bisher nie in Offers).
 // Basiert auf werstreamt_pilot.mjs V7.1 (Pilot validiert 23.10.2026, alle Kontrollen korrekt).
 // Unterschied zum Pilot: verarbeitet das GESAMTE aktive Universum (alles außer dropped/completed,
 // aktuell 830 Titel) in Chunks (Standard 45 Titel/Lauf) mit persistiertem Fortschritt.
@@ -31,7 +34,14 @@ const PROVIDER_MAP = {
   // amp = "amazonprime" = Prime-Abo (Pilot-Befund Two Car 23.10.2026).
   amz: { name: 'Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)', tier: 'other',
          note: 'Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.' },
-  dis: { name: 'Disney+', tier: 'direct' },
+  // dnp = Disney+ (JustWatch codiert Disney+ in DE als dnp; Verifikat 23.10.2026:
+  // Dorohedoro-dnp-Offer verlinkt disneyplus.com; Nutzer: Medalist & Wandance laufen
+  // auf Disney+; externe Dokus wie browse.sh/Apify bestaetigen dnp=Disney+).
+  dnp: { name: 'Disney+', tier: 'direct' },
+  // dis = Legacy-Code: in DE bisher NIE in Offers aufgetaucht (JW nutzt dnp) –
+  // als Alias gehalten, falls aeltere/regionale Exporte ihn liefern.
+  dis: { name: 'Disney+ (Legacy-Code dis)', tier: 'direct',
+         note: 'Alias zu dnp – JustWatch DE nutzt dnp fuer Disney+; dis bisher nie gesehen.' },
   cru: { name: 'Crunchyroll', tier: 'direct' },
   adn: { name: 'ADN (Animation Digital Network)', tier: 'direct' },
   adn2: { name: 'ADN', tier: 'direct' },
