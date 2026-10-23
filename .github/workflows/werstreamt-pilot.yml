@@ -1,0 +1,31 @@
+name: WerStreamt Pilot (MAL x Streaming, Katalogstufe)
+
+on:
+  workflow_dispatch: {}        # Pilot: nur manuell; Cron folgt nach Endpoint-Verifikation
+  # schedule:
+  #   - cron: '47 4 * * 3'    # Platzhalter: mittwochs 04:47 UTC (nach Release-Kalender-Do löschen)
+
+permissions:
+  contents: read
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Pilot-Lauf (Endpoint-Discovery + 10 Kontrolltitel)
+        run: node scripts/werstreamt_pilot.mjs
+
+      - name: Artifact hochladen
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: streaming-pilot-${{ github.run_id }}
+          path: streaming_pilot.json
+          retention-days: 30
