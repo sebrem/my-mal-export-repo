@@ -1,4 +1,14 @@
-// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.4 – JustWatch-GraphQL (Katalogstufe)
+// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.5 – JustWatch-GraphQL (Katalogstufe)
+// V8.5 (23.10.2026): ADN-Video-Ebenen-Check. Fuer Titel mit ADN-direct-Offer wird
+// die im Offer gespeicherte ADN-Show-URL abgerufen und aus __NEXT_DATA__ gezogen:
+// available (true/false), languages, episode_count, season_video_count.
+// Caveats: (a) Geo – ADN berechnet 'available' aus Sicht des Abruf-Standorts
+// (Sandbox/EU sah true; GitHub-Runner-Region unklar -> geo_suspect-Selbstcheck:
+// >=3 Checks und 0x available=true = Verdacht, dann Browser-Kalibrierung noetig).
+// (b) Nur adn-DIRECT-Offers haben eine ADN-URL; ada-Channel-Caveat-Offers
+// verlinken auf watch.amazon.de und bleiben Katalogstufe. (c) ADN-/_next/data
+// und Sitemap sind CloudFront-blockt – nur HTML-Show-Seiten sind offen, daher
+// dieser Weg. Kein Anti-Bot bei ADN (im Gegensatz zu werstreamt.es).
 // V8.4 (23.10.2026): dnp = Disney+ ins PROVIDER_MAP aufgenommen (Verifikat: Dorohedoro-
 // dnp-Offer verlinkt disneyplus.com; Nutzer-Wissen Medalist & Wandance auf Disney+;
 // externe JustWatch-Dokus). dis als Legacy-Alias gehalten (in DE bisher nie in Offers).
@@ -22,6 +32,11 @@ function timeLeft() { return RUN_DEADLINE_MS - (Date.now() - RUN_START); }
 const CHUNK_SIZE = Number(process.env.ROLLCHECK_CHUNK || '45');
 const STATE_FILE = 'streaming_state.json';
 const OUT_FILE = 'streaming_rollcheck.json';
+// V8.5: ADN-Video-Ebenen-Check
+const ADN_CHECK = (process.env.ADN_CHECK || '1') !== '0';   // '0' deaktiviert den Pass
+const ADN_MAX_PER_RUN = Number(process.env.ADN_MAX_CHECKS || '12');
+const ADN_FETCH_TIMEOUT_MS = 15000;
+const ADN_PAUSE_MS = 1500; // Rate-Limit-Respekt ggue. ADN-HTML-Seiten
 
 // JustWatch-Provider-ShortNames -> Klassifizierung (verifiziert per packages(country:DE,platform:WEB)
 // und Pilot-Läufen 23.10.2026; Channel-Pakete listet die Paketabfrage nicht -> ava = Verdacht).
@@ -194,6 +209,41 @@ async function offersJustWatch(nodeId) {
   return { status: r.status, offers: Array.isArray(offers) ? offers : null, raw: r.text.slice(0, 500) };
 }
 
+// --- V8.5: ADN-Video-Ebenen-Check (HTML-Show-Seite -> __NEXT_DATA__) -----------
+async function adnVideoCheck(adnUrl) {
+  try {
+    const res = await fetch(adnUrl, { method: 'GET', redirect: 'follow',
+      signal: AbortSignal.timeout(ADN_FETCH_TIMEOUT_MS),
+      headers: { 'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml',
+                 'Accept-Language': 'de-DE,de;q=0.9,fr;q=0.5' } });
+    if (!res.ok) return { url: adnUrl, status: res.status, available: null,
+      note: `ADN-Seite nicht abrufbar (HTTP ${res.status})` };
+    const html = await res.text();
+    const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+    if (!m) return { url: adnUrl, status: res.status, available: null,
+      note: 'kein __NEXT_DATA__ auf der ADN-Seite' };
+    const queries = (JSON.parse(m[1])?.props?.pageProps?.dehydratedState?.queries) || [];
+    let show = null, seasons = null;
+    for (const q of queries) {
+      const data = q?.state?.data;
+      if (!data) continue;
+      if (data.show) show = data.show;
+      if (Array.isArray(data.seasons)) seasons = data.seasons;
+    }
+    const videoCount = Array.isArray(seasons)
+      ? seasons.reduce((n, s) => n + (Array.isArray(s?.videos) ? s.videos.length : 0), 0) : null;
+    return { url: adnUrl, status: res.status,
+      adn_title: show?.title ?? null,
+      available: typeof show?.available === 'boolean' ? show.available : null,
+      languages: show?.languages ?? null,
+      episode_count: show?.episodeCount ?? null,
+      season_video_count: videoCount,
+      note: 'ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)' };
+  } catch (e) {
+    return { url: adnUrl, available: null, note: 'adn check failed: ' + causeStr(e) };
+  }
+}
+
 // --- Phase 3: Chunk-State -------------------------------------------------------
 function loadState() {
   try {
@@ -218,8 +268,14 @@ async function main() {
                             'hit_adn_channel_caveat (Channel-Katalog weicht ab – nicht CR-/ADN-direct!) ; ' +
                             'de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten ' +
                             '(Re-Lizenz-Monitoring-Signal). buy_physical = Disc/Kauf, kein Streaming-Signal. ' +
-                            'werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar.',
-                unmapped_providers: [] };
+                            'werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar. ' +
+                            'V8.5: adn_video-Feld = ADN-Video-Ebenen-Check (available/languages/episode_count ' +
+                            'aus ADN-Show-Seite); Geo-Caveat – s. adn_check.geo_suspect.',
+                unmapped_providers: [],
+                adn_check: { enabled: ADN_CHECK, max_per_run: ADN_MAX_PER_RUN,
+                             checks_done: 0, available_true: 0, available_false: 0,
+                             geo_suspect: false } };
+  let adnChecksLeft = ADN_CHECK ? ADN_MAX_PER_RUN : 0;
 
   const { active, activeCount } = loadUniverse();
   const state = loadState();
@@ -322,6 +378,20 @@ async function main() {
       out.abort_reason = `JustWatch-Rate-Limit (429) bei "${t.title}" trotz Backoff – Chunk abgebrochen, Titel wird im nächsten Lauf wiederholt.`;
       break;
     }
+    // V8.5: ADN-Video-Ebenen-Check nur fuer adn-DIRECT-Offers (mit ADN-URL im Offer;
+    // ada-Channel-Offers verlinken auf watch.amazon.de und bleiben Katalogstufe).
+    if (hit && adnChecksLeft > 0 && timeLeft() > 60000) {
+      const adnOffer = hit.my_direct_hits.find(x => x.provider === 'adn'
+        && x.url && x.url.startsWith('https://animationdigitalnetwork.com'));
+      if (adnOffer) {
+        hit.adn_video = await adnVideoCheck(adnOffer.url);
+        out.adn_check.checks_done++;
+        if (hit.adn_video.available === true) out.adn_check.available_true++;
+        if (hit.adn_video.available === false) out.adn_check.available_false++;
+        adnChecksLeft--;
+        await sleep(ADN_PAUSE_MS);
+      }
+    }
     const rec = { mal_id: t.mal_id, title: t.title, status: t.status,
                   result: hit || (errors.length ? null : { verdict: 'no_match' }),
                   errors };
@@ -336,7 +406,8 @@ async function main() {
                                channel_candidates: hit.channel_candidates,
                                crunchyroll_channel_caveat: hit.crunchyroll_channel_caveat,
                                adn_channel_caveat: hit.adn_channel_caveat,
-                               legal_de_other_providers: hit.legal_de_other_providers };
+                               legal_de_other_providers: hit.legal_de_other_providers,
+                               ...(hit.adn_video ? { adn_video: hit.adn_video } : {}) };
     } else if (state.hits[t.mal_id]) {
       state.hits[t.mal_id].checked_at = out.run; // no_hit: Timestamp aktualisieren, Eintrag behalten
     }
@@ -351,6 +422,7 @@ async function main() {
                          remaining: activeCount - state.processed.length,
                          eta_runs: Math.ceil((activeCount - state.processed.length) / CHUNK_SIZE) };
   out.unmapped_providers = [...new Set(out.unmapped_providers)];
+  out.adn_check.geo_suspect = out.adn_check.checks_done >= 3 && out.adn_check.available_true === 0;
   saveState(state);
   fs.writeFileSync(OUT_FILE, JSON.stringify({ ...out, cycle_hits: state.hits }, null, 2));
   console.log(JSON.stringify({ chunk: out.chunk, cycle: out.cycle.number,
