@@ -3,15 +3,14 @@
 //        (Positive/Negative-Kontrollen aus dem Streaming-Monitoring), 3) Fund ≠ Empfehlung:
 //        Output ist Kandidatenliste für den Verfügbarkeits-Rollcheck, KEINE Video-Ebene-Verifikation.
 // Aufruf im Repo-Root: node scripts/werstreamt_pilot.mjs
-// Output: streaming_pilot.json (Repo-Root; wird als Artifact hochgeladen)
+// Output: streaming_pilot.json (Repo-Root; wird committet + als Artifact hochgeladen)
 
 import fs from 'node:fs';
-import path from 'node:path';
 
 const API = 'https://api2.werstreamt.es';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const FETCH_TIMEOUT_MS = 8000;          // kurze Timeouts: hängende Verbindungen sollen den Lauf nicht fransen
-const RUN_DEADLINE_MS = 15 * 60 * 1000; // Selbst-Deadline UNTER dem 20-Min-Job-Timeout -> Artifact wird sicher geschrieben
+const RUN_DEADLINE_MS = 15 * 60 * 1000; // Selbst-Deadline UNTER dem 20-Min-Job-Timeout -> Ergebnis wird sicher geschrieben
 const RUN_START = Date.now();
 function timeLeft() { return RUN_DEADLINE_MS - (Date.now() - RUN_START); }
 const HDRS = {
@@ -94,24 +93,39 @@ function tryParse(text) {
 }
 
 // --- Phase 2: MAL-Export laden, Kontrollen matchen ----------------------------
+// Echte Repo-Formate (verifiziert 23.10.2026 gegen Rohdateien):
+//   mal_anime.json   = {generated_at, source, user, kind, count, list: [{id, title, list_status:{status,...}}]}
+//   anilist_dump.json = {generated_at, source, anime: [{id, idMal, title:{romaji,english,native}, ...}]}
 function loadCandidates() {
-  const mal = JSON.parse(fs.readFileSync('mal_anime.json', 'utf8'));
-  const anilist = fs.existsSync('anilist_dump.json')
-    ? JSON.parse(fs.readFileSync('anilist_dump.json', 'utf8')) : [];
+  const malRaw = JSON.parse(fs.readFileSync('mal_anime.json', 'utf8'));
+  const mal = Array.isArray(malRaw) ? malRaw
+    : (Array.isArray(malRaw?.list) ? malRaw.list : []);
+  const alRaw = fs.existsSync('anilist_dump.json')
+    ? JSON.parse(fs.readFileSync('anilist_dump.json', 'utf8')) : null;
+  const anilist = Array.isArray(alRaw) ? alRaw
+    : (Array.isArray(alRaw?.anime) ? alRaw.anime
+    : (Array.isArray(alRaw?.data) ? alRaw.data : []));
+  if (mal.length === 0) throw new Error('mal_anime.json: keine Liste gefunden (erwartet: .list[])');
+
   // Alias-Index aus AniList-Dump (idMal -> Titel-Set)
   const aliasIndex = new Map();
   for (const rec of anilist) {
     const idMal = rec?.idMal ?? rec?.media?.idMal ?? rec?.mal_id;
     if (!idMal) continue;
-    const m = rec?.media ?? rec;
-    const titles = [m?.title?.romaji, m?.title?.english, m?.title?.native,
-                    ...(Array.isArray(m?.synonyms) ? m.synonyms : [])].filter(Boolean);
+    const t = rec?.title ?? rec?.media?.title ?? {};
+    const titles = [t?.romaji, t?.english, t?.native,
+                    ...(Array.isArray(rec?.synonyms) ? rec.synonyms : [])].filter(Boolean);
     const set = aliasIndex.get(idMal) || new Set();
-    titles.forEach(t => set.add(t.toLowerCase()));
+    titles.forEach(x => set.add(String(x).toLowerCase()));
     aliasIndex.set(idMal, set);
   }
+
   // Aktive Einträge: alles außer dropped/completed
-  const active = mal.filter(e => !['dropped', 'completed'].includes(String(e.status ?? e.list_status).toLowerCase()));
+  const active = mal.filter(e => {
+    const st = e?.list_status?.status ?? e?.status ?? '';
+    return !['dropped', 'completed'].includes(String(st).toLowerCase());
+  });
+
   const matched = PILOT_QUEUE.map(q => {
     const want = q.aliases.map(a => a.toLowerCase());
     const entry = active.find(e => {
@@ -120,7 +134,8 @@ function loadCandidates() {
       const aliases = aliasIndex.get(id);
       return want.some(w => own === w || own.includes(w) || (aliases && aliases.has(w)));
     });
-    return { ...q, mal: entry ? { mal_id: entry.mal_id ?? entry.id, title: entry.title ?? entry.name, status: entry.status ?? entry.list_status } : null };
+    return { ...q, mal: entry ? { mal_id: entry.mal_id ?? entry.id, title: entry.title,
+            status: entry.list_status?.status ?? entry.status } : null };
   });
   return { matched, activeCount: active.length };
 }
@@ -227,7 +242,7 @@ async function main() {
   }
 
   for (const q of matched) {
-    if (timeLeft() < 120000) { // unter 2 Min Restbudget: lieber sauber finishen als vom Job kassiert werden
+    if (timeLeft() < 120000) { // unter 2 Min Restbudget: lieber sauber finishen als vom Job kassiert zu werden
       out.abort_reason = 'Selbst-Deadline vor Titel ' + q.key + ' erreicht – Teil-Ergebnis wird gesichert.';
       break;
     }
