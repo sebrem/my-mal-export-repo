@@ -23,8 +23,14 @@ function timeLeft() { return RUN_DEADLINE_MS - (Date.now() - RUN_START); }
 //  other:  legal in DE verfügbar, nicht abonniert (Signal fürs Re-Lizenz-Monitoring)
 const PROVIDER_MAP = {
   nfx: { name: 'Netflix', tier: 'direct' },
+  nfa: { name: 'Netflix (Standard with Ads)', tier: 'direct',
+         note: 'Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).' },
   amp: { name: 'Amazon Prime Video', tier: 'direct' },
-  amz: { name: 'Amazon Prime Video', tier: 'direct' },
+  // WICHTIG (JW-Paketliste 23.10.2026): amz = "Amazon Video" (technicalName "amazon") = Kauf/Leihe
+  // bzw. Channel-Kohorte, amp = "amazonprime" = Prime-Abo. Two-Car-Fehler im Pilot: amz wurde als
+  // Prime-direct gewertet, obwohl der Titel (Nutzer-Verifikat) im aniverse-Channel läuft.
+  amz: { name: 'Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)', tier: 'other',
+         note: 'Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.' },
   dis: { name: 'Disney+', tier: 'direct' },
   cru: { name: 'Crunchyroll', tier: 'direct' },
   adn: { name: 'ADN (Animation Digital Network)', tier: 'direct' },
@@ -34,8 +40,22 @@ const PROVIDER_MAP = {
   ytp: { name: 'YouTube Premium', tier: 'direct' },
   neb: { name: 'Nebula', tier: 'direct' },
   ani: { name: 'aniverse (Prime Channel)', tier: 'channel' },
+  // ava tauchte bei Two Car (aniverse-Channel, Nutzer-Verifikat) parallel zu amz auf watch.amazon.de
+  // auf – sehr wahrscheinlich Prime-Channel-Paket (vermutlich aniverse), aber nicht per Paketliste
+  // verifizierbar (packages(country:DE,platform:WEB) listet Channel-Pakete nicht).
+  ava: { name: 'Prime-Channel (aniverse-Verdacht)', tier: 'channel_candidate',
+         note: 'Katalogstufe unsicher – beim Fund Video-Ebene/Channel im Prime-Check verifizieren.' },
   cra: { name: 'Crunchyroll (Amazon-Channel)', tier: 'cr_channel_caveat',
          note: 'Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).' },
+  jyn: { name: 'Joyn (nicht abonniert)', tier: 'other',
+         note: 'Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.' },
+  // Kauf-/Disc-Shops: legal, aber KEIN Streaming -> eigenes Tier, kein Re-Lizenz-Signal
+  adb: { name: 'Amazon (Kauf)', tier: 'buy_physical' },
+  thl: { name: 'Thalia (Disc)', tier: 'buy_physical' },
+  jpc: { name: 'JPC (Disc)', tier: 'buy_physical' },
+  bue: { name: 'Bücher.de (Disc)', tier: 'buy_physical' },
+  zav: { name: 'Zavvi (Disc)', tier: 'buy_physical' },
+  hgl: { name: 'Hugendubel (Disc)', tier: 'buy_physical' },
 };
 function classifyPackage(shortName) {
   const p = PROVIDER_MAP[shortName];
@@ -213,20 +233,25 @@ async function main() {
         if (!node) continue;
         const offers = (o.offers || []).map(of => {
           const c = classifyPackage(of?.package?.shortName);
-          if (c.tier === 'other') out.unmapped_providers.push(of?.package?.shortName);
+          if (!c.name) out.unmapped_providers.push(of?.package?.shortName);
           return { ...c, url: of?.standardWebURL ?? null };
         });
         const direct = offers.filter(x => x.tier === 'direct');
         const channel = offers.filter(x => x.tier === 'channel');
+        const channelCand = offers.filter(x => x.tier === 'channel_candidate');
         const crCaveat = offers.filter(x => x.tier === 'cr_channel_caveat');
         const other = offers.filter(x => x.tier === 'other');
+        const buy = offers.filter(x => x.tier === 'buy_physical');
+        const streaming = offers.filter(x => x.tier !== 'buy_physical');
         hit = { searched_as: alias, jw_id: node.id, jw_title: node.content?.title,
                 jw_path: node.content?.fullPath || null,
                 match_confidence: matchConfidence,
                 offers_classified: offers,
-                my_direct_hits: direct, my_channel_hits: channel, crunchyroll_channel_caveat: crCaveat,
+                my_direct_hits: direct, my_channel_hits: channel, channel_candidates: channelCand,
+                crunchyroll_channel_caveat: crCaveat,
                 legal_de_other_providers: other,
-                de_legal_availability: offers.length > 0 };
+                buy_physical_offers: buy,
+                de_legal_availability: streaming.length > 0 };
         break;
       } catch (e) { errors.push(`${alias}: ${String(e)}`); }
     }
@@ -239,8 +264,9 @@ async function main() {
     key: r.key, expected: r.expected,
     observed: r.result ? (r.result.my_direct_hits.length ? 'hit_direct'
       : (r.result.my_channel_hits.length ? 'hit_channel'
+      : (r.result.channel_candidates.length ? 'hit_channel_candidate'
       : (r.result.crunchyroll_channel_caveat.length ? 'hit_cr_channel_caveat'
-      : (r.result.legal_de_other_providers.length ? 'de_legal_only' : 'no_hit')))) : 'no_match',
+      : (r.result.legal_de_other_providers.length ? 'de_legal_only' : 'no_hit'))))) : 'no_match',
   }));
   out.unmapped_providers = [...new Set(out.unmapped_providers)];
   fs.writeFileSync('streaming_pilot.json', JSON.stringify(out, null, 2));
