@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Actions-Waechter v2 (stdlib only).
+"""Actions-Waechter v3 (stdlib only).
 
 Taeglicher Watchdog ueber alle geplanten Workflows des Repos. Pro erwartetem
 Workflow wird geprueft, ob seit dessen letztem erwarteten Cron-Termin ein
 erfolgreicher scheduled Run existiert. Ergebnisse:
   - ok      : Erfolg-Run seit letztem erwarteten Termin vorhanden
   - failed  : Run(s) vorhanden, aber kein Erfolg (conclusion != success)
-  - missing : gar kein scheduled Run seit letztem erwarteten Termin
+  - missing : gar kein scheduled Run seit erwartetem Termin
   - error   : Workflow/API nicht abrufbar
+  - pending : Workflow ist noch nicht lange genug live (v3, s.u.)
 
 Alarmweg: GitHub-Issue mit Label "actions-waechter" (ein offenes
 Sammel-Issue, aktualisiert statt vermehrt; wird bei Erholung geschlossen).
@@ -15,17 +16,23 @@ Zusatz: actions_status.json als Heartbeat-/Status-Datei (Commit macht der
 Workflow, nicht das Skript - dort mit if: always(), damit der Status auch
 bei rot abgelegten Check landet).
 
-v2-Haertung (22.10.2026, Erst-Lauf rot): Der Alarm-Pfad ist komplett in
-try/except gekapselt; API-Fehler liefern jetzt den GitHub-Fehlerkörper
-mit (z.B. "Resource not accessible by integration"), und ein gescheiterter
-Alarmweg macht den Run ROT mit vollem Traceback im Log - rot heisst dann
-praezise: "Waechter konnte nicht alarmieren", nicht "geplante Action
-fehlgeschlagen". Das Status-File wird vorher geschrieben und committet.
+v3-Fix (23.10.2026, Erst-Alarm-Analyse): EXPECTED-Eintraege bekommen ein
+optionales "since" (Geburtsdatum/Live-Datum des Workflows). Liegt der
+letzte erwartete Termin VOR dem Live-Datum, ist der Status "pending" statt
+"missing" und kein Alarm-Grund. Grund: Issue #1 meldete MAL Friends
+(expected Mo 19.10.), Verlags-Announcements (Mi 21.10.) und Release-Kalender
+(Do 22.10. 04:30) als missing - alle drei Workflows gingen aber erst am
+21./22.10. live, ihre ersten Crons sind 26./28./29.10. Zusätzlich:
+  - streaming-rollcheck.yml (taeglich 03:17, live 23.10.) in EXPECTED
+  - theme-seiyuu-harvest.yml (monatlich, 1. des Monats 05:03) in EXPECTED;
+    monatliche Crons brauchen "dom" statt "days" (last_expected_trigger
+    sucht dann bis 40 Tage zurueck statt 8)
 
 Jitter-Behandlung: Ein Run zaehlt als "puenktlich", wenn er ab
 (termin - 4h GRACE) gestartet ist. Verspaetungen bis zur Watchdog-Laufzeit
-sind damit unkritisch; laeuft eine Action erst NACH dem Watchdog, erscheint
-sie spaetestens beim naechsten Watchdog-Lauf als ok.
+sind damit unkritisch (Befund 23.10.: MAL Sync lief 5,7h nach Termin und
+zaehlte korrekt als ok); laeuft eine Action erst NACH dem Watchdog,
+erscheint sie spaetestens beim naechsten Watchdog-Lauf als ok.
 """
 
 import json
@@ -43,21 +50,30 @@ LABEL = "actions-waechter"
 GRACE_HOURS = 4
 STATUS_FILE = "actions_status.json"
 
-# Erwartete scheduled Workflows (Wochentage: Mo=0 .. So=6, UTC).
-# Pfad relativ zu .github/workflows/. Bei neuen/verschobenen Crons hier
-# nachpflegen - single source of truth fuer den Watchdog.
+# Erwartete scheduled Workflows. Wochentage: Mo=0 .. So=6 (UTC).
+# "dom" = Tag des Monats fuer monatliche Crons (z.B. 1 = jeden 1.).
+# "since" = Live-Datum (ISO, UTC) des Workflows: Termine davor -> pending,
+#           kein Alarm (verhindert False-Alarme fuer junge Workflows).
+# Bei neuen/verschobenen Crons hier nachpflegen - single source of truth.
 EXPECTED = [
     {"file": "mal-export.yml",            "name": "MAL Sync",               "days": [0], "hour": 4, "minute": 17},
-    {"file": "mal_neighbours.yml",       "name": "MAL Friends Candidates",  "days": [0], "hour": 4, "minute": 35},
-    {"file": "anilist_export.yml",       "name": "AniList Export",          "days": [0], "hour": 4, "minute": 47},
-    {"file": "abo-katalog-check.yml",     "name": "Abo-Katalog-Check",       "days": [0], "hour": 5, "minute": 17},
-    {"file": "verlags-announcements.yml", "name": "Verlags-Announcements",  "days": [2], "hour": 5, "minute": 47},
-    {"file": "release-kalender.yml",     "name": "Release-Kalender",        "days": [3], "hour": 4, "minute": 30},
+    {"file": "mal_neighbours.yml",        "name": "MAL Friends Candidates",  "days": [0], "hour": 4, "minute": 35,
+     "since": "2026-10-21T12:30:00+00:00"},  # live 21.10.; erster Cron: Mo 26.10. 04:35
+    {"file": "anilist_export.yml",        "name": "AniList Export",           "days": [0], "hour": 4, "minute": 47},
+    {"file": "abo-katalog-check.yml",     "name": "Abo-Katalog-Check",        "days": [0], "hour": 5, "minute": 17},
+    {"file": "verlags-announcements.yml", "name": "Verlags-Announcements",   "days": [2], "hour": 5, "minute": 47,
+     "since": "2026-10-22T08:00:00+00:00"},  # live 22.10.; erster Cron: Mi 28.10. 05:47
+    {"file": "release-kalender.yml",      "name": "Release-Kalender",         "days": [3], "hour": 4, "minute": 30,
+     "since": "2026-10-22T08:15:00+00:00"},  # live 22.10. ~08:15; erster Cron: Do 29.10. 04:30
+    {"file": "streaming-rollcheck.yml",   "name": "Streaming Rollcheck",      "days": [0, 1, 2, 3, 4, 5, 6], "hour": 3, "minute": 17,
+     "since": "2026-10-23T13:24:00+00:00"},  # live 23.10. 13:24; erster Cron: Fr 24.10. 03:17
+    {"file": "theme-seiyuu-harvest.yml",  "name": "Theme & Seiyuu Harvest",   "dom": 1, "hour": 5, "minute": 3,
+     "since": "2026-10-22T13:30:00+00:00"},  # live 22.10.; erster Cron: So 01.11.2026 05:03
 ]
 
 
 class ApiError(Exception):
-    """GitHub-API-Fehler inkl. Antwortkörper (darin steht die Ursache)."""
+    """GitHub-API-Fehler inkl. Antwortkoerper (darin steht die Ursache)."""
 
 
 def api(path, method="GET", body=None, params=None):
@@ -87,8 +103,20 @@ def api(path, method="GET", body=None, params=None):
     return json.loads(raw) if raw else {}
 
 
-def last_expected_trigger(now, days, hour, minute):
-    """Letzter erwarteter Cron-Termin <= now (sucht bis 7 Tage zurueck)."""
+def last_expected_trigger(now, wf):
+    """Letzter erwarteter Cron-Termin <= now.
+    Weekly ("days"): sucht bis 8 Tage zurueck.
+    Monthly ("dom"): sucht bis 40 Tage zurueck."""
+    hour, minute = wf["hour"], wf["minute"]
+    if "dom" in wf:
+        dom = wf["dom"]
+        for back in range(41):
+            cand = (now - timedelta(days=back)).replace(
+                hour=hour, minute=minute, second=0, microsecond=0)
+            if cand <= now and cand.day == dom:
+                return cand
+        return None
+    days = wf.get("days", [])
     for back in range(8):
         cand = (now - timedelta(days=back)).replace(
             hour=hour, minute=minute, second=0, microsecond=0)
@@ -103,11 +131,21 @@ def parse_ts(s):
 
 def check_workflow(wf, now):
     """Prueft einen erwarteten Workflow. Rueckgabe: dict mit status + Details."""
-    expected_at = last_expected_trigger(now, wf["days"], wf["hour"], wf["minute"])
+    expected_at = last_expected_trigger(now, wf)
     if expected_at is None:
         return {"name": wf["name"], "status": "error",
                 "detail": "kein erwarteter Termin berechenbar (Konfig?)",
                 "expected": None}
+
+    # v3: Termin liegt vor dem Live-Datum -> der Cron konnte noch nicht
+    # feuern. Kein Alarm, nur Info ("pending").
+    if wf.get("since"):
+        live_at = parse_ts(wf["since"])
+        if expected_at < live_at:
+            return {"name": wf["name"], "status": "pending",
+                    "detail": f"live seit {wf['since'][:16]}Z; erwarteter Termin {expected_at.isoformat()} davor - erster Cron steht noch aus",
+                    "expected": expected_at.isoformat()}
+
     # als datetime, NICHT isoformat() - String-Vergleich gegen parse_ts()
     # war der Erst-Lauf-Bug (TypeError datetime >= str, 22.10.2026)
     since = expected_at - timedelta(hours=GRACE_HOURS)
@@ -115,8 +153,6 @@ def check_workflow(wf, now):
     try:
         data = api(f"/repos/{REPO}/actions/workflows/{wf['file']}/runs",
                    params={"event": "schedule", "per_page": 30})
-        runs = [r for r in data.get("workflow_runs", [])
-                if parse_ts(r["created_at"]) >= since]
     except Exception as e:   # ApiError, URLError und alles andere: nie rot
         return {"name": wf["name"], "status": "error",
                 "detail": f"{type(e).__name__}: {str(e)[:150]}",
@@ -210,7 +246,8 @@ def main():
     now = datetime.now(timezone.utc)
 
     results = [check_workflow(wf, now) for wf in EXPECTED]
-    problems = [r for r in results if r["status"] != "ok"]
+    # pending = junge Workflows vor ihrem ersten Cron: KEIN Alarm-Grund
+    problems = [r for r in results if r["status"] not in ("ok", "pending")]
 
     status = {
         "generated_at": now.isoformat(),
