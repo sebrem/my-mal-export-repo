@@ -1,0 +1,46 @@
+name: Anime2You/Manga2You Feed Harvest
+
+# Tägliches Abholen der RSS-Feeds von anime2you.de und manga2you.de.
+# Hintergrund: Die Feeds blocken den Mistral-URL-Proxy (Cloudflare-Feed-Regel),
+# ein curl-Request aus der GitHub-Infrastruktur kann aber durchkommen.
+# Ergebnis: anime2you_news.json (Items) + anime2you_feed_status.json (Diagnose).
+# Wenn die Feeds auch hier blocken (403/Challenge), steht der Status auf blocked
+# und die Route ist endgültig tot – dann die Action löschen.
+
+on:
+  schedule:
+    - cron: "30 6 * * *"  # täglich 06:30 UTC (08:30 MESZ), vor dem Newsletter-Check um 09:30
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anime2you-feed
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Feeds abholen und JSON bauen
+        run: node scripts/anime2you_feed_fetch.mjs
+
+      - name: Ergebnisse committen
+        run: |
+          git config user.name "anime2you-feed-bot"
+          git config user.email "actions@github.com"
+          git add anime2you_news.json anime2you_feed_status.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen - kein Commit noetig."
+          else
+            git commit -m "chore: anime2you/manga2you feed harvest $(date -u +%F)"
+            git push
+          fi
