@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T03:35:30.061348+00:00",
-  "ok": false,
+  "generated_at": "2026-10-24T16:04:25.022233+00:00",
+  "ok": true,
   "grace_hours": 4,
   "workflows": [
     {
@@ -41,8 +41,8 @@
     },
     {
       "name": "Streaming Rollcheck",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-24T08:07:40Z (Run 40076819761)",
       "expected": "2026-10-24T03:17:00+00:00"
     },
     {
