@@ -1,10 +1,14 @@
 import fs from 'node:fs';
 
-// Seiyuu & Themes Harvest (v2.1, 22.10.2026)
+// Seiyuu & Themes Harvest (v3.0, 24.10.2026)
 // Liest mal_anime.json, leitet fuer Score>=9-Titel ab:
 //  - OP/ED-Interpreten (animethemes.moe: /search?q= fuer Slug-Matching; Website-Seite ist
 //    React-SSR-HTML -> Token-Parser fuer den Theme-Stream, Stand 22.10.2026)
 //  - japanische Hauptcast-Stimmen (AniList GraphQL, idMal-Matching)
+// NEU v3.0 (24.10.2026): Lokale Mini-DB anime_db.json fuer ALLE Listentitel (nicht nur Favoriten):
+//  - Synopse (description), Genres, Tags, Charakternamen+Rollen, Cover, Format, Jahr, Studio, Episoden
+//  - Zweck: vage Inhaltsanfragen ("der mit dem Hasen") lokal statt per Websuche aufloesen
+//  - Laeuft im selben Batch-Rhythmus (~500 Titel / 50er-Batches => ~11 Requests/Monat zusaetzlich)
 // v1-Fixes: AniList 'perMedia' kennt Media.characters nicht -> page/perPage (HTTP 400);
 //           animethemes-API /anime?filter[search][] blockiert -> /search + HTML-Parse;
 //           UA 'curl/8.5.0' noetig (node-Default-UA: 403, eigene UA-Strings: 520).
@@ -22,6 +26,101 @@ const norm = (s) => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
 const mal = JSON.parse(fs.readFileSync('mal_anime.json', 'utf8'));
 const favs = (mal.list || []).filter(e => (e.list_status?.score ?? 0) >= MIN_SCORE);
 console.log(`Favoriten (Score >= ${MIN_SCORE}): ${favs.length} Titel`);
+
+// ---------- AniList: Anfrage-Header (authentifiziert, falls ANILIST_TOKEN gesetzt) ----------
+function alHeaders() {
+  const h = { 'Content-Type': 'application/json', Accept: 'application/json' };
+  // Authentifizierter Zugang gegen AniList (ANILIST_TOKEN-Secret): erhoeht das
+  // Rate-Limit von 30 auf 90 req/min und identifiziert uns gegenueber AniList,
+  // die sich oeffentlich ueber Performance-Probleme durch viele API-Anfragen
+  // beschwert hat. Ohne Token laeuft das Skript unauthentisiert weiter.
+  if (process.env.ANILIST_TOKEN) h['Authorization'] = 'Bearer ' + process.env.ANILIST_TOKEN;
+  return h;
+}
+
+// ---------- AniList: Lokale Mini-DB (ALLE Listentitel) ----------
+const DB_QUERY = `query ($ids: [Int]) {
+  Page(perPage: 50) {
+    media(idMal_in: $ids, type: ANIME) {
+      idMal
+      title { romaji english native }
+      description(asHtml: false)
+      format
+      episodes
+      seasonYear
+      averageScore
+      genres
+      tags { name rank }
+      studios(isMain: true) { edges { node { name } } }
+      coverImage { medium }
+      characters(page: 1, perPage: 10, sort: [ROLE, RELEVANCE]) {
+        edges {
+          role
+          node { name { full } }
+        }
+      }
+    }
+  }
+}`;
+
+async function fetchDb(idMalList) {
+  const map = new Map();
+  for (let i = 0; i < idMalList.length; i += 50) {
+    const batch = idMalList.slice(i, i + 50);
+    try {
+      const res = await fetch(AL_ENDPOINT, {
+        method: 'POST',
+        headers: alHeaders(),
+        body: JSON.stringify({ query: DB_QUERY, variables: { ids: batch } })
+      });
+      if (!res.ok) { console.warn(`AniList DB HTTP ${res.status} fuer Batch ${i}`); await sleep(3000); continue; }
+      const json = await res.json();
+      for (const m of json?.data?.Page?.media || []) if (m.idMal) map.set(m.idMal, m);
+    } catch (err) {
+      console.warn(`AniList DB Fehler Batch ${i}: ${err.message}`);
+    }
+    await sleep(1500);
+  }
+  return map;
+}
+
+function writeAnimeDb(dbMap) {
+  const entries = [];
+  for (const e of (mal.list || [])) {
+    const id = e.id;
+    const m = dbMap.get(id);
+    if (!m) continue; // kein AniList-Treffer (z.B. Specials ohne Eintrag) -> nur.authoritative Treffer
+    entries.push({
+      id,
+      title: e.title,
+      anilist: {
+        romaji: m.title?.romaji ?? null,
+        english: m.title?.english ?? null,
+        native: m.title?.native ?? null,
+        description: m.description ?? null,
+        format: m.format ?? null,
+        episodes: m.episodes ?? null,
+        seasonYear: m.seasonYear ?? null,
+        averageScore: m.averageScore ?? null,
+        genres: m.genres || [],
+        tags: (m.tags || []).slice(0, 15).map(t => ({ name: t.name, rank: t.rank })),
+        studios: (m.studios?.edges || []).map(s => s?.node?.name).filter(Boolean),
+        cover: m.coverImage?.medium ?? null,
+        characters: (m.characters?.edges || []).map(c => ({ name: c.node?.name?.full ?? null, role: c.role }))
+      },
+      list_status: e.list_status
+    });
+  }
+  const out = {
+    generated_at: new Date().toISOString(),
+    source: 'mal_anime.json (alle Listentitel) x AniList GraphQL',
+    purpose: 'Lokale Mini-DB fuer vage Inhaltsanfragen (Synopse/Tags/Charaktere statt Websuche)',
+    count_titles: entries.length,
+    titles: entries
+  };
+  fs.writeFileSync('anime_db.json', JSON.stringify(out, null, 2) + '\n');
+  console.log(`OK: anime_db.json mit ${out.count_titles} Titeln geschrieben`);
+}
 
 // ---------- AniList: Hauptcast-Stimmen ----------
 const CAST_QUERY = `query ($ids: [Int]) {
@@ -45,15 +144,9 @@ async function fetchCast(idMalList) {
   for (let i = 0; i < idMalList.length; i += 50) {
     const batch = idMalList.slice(i, i + 50);
     try {
-      const alHeaders = { 'Content-Type': 'application/json', Accept: 'application/json' };
-      // Authentifizierter Zugang gegen AniList (ANILIST_TOKEN-Secret): erhoeht das
-      // Rate-Limit von 30 auf 90 req/min und identifiziert uns gegenueber AniList,
-      // die sich oeffentlich ueber Performance-Probleme durch viele API-Anfragen
-      // beschwert hat. Ohne Token laeuft das Skript unauthentisiert weiter.
-      if (process.env.ANILIST_TOKEN) alHeaders['Authorization'] = 'Bearer ' + process.env.ANILIST_TOKEN;
       const res = await fetch(AL_ENDPOINT, {
         method: 'POST',
-        headers: alHeaders,
+        headers: alHeaders(),
         body: JSON.stringify({ query: CAST_QUERY, variables: { ids: batch } })
       });
       if (!res.ok) { console.warn(`AniList HTTP ${res.status} fuer Batch ${i}`); await sleep(3000); continue; }
@@ -165,6 +258,13 @@ async function fetchThemesBySlug(slug) {
   }
 }
 
+// ---------- 1) Lokale Mini-DB: ALLE Listentitel ----------
+const allIds = (mal.list || []).map(e => e.id).filter(Boolean);
+console.log(`Listentitel gesamt: ${allIds.length} (fuer anime_db.json)`);
+const dbMap = await fetchDb(allIds);
+writeAnimeDb(dbMap);
+
+// ---------- 2) Themes + Seiyuu: Score >= 9-Titel (unchanged v2.2 logic) ----------
 const castMap = await fetchCast(favs.map(e => e.id).filter(Boolean));
 
 const perShow = [];
