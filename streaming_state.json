@@ -343,7 +343,48 @@
     57217,
     5420,
     36407,
-    33
+    33,
+    54852,
+    57612,
+    62391,
+    64495,
+    147,
+    61126,
+    61134,
+    53747,
+    17741,
+    20649,
+    11313,
+    54714,
+    57616,
+    62811,
+    32281,
+    36098,
+    40595,
+    41379,
+    57611,
+    61035,
+    35079,
+    22535,
+    7593,
+    60951,
+    64180,
+    9260,
+    31757,
+    31758,
+    2403,
+    28851,
+    34934,
+    34984,
+    48643,
+    64380,
+    63709,
+    2155,
+    31952,
+    48742,
+    61770,
+    59361,
+    15227
   ],
   "cycle": 1,
   "cycle_started": "2026-10-23T13:25:04.638Z",
@@ -604,6 +645,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ff6efb43-f7e5-4190-97d8-7b5d51d3ad9d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "2155": {
+      "title": "Kono Aozora ni Yakusoku wo: Youkoso Tsugumi Ryou e",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Kono Aozora ni Yakusoku wo",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GYWEX8VEY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7ec7c2c6-b130-4633-93a4-fb997eb3f131"
         }
       ],
       "adn_channel_caveat": [],
@@ -1736,6 +1808,50 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "22535": {
+      "title": "Kiseijuu: Sei no Kakuritsu",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Parasyte - The Maxim",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1354-parasyte-the-maxim/30581-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dcf4ca9f-f50a-46da-ac39-d0c361c944a1"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1354-parasyte-the-maxim",
+        "status": 200,
+        "adn_title": "Parasyte: The Maxim",
+        "available": true,
+        "languages": [
+          "vostf",
+          "vf"
+        ],
+        "episode_count": 24,
+        "season_video_count": 24,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "23289": {
       "title": "Gekkan Shoujo Nozaki-kun",
       "mal_status": "plan_to_watch",
@@ -2377,6 +2493,72 @@
         }
       ],
       "legal_de_other_providers": []
+    },
+    "34934": {
+      "title": "Koi to Uso",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "de_legal_only",
+      "match_confidence": "exact",
+      "jw_title": "Love and Lies",
+      "my_direct_hits": [],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "jyn",
+          "name": "Joyn (nicht abonniert)",
+          "tier": "other",
+          "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
+          "url": "https://www.joyn.de/serien/love-and-lies"
+        }
+      ]
+    },
+    "34984": {
+      "title": "Koi wa Ameagari no You ni",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "After the Rain",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/707-after-the-rain/14526-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7b72be26-1585-4669-83e7-d0e4d8f70384"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/707-after-the-rain",
+        "status": 200,
+        "adn_title": "Après la pluie",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 12,
+        "season_video_count": 12,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
     },
     "35082": {
       "title": "Hibike! Euphonium Movie 2: Todoketai Melody",
@@ -3387,6 +3569,45 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "40595": {
+      "title": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Our Last Crusade or the Rise of a New World",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GJWU2XZM8"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6ad397b7-dc69-4116-a8cf-b8afb45ec481"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6ad397b7-dc69-4116-a8cf-b8afb45ec481"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "40716": {
       "title": "Kakushigoto",
       "mal_status": "plan_to_watch",
@@ -3812,6 +4033,68 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eb428a66-41b4-4596-af62-68d4cbad698e"
         }
       ]
+    },
+    "48643": {
+      "title": "Koi wa Sekai Seifuku no Ato de",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Koi wa Sekai Seifuku no Ato de",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G31UX0MKZ"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3a51a95f-ba5d-4e07-9483-6e14275e6af1"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "48742": {
+      "title": "Kono Healer, Mendokusai",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Don't Hurt Me, My Healer!",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GG1U2QPK0"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.032b13e8-3465-42f9-84f7-891c97c903a0"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "48857": {
       "title": "Healer Girl",
@@ -4492,6 +4775,60 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "54714": {
+      "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU3275P"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc9aa5fc-eab3-4279-aa64-868f4bb06b59"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "54852": {
+      "title": "Kikansha no Mahou wa Tokubetsu desu",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "A Returner's Magic Should Be Special",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G14U49DM9"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "54856": {
       "title": "Horimiya: Piece",
       "mal_status": "on_hold",
@@ -5147,6 +5484,91 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2067a017-59d7-44ea-831e-0f8cef189875"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "57611": {
+      "title": "Kimi wa Meido-sama.",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "You Are Ms. Servant",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G2XUNXEJM"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.64852404-2ce0-49ad-b6b5-b374d969d57c"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "57612": {
+      "title": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "A Returner's Magic Should Be Special",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G14U49DM9"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "57616": {
+      "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU3275P"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc9aa5fc-eab3-4279-aa64-868f4bb06b59"
         }
       ],
       "adn_channel_caveat": [],
@@ -5916,6 +6338,60 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "60951": {
+      "title": "Kizetsu Yuusha to Ansatsu Hime",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Shy Hero and the Assassin Princesses",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G50UMDW57"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b8cd81f6-a881-4d33-b9ff-0ab887a27cf7"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "61126": {
+      "title": "Kimi ga Shinu made Koi wo Shitai",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_cr_channel_caveat",
+      "match_confidence": "exact",
+      "jw_title": "I Want to Love You Till Your Dying Day",
+      "my_direct_hits": [],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8352a9d3-d328-4ab3-bdbc-60c8cf13783e"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "61196": {
       "title": "Dead Account",
       "mal_status": "plan_to_watch",
@@ -6038,6 +6514,87 @@
         "languages": null,
         "episode_count": null,
         "season_video_count": 11,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
+    "62391": {
+      "title": "Kill Ao",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Kill Blue",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/82757009"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00375331DEDE"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/82757009"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1383-kill-blue/31434-folge-1"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8eb355ee-8001-4741-a2a2-6a6d83b02357"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8eb355ee-8001-4741-a2a2-6a6d83b02357"
+        }
+      ],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8eb355ee-8001-4741-a2a2-6a6d83b02357"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1383-kill-blue",
+        "status": 200,
+        "adn_title": "Kill Blue",
+        "available": true,
+        "languages": [
+          "vostf",
+          "vf"
+        ],
+        "episode_count": 12,
+        "season_video_count": 12,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
@@ -6290,6 +6847,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.79142ac1-18a9-4b26-ac56-153540ad9d6a"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "62811": {
+      "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 3rd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU3275P"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc9aa5fc-eab3-4279-aa64-868f4bb06b59"
         }
       ],
       "adn_channel_caveat": [],
@@ -6720,6 +7308,58 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "63709": {
+      "title": "Komekami! Girls",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_channel_candidate",
+      "match_confidence": "exact",
+      "jw_title": "Girls",
+      "my_direct_hits": [],
+      "my_channel_hits": [],
+      "channel_candidates": [
+        {
+          "provider": "aho",
+          "name": "Prime-Channel (aho)",
+          "tier": "channel_candidate",
+          "note": "watch.amazon.de-Signatur wie ava – Video-Ebene im Prime-Check verifizieren.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc3649f3-75e6-4705-87c5-1b820ee9e3a5"
+        }
+      ],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "mxx",
+          "name": "HBO Max (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.hbomax.com/de/en/show/2262487a-fc52-4543-901d-c07d92ad8844/s1/e1-pilot/3e43a9f7-5b22-428e-b9ba-357cb15cd99a"
+        },
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.14a9f6e1-6251-9077-c7a3-5610bafaad8e"
+        },
+        {
+          "provider": "etv",
+          "name": "MagentaTV (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.magenta.tv/serie/girls/staffel-1/GN_SEASON_9020354_DE_1"
+        },
+        {
+          "provider": "fmd",
+          "name": "freenet video (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://freenet-video.meinvod.de/girls-s01-se42539524"
+        }
+      ]
+    },
     "63753": {
       "title": "Kanata kara",
       "mal_status": "plan_to_watch",
@@ -6838,6 +7478,45 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "64180": {
+      "title": "Kizu darake Seijo yori Houfuku wo Komete Season 2",
+      "mal_status": "watching",
+      "checked_at": "2026-10-24T08:07:45.752Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "With Vengeance, Sincerely, Your Broken Saintness",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9bc2d92c-4803-45c3-9f84-f83c21a51796"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9bc2d92c-4803-45c3-9f84-f83c21a51796"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eb859fdb-2999-4200-b95b-739c939ad5e6"
+        }
+      ]
     },
     "64254": {
       "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
