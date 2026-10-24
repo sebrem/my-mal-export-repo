@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T17:16:56.841400+00:00",
-  "ok": true,
+  "generated_at": "2026-10-24T03:35:30.061348+00:00",
+  "ok": false,
   "grace_hours": 4,
   "workflows": [
     {
@@ -41,9 +41,9 @@
     },
     {
       "name": "Streaming Rollcheck",
-      "status": "pending",
-      "detail": "live seit 2026-10-23T13:24Z; erwarteter Termin 2026-10-23T03:17:00+00:00 davor - erster Cron steht noch aus",
-      "expected": "2026-10-23T03:17:00+00:00"
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-24T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
