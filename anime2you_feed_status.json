@@ -1,0 +1,18 @@
+{
+  "updated": "2026-10-24T11:21:41.695Z",
+  "feeds": {
+    "anime2you": {
+      "ok": true,
+      "http": 200,
+      "itemsFound": 25,
+      "blocked": false
+    },
+    "manga2you": {
+      "ok": true,
+      "http": 200,
+      "itemsFound": 10,
+      "blocked": false
+    }
+  },
+  "anyBlocked": false
+}
