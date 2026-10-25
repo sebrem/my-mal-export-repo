@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:04:25.022233+00:00",
+  "generated_at": "2026-10-25T16:34:07.869584+00:00",
   "ok": true,
   "grace_hours": 4,
   "workflows": [
@@ -42,8 +42,8 @@
     {
       "name": "Streaming Rollcheck",
       "status": "ok",
-      "detail": "Erfolg 2026-10-24T08:07:40Z (Run 40076819761)",
-      "expected": "2026-10-24T03:17:00+00:00"
+      "detail": "Erfolg 2026-10-25T08:25:04Z (Run 40176528377)",
+      "expected": "2026-10-25T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
