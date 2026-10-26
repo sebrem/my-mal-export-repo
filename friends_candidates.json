@@ -58,6 +58,35 @@
     "count": 10
   },
   {
+    "mal_id": 57555,
+    "title": "Chainsaw Man Movie: Reze-hen",
+    "scores": [
+      9,
+      10,
+      10,
+      9,
+      9,
+      10,
+      9,
+      9,
+      9,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f08",
+      "f09",
+      "f11",
+      "f13",
+      "f17"
+    ],
+    "count": 10
+  },
+  {
     "mal_id": 40591,
     "title": "Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen",
     "scores": [
@@ -139,60 +168,6 @@
     "count": 9
   },
   {
-    "mal_id": 38000,
-    "title": "Kimetsu no Yaiba",
-    "scores": [
-      9,
-      9,
-      8,
-      8,
-      8,
-      9,
-      8,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f07",
-      "f11",
-      "f14",
-      "f15",
-      "f16"
-    ],
-    "count": 9
-  },
-  {
-    "mal_id": 57555,
-    "title": "Chainsaw Man Movie: Reze-hen",
-    "scores": [
-      9,
-      10,
-      10,
-      9,
-      9,
-      10,
-      9,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f07",
-      "f08",
-      "f09",
-      "f11",
-      "f13"
-    ],
-    "count": 9
-  },
-  {
     "mal_id": 48561,
     "title": "Jujutsu Kaisen 0 Movie",
     "scores": [
@@ -218,6 +193,31 @@
       "f15"
     ],
     "count": 9
+  },
+  {
+    "mal_id": 1535,
+    "title": "Death Note",
+    "scores": [
+      10,
+      8,
+      8,
+      8,
+      10,
+      10,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f05",
+      "f06",
+      "f07",
+      "f11",
+      "f15",
+      "f16",
+      "f17"
+    ],
+    "count": 8
   },
   {
     "mal_id": 16498,
@@ -370,6 +370,56 @@
     "count": 8
   },
   {
+    "mal_id": 33486,
+    "title": "Boku no Hero Academia 2nd Season",
+    "scores": [
+      9,
+      8,
+      8,
+      9,
+      10,
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f08",
+      "f09",
+      "f11",
+      "f13",
+      "f17"
+    ],
+    "count": 8
+  },
+  {
+    "mal_id": 38000,
+    "title": "Kimetsu no Yaiba",
+    "scores": [
+      9,
+      9,
+      8,
+      8,
+      9,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f06",
+      "f07",
+      "f11",
+      "f14",
+      "f15",
+      "f16"
+    ],
+    "count": 8
+  },
+  {
     "mal_id": 50602,
     "title": "Spy x Family Part 2",
     "scores": [
@@ -420,25 +470,94 @@
     "count": 8
   },
   {
-    "mal_id": 1535,
-    "title": "Death Note",
+    "mal_id": 1575,
+    "title": "Code Geass: Hangyaku no Lelouch",
     "scores": [
       10,
+      9,
       8,
+      9,
       8,
-      8,
+      9,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f06",
+      "f08",
+      "f10",
+      "f16",
+      "f17"
+    ],
+    "count": 7
+  },
+  {
+    "mal_id": 5114,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "scores": [
       10,
       10,
-      9
+      8,
+      10,
+      9,
+      10,
+      10
     ],
     "friends": [
       "f01",
       "f05",
       "f06",
       "f07",
-      "f11",
+      "f09",
       "f15",
-      "f16"
+      "f17"
+    ],
+    "count": 7
+  },
+  {
+    "mal_id": 30654,
+    "title": "Ansatsu Kyoushitsu 2nd Season",
+    "scores": [
+      10,
+      9,
+      9,
+      8,
+      8,
+      10,
+      8
+    ],
+    "friends": [
+      "f02",
+      "f05",
+      "f06",
+      "f10",
+      "f13",
+      "f16",
+      "f17"
+    ],
+    "count": 7
+  },
+  {
+    "mal_id": 31964,
+    "title": "Boku no Hero Academia",
+    "scores": [
+      10,
+      8,
+      8,
+      9,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f06",
+      "f08",
+      "f09",
+      "f11",
+      "f13",
+      "f17"
     ],
     "count": 7
   },
@@ -489,6 +608,29 @@
     "count": 7
   },
   {
+    "mal_id": 38691,
+    "title": "Dr. Stone",
+    "scores": [
+      10,
+      9,
+      8,
+      9,
+      9,
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f11",
+      "f13",
+      "f16",
+      "f17"
+    ],
+    "count": 7
+  },
+  {
     "mal_id": 38826,
     "title": "Tenki no Ko",
     "scores": [
@@ -508,6 +650,29 @@
       "f09",
       "f13",
       "f15"
+    ],
+    "count": 7
+  },
+  {
+    "mal_id": 41457,
+    "title": "86",
+    "scores": [
+      10,
+      10,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f07",
+      "f08",
+      "f13",
+      "f16",
+      "f17"
     ],
     "count": 7
   },
@@ -558,29 +723,6 @@
     "count": 7
   },
   {
-    "mal_id": 33486,
-    "title": "Boku no Hero Academia 2nd Season",
-    "scores": [
-      9,
-      8,
-      8,
-      9,
-      10,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f08",
-      "f09",
-      "f11",
-      "f13"
-    ],
-    "count": 7
-  },
-  {
     "mal_id": 37521,
     "title": "Vinland Saga",
     "scores": [
@@ -627,88 +769,27 @@
     "count": 7
   },
   {
-    "mal_id": 1575,
-    "title": "Code Geass: Hangyaku no Lelouch",
+    "mal_id": 50612,
+    "title": "Dr. Stone: Ryuusui",
     "scores": [
-      10,
       9,
       8,
       9,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f06",
-      "f08",
-      "f10",
-      "f16"
-    ],
-    "count": 6
-  },
-  {
-    "mal_id": 5114,
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "scores": [
-      10,
-      10,
-      8,
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f05",
-      "f06",
-      "f07",
-      "f09",
-      "f15"
-    ],
-    "count": 6
-  },
-  {
-    "mal_id": 30654,
-    "title": "Ansatsu Kyoushitsu 2nd Season",
-    "scores": [
-      10,
-      9,
       9,
       8,
-      8,
-      10
-    ],
-    "friends": [
-      "f02",
-      "f05",
-      "f06",
-      "f10",
-      "f13",
-      "f16"
-    ],
-    "count": 6
-  },
-  {
-    "mal_id": 31964,
-    "title": "Boku no Hero Academia",
-    "scores": [
-      10,
-      8,
-      8,
-      9,
       8,
       8
     ],
     "friends": [
       "f01",
-      "f06",
-      "f08",
-      "f09",
+      "f02",
+      "f05",
       "f11",
-      "f13"
+      "f13",
+      "f16",
+      "f17"
     ],
-    "count": 6
+    "count": 7
   },
   {
     "mal_id": 35507,
@@ -728,27 +809,6 @@
       "f08",
       "f14",
       "f15"
-    ],
-    "count": 6
-  },
-  {
-    "mal_id": 38691,
-    "title": "Dr. Stone",
-    "scores": [
-      10,
-      9,
-      8,
-      9,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f11",
-      "f13",
-      "f16"
     ],
     "count": 6
   },
@@ -774,23 +834,23 @@
     "count": 6
   },
   {
-    "mal_id": 41457,
-    "title": "86",
+    "mal_id": 40852,
+    "title": "Dr. Stone: Stone Wars",
     "scores": [
       10,
-      10,
+      8,
       9,
       9,
       9,
-      9
+      8
     ],
     "friends": [
       "f01",
       "f02",
-      "f07",
-      "f08",
+      "f11",
       "f13",
-      "f16"
+      "f16",
+      "f17"
     ],
     "count": 6
   },
@@ -833,6 +893,27 @@
       "f11",
       "f13",
       "f16"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 48569,
+    "title": "86 Part 2",
+    "scores": [
+      10,
+      9,
+      10,
+      10,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f07",
+      "f08",
+      "f16",
+      "f17"
     ],
     "count": 6
   },
@@ -963,6 +1044,27 @@
     "count": 6
   },
   {
+    "mal_id": 54789,
+    "title": "Boku no Hero Academia 7th Season",
+    "scores": [
+      10,
+      8,
+      8,
+      8,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f13",
+      "f17"
+    ],
+    "count": 6
+  },
+  {
     "mal_id": 58567,
     "title": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
     "scores": [
@@ -980,6 +1082,48 @@
       "f07",
       "f13",
       "f14"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 61322,
+    "title": "Dr. Stone: Science Future Part 2",
+    "scores": [
+      10,
+      9,
+      9,
+      9,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f04",
+      "f05",
+      "f13",
+      "f17"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 2904,
+    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "scores": [
+      9,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f06",
+      "f08",
+      "f16",
+      "f17"
     ],
     "count": 6
   },
@@ -1005,6 +1149,27 @@
     "count": 6
   },
   {
+    "mal_id": 35120,
+    "title": "Devilman: Crybaby",
+    "scores": [
+      9,
+      10,
+      9,
+      8,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f08",
+      "f13",
+      "f16",
+      "f17"
+    ],
+    "count": 6
+  },
+  {
     "mal_id": 37510,
     "title": "Mob Psycho 100 II",
     "scores": [
@@ -1022,6 +1187,27 @@
       "f07",
       "f09",
       "f16"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 38671,
+    "title": "Enen no Shouboutai",
+    "scores": [
+      9,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f14",
+      "f16",
+      "f17"
     ],
     "count": 6
   },
@@ -1068,27 +1254,6 @@
     "count": 6
   },
   {
-    "mal_id": 50612,
-    "title": "Dr. Stone: Ryuusui",
-    "scores": [
-      9,
-      8,
-      9,
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f11",
-      "f13",
-      "f16"
-    ],
-    "count": 6
-  },
-  {
     "mal_id": 59062,
     "title": "Gachiakuta",
     "scores": [
@@ -1106,6 +1271,27 @@
       "f06",
       "f12",
       "f13"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 431,
+    "title": "Howl no Ugoku Shiro",
+    "scores": [
+      8,
+      8,
+      9,
+      9,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f08",
+      "f09",
+      "f13",
+      "f17"
     ],
     "count": 6
   },
@@ -1228,6 +1414,44 @@
     "count": 5
   },
   {
+    "mal_id": 4181,
+    "title": "Clannad: After Story",
+    "scores": [
+      10,
+      10,
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f08",
+      "f11",
+      "f15",
+      "f17"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 28805,
+    "title": "Bakemono no Ko",
+    "scores": [
+      10,
+      8,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f09",
+      "f13",
+      "f17"
+    ],
+    "count": 5
+  },
+  {
     "mal_id": 35851,
     "title": "Sayonara no Asa ni Yakusoku no Hana wo Kazarou",
     "scores": [
@@ -1243,6 +1467,44 @@
       "f08",
       "f13",
       "f15"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 36456,
+    "title": "Boku no Hero Academia 3rd Season",
+    "scores": [
+      10,
+      8,
+      10,
+      8,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f08",
+      "f09",
+      "f11",
+      "f17"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 37520,
+    "title": "Dororo",
+    "scores": [
+      10,
+      8,
+      9,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f06",
+      "f14",
+      "f16",
+      "f17"
     ],
     "count": 5
   },
@@ -1266,25 +1528,6 @@
     "count": 5
   },
   {
-    "mal_id": 40852,
-    "title": "Dr. Stone: Stone Wars",
-    "scores": [
-      10,
-      8,
-      9,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f11",
-      "f13",
-      "f16"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 46569,
     "title": "Jigokuraku",
     "scores": [
@@ -1304,21 +1547,40 @@
     "count": 5
   },
   {
-    "mal_id": 48569,
-    "title": "86 Part 2",
+    "mal_id": 49596,
+    "title": "Blue Lock",
     "scores": [
       10,
+      8,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f06",
+      "f11",
+      "f17"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 49918,
+    "title": "Boku no Hero Academia 6th Season",
+    "scores": [
+      10,
+      8,
+      8,
       9,
-      10,
-      10,
       10
     ],
     "friends": [
       "f01",
       "f02",
-      "f07",
-      "f08",
-      "f16"
+      "f06",
+      "f13",
+      "f17"
     ],
     "count": 5
   },
@@ -1418,25 +1680,6 @@
     "count": 5
   },
   {
-    "mal_id": 54789,
-    "title": "Boku no Hero Academia 7th Season",
-    "scores": [
-      10,
-      8,
-      8,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f13"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 55644,
     "title": "Dr. Stone: New World Part 2",
     "scores": [
@@ -1532,25 +1775,6 @@
     "count": 5
   },
   {
-    "mal_id": 61322,
-    "title": "Dr. Stone: Science Future Part 2",
-    "scores": [
-      10,
-      9,
-      9,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f04",
-      "f05",
-      "f13"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 61903,
     "title": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan",
     "scores": [
@@ -1570,21 +1794,21 @@
     "count": 5
   },
   {
-    "mal_id": 2904,
-    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "mal_id": 62568,
+    "title": "Dr. Stone: Science Future Part 3",
     "scores": [
+      10,
+      10,
+      8,
       9,
-      10,
-      10,
-      10,
-      10
+      8
     ],
     "friends": [
       "f01",
       "f02",
-      "f06",
-      "f08",
-      "f16"
+      "f05",
+      "f13",
+      "f17"
     ],
     "count": 5
   },
@@ -1722,25 +1946,6 @@
     "count": 5
   },
   {
-    "mal_id": 35120,
-    "title": "Devilman: Crybaby",
-    "scores": [
-      9,
-      10,
-      9,
-      8,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f08",
-      "f13",
-      "f16"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 37095,
     "title": "Violet Evergarden: Kitto \"Ai\" wo Shiru Hi ga Kuru no Darou",
     "scores": [
@@ -1775,25 +1980,6 @@
       "f09",
       "f13",
       "f15"
-    ],
-    "count": 5
-  },
-  {
-    "mal_id": 38671,
-    "title": "Enen no Shouboutai",
-    "scores": [
-      9,
-      8,
-      8,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13",
-      "f14",
-      "f16"
     ],
     "count": 5
   },
@@ -1874,6 +2060,25 @@
     "count": 5
   },
   {
+    "mal_id": 57592,
+    "title": "Dr. Stone: Science Future",
+    "scores": [
+      9,
+      8,
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f13",
+      "f17"
+    ],
+    "count": 5
+  },
+  {
     "mal_id": 59027,
     "title": "Spy x Family Season 3",
     "scores": [
@@ -1889,25 +2094,6 @@
       "f07",
       "f13",
       "f14"
-    ],
-    "count": 5
-  },
-  {
-    "mal_id": 431,
-    "title": "Howl no Ugoku Shiro",
-    "scores": [
-      8,
-      8,
-      9,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f08",
-      "f09",
-      "f13"
     ],
     "count": 5
   },
@@ -2052,6 +2238,23 @@
     "count": 4
   },
   {
+    "mal_id": 813,
+    "title": "Dragon Ball Z",
+    "scores": [
+      10,
+      10,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f09",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 1210,
     "title": "NHK ni Youkoso!",
     "scores": [
@@ -2065,23 +2268,6 @@
       "f14",
       "f15",
       "f16"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 4181,
-    "title": "Clannad: After Story",
-    "scores": [
-      10,
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f08",
-      "f11",
-      "f15"
     ],
     "count": 4
   },
@@ -2154,19 +2340,19 @@
     "count": 4
   },
   {
-    "mal_id": 28805,
-    "title": "Bakemono no Ko",
+    "mal_id": 28701,
+    "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
     "scores": [
       10,
-      8,
-      8,
-      8
+      9,
+      10,
+      9
     ],
     "friends": [
       "f01",
-      "f02",
-      "f09",
-      "f13"
+      "f07",
+      "f08",
+      "f17"
     ],
     "count": 4
   },
@@ -2188,36 +2374,87 @@
     "count": 4
   },
   {
-    "mal_id": 36456,
-    "title": "Boku no Hero Academia 3rd Season",
+    "mal_id": 33049,
+    "title": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
+    "scores": [
+      10,
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f07",
+      "f08",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 33050,
+    "title": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
+    "scores": [
+      10,
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f07",
+      "f08",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 38680,
+    "title": "Fruits Basket 1st Season",
     "scores": [
       10,
       8,
+      8,
+      8
+    ],
+    "friends": [
+      "f07",
+      "f13",
+      "f15",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 40956,
+    "title": "Enen no Shouboutai: Ni no Shou",
+    "scores": [
+      10,
+      8,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 41025,
+    "title": "Fumetsu no Anata e",
+    "scores": [
+      10,
+      9,
       10,
       8
     ],
     "friends": [
       "f01",
-      "f08",
-      "f09",
-      "f11"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 37520,
-    "title": "Dororo",
-    "scores": [
-      10,
-      8,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f06",
-      "f14",
-      "f16"
+      "f07",
+      "f11",
+      "f17"
     ],
     "count": 4
   },
@@ -2239,6 +2476,23 @@
     "count": 4
   },
   {
+    "mal_id": 41587,
+    "title": "Boku no Hero Academia 5th Season",
+    "scores": [
+      10,
+      8,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f09",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 49052,
     "title": "Ao Ashi",
     "scores": [
@@ -2252,40 +2506,6 @@
       "f02",
       "f06",
       "f15"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 49596,
-    "title": "Blue Lock",
-    "scores": [
-      10,
-      8,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f06",
-      "f11"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 49918,
-    "title": "Boku no Hero Academia 6th Season",
-    "scores": [
-      10,
-      8,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f06",
-      "f13"
     ],
     "count": 4
   },
@@ -2375,6 +2595,40 @@
     "count": 4
   },
   {
+    "mal_id": 60098,
+    "title": "Boku no Hero Academia: Final Season",
+    "scores": [
+      10,
+      8,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 60334,
+    "title": "Anne Shirley",
+    "scores": [
+      10,
+      9,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f09",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 62542,
     "title": "Grand Blue Season 3",
     "scores": [
@@ -2392,19 +2646,19 @@
     "count": 4
   },
   {
-    "mal_id": 62568,
-    "title": "Dr. Stone: Science Future Part 3",
+    "mal_id": 269,
+    "title": "Bleach",
     "scores": [
-      10,
-      10,
+      9,
       8,
-      9
+      8,
+      8
     ],
     "friends": [
       "f01",
       "f02",
-      "f05",
-      "f13"
+      "f16",
+      "f17"
     ],
     "count": 4
   },
@@ -2443,6 +2697,74 @@
     "count": 4
   },
   {
+    "mal_id": 11617,
+    "title": "High School DxD",
+    "scores": [
+      9,
+      9,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 12729,
+    "title": "High School DxD OVA",
+    "scores": [
+      9,
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 15451,
+    "title": "High School DxD New",
+    "scores": [
+      9,
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 15809,
+    "title": "Hataraku Maou-sama!",
+    "scores": [
+      9,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f08",
+      "f14",
+      "f15",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 20899,
     "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
     "scores": [
@@ -2460,6 +2782,40 @@
     "count": 4
   },
   {
+    "mal_id": 22199,
+    "title": "Akame ga Kill!",
+    "scores": [
+      9,
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f13",
+      "f16",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 22297,
+    "title": "Fate/stay night: Unlimited Blade Works",
+    "scores": [
+      9,
+      8,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f07",
+      "f08",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 26055,
     "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders - Egypt-hen",
     "scores": [
@@ -2473,6 +2829,23 @@
       "f02",
       "f05",
       "f06"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 27821,
+    "title": "Fate/stay night: Unlimited Blade Works Prologue",
+    "scores": [
+      9,
+      9,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f07",
+      "f08",
+      "f17"
     ],
     "count": 4
   },
@@ -2511,6 +2884,23 @@
     "count": 4
   },
   {
+    "mal_id": 34281,
+    "title": "High School DxD Hero",
+    "scores": [
+      9,
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 35466,
     "title": "ReLIFE: Kanketsu-hen",
     "scores": [
@@ -2541,6 +2931,23 @@
       "f07",
       "f08",
       "f13"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 36896,
+    "title": "Boku no Hero Academia the Movie 1: Futari no Hero",
+    "scores": [
+      9,
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f08",
+      "f11",
+      "f17"
     ],
     "count": 4
   },
@@ -2609,23 +3016,6 @@
       "f02",
       "f05",
       "f07"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 57592,
-    "title": "Dr. Stone: Science Future",
-    "scores": [
-      9,
-      8,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f13"
     ],
     "count": 4
   },
@@ -2711,6 +3101,23 @@
       "f07",
       "f08",
       "f13"
+    ],
+    "count": 4
+  },
+  {
+    "mal_id": 24703,
+    "title": "High School DxD BorN",
+    "scores": [
+      8,
+      8,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f13",
+      "f17"
     ],
     "count": 4
   },
@@ -2817,6 +3224,23 @@
     "count": 4
   },
   {
+    "mal_id": 46352,
+    "title": "Blue Period",
+    "scores": [
+      8,
+      8,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f05",
+      "f13",
+      "f17"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 49889,
     "title": "Tsuki ga Michibiku Isekai Douchuu 2nd Season",
     "scores": [
@@ -2889,21 +3313,6 @@
     "friends": [
       "f01",
       "f06",
-      "f09"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 813,
-    "title": "Dragon Ball Z",
-    "scores": [
-      10,
-      10,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
       "f09"
     ],
     "count": 3
@@ -3014,21 +3423,6 @@
     "count": 3
   },
   {
-    "mal_id": 28701,
-    "title": "Fate/stay night: Unlimited Blade Works 2nd Season",
-    "scores": [
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f07",
-      "f08"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 31704,
     "title": "One Punch Man: Road to Hero",
     "scores": [
@@ -3040,36 +3434,6 @@
       "f01",
       "f08",
       "f11"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 33049,
-    "title": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
-    "scores": [
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f07",
-      "f08"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 33050,
-    "title": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
-    "scores": [
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f07",
-      "f08"
     ],
     "count": 3
   },
@@ -3104,21 +3468,6 @@
     "count": 3
   },
   {
-    "mal_id": 38680,
-    "title": "Fruits Basket 1st Season",
-    "scores": [
-      10,
-      8,
-      8
-    ],
-    "friends": [
-      "f07",
-      "f13",
-      "f15"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 40729,
     "title": "Nomad: Megalo Box 2",
     "scores": [
@@ -3130,51 +3479,6 @@
       "f06",
       "f09",
       "f16"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 40956,
-    "title": "Enen no Shouboutai: Ni no Shou",
-    "scores": [
-      10,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 41025,
-    "title": "Fumetsu no Anata e",
-    "scores": [
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f07",
-      "f11"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 41587,
-    "title": "Boku no Hero Academia 5th Season",
-    "scores": [
-      10,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f09",
-      "f13"
     ],
     "count": 3
   },
@@ -3329,36 +3633,6 @@
     "count": 3
   },
   {
-    "mal_id": 60098,
-    "title": "Boku no Hero Academia: Final Season",
-    "scores": [
-      10,
-      8,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 60334,
-    "title": "Anne Shirley",
-    "scores": [
-      10,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f09",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 61603,
     "title": "Ao Ashi Season 2",
     "scores": [
@@ -3404,17 +3678,17 @@
     "count": 3
   },
   {
-    "mal_id": 269,
-    "title": "Bleach",
+    "mal_id": 121,
+    "title": "Fullmetal Alchemist",
     "scores": [
       9,
-      8,
-      8
+      9,
+      10
     ],
     "friends": [
       "f01",
-      "f02",
-      "f16"
+      "f16",
+      "f17"
     ],
     "count": 3
   },
@@ -3464,36 +3738,6 @@
     "count": 3
   },
   {
-    "mal_id": 11617,
-    "title": "High School DxD",
-    "scores": [
-      9,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 12729,
-    "title": "High School DxD OVA",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 12893,
     "title": "Danshi Koukousei no Nichijou Specials",
     "scores": [
@@ -3509,6 +3753,21 @@
     "count": 3
   },
   {
+    "mal_id": 13357,
+    "title": "High School DxD Specials",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f13",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 14719,
     "title": "JoJo no Kimyou na Bouken (TV)",
     "scores": [
@@ -3520,36 +3779,6 @@
       "f06",
       "f09",
       "f16"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 15451,
-    "title": "High School DxD New",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 15809,
-    "title": "Hataraku Maou-sama!",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f08",
-      "f14",
-      "f15"
     ],
     "count": 3
   },
@@ -3614,36 +3843,6 @@
     "count": 3
   },
   {
-    "mal_id": 22199,
-    "title": "Akame ga Kill!",
-    "scores": [
-      9,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f13",
-      "f16"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 22297,
-    "title": "Fate/stay night: Unlimited Blade Works",
-    "scores": [
-      9,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f07",
-      "f08"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 24687,
     "title": "Mushishi Zoku Shou: Odoro no Michi",
     "scores": [
@@ -3659,17 +3858,32 @@
     "count": 3
   },
   {
-    "mal_id": 27821,
-    "title": "Fate/stay night: Unlimited Blade Works Prologue",
+    "mal_id": 25537,
+    "title": "Fate/stay night Movie: Heaven's Feel - I. Presage Flower",
     "scores": [
       9,
-      9,
+      8,
       9
     ],
     "friends": [
       "f01",
-      "f07",
-      "f08"
+      "f08",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 28223,
+    "title": "Death Parade",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "friends": [
+      "f05",
+      "f13",
+      "f17"
     ],
     "count": 3
   },
@@ -3685,6 +3899,36 @@
       "f02",
       "f06",
       "f14"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 30694,
+    "title": "Dragon Ball Super",
+    "scores": [
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 31326,
+    "title": "High School DxD BorN: Ishibumi Ichiei Kanzen Kanshuu! Mousou Bakuyou Kaijo Original Video",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f17"
     ],
     "count": 3
   },
@@ -3734,6 +3978,21 @@
     "count": 3
   },
   {
+    "mal_id": 32867,
+    "title": "Bungou Stray Dogs 2nd Season",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "friends": [
+      "f13",
+      "f16",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 33327,
     "title": "Tokyo Ghoul",
     "scores": [
@@ -3749,36 +4008,6 @@
     "count": 3
   },
   {
-    "mal_id": 34281,
-    "title": "High School DxD Hero",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 36896,
-    "title": "Boku no Hero Academia the Movie 1: Futari no Hero",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f08",
-      "f11"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 38619,
     "title": "Joshikousei no Mudazukai",
     "scores": [
@@ -3790,6 +4019,21 @@
       "f06",
       "f07",
       "f08"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 40010,
+    "title": "Ishuzoku Reviewers",
+    "scores": [
+      9,
+      8,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f13",
+      "f17"
     ],
     "count": 3
   },
@@ -3824,6 +4068,21 @@
     "count": 3
   },
   {
+    "mal_id": 48753,
+    "title": "Jahy-sama wa Kujikenai!",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f16",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 48895,
     "title": "Overlord IV",
     "scores": [
@@ -3850,6 +4109,51 @@
       "f01",
       "f15",
       "f16"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 50330,
+    "title": "Bungou Stray Dogs 4th Season",
+    "scores": [
+      9,
+      9,
+      9
+    ],
+    "friends": [
+      "f05",
+      "f16",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 54898,
+    "title": "Bungou Stray Dogs 5th Season",
+    "scores": [
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f05",
+      "f16",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 56196,
+    "title": "Boku no Hero Academia the Movie 4: You're Next",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f17"
     ],
     "count": 3
   },
@@ -3914,6 +4218,21 @@
     "count": 3
   },
   {
+    "mal_id": 61990,
+    "title": "Cyberpunk: Edgerunners 2",
+    "scores": [
+      9,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f07"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 62352,
     "title": "Chainsaw Man Recap",
     "scores": [
@@ -3925,6 +4244,21 @@
       "f01",
       "f02",
       "f11"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 223,
+    "title": "Dragon Ball",
+    "scores": [
+      8,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f17"
     ],
     "count": 3
   },
@@ -4124,21 +4458,6 @@
     "count": 3
   },
   {
-    "mal_id": 24703,
-    "title": "High School DxD BorN",
-    "scores": [
-      8,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f13"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 25781,
     "title": "Shingeki no Kyojin: Kuinaki Sentaku",
     "scores": [
@@ -4184,6 +4503,36 @@
     "count": 3
   },
   {
+    "mal_id": 31389,
+    "title": "Fate/stay night: Unlimited Blade Works 2nd Season - Sunny Day",
+    "scores": [
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f08",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 31478,
+    "title": "Bungou Stray Dogs",
+    "scores": [
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f13",
+      "f16",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 33161,
     "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA",
     "scores": [
@@ -4214,6 +4563,21 @@
     "count": 3
   },
   {
+    "mal_id": 37435,
+    "title": "Carole & Tuesday",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "friends": [
+      "f08",
+      "f13",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 37956,
     "title": "3D Kanojo: Real Girl 2nd Season",
     "scores": [
@@ -4229,17 +4593,32 @@
     "count": 3
   },
   {
-    "mal_id": 46352,
-    "title": "Blue Period",
+    "mal_id": 38003,
+    "title": "Bungou Stray Dogs 3rd Season",
     "scores": [
       8,
       8,
-      9
+      8
     ],
     "friends": [
-      "f01",
       "f05",
-      "f13"
+      "f16",
+      "f17"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 38472,
+    "title": "Isekai Quartet",
+    "scores": [
+      8,
+      9,
+      8
+    ],
+    "friends": [
+      "f06",
+      "f13",
+      "f17"
     ],
     "count": 3
   },
@@ -4539,6 +4918,19 @@
     "count": 2
   },
   {
+    "mal_id": 24641,
+    "title": "Baku Ane: Otouto Shibocchau zo! The Animation",
+    "scores": [
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 28957,
     "title": "Mushishi Zoku Shou: Suzu no Shizuku",
     "scores": [
@@ -4548,6 +4940,19 @@
     "friends": [
       "f11",
       "f16"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 31056,
+    "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz! Specials",
+    "scores": [
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -4591,6 +4996,19 @@
     "count": 2
   },
   {
+    "mal_id": 41261,
+    "title": "Ane wa Yanmama Junyuu-chuu",
+    "scores": [
+      10,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 41923,
     "title": "Yi Nian Yong Heng",
     "scores": [
@@ -4600,6 +5018,32 @@
     "friends": [
       "f02",
       "f14"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 42249,
+    "title": "Tokyo Revengers",
+    "scores": [
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 42938,
+    "title": "Fruits Basket: The Final",
+    "scores": [
+      10,
+      9
+    ],
+    "friends": [
+      "f15",
+      "f17"
     ],
     "count": 2
   },
@@ -4652,6 +5096,19 @@
     "friends": [
       "f02",
       "f14"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 49709,
+    "title": "Fumetsu no Anata e Season 2",
+    "scores": [
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -4773,6 +5230,19 @@
     "count": 2
   },
   {
+    "mal_id": 59088,
+    "title": "Tokyo Revengers: Santen Sensou-hen",
+    "scores": [
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 59935,
     "title": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
     "scores": [
@@ -4864,19 +5334,6 @@
     "count": 2
   },
   {
-    "mal_id": 121,
-    "title": "Fullmetal Alchemist",
-    "scores": [
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f16"
-    ],
-    "count": 2
-  },
-  {
     "mal_id": 202,
     "title": "Wolf's Rain",
     "scores": [
@@ -4899,6 +5356,19 @@
     "friends": [
       "f01",
       "f14"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 267,
+    "title": "Gungrave",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f16",
+      "f17"
     ],
     "count": 2
   },
@@ -4929,6 +5399,32 @@
     "count": 2
   },
   {
+    "mal_id": 1313,
+    "title": "Digimon Adventure 02",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 2411,
+    "title": "Ane to Boin",
+    "scores": [
+      9,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 2759,
     "title": "Evangelion Movie 1: Jo",
     "scores": [
@@ -4938,6 +5434,58 @@
     "friends": [
       "f01",
       "f13"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 2871,
+    "title": "Bakunyuu Oyako",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 2969,
+    "title": "Appleseed Saga Ex Machina",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 3002,
+    "title": "Gyakkyou Burai Kaiji: Ultimate Survivor",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 3286,
+    "title": "Gibo no Toiki: Haitoku Kokoro ni Tadayou Haha no Iroka",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -4981,6 +5529,19 @@
     "count": 2
   },
   {
+    "mal_id": 6746,
+    "title": "Durarara!!",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 7472,
     "title": "Gintama Movie 1: Shinyaku Benizakura-hen",
     "scores": [
@@ -5003,6 +5564,19 @@
     "friends": [
       "f01",
       "f13"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 10668,
+    "title": "Imouto Paradise!",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -5033,6 +5607,19 @@
     "count": 2
   },
   {
+    "mal_id": 12187,
+    "title": "Carnival Phantasm EX Season",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 12189,
     "title": "Hyouka",
     "scores": [
@@ -5059,15 +5646,15 @@
     "count": 2
   },
   {
-    "mal_id": 13357,
-    "title": "High School DxD Specials",
+    "mal_id": 14829,
+    "title": "Fate/kaleid liner Prisma☆Illya",
     "scores": [
       9,
       8
     ],
     "friends": [
       "f01",
-      "f13"
+      "f17"
     ],
     "count": 2
   },
@@ -5085,6 +5672,45 @@
     "count": 2
   },
   {
+    "mal_id": 18851,
+    "title": "Fate/kaleid liner Prisma☆Illya: Undoukai de Dance!",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 19051,
+    "title": "Imouto Paradise! 2",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 19109,
+    "title": "Fate/kaleid liner Prisma☆Illya Specials",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 20057,
     "title": "Space☆Dandy",
     "scores": [
@@ -5094,6 +5720,71 @@
     "friends": [
       "f02",
       "f09"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 20509,
+    "title": "Fate/kaleid liner Prisma☆Illya 2wei!",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 21925,
+    "title": "Chichiiro Toiki",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 22147,
+    "title": "Amagi Brilliant Park",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 22429,
+    "title": "Itadaki! Seieki♥",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 23311,
+    "title": "Garo: Honoo no Kokuin",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f13",
+      "f17"
     ],
     "count": 2
   },
@@ -5111,6 +5802,19 @@
     "count": 2
   },
   {
+    "mal_id": 23479,
+    "title": "Itadaki! Seieki♥ Special",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 24439,
     "title": "Kekkai Sensen",
     "scores": [
@@ -5124,67 +5828,67 @@
     "count": 2
   },
   {
-    "mal_id": 25537,
-    "title": "Fate/stay night Movie: Heaven's Feel - I. Presage Flower",
+    "mal_id": 25011,
+    "title": "Fate/kaleid liner Prisma☆Illya 2wei! Specials",
     "scores": [
       9,
       8
     ],
     "friends": [
       "f01",
-      "f08"
+      "f17"
     ],
     "count": 2
   },
   {
-    "mal_id": 28223,
-    "title": "Death Parade",
+    "mal_id": 26057,
+    "title": "Fate/kaleid liner Prisma☆Illya 2wei!: Mahou Shoujo in Onsen Ryokou",
     "scores": [
       9,
       8
     ],
     "friends": [
-      "f05",
-      "f13"
+      "f01",
+      "f17"
     ],
     "count": 2
   },
   {
-    "mal_id": 30694,
-    "title": "Dragon Ball Super",
+    "mal_id": 27525,
+    "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 32667,
+    "title": "Baka na Imouto wo Rikou ni Suru no wa Ore no xx dake na Ken ni Tsuite",
     "scores": [
       9,
       10
     ],
     "friends": [
       "f01",
-      "f02"
+      "f17"
     ],
     "count": 2
   },
   {
-    "mal_id": 31326,
-    "title": "High School DxD BorN: Ishibumi Ichiei Kanzen Kanshuu! Mousou Bakuyou Kaijo Original Video",
-    "scores": [
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 32867,
-    "title": "Bungou Stray Dogs 2nd Season",
+    "mal_id": 32977,
+    "title": "Aggressive Retsuko",
     "scores": [
       9,
       9
     ],
     "friends": [
-      "f13",
-      "f16"
+      "f16",
+      "f17"
     ],
     "count": 2
   },
@@ -5241,6 +5945,19 @@
     "count": 2
   },
   {
+    "mal_id": 37405,
+    "title": "Dokidoki Little Ooyasan",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 37981,
     "title": "Kaijuu no Kodomo",
     "scores": [
@@ -5250,6 +5967,19 @@
     "friends": [
       "f01",
       "f09"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 38422,
+    "title": "High Score Girl: Extra Stage",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f09",
+      "f17"
     ],
     "count": 2
   },
@@ -5267,28 +5997,67 @@
     "count": 2
   },
   {
-    "mal_id": 40010,
-    "title": "Ishuzoku Reviewers",
+    "mal_id": 39586,
+    "title": "Hataraku Saibou!!",
     "scores": [
       9,
       8
     ],
     "friends": [
-      "f01",
-      "f13"
+      "f16",
+      "f17"
     ],
     "count": 2
   },
   {
-    "mal_id": 42249,
-    "title": "Tokyo Revengers",
+    "mal_id": 39988,
+    "title": "Isekai Quartet 2",
     "scores": [
       9,
       8
     ],
     "friends": [
-      "f01",
-      "f02"
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 40398,
+    "title": "Hitozuma, Mitsu to Niku",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 40417,
+    "title": "Fruits Basket 2nd Season",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f15",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 41694,
+    "title": "Hataraku Saibou Black",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f12",
+      "f17"
     ],
     "count": 2
   },
@@ -5345,15 +6114,15 @@
     "count": 2
   },
   {
-    "mal_id": 48753,
-    "title": "Jahy-sama wa Kujikenai!",
+    "mal_id": 48626,
+    "title": "J* Fuuzoku Gakuensai",
     "scores": [
       9,
-      8
+      9
     ],
     "friends": [
       "f01",
-      "f16"
+      "f17"
     ],
     "count": 2
   },
@@ -5410,19 +6179,6 @@
     "count": 2
   },
   {
-    "mal_id": 50330,
-    "title": "Bungou Stray Dogs 4th Season",
-    "scores": [
-      9,
-      9
-    ],
-    "friends": [
-      "f05",
-      "f16"
-    ],
-    "count": 2
-  },
-  {
     "mal_id": 50608,
     "title": "Tokyo Revengers: Seiya Kessen-hen",
     "scores": [
@@ -5436,6 +6192,19 @@
     "count": 2
   },
   {
+    "mal_id": 52402,
+    "title": "Boku ni Sexfriend ga Dekita Riyuu",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 53040,
     "title": "Kanojo mo Kanojo Season 2",
     "scores": [
@@ -5445,6 +6214,19 @@
     "friends": [
       "f01",
       "f11"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 54703,
+    "title": "Fumetsu no Anata e Season 3",
+    "scores": [
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -5471,19 +6253,6 @@
     "friends": [
       "f06",
       "f11"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 54898,
-    "title": "Bungou Stray Dogs 5th Season",
-    "scores": [
-      9,
-      10
-    ],
-    "friends": [
-      "f05",
-      "f16"
     ],
     "count": 2
   },
@@ -5523,19 +6292,6 @@
     "friends": [
       "f01",
       "f12"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 56196,
-    "title": "Boku no Hero Academia the Movie 4: You're Next",
-    "scores": [
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02"
     ],
     "count": 2
   },
@@ -5592,19 +6348,6 @@
     "count": 2
   },
   {
-    "mal_id": 59088,
-    "title": "Tokyo Revengers: Santen Sensou-hen",
-    "scores": [
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02"
-    ],
-    "count": 2
-  },
-  {
     "mal_id": 59390,
     "title": "Terminator 0",
     "scores": [
@@ -5640,6 +6383,19 @@
     "friends": [
       "f01",
       "f02"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 61339,
+    "title": "Jibaku Shounen Hanako-kun 2 Part 2",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f05",
+      "f17"
     ],
     "count": 2
   },
@@ -5761,6 +6517,19 @@
     "count": 2
   },
   {
+    "mal_id": 123,
+    "title": "Fushigi Yuugi",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 160,
     "title": "Ima, Soko ni Iru Boku",
     "scores": [
@@ -5770,19 +6539,6 @@
     "friends": [
       "f08",
       "f16"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 223,
-    "title": "Dragon Ball",
-    "scores": [
-      8,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02"
     ],
     "count": 2
   },
@@ -5826,6 +6582,19 @@
     "count": 2
   },
   {
+    "mal_id": 287,
+    "title": "Grappler Baki (TV)",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 468,
     "title": "Innocence",
     "scores": [
@@ -5835,6 +6604,19 @@
     "friends": [
       "f01",
       "f08"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 551,
+    "title": "Grappler Baki: Saidai Tournament-hen",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f17"
     ],
     "count": 2
   },
@@ -5890,6 +6672,45 @@
     "count": 2
   },
   {
+    "mal_id": 874,
+    "title": "Digimon Tamers",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 889,
+    "title": "Black Lagoon",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 934,
+    "title": "Higurashi no Naku Koro ni",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 1430,
     "title": "Lupin III: Cagliostro no Shiro",
     "scores": [
@@ -5899,6 +6720,32 @@
     "friends": [
       "f09",
       "f13"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 1519,
+    "title": "Black Lagoon: The Second Barrage",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 1686,
+    "title": "Bleach Movie 1: Memories of Nobody",
+    "scores": [
+      8,
+      10
+    ],
+    "friends": [
+      "f08",
+      "f17"
     ],
     "count": 2
   },
@@ -5925,6 +6772,19 @@
     "friends": [
       "f08",
       "f09"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 2994,
+    "title": "Death Note: Rewrite",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f11",
+      "f17"
     ],
     "count": 2
   },
@@ -5968,6 +6828,19 @@
     "count": 2
   },
   {
+    "mal_id": 4901,
+    "title": "Black Lagoon: Roberta's Blood Trail",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 5681,
     "title": "Summer Wars",
     "scores": [
@@ -5977,6 +6850,19 @@
     "friends": [
       "f09",
       "f13"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 6421,
+    "title": "Fullmetal Alchemist: Brotherhood Specials",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f15",
+      "f17"
     ],
     "count": 2
   },
@@ -6029,6 +6915,19 @@
     "friends": [
       "f01",
       "f13"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 10012,
+    "title": "Carnival Phantasm",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -6150,6 +7049,32 @@
     "count": 2
   },
   {
+    "mal_id": 15845,
+    "title": "Chikan no Licence",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 15927,
+    "title": "Carnival Phantasm: HibiChika Special",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 18619,
     "title": "Girls & Panzer: Kore ga Hontou no Anzio-sen desu!",
     "scores": [
@@ -6189,6 +7114,19 @@
     "count": 2
   },
   {
+    "mal_id": 21797,
+    "title": "Chuunibyou demo Koi ga Shitai! Ren Lite",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 21881,
     "title": "Sword Art Online II",
     "scores": [
@@ -6198,6 +7136,19 @@
     "friends": [
       "f02",
       "f13"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 22729,
+    "title": "Aldnoah.Zero",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f13",
+      "f17"
     ],
     "count": 2
   },
@@ -6293,6 +7244,19 @@
     "count": 2
   },
   {
+    "mal_id": 25667,
+    "title": "Boy Meets Harem The Animation",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 27631,
     "title": "God Eater",
     "scores": [
@@ -6358,6 +7322,19 @@
     "count": 2
   },
   {
+    "mal_id": 28961,
+    "title": "Idol☆Sister",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 29755,
     "title": "Haikyuu!! Movie 1: Owari to Hajimari",
     "scores": [
@@ -6410,28 +7387,15 @@
     "count": 2
   },
   {
-    "mal_id": 31389,
-    "title": "Fate/stay night: Unlimited Blade Works 2nd Season - Sunny Day",
+    "mal_id": 31117,
+    "title": "Ano Ko to Ii Koto",
     "scores": [
       8,
-      8
+      9
     ],
     "friends": [
       "f01",
-      "f08"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 31478,
-    "title": "Bungou Stray Dogs",
-    "scores": [
-      8,
-      8
-    ],
-    "friends": [
-      "f13",
-      "f16"
+      "f17"
     ],
     "count": 2
   },
@@ -6488,6 +7452,32 @@
     "count": 2
   },
   {
+    "mal_id": 32215,
+    "title": "High School DxD BorN: Yomigaeranai Fushichou",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 32863,
+    "title": "Ansatsu Kyoushitsu: Kagaijugyou-hen",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 32962,
     "title": "Occultic;Nine",
     "scores": [
@@ -6527,6 +7517,32 @@
     "count": 2
   },
   {
+    "mal_id": 33071,
+    "title": "Bungou Stray Dogs: Hitori Ayumu",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 34443,
+    "title": "Baki",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 34542,
     "title": "Inuyashiki",
     "scores": [
@@ -6549,6 +7565,19 @@
     "friends": [
       "f02",
       "f08"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 34944,
+    "title": "Bungou Stray Dogs: Dead Apple",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
     ],
     "count": 2
   },
@@ -6605,6 +7634,19 @@
     "count": 2
   },
   {
+    "mal_id": 35823,
+    "title": "Demi-chan wa Kataritai: Demi-chan no Natsuyasumi",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 36106,
     "title": "Shingeki no Kyojin: Lost Girls",
     "scores": [
@@ -6657,15 +7699,15 @@
     "count": 2
   },
   {
-    "mal_id": 37435,
-    "title": "Carole & Tuesday",
+    "mal_id": 36884,
+    "title": "Hisone to Maso-tan",
     "scores": [
       8,
-      9
+      8
     ],
     "friends": [
-      "f08",
-      "f13"
+      "f13",
+      "f17"
     ],
     "count": 2
   },
@@ -6735,19 +7777,6 @@
     "count": 2
   },
   {
-    "mal_id": 38003,
-    "title": "Bungou Stray Dogs 3rd Season",
-    "scores": [
-      8,
-      8
-    ],
-    "friends": [
-      "f05",
-      "f16"
-    ],
-    "count": 2
-  },
-  {
     "mal_id": 38192,
     "title": "Sakugan",
     "scores": [
@@ -6761,15 +7790,15 @@
     "count": 2
   },
   {
-    "mal_id": 38472,
-    "title": "Isekai Quartet",
+    "mal_id": 38476,
+    "title": "Heya Camp△",
     "scores": [
       8,
-      9
+      8
     ],
     "friends": [
-      "f06",
-      "f13"
+      "f15",
+      "f17"
     ],
     "count": 2
   },
@@ -6783,6 +7812,19 @@
     "friends": [
       "f09",
       "f12"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 39555,
+    "title": "Baki: Dai Raitaisai-hen",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f17"
     ],
     "count": 2
   },
@@ -6904,6 +7946,32 @@
     "count": 2
   },
   {
+    "mal_id": 47160,
+    "title": "Goblin Slayer II",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 48413,
+    "title": "Hataraku Maou-sama!!",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f15",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 48417,
     "title": "Maou Gakuin no Futekigousha II: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
     "scores": [
@@ -6939,6 +8007,45 @@
     "friends": [
       "f02",
       "f14"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 48997,
+    "title": "Fantasy Bishoujo Juniku Ojisan to",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 49154,
+    "title": "High Card",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f16",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 49295,
+    "title": "Chizuru-chan Kaihatsu Nikki",
+    "scores": [
+      8,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -7060,6 +8167,19 @@
     "count": 2
   },
   {
+    "mal_id": 51217,
+    "title": "Isekai Yarisaa",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 51533,
     "title": "Tonikaku Kawaii: Seifuku",
     "scores": [
@@ -7069,6 +8189,19 @@
     "friends": [
       "f02",
       "f15"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 51818,
+    "title": "Enen no Shouboutai: San no Shou",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f17"
     ],
     "count": 2
   },
@@ -7134,6 +8267,19 @@
     "friends": [
       "f06",
       "f16"
+    ],
+    "count": 2
+  },
+  {
+    "mal_id": 53924,
+    "title": "Jibaku Shounen Hanako-kun 2",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f05",
+      "f17"
     ],
     "count": 2
   },
@@ -7243,7 +8389,7 @@
   },
   {
     "mal_id": 59654,
-    "title": "Jujutsu Kaisen: Kaigyoku/Gyokusetsu",
+    "title": "Jujutsu Kaisen Movie: Kaigyoku/Gyokusetsu",
     "scores": [
       8,
       8
@@ -7294,6 +8440,19 @@
     "count": 2
   },
   {
+    "mal_id": 60347,
+    "title": "Cat's♥Eye",
+    "scores": [
+      8,
+      8
+    ],
+    "friends": [
+      "f13",
+      "f17"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 60377,
     "title": "Nazotoki wa Dinner no Ato de",
     "scores": [
@@ -7316,19 +8475,6 @@
     "friends": [
       "f09",
       "f13"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 61990,
-    "title": "Cyberpunk: Edgerunners 2",
-    "scores": [
-      8,
-      10
-    ],
-    "friends": [
-      "f02",
-      "f07"
     ],
     "count": 2
   },
@@ -7403,6 +8549,17 @@
     "count": 1
   },
   {
+    "mal_id": 368,
+    "title": "Bible Black",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 488,
     "title": "Ichigo Mashimaro",
     "scores": [
@@ -7469,6 +8626,17 @@
     "count": 1
   },
   {
+    "mal_id": 972,
+    "title": "Bible Black Gaiden",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 1142,
     "title": "Hachimitsu to Clover II",
     "scores": [
@@ -7480,6 +8648,50 @@
     "count": 1
   },
   {
+    "mal_id": 1401,
+    "title": "Bible Black: New Testament",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1634,
+    "title": "Ai Shimai: Futari no Kajitsu",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1635,
+    "title": "Ai Shimai 2: Futari no Kajitsu",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1636,
+    "title": "Ai Shimai Tsubomi... Kegashite Kudasai",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 2025,
     "title": "Darker than Black: Kuro no Keiyakusha",
     "scores": [
@@ -7487,6 +8699,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2124,
+    "title": "Code Geass: Hangyaku no Lelouch Recaps",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7513,6 +8736,17 @@
     "count": 1
   },
   {
+    "mal_id": 2413,
+    "title": "Boin",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 2449,
     "title": "Koukaku Kidoutai: Stand Alone Complex - The Laughing Man",
     "scores": [
@@ -7535,6 +8769,17 @@
     "count": 1
   },
   {
+    "mal_id": 2798,
+    "title": "Hatsu Inu The Animation",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 2866,
     "title": "Ane☆Haramix",
     "scores": [
@@ -7546,6 +8791,17 @@
     "count": 1
   },
   {
+    "mal_id": 2873,
+    "title": "Bible Black Only Version",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 3077,
     "title": "Warau Salesman",
     "scores": [
@@ -7553,6 +8809,28 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3239,
+    "title": "Cream Lemon",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3324,
+    "title": "Discode: Ijou Seiai",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7590,6 +8868,28 @@
     "count": 1
   },
   {
+    "mal_id": 4399,
+    "title": "Honoo no Haramase Tenkousei",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4600,
+    "title": "Aneki... My Sweet Elder Sister The Animation",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 4966,
     "title": "Jigazou",
     "scores": [
@@ -7601,6 +8901,17 @@
     "count": 1
   },
   {
+    "mal_id": 5097,
+    "title": "Hatsu Inu 2 The Animation: Strange Kind of Woman - Again",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 5205,
     "title": "Kara no Kyoukai Movie 7: Satsujin Kousatsu (Go)",
     "scores": [
@@ -7608,6 +8919,39 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 5347,
+    "title": "Bible Black: Imari Ryoujoku Genba",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 5464,
+    "title": "Cafe Junkie",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 6041,
+    "title": "Honoo no Haramase Doukyuusei",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7634,6 +8978,28 @@
     "count": 1
   },
   {
+    "mal_id": 6689,
+    "title": "Hitozuma Koukan Nikki",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 6768,
+    "title": "Code Geass: Hangyaku no Lelouch R2 Special Edition - Zero Requiem",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 6892,
     "title": "Yokorenbo: Immoral Mother",
     "scores": [
@@ -7656,6 +9022,17 @@
     "count": 1
   },
   {
+    "mal_id": 7053,
+    "title": "Fault!!",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 7375,
     "title": "Kokou no Hito",
     "scores": [
@@ -7663,6 +9040,28 @@
     ],
     "friends": [
       "f06"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 7573,
+    "title": "Bakunyuu Bomb",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 8110,
+    "title": "Fukubiki! Triangle: Miharu After",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7678,6 +9077,17 @@
     "count": 1
   },
   {
+    "mal_id": 9970,
+    "title": "Floating Material",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 10119,
     "title": "Seitokai Yakuindomo OVA",
     "scores": [
@@ -7685,6 +9095,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10694,
+    "title": "Bloods: Inraku no Ketsuzoku 2",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7707,6 +9128,17 @@
     ],
     "friends": [
       "f02"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 13183,
+    "title": "Fate/Zero Remix",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7740,6 +9172,17 @@
     ],
     "friends": [
       "f09"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 15037,
+    "title": "Corpse Party: Tortured Souls - Bougyakusareta Tamashii no Jukyou",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7788,6 +9231,17 @@
     "count": 1
   },
   {
+    "mal_id": 16638,
+    "title": "Fault!! Service: Aratanaru Rival",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 16774,
     "title": "Inferno Cop",
     "scores": [
@@ -7795,6 +9249,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 17747,
+    "title": "Furyou ni Hamerarete Jusei Suru Kyonyuu Okaasan The Animation",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7843,6 +9308,28 @@
     "count": 1
   },
   {
+    "mal_id": 21513,
+    "title": "Imako System",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 21521,
+    "title": "Futa-bu!",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 22507,
     "title": "Initial D Final Stage",
     "scores": [
@@ -7887,17 +9374,6 @@
     "count": 1
   },
   {
-    "mal_id": 24641,
-    "title": "Baku Ane: Otouto Shibocchau zo! The Animation",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 25341,
     "title": "Diamond no Ace OVA",
     "scores": [
@@ -7920,6 +9396,17 @@
     "count": 1
   },
   {
+    "mal_id": 28779,
+    "title": "Futa-bu!!",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 28977,
     "title": "Gintama°",
     "scores": [
@@ -7927,6 +9414,39 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 29261,
+    "title": "Genkaku Cool na Sensei ga Aheboteochi!",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 29573,
+    "title": "Fukubiki! Triangle: Futaba wa Atafuta ♥",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 29852,
+    "title": "Boku no Yayoi-san",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -7953,13 +9473,13 @@
     "count": 1
   },
   {
-    "mal_id": 31056,
-    "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz! Specials",
+    "mal_id": 30583,
+    "title": "Futa-bu! Mix: Futanari World",
     "scores": [
       10
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -7982,6 +9502,28 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 32872,
+    "title": "Energy Kyouka!!",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 33750,
+    "title": "Boku no Yayoi-san 2",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -8107,6 +9649,17 @@
     "count": 1
   },
   {
+    "mal_id": 37089,
+    "title": "Cherry & Gal's↑↑",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 37491,
     "title": "Gintama. Shirogane no Tamashii-hen - Kouhan-sen",
     "scores": [
@@ -8151,6 +9704,17 @@
     "count": 1
   },
   {
+    "mal_id": 38088,
+    "title": "Digimon Adventure: Last Evolution Kizuna",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 38450,
     "title": "Mo Dao Zu Shi: Xian Yun Pian",
     "scores": [
@@ -8169,6 +9733,28 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 39042,
+    "title": "Gaki ni Modotte Yarinaoshi!!!",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 39068,
+    "title": "Ano Danchi no Tsuma-tachi wa... The Animation",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -8250,13 +9836,13 @@
     "count": 1
   },
   {
-    "mal_id": 41261,
-    "title": "Ane wa Yanmama Junyuu-chuu",
+    "mal_id": 40520,
+    "title": "Chii-chan Kaihatsu Nikki",
     "scores": [
       10
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -8272,13 +9858,13 @@
     "count": 1
   },
   {
-    "mal_id": 42938,
-    "title": "Fruits Basket: The Final",
+    "mal_id": 43466,
+    "title": "Himawari wa Yoru ni Saku",
     "scores": [
       10
     ],
     "friends": [
-      "f15"
+      "f17"
     ],
     "count": 1
   },
@@ -8349,6 +9935,39 @@
     "count": 1
   },
   {
+    "mal_id": 48755,
+    "title": "Imaizumin Chi wa Douyara Gal no Tamariba ni Natteru Rashii",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 49020,
+    "title": "Jashin Shoukan: Inran Kyonyuu Oyako Ikenie Gishiki",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 49028,
+    "title": "HHH Triple Ecchi Special",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 49283,
     "title": "Bakuten!! Movie",
     "scores": [
@@ -8367,17 +9986,6 @@
     ],
     "friends": [
       "f16"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 49709,
-    "title": "Fumetsu no Anata e Season 2",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -8609,6 +10217,17 @@
     ],
     "friends": [
       "f04"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 60351,
+    "title": "Ikuiku Succubus Saikyouiku",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -8899,6 +10518,39 @@
     "count": 1
   },
   {
+    "mal_id": 67,
+    "title": "Basilisk: Kouga Ninpou Chou",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 71,
+    "title": "Full Metal Panic!",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 73,
+    "title": "Full Metal Panic! The Second Raid",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 82,
     "title": "Kidou Senshi Gundam 0080: Pocket no Naka no Sensou",
     "scores": [
@@ -8917,6 +10569,28 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 135,
+    "title": "Hikaru no Go",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 150,
+    "title": "Blood+",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -8954,13 +10628,24 @@
     "count": 1
   },
   {
-    "mal_id": 267,
-    "title": "Gungrave",
+    "mal_id": 239,
+    "title": "Gankutsuou",
     "scores": [
       9
     ],
     "friends": [
-      "f16"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 246,
+    "title": "Groove Adventure Rave",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -8994,6 +10679,17 @@
     ],
     "friends": [
       "f09"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 452,
+    "title": "InuYasha Movie 1: Toki wo Koeru Omoi",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9042,6 +10738,17 @@
     "count": 1
   },
   {
+    "mal_id": 645,
+    "title": "Hikaru no Go: Hokuto Hai e no Michi",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 731,
     "title": "Interstella5555: The 5tory of The 5ecret 5tar 5ystem",
     "scores": [
@@ -9053,6 +10760,17 @@
     "count": 1
   },
   {
+    "mal_id": 777,
+    "title": "Hellsing Ultimate",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 953,
     "title": "Juu Ou Sei",
     "scores": [
@@ -9060,6 +10778,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 971,
+    "title": "Astro Boy: Tetsuwan Atom",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9086,17 +10815,6 @@
     "count": 1
   },
   {
-    "mal_id": 1313,
-    "title": "Digimon Adventure 02",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 1566,
     "title": "Koukaku Kidoutai: Stand Alone Complex - Solid State Society",
     "scores": [
@@ -9115,6 +10833,17 @@
     ],
     "friends": [
       "f15"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1859,
+    "title": "Grappler Baki",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9174,13 +10903,13 @@
     "count": 1
   },
   {
-    "mal_id": 2411,
-    "title": "Ane to Boin",
+    "mal_id": 2336,
+    "title": "Hikaru no Go: New Year Special",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -9218,19 +10947,19 @@
     "count": 1
   },
   {
-    "mal_id": 2869,
-    "title": "Nanase Ren",
+    "mal_id": 2563,
+    "title": "Aria the OVA: Arietta",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
   {
-    "mal_id": 2871,
-    "title": "Bakunyuu Oyako",
+    "mal_id": 2869,
+    "title": "Nanase Ren",
     "scores": [
       9
     ],
@@ -9251,28 +10980,6 @@
     "count": 1
   },
   {
-    "mal_id": 2969,
-    "title": "Appleseed Saga Ex Machina",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 3002,
-    "title": "Gyakkyou Burai Kaiji: Ultimate Survivor",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f02"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 3274,
     "title": "Shuna no Tabi",
     "scores": [
@@ -9280,17 +10987,6 @@
     ],
     "friends": [
       "f09"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 3286,
-    "title": "Gibo no Toiki: Haitoku Kokoro ni Tadayou Haha no Iroka",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -9361,6 +11057,17 @@
     "count": 1
   },
   {
+    "mal_id": 3999,
+    "title": "Dorei Maid Princess",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 4282,
     "title": "Kara no Kyoukai Movie 5: Mujun Rasen",
     "scores": [
@@ -9416,6 +11123,17 @@
     "count": 1
   },
   {
+    "mal_id": 4835,
+    "title": "Bleach Movie 3: Fade to Black - Kimi no Na wo Yobu",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 4921,
     "title": "Ramayana: The Legend of Prince Rama",
     "scores": [
@@ -9423,6 +11141,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 5244,
+    "title": "Aria the Natural: Sono Futatabi Deaeru Kiseki ni...",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9460,6 +11189,17 @@
     "count": 1
   },
   {
+    "mal_id": 5762,
+    "title": "15 Bishoujo Hyouryuuki",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 5959,
     "title": "Mizugi Kanojo The Animation",
     "scores": [
@@ -9478,6 +11218,17 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 6033,
+    "title": "Dragon Ball Kai",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9504,13 +11255,13 @@
     "count": 1
   },
   {
-    "mal_id": 6746,
-    "title": "Durarara!!",
+    "mal_id": 6811,
+    "title": "InuYasha: Kanketsu-hen",
     "scores": [
       9
     ],
     "friends": [
-      "f16"
+      "f17"
     ],
     "count": 1
   },
@@ -9526,6 +11277,17 @@
     "count": 1
   },
   {
+    "mal_id": 6895,
+    "title": "Hakuouki",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 6902,
     "title": "Toudo no Tabibito",
     "scores": [
@@ -9537,6 +11299,17 @@
     "count": 1
   },
   {
+    "mal_id": 6904,
+    "title": "Hellsing: Digest for Freaks",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 7411,
     "title": "Kanojo x Kanojo x Kanojo: Sanshimai to no Dokidoki Kyoudou Seikatsu",
     "scores": [
@@ -9544,6 +11317,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 7456,
+    "title": "Discipline Zero",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9592,6 +11376,17 @@
     "count": 1
   },
   {
+    "mal_id": 8465,
+    "title": "Ichiban Ushiro no Daimaou Specials",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 8481,
     "title": "\"Bungaku Shoujo\" Memoire",
     "scores": [
@@ -9603,6 +11398,28 @@
     "count": 1
   },
   {
+    "mal_id": 9322,
+    "title": "HHH Triple Ecchi",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10172,
+    "title": "Freezing Specials",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 10336,
     "title": "Last Exile: Ginyoku no Fam",
     "scores": [
@@ -9610,6 +11427,17 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10350,
+    "title": "Hakuouki: Sekkaroku",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9647,13 +11475,24 @@
     "count": 1
   },
   {
-    "mal_id": 10668,
-    "title": "Imouto Paradise!",
+    "mal_id": 10570,
+    "title": "Inshitsu Otaku ni Ikareru Kanojo",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10765,
+    "title": "Hikaru no Go: Sabaki no Ikkyoku! Inishie no Hana yo Sake!!",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9665,6 +11504,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 11077,
+    "title": "Hellsing: The Dawn",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9691,13 +11541,13 @@
     "count": 1
   },
   {
-    "mal_id": 12187,
-    "title": "Carnival Phantasm EX Season",
+    "mal_id": 11663,
+    "title": "Hakuouki OVA",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -9790,17 +11640,6 @@
     "count": 1
   },
   {
-    "mal_id": 14829,
-    "title": "Fate/kaleid liner Prisma☆Illya",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 15097,
     "title": "Tropical Kiss",
     "scores": [
@@ -9819,6 +11658,28 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 15687,
+    "title": "Chuunibyou demo Koi ga Shitai! Lite",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 15879,
+    "title": "Chuunibyou demo Koi ga Shitai! Depth of Field: Ai to Nikushimi Gekijou",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9878,6 +11739,17 @@
     "count": 1
   },
   {
+    "mal_id": 17491,
+    "title": "Garden",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 17745,
     "title": "Kakushi Dere",
     "scores": [
@@ -9885,6 +11757,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 18001,
+    "title": "Freezing Vibration",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -9900,35 +11783,13 @@
     "count": 1
   },
   {
-    "mal_id": 18851,
-    "title": "Fate/kaleid liner Prisma☆Illya: Undoukai de Dance!",
+    "mal_id": 18745,
+    "title": "Chihayafuru 2: Waga Miyo ni Furu Nagame Shima ni",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 19051,
-    "title": "Imouto Paradise! 2",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 19109,
-    "title": "Fate/kaleid liner Prisma☆Illya Specials",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -9999,17 +11860,6 @@
     "count": 1
   },
   {
-    "mal_id": 20509,
-    "title": "Fate/kaleid liner Prisma☆Illya 2wei!",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 20847,
     "title": "Seitokai Yakuindomo*",
     "scores": [
@@ -10021,52 +11871,63 @@
     "count": 1
   },
   {
-    "mal_id": 21925,
-    "title": "Chichiiro Toiki",
+    "mal_id": 21373,
+    "title": "Freezing Vibration Specials",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
   {
-    "mal_id": 22147,
-    "title": "Amagi Brilliant Park",
+    "mal_id": 21743,
+    "title": "Donten ni Warau",
     "scores": [
       9
     ],
     "friends": [
-      "f13"
+      "f17"
     ],
     "count": 1
   },
   {
-    "mal_id": 22429,
-    "title": "Itadaki! Seieki♥",
+    "mal_id": 22123,
+    "title": "Inugami-san to Nekoyama-san",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 22777,
+    "title": "Dragon Ball Kai (2014)",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 23237,
+    "title": "Chuunibyou demo Koi ga Shitai! Ren Specials",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
   {
     "mal_id": 23285,
     "title": "Paulette no Isu",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 23311,
-    "title": "Garo: Honoo no Kokuin",
     "scores": [
       9
     ],
@@ -10083,17 +11944,6 @@
     ],
     "friends": [
       "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 23479,
-    "title": "Itadaki! Seieki♥ Special",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -10131,13 +11981,13 @@
     "count": 1
   },
   {
-    "mal_id": 25011,
-    "title": "Fate/kaleid liner Prisma☆Illya 2wei! Specials",
+    "mal_id": 24913,
+    "title": "Bokura wa Minna Kawai-sou: Hajimete no",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -10153,13 +12003,13 @@
     "count": 1
   },
   {
-    "mal_id": 26057,
-    "title": "Fate/kaleid liner Prisma☆Illya 2wei!: Mahou Shoujo in Onsen Ryokou",
+    "mal_id": 25861,
+    "title": "Inugami-san to Nekoyama-san: Nekoyama-san to Onsen Ryokou",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -10175,13 +12025,24 @@
     "count": 1
   },
   {
-    "mal_id": 27525,
-    "title": "Fate/kaleid liner Prisma☆Illya 2wei Herz!",
+    "mal_id": 27633,
+    "title": "Gekkan Shoujo Nozaki-kun Specials",
     "scores": [
       9
     ],
     "friends": [
-      "f01"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 27663,
+    "title": "Baby Steps 2nd Season",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -10226,6 +12087,50 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 29893,
+    "title": "Aria the Avvenire",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 29998,
+    "title": "Asobi ni Iku yo!: Asobi ni Oide - Owari",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 30056,
+    "title": "Amagi Brilliant Park: Wakuwaku Mini Theater - Rakugaki Backstage",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 30206,
+    "title": "Amagi Brilliant Park: Nonbirishiteiru Hima ga Nai!",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -10296,6 +12201,17 @@
     "count": 1
   },
   {
+    "mal_id": 31931,
+    "title": "Full Metal Panic! Invisible Victory",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 32086,
     "title": "Blame! Movie",
     "scores": [
@@ -10340,6 +12256,17 @@
     "count": 1
   },
   {
+    "mal_id": 32551,
+    "title": "Digimon Adventure tri. 3: Kokuhaku",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 32566,
     "title": "Noblesse: Pamyeol-ui Sijak",
     "scores": [
@@ -10347,17 +12274,6 @@
     ],
     "friends": [
       "f16"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 32667,
-    "title": "Baka na Imouto wo Rikou ni Suru no wa Ore no xx dake na Ken ni Tsuite",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -10395,13 +12311,13 @@
     "count": 1
   },
   {
-    "mal_id": 32977,
-    "title": "Aggressive Retsuko",
+    "mal_id": 33566,
+    "title": "Baki: Most Evil Death Row Convicts Special Anime",
     "scores": [
       9
     ],
     "friends": [
-      "f16"
+      "f17"
     ],
     "count": 1
   },
@@ -10637,6 +12553,17 @@
     "count": 1
   },
   {
+    "mal_id": 36904,
+    "title": "Aggressive Retsuko (ONA)",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 36946,
     "title": "Dragon Ball Super: Broly",
     "scores": [
@@ -10681,17 +12608,6 @@
     "count": 1
   },
   {
-    "mal_id": 37405,
-    "title": "Dokidoki Little Ooyasan",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 37492,
     "title": "Steins;Gate 0: Kesshou Takei no Valentine - Bittersweet Intermedio",
     "scores": [
@@ -10699,6 +12615,17 @@
     ],
     "friends": [
       "f11"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 37517,
+    "title": "Happy Sugar Life",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -10743,6 +12670,17 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 37985,
+    "title": "Aggressive Retsuko (ONA) 2nd Season",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -10798,17 +12736,6 @@
     ],
     "friends": [
       "f02"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 38422,
-    "title": "High Score Girl: Extra Stage",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f09"
     ],
     "count": 1
   },
@@ -10901,17 +12828,6 @@
     "count": 1
   },
   {
-    "mal_id": 39586,
-    "title": "Hataraku Saibou!!",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f16"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 39597,
     "title": "Sword Art Online: Alicization - War of Underworld",
     "scores": [
@@ -10945,13 +12861,13 @@
     "count": 1
   },
   {
-    "mal_id": 39988,
-    "title": "Isekai Quartet 2",
+    "mal_id": 40215,
+    "title": "Aggressive Retsuko (ONA) 3rd Season",
     "scores": [
       9
     ],
     "friends": [
-      "f13"
+      "f17"
     ],
     "count": 1
   },
@@ -10963,28 +12879,6 @@
     ],
     "friends": [
       "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 40398,
-    "title": "Hitozuma, Mitsu to Niku",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 40417,
-    "title": "Fruits Basket 2nd Season",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f15"
     ],
     "count": 1
   },
@@ -11132,17 +13026,6 @@
     "count": 1
   },
   {
-    "mal_id": 41694,
-    "title": "Hataraku Saibou Black",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f12"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 42030,
     "title": "Fate/kaleid liner Prisma☆Illya Movie: Licht - Namae no Nai Shoujo",
     "scores": [
@@ -11187,6 +13070,17 @@
     "count": 1
   },
   {
+    "mal_id": 42940,
+    "title": "Hanma Baki: Son of Ogre",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 43325,
     "title": "Yuukoku no Moriarty Part 2",
     "scores": [
@@ -11194,6 +13088,28 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 43465,
+    "title": "Ijirare: Fukushuu Saimin",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 43467,
+    "title": "Ajisai no Chiru Koro ni",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -11293,17 +13209,6 @@
     ],
     "friends": [
       "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 48626,
-    "title": "J* Fuuzoku Gakuensai",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -11462,6 +13367,17 @@
     "count": 1
   },
   {
+    "mal_id": 51318,
+    "title": "Hanma Baki: Son of Ogre 2nd Season",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 51335,
     "title": "Shen Yin Wangzuo",
     "scores": [
@@ -11491,17 +13407,6 @@
     ],
     "friends": [
       "f02"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 52402,
-    "title": "Boku ni Sexfriend ga Dekita Riyuu",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -11607,17 +13512,6 @@
   {
     "mal_id": 54463,
     "title": "Vinland Saga Season 2: Drowning in the Shadow",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 54703,
-    "title": "Fumetsu no Anata e Season 3",
     "scores": [
       9
     ],
@@ -11924,17 +13818,6 @@
     "count": 1
   },
   {
-    "mal_id": 60055,
-    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 60057,
     "title": "Chao Neng Lifang: Chaofan Pian",
     "scores": [
@@ -12019,17 +13902,6 @@
     ],
     "friends": [
       "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 61339,
-    "title": "Jibaku Shounen Hanako-kun 2 Part 2",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f05"
     ],
     "count": 1
   },
@@ -12217,17 +14089,6 @@
     ],
     "friends": [
       "f02"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 64503,
-    "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -12496,6 +14357,50 @@
     "count": 1
   },
   {
+    "mal_id": 49,
+    "title": "Aa! Megami-sama!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 50,
+    "title": "Aa! Megami-sama! (TV)",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 54,
+    "title": "Appleseed (Movie)",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 60,
+    "title": "Chrno Crusade",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 63,
     "title": "DearS",
     "scores": [
@@ -12503,17 +14408,6 @@
     ],
     "friends": [
       "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 123,
-    "title": "Fushigi Yuugi",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f16"
     ],
     "count": 1
   },
@@ -12595,13 +14489,35 @@
     "count": 1
   },
   {
-    "mal_id": 287,
-    "title": "Grappler Baki (TV)",
+    "mal_id": 288,
+    "title": "Bakuten Shoot Beyblade",
     "scores": [
       8
     ],
     "friends": [
-      "f02"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 304,
+    "title": "Aa! Megami-sama! Movie",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 366,
+    "title": "AIKa",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -12613,6 +14529,28 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 380,
+    "title": "Fushigi Yuugi OVA",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 381,
+    "title": "Fushigi Yuugi: Dai Ni Bu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -12635,6 +14573,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 450,
+    "title": "InuYasha Movie 2: Kagami no Naka no Mugenjou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -12716,17 +14665,6 @@
     "count": 1
   },
   {
-    "mal_id": 551,
-    "title": "Grappler Baki: Saidai Tournament-hen",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f02"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 564,
     "title": "Gantz",
     "scores": [
@@ -12756,6 +14694,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 659,
+    "title": "Azumanga Daiou: Gekijou Tanpen",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -12804,13 +14753,13 @@
     "count": 1
   },
   {
-    "mal_id": 874,
-    "title": "Digimon Tamers",
+    "mal_id": 870,
+    "title": "Dragon Half",
     "scores": [
       8
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -12826,30 +14775,30 @@
     "count": 1
   },
   {
-    "mal_id": 889,
-    "title": "Black Lagoon",
+    "mal_id": 880,
+    "title": "Aa! Megami-sama! Sorezore no Tsubasa",
     "scores": [
       8
     ],
     "friends": [
-      "f16"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 908,
+    "title": "Fullmetal Alchemist: Premium Collection",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
   {
     "mal_id": 915,
     "title": "Ginga Densetsu Weed",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f16"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 934,
-    "title": "Higurashi no Naku Koro ni",
     "scores": [
       8
     ],
@@ -12877,6 +14826,17 @@
     ],
     "friends": [
       "f08"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1003,
+    "title": "Aa! Megami-sama! (TV) Specials",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -12936,6 +14896,39 @@
     "count": 1
   },
   {
+    "mal_id": 1272,
+    "title": "Injuu Gakuen La Blue Girl",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1273,
+    "title": "Injuu Gakuen La☆Blue Girl: Fukkatsu-hen",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1274,
+    "title": "Injuu Gakuen EX",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 1281,
     "title": "Gakkou no Kaidan",
     "scores": [
@@ -12980,13 +14973,35 @@
     "count": 1
   },
   {
-    "mal_id": 1519,
-    "title": "Black Lagoon: The Second Barrage",
+    "mal_id": 1482,
+    "title": "D.Gray-man",
     "scores": [
       8
     ],
     "friends": [
-      "f16"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1583,
+    "title": "009-1",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1593,
+    "title": "Azumanga Web Daiou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13002,13 +15017,24 @@
     "count": 1
   },
   {
-    "mal_id": 1686,
-    "title": "Bleach Movie 1: Memories of Nobody",
+    "mal_id": 1783,
+    "title": "Imouto Jiru",
     "scores": [
       8
     ],
     "friends": [
-      "f08"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 1791,
+    "title": "Ai Doll",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13053,6 +15079,39 @@
     ],
     "friends": [
       "f09"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2142,
+    "title": "Blue Dragon",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2156,
+    "title": "Bakugan Battle Brawlers",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2198,
+    "title": "Aa! Megami-sama! Sorezore no Tsubasa Specials",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13134,6 +15193,39 @@
     "count": 1
   },
   {
+    "mal_id": 2520,
+    "title": "Dragon Ball Specials",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2530,
+    "title": "G-Taste",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2531,
+    "title": "Gibomai",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 2581,
     "title": "Kidou Senshi Gundam 00",
     "scores": [
@@ -13141,6 +15233,61 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2590,
+    "title": "Genmukan",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2852,
+    "title": "Accelerando: Datenshi-tachi no Sasayaki",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2867,
+    "title": "Ane Jiru The Animation: Shirakawa Sanshimai ni Omakase",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2883,
+    "title": "Iyashite Agerun Saiyuuki",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2896,
+    "title": "Houkago: Nureta Seifuku",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13189,13 +15336,79 @@
     "count": 1
   },
   {
-    "mal_id": 2994,
-    "title": "Death Note: Rewrite",
+    "mal_id": 2955,
+    "title": "Hana no Joshi Announcer: Newscaster Etsuko",
     "scores": [
       8
     ],
     "friends": [
-      "f11"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2958,
+    "title": "Hitozuma Cosplay Kissa",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 2991,
+    "title": "Harumi-chan no Oita",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3040,
+    "title": "Bakuhatsu Sunzen!! Tenshi no Countdown",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3090,
+    "title": "Aa! Megami-sama! Tatakau Tsubasa",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3107,
+    "title": "Dark Shell: Ori no Naka no Namameki",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3234,
+    "title": "009-1: R&B",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13244,6 +15457,28 @@
     "count": 1
   },
   {
+    "mal_id": 3385,
+    "title": "Dorei Ichiba",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3407,
+    "title": "Blassreiter",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 3588,
     "title": "Soul Eater",
     "scores": [
@@ -13251,6 +15486,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3802,
+    "title": "Gakuen Nanafushigi",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13266,6 +15512,17 @@
     "count": 1
   },
   {
+    "mal_id": 3896,
+    "title": "Inbo",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 3901,
     "title": "Baccano! Specials",
     "scores": [
@@ -13277,6 +15534,17 @@
     "count": 1
   },
   {
+    "mal_id": 3917,
+    "title": "Hitozuma Cosplay Kissa 2: Hitozuma LoveLove - Cosplay OVA",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 3970,
     "title": "Sentakuya Shin-chan",
     "scores": [
@@ -13284,6 +15552,39 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 3980,
+    "title": "Bi-Indoushi Miija: Injoku no Gakuen",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4010,
+    "title": "Alignment You! You! The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4011,
+    "title": "Binetsukko ♭37℃ The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13321,6 +15622,17 @@
     "count": 1
   },
   {
+    "mal_id": 4197,
+    "title": "Blue Dragon: Tenkai no Shichi Ryuu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 4280,
     "title": "Kara no Kyoukai Movie 4: Garan no Dou",
     "scores": [
@@ -13343,6 +15655,17 @@
     "count": 1
   },
   {
+    "mal_id": 4379,
+    "title": "Inmu: Ikenie no Utage",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 4382,
     "title": "Suzumiya Haruhi no Yuuutsu (2009)",
     "scores": [
@@ -13354,13 +15677,68 @@
     "count": 1
   },
   {
-    "mal_id": 4901,
-    "title": "Black Lagoon: Roberta's Blood Trail",
+    "mal_id": 4400,
+    "title": "Inmu 2",
     "scores": [
       8
     ],
     "friends": [
-      "f16"
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4491,
+    "title": "Choisuji",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4562,
+    "title": "Chikan Juunin-tai The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4718,
+    "title": "AIKa: Special Trial",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4817,
+    "title": "Genzai Byoto",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4833,
+    "title": "Esper Bishoujo Manami",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13409,6 +15787,17 @@
     "count": 1
   },
   {
+    "mal_id": 5194,
+    "title": "Aneimo",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 5204,
     "title": "Kara no Kyoukai Movie 6: Boukyaku Rokuon",
     "scores": [
@@ -13431,6 +15820,17 @@
     "count": 1
   },
   {
+    "mal_id": 5315,
+    "title": "Ero Manga Mitai na Koi Shiyo",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 5324,
     "title": "Yakin Byoutou Kranke",
     "scores": [
@@ -13442,6 +15842,17 @@
     "count": 1
   },
   {
+    "mal_id": 5337,
+    "title": "Bakugan Battle Brawlers: New Vestroia",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 5424,
     "title": "Oppai Life",
     "scores": [
@@ -13449,6 +15860,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 5611,
+    "title": "Ayatsuri Ningyou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13475,6 +15897,17 @@
     "count": 1
   },
   {
+    "mal_id": 5890,
+    "title": "Inko",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 6187,
     "title": "Nodame Cantabile OVA",
     "scores": [
@@ -13497,6 +15930,17 @@
     "count": 1
   },
   {
+    "mal_id": 6337,
+    "title": "Hitoriga The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 6372,
     "title": "Higashi no Eden Movie I: The King of Eden",
     "scores": [
@@ -13508,13 +15952,13 @@
     "count": 1
   },
   {
-    "mal_id": 6421,
-    "title": "Fullmetal Alchemist: Brotherhood Specials",
+    "mal_id": 6535,
+    "title": "Ai",
     "scores": [
       8
     ],
     "friends": [
-      "f15"
+      "f17"
     ],
     "count": 1
   },
@@ -13618,6 +16062,28 @@
     "count": 1
   },
   {
+    "mal_id": 7334,
+    "title": "Bakugan Battle Brawlers: Gundalian Invaders",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 7611,
+    "title": "Issho ni Ecchi",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 7712,
     "title": "Kansen 2: Inzai Toshi",
     "scores": [
@@ -13669,6 +16135,28 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 8440,
+    "title": "Black Lagoon Omake",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 8630,
+    "title": "Hidan no Aria",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13750,6 +16238,17 @@
     "count": 1
   },
   {
+    "mal_id": 9435,
+    "title": "Ane Jiru 2 The Animation: Shirakawa Sanshimai ni Omakase",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 9442,
     "title": "Bust to Bust: Chichi wa Chichi ni",
     "scores": [
@@ -13772,6 +16271,28 @@
     "count": 1
   },
   {
+    "mal_id": 9611,
+    "title": "Aa! Megami-sama! (2011)",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 9732,
+    "title": "Full Moon Party",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 9735,
     "title": "Gintama: Shinyaku Benizakura-hen",
     "scores": [
@@ -13779,17 +16300,6 @@
     ],
     "friends": [
       "f16"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 10012,
-    "title": "Carnival Phantasm",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -13838,6 +16348,61 @@
     "count": 1
   },
   {
+    "mal_id": 10327,
+    "title": "Cosplay Roshutsu Kenkyuukai",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10330,
+    "title": "Bakugan Battle Brawlers: Mechtanium Surge",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10444,
+    "title": "Digimon Xros Wars: Aku no Death General to Nanatsu no Oukoku",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10490,
+    "title": "Blood-C",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10553,
+    "title": "Betsu ni Anta no Tame ni Ookiku Natta n ja Nai n Dakara ne!!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 10589,
     "title": "Naruto: Shippuuden Movie 5 - Blood Prison",
     "scores": [
@@ -13845,6 +16410,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10604,
+    "title": "Hidan no Aria: Butei ga Kitarite Onsen Kenshuu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -13882,6 +16458,17 @@
     "count": 1
   },
   {
+    "mal_id": 10697,
+    "title": "Asa kara Zusshiri Milk Pot",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 10711,
     "title": "Plastic Neesan",
     "scores": [
@@ -13889,6 +16476,28 @@
     ],
     "friends": [
       "f08"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10764,
+    "title": "Buta Himesama",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 10779,
+    "title": "Eroge! H mo Game mo Kaihatsu Zanmai",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14003,6 +16612,39 @@
     "count": 1
   },
   {
+    "mal_id": 11745,
+    "title": "Aku no Onna Kanbu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 11783,
+    "title": "Dog Days'",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 11855,
+    "title": "Houkago Nyannyan",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 12429,
     "title": "Last Exile: Ginyoku no Fam - Adjournment",
     "scores": [
@@ -14054,6 +16696,28 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 13143,
+    "title": "Baku Tech! Bakugan",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 13219,
+    "title": "Himesama Gentei!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14113,6 +16777,28 @@
     "count": 1
   },
   {
+    "mal_id": 14077,
+    "title": "Blood-C: None-None Gekijou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 14117,
+    "title": "Blood-C: Special Edition",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 14513,
     "title": "Magi: The Labyrinth of Magic",
     "scores": [
@@ -14120,6 +16806,17 @@
     ],
     "friends": [
       "f02"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 14751,
+    "title": "Bishoujo Senshi Sailor Moon Crystal",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14142,6 +16839,17 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 14991,
+    "title": "Harem Time The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14234,24 +16942,13 @@
     "count": 1
   },
   {
-    "mal_id": 15845,
-    "title": "Chikan no Licence",
+    "mal_id": 16059,
+    "title": "Aku no Onna Kanbu: Full Moon Night",
     "scores": [
       8
     ],
     "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 15927,
-    "title": "Carnival Phantasm: HibiChika Special",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -14355,6 +17052,39 @@
     "count": 1
   },
   {
+    "mal_id": 17543,
+    "title": "D-Spray",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 17651,
+    "title": "Genei wo Kakeru Taiyou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 17901,
+    "title": "All Alone With You",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 18115,
     "title": "Magi: The Kingdom of Magic",
     "scores": [
@@ -14373,6 +17103,28 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 18507,
+    "title": "Free!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 18893,
+    "title": "Aoki Hagane no Arpeggio: Ars Nova",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14520,6 +17272,28 @@
     "count": 1
   },
   {
+    "mal_id": 20187,
+    "title": "Genei wo Kakeru Taiyou: Fumikomenai Kokoro",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 20377,
+    "title": "Dorei Usagi to Anthony The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 20757,
     "title": "Taimanin Yukikaze",
     "scores": [
@@ -14575,6 +17349,28 @@
     "count": 1
   },
   {
+    "mal_id": 21437,
+    "title": "Buddy Complex",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 21523,
+    "title": "Baku Tech! Bakugan Gachi",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 21681,
     "title": "Hanayamata",
     "scores": [
@@ -14586,13 +17382,13 @@
     "count": 1
   },
   {
-    "mal_id": 21797,
-    "title": "Chuunibyou demo Koi ga Shitai! Ren Lite",
+    "mal_id": 21829,
+    "title": "Fella Pure: Mitarashi-san Chi no Jijou The Animation",
     "scores": [
       8
     ],
     "friends": [
-      "f13"
+      "f17"
     ],
     "count": 1
   },
@@ -14619,19 +17415,19 @@
     "count": 1
   },
   {
-    "mal_id": 22145,
-    "title": "Kuroshitsuji: Book of Circus",
+    "mal_id": 22081,
+    "title": "Cosplay Rakuen",
     "scores": [
       8
     ],
     "friends": [
-      "f13"
+      "f17"
     ],
     "count": 1
   },
   {
-    "mal_id": 22729,
-    "title": "Aldnoah.Zero",
+    "mal_id": 22145,
+    "title": "Kuroshitsuji: Book of Circus",
     "scores": [
       8
     ],
@@ -14648,6 +17444,28 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 23199,
+    "title": "Durarara!!x2 Shou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 23251,
+    "title": "Gugure! Kokkuri-san",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14707,6 +17525,39 @@
     "count": 1
   },
   {
+    "mal_id": 24821,
+    "title": "Isshuukan Friends. Specials",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 24849,
+    "title": "Injutsu no Yakata The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 24967,
+    "title": "Ane Kyun!: Joshi ga Ie ni Kita!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 25015,
     "title": "Kyoukai no Kanata Movie 1: I'll Be Here - Kako-hen",
     "scores": [
@@ -14714,6 +17565,17 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 25055,
+    "title": "Furifure The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14762,13 +17624,13 @@
     "count": 1
   },
   {
-    "mal_id": 25667,
-    "title": "Boy Meets Harem The Animation",
+    "mal_id": 25687,
+    "title": "Digimon Adventure tri. 1: Saikai",
     "scores": [
       8
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -14817,6 +17679,17 @@
     "count": 1
   },
   {
+    "mal_id": 27567,
+    "title": "Fushigi Yuugi Special: Nakago Shikkari Shinasai!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 27787,
     "title": "Nisekoi:",
     "scores": [
@@ -14835,6 +17708,72 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 27831,
+    "title": "Durarara!!x2 Ten",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 27833,
+    "title": "Durarara!!x2 Ketsu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 27879,
+    "title": "Eromame",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 27881,
+    "title": "Ana no Oku no Ii Tokoro",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 27945,
+    "title": "Gugure! Kokkuri-san Specials",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 28517,
+    "title": "Ikenai Koto The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14872,17 +17811,6 @@
     "count": 1
   },
   {
-    "mal_id": 28961,
-    "title": "Idol☆Sister",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 29027,
     "title": "Shinmai Maou no Testament: Toujou Basara no Hard Sweet na Nichijou",
     "scores": [
@@ -14905,6 +17833,17 @@
     "count": 1
   },
   {
+    "mal_id": 29093,
+    "title": "Grisaia no Meikyuu: Caprice no Mayu 0",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 29325,
     "title": "Koukaku Kidoutai Arise: Alternative Architecture",
     "scores": [
@@ -14912,6 +17851,28 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 29809,
+    "title": "3Ping Lovers!☆Ippu Nisai no Sekai e Youkoso♪ The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 30191,
+    "title": "Durarara!!x2 Shou: Watashi no Kokoro wa Nabe Moyou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -14960,6 +17921,17 @@
     "count": 1
   },
   {
+    "mal_id": 30383,
+    "title": "Classroom☆Crisis",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 30614,
     "title": "Ane Yome Quartet",
     "scores": [
@@ -14982,6 +17954,17 @@
     "count": 1
   },
   {
+    "mal_id": 30658,
+    "title": "Gakuen no Ikenie: Nagusami Mono to Kashita Kyonyuu Furyou Shoujo",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 30740,
     "title": "Young Black Jack",
     "scores": [
@@ -14993,6 +17976,17 @@
     "count": 1
   },
   {
+    "mal_id": 30741,
+    "title": "Hyoudou Ibuki: Kanpeki Ibuki Kaichou ga Kousoku Do M!? na Wake",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 30771,
     "title": "Mudai",
     "scores": [
@@ -15000,6 +17994,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 30812,
+    "title": "Gyakuten Majo Saiban: Chijo na Majo ni Sabakarechau The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -15026,13 +18031,13 @@
     "count": 1
   },
   {
-    "mal_id": 31117,
-    "title": "Ano Ko to Ii Koto",
+    "mal_id": 31096,
+    "title": "Hibike! Euphonium: Suisougaku-bu no Nichijou",
     "scores": [
       8
     ],
     "friends": [
-      "f01"
+      "f17"
     ],
     "count": 1
   },
@@ -15136,6 +18141,28 @@
     "count": 1
   },
   {
+    "mal_id": 31733,
+    "title": "Bishoujo Senshi Sailor Moon Crystal Season III",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 31740,
+    "title": "Chicchana Onaka",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 31741,
     "title": "Magi: Sinbad no Bouken (TV)",
     "scores": [
@@ -15154,6 +18181,17 @@
     ],
     "friends": [
       "f13"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 31788,
+    "title": "Ero Manga! H mo Manga mo Step-up♪",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -15180,6 +18218,17 @@
     "count": 1
   },
   {
+    "mal_id": 31886,
+    "title": "Dropout",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 32013,
     "title": "Oshiete! Galko-chan",
     "scores": [
@@ -15191,19 +18240,19 @@
     "count": 1
   },
   {
-    "mal_id": 32214,
-    "title": "Koukaku no Pandora",
+    "mal_id": 32108,
+    "title": "Digimon Adventure tri. 2: Ketsui",
     "scores": [
       8
     ],
     "friends": [
-      "f13"
+      "f17"
     ],
     "count": 1
   },
   {
-    "mal_id": 32215,
-    "title": "High School DxD BorN: Yomigaeranai Fushichou",
+    "mal_id": 32214,
+    "title": "Koukaku no Pandora",
     "scores": [
       8
     ],
@@ -15253,6 +18302,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 32370,
+    "title": "D.Gray-man Hallow",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -15334,17 +18394,6 @@
     "count": 1
   },
   {
-    "mal_id": 32863,
-    "title": "Ansatsu Kyoushitsu: Kagaijugyou-hen",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f16"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 32869,
     "title": "Kuroko no Basket Movie 1: Winter Cup - Kage to Hikari",
     "scores": [
@@ -15378,13 +18427,13 @@
     "count": 1
   },
   {
-    "mal_id": 33071,
-    "title": "Bungou Stray Dogs: Hitori Ayumu",
+    "mal_id": 32954,
+    "title": "Flying Witch Petit",
     "scores": [
       8
     ],
     "friends": [
-      "f16"
+      "f17"
     ],
     "count": 1
   },
@@ -15455,6 +18504,17 @@
     "count": 1
   },
   {
+    "mal_id": 33681,
+    "title": "Flying Witch Petit Special",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 33731,
     "title": "Gabriel DropOut",
     "scores": [
@@ -15477,6 +18537,28 @@
     "count": 1
   },
   {
+    "mal_id": 34030,
+    "title": "Bokura no Sex",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 34107,
+    "title": "Iizuka-senpai x Blazer: Ane Kyun! yori The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 34280,
     "title": "Gamers!",
     "scores": [
@@ -15484,6 +18566,17 @@
     ],
     "friends": [
       "f11"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 34350,
+    "title": "Alice to Zouroku",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -15512,17 +18605,6 @@
   {
     "mal_id": 34440,
     "title": "Code Geass: Hangyaku no Lelouch III - Oudou",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f02"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 34443,
-    "title": "Baki",
     "scores": [
       8
     ],
@@ -15587,6 +18669,17 @@
     "count": 1
   },
   {
+    "mal_id": 34759,
+    "title": "Green Eyes: Ane Kyun! yori The Animation",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 34914,
     "title": "New Game!!",
     "scores": [
@@ -15594,17 +18687,6 @@
     ],
     "friends": [
       "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 34944,
-    "title": "Bungou Stray Dogs: Dead Apple",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f16"
     ],
     "count": 1
   },
@@ -15664,6 +18746,17 @@
     "count": 1
   },
   {
+    "mal_id": 35498,
+    "title": "Boku to Misaki-sensei",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 35503,
     "title": "Shoujo☆Kageki Revue Starlight",
     "scores": [
@@ -15704,17 +18797,6 @@
     ],
     "friends": [
       "f14"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 35823,
-    "title": "Demi-chan wa Kataritai: Demi-chan no Natsuyasumi",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f16"
     ],
     "count": 1
   },
@@ -15818,17 +18900,6 @@
     "count": 1
   },
   {
-    "mal_id": 36884,
-    "title": "Hisone to Maso-tan",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f13"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 36889,
     "title": "Oyasumi Sex",
     "scores": [
@@ -15902,6 +18973,17 @@
     ],
     "friends": [
       "f02"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 37088,
+    "title": "Enkou JK Bitch Gal: Ojisan to Namapako Seikatsu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -16060,17 +19142,6 @@
     "count": 1
   },
   {
-    "mal_id": 38476,
-    "title": "Heya Camp△",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f15"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 38491,
     "title": "Xingchen Bian",
     "scores": [
@@ -16089,6 +19160,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 38733,
+    "title": "Hataraku Saibou: Kaze Shoukougun",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -16247,13 +19329,13 @@
     "count": 1
   },
   {
-    "mal_id": 39555,
-    "title": "Baki: Dai Raitaisai-hen",
+    "mal_id": 39570,
+    "title": "High Score Girl II",
     "scores": [
       8
     ],
     "friends": [
-      "f02"
+      "f17"
     ],
     "count": 1
   },
@@ -16478,6 +19560,28 @@
     "count": 1
   },
   {
+    "mal_id": 40526,
+    "title": "Dragon, Ie wo Kau.",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 40532,
+    "title": "Appare-Ranman!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 40542,
     "title": "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen",
     "scores": [
@@ -16507,6 +19611,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 40658,
+    "title": "** Kouhai",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -16551,6 +19666,17 @@
     ],
     "friends": [
       "f16"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 40841,
+    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen OVA",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -16808,6 +19934,17 @@
     "count": 1
   },
   {
+    "mal_id": 42250,
+    "title": "Bungou Stray Dogs Wan!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 42266,
     "title": "Wu Dong Qian Kun 2nd Season",
     "scores": [
@@ -16826,6 +19963,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 42387,
+    "title": "Hataraku Saibou!! Saikyou no Teki, Futatabi. Karada no Naka wa \"Chou\" Oosawagi!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -17094,17 +20242,6 @@
     "count": 1
   },
   {
-    "mal_id": 47160,
-    "title": "Goblin Slayer II",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f02"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 47250,
     "title": "Jouran: The Princess of Snow and Blood",
     "scores": [
@@ -17156,17 +20293,6 @@
     ],
     "friends": [
       "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 48413,
-    "title": "Hataraku Maou-sama!!",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f15"
     ],
     "count": 1
   },
@@ -17336,17 +20462,6 @@
     "count": 1
   },
   {
-    "mal_id": 48997,
-    "title": "Fantasy Bishoujo Juniku Ojisan to",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 49112,
     "title": "Amemiya-san",
     "scores": [
@@ -17354,17 +20469,6 @@
     ],
     "friends": [
       "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 49154,
-    "title": "High Card",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f16"
     ],
     "count": 1
   },
@@ -17382,17 +20486,6 @@
   {
     "mal_id": 49241,
     "title": "Vivy: Fluorite Eye's Song - To Make Everyone Happy With My Singing",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 49295,
-    "title": "Chizuru-chan Kaihatsu Nikki",
     "scores": [
       8
     ],
@@ -17453,6 +20546,28 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 49515,
+    "title": "Digimon Ghost Game",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 49519,
+    "title": "Hakozume: Kouban Joshi no Gyakushuu",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -17765,6 +20880,17 @@
     "count": 1
   },
   {
+    "mal_id": 51020,
+    "title": "Helck",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 51105,
     "title": "NieR:Automata Ver1.1a",
     "scores": [
@@ -17772,17 +20898,6 @@
     ],
     "friends": [
       "f11"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 51217,
-    "title": "Isekai Yarisaa",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
@@ -17853,17 +20968,6 @@
     "count": 1
   },
   {
-    "mal_id": 51818,
-    "title": "Enen no Shouboutai: San no Shou",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 51860,
     "title": "Jidao Long Shen",
     "scores": [
@@ -17897,6 +21001,17 @@
     "count": 1
   },
   {
+    "mal_id": 52193,
+    "title": "Akiba Meido Sensou",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 52244,
     "title": "Korashime 2: Kyouikuteki Depaga Shidou",
     "scores": [
@@ -17915,6 +21030,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 52367,
+    "title": "Isekai Shikkaku",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -18106,17 +21232,6 @@
     "count": 1
   },
   {
-    "mal_id": 53924,
-    "title": "Jibaku Shounen Hanako-kun 2",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f05"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 54029,
     "title": "Wu Liuqi: Anying Suming",
     "scores": [
@@ -18146,6 +21261,17 @@
     ],
     "friends": [
       "f14"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 54141,
+    "title": "Bastard!! Ankoku no Hakaishin: Jigoku no Chinkonka-hen",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -18756,7 +21882,7 @@
   },
   {
     "mal_id": 59489,
-    "title": "Kaijuu 8-gou Movie",
+    "title": "Kaijuu 8-gou Recap",
     "scores": [
       8
     ],
@@ -18887,6 +22013,17 @@
     "count": 1
   },
   {
+    "mal_id": 60055,
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f01"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 60063,
     "title": "Fairy Tail: 100-nen Quest - Kanwa - Lucy's Diary",
     "scores": [
@@ -18920,6 +22057,17 @@
     "count": 1
   },
   {
+    "mal_id": 60147,
+    "title": "Ikusei",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 60279,
     "title": "Xian Ni Movie: Shenlin Zhi Zhan",
     "scores": [
@@ -18938,17 +22086,6 @@
     ],
     "friends": [
       "f14"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 60347,
-    "title": "Cat's♥Eye",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f13"
     ],
     "count": 1
   },
@@ -19140,6 +22277,17 @@
     "count": 1
   },
   {
+    "mal_id": 61851,
+    "title": "Isekai Quartet 3",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 61999,
     "title": "Shuiro no Kamen",
     "scores": [
@@ -19195,6 +22343,17 @@
     "count": 1
   },
   {
+    "mal_id": 62421,
+    "title": "Ansatsu Kyoushitsu Movie: Minna no Jikan",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f02"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 62544,
     "title": "Shen Zai Jiong Tu",
     "scores": [
@@ -19213,6 +22372,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 62637,
+    "title": "Adult Chick Children",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f17"
     ],
     "count": 1
   },
@@ -19323,6 +22493,17 @@
     ],
     "friends": [
       "f06"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 64503,
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f01"
     ],
     "count": 1
   },
@@ -19912,6 +23093,17 @@
   {
     "mal_id": 180376,
     "title": "What a Bountiful Harvest, Demon Lord!",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f02"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 193929,
+    "title": "Got Dropped into a Ghost Story, Still Gotta Work",
     "scores": [
       8
     ],
