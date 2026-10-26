@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-26T06:58:01.949941+00:00",
+  "generated_at": "2026-10-26T18:43:52.075474+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 4,
   "workflows": [
     {
       "name": "MAL Sync",
-      "status": "ok",
-      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-10-26T06:50:54Z (Run 40282222525)",
+      "status": "late",
+      "detail": "Erfolg 2026-10-26T10:13:35Z (Run 40305725640), aber 5.9h nach Termin 2026-10-26T04:17:00+00:00 (Schwelle 4h)",
       "expected": "2026-10-26T04:17:00+00:00"
     },
     {
       "name": "MAL Friends Candidates",
-      "status": "ok",
-      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-10-26T06:43:12Z (Run 40281470407)",
+      "status": "late",
+      "detail": "Erfolg 2026-10-26T10:23:25Z (Run 40307030009), aber 5.8h nach Termin 2026-10-26T04:35:00+00:00 (Schwelle 4h)",
       "expected": "2026-10-26T04:35:00+00:00"
     },
     {
       "name": "AniList Export",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "late",
+      "detail": "Erfolg 2026-10-26T10:33:04Z (Run 40308285268), aber 5.8h nach Termin 2026-10-26T04:47:00+00:00 (Schwelle 4h)",
       "expected": "2026-10-26T04:47:00+00:00"
     },
     {
       "name": "Abo-Katalog-Check",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "late",
+      "detail": "Erfolg 2026-10-26T11:07:42Z (Run 40312705894), aber 5.8h nach Termin 2026-10-26T05:17:00+00:00 (Schwelle 4h)",
       "expected": "2026-10-26T05:17:00+00:00"
     },
     {
@@ -42,8 +42,8 @@
     },
     {
       "name": "Streaming Rollcheck",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "late",
+      "detail": "Erfolg 2026-10-26T08:55:19Z (Run 40295652870), aber 5.6h nach Termin 2026-10-26T03:17:00+00:00 (Schwelle 4h)",
       "expected": "2026-10-26T03:17:00+00:00"
     },
     {
