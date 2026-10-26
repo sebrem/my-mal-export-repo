@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Actions-Waechter v3 (stdlib only).
+"""Actions-Waechter v4 (stdlib only).
 
 Taeglicher Watchdog ueber alle geplanten Workflows des Repos. Pro erwartetem
 Workflow wird geprueft, ob seit dessen letztem erwarteten Cron-Termin ein
-erfolgreicher scheduled Run existiert. Ergebnisse:
+erfolgreicher Run existiert. Ergebnisse:
   - ok      : Erfolg-Run seit letztem erwarteten Termin vorhanden
+  - late    : Erfolg-Run vorhanden, aber deutlich verspaetet (v4, s.u.)
   - failed  : Run(s) vorhanden, aber kein Erfolg (conclusion != success)
-  - missing : gar kein scheduled Run seit erwartetem Termin
+  - missing : gar kein Run seit erwartetem Termin
   - error   : Workflow/API nicht abrufbar
-  - pending : Workflow ist noch nicht lange genug live (v3, s.u.)
+  - pending : Workflow ist noch nicht lange genug live (v3)
 
 Alarmweg: GitHub-Issue mit Label "actions-waechter" (ein offenes
 Sammel-Issue, aktualisiert statt vermehrt; wird bei Erholung geschlossen).
@@ -16,23 +17,31 @@ Zusatz: actions_status.json als Heartbeat-/Status-Datei (Commit macht der
 Workflow, nicht das Skript - dort mit if: always(), damit der Status auch
 bei rot abgelegten Check landet).
 
+v4-Aenderungen (26.10.2026, nach Befund "MAL Sync 19.10. 5h42 verspaetet,
+zaehlte als ok"):
+  1. Verspaetungs-Messung: delay = Startzeit - erwarteter Termin. Ueberschreitet
+     der laengste relevante Delay LATE_ALARM_HOURS (Default 4), wird der
+     Workflow als "late" gefuehrt und alarmiert wie "missing". Grund: die
+     4h-GRACE in v3 wirkte nur nach UNTEN (Run darf nicht vor Termin-4h
+     starten), hatte aber keine Obergrenze - 5-6h-Verspaetungen blieben
+     unsichtbar, obwohl sie strukturell wiederkehren.
+  2. Manueller Catch-up zaehlt: v3 filterte strikt auf event=schedule, d.h.
+     ein bewusst nachgezogener manueller Dispatch (wie MAL Sync 26.10.)
+     alarmierte trotzdem als "missing". v4 prueft bei fehlendem Scheduled-Run
+     zusaetzlich Runs JEDES Events; existiert seit dem erwarteten Termin ein
+     erfolgreicher Run (z.B. workflow_dispatch), gilt der Workflow als "ok",
+     mit Vermerk "(manuell)" im Detail.
+
 v3-Fix (23.10.2026, Erst-Alarm-Analyse): EXPECTED-Eintraege bekommen ein
 optionales "since" (Geburtsdatum/Live-Datum des Workflows). Liegt der
 letzte erwartete Termin VOR dem Live-Datum, ist der Status "pending" statt
-"missing" und kein Alarm-Grund. Grund: Issue #1 meldete MAL Friends
-(expected Mo 19.10.), Verlags-Announcements (Mi 21.10.) und Release-Kalender
-(Do 22.10. 04:30) als missing - alle drei Workflows gingen aber erst am
-21./22.10. live, ihre ersten Crons sind 26./28./29.10. Zusätzlich:
-  - streaming-rollcheck.yml (taeglich 03:17, live 23.10.) in EXPECTED
-  - theme-seiyuu-harvest.yml (monatlich, 1. des Monats 05:03) in EXPECTED;
-    monatliche Crons brauchen "dom" statt "days" (last_expected_trigger
-    sucht dann bis 40 Tage zurueck statt 8)
+"missing" und kein Alarm-Grund. Ausserdem monatliche Crons via "dom"
+(theme-seiyuu-harvest.yml), streaming-rollcheck.yml in EXPECTED.
 
-Jitter-Behandlung: Ein Run zaehlt als "puenktlich", wenn er ab
-(termin - 4h GRACE) gestartet ist. Verspaetungen bis zur Watchdog-Laufzeit
-sind damit unkritisch (Befund 23.10.: MAL Sync lief 5,7h nach Termin und
-zaehlte korrekt als ok); laeuft eine Action erst NACH dem Watchdog,
-erscheint sie spaetestens beim naechsten Watchdog-Lauf als ok.
+Jitter-Behandlung: Ein Run zaehlt als zugehoerig, wenn er ab
+(termin - GRACE_HOURS) gestartet ist. Verzoegerungen bis LATE_ALARM_HOURS
+bleiben "ok", darueber "late" (neu in v4); laeuft eine Action erst NACH dem
+Watchdog, erscheint sie spaetestens beim naechsten Watchdog-Lauf.
 """
 
 import json
@@ -48,6 +57,9 @@ REPO = os.environ.get("WAECHTER_REPO", "sebrem/my-mal-export-repo")
 TOKEN = os.environ.get("WAECHTER_TOKEN", "")
 LABEL = "actions-waechter"
 GRACE_HOURS = 4
+# v4: Verspaetungs-Schwelle in Stunden - Erfolg-Runs, die deutlich nach dem
+# erwarteten Termin starten, alarmieren als "late" statt still als "ok".
+LATE_ALARM_HOURS = 4
 STATUS_FILE = "actions_status.json"
 
 # Erwartete scheduled Workflows. Wochentage: Mo=0 .. So=6 (UTC).
@@ -161,6 +173,23 @@ def check_workflow(wf, now):
     runs = [r for r in data.get("workflow_runs", [])
             if parse_ts(r["created_at"]) >= since]
     if not runs:
+        # v4: kein scheduled Run - manuellen Catch-up pruefen, bevor
+        # "missing" alarmiert wird. Ein erfolgreicher Run JEDES Events
+        # (z.B. workflow_dispatch nach ausgebliebenem Cron) erfuellt
+        # den Zweck des Workflows und zaehlt als "ok (manuell)".
+        try:
+            any_data = api(f"/repos/{REPO}/actions/workflows/{wf['file']}/runs",
+                           params={"per_page": 30})
+            any_ok = [r for r in any_data.get("workflow_runs", [])
+                      if r["status"] == "completed" and r["conclusion"] == "success"
+                      and parse_ts(r["created_at"]) >= expected_at]
+            if any_ok:
+                newest = max(any_ok, key=lambda r: parse_ts(r["created_at"]))
+                return {"name": wf["name"], "status": "ok",
+                        "detail": f"Erfolg (manuell, event={newest.get('event', '?')}) {newest['created_at']} (Run {newest['id']})",
+                        "expected": expected_at.isoformat()}
+        except Exception:
+            pass  # Fallback-Query gescheitert -> regulaer "missing" melden
         return {"name": wf["name"], "status": "missing",
                 "detail": "kein scheduled Run seit erwartetem Termin",
                 "expected": expected_at.isoformat()}
@@ -169,8 +198,17 @@ def check_workflow(wf, now):
                if r["status"] == "completed" and r["conclusion"] == "success"]
     if ok_runs:
         newest = max(ok_runs, key=lambda r: parse_ts(r["created_at"]))
+        newest_ts = parse_ts(newest["created_at"])
+        # v4: Verspaetung gegen den erwarteten Termin messen. Ueber der
+        # Schwelle -> "late" (alarmpflichtig), darunter -> "ok" mit Angabe.
+        delay = newest_ts - expected_at
+        delay_h = delay.total_seconds() / 3600
+        if delay_h > LATE_ALARM_HOURS:
+            return {"name": wf["name"], "status": "late",
+                    "detail": f"Erfolg {newest['created_at']} (Run {newest['id']}), aber {delay_h:.1f}h nach Termin {expected_at.isoformat()} (Schwelle {LATE_ALARM_HOURS}h)",
+                    "expected": expected_at.isoformat()}
         return {"name": wf["name"], "status": "ok",
-                "detail": f"Erfolg {newest['created_at']} (Run {newest['id']})",
+                "detail": f"Erfolg {newest['created_at']} (Run {newest['id']}), +{delay_h:.1f}h",
                 "expected": expected_at.isoformat()}
 
     newest = max(runs, key=lambda r: parse_ts(r["created_at"]))
@@ -246,13 +284,15 @@ def main():
     now = datetime.now(timezone.utc)
 
     results = [check_workflow(wf, now) for wf in EXPECTED]
-    # pending = junge Workflows vor ihrem ersten Cron: KEIN Alarm-Grund
+    # pending = junge Workflows vor ihrem ersten Cron: KEIN Alarm-Grund.
+    # v4: "late" alarmiert jetzt ebenfalls (Verspaetung ueber Schwelle).
     problems = [r for r in results if r["status"] not in ("ok", "pending")]
 
     status = {
         "generated_at": now.isoformat(),
         "ok": not problems,
         "grace_hours": GRACE_HOURS,
+        "late_alarm_hours": LATE_ALARM_HOURS,
         "workflows": results,
     }
     with open(STATUS_FILE, "w", encoding="utf-8") as f:
