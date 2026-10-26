@@ -1,31 +1,32 @@
 {
-  "generated_at": "2026-10-25T16:34:07.869584+00:00",
-  "ok": true,
+  "generated_at": "2026-10-26T06:58:01.949941+00:00",
+  "ok": false,
   "grace_hours": 4,
+  "late_alarm_hours": 4,
   "workflows": [
     {
       "name": "MAL Sync",
       "status": "ok",
-      "detail": "Erfolg 2026-10-19T09:59:31Z (Run 39234161908)",
-      "expected": "2026-10-19T04:17:00+00:00"
+      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-10-26T06:50:54Z (Run 40282222525)",
+      "expected": "2026-10-26T04:17:00+00:00"
     },
     {
       "name": "MAL Friends Candidates",
-      "status": "pending",
-      "detail": "live seit 2026-10-21T12:30Z; erwarteter Termin 2026-10-19T04:35:00+00:00 davor - erster Cron steht noch aus",
-      "expected": "2026-10-19T04:35:00+00:00"
+      "status": "ok",
+      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-10-26T06:43:12Z (Run 40281470407)",
+      "expected": "2026-10-26T04:35:00+00:00"
     },
     {
       "name": "AniList Export",
-      "status": "ok",
-      "detail": "Erfolg 2026-10-19T10:19:14Z (Run 39236605498)",
-      "expected": "2026-10-19T04:47:00+00:00"
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-26T04:47:00+00:00"
     },
     {
       "name": "Abo-Katalog-Check",
-      "status": "ok",
-      "detail": "Erfolg 2026-10-19T10:47:27Z (Run 39239964556)",
-      "expected": "2026-10-19T05:17:00+00:00"
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-26T05:17:00+00:00"
     },
     {
       "name": "Verlags-Announcements",
@@ -41,9 +42,9 @@
     },
     {
       "name": "Streaming Rollcheck",
-      "status": "ok",
-      "detail": "Erfolg 2026-10-25T08:25:04Z (Run 40176528377)",
-      "expected": "2026-10-25T03:17:00+00:00"
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
+      "expected": "2026-10-26T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
