@@ -1,4 +1,8 @@
-// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.5.1 – JustWatch-GraphQL (Katalogstufe)
+// MAL x Streaming-Verfügbarkeit ROLLCHECK V8.6 – JustWatch-GraphQL (Katalogstufe)
+// V8.6 (26.10.2026): 429-Entzerung nach 3 JustWatch-Rate-Limit-Abbrüchen in Folge
+// (23.-25.10.2026, zuletzt "Lv1 Maou to One Room Yuusha"; Workflow-Chunk 45 -> 30):
+// (1) Standard-Chunk 45 -> 30, (2) Title-Pause 700 -> 1500 ms, konfigurierbar per JW_PAUSE_MS,
+// (3) Backoff-Retries 2x -> 3x (neuer dritter Versuch mit 120 s Wartezeit).
 // V8.5.1 (23.10.2026): (1) ADN-URL-Normalisierung – JW-Offers verlinken FOLGEN-Seiten
 // (.../de/video/<show>/<video>-folge-1), deren __NEXT_DATA__ KEINEN data.show-Query
 // enthaelt -> adnVideoCheck kuerzt die Offer-URL auf die Show-Seite
@@ -36,7 +40,7 @@ const FETCH_TIMEOUT_MS = 8000;
 const RUN_DEADLINE_MS = 15 * 60 * 1000; // unter dem 20-Min-Job-Timeout
 const RUN_START = Date.now();
 function timeLeft() { return RUN_DEADLINE_MS - (Date.now() - RUN_START); }
-const CHUNK_SIZE = Number(process.env.ROLLCHECK_CHUNK || '45');
+const CHUNK_SIZE = Number(process.env.ROLLCHECK_CHUNK || '30'); // V8.6: 45 -> 30 (429-Entzerung)
 const STATE_FILE = 'streaming_state.json';
 const OUT_FILE = 'streaming_rollcheck.json';
 // V8.5: ADN-Video-Ebenen-Check
@@ -44,6 +48,7 @@ const ADN_CHECK = (process.env.ADN_CHECK || '1') !== '0';   // '0' deaktiviert d
 const ADN_MAX_PER_RUN = Number(process.env.ADN_MAX_CHECKS || '12');
 const ADN_FETCH_TIMEOUT_MS = 15000;
 const ADN_PAUSE_MS = 1500; // Rate-Limit-Respekt ggue. ADN-HTML-Seiten
+const JW_PAUSE_MS = Number(process.env.JW_PAUSE_MS || '1500'); // V8.6: Pause zwischen Titeln ggü. JustWatch (vorher fest 700 ms)
 
 // JustWatch-Provider-ShortNames -> Klassifizierung (verifiziert per packages(country:DE,platform:WEB)
 // und Pilot-Läufen 23.10.2026; Channel-Pakete listet die Paketabfrage nicht -> ava = Verdacht).
@@ -198,7 +203,7 @@ function titleMatchConf(jwTitle, wantedNorm, wantedTokens) {
 // Backoff-Retry: 2x mit wachsender Wartezeit; 429 im Such-Step ist die dominierende Fehlerart.
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 async function gqlWithBackoff(query, label) {
-  const waits = [0, 30000, 60000];
+  const waits = [0, 30000, 60000, 120000]; // V8.6: 3. Retry (120 s)
   let r = null;
   for (let i = 0; i < waits.length; i++) {
     if (waits[i]) await sleep(waits[i]);
@@ -427,11 +432,11 @@ async function main() {
                                legal_de_other_providers: hit.legal_de_other_providers,
                                ...(hit.adn_video ? { adn_video: hit.adn_video } : {}) };
     } else if (state.hits[t.mal_id]) {
-      state.hits[t.mal_id].checked_at = out.run; // no_hit: Timestamp aktualisieren, Eintrag behalten
+      state.hits[t.mal_id].checked_at = out.run; // no_hit: Timestamp aktualisiert, Eintrag behalten
     }
     fs.writeFileSync(OUT_FILE, JSON.stringify({ ...out, chunk_results: chunkResults,
       cycle_hits: state.hits }, null, 2)); // inkrementell
-    await new Promise(r => setTimeout(r, 700)); // Rate-Limit-Respekt
+    await sleep(JW_PAUSE_MS); // V8.6: Rate-Limit-Respekt ggü. JustWatch (JW_PAUSE_MS, Default 1500 ms)
   }
 
   out.chunk_results = chunkResults;
