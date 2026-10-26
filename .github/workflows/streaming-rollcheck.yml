@@ -3,8 +3,10 @@ name: Streaming Rollcheck (MAL x JustWatch, Katalogstufe)
 on:
   workflow_dispatch: {}          # manuell für Extra-Läufe
   schedule:
-    - cron: '17 3 * * *'         # täglich 03:17 UTC (05:17 MESZ): 1 Chunk (~45 Titel)
-                                  # 830 aktive Titel / 45 = ~19 Läufe pro Voll-Cycle (~3 Wochen)
+    - cron: '17 3 * * *'         # täglich 03:17 UTC (05:17 MESZ): 1 Chunk (~30 Titel)
+                                  # 830 aktive Titel / 30 = ~28 Läufe pro Voll-Cycle (~4 Wochen)
+                                  # Chunk 45 -> 30 am 26.10.2026: 429-Abbrüche an 3 aufeinander-
+                                  # folgenden Läufen (23.-25.10.) trotz Backoff - weniger JW-Requests.
 
 permissions:
   contents: write
@@ -23,7 +25,7 @@ jobs:
       - name: Rollcheck-Lauf (naechster Chunk, State aus streaming_state.json)
         run: node scripts/streaming_rollcheck.mjs
         env:
-          ROLLCHECK_CHUNK: '45'
+          ROLLCHECK_CHUNK: '30'
 
       - name: Ergebnis committen
         run: |
