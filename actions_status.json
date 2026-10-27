@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:43:52.075474+00:00",
+  "generated_at": "2026-10-27T18:05:59.472769+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 4,
@@ -43,8 +43,8 @@
     {
       "name": "Streaming Rollcheck",
       "status": "late",
-      "detail": "Erfolg 2026-10-26T08:55:19Z (Run 40295652870), aber 5.6h nach Termin 2026-10-26T03:17:00+00:00 (Schwelle 4h)",
-      "expected": "2026-10-26T03:17:00+00:00"
+      "detail": "Erfolg 2026-10-27T08:59:50Z (Run 40477454370), aber 5.7h nach Termin 2026-10-27T03:17:00+00:00 (Schwelle 4h)",
+      "expected": "2026-10-27T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
