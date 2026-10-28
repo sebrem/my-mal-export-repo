@@ -1,14 +1,19 @@
 #!/usr/bin/env node
-// Fetch der RSS-Feeds von anime2you.de und manga2you.de.
+// Fetch der RSS-Feeds von anime2you.de, manga2you.de und ADN News (DE).
 // Bewusst ohne Dependencies (kein rss-parser): einfacher Item-Regex reicht
 // fuer Titel/Link/Datum. Blockiert ein Feed (403/Challenge/etc.), wird das
 // in anime2you_feed_status.json diagnostiziert, statt den Lauf crashen zu lassen.
+// ADN (28.10.2026): news.animationdigitalnetwork.com blockt den Mistral-Proxy,
+// GitHub-Runner koennen aber durchkommen (analog Anime2You-Block-Beobachtung).
+// Workflow-Name/Dateinamen bewusst unveraendert gelassen (Wächter-Kompatibilitaet,
+// Newsletter-Check liest weiterhin anime2you_news.json; ADN-Items tragen site "adn-news").
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 
 const FEEDS = [
   { site: "anime2you", url: "https://www.anime2you.de/feed/" },
   { site: "manga2you", url: "https://www.manga2you.de/feed/" },
+  { site: "adn-news", url: "https://news.animationdigitalnetwork.com/de/feed/" },
 ];
 const NEWS_FILE = "anime2you_news.json";
 const STATUS_FILE = "anime2you_feed_status.json";
