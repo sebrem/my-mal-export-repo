@@ -21,7 +21,6 @@ jobs:
           set -euo pipefail
           IFS=',' read -ra FRIENDS <<< "${MAL_FRIENDS//[[:space:]]/}"
 
-          # Diagnose 28.10.2026: Freund-Anzahl loggen (nur Zahl, keine Namen – Logs sind öffentlich)
           echo "== Freunde im Secret: ${#FRIENDS[@]}"
 
           # Eigene Listen (frisch vom 04:17-Export) als Ausschluss-Menge
@@ -29,52 +28,74 @@ jobs:
 
           mkdir -p friends
           : > candidates.ndjson
+          FAILED=""
+
+          # Abruf eines Freundes-Listentyps (v3, 28.10.2026):
+          # - Transiente Fehler (curl-Fehlschlag außer 000/403/404, HTTP 200 mit Nicht-JSON/Throttle-Seite)
+          #   werden je Seite bis zu 3x mit 20s Backoff wiederholt
+          # - 000 (Netzwerk), 403 (privat), 404 (User unbekannt) = endgültig ohne Retry
+          # - 1s Pause je Paginierungsseite, 5s je Liste (Kumulations-Schutz)
+          fetch_kind() {
+            local user="$1" kind="$2" idx="$3"
+            local offset=0 seen=0 n resp attempt code ok
+            while : ; do
+              attempt=1
+              ok=""
+              while [ "$attempt" -le 3 ]; do
+                if resp=$(curl -sf --retry 3 --retry-delay 5 \
+                    -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" \
+                    "https://api.myanimelist.net/v2/users/${user}/${kind}?fields=list_status&nsfw=true&limit=500&offset=${offset}"); then
+                  if jq -e . >/dev/null 2>&1 <<<"$resp"; then
+                    ok=1
+                    break
+                  fi
+                  echo "  ! ${idx} ${kind} offset=${offset}: HTTP 200 ohne valides JSON (Versuch ${attempt}/3, Throttling)"
+                else
+                  code=$(curl -s -o /dev/null -w '%{http_code}' \
+                    -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" \
+                    "https://api.myanimelist.net/v2/users/${user}/${kind}?fields=list_status&nsfw=true&limit=500&offset=${offset}" || echo 000)
+                  echo "  ! ${idx} ${kind} offset=${offset}: Versuch ${attempt}/3 fehlgeschlagen (HTTP ${code})"
+                  if [ "$code" = "000" ] || [ "$code" = "403" ] || [ "$code" = "404" ]; then
+                    return 1
+                  fi
+                fi
+                attempt=$((attempt+1))
+                sleep 20
+              done
+              if [ -z "$ok" ]; then
+                return 1
+              fi
+              n=$(jq '.data | length' <<<"$resp" 2>/dev/null || echo 0)
+              [ "$n" -eq 0 ] && break
+              seen=$((seen + n))
+              # Nur Score >= 8, Titel nicht in Sebastians eigener Liste, f-Index statt Name
+              jq -c --arg idx "$idx" --rawfile own own_ids.txt \
+                '.data[] | select(.list_status.score >= 8)
+                 | select((.node.id|tostring) as $id | ($own | split("\n") | index($id) | not))
+                 | {mal_id: .node.id, title: .node.title, score: .list_status.score,
+                    status: .list_status.status, friend: $idx}' <<<"$resp" >> candidates.ndjson \
+                || echo "  ! jq-Filterfehler bei ${idx} ${kind}"
+              offset=$((offset + n))
+              [ "$n" -lt 500 ] && break
+              sleep 1
+            done
+            echo "== ${idx} ${kind}: ${seen} Listeneinträge abgerufen"
+            return 0
+          }
 
           i=1
           for user in "${FRIENDS[@]}"; do
             idx=$(printf 'f%02d' "$i")
+            before=$(wc -l < candidates.ndjson)
             for kind in animelist mangalist; do
-              offset=0
-              seen=0
-              before=$(wc -l < candidates.ndjson)
-              while : ; do
-                resp=$(curl -sf --retry 3 \
-                  -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" \
-                  "https://api.myanimelist.net/v2/users/${user}/${kind}?fields=list_status&nsfw=true&limit=500&offset=${offset}") \
-                  || {
-                       # Diagnose 28.10.2026: HTTP-Status der gescheiterten Abfrage loggen (404=user unbekannt, 403=privat/Client-ID, 429=Throttling, 000=Netzwerk)
-                       code=$(curl -s -o /dev/null -w '%{http_code}' \
-                         -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" \
-                         "https://api.myanimelist.net/v2/users/${user}/${kind}?fields=list_status&nsfw=true&limit=500&offset=${offset}" || echo 000)
-                       echo "  ! ${idx} ${kind} nicht abrufbar (HTTP ${code}) – übersprungen"
-                       break
-                     }
-                # Fix 26.10.2026: MAL liefert gelegentlich HTTP 200 mit Nicht-JSON
-                # (Fehlerseite/Throttling) – validieren statt jq crashen zu lassen (Exit 5, Run #4)
-                if ! jq -e . >/dev/null 2>&1 <<<"$resp"; then
-                  echo "  ! ${idx} ${kind}: Antwort kein valides JSON – Seite übersprungen"
-                  break
-                fi
-                n=$(jq '.data | length' <<<"$resp" 2>/dev/null || echo 0)
-                [ "$n" -eq 0 ] && break
-                seen=$((seen + n))
-                # Nur Score >= 8, Titel nicht in Sebastians eigener Liste, f-Index statt Name
-                # MAL API: Einträge sind Paare {"node": {...}, "list_status": {...}}
-                jq -c --arg idx "$idx" --rawfile own own_ids.txt \
-                  '.data[] | select(.list_status.score >= 8)
-                   | select((.node.id|tostring) as $id | ($own | split("\n") | index($id) | not))
-                   | {mal_id: .node.id, title: .node.title, score: .list_status.score,
-                      status: .list_status.status, friend: $idx}' <<<"$resp" >> candidates.ndjson \
-                  || echo "  ! jq-Filterfehler bei ${idx} ${kind}"
-                offset=$((offset + n))
-                [ "$n" -lt 500 ] && break
-              done
-              # Diagnose 28.10.2026: je Freund+Liste eine Zusammenfassung (Index-basiert, anonym)
-              added=$(( $(wc -l < candidates.ndjson) - before ))
-              echo "== ${idx} ${kind}: ${seen} Listeneinträge abgerufen, ${added} Kandidaten"
+              if fetch_kind "$user" "$kind" "$idx"; then :; else
+                echo "  !! ${idx} ${kind} endgültig fehlgeschlagen"
+                case ",$FAILED," in (*",${idx},"*) ;; (*) FAILED="${FAILED}${FAILED:+,}${idx}" ;; esac
+              fi
+              sleep 5
             done
-            # Throttling-Schutz: kleine Pause je Freund (18 Freunde x 2 Listen + Paginierung)
-            sleep 2
+            added=$(( $(wc -l < candidates.ndjson) - before ))
+            echo "== ${idx}: ${added} Kandidaten"
             i=$((i+1))
           done
 
@@ -89,9 +110,12 @@ jobs:
             candidates.ndjson > friends_candidates.json
 
           rm -f candidates.ndjson own_ids.txt
-          # KEINE Rohlisten schreiben/committen – nur die aggregierte Kandidaten-Datei
           echo "== Fertig: $(jq 'length' friends_candidates.json) Kandidaten aus ${#FRIENDS[@]} Freunden"
+          if [ -n "$FAILED" ]; then
+            echo "== ACHTUNG: nicht abrufbare Freunde: ${FAILED}"
+          fi
           echo "FRIENDS_TOTAL=${#FRIENDS[@]}" >> "$GITHUB_ENV"
+          echo "FRIENDS_FAILED=${FAILED}" >> "$GITHUB_ENV"
 
       - name: Commit candidates
         run: |
@@ -99,5 +123,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add friends_candidates.json
           git diff --cached --quiet && echo "Keine Änderungen" && exit 0
-          git commit -m "friends candidates $(date -u +%Y-%m-%d) ($(jq 'length' friends_candidates.json) Kandidaten, ${FRIENDS_TOTAL} Freunde)" || true
+          MSG="friends candidates $(date -u +%Y-%m-%d) ($(jq 'length' friends_candidates.json) Kandidaten, ${FRIENDS_TOTAL} Freunde)"
+          if [ -n "${FRIENDS_FAILED}" ]; then
+            MSG="${MSG} [fehlend: ${FRIENDS_FAILED}]"
+          fi
+          git commit -m "$MSG" || true
           git push
