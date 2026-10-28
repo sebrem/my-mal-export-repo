@@ -21,6 +21,9 @@ jobs:
           set -euo pipefail
           IFS=',' read -ra FRIENDS <<< "${MAL_FRIENDS//[[:space:]]/}"
 
+          # Diagnose 28.10.2026: Freund-Anzahl loggen (nur Zahl, keine Namen – Logs sind öffentlich)
+          echo "== Freunde im Secret: ${#FRIENDS[@]}"
+
           # Eigene Listen (frisch vom 04:17-Export) als Ausschluss-Menge
           jq -r '.list[].id' mal_anime.json mal_manga.json 2>/dev/null | sort -u > own_ids.txt || touch own_ids.txt
 
@@ -32,11 +35,20 @@ jobs:
             idx=$(printf 'f%02d' "$i")
             for kind in animelist mangalist; do
               offset=0
+              seen=0
+              before=$(wc -l < candidates.ndjson)
               while : ; do
                 resp=$(curl -sf --retry 3 \
                   -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" \
                   "https://api.myanimelist.net/v2/users/${user}/${kind}?fields=list_status&nsfw=true&limit=500&offset=${offset}") \
-                  || { echo "  ! ${idx} ${kind} nicht abrufbar (privat/Fehler) – übersprungen"; break; }
+                  || {
+                       # Diagnose 28.10.2026: HTTP-Status der gescheiterten Abfrage loggen (404=user unbekannt, 403=privat/Client-ID, 429=Throttling, 000=Netzwerk)
+                       code=$(curl -s -o /dev/null -w '%{http_code}' \
+                         -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" \
+                         "https://api.myanimelist.net/v2/users/${user}/${kind}?fields=list_status&nsfw=true&limit=500&offset=${offset}" || echo 000)
+                       echo "  ! ${idx} ${kind} nicht abrufbar (HTTP ${code}) – übersprungen"
+                       break
+                     }
                 # Fix 26.10.2026: MAL liefert gelegentlich HTTP 200 mit Nicht-JSON
                 # (Fehlerseite/Throttling) – validieren statt jq crashen zu lassen (Exit 5, Run #4)
                 if ! jq -e . >/dev/null 2>&1 <<<"$resp"; then
@@ -45,6 +57,7 @@ jobs:
                 fi
                 n=$(jq '.data | length' <<<"$resp" 2>/dev/null || echo 0)
                 [ "$n" -eq 0 ] && break
+                seen=$((seen + n))
                 # Nur Score >= 8, Titel nicht in Sebastians eigener Liste, f-Index statt Name
                 # MAL API: Einträge sind Paare {"node": {...}, "list_status": {...}}
                 jq -c --arg idx "$idx" --rawfile own own_ids.txt \
@@ -56,8 +69,11 @@ jobs:
                 offset=$((offset + n))
                 [ "$n" -lt 500 ] && break
               done
+              # Diagnose 28.10.2026: je Freund+Liste eine Zusammenfassung (Index-basiert, anonym)
+              added=$(( $(wc -l < candidates.ndjson) - before ))
+              echo "== ${idx} ${kind}: ${seen} Listeneinträge abgerufen, ${added} Kandidaten"
             done
-            # Throttling-Schutz: kleine Pause je Freund (17 Freunde x 2 Listen + Paginierung)
+            # Throttling-Schutz: kleine Pause je Freund (18 Freunde x 2 Listen + Paginierung)
             sleep 2
             i=$((i+1))
           done
@@ -74,6 +90,8 @@ jobs:
 
           rm -f candidates.ndjson own_ids.txt
           # KEINE Rohlisten schreiben/committen – nur die aggregierte Kandidaten-Datei
+          echo "== Fertig: $(jq 'length' friends_candidates.json) Kandidaten aus ${#FRIENDS[@]} Freunden"
+          echo "FRIENDS_TOTAL=${#FRIENDS[@]}" >> "$GITHUB_ENV"
 
       - name: Commit candidates
         run: |
@@ -81,5 +99,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add friends_candidates.json
           git diff --cached --quiet && echo "Keine Änderungen" && exit 0
-          git commit -m "friends candidates $(date -u +%Y-%m-%d)"
+          git commit -m "friends candidates $(date -u +%Y-%m-%d) ($(jq 'length' friends_candidates.json) Kandidaten, ${FRIENDS_TOTAL} Freunde)" || true
           git push
