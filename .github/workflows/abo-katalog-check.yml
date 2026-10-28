@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 # Abhaengigkeitsstruktur (2-Job-Pipeline):
-#   kataloge (MangaPlaza/JNC + MangaUP + Manga+)  ──> abgleich (Alias-Match + Commit)
+#   kataloge (MangaPlaza/JNC + MangaUP + Manga+ + AkibaPass)  ──> abgleich (Alias-Match + Commit)
 #
 # Der AniList-Dump wird NICHT mehr hier erneuert: der separate Workflow
 # anilist_export.yml laeuft montags 04:47 UTC und committet den frischen
@@ -62,6 +62,16 @@ jobs:
       # SESSION-TOKEN-Header (Null-UUID reicht, wird nicht validiert)
       - name: Manga+-Katalog abgleichen
         run: python scripts/mangaplus_catalog.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
+      # Akiba-Pass-Shop-Digitalprogramm: digitale Anime-Kauf-/Leih-
+      # versionen (KEIN Abo, Anime-Verfuegbarkeits-Rohdaten; Shopify-
+      # products.json-Endpunkt, reine stdlib). Snapshot + Diff analog
+      # den Manga-Lanes; NICHT Teil des Manga-Alias/Discovery-Match.
+      - name: Akiba Pass Digital-Katalog abgleichen
+        run: python scripts/akibapass_catalog.py
         env:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
