@@ -1,9 +1,11 @@
 {
-  "updated": "2026-10-29T21:05:30.741Z",
+  "updated": "2026-10-29T21:09:22.370Z",
   "source": "https://animationdigitalnetwork.com/de/video",
+  "locale": "fr (Geo-Redirect vom Runner – vgl. adn_catalog_status.json)",
+  "note": "FR-Gesamtkatalog (Superset). DE-Katalog siehe adn_catalog_de.json. Sprach-/Genre-Codes in FR-Sicht.",
   "total": 596,
-  "count": 480,
-  "complete": false,
+  "count": 596,
+  "complete": true,
   "shows": [
     {
       "id": 22,
@@ -68,6 +70,42 @@
         "sd"
       ],
       "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 49,
+      "title": "Fate/stay night",
+      "originalTitle": "Fate/stay night",
+      "url": "https://animationdigitalnetwork.com/video/49-fate-stay-night",
+      "urlPath": "/video/49-fate-stay-night",
+      "type": "EPS",
+      "episodeCount": 24,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Drame",
+        "Fantasy",
+        "Romance",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Jeu Vidéo",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -237,6 +275,107 @@
         "fhd"
       ],
       "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 108,
+      "title": "Reborn!",
+      "originalTitle": "Katekyo Hitman Reborn!",
+      "url": "https://animationdigitalnetwork.com/video/108-reborn",
+      "urlPath": "/video/108-reborn",
+      "type": "EPS",
+      "episodeCount": 203,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Comédie",
+        "Drame",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 131,
+      "title": "Un-Go",
+      "originalTitle": "UN-GO アン ゴ",
+      "url": "https://animationdigitalnetwork.com/video/131-un-go",
+      "urlPath": "/video/131-un-go",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Fantasy",
+        "Thriller",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 137,
+      "title": "xxxHolic",
+      "originalTitle": "xxxHolic ( XXX ???? )",
+      "url": "https://animationdigitalnetwork.com/video/137-xxxholic",
+      "urlPath": "/video/137-xxxholic",
+      "type": "EPS",
+      "episodeCount": 37,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Fantasy",
+        "Thriller",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": null,
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -550,6 +689,41 @@
       "ratingsCount": 10
     },
     {
+      "id": 217,
+      "title": "To Love-Ru - Darkness",
+      "originalTitle": "To Love-Ru: Trouble - Darkness",
+      "url": "https://animationdigitalnetwork.com/video/217-to-love-darkness",
+      "urlPath": "/video/217-to-love-darkness",
+      "type": "EPS",
+      "episodeCount": 26,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Comédie",
+        "Ecchi",
+        "Romance",
+        "Animation japonaise",
+        "Science-Fiction",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 219,
       "title": "MAGI: The Labyrinth of Magic",
       "originalTitle": "MAGI - The Labyrinth of Magic",
@@ -573,6 +747,74 @@
       "nextVideoReleaseDate": null,
       "qualities": [],
       "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 242,
+      "title": "Photo Kano",
+      "originalTitle": "Photo Kano",
+      "url": "https://animationdigitalnetwork.com/video/242-photo-kano",
+      "urlPath": "/video/242-photo-kano",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Romance",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "fhd",
+        "sd"
+      ],
+      "basedOn": "Jeu Vidéo",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 243,
+      "title": "My Teen Romantic Comedy SNAFU",
+      "originalTitle": "やはり俺の青春ラブコメはまちがっている。",
+      "url": "https://animationdigitalnetwork.com/video/243-my-teen-romantic-comedy-snafu",
+      "urlPath": "/video/243-my-teen-romantic-comedy-snafu",
+      "type": "EPS",
+      "episodeCount": 38,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Romance",
+        "Tranche de vie",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -614,6 +856,111 @@
       "ratingsCount": 10
     },
     {
+      "id": 265,
+      "title": "Naruto Shippuden",
+      "originalTitle": "Naruto Shippuden",
+      "url": "https://animationdigitalnetwork.com/video/265-naruto-shippuden",
+      "urlPath": "/video/265-naruto-shippuden",
+      "type": "EPS",
+      "episodeCount": 503,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 266,
+      "title": "Naruto",
+      "originalTitle": "Naruto",
+      "url": "https://animationdigitalnetwork.com/video/266-naruto",
+      "urlPath": "/video/266-naruto",
+      "type": "EPS",
+      "episodeCount": 220,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,pl",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 267,
+      "title": "Hunter x Hunter (2011)",
+      "originalTitle": "ハンター×ハンター",
+      "url": "https://animationdigitalnetwork.com/video/267-hunter-x-hunter-2011",
+      "urlPath": "/video/267-hunter-x-hunter-2011",
+      "type": "EPS",
+      "episodeCount": 148,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 268,
       "title": "Space Brothers",
       "originalTitle": "Uchû Kyôdai",
@@ -639,6 +986,42 @@
         "sd",
         "hd",
         "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 269,
+      "title": "Fairy Tail",
+      "originalTitle": "Fairy Tail",
+      "url": "https://animationdigitalnetwork.com/video/269-fairy-tail",
+      "urlPath": "/video/269-fairy-tail",
+      "type": "EPS",
+      "episodeCount": 330,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -789,6 +1172,387 @@
       "ratingsCount": 10
     },
     {
+      "id": 284,
+      "title": "Arpeggio of Blue Steel",
+      "originalTitle": "Aoki Hagane no Arpeggio",
+      "url": "https://animationdigitalnetwork.com/video/284-arpeggio-of-blue-steel",
+      "urlPath": "/video/284-arpeggio-of-blue-steel",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Seinen",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 288,
+      "title": "Naruto et la Princesse des Neiges",
+      "originalTitle": "Gekijouban Naruto: Dai Katsugeki! Yuki Hime Ninpouchou Dattebayo!!",
+      "url": "https://animationdigitalnetwork.com/video/288-naruto-film-naruto-et-la-princesse-des-neiges",
+      "urlPath": "/video/288-naruto-film-naruto-et-la-princesse-des-neiges",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 289,
+      "title": "Naruto : La Légende de la Pierre de Guelel",
+      "originalTitle": "Gekijyouban Naruto Daigekitotsu! Maboroshi no Chiteiiseki Dattebayo!",
+      "url": "https://animationdigitalnetwork.com/video/289-naruto-film-la-legende-de-la-pierre-de-guelel",
+      "urlPath": "/video/289-naruto-film-la-legende-de-la-pierre-de-guelel",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 290,
+      "title": "Naruto: Mission spéciale au pays de la Lune",
+      "originalTitle": "Gekijyouban Naruto Daikoufun! Mikazuki Shima no Animal Panic Dattebay",
+      "url": "https://animationdigitalnetwork.com/video/290-naruto-film-mission-speciale-au-pays-de-la-lune",
+      "urlPath": "/video/290-naruto-film-mission-speciale-au-pays-de-la-lune",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 291,
+      "title": "Naruto Shippuden : Un funeste présage",
+      "originalTitle": "Gekijōban Naruto Shippūden",
+      "url": "https://animationdigitalnetwork.com/video/291-naruto-shippuden-film-un-funeste-presage",
+      "urlPath": "/video/291-naruto-shippuden-film-un-funeste-presage",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 292,
+      "title": "Naruto Shippuden : Les Liens",
+      "originalTitle": "Gekijōban Naruto Shippūden - Kizuna",
+      "url": "https://animationdigitalnetwork.com/video/292-naruto-shippuden-film-les-liens",
+      "urlPath": "/video/292-naruto-shippuden-film-les-liens",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 293,
+      "title": "Naruto Shippuden : La Flamme de la volonté",
+      "originalTitle": "Naruto Shippuden : Hi no Ishi wo Tsugu Mono",
+      "url": "https://animationdigitalnetwork.com/video/293-naruto-shippuden-film-la-flamme-de-la-volonte",
+      "urlPath": "/video/293-naruto-shippuden-film-la-flamme-de-la-volonte",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 294,
+      "title": "Naruto Shippuden: The Lost Tower",
+      "originalTitle": "Gekijouban Naruto Shippuuden: The Lost Tower",
+      "url": "https://animationdigitalnetwork.com/video/294-naruto-shippuden-film-the-lost-tower",
+      "urlPath": "/video/294-naruto-shippuden-film-the-lost-tower",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 295,
+      "title": "Naruto Shippuden: Blood Prison",
+      "originalTitle": "Gekijōban Naruto Shippūden - Buraddo Purizun",
+      "url": "https://animationdigitalnetwork.com/video/295-naruto-shippuden-film-blood-prison",
+      "urlPath": "/video/295-naruto-shippuden-film-blood-prison",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 296,
+      "title": "Naruto Shippuden: Road to Ninja",
+      "originalTitle": "Road to Ninja: Naruto the Movie",
+      "url": "https://animationdigitalnetwork.com/video/296-naruto-shippuden-film-road-to-ninja",
+      "urlPath": "/video/296-naruto-shippuden-film-road-to-ninja",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 301,
+      "title": "Witchcraft Works",
+      "originalTitle": "Witch Craft works",
+      "url": "https://animationdigitalnetwork.com/video/301-witchcraft-works",
+      "urlPath": "/video/301-witchcraft-works",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Fantasy",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 307,
       "title": "GTO",
       "originalTitle": "Great Teacher Onizuka",
@@ -858,6 +1622,79 @@
       "ratingsCount": 10
     },
     {
+      "id": 315,
+      "title": "No Game No Life",
+      "originalTitle": "No Game No Life",
+      "url": "https://animationdigitalnetwork.com/video/315-no-game-no-life",
+      "urlPath": "/video/315-no-game-no-life",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Ecchi",
+        "Fantasy",
+        "Seinen",
+        "Animation japonaise",
+        "Isekai"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 319,
+      "title": "Naruto SD-Rock Lee : Les Péripéties d'un ninja en herbe",
+      "originalTitle": "Naruto SD : Rock Lee no Seishun Full-Power Ninden",
+      "url": "https://animationdigitalnetwork.com/video/319-naruto-sd-rock-lee-les-peripeties-dun-ninja-en-herbe",
+      "urlPath": "/video/319-naruto-sd-rock-lee-les-peripeties-dun-ninja-en-herbe",
+      "type": "EPS",
+      "episodeCount": 51,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 322,
       "title": "Red Eyes Sword : Akame ga Kill!",
       "originalTitle": "アカメが斬る!",
@@ -890,6 +1727,39 @@
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 325,
+      "title": "Psycho-Pass Extended Edition",
+      "originalTitle": "Psycho pass Extented Version",
+      "url": "https://animationdigitalnetwork.com/video/325-psycho-pass-extended",
+      "urlPath": "/video/325-psycho-pass-extended",
+      "type": "EPS",
+      "episodeCount": 11,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Seinen",
+        "Thriller",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
     },
@@ -959,6 +1829,42 @@
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 344,
+      "title": "Assassination Classroom",
+      "originalTitle": "Ansatsu Kyôshitsu",
+      "url": "https://animationdigitalnetwork.com/video/344-assassination-classroom",
+      "urlPath": "/video/344-assassination-classroom",
+      "type": "EPS",
+      "episodeCount": 47,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Shonen",
+        "Thriller",
+        "Tranche de vie",
+        "Animation japonaise"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "sd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
     },
@@ -1100,6 +2006,41 @@
       "ratingsCount": 10
     },
     {
+      "id": 362,
+      "title": "Boruto : Naruto, le film",
+      "originalTitle": "Boruto",
+      "url": "https://animationdigitalnetwork.com/video/362-boruto-naruto-le-film",
+      "urlPath": "/video/362-boruto-naruto-le-film",
+      "type": "EPS",
+      "episodeCount": 2,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 363,
       "title": "Dragon Ball Z : Battle of Gods",
       "originalTitle": "ドラゴンボールZ: 神と神",
@@ -1171,6 +2112,381 @@
       "ratingsCount": 10
     },
     {
+      "id": 372,
+      "title": "Shimoseka",
+      "originalTitle": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+      "url": "https://animationdigitalnetwork.com/video/372-shimoseka",
+      "urlPath": "/video/372-shimoseka",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 376,
+      "title": "Naruto: The Last",
+      "originalTitle": "The Last -Naruto the Movie-",
+      "url": "https://animationdigitalnetwork.com/video/376-naruto-the-last-film",
+      "urlPath": "/video/376-naruto-the-last-film",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "sd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 382,
+      "title": "Lance N' Masques",
+      "originalTitle": "ランス・アンド・マスクス",
+      "url": "https://animationdigitalnetwork.com/video/382-lance-n-masques",
+      "urlPath": "/video/382-lance-n-masques",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Ecchi",
+        "Fantasy",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 383,
+      "title": "Beautiful Bones - Sakurako's Investigation",
+      "originalTitle": "Sakurako-san no ashimoto ni wa shitai ga umatteiru",
+      "url": "https://animationdigitalnetwork.com/video/383-beautiful-bones-sakurakos-investigation",
+      "urlPath": "/video/383-beautiful-bones-sakurakos-investigation",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Thriller",
+        "Seinen",
+        "Drame",
+        "Action"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 385,
+      "title": "Chivalry of the Failed Knight",
+      "originalTitle": "Rakudaikishi no Kyabaruri",
+      "url": "https://animationdigitalnetwork.com/video/385-Chivalry-of-the-Failed-Knight",
+      "urlPath": "/video/385-Chivalry-of-the-Failed-Knight",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Drame",
+        "Ecchi",
+        "Fantasy",
+        "Romance",
+        "Tranche de vie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 386,
+      "title": "Young Black Jack",
+      "originalTitle": "Young Black Jack",
+      "url": "https://animationdigitalnetwork.com/video/386-young-black-jack",
+      "urlPath": "/video/386-young-black-jack",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Drame",
+        "Fantasy",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "sd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 387,
+      "title": "Anti-Magic Academy : The 35th Test Platoon",
+      "originalTitle": "Taimadô Gakuen Sanjûgo Shiken Shoutai",
+      "url": "https://animationdigitalnetwork.com/video/387-anti-magic-academy-the-35th-test-platoon",
+      "urlPath": "/video/387-anti-magic-academy-the-35th-test-platoon",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Ecchi",
+        "Fantasy",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 394,
+      "title": "Phantasy Star Online 2 : The Animation",
+      "originalTitle": "Phantasy Star Online 2",
+      "url": "https://animationdigitalnetwork.com/video/394-phantasy-stay-online-2-the-animation",
+      "urlPath": "/video/394-phantasy-stay-online-2-the-animation",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Tranche de vie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Jeu Vidéo",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 397,
+      "title": "NORN9",
+      "originalTitle": "Norn9",
+      "url": "https://animationdigitalnetwork.com/video/397-norn9",
+      "urlPath": "/video/397-norn9",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Romance"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Jeu Vidéo",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 398,
+      "title": "Undefeated Bahamut Chronicles",
+      "originalTitle": "Undefeated Bahamut Chronicles",
+      "url": "https://animationdigitalnetwork.com/video/398-undefeated-bahamut-chronicles",
+      "urlPath": "/video/398-undefeated-bahamut-chronicles",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Ecchi",
+        "Animation japonaise",
+        "Action",
+        "Fantasy",
+        "Romance"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 400,
+      "title": "Le Rakugo ou la vie",
+      "originalTitle": "Shouwa Genroku Rakugo Shinjuu",
+      "url": "https://animationdigitalnetwork.com/video/400-le-rakugo-ou-la-vie-shouwa-genroku-rakugo-shinjuu",
+      "urlPath": "/video/400-le-rakugo-ou-la-vie-shouwa-genroku-rakugo-shinjuu",
+      "type": "EPS",
+      "episodeCount": 25,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Drame"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 405,
       "title": "My Hero Academia",
       "originalTitle": "Boku no Hero Academia",
@@ -1204,6 +2520,140 @@
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 410,
+      "title": "Sakamoto, pour vous servir !",
+      "originalTitle": "Sakamoto desu ga?",
+      "url": "https://animationdigitalnetwork.com/video/410-sakamoto-pour-vous-servir",
+      "urlPath": "/video/410-sakamoto-pour-vous-servir",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "sd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 411,
+      "title": "Endride",
+      "originalTitle": "Endride",
+      "url": "https://animationdigitalnetwork.com/video/411-endride",
+      "urlPath": "/video/411-endride",
+      "type": "EPS",
+      "episodeCount": 25,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Aventure",
+        "Fantasy",
+        "Shonen",
+        "Animation japonaise",
+        "Isekai"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 413,
+      "title": "Shonen Maid",
+      "originalTitle": "Shônen Maid",
+      "url": "https://animationdigitalnetwork.com/video/413-shonen-maid",
+      "urlPath": "/video/413-shonen-maid",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Shojo"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 419,
+      "title": "Handa-kun",
+      "originalTitle": "Handa-kun",
+      "url": "https://animationdigitalnetwork.com/video/419-handa-kun",
+      "urlPath": "/video/419-handa-kun",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "fhd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
     },
@@ -1276,6 +2726,77 @@
         "fhd"
       ],
       "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 432,
+      "title": "All Out!!",
+      "originalTitle": "All Out!!",
+      "url": "https://animationdigitalnetwork.com/video/432-all-out",
+      "urlPath": "/video/432-all-out",
+      "type": "EPS",
+      "episodeCount": 25,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Comédie",
+        "Tranche de vie",
+        "Shonen",
+        "Sport"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 434,
+      "title": "Flip Flappers",
+      "originalTitle": "FLIP FLAPPERS",
+      "url": "https://animationdigitalnetwork.com/video/434-flip-flappers",
+      "urlPath": "/video/434-flip-flappers",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Aventure",
+        "Comédie",
+        "Drame",
+        "Fantasy",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Oeuvre Originale",
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -1488,6 +3009,74 @@
       "ratingsCount": 10
     },
     {
+      "id": 451,
+      "title": "Koro Sensei Quest",
+      "originalTitle": "殺せんせーQ[クエスト]!",
+      "url": "https://animationdigitalnetwork.com/video/451-koro-sensei-quest",
+      "urlPath": "/video/451-koro-sensei-quest",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Tranche de vie",
+        "Fantasy"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 453,
+      "title": "Seiren",
+      "originalTitle": "Seiren",
+      "url": "https://animationdigitalnetwork.com/video/453-seiren",
+      "urlPath": "/video/453-seiren",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Romance",
+        "Shojo"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 457,
       "title": "Boruto - Naruto Next Generations",
       "originalTitle": "Boruto - Naruto Next Generations",
@@ -1594,6 +3183,75 @@
       "ratingsCount": 10
     },
     {
+      "id": 463,
+      "title": "Clockwork Planet",
+      "originalTitle": "ClockWork Planet",
+      "url": "https://animationdigitalnetwork.com/video/463-clockwork-planet",
+      "urlPath": "/video/463-clockwork-planet",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 474,
+      "title": "Initial D",
+      "originalTitle": "頭文字〈イニシャル〉D",
+      "url": "https://animationdigitalnetwork.com/video/474-initial-d",
+      "urlPath": "/video/474-initial-d",
+      "type": "EPS",
+      "episodeCount": 82,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Drame",
+        "Romance",
+        "Sport",
+        "Animation japonaise"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "fhd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 482,
       "title": "Dr Slump",
       "originalTitle": "Dr Slump",
@@ -1618,6 +3276,42 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 498,
+      "title": "Initial D Extra Stages",
+      "originalTitle": "頭文字〈イニシャル〉D EXTRA STAGE",
+      "url": "https://animationdigitalnetwork.com/video/498-initial-d-extra-stages",
+      "urlPath": "/video/498-initial-d-extra-stages",
+      "type": "OAV",
+      "episodeCount": 2,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Drame",
+        "Romance",
+        "Sport",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -1659,6 +3353,111 @@
       "ratingsCount": 10
     },
     {
+      "id": 510,
+      "title": "Devils' Line",
+      "originalTitle": "Devils' Line",
+      "url": "https://animationdigitalnetwork.com/video/510-devils-line",
+      "urlPath": "/video/510-devils-line",
+      "type": "EPS",
+      "episodeCount": 15,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Fantasy",
+        "Thriller",
+        "Romance",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 511,
+      "title": "Assassination Classroom Le Film J-365",
+      "originalTitle": "Assassination Classroom Le Film J-365",
+      "url": "https://animationdigitalnetwork.com/video/511-assassination-classroom-film",
+      "urlPath": "/video/511-assassination-classroom-film",
+      "type": "EPS",
+      "episodeCount": 2,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Shonen",
+        "Thriller",
+        "Tranche de vie",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 522,
+      "title": "Dances with the Dragons",
+      "originalTitle": "Saredo Tsumibito wa Ryuu to Odoru",
+      "url": "https://animationdigitalnetwork.com/video/522-dances-with-the-dragons",
+      "urlPath": "/video/522-dances-with-the-dragons",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr,de,pl",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 528,
       "title": "Les Héros de la Galaxie : Die Neue These",
       "originalTitle": "Les Héros de la Galaxie : Die Neue These",
@@ -1691,6 +3490,74 @@
       "ratingsCount": 10
     },
     {
+      "id": 536,
+      "title": "Psycho-Pass",
+      "originalTitle": "Psycho pass",
+      "url": "https://animationdigitalnetwork.com/video/536-psycho-pass",
+      "urlPath": "/video/536-psycho-pass",
+      "type": "EPS",
+      "episodeCount": 34,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Seinen",
+        "Thriller",
+        "Animation japonaise"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 540,
+      "title": "Bloom Into You",
+      "originalTitle": "Yagate Kimi ni Naru",
+      "url": "https://animationdigitalnetwork.com/video/540-bloom-into-you",
+      "urlPath": "/video/540-bloom-into-you",
+      "type": "EPS",
+      "episodeCount": 15,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Romance",
+        "Tranche de vie",
+        "Shojo"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 546,
       "title": "Black Butler : Book of the Atlantic",
       "originalTitle": "Kuroshitsuji Book of the Atlantic",
@@ -1711,6 +3578,181 @@
         "Animation japonaise"
       ],
       "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 547,
+      "title": "Saint Seiya  Saintia Sho",
+      "originalTitle": "Saint Seiya  Saintia Sho",
+      "url": "https://animationdigitalnetwork.com/video/547-saint-seiya-saintia-sho",
+      "urlPath": "/video/547-saint-seiya-saintia-sho",
+      "type": "EPS",
+      "episodeCount": 11,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Romance",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 548,
+      "title": "Cat's Eye",
+      "originalTitle": "Cat's Eye",
+      "url": "https://animationdigitalnetwork.com/video/548-cats-eye",
+      "urlPath": "/video/548-cats-eye",
+      "type": "EPS",
+      "episodeCount": 74,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Thriller",
+        "Romance",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 551,
+      "title": "Domestic Girlfriend - Love x Dilemma",
+      "originalTitle": "Domestic na Kanojo",
+      "url": "https://animationdigitalnetwork.com/video/551-domestic-girlfriend",
+      "urlPath": "/video/551-domestic-girlfriend",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Ecchi",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 557,
+      "title": "Kono Oto Tomare",
+      "originalTitle": "この音とまれ!",
+      "url": "https://animationdigitalnetwork.com/video/557-kono-oto-tomare",
+      "urlPath": "/video/557-kono-oto-tomare",
+      "type": "EPS",
+      "episodeCount": 27,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 558,
+      "title": "Fruits Basket",
+      "originalTitle": "Fruits Basket",
+      "url": "https://animationdigitalnetwork.com/video/558-fruits-basket",
+      "urlPath": "/video/558-fruits-basket",
+      "type": "EPS",
+      "episodeCount": 66,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Drame",
+        "Fantasy",
+        "Romance",
+        "Shojo"
+      ],
+      "free": true,
       "simulcast": false,
       "available": true,
       "newEpisode": false,
@@ -1762,6 +3804,247 @@
       "ratingsCount": 10
     },
     {
+      "id": 564,
+      "title": "Dumbbell : Combien tu peux soulever ?",
+      "originalTitle": "Dumbbell Nan Kilo Moteru?",
+      "url": "https://animationdigitalnetwork.com/video/564-dumbbell-combien-tu-peux-soulever",
+      "urlPath": "/video/564-dumbbell-combien-tu-peux-soulever",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Tranche de vie"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 565,
+      "title": "Isekai Cheat Magician",
+      "originalTitle": "異世界チート魔術師[マジシャン]",
+      "url": "https://animationdigitalnetwork.com/video/565-isekai-cheat-magician",
+      "urlPath": "/video/565-isekai-cheat-magician",
+      "type": "EPS",
+      "episodeCount": 14,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Isekai"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 566,
+      "title": "Hensuki: Are You Willing to Fall in Love with a Pervert, as Long as She's a Cutie?",
+      "originalTitle": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+      "url": "https://animationdigitalnetwork.com/video/566-hensuki",
+      "urlPath": "/video/566-hensuki",
+      "type": "EPS",
+      "episodeCount": 13,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "fhd",
+        "sd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 568,
+      "title": "No Game No Life 0",
+      "originalTitle": "No Game No Life 0",
+      "url": "https://animationdigitalnetwork.com/video/568-no-game-no-life-zero",
+      "urlPath": "/video/568-no-game-no-life-zero",
+      "type": "EPS",
+      "episodeCount": 2,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Drame",
+        "Fantasy",
+        "Seinen",
+        "Animation japonaise",
+        "Isekai"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 582,
+      "title": "Albator",
+      "originalTitle": "Uchû Kaizoku Captain Harlock",
+      "url": "https://animationdigitalnetwork.com/video/582-albator",
+      "urlPath": "/video/582-albator",
+      "type": "EPS",
+      "episodeCount": 42,
+      "age": "12+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Drame"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 583,
+      "title": "Slam Dunk",
+      "originalTitle": "Slam Dunk",
+      "url": "https://animationdigitalnetwork.com/video/583-slam-dunk",
+      "urlPath": "/video/583-slam-dunk",
+      "type": "EPS",
+      "episodeCount": 101,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Romance",
+        "Tranche de vie",
+        "Shonen",
+        "Sport"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "fhd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 587,
+      "title": "The Seven Deadly Sins",
+      "originalTitle": "Nanatsu no Taizai",
+      "url": "https://animationdigitalnetwork.com/video/587-the-seven-deadly-sins",
+      "urlPath": "/video/587-the-seven-deadly-sins",
+      "type": "EPS",
+      "episodeCount": 24,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Fantasy",
+        "Romance",
+        "Shonen",
+        "Animation japonaise"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 588,
       "title": "Wakfu - Saison 4",
       "originalTitle": "Wakfu",
@@ -1791,6 +4074,205 @@
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 591,
+      "title": "Digimon Adventure",
+      "originalTitle": "Digimon Adventure",
+      "url": "https://animationdigitalnetwork.com/video/591-digimon-digital-monsters",
+      "urlPath": "/video/591-digimon-digital-monsters",
+      "type": "EPS",
+      "episodeCount": 54,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Aventure",
+        "Comédie",
+        "Fantasy",
+        "Animation japonaise",
+        "Isekai"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 601,
+      "title": "Digimon Adventure 02",
+      "originalTitle": "Digimon Adventure 02",
+      "url": "https://animationdigitalnetwork.com/video/601-digimon-02",
+      "urlPath": "/video/601-digimon-02",
+      "type": "EPS",
+      "episodeCount": 50,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Shonen",
+        "Animation japonaise",
+        "Isekai"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 606,
+      "title": "Digimon Adventure: (2020)",
+      "originalTitle": "Digimon Adventure",
+      "url": "https://animationdigitalnetwork.com/video/606-digimon-adventure",
+      "urlPath": "/video/606-digimon-adventure",
+      "type": "EPS",
+      "episodeCount": 68,
+      "age": "0+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Aventure",
+        "Fantasy",
+        "Shonen",
+        "Animation japonaise",
+        "Isekai"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 608,
+      "title": "Digimon Adventure Tri",
+      "originalTitle": "Digimon Adventure Tri",
+      "url": "https://animationdigitalnetwork.com/video/608-digimon-adventure-tri",
+      "urlPath": "/video/608-digimon-adventure-tri",
+      "type": "EPS",
+      "episodeCount": 26,
+      "age": "0+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 615,
+      "title": "Dofus : Aux trésors de Kerubim",
+      "originalTitle": "Dofus : Aux trésors de Kerubim",
+      "url": "https://animationdigitalnetwork.com/video/615-dofus-serie-aux-tresors-de-kerubim",
+      "urlPath": "/video/615-dofus-serie-aux-tresors-de-kerubim",
+      "type": "EPS",
+      "episodeCount": 52,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Aventure",
+        "Comédie",
+        "Fantasy"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "fhd",
+        "hd",
+        "sd"
+      ],
+      "basedOn": "Jeu Vidéo",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 621,
+      "title": "Pretty Cure",
+      "originalTitle": "Futari wa Pretty Cure",
+      "url": "https://animationdigitalnetwork.com/video/621-pretty-cure-saison-1-futari-wa",
+      "urlPath": "/video/621-pretty-cure-saison-1-futari-wa",
+      "type": "EPS",
+      "episodeCount": 49,
+      "age": "0+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Fantasy",
+        "Shojo",
+        "Tranche de vie",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
     },
@@ -1830,6 +4312,74 @@
       "ratingsCount": 10
     },
     {
+      "id": 627,
+      "title": "Kira Kira Pretty Cure à la mode",
+      "originalTitle": "キラキラ☆プリキュアアラモード",
+      "url": "https://animationdigitalnetwork.com/video/627-kira-kira-pretty-cure-a-la-mode-precure",
+      "urlPath": "/video/627-kira-kira-pretty-cure-a-la-mode-precure",
+      "type": "EPS",
+      "episodeCount": 49,
+      "age": "0+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Fantasy",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "hd",
+        "sd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 628,
+      "title": "Vision d'Escaflowne",
+      "originalTitle": "Tenkuu no Escaflowne",
+      "url": "https://animationdigitalnetwork.com/video/628-vision-d-escaflowne",
+      "urlPath": "/video/628-vision-d-escaflowne",
+      "type": "EPS",
+      "episodeCount": 26,
+      "age": "12+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "fhd",
+        "hd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 636,
       "title": "Kingdom",
       "originalTitle": "キングダム",
@@ -1859,6 +4409,131 @@
         "fhd"
       ],
       "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 639,
+      "title": "Digimon Tamers",
+      "originalTitle": "Digimon Tamers",
+      "url": "https://animationdigitalnetwork.com/video/639-digimon-tamers",
+      "urlPath": "/video/639-digimon-tamers",
+      "type": "EPS",
+      "episodeCount": 51,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Aventure",
+        "Fantasy"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 642,
+      "title": "DIVE!!",
+      "originalTitle": "ダイブ!!",
+      "url": "https://animationdigitalnetwork.com/video/642-dive",
+      "urlPath": "/video/642-dive",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Drame",
+        "Tranche de vie",
+        "Sport"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 644,
+      "title": "Les Enfants du Mondial",
+      "originalTitle": "Soccer Fever",
+      "url": "https://animationdigitalnetwork.com/video/644-les-enfants-du-mondial",
+      "urlPath": "/video/644-les-enfants-du-mondial",
+      "type": "EPS",
+      "episodeCount": 52,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Sport"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 645,
+      "title": "Witchy Pretty Cure",
+      "originalTitle": "Mahô Tsukai Pretty Cure",
+      "url": "https://animationdigitalnetwork.com/video/645-witchy-pretty-cure-mahou-tsukai",
+      "urlPath": "/video/645-witchy-pretty-cure-mahou-tsukai",
+      "type": "EPS",
+      "episodeCount": 50,
+      "age": "0+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Fantasy",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -1932,6 +4607,74 @@
       "ratingsCount": 10
     },
     {
+      "id": 652,
+      "title": "Amagi Brilliant Park",
+      "originalTitle": "Amagi Brilliant Park",
+      "url": "https://animationdigitalnetwork.com/video/652-amagi-brilliant-park",
+      "urlPath": "/video/652-amagi-brilliant-park",
+      "type": "EPS",
+      "episodeCount": 14,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Fantasy"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 656,
+      "title": "Tokyo Ghoul",
+      "originalTitle": "Tokyo ghoul",
+      "url": "https://animationdigitalnetwork.com/video/656-tokyo-ghoul",
+      "urlPath": "/video/656-tokyo-ghoul",
+      "type": "EPS",
+      "episodeCount": 48,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Thriller",
+        "Animation japonaise",
+        "Drame",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 662,
       "title": "L'Attaque des Titans",
       "originalTitle": "進撃の巨人",
@@ -1968,6 +4711,240 @@
       "ratingsCount": 10
     },
     {
+      "id": 665,
+      "title": "Pretty Cure - Saison 2 - Max Heart",
+      "originalTitle": "ふたりはプリキュア ー マックスハート",
+      "url": "https://animationdigitalnetwork.com/video/665-pretty-cure-saison-2-max-heart",
+      "urlPath": "/video/665-pretty-cure-saison-2-max-heart",
+      "type": "EPS",
+      "episodeCount": 47,
+      "age": "0+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Fantasy",
+        "Shojo"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 670,
+      "title": "To Love-Ru",
+      "originalTitle": "To Love-Ru",
+      "url": "https://animationdigitalnetwork.com/video/670-to-love-ru",
+      "urlPath": "/video/670-to-love-ru",
+      "type": "EPS",
+      "episodeCount": 26,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Comédie",
+        "Ecchi",
+        "Romance",
+        "Animation japonaise",
+        "Science-Fiction"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 671,
+      "title": "Gangsta.",
+      "originalTitle": "Gansta.",
+      "url": "https://animationdigitalnetwork.com/video/671-gangsta",
+      "urlPath": "/video/671-gangsta",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Drame",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 672,
+      "title": "Tom Sawyer",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/672-tom-sawyer",
+      "urlPath": "/video/672-tom-sawyer",
+      "type": "EPS",
+      "episodeCount": 49,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Aventure",
+        "Comédie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Roman",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 684,
+      "title": "Motto To Love-Ru",
+      "originalTitle": "Motto To Love-Ru -Trouble-",
+      "url": "https://animationdigitalnetwork.com/video/684-motto-to-love-ru-saison-2",
+      "urlPath": "/video/684-motto-to-love-ru-saison-2",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Comédie",
+        "Ecchi",
+        "Romance",
+        "Animation japonaise",
+        "Shonen",
+        "Science-Fiction"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 697,
+      "title": "Code Lyoko",
+      "originalTitle": "Code Lyoko",
+      "url": "https://animationdigitalnetwork.com/video/697-code-lyoko",
+      "urlPath": "/video/697-code-lyoko",
+      "type": "EPS",
+      "episodeCount": 97,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Tranche de vie",
+        "Animation française",
+        "Isekai"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 699,
+      "title": "High School DxD",
+      "originalTitle": "High School DxD",
+      "url": "https://animationdigitalnetwork.com/video/699-high-school-dxd",
+      "urlPath": "/video/699-high-school-dxd",
+      "type": "EPS",
+      "episodeCount": 49,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Comédie",
+        "Ecchi",
+        "Fantasy",
+        "Romance"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 701,
       "title": "Goblin Slayer",
       "originalTitle": "Goblin Slayer",
@@ -1998,6 +4975,342 @@
         "fhd"
       ],
       "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 704,
+      "title": "Hokuto no Ken - Ken Le Survivant",
+      "originalTitle": "Hokuto no Ken",
+      "url": "https://animationdigitalnetwork.com/video/704-hokuto-no-ken-le-survivant",
+      "urlPath": "/video/704-hokuto-no-ken-le-survivant",
+      "type": "EPS",
+      "episodeCount": 152,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 707,
+      "title": "Après la pluie",
+      "originalTitle": "Koi wa Ameagari no You ni",
+      "url": "https://animationdigitalnetwork.com/video/707-apres-la-pluie",
+      "urlPath": "/video/707-apres-la-pluie",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Romance",
+        "Shojo"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 708,
+      "title": "Burning Kabaddi!",
+      "originalTitle": "Burning Kabaddi",
+      "url": "https://animationdigitalnetwork.com/video/708-burning-kabaddi",
+      "urlPath": "/video/708-burning-kabaddi",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Shonen",
+        "Sport"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 709,
+      "title": "Full Dive : L'Ultime RPG est encore plus foireux que la réalité !",
+      "originalTitle": "Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu Yori mo Kuso Game Dattara",
+      "url": "https://animationdigitalnetwork.com/video/709-full-dive-l-ultime-rpg",
+      "urlPath": "/video/709-full-dive-l-ultime-rpg",
+      "type": "EPS",
+      "episodeCount": 12,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Comédie",
+        "Ecchi",
+        "Fantasy",
+        "Romance",
+        "Animation japonaise"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 711,
+      "title": "Seraph of the End",
+      "originalTitle": "Owari no Seraph",
+      "url": "https://animationdigitalnetwork.com/video/711-seraph-of-the-end-owari-no-seraph",
+      "urlPath": "/video/711-seraph-of-the-end-owari-no-seraph",
+      "type": "EPS",
+      "episodeCount": 24,
+      "age": "16+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Drame",
+        "Fantasy",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 724,
+      "title": "Yu-Gi-Oh! Duel Monsters - VF",
+      "originalTitle": "遊戯王 デュエルモンスターズ",
+      "url": "https://animationdigitalnetwork.com/video/724-yu-gi-oh-duel-monsters-vf",
+      "urlPath": "/video/724-yu-gi-oh-duel-monsters-vf",
+      "type": "EPS",
+      "episodeCount": 236,
+      "age": "10+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 725,
+      "title": "Black Rock Shooter",
+      "originalTitle": "ブラック★ロックシューター",
+      "url": "https://animationdigitalnetwork.com/video/725-black-rock-shooter",
+      "urlPath": "/video/725-black-rock-shooter",
+      "type": "EPS",
+      "episodeCount": 8,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Drame",
+        "Fantasy",
+        "Thriller",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 737,
+      "title": "Yu Yu Hakusho : The Movie",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/737-yu-yu-hakusho-the-movie",
+      "urlPath": "/video/737-yu-yu-hakusho-the-movie",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Comédie",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 744,
+      "title": "Galilei Donna",
+      "originalTitle": "Galilei Donna",
+      "url": "https://animationdigitalnetwork.com/video/744-galilei-donna",
+      "urlPath": "/video/744-galilei-donna",
+      "type": "EPS",
+      "episodeCount": 11,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Drame",
+        "Thriller"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 753,
+      "title": "Yu Yu Hakusho - OAV et épisodes spéciaux",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/753-yu-yu-hakusho-oav-et-specials",
+      "urlPath": "/video/753-yu-yu-hakusho-oav-et-specials",
+      "type": "EPS",
+      "episodeCount": 7,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Comédie",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -2039,6 +5352,370 @@
       "ratingsCount": 10
     },
     {
+      "id": 759,
+      "title": "Natsuyuki Rendez-vous",
+      "originalTitle": "???????",
+      "url": "https://animationdigitalnetwork.com/video/759-natsuyuki-rendez-vous",
+      "urlPath": "/video/759-natsuyuki-rendez-vous",
+      "type": "EPS",
+      "episodeCount": 11,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Drame",
+        "Romance",
+        "Shojo"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 761,
+      "title": "Key The Metal Idol",
+      "originalTitle": "Key The Metal Idol",
+      "url": "https://animationdigitalnetwork.com/video/761-key-the-metal-idol",
+      "urlPath": "/video/761-key-the-metal-idol",
+      "type": "EPS",
+      "episodeCount": 15,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Thriller",
+        "Action"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 762,
+      "title": "Mother of the Goddess Dormitory (version non censurée)",
+      "originalTitle": "Megami-ryou no Ryoubo-kun",
+      "url": "https://animationdigitalnetwork.com/video/762-mother-of-the-goddess-dormitory-non-censure",
+      "urlPath": "/video/762-mother-of-the-goddess-dormitory-non-censure",
+      "type": "EPS",
+      "episodeCount": 10,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Tranche de vie",
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Romance"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 763,
+      "title": "Mother of the Goddess Dormitory",
+      "originalTitle": "Megami-ryou no Ryoubo-kun",
+      "url": "https://animationdigitalnetwork.com/video/763-mother-of-the-goddess-dormitory",
+      "urlPath": "/video/763-mother-of-the-goddess-dormitory",
+      "type": "EPS",
+      "episodeCount": 10,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Ecchi",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": true,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 764,
+      "title": "Goldorak",
+      "originalTitle": "UFO Robo Grendizer",
+      "url": "https://animationdigitalnetwork.com/video/764-goldorak",
+      "urlPath": "/video/764-goldorak",
+      "type": "EPS",
+      "episodeCount": 74,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Action",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 766,
+      "title": "Robotics;Notes",
+      "originalTitle": "ロボティクス・ノーツ",
+      "url": "https://animationdigitalnetwork.com/video/766-robotics-notes",
+      "urlPath": "/video/766-robotics-notes",
+      "type": "EPS",
+      "episodeCount": 22,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Drame",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Jeu Vidéo",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 768,
+      "title": "One Piece Film 14 • Stampede",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/768-one-piece-stampede-film",
+      "urlPath": "/video/768-one-piece-stampede-film",
+      "type": "MOV",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vostf",
+        "vf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Action",
+        "Aventure",
+        "Comédie",
+        "Fantasy",
+        "Shonen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 770,
+      "title": "Aoi Hana - Fleurs bleues",
+      "originalTitle": "Aoi Hana",
+      "url": "https://animationdigitalnetwork.com/video/770-aoi-hana-fleurs-bleues",
+      "urlPath": "/video/770-aoi-hana-fleurs-bleues",
+      "type": "EPS",
+      "episodeCount": 11,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Romance",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr,de",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 771,
+      "title": "Thermae Romae",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/771-thermae-romae",
+      "urlPath": "/video/771-thermae-romae",
+      "type": "EPS",
+      "episodeCount": 5,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Comédie",
+        "Fantasy",
+        "Seinen"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 772,
+      "title": "Typhoon Noruda",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/772-typhoon-noruda",
+      "urlPath": "/video/772-typhoon-noruda",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "0+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Drame",
+        "Fantasy",
+        "Tranche de vie"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": null,
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 775,
+      "title": "Rampo Kitan - Game of Laplace",
+      "originalTitle": "Ranpo Kitan - Game of Laplace",
+      "url": "https://animationdigitalnetwork.com/video/775-rampo-kitan-game-of-laplace",
+      "urlPath": "/video/775-rampo-kitan-game-of-laplace",
+      "type": "EPS",
+      "episodeCount": 11,
+      "age": "16+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Action",
+        "Thriller",
+        "Animation japonaise"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
       "id": 784,
       "title": "Vinland Saga",
       "originalTitle": "Vinland Saga",
@@ -2068,6 +5745,71 @@
         "fhd"
       ],
       "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 786,
+      "title": "The Galaxy Railways",
+      "originalTitle": "Ginga Tetsudou Monogatari",
+      "url": "https://animationdigitalnetwork.com/video/786-the-galaxy-railways",
+      "urlPath": "/video/786-the-galaxy-railways",
+      "type": "EPS",
+      "episodeCount": 26,
+      "age": "10+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Aventure",
+        "Animation japonaise",
+        "Action",
+        "Drame",
+        "Science-Fiction"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 787,
+      "title": "Polyphonica",
+      "originalTitle": "Shinkyôku Sôkai Polyphonica",
+      "url": "https://animationdigitalnetwork.com/video/787-polyphonica",
+      "urlPath": "/video/787-polyphonica",
+      "type": "EPS",
+      "episodeCount": 24,
+      "age": "12+",
+      "languages": [
+        "vostf"
+      ],
+      "genres": [
+        "Animation japonaise",
+        "Aventure",
+        "Comédie",
+        "Romance"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Light Novel",
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -2168,6 +5910,99 @@
         "fhd"
       ],
       "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 809,
+      "title": "La nuit je danse avec la mort",
+      "originalTitle": "La nuit je danse avec la mort",
+      "url": "https://animationdigitalnetwork.com/video/809-la-nuit-je-danse-avec-la-mort",
+      "urlPath": "/video/809-la-nuit-je-danse-avec-la-mort",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "16+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Thriller",
+        "Action"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 810,
+      "title": "Coffin",
+      "originalTitle": "Coffin",
+      "url": "https://animationdigitalnetwork.com/video/810-coffin",
+      "urlPath": "/video/810-coffin",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "12+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 811,
+      "title": "Thermostat 6",
+      "originalTitle": "Thermostat 6",
+      "url": "https://animationdigitalnetwork.com/video/811-thermostat-6",
+      "urlPath": "/video/811-thermostat-6",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "10+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Drame"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": null,
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -2474,6 +6309,100 @@
         "fhd"
       ],
       "basedOn": "Manga",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 856,
+      "title": "Papa Zaza",
+      "originalTitle": "Papa Zaza",
+      "url": "https://animationdigitalnetwork.com/video/856-papa-zaza",
+      "urlPath": "/video/856-papa-zaza",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Drame"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 857,
+      "title": "Sur la dune",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/857-sur-la-dune",
+      "urlPath": "/video/857-sur-la-dune",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "0+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Drame"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
+      "distributions": "fr",
+      "rating": 3,
+      "ratingsCount": 10
+    },
+    {
+      "id": 858,
+      "title": "Yak",
+      "originalTitle": null,
+      "url": "https://animationdigitalnetwork.com/video/858-yak",
+      "urlPath": "/video/858-yak",
+      "type": "SHORT",
+      "episodeCount": 1,
+      "age": "12+",
+      "languages": [
+        "vf"
+      ],
+      "genres": [
+        "Animation française",
+        "Action",
+        "Fantasy"
+      ],
+      "free": false,
+      "simulcast": false,
+      "available": true,
+      "newEpisode": false,
+      "nextVideoReleaseDate": null,
+      "qualities": [
+        "sd",
+        "hd",
+        "fhd"
+      ],
+      "basedOn": "Oeuvre Originale",
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10

@@ -1,76 +1,113 @@
 {
-  "updated": "2026-10-29T21:05:30.741Z",
+  "updated": "2026-10-29T21:09:22.370Z",
   "source": "https://animationdigitalnetwork.com/de/video",
   "pages": {
     "1": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=1",
       "showsFound": 48,
       "newShows": 48
     },
     "2": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=2",
       "showsFound": 48,
       "newShows": 48
     },
     "3": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=3",
       "showsFound": 48,
       "newShows": 48
     },
     "4": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=4",
       "showsFound": 48,
       "newShows": 48
     },
     "5": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=5",
       "showsFound": 48,
       "newShows": 48
     },
     "6": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=6",
       "showsFound": 48,
       "newShows": 48
     },
     "7": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=7",
       "showsFound": 48,
       "newShows": 48
     },
     "8": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=8",
       "showsFound": 48,
       "newShows": 48
     },
     "9": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=9",
       "showsFound": 48,
       "newShows": 48
     },
     "10": {
       "ok": true,
       "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=10",
       "showsFound": 48,
       "newShows": 48
+    },
+    "11": {
+      "ok": true,
+      "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=11",
+      "showsFound": 48,
+      "newShows": 48
+    },
+    "12": {
+      "ok": true,
+      "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=12",
+      "showsFound": 48,
+      "newShows": 48
+    },
+    "13": {
+      "ok": true,
+      "http": 200,
+      "finalUrl": "https://animationdigitalnetwork.com/video?page=13",
+      "showsFound": 20,
+      "newShows": 20
     }
   },
   "blocked": false,
   "ok": true,
   "totalReported": 596,
-  "count": 480,
-  "complete": false,
-  "stopReason": null,
+  "count": 596,
+  "complete": true,
+  "stopReason": "total (596) erreicht.",
+  "locale": "fr (Geo-Redirect vom Runner)",
+  "countDe": 208,
   "newEpisodeCount": 14,
-  "freeCount": 30,
+  "freeCount": 56,
   "simulcastCount": 12,
-  "diff": null
+  "diff": {
+    "added": 116,
+    "removed": 0
+  },
+  "diffDe": null
 }
