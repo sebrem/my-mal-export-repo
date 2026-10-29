@@ -1,0 +1,49 @@
+name: CR Katalog Harvest
+
+# Wöchentlicher Dump des kompletten Crunchyroll-Serien-Katalogs als cr_catalog.json
+# + cr_catalog_status.json (Diagnose + Diff added/removed).
+# Hintergrund (29.10.2026): Die A-Z-Seite /de/videos/alphabetical ist eine client-seitige
+# JS-Shell (nichts parsbar – "Netflix-Manier"). Die offiziellen Sitemaps sind aber offen:
+# /sitemap.xml -> /sitemaps/series/<Buchstabe>.xml mit allen Serien-URLs (CR-ID + Slug).
+# Caveat: Sitemap = GLOBALER Katalog, NICHT DE-gefiltert – DE-Verfügbarkeit bleibt
+# Titel-Ebene (streaming_rollcheck/JustWatch). Keine lastmod – Aktualität per Diff.
+# NICHT den robots-erlaubten cr-lab-akihabara-API nutzen (Cloudflare-1015-Rate-Ban beim Test).
+# Wenn CR die Sitemap-Route dichtmacht (Status blocked), Route ist tot – dann die Action löschen.
+
+on:
+  schedule:
+    - cron: "50 5 * * 1"  # montags 05:50 UTC (07:50 MESZ), direkt nach dem ADN-Katalog-Harvest 05:40
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cr-catalog
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: CR-Serien-Katalog aus Sitemaps bauen
+        run: node scripts/cr_catalog_fetch.mjs
+
+      - name: Ergebnisse committen
+        run: |
+          git config user.name "cr-catalog-bot"
+          git config user.email "actions@github.com"
+          git add cr_catalog.json cr_catalog_status.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen - kein Commit noetig."
+          else
+            git commit -m "chore: cr catalog harvest $(date -u +%F)"
+            git push
+          fi
