@@ -11,16 +11,27 @@
 // (b) /_next/data und Sitemap sind CloudFront-blockt – HTML-Katalogseiten sind offen.
 // (c) Pagination-Seitenzahl steht nicht im JSON; es wird geblättert, bis eine Seite
 // keine neuen Titel liefert oder total erreicht ist (Safety-Maximum ADN_MAX_PAGES).
-// Ergebnis: adn_catalog.json (Katalog) + adn_catalog_status.json (Diagnose).
-// Bei Block (403/Challenge) KEIN Crash: Status auf blocked, bestehender Katalog
-// bleibt unangetastet (analog anime2you_feed_fetch.mjs).
+// ERSTLAUF-BEFUND 29.10.2026 (v2): Der GitHub-Runner wird von ADN per Geo-Redirect
+// auf die FR-Site umgeleitet (/de/video -> /video): total=596 statt 268, Sprachcodes
+// vostf/vf, Genres "Animation japonaise". Accept-Language allein reicht nicht.
+// Der FR-Gesamtkatalog ist aber ein SUPERSET: das distributions-Feld ("fr,de,pl")
+// listet die Auslandsversionen -> DE-Katalog = Filter auf distributions "de".
+// Sprach-/Genre-Codes in adn_catalog.json sind FR-Sicht; DE-Sicht (vostde/vde,
+// deutsche Genres) bleibt dem Show-Seiten-Check (streaming_rollcheck V8.5) vorbehalten.
+// Ergebnis: adn_catalog.json (FR-Gesamtkatalog) + adn_catalog_de.json (DE-Filter)
+// + adn_catalog_status.json (Diagnose inkl. finaler URLs je Seite als Redirect-Nachweis).
+// Bei Block (403/Challenge) KEIN Crash: Status auf blocked, bestehende Kataloge
+// bleiben unangetastet (analog anime2you_feed_fetch.mjs).
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 
 const BASE_URL = "https://animationdigitalnetwork.com/de/video";
 const CATALOG_FILE = "adn_catalog.json";
+const CATALOG_DE_FILE = "adn_catalog_de.json";
 const STATUS_FILE = "adn_catalog_status.json";
-const MAX_PAGES = Number(process.env.ADN_MAX_PAGES || "10"); // Safety-Stop (268/48 = 6 Seiten)
+// v2: Erstlauf zeigte total=596 (FR-Gesamtkatalog) -> 596/48 = 13 Seiten;
+// 20 gibt Luft fuer Katalogwachstum. Loop-Ende greift ohnehin automatisch.
+const MAX_PAGES = Number(process.env.ADN_MAX_PAGES || "20");
 const PAUSE_MS = 1500; // Rate-Limit-Respekt ggü. ADN-HTML-Seiten (wie Rollcheck V8.5)
 const FETCH_TIMEOUT_MS = 15000;
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
@@ -71,7 +82,8 @@ async function fetchPage(page) {
     },
   });
   const body = await res.text();
-  return { page, url, status: res.status, ok: res.ok, body };
+  // v2: res.url = finale URL nach Redirects -> Geo-Redirect-Nachweis (Erstlauf: /de/video -> /video)
+  return { page, url, finalUrl: res.url, status: res.status, ok: res.ok, body };
 }
 
 function parseCatalog(html) {
@@ -128,7 +140,7 @@ for (let page = 1; page <= MAX_PAGES; page++) {
   for (const s of cat.shows) {
     if (s?.id != null && !byId.has(s.id)) { byId.set(s.id, slimShow(s)); newCount++; }
   }
-  status.pages[page] = { ok: true, http: r.status, showsFound: cat.shows.length, newShows: newCount };
+  status.pages[page] = { ok: true, http: r.status, finalUrl: r.finalUrl, showsFound: cat.shows.length, newShows: newCount };
   console.log(`Seite ${page}: HTTP ${r.status}, ${cat.shows.length} Titel (${newCount} neu), total=${cat.total}.`);
   if (newCount === 0) { stopReason = `Seite ${page} brachte keine neuen Titel – Pagination-Ende.`; break; }
   if (totalReported !== null && byId.size >= totalReported) { stopReason = `total (${totalReported}) erreicht.`; break; }
@@ -139,7 +151,20 @@ status.ok = !status.blocked && byId.size > 0;
 status.totalReported = totalReported;
 status.count = byId.size;
 status.complete = totalReported !== null ? byId.size >= totalReported : null;
-status.stopReason = stopReason;
+status.stopReason = stopReason ?? (status.complete === false
+  ? `MAX_PAGES (${MAX_PAGES}) erreicht ohne Pagination-Ende – ADN_MAX_PAGES erhoehen`
+  : null);
+
+// v2: Locale-Diagnose aus den finalen URLs (Geo-Redirect /de/video -> /video = FR-Sicht)
+const finalUrls = Object.values(status.pages).map(p => p?.finalUrl).filter(Boolean);
+status.locale = finalUrls.some(u => String(u).includes("/de/")) ? "de" : "fr (Geo-Redirect vom Runner)";
+
+// v2: DE-Katalog = Titel mit "de" im distributions-Feld (FR-Katalog ist Superset)
+const allShows = [...byId.values()].sort((a, b) => a.id - b.id);
+const deShows = allShows.filter(s => String(s.distributions || "").split(",").map(x => x.trim()).includes("de"));
+status.countDe = deShows.length;
+const deDiffBase = { prev: existsSync(CATALOG_DE_FILE) };
+
 status.newEpisodeCount = [...byId.values()].filter(s => s.newEpisode).length;
 status.freeCount = [...byId.values()].filter(s => s.free).length;
 status.simulcastCount = [...byId.values()].filter(s => s.simulcast).length;
@@ -166,14 +191,39 @@ if (status.blocked && byId.size === 0) {
   } catch { /* Diff optional */ }
   status.diff = hadPrevious ? { added, removed } : null;
 
+  // v2: Diff auch für den DE-Teilkatalog
+  let deAdded = null, deRemoved = null;
+  try {
+    if (deDiffBase.prev) {
+      const prevDe = JSON.parse(readFileSync(CATALOG_DE_FILE, "utf8"));
+      const prevDeIds = new Set((prevDe.shows || []).map(s => s.id));
+      const curDeIds = new Set(deShows.map(s => s.id));
+      deAdded = [...curDeIds].filter(id => !prevDeIds.has(id)).length;
+      deRemoved = [...prevDeIds].filter(id => !curDeIds.has(id)).length;
+    }
+  } catch { /* Diff optional */ }
+  status.diffDe = deDiffBase.prev ? { added: deAdded, removed: deRemoved } : null;
+
   writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2));
   writeFileSync(CATALOG_FILE, JSON.stringify({
     updated: status.updated,
     source: BASE_URL,
+    locale: "fr (Geo-Redirect vom Runner – vgl. adn_catalog_status.json)",
+    note: "FR-Gesamtkatalog (Superset). DE-Katalog siehe adn_catalog_de.json. Sprach-/Genre-Codes in FR-Sicht.",
     total: totalReported,
     count: byId.size,
     complete: status.complete,
-    shows: [...byId.values()].sort((a, b) => a.id - b.id),
+    shows: allShows,
   }, null, 2));
-  console.log(`Katalog geschrieben: ${byId.size} Titel (total=${totalReported}, complete=${status.complete}, diff=${JSON.stringify(status.diff)}).`);
+  writeFileSync(CATALOG_DE_FILE, JSON.stringify({
+    updated: status.updated,
+    source: BASE_URL,
+    note: "DE-Katalog = Filter des FR-Gesamtkatalogs auf distributions 'de'. " +
+      "Sprach-/Genre-Codes in FR-Sicht (vostf/vf statt vostde/vde) – DE-Sicht liefert der " +
+      "Show-Seiten-Check im streaming_rollcheck. Titel-IDs und URL-Pfade sind identisch.",
+    total: deShows.length,
+    shows: deShows,
+  }, null, 2));
+  console.log(`Katalog geschrieben: ${byId.size} Titel FR (total=${totalReported}, complete=${status.complete}, locale=${status.locale}), ` +
+    `${deShows.length} Titel DE (diffDe=${JSON.stringify(status.diffDe)}).`);
 }
