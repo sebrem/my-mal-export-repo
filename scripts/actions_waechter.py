@@ -81,6 +81,8 @@ EXPECTED = [
      "since": "2026-10-23T13:24:00+00:00"},  # live 23.10. 13:24; erster Cron: Fr 24.10. 03:17
     {"file": "theme-seiyuu-harvest.yml",  "name": "Theme & Seiyuu Harvest",   "dom": 1, "hour": 5, "minute": 3,
      "since": "2026-10-22T13:30:00+00:00"},  # live 22.10.; erster Cron: So 01.11.2026 05:03
+    {"file": "adn-catalog.yml",           "name": "ADN Katalog Harvest",      "days": [0], "hour": 5, "minute": 40,
+     "since": "2026-10-29T21:09:00+00:00"},  # live 29.10. v2-Erstlauf 21:09; erster Cron: Mo 02.11.2026 05:40
 ]
 
 
