@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:33:09.634335+00:00",
+  "generated_at": "2026-10-29T21:41:34.274796+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 4,
@@ -51,6 +51,12 @@
       "status": "pending",
       "detail": "live seit 2026-10-22T13:30Z; erwarteter Termin 2026-10-01T05:03:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-10-01T05:03:00+00:00"
+    },
+    {
+      "name": "ADN Katalog Harvest",
+      "status": "pending",
+      "detail": "live seit 2026-10-29T21:09Z; erwarteter Termin 2026-10-26T05:40:00+00:00 davor - erster Cron steht noch aus",
+      "expected": "2026-10-26T05:40:00+00:00"
     }
   ]
 }
