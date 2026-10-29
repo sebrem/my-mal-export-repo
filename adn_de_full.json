@@ -1,0 +1,6970 @@
+{
+ "updated": "2026-10-29",
+ "source": "ADN DE-Katalog Vollabzug, Drive-Snap 29.10.2026 (6 HTML-Seiten, DE-Browser-Sicht)",
+ "note": "Manueller Einmal-Snapshot; das automatische adn_catalog_de.json (distributions-Filter) sieht 61 dieser Titel nicht (s. adn_de_luecke.json).",
+ "total": 268,
+ "count": 268,
+ "shows": [
+  {
+   "id": 22,
+   "title": "Air Gear",
+   "originalTitle": "Air Gear",
+   "urlPath": "/de/video/22-air-gear",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Shonen",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 31,
+   "title": "Beck",
+   "originalTitle": "Beck",
+   "urlPath": "/de/video/31-beck",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 49,
+   "title": "Fate/stay night",
+   "originalTitle": "Fate/stay night",
+   "urlPath": "/de/video/49-fate-stay-night",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 108,
+   "title": "Reborn!",
+   "originalTitle": "Katekyo Hitman Reborn!",
+   "urlPath": "/de/video/108-reborn",
+   "type": "EPS",
+   "episodeCount": 101,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 131,
+   "title": "Un-Go",
+   "originalTitle": "UN-GO アン ゴ",
+   "urlPath": "/de/video/131-un-go",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 190,
+   "title": "Gunslinger Girl",
+   "originalTitle": "ガンスリンガー・ガール",
+   "urlPath": "/de/video/190-gunslinger-girl",
+   "type": "OAV",
+   "episodeCount": 28,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Seinen",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 197,
+   "title": "Bleach: Memories of Nobody - Movie 1",
+   "originalTitle": "Gekijōban Bleach: Memories of Nobody",
+   "urlPath": "/de/video/197-bleach-memories-of-nobody-movie-1",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 198,
+   "title": "Bleach: The Diamond Dust Rebellion - Movie 2",
+   "originalTitle": "Bleach - The DiamondDust Rebellion - Mou Hitotsu no Hyourinmaru",
+   "urlPath": "/de/video/198-bleach-the-diamond-dust-rebellion-movie-2",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 213,
+   "title": "Revolutionary Girl Utena",
+   "originalTitle": "Shoujo Kakumei Utena",
+   "urlPath": "/de/video/213-revolutionary-girl-utena",
+   "type": "EPS",
+   "episodeCount": 39,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 217,
+   "title": "To Love-Ru - Darkness",
+   "originalTitle": "To Love-Ru: Trouble - Darkness",
+   "urlPath": "/de/video/217-to-love-ru-darkness",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Japanische Animation",
+    "Sci-Fi",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 278,
+   "title": "Beyond the Boundary",
+   "originalTitle": "Kyôkai no Kanata",
+   "urlPath": "/de/video/278-beyond-the-boundary",
+   "type": "OAV",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 307,
+   "title": "GTO",
+   "originalTitle": "Great Teacher Onizuka",
+   "urlPath": "/de/video/307-gto",
+   "type": "EPS",
+   "episodeCount": 43,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Shonen"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 310,
+   "title": "Brynhildr in the Darkness",
+   "originalTitle": "Gokukoku no Brynhildr",
+   "urlPath": "/de/video/310-brynhildr_in_the_darkness",
+   "type": "EPS",
+   "episodeCount": 14,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Slice-of-Life",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 322,
+   "title": "Akame ga Kill: Schwerter der Assassinen",
+   "originalTitle": "アカメが斬る!",
+   "urlPath": "/de/video/322-akame-ga-kill-schwerter-der-assassinen",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 329,
+   "title": "Eyeshield 21",
+   "originalTitle": "Eyeshield 21",
+   "urlPath": "/de/video/329-eyeshield-21",
+   "type": "EPS",
+   "episodeCount": 145,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Shonen",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 336,
+   "title": "Magic Kaito 1412",
+   "originalTitle": "Magic Kaito 1412",
+   "urlPath": "/de/video/336-magic-kaito",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Thriller",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 340,
+   "title": "TERRAFORMARS",
+   "originalTitle": "テラフォーマーズ",
+   "urlPath": "/de/video/340-terraformars-uncensored",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Thriller",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 344,
+   "title": "Assassination Classroom",
+   "originalTitle": "Ansatsu Kyôshitsu",
+   "urlPath": "/de/video/344-assassination-classroom",
+   "type": "EPS",
+   "episodeCount": 47,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Shonen",
+    "Thriller",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 347,
+   "title": "Death Parade",
+   "originalTitle": "Death Parade",
+   "urlPath": "/de/video/347-death-parade",
+   "type": "OAV",
+   "episodeCount": 13,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 352,
+   "title": "Bleach: Fade to Black - Movie 3",
+   "originalTitle": "Bleach : Fade to Black - Kimi no Na wo Yobu",
+   "urlPath": "/de/video/352-bleach-fade-to-black-movie-3",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 361,
+   "title": "Bleach: Hell Verse - Movie 4",
+   "originalTitle": "Bleach - Jigoku-Hen",
+   "urlPath": "/de/video/361-bleach-hell-verse-movie-4",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 398,
+   "title": "Undefeated Bahamut Chronicle",
+   "originalTitle": "Undefeated Bahamut Chronicles",
+   "urlPath": "/de/video/398-saibahamut_tv",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Ecchi",
+    "Japanische Animation",
+    "Action",
+    "Fantasy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 405,
+   "title": "My Hero Academia",
+   "originalTitle": "Boku no Hero Academia",
+   "urlPath": "/de/video/405-my-hero-academia",
+   "type": "EPS",
+   "episodeCount": 38,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Slice-of-Life",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 427,
+   "title": "Sailor Moon",
+   "originalTitle": "美少女戦士セーラームーン",
+   "urlPath": "/de/video/427-sailor-moon",
+   "type": "EPS",
+   "episodeCount": 200,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 438,
+   "title": "Girls Band Cry",
+   "originalTitle": "ガールズバンドクライ",
+   "urlPath": "/de/video/438",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 442,
+   "title": "Sword Art Online",
+   "originalTitle": "ソードアート・オンライン",
+   "urlPath": "/de/video/442-sword-art-online",
+   "type": "EPS",
+   "episodeCount": 96,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 443,
+   "title": "World Trigger",
+   "originalTitle": "World Trigger",
+   "urlPath": "/de/video/443-world-trigger",
+   "type": "EPS",
+   "episodeCount": 99,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Shonen"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 444,
+   "title": "Jojo’s Bizarre Adventure",
+   "originalTitle": "JoJo no Kimyou na Bouken",
+   "urlPath": "/de/video/444-jojo-s-bizarre-adventure",
+   "type": "EPS",
+   "episodeCount": 152,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 461,
+   "title": "Haikyu!!",
+   "originalTitle": "Haikyū!!",
+   "urlPath": "/de/video/461-haikyu",
+   "type": "OAV",
+   "episodeCount": 90,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Slice-of-Life",
+    "Shonen",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 502,
+   "title": "School Babysitters",
+   "originalTitle": "Gakuen Babysitters",
+   "urlPath": "/de/video/502-school-babysitters",
+   "type": "OAV",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Slice-of-Life",
+    "Shojo",
+    "Drama"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 522,
+   "title": "Dances with the Dragons",
+   "originalTitle": "Saredo Tsumibito wa Ryuu to Odoru",
+   "urlPath": "/de/video/522-dances-with-the-dragons",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 561,
+   "title": "One Piece",
+   "originalTitle": "One Piece",
+   "urlPath": "/de/video/561-one-piece",
+   "type": "EPS",
+   "episodeCount": 918,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 583,
+   "title": "Slam Dunk",
+   "originalTitle": "Slam Dunk",
+   "urlPath": "/de/video/583-slam-dunk",
+   "type": "EPS",
+   "episodeCount": 101,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance",
+    "Slice-of-Life",
+    "Shonen",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 587,
+   "title": "The Seven Deadly Sins",
+   "originalTitle": "Nanatsu no Taizai",
+   "urlPath": "/de/video/587-deadlysins_tv-587",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Shonen",
+    "Japanische Animation"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 617,
+   "title": "Prison School",
+   "originalTitle": "Prison School",
+   "urlPath": "/de/video/617-prisonschool_tv-617",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Slice-of-Life",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 621,
+   "title": "Pretty Cure",
+   "originalTitle": "Futari wa Pretty Cure",
+   "urlPath": "/de/video/621-pretty-cure",
+   "type": "EPS",
+   "episodeCount": 0,
+   "age": "0+",
+   "languages": [],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shojo",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 634,
+   "title": "Hellsing Ultimate",
+   "originalTitle": "Hellsing Ultimate",
+   "urlPath": "/de/video/634-hellsing_tv-634",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "18+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Seinen",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 646,
+   "title": "Peter Grill and the Philosopher's Time",
+   "originalTitle": "Peter Grill to kenja no jikan",
+   "urlPath": "/de/video/646-peter-grill-and-the-philosophers-time",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 654,
+   "title": "SANKAREA- Undying Love",
+   "originalTitle": "Sankarea",
+   "urlPath": "/de/video/654-sankarea-undying-love",
+   "type": "EPS",
+   "episodeCount": 14,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 655,
+   "title": "Clannad",
+   "originalTitle": "Clannad",
+   "urlPath": "/de/video/655",
+   "type": "EPS",
+   "episodeCount": 49,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 662,
+   "title": "Attack on Titan",
+   "originalTitle": "進撃の巨人",
+   "urlPath": "/de/video/662-attack-on-titan",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Seinen",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 663,
+   "title": "Bob Morane",
+   "originalTitle": "Bob Morane",
+   "urlPath": "/de/video/663-bob-morane",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "12+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Action",
+    "Adventure"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 670,
+   "title": "To Love-Ru",
+   "originalTitle": "To Love-Ru",
+   "urlPath": "/de/video/670-to-love-ru",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Japanische Animation",
+    "Sci-Fi"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 684,
+   "title": "Motto To Love-Ru",
+   "originalTitle": "Motto To Love-Ru -Trouble-",
+   "urlPath": "/de/video/684-motto-to-love-ru-trouble",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Japanische Animation",
+    "Shonen",
+    "Sci-Fi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 707,
+   "title": "After the Rain",
+   "originalTitle": "Koi wa Ameagari no You ni",
+   "urlPath": "/de/video/707-after-the-rain",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 727,
+   "title": "Lucky Luke",
+   "originalTitle": "Lucky Luke",
+   "urlPath": "/de/video/727-lucky-luke",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 729,
+   "title": "Spirou",
+   "originalTitle": null,
+   "urlPath": "/de/video/729-spirou",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 731,
+   "title": "Titeuf",
+   "originalTitle": "Titeuf",
+   "urlPath": "/de/video/731-titeuf",
+   "type": "EPS",
+   "episodeCount": 78,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 732,
+   "title": "Magic Roundabout",
+   "originalTitle": "The Magic Roundabout",
+   "urlPath": "/de/video/732-magic-roundabout",
+   "type": "EPS",
+   "episodeCount": 104,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 734,
+   "title": "Tintin (Adventures)",
+   "originalTitle": "Les Aventures de Tintin",
+   "urlPath": "/de/video/734-tintin-adventures",
+   "type": "EPS",
+   "episodeCount": 39,
+   "age": "10+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure",
+    "Thriller"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 748,
+   "title": "Die unglaublichen Abenteuer des Kapitän Cousteau",
+   "originalTitle": "Les Aventures Fantastiques du Commandant Cousteau",
+   "urlPath": "/de/video/748-die-unglaublichen-abenteuer-des-kapitan-cousteau",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Thriller"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 770,
+   "title": "Aoi Hana",
+   "originalTitle": "Aoi Hana",
+   "urlPath": "/de/video/770-aoi-hana",
+   "type": "EPS",
+   "episodeCount": 11,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 778,
+   "title": "Spirou und Fantasio",
+   "originalTitle": "Spirou & Fantasio",
+   "urlPath": "/de/video/778-spirou-und-fantasio",
+   "type": "EPS",
+   "episodeCount": 39,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Action",
+    "Adventure",
+    "Thriller"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 817,
+   "title": "Martin Morgen",
+   "originalTitle": "Martin Matin",
+   "urlPath": "/de/video/817-martin-morgen",
+   "type": "EPS",
+   "episodeCount": 104,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 882,
+   "title": "One Piece - Der Film",
+   "originalTitle": "One Piece Movie 1",
+   "urlPath": "/de/video/882-one-piece-der-film",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 887,
+   "title": "Dreamland",
+   "originalTitle": "Dreamland",
+   "urlPath": "/de/video/887-dreamland",
+   "type": "EPS",
+   "episodeCount": 2,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Shonen",
+    "Französische Animation"
+   ],
+   "free": true,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 904,
+   "title": "One Piece – Abenteuer auf der Spiralinsel",
+   "originalTitle": "One Piece Movie 2 : Nejimaki Shima no Bouken",
+   "urlPath": "/de/video/904-one-piece-abenteuer-auf-der-spiralinsel",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 905,
+   "title": "One Piece – Chopper auf der Insel der seltsamen Tiere",
+   "originalTitle": "One Piece Movie 3 : Chinjuu Shima no Chopper Oukoku",
+   "urlPath": "/de/video/905-one-piece-chopper-auf-der-insel-der-seltsamen-tiere",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 906,
+   "title": "One Piece – Das Dead End Rennen",
+   "originalTitle": "One Piece Movie 4 : Dead end no Bouken",
+   "urlPath": "/de/video/906-one-piece-das-dead-end-rennen",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 907,
+   "title": "One Piece – Der Fluch des heiligen Schwerts",
+   "originalTitle": "One Piece Movie 5 : Norowareta Seiken",
+   "urlPath": "/de/video/907-one-piece-der-fluch-des-heiligen-schwerts",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 908,
+   "title": "My Isekai Life",
+   "originalTitle": "Tensei Kenja no Isekai Life",
+   "urlPath": "/de/video/908-my-isekai-life-i-gained-a-second-character-class-and-became-the-strongest-sage-in-the-world",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 911,
+   "title": "Tokyo Mew Mew New",
+   "originalTitle": "Tokyo Mew Mew New",
+   "urlPath": "/de/video/911-tokyo-mew-mew-new",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 912,
+   "title": "Call of the Night",
+   "originalTitle": "Yofukashi no Uta",
+   "urlPath": "/de/video/912-call-of-the-night",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 913,
+   "title": "When will Ayumu make his move?",
+   "originalTitle": "Soredemo Ayumu wa Yosetekuru",
+   "urlPath": "/de/video/913-when-will-ayumu-make-his-move",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 918,
+   "title": "Steins;Gate",
+   "originalTitle": "Steins;Gate",
+   "urlPath": "/de/video/918-steins-gate",
+   "type": "OAV",
+   "episodeCount": 25,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Romance",
+    "Thriller",
+    "Japanische Animation",
+    "Sci-Fi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 920,
+   "title": "One Piece – Baron Omatsuri und die geheimnisvolle Insel",
+   "originalTitle": "One Piece Movie 6 : Omatsuri Danshaku to Himitsu no Shima",
+   "urlPath": "/de/video/920-one-piece-baron-omatsuri-und-die-geheimnisvolle-insel",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 923,
+   "title": "One Piece – Schloss Karakuris Metall-Soldaten",
+   "originalTitle": "One Piece Movie 7 : Karakuri Shiro no Mecha Kyohei",
+   "urlPath": "/de/video/923-one-piece-schloss-karakuris-metall-soldaten",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 924,
+   "title": "One Piece – Abenteuer in Alabasta: Die Wüstenprinzessin",
+   "originalTitle": "One Piece Movie 8 : Episode of Alabasta - Sabaku no Ojou to Kaizoku Tachi",
+   "urlPath": "/de/video/924-one-piece-abenteuer-in-alabasta-die-wustenprinzessin",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 925,
+   "title": "One Piece – Chopper und das Wunder der Winterkirschblüte",
+   "originalTitle": "One Piece Movie 9 : Episode of Chopper + Fuyu ni Saku, Kiseki no Sakura",
+   "urlPath": "/de/video/925-chopper-und-das-wunder-der-winterkirschblute",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 948,
+   "title": "One Piece – Strong World",
+   "originalTitle": "One Piece Movie 10 : Strong World",
+   "urlPath": "/de/video/948-one-piece-strong-world",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 966,
+   "title": "My Master has no Tail",
+   "originalTitle": "Uchi no Shishou wa Shippo ga Nai",
+   "urlPath": "/de/video/966-my-master-has-no-tail",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 967,
+   "title": "I've Somehow Gotten Stronger When I Improved My Farm-Related Skills",
+   "originalTitle": "Nōmin Kanren no Skill Bakka Agetetara Nazeka Tsuyoku Natta",
+   "urlPath": "/de/video/967-i-ve-somehow-gotten-stronger-when-i-improved-my-farm-related-skills",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Shonen",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 970,
+   "title": "Reincarnated as a Sword",
+   "originalTitle": "Tensei Shitara Ken Deshita",
+   "urlPath": "/de/video/970-reincarnated-as-a-sword",
+   "type": "EPS",
+   "episodeCount": 17,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Isekai",
+    "Shonen",
+    "Japanische Animation"
+   ],
+   "free": true,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 971,
+   "title": "Urusei Yatsura (2022)",
+   "originalTitle": "Urusei Yatsura",
+   "urlPath": "/de/video/971-urusei-yatsura-2022",
+   "type": "EPS",
+   "episodeCount": 46,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Slice-of-Life",
+    "Shonen"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 973,
+   "title": "The Eminence in Shadow",
+   "originalTitle": "Kage no Jitsuryokusha ni Naritakute",
+   "urlPath": "/de/video/973-the-eminence-in-shadow",
+   "type": "EPS",
+   "episodeCount": 32,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Isekai",
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 974,
+   "title": "Management of Novice Alchemist",
+   "originalTitle": "Shinmai Renkinjutsushi no Tenpo Keiei",
+   "urlPath": "/de/video/974-management-of-novice-alchemist",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Adventure",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 975,
+   "title": "Love Flops",
+   "originalTitle": "Renai Flops",
+   "urlPath": "/de/video/975-love-flops",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Ecchi",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 976,
+   "title": "Bibliophile Princess",
+   "originalTitle": "Mushikaburi Hime",
+   "urlPath": "/de/video/976-bibliophile-princess",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 991,
+   "title": "Steins;Gate 0",
+   "originalTitle": "Steins;Gate 0",
+   "urlPath": "/de/video/991-steins-gate-0",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Romance",
+    "Thriller",
+    "Japanische Animation",
+    "Sci-Fi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 999,
+   "title": "Dragon Ball Super",
+   "originalTitle": "ドラゴンボール超(スーパー)",
+   "urlPath": "/de/video/999-dragon-ball-super",
+   "type": "EPS",
+   "episodeCount": 131,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1008,
+   "title": "Farming Life in Another World",
+   "originalTitle": "Isekai Nonbiri Nouka",
+   "urlPath": "/de/video/1008-farming-life-in-another-world",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Isekai",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1013,
+   "title": "Tsurune: The Linking Shot - Staffel 2",
+   "originalTitle": "Tsurune - Tsunagari no Issha",
+   "urlPath": "/de/video/1013-tsurune-the-linking-shot-staffel-2",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Sport"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1016,
+   "title": "Endo and Kobayashi Live! The latest on Tsundere Villainess Life",
+   "originalTitle": "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endo-kun to Kaisetsu no Kobayashi-san",
+   "urlPath": "/de/video/1016-endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Fantasy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1026,
+   "title": "Kiznaiver",
+   "originalTitle": "キズナイーバー",
+   "urlPath": "/de/video/1026-kiznaiver",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1035,
+   "title": "Edens Zero: Season 2",
+   "originalTitle": "Edens Zero 2nd Season",
+   "urlPath": "/de/video/1035-edens-zero-season-2",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1037,
+   "title": "The Dangers in My Heart",
+   "originalTitle": "Boku no Kokoro no Yabai Yatsu",
+   "urlPath": "/de/video/1037-the-dangers-in-my-heart",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1039,
+   "title": "Opus.COLORs",
+   "originalTitle": "Opus Colors",
+   "urlPath": "/de/video/1039-opus-colors",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1040,
+   "title": "Too Cute Crisis",
+   "originalTitle": "Kawaisugi Crisis",
+   "urlPath": "/de/video/1040-too-cute-crisis",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1041,
+   "title": "Blue Orchestra",
+   "originalTitle": "Ao no Orchestra",
+   "urlPath": "/de/video/1041-blue-orchestra",
+   "type": "EPS",
+   "episodeCount": 45,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1051,
+   "title": "The Girl Downstairs",
+   "originalTitle": "이두나! / 下の階には澪がいる",
+   "urlPath": "/de/video/1051-the-girl-downstairs",
+   "type": "EPS",
+   "episodeCount": 22,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Romance",
+    "Slice-of-Life",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1060,
+   "title": "Highschool of the Dead",
+   "originalTitle": "Gakuen Mokushiroku : Highschool of the Dead",
+   "urlPath": "/de/video/1060-high-school-of-the-dead",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1066,
+   "title": "Dark Gathering",
+   "originalTitle": "Dark Gathering",
+   "urlPath": "/de/video/1066-dark-gathering",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1069,
+   "title": "Card Captor Sakura",
+   "originalTitle": "Card Captor Sakura",
+   "urlPath": "/de/video/1069-cardcaptor-sakura",
+   "type": "EPS",
+   "episodeCount": 70,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1071,
+   "title": "The Most Heretical Last Boss Queen",
+   "originalTitle": "Higeki no Genkyou to naru Saikyou Gedou Love Boss Joou wa Min no tame ni Tsukushimasu",
+   "urlPath": "/de/video/1071-the-most-heretical-last-boss-queen",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Isekai",
+    "Romance",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1092,
+   "title": "Ragna Crimson",
+   "originalTitle": "ラグナクリムゾン",
+   "urlPath": "/de/video/1092-ragna-crimson",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1094,
+   "title": "BULLBUSTER",
+   "originalTitle": "ブルバスター",
+   "urlPath": "/de/video/1094-bullbuster",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1095,
+   "title": "Protocol: Rain",
+   "originalTitle": "Bokura no Ameiro Protocol",
+   "urlPath": "/de/video/1095-protocol-rain",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1097,
+   "title": "The Yuzuki Family’s Four Sons",
+   "originalTitle": "Yuzuki-san Chi no Yon Kyoudai",
+   "urlPath": "/de/video/1097-the-yuzuki-family-s-four-sons",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Slice-of-Life"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1098,
+   "title": "Paradox Live THE ANIMATION",
+   "originalTitle": "Paradox Live THE ANIMATION",
+   "urlPath": "/de/video/1098-paradox-live-the-animation",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Slice-of-Life"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1100,
+   "title": "The Demon Sword Master of Excalibur Academy",
+   "originalTitle": "Seiken Gakuin no Maken Tsukai",
+   "urlPath": "/de/video/1100-the-demon-sword-master-of-excalibur-academy",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1101,
+   "title": "The Vexations of a Shut-In Vampire Princess",
+   "originalTitle": "Hikikomari Kyuuketsuki no Monmon",
+   "urlPath": "/de/video/1101-the-vexations-of-a-shut-in-vampire-princess",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1106,
+   "title": "MONSTERS",
+   "originalTitle": "MONSTERS: Ippyaku Sanjou Hiryuu Jigoku",
+   "urlPath": "/de/video/1106-monsters",
+   "type": "OAV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1112,
+   "title": "Mayo Chiki!",
+   "originalTitle": "まよチキ!",
+   "urlPath": "/de/video/1112-mayo_chiki",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1113,
+   "title": "Hyakka Ryouran Samurai Girls",
+   "originalTitle": "百花繚乱 サムライガールズ",
+   "urlPath": "/de/video/1113-hyakka-ryouran-samurai-girls",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1114,
+   "title": "The Kawai Complex Guide to Manors and Hostel Behavior",
+   "originalTitle": "Bokura wa Minna Kawaisou",
+   "urlPath": "/de/video/1114-the-kawai-complex-guide-to-manors-and-hostel-behavior",
+   "type": "OAV",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Comedy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1115,
+   "title": "Night Head Genesis",
+   "originalTitle": "ナイトヘッドジェネシス",
+   "urlPath": "/de/video/1115-night-head-genesis",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Thriller",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1118,
+   "title": "Pon no Michi",
+   "originalTitle": "ぽんのみち",
+   "urlPath": "/de/video/1118-pon-no-michi",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1119,
+   "title": "Shaman King Flowers",
+   "originalTitle": "シャーマンキング FLOWERS",
+   "urlPath": "/de/video/1119-shaman-king-flowers",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1121,
+   "title": "Gushing over Magical Girls",
+   "originalTitle": "Mahō Shōjo ni Akogarete",
+   "urlPath": "/de/video/1121-gushing-over-magical-girls",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1122,
+   "title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me!",
+   "originalTitle": "Sokushi Cheat ga Saikyôsugite, Isekai no Yatsura ga marude Aite ni Naranain Desu ga",
+   "urlPath": "/de/video/1122-my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Isekai",
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1125,
+   "title": "Demon Slave",
+   "originalTitle": "魔都精兵のスレイブ",
+   "urlPath": "/de/video/1125-demon-slave",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1130,
+   "title": "Maid-Sama!",
+   "originalTitle": "Kaichou wa Maid-sama!",
+   "urlPath": "/de/video/1130-maid-sama",
+   "type": "EPS",
+   "episodeCount": 27,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance",
+    "Slice-of-Life",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1132,
+   "title": "Black Bullet",
+   "originalTitle": "ブラック・ブレット",
+   "urlPath": "/de/video/1132-black-bullet",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Japanische Animation",
+    "Sci-Fi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1133,
+   "title": "Demon King Daimao",
+   "originalTitle": "いちばんうしろの大魔王",
+   "urlPath": "/de/video/1133-demon-king-daimao",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1134,
+   "title": "Free!",
+   "originalTitle": "Free!",
+   "urlPath": "/de/video/1134-free",
+   "type": "EPS",
+   "episodeCount": 37,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Slice-of-Life",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1135,
+   "title": "Interspecies Reviewers",
+   "originalTitle": "異種族レビュアーズ",
+   "urlPath": "/de/video/1135-interspecies-reviewers",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "18+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1136,
+   "title": "Kenichi: The Mightiest Disciple",
+   "originalTitle": "史上最強の弟子ケンイチ",
+   "urlPath": "/de/video/1136-kenichi-the-mightiest-disciple",
+   "type": "EPS",
+   "episodeCount": 50,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1137,
+   "title": "Love Stage!!",
+   "originalTitle": "LOVE STAGE!!",
+   "urlPath": "/de/video/1137-love-stage",
+   "type": "EPS",
+   "episodeCount": 11,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1138,
+   "title": "Plastic Memories",
+   "originalTitle": "プラスティック・メモリーズ",
+   "urlPath": "/de/video/1138-plastic-memories",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1139,
+   "title": "Rosario + Vampire",
+   "originalTitle": "ロザリオとバンパイア",
+   "urlPath": "/de/video/1139-rosario-vampire",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1140,
+   "title": "Steins;Gate: The Movie",
+   "originalTitle": "劇場版 シュタインズ・ゲート 負荷領域のデジャヴ",
+   "urlPath": "/de/video/1140-steins-gate-the-movie",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Romance",
+    "Thriller",
+    "Japanische Animation",
+    "Sci-Fi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1141,
+   "title": "The Testament of Sister New Devil",
+   "originalTitle": "新妹魔王の契約者(テスタメント)",
+   "urlPath": "/de/video/1141-the-testament-of-sister-new-devil",
+   "type": "OAV",
+   "episodeCount": 23,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1142,
+   "title": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+   "originalTitle": "慎重勇者 ～この勇者が俺TUEEEくせに慎重すぎる～",
+   "urlPath": "/de/video/1142-cautious-hero-the-hero-is-overpowered-but-overly-cautious",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Isekai",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1143,
+   "title": "Wolf's Rain",
+   "originalTitle": "ウルフズ・レイン",
+   "urlPath": "/de/video/1143-wolfs-rain",
+   "type": "EPS",
+   "episodeCount": 30,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Fantasy",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1144,
+   "title": "Billy & Buddy",
+   "originalTitle": "Boule et Bill",
+   "urlPath": "/de/video/1144-billy-buddy",
+   "type": "EPS",
+   "episodeCount": 104,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1145,
+   "title": "The Garfield Show",
+   "originalTitle": "The Garfield Show",
+   "urlPath": "/de/video/1145-the-garfield-show",
+   "type": "EPS",
+   "episodeCount": 211,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1146,
+   "title": "Kleine Strubbel",
+   "originalTitle": "Little Furry",
+   "urlPath": "/de/video/1146-kleine-strubbel",
+   "type": "EPS",
+   "episodeCount": 78,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1147,
+   "title": "Little Hippo",
+   "originalTitle": "Petit Potam",
+   "urlPath": "/de/video/1147-little-hippo",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1160,
+   "title": "DAN DA DAN",
+   "originalTitle": "ダンダダン",
+   "urlPath": "/de/video/1160-dan-da-dan",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Japanische Animation",
+    "Romance"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1161,
+   "title": "Dead Cells: Immortalis",
+   "originalTitle": "Dead Cells : Immortalis",
+   "urlPath": "/de/video/1161-dead-cells-immortalis",
+   "type": "EPS",
+   "episodeCount": 11,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure",
+    "Fantasy",
+    "Action"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1162,
+   "title": "Rave",
+   "originalTitle": "レイヴ",
+   "urlPath": "/de/video/1162-rave",
+   "type": "EPS",
+   "episodeCount": 51,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1164,
+   "title": "Jellyfish Can't Swim in the Night",
+   "originalTitle": "夜のクラゲは泳げない",
+   "urlPath": "/de/video/1164-jellyfish-can-t-swim-in-the-night",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1165,
+   "title": "Flüster mir ein Liebeslied",
+   "originalTitle": "ささやくように恋を唄う",
+   "urlPath": "/de/video/1165-fluster-mir-ein-liebeslied",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1166,
+   "title": "TONBO!",
+   "originalTitle": "オーイ! とんぼ",
+   "urlPath": "/de/video/1166-tonbo",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Sport",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1167,
+   "title": "Mama Fuchs und Papa Dachs",
+   "originalTitle": "La Famille Blaireau-Renard",
+   "urlPath": "/de/video/1167-the-fox-badger-family",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1168,
+   "title": "Sword of the Demon Hunter KIJIN GENTÔSHÔ",
+   "originalTitle": "鬼人幻燈抄",
+   "urlPath": "/de/video/1168-sword-of-the-demon-hunter-kijin-gentosho",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Thriller"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1169,
+   "title": "HIGHSPEED Etoile",
+   "originalTitle": "HIGHSPEED Etoile (ハイスピード エトワール)",
+   "urlPath": "/de/video/1169-highspeed-etoile",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1170,
+   "title": "RINKAI!",
+   "originalTitle": "リンカイ!",
+   "urlPath": "/de/video/1170-rinkai",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1171,
+   "title": "Plus-Sized Elf",
+   "originalTitle": "エルフさんは痩せられない。",
+   "urlPath": "/de/video/1171-plus-sized-elf",
+   "type": "EPS",
+   "episodeCount": 14,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1176,
+   "title": "Pyramid Game",
+   "originalTitle": "피라미드 게임",
+   "urlPath": "/de/video/1176-pyramid-game",
+   "type": "EPS",
+   "episodeCount": 9,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Thriller",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1178,
+   "title": "Babar",
+   "originalTitle": "Babar",
+   "urlPath": "/de/video/1178-babar",
+   "type": "EPS",
+   "episodeCount": 36,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1186,
+   "title": "2.5 Dimensional Seduction",
+   "originalTitle": "2.5次元の誘惑",
+   "urlPath": "/de/video/1186-2-5-dimensional-seduction",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1188,
+   "title": "My Deer Friend Nokotan",
+   "originalTitle": "Shikanoko Nokonoko Koshitantan",
+   "urlPath": "/de/video/1188-my-deer-friend-nokotan",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1197,
+   "title": "Aesthetica of a Rogue Hero",
+   "originalTitle": "Hagure Yuusha no Aesthetica",
+   "urlPath": "/de/video/1197-aesthetica-of-a-rogue-hero",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance",
+    "Slice-of-Life",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1201,
+   "title": "Clannad: The Movie",
+   "originalTitle": "劇場版 クラナド",
+   "urlPath": "/de/video/1201-clannad-the-movie",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Drama",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1206,
+   "title": "Ramen Akaneko",
+   "originalTitle": "ラーメン赤猫",
+   "urlPath": "/de/video/1206-ramen-akaneko",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1207,
+   "title": "I Parry Everything!",
+   "originalTitle": "Ore wa Subete o \"Parry\" Suru: Gyaku Kanchigai no Sekai Saikyō wa Bōken-sha ni Naritai",
+   "urlPath": "/de/video/1207-i-parry-everything",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1208,
+   "title": "Chiikawa",
+   "originalTitle": "ちいかわ / なんか小さくてかわいいやつ",
+   "urlPath": "/de/video/1208-chiikawa",
+   "type": "EPS",
+   "episodeCount": 240,
+   "age": "0+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1212,
+   "title": "Butt Detective",
+   "originalTitle": "おしりたんてい",
+   "urlPath": "/de/video/1212-butt-detective",
+   "type": "EPS",
+   "episodeCount": 60,
+   "age": "0+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Thriller"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1216,
+   "title": "Bakemonogatari",
+   "originalTitle": "化物語",
+   "urlPath": "/de/video/1216-bakemonogatari",
+   "type": "EPS",
+   "episodeCount": 15,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1217,
+   "title": "Nisemonogatari",
+   "originalTitle": "偽物語",
+   "urlPath": "/de/video/1217-nisemonogatari",
+   "type": "EPS",
+   "episodeCount": 11,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1218,
+   "title": "Kill la Kill",
+   "originalTitle": "キルラキル",
+   "urlPath": "/de/video/1218-kill-la-kill",
+   "type": "EPS",
+   "episodeCount": 0,
+   "age": "16+",
+   "languages": [],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1220,
+   "title": "Owarimonogatari",
+   "originalTitle": "終物語",
+   "urlPath": "/de/video/1220-owarimonogatari",
+   "type": "EPS",
+   "episodeCount": 16,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1223,
+   "title": "Nekomonogatari Black",
+   "originalTitle": "猫物語(黒)",
+   "urlPath": "/de/video/1223-nekomonogatari-black",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1224,
+   "title": "Tsukimonogatari",
+   "originalTitle": "憑物語",
+   "urlPath": "/de/video/1224-tsukimonogatari",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1225,
+   "title": "Kizumonogatari",
+   "originalTitle": "傷物語",
+   "urlPath": "/de/video/1225-kizumonogatari",
+   "type": "MOV",
+   "episodeCount": 3,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1226,
+   "title": "Hanamonogatari",
+   "originalTitle": "花物語",
+   "urlPath": "/de/video/1226-hanamonogatari",
+   "type": "EPS",
+   "episodeCount": 5,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1227,
+   "title": "Zoku Owarimonogatari",
+   "originalTitle": "続・終物語",
+   "urlPath": "/de/video/1227-zoku-owarimonogatari",
+   "type": "EPS",
+   "episodeCount": 6,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1228,
+   "title": "Monogatari Series Second Season",
+   "originalTitle": "＜物語＞シリーズ セカンドシーズン",
+   "urlPath": "/de/video/1228-monogatari-series-second-season",
+   "type": "EPS",
+   "episodeCount": 23,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1231,
+   "title": "No Love Zone",
+   "originalTitle": "연애제한구역",
+   "urlPath": "/de/video/1231-no-love-zone",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Romance",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1233,
+   "title": "Loner Life in Another World",
+   "originalTitle": "ひとりぼっちの異世界攻略",
+   "urlPath": "/de/video/1233-loner-life-in-another-world",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1234,
+   "title": "Blue Miburo",
+   "originalTitle": "青のミブロ",
+   "urlPath": "/de/video/1234-blue-miburo",
+   "type": "EPS",
+   "episodeCount": 38,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1239,
+   "title": "Dragon Ball DAIMA",
+   "originalTitle": "ドラゴンボール DAIMA / ドラゴンボール 大魔",
+   "urlPath": "/de/video/1239-dragon-ball-daima",
+   "type": "EPS",
+   "episodeCount": 20,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1240,
+   "title": "Haigakura",
+   "originalTitle": "ハイガクラ",
+   "urlPath": "/de/video/1240-haigakura",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1256,
+   "title": "No Home",
+   "originalTitle": "No Home",
+   "urlPath": "/de/video/1256-no-home",
+   "type": "EPS",
+   "episodeCount": 8,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Slice-of-Life",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1257,
+   "title": "Asateer – Future's Folktales",
+   "originalTitle": "アサティール 未来の昔ばなし",
+   "urlPath": "/de/video/1257-asateer-futures-folktales",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1258,
+   "title": "ONE PIECE FAN LETTER",
+   "originalTitle": "ONE PIECE FAN LETTER",
+   "urlPath": "/de/video/1258-one-piece-fan-letter",
+   "type": "EPS",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1259,
+   "title": "Puniru is a Kawaii Slime",
+   "originalTitle": "ぷにるはかわいいスライム",
+   "urlPath": "/de/video/1259-puniru-is-a-kawaii-slime",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": true,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1260,
+   "title": "ONE PIECE Log: Fish-Man Island Saga",
+   "originalTitle": "ONE PIECE Log: Fish-Man Island Saga",
+   "urlPath": "/de/video/1260-one-piece-log-fish-man-island-saga",
+   "type": "EPS",
+   "episodeCount": 21,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1261,
+   "title": "Yu-Gi-Oh! Duel Monsters",
+   "originalTitle": "遊戯王 デュエルモンスターズ",
+   "urlPath": "/de/video/1261-yu-gi-oh-duel-monsters-germany",
+   "type": "EPS",
+   "episodeCount": 236,
+   "age": "10+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1263,
+   "title": "SamSam",
+   "originalTitle": "Samsam",
+   "urlPath": "/de/video/1263-samsam",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1265,
+   "title": "Billy & Buddy 3D",
+   "originalTitle": "Boule & Bill 3D",
+   "urlPath": "/de/video/1265-boule-et-bill-trois-d",
+   "type": "EPS",
+   "episodeCount": 104,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1266,
+   "title": "From Bureaucrat to Villainess: Dad's Been Reincarnated!",
+   "originalTitle": "悪役令嬢転生おじさん",
+   "urlPath": "/de/video/1266-from-bureaucrat-to-villainess-dads-been-reincarnated",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Fantasy",
+    "Japanische Animation",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1267,
+   "title": "I'm Living With an Otaku NEET Kunoichi!?",
+   "originalTitle": "ニートくノ一となぜか同棲はじめました",
+   "urlPath": "/de/video/1267-im-living-with-an-otaku-neet-kunoichi",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1268,
+   "title": "Sorairo Utility",
+   "originalTitle": "空色ユーティリティ",
+   "urlPath": "/de/video/1268-sorairo-utility",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1272,
+   "title": "WITCH WATCH",
+   "originalTitle": "ウィッチウォッチ",
+   "urlPath": "/de/video/1272-witch-watch",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1275,
+   "title": "Beyond the Boundary - I'll be here",
+   "originalTitle": "Gekijō-ban Kyōkai no Kanata -I'll Be Here-",
+   "urlPath": "/de/video/1275-beyond-the-boundary-ill-be-here",
+   "type": "MOV",
+   "episodeCount": 2,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1277,
+   "title": "Die Piratenfamilie",
+   "originalTitle": "Famille pirate",
+   "urlPath": "/de/video/1277-die-piraten-familie",
+   "type": "EPS",
+   "episodeCount": 14,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1278,
+   "title": "Yakari",
+   "originalTitle": "Yakari",
+   "urlPath": "/de/video/1278-yakari",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "0+",
+   "languages": [
+    "vde"
+   ],
+   "genres": [
+    "Französische Animation",
+    "Adventure",
+    "Comedy",
+    "Drama"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": null,
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1281,
+   "title": "The Summer",
+   "originalTitle": "그 여름",
+   "urlPath": "/de/video/1281-the-summer",
+   "type": "EPS",
+   "episodeCount": 7,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Romance",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1282,
+   "title": "The Demon Queen has a Death Wish",
+   "originalTitle": "마왕님은 죽고 싶어",
+   "urlPath": "/de/video/1282-the-demon-queen-has-a-death-wish",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Romance",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1283,
+   "title": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
+   "originalTitle": "ちょっとだけ愛が重いダークエルフが異世界から追いかけてきた",
+   "urlPath": "/de/video/1283-yandere-dark-elf-she-chased-me-all-the-way-from-another-world",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Fantasy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1284,
+   "title": "Kakushite! Makina-san!!",
+   "originalTitle": "かくして!マキナさん!!",
+   "urlPath": "/de/video/1284-kakushite-makina-san",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1286,
+   "title": "Me and the Alien MuMu",
+   "originalTitle": "Uchūjin MūMū",
+   "urlPath": "/de/video/1286-me-and-the-alien-muumuu",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Comedy",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1287,
+   "title": "Rock is a Lady’s Modesty",
+   "originalTitle": "Rock wa Shukujo no Tashinamideshite",
+   "urlPath": "/de/video/1287-rock-is-a-ladys-modesty",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1288,
+   "title": "Umamusume: Cinderella Gray",
+   "originalTitle": "ウマ娘 シンデレラグレイ",
+   "urlPath": "/de/video/1288-uma-musume-cinderella-gray",
+   "type": "EPS",
+   "episodeCount": 23,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Slice-of-Life",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1289,
+   "title": "YAIBA: Samurai Legend",
+   "originalTitle": "YAIBA -やいば-",
+   "urlPath": "/de/video/1289-yaiba",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1290,
+   "title": "Observing Elena Evoy",
+   "originalTitle": "Elena Evoy Gwanchal Ilji",
+   "urlPath": "/de/video/1290-observing-elena-evoy",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1291,
+   "title": "Season of Change",
+   "originalTitle": "느린 장마",
+   "urlPath": "/de/video/1291-season-of-change",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Sport",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1292,
+   "title": "The forgotten Princess just wants Peace",
+   "originalTitle": "잊혀진 황녀는 평화롭게 살고 싶어",
+   "urlPath": "/de/video/1292-the-forgotten-princess-just-wants-peace",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Fantasy",
+    "Romance",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1294,
+   "title": "SUPER CUBE",
+   "originalTitle": "超能立方 超凡篇",
+   "urlPath": "/de/video/1294-super-cube",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1302,
+   "title": "Red Fox",
+   "originalTitle": "Bulkeun Yeou",
+   "urlPath": "/de/video/1302-red-fox",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Thriller",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1303,
+   "title": "The All-devouring Whale",
+   "originalTitle": "Kun Tun Tian Xia Zhi Zuang Men Gui Lai",
+   "urlPath": "/de/video/1303-the-all-devouring-whale",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1305,
+   "title": "Sword Art Online: Extra Edition",
+   "originalTitle": "ソードアート・オンライン Extra Edition",
+   "urlPath": "/de/video/1305-sword-art-online-extra-edition",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Japanische Animation",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1307,
+   "title": "Fermat Kitchen",
+   "originalTitle": "Fermat no Ryôri",
+   "urlPath": "/de/video/1307-fermat-kitchen",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Drama",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1308,
+   "title": "Bad Girl",
+   "originalTitle": "Bad Girl",
+   "urlPath": "/de/video/1308-bad-girl",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1309,
+   "title": "Sword Art Online The Movie: Ordinal Scale",
+   "originalTitle": "ソードアート・オンライン the Movie - Ordinal Scale -",
+   "urlPath": "/de/video/1309-sword-art-online-the-movie-ordinal-scale",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Japanische Animation",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1311,
+   "title": "TOUGEN ANKI",
+   "originalTitle": "桃源暗鬼",
+   "urlPath": "/de/video/1311-tougen-anki",
+   "type": "EPS",
+   "episodeCount": 30,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1312,
+   "title": "April Showers Bring May Flowers",
+   "originalTitle": "ブスに花束を。",
+   "urlPath": "/de/video/1312-april-showers-bring-may-flowers",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1315,
+   "title": "Sword Art Online Alternative: Gun Gale Online",
+   "originalTitle": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン",
+   "urlPath": "/de/video/1315-sword-art-online-alternative-gun-gale-online",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Japanische Animation",
+    "Isekai",
+    "Sci-Fi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1318,
+   "title": "Puella Magi Madoka Magica",
+   "originalTitle": "Mahô Shôjo Madoka Magica",
+   "urlPath": "/de/video/1318-puella-magi-madoka-magica",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1319,
+   "title": "Puella Magi Madoka Magica – Film 1: Beginnings",
+   "originalTitle": "Mahô Shôjo Madoka Magica the Movie Part I : Hajimari no Monogatari",
+   "urlPath": "/de/video/1319-puella-magi-madoka-magica-the-movie-part1-beginnings",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1320,
+   "title": "Puella Magi Madoka Magica – Film 2: Eternal",
+   "originalTitle": "Mahô Shôjo Madoka Magica the Movie Part II : Eien no Monogatari",
+   "urlPath": "/de/video/1320-puella-magi-madoka-magica-the-movie-part2-eternal",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1321,
+   "title": "Puella Magi Madoka Magica – Film 3: Rebellion",
+   "originalTitle": "Mahô Shôjo Madoka Magica the Movie Part III : Hangyaku no Monogatari",
+   "urlPath": "/de/video/1321-puella-magi-madoka-magica-the-movie-rebellion",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1322,
+   "title": "Azumanga Daioh",
+   "originalTitle": "あずまんが大王 THE ANIMATION",
+   "urlPath": "/de/video/1322-azumanga-daioh",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1323,
+   "title": "The New Chronicles of Extraordinary Beings: Preface",
+   "originalTitle": "Xin·Yi Chang Sheng Wu Jian Wen Lu:Xu",
+   "urlPath": "/de/video/1323-the-new-chronicles-of-extraordinary-beings",
+   "type": "EPS",
+   "episodeCount": 7,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1324,
+   "title": "Demon's Ascension",
+   "originalTitle": "Mo Tian Ji",
+   "urlPath": "/de/video/1324-demon-s-ascension",
+   "type": "EPS",
+   "episodeCount": 16,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1325,
+   "title": "Alderamin on the Sky",
+   "originalTitle": "Nejimaki Seirei Senki : Tenkyou no Alderamin",
+   "urlPath": "/de/video/1325-alderamin-on-the-sky",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1326,
+   "title": "Keijo!!!!!!!!",
+   "originalTitle": "Keijo!!!!!!!!",
+   "urlPath": "/de/video/1326-keijo",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Slice-of-Life",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1329,
+   "title": "Love Hina",
+   "originalTitle": "ラブひな",
+   "urlPath": "/de/video/1329-love-hina",
+   "type": "EPS",
+   "episodeCount": 27,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Romance",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1331,
+   "title": "Der Held ohne Klasse: Der Aufstieg eines Talentlosen",
+   "originalTitle": "Mushoku no Eiyuu - Betsu ni Skill Nanka Iranakattan da ga",
+   "urlPath": "/de/video/1331-hero-without-a-class-who-even-needs-skills",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1333,
+   "title": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I’m Out for Revenge!",
+   "originalTitle": "Shinjite Ita Nakama-tachi ni Dungeon Okuchi de Korosare Kaketaga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+   "urlPath": "/de/video/1333-my-gift-lvl-9999-unlimited-gacha-backstabbed-in-a-backwater-dungeon-im-out-for-revenge",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1334,
+   "title": "Dusk Beyond the End of the World",
+   "originalTitle": "Towa no Yūgure",
+   "urlPath": "/de/video/1334-dusk-beyond-the-end-of-the-world",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1337,
+   "title": "When I Woke Up I Became a Bagel Girl",
+   "originalTitle": "Eoneu Nal Jameseo Kkaeeoboni Bagelyeoga Doeeo Isseotda",
+   "urlPath": "/de/video/1337-when-i-woke-up-i-became-a-bagel-girl",
+   "type": "EPS",
+   "episodeCount": 15,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Koreanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1338,
+   "title": "Revolutionary Girl Utena – The Movie",
+   "originalTitle": "Shoujo Kakumei Utena : Adolescence Mokushiroku",
+   "urlPath": "/de/video/1338-revolutionary-girl-utena-the-movie",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1346,
+   "title": "Cross Game",
+   "originalTitle": "クロスゲーム",
+   "urlPath": "/de/video/1346-cross-game",
+   "type": "EPS",
+   "episodeCount": 0,
+   "age": "10+",
+   "languages": [],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Romance",
+    "Slice-of-Life",
+    "Sport"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1347,
+   "title": "Reincarnated as a Dragon Hatchling",
+   "originalTitle": "Tensei Shitara Dragon no Tamago Datta",
+   "urlPath": "/de/video/1347-reincarnated-as-a-dragon-hatchling",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Isekai",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1348,
+   "title": "Does it Count if You Lose Your Innocence to an Android?",
+   "originalTitle": "Android wa Keiken Ninzuu ni Hairimasu ka??",
+   "urlPath": "/de/video/1348-does-it-count-if-you-lose-your-innocence-to-an-android",
+   "type": "OAV",
+   "episodeCount": 9,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1349,
+   "title": "High School! Kimengumi",
+   "originalTitle": "High School! Kimengumi",
+   "urlPath": "/de/video/1349-high-school-kimengumi",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1350,
+   "title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+   "originalTitle": "Hell Mode - Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
+   "urlPath": "/de/video/1350-hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing",
+   "type": "EPS",
+   "episodeCount": 25,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Isekai",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1351,
+   "title": "Be My Wife",
+   "originalTitle": "Xie Wang Zhui Qi",
+   "urlPath": "/de/video/1351-be-my-wife",
+   "type": "EPS",
+   "episodeCount": 41,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Chinesische Animation",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1352,
+   "title": "C: Control",
+   "originalTitle": "C – Control – The Money and Soul of Possibility",
+   "urlPath": "/de/video/1352-c-control",
+   "type": "EPS",
+   "episodeCount": 11,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Fantasy",
+    "Thriller"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1354,
+   "title": "Parasyte: The Maxim",
+   "originalTitle": "Kiseijū : Sei no Kakuritsu",
+   "urlPath": "/de/video/1354-parasyte-the-maxim",
+   "type": "EPS",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1355,
+   "title": "Kids on the Slope",
+   "originalTitle": "Sakamichi no Apollon",
+   "urlPath": "/de/video/1355-kids-on-the-slope",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1362,
+   "title": "Blades of the Guardians",
+   "originalTitle": "Biao Ren",
+   "urlPath": "/de/video/1362-blades-of-the-guardians",
+   "type": "EPS",
+   "episodeCount": 23,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1364,
+   "title": "No Doubt in Us",
+   "originalTitle": "Liang Bu Yi",
+   "urlPath": "/de/video/1364-no-doubt-in-us",
+   "type": "EPS",
+   "episodeCount": 48,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Romance",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1366,
+   "title": "Full Moon wo Sagashite",
+   "originalTitle": "Full Moon wo Sagashite",
+   "urlPath": "/de/video/1366-full-moon-wo-sagashite",
+   "type": "EPS",
+   "episodeCount": 52,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Shojo"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1368,
+   "title": "Monster but Wild",
+   "originalTitle": "Qu Qu Bu Cai, Zai Xia Ye Guai",
+   "urlPath": "/de/video/1368-monster-but-wild",
+   "type": "EPS",
+   "episodeCount": 28,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1369,
+   "title": "B King",
+   "originalTitle": "Yu Ling Shi",
+   "urlPath": "/de/video/1369-b-king",
+   "type": "EPS",
+   "episodeCount": 18,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Isekai",
+    "Romance",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1370,
+   "title": "Kenichi: The Mightiest Disciple - The Attack of Darkness",
+   "originalTitle": "Shijō Saikyō no Deshi Kenichi",
+   "urlPath": "/de/video/1370-kenichi-the-mightiest-disciple-the-attack-of-darkness",
+   "type": "OAV",
+   "episodeCount": 11,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1372,
+   "title": "The Ravages of Time",
+   "originalTitle": "Huo Feng Liao Yuan",
+   "urlPath": "/de/video/1372-the-ravages-of-time",
+   "type": "EPS",
+   "episodeCount": 32,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1373,
+   "title": "Immortality",
+   "originalTitle": "Yong Sheng",
+   "urlPath": "/de/video/1373-immortality",
+   "type": "EPS",
+   "episodeCount": 56,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Chinesische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1374,
+   "title": "Magical Girl Spec-Ops Asuka",
+   "originalTitle": "Mahō Shōjo Tokushūsen Asuka",
+   "urlPath": "/de/video/1374-magical-girl-spec-ops-asuka",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Drama",
+    "Thriller",
+    "Slice-of-Life",
+    "Seinen",
+    "Ecchi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1375,
+   "title": "Dorohedoro",
+   "originalTitle": "Dorohedoro",
+   "urlPath": "/de/video/1375-dorohedoro",
+   "type": "OAV",
+   "episodeCount": 24,
+   "age": "16+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Drama",
+    "Thriller",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1377,
+   "title": "Monster Strike: Deadverse Reload",
+   "originalTitle": "Monster Strike - Deadverse Reloaded",
+   "urlPath": "/de/video/1377-monster-strike-deadverse-reloaded",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1378,
+   "title": "4 Cut Hero",
+   "originalTitle": "Si Ge Yong Zhe",
+   "urlPath": "/de/video/1378-four-cut-hero",
+   "type": "EPS",
+   "episodeCount": 10,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1379,
+   "title": "The Daily Life of the Immortal King",
+   "originalTitle": "Xian Wang De Ri Chang Sheng Huo",
+   "urlPath": "/de/video/1379-the-daily-life-of-the-immortal-king",
+   "type": "EPS",
+   "episodeCount": 15,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Slice-of-Life",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1381,
+   "title": "Rilakkuma",
+   "originalTitle": "Rilakkuma",
+   "urlPath": "/de/video/1381-rilakkuma",
+   "type": "EPS",
+   "episodeCount": 29,
+   "age": "0+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1382,
+   "title": "Yowayowa Sensei",
+   "originalTitle": "Yowayowa Sensei",
+   "urlPath": "/de/video/1382-yowayowa-sensei",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1383,
+   "title": "Kill Blue",
+   "originalTitle": "Kill Ao",
+   "urlPath": "/de/video/1383-kill-blue",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Shonen",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1384,
+   "title": "Ichijōma Mankitsu Gurashi!",
+   "originalTitle": "Ichijōma Mankitsu Gurashi!",
+   "urlPath": "/de/video/1384-ichijoma-mankitsu-gurashi",
+   "type": "EPS",
+   "episodeCount": 11,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1385,
+   "title": "Ingoku Danchi: Deviant's Apartment Complex",
+   "originalTitle": "Ingoku Danchi",
+   "urlPath": "/de/video/1385-ingoku-danchi-deviants-apartment-complex",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Ecchi",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1389,
+   "title": "The First Order",
+   "originalTitle": "Di Yi Xu Lie",
+   "urlPath": "/de/video/1389-the-first-order",
+   "type": "EPS",
+   "episodeCount": 16,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1390,
+   "title": "War God System! I'm Counting on You!",
+   "originalTitle": "Kao Ni La ! Zhan Shen Xi Tong",
+   "urlPath": "/de/video/1390-war-god-system-im-counting-on-you",
+   "type": "EPS",
+   "episodeCount": 16,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1391,
+   "title": "Gantz",
+   "originalTitle": "ガンツ",
+   "urlPath": "/de/video/1391-gantz",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Drama",
+    "Thriller",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1392,
+   "title": "Sweetness & Lightning",
+   "originalTitle": "Amaama to Inazuma",
+   "urlPath": "/de/video/1392-sweetness-and-lightning",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Seinen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1395,
+   "title": "I want you to show me your panties with a disgusted face returns",
+   "originalTitle": "Iya na Kao Sare Nagara Opantsu Misete Moraitai Returns",
+   "urlPath": "/de/video/1395-i-want-you-to-show-me-your-panties-with-a-disgusted-face-returns",
+   "type": "EPS",
+   "episodeCount": 6,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Ecchi"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1396,
+   "title": "Alice im Wunderland: Dive in Wonderland",
+   "originalTitle": "Fushigi no Kuni de Alice to -Dive in Wonderland-",
+   "urlPath": "/de/video/1396-dive-in-wonderland",
+   "type": "MOV",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Adventure",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Roman",
+   "distributions": "de,pl",
+   "rating": 3
+  },
+  {
+   "id": 1397,
+   "title": "Mononoke",
+   "originalTitle": "Mononoke",
+   "urlPath": "/de/video/1397-mononoke_tv",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Fantasy",
+    "Action"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1399,
+   "title": "The Forsaken Saintess and Her Foodie Road Trip in Another World",
+   "originalTitle": "Kajiya de Hajimeru Isekai Slow Life",
+   "urlPath": "/de/video/1399-the-forsaken-saintess-and-her-foodie-road-trip-in-another-world",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy",
+    "Japanische Animation",
+    "Isekai"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1402,
+   "title": "Ringing Fate",
+   "originalTitle": "Mingyun Quan Tai",
+   "urlPath": "/de/video/1402-ringing-fate",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1403,
+   "title": "Legend of Exorcism",
+   "originalTitle": "Tian Bao Fu Yao Lu",
+   "urlPath": "/de/video/1403-legend-of-exorcism",
+   "type": "EPS",
+   "episodeCount": 26,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1408,
+   "title": "Hyakko",
+   "originalTitle": "ヒャッコ",
+   "urlPath": "/de/video/1408-hyakko",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1409,
+   "title": "The World is Dancing",
+   "originalTitle": "ワールド イズ ダンシング",
+   "urlPath": "/de/video/1409-the-world-is-dancing",
+   "type": "EPS",
+   "episodeCount": 13,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1411,
+   "title": "Flaming Dodgeball Girl Danko",
+   "originalTitle": "Honō no Tōkyūjo - Dodge Danko",
+   "urlPath": "/de/video/1411-flaming-dodgeball-girl-danko",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Sport",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1412,
+   "title": "ONE PIECE HEROINES: Nami",
+   "originalTitle": "One Piece: Heroines",
+   "urlPath": "/de/video/1412-one-piece-heroines-nami",
+   "type": "EPS",
+   "episodeCount": 1,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1413,
+   "title": "Kotoura-san",
+   "originalTitle": "琴浦さん",
+   "urlPath": "/de/video/1413-kotoura-san",
+   "type": "EPS",
+   "episodeCount": 0,
+   "age": "12+",
+   "languages": [],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de,fr",
+   "rating": 3
+  },
+  {
+   "id": 1415,
+   "title": "Love & Lies",
+   "originalTitle": "Koi to Uso",
+   "urlPath": "/de/video/1415-love-and-lies",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "10+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice-of-Life"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1419,
+   "title": "SERVAMP",
+   "originalTitle": "サーヴァンプ",
+   "urlPath": "/de/video/1419-servamp",
+   "type": "EPS",
+   "episodeCount": 12,
+   "age": "12+",
+   "languages": [
+    "vostde",
+    "vde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Comedy",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Manga",
+   "distributions": "de",
+   "rating": 3
+  },
+  {
+   "id": 1423,
+   "title": "86 EIGHTY-SIX",
+   "originalTitle": "86 ―エイティシックス―",
+   "urlPath": "/de/video/1423-eighty-six",
+   "type": "EPS",
+   "episodeCount": 23,
+   "age": "16+",
+   "languages": [
+    "vde",
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": false,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1427,
+   "title": "THE LEGEND OF HEI II",
+   "originalTitle": "Luo Xiao Hei Zhan Ji Da Dian Ying II",
+   "urlPath": "/de/video/1427-the-legend-of-hei-ii",
+   "type": "MOV",
+   "episodeCount": 3,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Fantasy",
+    "Slice-of-Life",
+    "Chinesische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1428,
+   "title": "Even the Student Council Has Its Holes!",
+   "originalTitle": "Even the Student Council Has Its Holes!",
+   "urlPath": "/de/video/1428-even-the-student-council-has-its-holes",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "16+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Comedy",
+    "Ecchi",
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1429,
+   "title": "Now That I Can Control Reality With A Mouse Cursor, I’m Gonna Click Away On The Girls!",
+   "originalTitle": "Mouse Cursor de Genjitsu o Sōsa Dekiru Yō ni Natta no de, Onnanoko o Ippai Click Shimasu",
+   "urlPath": "/de/video/1429-now-that-i-can-control-reality-with-a-mouse-cursor-im-gonna-click-away-on-the-girls",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Ecchi",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1430,
+   "title": "My Girlfriend's Friend",
+   "originalTitle": "Kanojo no Tomodachi",
+   "urlPath": "/de/video/1430-my-girlfriends-friend",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "18+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Drama",
+    "Ecchi",
+    "Romance"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1431,
+   "title": "Nia Liston: The Merciless Maiden",
+   "originalTitle": "Kyouran Reijou Nia Liston - Byoujaku Reijou ni Tensei Shita Kamigoroshi no Bujin no Kareinaru Musouroku",
+   "urlPath": "/de/video/1431-nia-liston-the-merciless-maiden",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "12+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Isekai",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Light Novel",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1432,
+   "title": "Dragon Ball Super: Beerus",
+   "originalTitle": "Dragon Ball Super: Beerus",
+   "urlPath": "/de/video/1432-dragon-ball-super-beerus",
+   "type": "EPS",
+   "episodeCount": 3,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Shonen"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Manga",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1433,
+   "title": "Suikoden",
+   "originalTitle": "Gensô Suikoden",
+   "urlPath": "/de/video/1433-suikoden",
+   "type": "EPS",
+   "episodeCount": 4,
+   "age": "10+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Japanische Animation",
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "free": false,
+   "simulcast": true,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Jeu Vidéo",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  },
+  {
+   "id": 1434,
+   "title": "Welcome to Yu-hachi's House!",
+   "originalTitle": "Ah, Tanuki wa Mō Dame Desu",
+   "urlPath": "/de/video/1434-yu-sanchi-from-yu-hachi",
+   "type": "EPS",
+   "episodeCount": 3,
+   "age": "0+",
+   "languages": [
+    "vostde"
+   ],
+   "genres": [
+    "Slice-of-Life",
+    "Japanische Animation"
+   ],
+   "free": false,
+   "simulcast": false,
+   "available": true,
+   "newEpisode": true,
+   "basedOn": "Oeuvre Originale",
+   "distributions": "de,fr,pl",
+   "rating": 3
+  }
+ ]
+}
