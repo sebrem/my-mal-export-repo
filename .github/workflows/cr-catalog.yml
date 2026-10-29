@@ -40,7 +40,11 @@ jobs:
         run: |
           git config user.name "cr-catalog-bot"
           git config user.email "actions@github.com"
-          git add cr_catalog.json cr_catalog_status.json
+          # Fix 29.10. (Run 1): Status IMMER committen (Diagnose!), Katalog nur wenn
+          # er existiert – bei Block/Fehler schreibt das Script nur die Status-Datei,
+          # ein blindes "git add cr_catalog.json" bricht dann den Lauf ab (Exit 128).
+          if [ -f cr_catalog_status.json ]; then git add cr_catalog_status.json; fi
+          if [ -f cr_catalog.json ]; then git add cr_catalog.json; fi
           if git diff --cached --quiet; then
             echo "Keine Aenderungen - kein Commit noetig."
           else
