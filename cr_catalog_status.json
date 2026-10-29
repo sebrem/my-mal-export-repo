@@ -1,8 +1,174 @@
 {
-  "updated": "2026-10-29T21:30:42.905Z",
+  "updated": "2026-10-29T21:33:59.000Z",
   "source": "crunchyroll.com sitemaps/series",
-  "sitemaps": {},
-  "blocked": true,
-  "ok": false,
-  "stopReason": "Sitemap-Index HTTP 403"
+  "route": "Direktabruf 29.10.2026 (Mistral-Sandbox) – GitHub-Runner 403 (Run 1), lokale Node-Route 403 (Sebastian-Test), Proxy open_url ok",
+  "sitemaps": {
+    "%23": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 10,
+      "newSeries": 10
+    },
+    "A": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 136,
+      "newSeries": 136
+    },
+    "B": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 92,
+      "newSeries": 92
+    },
+    "C": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 99,
+      "newSeries": 99
+    },
+    "D": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 126,
+      "newSeries": 126
+    },
+    "E": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 31,
+      "newSeries": 31
+    },
+    "F": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 71,
+      "newSeries": 71
+    },
+    "G": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 87,
+      "newSeries": 87
+    },
+    "H": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 85,
+      "newSeries": 85
+    },
+    "I": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 62,
+      "newSeries": 62
+    },
+    "J": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 22,
+      "newSeries": 22
+    },
+    "K": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 96,
+      "newSeries": 96
+    },
+    "L": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 62,
+      "newSeries": 62
+    },
+    "M": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 168,
+      "newSeries": 168
+    },
+    "N": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 43,
+      "newSeries": 43
+    },
+    "O": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 55,
+      "newSeries": 55
+    },
+    "P": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 77,
+      "newSeries": 77
+    },
+    "Q": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 2,
+      "newSeries": 2
+    },
+    "R": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 66,
+      "newSeries": 66
+    },
+    "S": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 203,
+      "newSeries": 203
+    },
+    "T": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 306,
+      "newSeries": 306
+    },
+    "U": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 19,
+      "newSeries": 19
+    },
+    "V": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 16,
+      "newSeries": 16
+    },
+    "W": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 58,
+      "newSeries": 58
+    },
+    "X": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 5,
+      "newSeries": 5
+    },
+    "Y": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 42,
+      "newSeries": 42
+    },
+    "Z": {
+      "ok": true,
+      "http": 200,
+      "seriesFound": 7,
+      "newSeries": 7
+    }
+  },
+  "blocked": false,
+  "ok": true,
+  "count": 2046,
+  "stopReason": null,
+  "diff": null
 }
