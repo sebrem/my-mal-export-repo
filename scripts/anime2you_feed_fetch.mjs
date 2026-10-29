@@ -1,12 +1,15 @@
 #!/usr/bin/env node
-// Fetch der RSS-Feeds von anime2you.de, manga2you.de und ADN News (DE).
+// Fetch der RSS-Feeds von anime2you.de, manga2you.de, ADN News (DE) und aniSearch News (DE).
 // Bewusst ohne Dependencies (kein rss-parser): einfacher Item-Regex reicht
 // fuer Titel/Link/Datum. Blockiert ein Feed (403/Challenge/etc.), wird das
 // in anime2you_feed_status.json diagnostiziert, statt den Lauf crashen zu lassen.
 // ADN (28.10.2026): news.animationdigitalnetwork.com blockt den Mistral-Proxy,
 // GitHub-Runner koennen aber durchkommen (analog Anime2You-Block-Beobachtung).
+// aniSearch (29.10.2026): Feed ist auf der Seite NICHT verlinkt, lebt am alten
+// CDN-Pfad (cdn.anisearch.de/media/rss/de/news.xml); kein Proxy-Block beobachtet.
 // Workflow-Name/Dateinamen bewusst unveraendert gelassen (Wächter-Kompatibilitaet,
-// Newsletter-Check liest weiterhin anime2you_news.json; ADN-Items tragen site "adn-news").
+// Newsletter-Check liest weiterhin anime2you_news.json; ADN-Items tragen site "adn-news",
+// aniSearch-Items site "anisearch-news").
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 
@@ -14,6 +17,7 @@ const FEEDS = [
   { site: "anime2you", url: "https://www.anime2you.de/feed/" },
   { site: "manga2you", url: "https://www.manga2you.de/feed/" },
   { site: "adn-news", url: "https://news.animationdigitalnetwork.com/de/feed/" },
+  { site: "anisearch-news", url: "https://cdn.anisearch.de/media/rss/de/news.xml" },
 ];
 const NEWS_FILE = "anime2you_news.json";
 const STATUS_FILE = "anime2you_feed_status.json";
