@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:23:37.041675+00:00",
+  "generated_at": "2026-10-29T18:33:09.634335+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 4,
@@ -36,15 +36,15 @@
     },
     {
       "name": "Release-Kalender",
-      "status": "pending",
-      "detail": "live seit 2026-10-22T08:15Z; erwarteter Termin 2026-10-22T04:30:00+00:00 davor - erster Cron steht noch aus",
-      "expected": "2026-10-22T04:30:00+00:00"
+      "status": "late",
+      "detail": "Erfolg 2026-10-29T11:00:21Z (Run 40861976144), aber 6.5h nach Termin 2026-10-29T04:30:00+00:00 (Schwelle 4h)",
+      "expected": "2026-10-29T04:30:00+00:00"
     },
     {
       "name": "Streaming Rollcheck",
       "status": "late",
-      "detail": "Erfolg 2026-10-28T09:39:49Z (Run 40665991846), aber 6.4h nach Termin 2026-10-28T03:17:00+00:00 (Schwelle 4h)",
-      "expected": "2026-10-28T03:17:00+00:00"
+      "detail": "Erfolg 2026-10-29T09:58:17Z (Run 40853792260), aber 6.7h nach Termin 2026-10-29T03:17:00+00:00 (Schwelle 4h)",
+      "expected": "2026-10-29T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
