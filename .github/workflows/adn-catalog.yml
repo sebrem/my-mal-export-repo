@@ -1,0 +1,49 @@
+name: ADN Katalog Harvest
+
+# Wöchentlicher Dump des kompletten ADN-Anime-Katalogs (animationdigitalnetwork.com/de/video)
+# als adn_catalog.json (268 Titel, Stand 29.10.2026) + adn_catalog_status.json (Diagnose).
+# Hintergrund: ADN blockt den Mistral-Proxy (403, Anti-Bot-Heuristik), GitHub-Runner
+# kommen durch (gleiche Route wie ADN-News-Feed und streaming_rollcheck ADN-Show-Check).
+# Quellen-Technik: Katalogseite ist Next.js-App, __NEXT_DATA__ enthaelt Query "catalogShows"
+# mit 48 Titeln pro Seite (?page=1..N) und state.data.total.
+# Nutzen: Streaming-Monitoring firsthand (unabhaengig von JustWatch-Offers), MAL-Abgleich
+# Montag kann gegen adn_catalog.json laufen.
+# Wenn ADN auch die GitHub-Runner blockt (Status blocked), Route ist tot – dann die Action löschen.
+
+on:
+  schedule:
+    - cron: "40 5 * * 1"  # montags 05:40 UTC (07:40 MESZ), vor dem MAL-Abgleich
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: adn-catalog
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: ADN-Katalog abholen und JSON bauen
+        run: node scripts/adn_catalog_fetch.mjs
+
+      - name: Ergebnisse committen
+        run: |
+          git config user.name "adn-catalog-bot"
+          git config user.email "actions@github.com"
+          git add adn_catalog.json adn_catalog_status.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen - kein Commit noetig."
+          else
+            git commit -m "chore: adn catalog harvest $(date -u +%F)"
+            git push
+          fi
