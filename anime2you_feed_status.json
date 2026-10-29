@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T13:29:56.161Z",
+  "updated": "2026-10-29T17:21:14.075Z",
   "feeds": {
     "anime2you": {
       "ok": true,
@@ -17,6 +17,12 @@
       "ok": true,
       "http": 200,
       "itemsFound": 10,
+      "blocked": false
+    },
+    "anisearch-news": {
+      "ok": true,
+      "http": 200,
+      "itemsFound": 28,
       "blocked": false
     }
   },
