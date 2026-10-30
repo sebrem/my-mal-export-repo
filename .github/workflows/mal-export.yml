@@ -69,5 +69,6 @@ jobs:
             echo "Keine Aenderungen seit letztem Pull - kein Commit noetig."
           else
             git commit -m "MAL export $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            git pull --rebase origin main
+            git push || (sleep 20 && git pull --rebase origin main && git push)
           fi

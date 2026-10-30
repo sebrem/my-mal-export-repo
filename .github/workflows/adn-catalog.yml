@@ -49,5 +49,6 @@ jobs:
             echo "Keine Aenderungen - kein Commit noetig."
           else
             git commit -m "chore: adn catalog harvest $(date -u +%F)"
-            git push
+            git pull --rebase origin main
+            git push || (sleep 20 && git pull --rebase origin main && git push)
           fi

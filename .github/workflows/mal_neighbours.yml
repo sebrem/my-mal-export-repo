@@ -128,4 +128,5 @@ jobs:
             MSG="${MSG} [fehlend: ${FRIENDS_FAILED}]"
           fi
           git commit -m "$MSG" || true
-          git push
+          git pull --rebase origin main
+          git push || (sleep 20 && git pull --rebase origin main && git push)

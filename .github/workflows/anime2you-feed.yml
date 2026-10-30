@@ -42,5 +42,6 @@ jobs:
             echo "Keine Aenderungen - kein Commit noetig."
           else
             git commit -m "chore: anime2you/manga2you feed harvest $(date -u +%F)"
-            git push
+            git pull --rebase origin main
+            git push || (sleep 20 && git pull --rebase origin main && git push)
           fi
