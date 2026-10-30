@@ -51,4 +51,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add actions_status.json
-          git diff --cached --quiet || (git commit -m "Actions-Waechter: Status $(date -u +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "Actions-Waechter: Status $(date -u +%F)" && git pull --rebase origin main && (git push || (sleep 20 && git pull --rebase origin main && git push)))
