@@ -2,11 +2,17 @@
 // AniList-Dump: reichert mal_anime.json / mal_manga.json um AniList-Daten an.
 // Läuft ohne Token (nur öffentliche Daten); mit ANILIST_TOKEN stabilere Limits.
 // Keine Abhängigkeiten — Node >= 18 (global fetch).
+//
+// Delta 30.10.2026 (Duo-Discovery/Relations): FIELDS um relations erweitert
+// (Anime↔Manga-Verwandtschaft, gefiltert auf Kanten mit idMal und Kreuz-Typ),
+// BATCH 25→12 wegen AniList-Complexity-Budget. Zweck: Franchise-/Duo-Matching
+// ohne EN-Titelgleichheit (Beleg: Chichi wa Eiyuu – Anime-EN und Manga-EN
+// unterscheiden sich auf MAL je Medium; exaktes EN-Matching greift nicht).
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const API = 'https://graphql.anilist.co';
-const BATCH = 25;        // IDs pro Request (konservativ wegen Complexity-Budget)
+const BATCH = 12;        // IDs pro Request (konservativ wegen Complexity-Budget; relations erhöhen den Query-Aufwand)
 const SLEEP_MS = 1200;    // ~50 req/min → weit unter dem 90er-Limit
 
 const headers = {
@@ -52,7 +58,25 @@ const FIELDS = `
   title { romaji english native }
   externalLinks { site url type }
   nextAiringEpisode { episode airingAt timeUntilAiring }
+  relations { edges { relationType node { id idMal type format title { romaji english } } } }
 `;
+
+// Relations slimmen: nur Kreuz-Typ-Kanten (ANIME↔MANGA) mit idMal behalten,
+// damit der Dump nicht aufgebläht wird (Anime behält Manga/LN-Quellen + Manga-
+// Adaptionen, Manga behält Anime-Adaptionen).
+function slimRelations(media, selfType) {
+  const edges = media?.relations?.edges ?? [];
+  const otherType = selfType === 'ANIME' ? 'MANGA' : 'ANIME';
+  return edges
+    .filter((e) => e?.node?.idMal && e.node.type === otherType)
+    .map((e) => ({
+      relationType: e.relationType,
+      mal_id: e.node.idMal,
+      type: e.node.type,
+      format: e.node.format,
+      title: e.node.title?.english ?? e.node.title?.romaji ?? null,
+    }));
+}
 
 async function callGraphQL(query, variables) {
   for (let attempt = 1; attempt <= 4; attempt++) {
@@ -89,8 +113,12 @@ async function dumpAll(ids, type) {
     const data = await callGraphQL(query, { ids: batch, type });
     const found = data?.Page?.media ?? [];
     const foundMal = new Set(found.map((m) => m.idMal));
-    // Treffer übernehmen (auch Mehrfach-Mappings, z.B. LN + "the Comic")
-    for (const media of found) entries.push(media);
+    // Treffer übernehmen (auch Mehrfach-Mappings, z.B. LN + "the Comic");
+    // relations gefiltert als flache Liste an jeden Eintrag gehängt
+    for (const media of found) {
+      const slim = { ...media, relations: slimRelations(media, type) };
+      entries.push(slim);
+    }
     // Anfrage-IDs ohne Treffer → unmapped
     for (const malId of batch) if (!foundMal.has(malId)) missing.push(malId);
     process.stdout.write(`\r${type}: ${Math.min(i + BATCH, ids.length)}/${ids.length} verarbeitet`);
@@ -114,5 +142,5 @@ const dump = {
 writeFileSync('anilist_dump.json', JSON.stringify(dump, null, 1));
 console.log(
   `OK: ${anime.entries.length} Anime, ${manga.entries.length} Manga/LN – ` +
-  `${anime.missing.length + manga.missing.length} ohne AniList-Mapping (siehe "unmapped").`
+    `${anime.missing.length + manga.missing.length} ohne AniList-Mapping (siehe "unmapped").`
 );
