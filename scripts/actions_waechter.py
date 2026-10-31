@@ -83,6 +83,10 @@ EXPECTED = [
      "since": "2026-10-22T13:30:00+00:00"},  # live 22.10.; erster Cron: So 01.11.2026 05:03
     {"file": "adn-catalog.yml",           "name": "ADN Katalog Harvest",      "days": [0], "hour": 5, "minute": 40,
      "since": "2026-10-29T21:09:00+00:00"},  # live 29.10. v2-Erstlauf 21:09; erster Cron: Mo 02.11.2026 05:40
+    {"file": "anime2you-feed.yml",       "name": "Anime2You Feed Harvest",    "days": [0, 1, 2, 3, 4, 5, 6], "hour": 6, "minute": 30,
+     "since": "2026-10-24T11:21:00+00:00"},  # live 24.10. 11:21 (rss pilot); Cron taegl. 06:30; NICHT in v4-Liste gewesen
+    {"file": "de-license-check.yml",     "name": "DE-License-Check",         "days": [0], "hour": 7, "minute": 0,
+     "since": "2026-10-31T09:29:00+00:00"},  # live 31.10. (Commit 09:29 UTC); erster Cron: Mo 02.11.2026 07:00
 ]
 
 
