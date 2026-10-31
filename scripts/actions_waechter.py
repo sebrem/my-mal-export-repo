@@ -59,7 +59,7 @@ LABEL = "actions-waechter"
 GRACE_HOURS = 4
 # v4: Verspaetungs-Schwelle in Stunden - Erfolg-Runs, die deutlich nach dem
 # erwarteten Termin starten, alarmieren als "late" statt still als "ok".
-LATE_ALARM_HOURS = 4
+LATE_ALARM_HOURS = 8  # seit 31.10.2026: GitHub-Jitter systematisch ~6h (Issue #3), 4h alarmierte taeglich
 STATUS_FILE = "actions_status.json"
 
 # Erwartete scheduled Workflows. Wochentage: Mo=0 .. So=6 (UTC).
