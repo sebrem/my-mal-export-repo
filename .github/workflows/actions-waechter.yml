@@ -1,54 +1,32 @@
-name: Actions-Waechter
+# Commit-Paket: EXPECTED-Nachtrag im Actions-Waechter
+# Aenderung: ERSETZE die komplette EXPECTED-Liste in scripts/actions_waechter.py
+# (von "EXPECTED = [" bis zur schliessenden "]") durch diesen Block.
+# Neu: anime2you-feed.yml (taegl. 06:30, live seit 24.10. 11:21 UTC) und
+# de-license-check.yml (montags 07:00, live seit 31.10. 09:29 UTC).
+# Beide fehlten bisher -> der Waechter hat sie schlicht ignoriert.
+# Hinweis: anime2you wird ab dem naechsten Waechter-Lauf vermutlich ALARMIEREN
+# (missing/late) - das ist ein echter Befund: Lauf 30.10. startete 13:18 UTC
+# (6.8h nach Termin 06:30), der Lauf 31.10. 06:30 hat bislang gar nicht
+# gefeuert. GitHub-Schedule-Jitter, genau dafuer ist der Waechter da.
 
-# Taeglicher Watchdog: prueft, ob alle geplanten Workflows seit ihrem
-# jeweils letzten erwarteten Cron-Termin erfolgreich gelaufen sind.
-# - GitHub benachrichtigt bei scheduled Workflows NICHT zuverlaessig
-#   (fehlgeschlagene oder verworfene Cron-Laeufe bleiben sonst unentdeckt).
-# - Bei Problemen: GitHub-Issue mit Label "actions-waechter" (Dedup: offenes
-#   Watchdog-Issue wird aktualisiert statt neu angelegt; bei Erholung
-#   automatisch geschlossen -> E-Mail-Notification an Sebastian).
-# - Schreibt actions_status.json (Heartbeat + Pruefergebnis je Workflow).
-#   Der taegliche Commit ist gewollt: er dokumentiert, dass der Waechter
-#   selbst gelaufen ist (und verhindert GitHub's 60-Tage-Cron-Abschaltung).
-# - Laufzeit 12:23 UTC: deutlich nach der spaetesten geplanten Action des
-#   Tages (Verlags-Announcements 05:47 UTC) inkl. Schedule-Jitter-Puffer.
-#   Off-Peak-Minute statt :00/:30 (gleiche Regel wie die anderen Workflows).
-
-on:
-  schedule:
-    - cron: "23 12 * * *"
-  workflow_dispatch: {}   # manueller Trigger moeglich (Erst-Lauf / Ad-hoc-Check)
-
-permissions:
-  actions: read           # Workflow-Runs lesen
-  issues: write           # Watchdog-Issues anlegen/schliessen
-  contents: write         # actions_status.json committen
-
-concurrency:
-  group: actions-waechter
-  cancel-in-progress: false
-
-jobs:
-  waechter:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v5
-
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Waechter-Check ausfuehren
-        run: python scripts/actions_waechter.py
-        env:
-          WAECHTER_REPO: ${{ github.repository }}
-          WAECHTER_TOKEN: ${{ github.token }}
-
-      - name: Status committen (Heartbeat, auch bei rot)
-        if: always()   # Status landet auch, wenn der Check alarmierend rot ist
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add actions_status.json
-          git diff --cached --quiet || (git commit -m "Actions-Waechter: Status $(date -u +%F)" && git pull --rebase origin main && (git push || (sleep 20 && git pull --rebase origin main && git push)))
+EXPECTED = [
+    {"file": "mal-export.yml",            "name": "MAL Sync",               "days": [0], "hour": 4, "minute": 17},
+    {"file": "mal_neighbours.yml",        "name": "MAL Friends Candidates",  "days": [0], "hour": 4, "minute": 35,
+     "since": "2026-10-21T12:30:00+00:00"},  # live 21.10.; erster Cron: Mo 26.10. 04:35
+    {"file": "anilist_export.yml",        "name": "AniList Export",           "days": [0], "hour": 4, "minute": 47},
+    {"file": "abo-katalog-check.yml",     "name": "Abo-Katalog-Check",        "days": [0], "hour": 5, "minute": 17},
+    {"file": "verlags-announcements.yml", "name": "Verlags-Announcements",   "days": [2], "hour": 5, "minute": 47,
+     "since": "2026-10-22T08:00:00+00:00"},  # live 22.10.; erster Cron: Mi 28.10. 05:47
+    {"file": "release-kalender.yml",      "name": "Release-Kalender",         "days": [3], "hour": 4, "minute": 30,
+     "since": "2026-10-22T08:15:00+00:00"},  # live 22.10. ~08:15; erster Cron: Do 29.10. 04:30
+    {"file": "streaming-rollcheck.yml",   "name": "Streaming Rollcheck",      "days": [0, 1, 2, 3, 4, 5, 6], "hour": 3, "minute": 17,
+     "since": "2026-10-23T13:24:00+00:00"},  # live 23.10. 13:24; erster Cron: Fr 24.10. 03:17
+    {"file": "theme-seiyuu-harvest.yml",  "name": "Theme & Seiyuu Harvest",   "dom": 1, "hour": 5, "minute": 3,
+     "since": "2026-10-22T13:30:00+00:00"},  # live 22.10.; erster Cron: So 01.11.2026 05:03
+    {"file": "adn-catalog.yml",           "name": "ADN Katalog Harvest",      "days": [0], "hour": 5, "minute": 40,
+     "since": "2026-10-29T21:09:00+00:00"},  # live 29.10. v2-Erstlauf 21:09; erster Cron: Mo 02.11.2026 05:40
+    {"file": "anime2you-feed.yml",       "name": "Anime2You Feed Harvest",    "days": [0, 1, 2, 3, 4, 5, 6], "hour": 6, "minute": 30,
+     "since": "2026-10-24T11:21:00+00:00"},  # live 24.10. 11:21 (rss pilot); Cron taegl. 06:30; NICHT in v4-Liste gewesen
+    {"file": "de-license-check.yml",     "name": "DE-License-Check",         "days": [0], "hour": 7, "minute": 0,
+     "since": "2026-10-31T09:29:00+00:00"},  # live 31.10. (Commit 09:29 UTC); erster Cron: Mo 02.11.2026 07:00
+]
