@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T12:49:14.826430+00:00",
-  "ok": true,
+  "generated_at": "2026-10-31T12:54:22.640529+00:00",
+  "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
   "workflows": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "Anime2You Feed Harvest",
-      "status": "waiting",
-      "detail": "kein Run seit erwartetem Termin, Jitter-Fenster offen bis 2026-10-31T14:30:00+00:00",
+      "status": "missing",
+      "detail": "kein scheduled Run seit erwartetem Termin",
       "expected": "2026-10-31T06:30:00+00:00"
     },
     {
