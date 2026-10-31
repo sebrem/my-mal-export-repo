@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T12:54:22.640529+00:00",
-  "ok": false,
+  "generated_at": "2026-10-31T12:58:36.556126+00:00",
+  "ok": true,
   "grace_hours": 4,
   "late_alarm_hours": 8,
   "workflows": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "Anime2You Feed Harvest",
-      "status": "missing",
-      "detail": "kein scheduled Run seit erwartetem Termin",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-31T12:55:27Z (Run 41203238782), +6.4h",
       "expected": "2026-10-31T06:30:00+00:00"
     },
     {
