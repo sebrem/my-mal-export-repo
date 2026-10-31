@@ -1,0 +1,79 @@
+# DE/EN-Lizenz-Fruehindikator (MangaUpdates-Publishers, Rotationscheck)
+# Laeuft woechentlich nach dem Montags-Abgleich, committet nur den Snapshot
+# (abo_snapshots/de_licenses.json). Delta-Report landet in der Run-Summary.
+#
+# Voraussetzung: scripts/de_license_check.py im Repo (Commits: Sebastian selbst).
+# Rotationsprinzip: --max-age 28 (Skript-Default) -> jeder Lauf prueft nur das
+# aelteste Viertel der aktiven Titel (~1301 Titel im Export 31.10.2026,
+# ~15 Min Laufzeit). Neue Titel (frisch auf MAL angelegt) laufen sofort mit.
+
+name: DE-License-Check
+
+on:
+  schedule:
+    - cron: "0 7 * * 1" # Montags 07:00 UTC, nach dem Montags-Abgleich (05:17)
+  workflow_dispatch: {}   # manueller Testlauf moeglich
+
+permissions:
+  contents: write # Snapshot-Commit (analog zum abgleich-Job des Montags-Abgleichs)
+
+concurrency:
+  group: de-license-check
+  cancel-in-progress: false
+  # Hinweis: Concurrency-Gruppen sind repo-weit; falls der Montags-Abgleich eine
+  # passende Push-Schutz-Gruppe nutzt, hier denselben group-Namen eintragen.
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run de_license_check (Rotationscheck)
+        run: |
+          python3 scripts/de_license_check.py 2>check.log | tee delta.txt
+          {
+            echo "## DE-License-Check Delta"
+            echo '```'
+            cat delta.txt
+            echo '```'
+            echo "_Detail-Log (stderr): siehe Artefakt check.log_"
+          } >> "$GITHUB_STEP_SUMMARY"
+        continue-on-error: true # Info-Tool, kein CI-Gate (Skript-Exit immer 0)
+
+      - name: Upload check.log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: de-license-check-log
+          path: check.log
+          retention-days: 14
+          if-no-files-found: ignore
+
+      # Push ist bewusst NICHT blind: der Montags-Abgleich committet im selben
+      # Zeitfenster (sein abgleich-Job macht den EINZIGEN git push). Falls unser
+      # Commit gegen einen zwischenzeitlich gepushten Stand laeuft: rebase + Retry.
+      - name: Commit snapshot (rebase- und retry-fest)
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add abo_snapshots/de_licenses.json
+          if git diff --cached --quiet; then
+            echo "Keine Snapshot-Aenderung - kein Push noetig"
+            exit 0
+          fi
+          git commit -m "chore: de_licenses snapshot (DE-License-Check $(date -u +%F))"
+          for i in 1 2 3 4 5; do
+            if git push; then echo "Push OK (Versuch $i)"; exit 0; fi
+            echo "Push kollidiert (Versuch $i) - rebase gegen remote und Retry"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}"
+            sleep $((i * 30))
+          done
+          echo "::warning::Snapshot-Push nach 5 Versuchen fehlgeschlagen - Snapshot nur im Runner, naechster Lauf wiederholt den Check (max-age-Rotation faengt es auf)."
+          exit 0
