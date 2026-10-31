@@ -1,5 +1,5 @@
 {
-  "run": "2026-10-30T10:00:44.550Z",
+  "run": "2026-10-31T09:39:45.755Z",
   "source": "apis.justwatch.com/graphql (DE, Katalogstufe)",
   "chunk_size": 30,
   "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > hit_channel_candidate (Prime-Channel-Verdacht) > hit_cr_channel_caveat / hit_adn_channel_caveat (Channel-Katalog weicht ab – nicht CR-/ADN-direct!) ; de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten (Re-Lizenz-Monitoring-Signal). buy_physical = Disc/Kauf, kein Streaming-Signal. werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar. V8.5: adn_video-Feld = ADN-Video-Ebenen-Check (available/languages/episode_count aus ADN-Show-Seite); Geo-Caveat – s. adn_check.geo_suspect.",
@@ -8,124 +8,59 @@
     "enabled": true,
     "max_per_run": 12,
     "checks_done": 2,
-    "available_true": 2,
+    "available_true": 1,
     "available_false": 0,
     "geo_suspect": false
   },
   "universe": {
     "status_filter": "alles außer dropped/completed",
-    "count": 832
+    "count": 838
   },
   "cycle": {
     "number": 1,
     "started": "2026-10-23T13:25:04.638Z",
-    "processed_before": 572,
-    "universe": 832,
+    "processed_before": 602,
+    "universe": 838,
     "cycle_completed_last_run": false
   },
   "chunk": {
     "count": 30,
-    "first_mal_id": 23281,
-    "last_mal_id": 61013
+    "first_mal_id": 38940,
+    "last_mal_id": 44055
   },
   "chunk_results": [
     {
-      "mal_id": 23281,
-      "title": "Psycho-Pass 2",
+      "mal_id": 38940,
+      "title": "Cop Craft",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Psycho-Pass 2",
-        "jw_id": "ts20388",
-        "jw_title": "Psycho-Pass",
-        "jw_path": "/de/Serie/Psycho-Pass",
-        "match_confidence": "low",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
+        "searched_as": "Cop Craft",
+        "jw_id": "ts89563",
+        "jw_title": "Cop Craft",
+        "jw_path": "/de/Serie/COP-CRAFT-kotsupukurahuto",
+        "match_confidence": "exact",
+        "verdict": "hit_channel",
+        "my_direct_hits": [],
+        "my_channel_hits": [
           {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GMKUE3ZQP"
-          },
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d8516859-40d8-495c-9a91-cc550197657e"
           }
         ],
-        "my_channel_hits": [],
         "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.32b5baf8-2b8a-40f1-98aa-cfa345daabdb"
-          }
-        ],
+        "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.98ec89f8-e0e0-4512-8fcf-1ec08f315e25"
-          }
-        ],
+        "legal_de_other_providers": [],
         "buy_physical_offers": [
           {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B00OW4785A?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B00JHAZ8C4?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811307092&a=400165&m=14584"
-          },
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274369&a=400165&m=14584"
-          },
-          {
             "provider": "thl",
             "name": "Thalia (Disc)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059695854"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1063923826"
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1071594887"
           }
         ],
         "de_legal_availability": true
@@ -133,8 +68,8 @@
       "errors": []
     },
     {
-      "mal_id": 39491,
-      "title": "Psycho-Pass 3",
+      "mal_id": 20853,
+      "title": "Hitsugi no Chaika",
       "status": "plan_to_watch",
       "result": {
         "verdict": "no_match"
@@ -142,117 +77,89 @@
       "errors": []
     },
     {
-      "mal_id": 40858,
-      "title": "Psycho-Pass 3: First Inspector",
+      "mal_id": 15379,
+      "title": "Kotoura-san",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Psycho-Pass 3: First Inspector",
-        "jw_id": "ts20388",
-        "jw_title": "Psycho-Pass",
-        "jw_path": "/de/Serie/Psycho-Pass",
-        "match_confidence": "low",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GMKUE3ZQP"
-          },
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
-          }
-        ],
+        "searched_as": "Kotoura-san",
+        "jw_id": "ts32201",
+        "jw_title": "The Troubled Life of Miss Kotoura",
+        "jw_path": "/de/Serie/Kotoura-san",
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
         "my_channel_hits": [],
         "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.32b5baf8-2b8a-40f1-98aa-cfa345daabdb"
-          }
-        ],
+        "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.98ec89f8-e0e0-4512-8fcf-1ec08f315e25"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B00OW4785A?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B00JHAZ8C4?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811307092&a=400165&m=14584"
-          },
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274369&a=400165&m=14584"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059695854"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1063923826"
-          }
-        ],
-        "de_legal_availability": true
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
       },
       "errors": []
     },
     {
-      "mal_id": 21339,
-      "title": "Psycho-Pass Movie 1",
+      "mal_id": 16636,
+      "title": "Kotoura-san: Haruka no Heya",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Psycho-Pass Movie 1",
-        "jw_id": "ts20388",
-        "jw_title": "Psycho-Pass",
-        "jw_path": "/de/Serie/Psycho-Pass",
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 3024,
+      "title": "Ribbon no Kishi",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Ribbon no Kishi",
+        "jw_id": "ts63924",
+        "jw_title": "Ribbon no Kishi",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 38529,
+      "title": "Rifle Is Beautiful",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Rifle Is Beautiful",
+        "jw_id": "ts217614",
+        "jw_title": "Chidori RSC: Rifle is Beautiful",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 38992,
+      "title": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
+        "jw_id": "ts216555",
+        "jw_title": "Science fell in Love, so I tried to prove it",
+        "jw_path": "/de/Serie/Li-Xi-gaLian-niLuo-chitanodeZheng-Ming-shitemita",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
@@ -261,14 +168,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/GMKUE3ZQP"
-          },
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
+            "url": "https://www.crunchyroll.com/watch/G14U4ME07"
           }
         ],
         "my_channel_hits": [],
@@ -279,68 +179,18 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.32b5baf8-2b8a-40f1-98aa-cfa345daabdb"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6b891b82-6e0f-4e10-9d49-8bfc7da963ae"
           }
         ],
         "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.98ec89f8-e0e0-4512-8fcf-1ec08f315e25"
-          }
-        ],
+        "legal_de_other_providers": [],
         "buy_physical_offers": [
           {
             "provider": "adb",
             "name": "Amazon (Kauf)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.amazon.de/dp/B00OW4785A?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B00JHAZ8C4?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811307092&a=400165&m=14584"
-          },
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ecb6fd81-c802-9eb1-31ba-02f64d7ca79b"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274369&a=400165&m=14584"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059695854"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1063923826"
+            "url": "https://www.amazon.de/dp/B0BZ7MBP22?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           }
         ],
         "de_legal_availability": true
@@ -348,156 +198,69 @@
       "errors": []
     },
     {
-      "mal_id": 37440,
-      "title": "Psycho-Pass: Sinners of the System Case.1 - Tsumi to Batsu",
+      "mal_id": 43470,
+      "title": "Rikei ga Koi ni Ochita no de Shoumei shitemita. Heart",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Psycho-Pass: Sinners of the System Case.1 - Tsumi to Batsu",
-        "jw_id": "ts475329",
-        "jw_title": "Psycho-Pass: Sinners of the System",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 37441,
-      "title": "Psycho-Pass: Sinners of the System Case.2 - First Guardian",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Psycho-Pass: Sinners of the System Case.2 - First Guardian",
-        "jw_id": "ts475329",
-        "jw_title": "Psycho-Pass: Sinners of the System",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 37442,
-      "title": "Psycho-Pass: Sinners of the System Case.3 - Onshuu no Kanata ni＿＿",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Psycho-Pass: Sinners of the System Case.3 - Onshuu no Kanata ni＿＿",
-        "jw_id": "ts475329",
-        "jw_title": "Psycho-Pass: Sinners of the System",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 51404,
-      "title": "Rakudai Majo: Fuuka to Yami no Majo",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 57325,
-      "title": "Ramen Akaneko",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Ramen Akaneko",
-        "jw_id": "ts415273",
-        "jw_title": "Ramen Akaneko",
-        "jw_path": "/de/Serie/red-cat-ramen",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "adn",
-            "name": "ADN (Animation Digital Network)",
-            "tier": "direct",
-            "note": null,
-            "url": "https://animationdigitalnetwork.com/de/video/1206-ramen-akaneko/26178-folge-1"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [
-          {
-            "provider": "ada",
-            "name": "ADN (Amazon-Channel)",
-            "tier": "adn_channel_caveat",
-            "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b67b7e5c-981b-4a4e-b2c9-6008442adf81"
-          }
-        ],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1aa39442-d7db-45bc-8d8b-615eba252459"
-          }
-        ],
-        "buy_physical_offers": [],
-        "de_legal_availability": true,
-        "adn_video": {
-          "url": "https://animationdigitalnetwork.com/de/video/1206-ramen-akaneko",
-          "status": 200,
-          "adn_title": "Ramen Akaneko",
-          "available": true,
-          "languages": [
-            "vostf"
-          ],
-          "episode_count": 12,
-          "season_video_count": 12,
-          "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
-        }
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 60555,
-      "title": "Ramen Akaneko 2nd Season",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Ramen Akaneko 2nd Season",
-        "jw_id": "ts415273",
-        "jw_title": "Ramen Akaneko",
-        "jw_path": "/de/Serie/red-cat-ramen",
+        "searched_as": "Rikei ga Koi ni Ochita no de Shoumei shitemita. Heart",
+        "jw_id": "ts216555",
+        "jw_title": "Science fell in Love, so I tried to prove it",
+        "jw_path": "/de/Serie/Li-Xi-gaLian-niLuo-chitanodeZheng-Ming-shitemita",
         "match_confidence": "token",
         "verdict": "hit_direct",
         "my_direct_hits": [
           {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G14U4ME07"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6b891b82-6e0f-4e10-9d49-8bfc7da963ae"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0BZ7MBP22?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 54859,
+      "title": "Rinkai!",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Rinkai!",
+        "jw_id": "ts413183",
+        "jw_title": "Rinkai!",
+        "jw_path": "/de/Serie/rinkai",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
             "provider": "adn",
             "name": "ADN (Animation Digital Network)",
             "tier": "direct",
             "note": null,
-            "url": "https://animationdigitalnetwork.com/de/video/1206-ramen-akaneko/26178-folge-1"
+            "url": "https://animationdigitalnetwork.com/de/video/1170-rinkai/25322-folge-1"
           }
         ],
         "my_channel_hits": [],
@@ -509,7 +272,7 @@
             "name": "ADN (Amazon-Channel)",
             "tier": "adn_channel_caveat",
             "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b67b7e5c-981b-4a4e-b2c9-6008442adf81"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9192a8db-2a0b-4d25-98d6-388ee697e2d2"
           }
         ],
         "legal_de_other_providers": [
@@ -518,15 +281,15 @@
             "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
             "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1aa39442-d7db-45bc-8d8b-615eba252459"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.365e9f0e-f0a4-4910-9c46-67ec279ff3ea"
           }
         ],
         "buy_physical_offers": [],
         "de_legal_availability": true,
         "adn_video": {
-          "url": "https://animationdigitalnetwork.com/de/video/1206-ramen-akaneko",
+          "url": "https://animationdigitalnetwork.com/de/video/1170-rinkai",
           "status": 200,
-          "adn_title": "Ramen Akaneko",
+          "adn_title": "RINKAI!",
           "available": true,
           "languages": [
             "vostf"
@@ -539,14 +302,14 @@
       "errors": []
     },
     {
-      "mal_id": 35298,
-      "title": "Ramen Daisuki Koizumi-san",
+      "mal_id": 32951,
+      "title": "Rokudenashi Majutsu Koushi to Akashic Records",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Ramen Daisuki Koizumi-san",
-        "jw_id": "ts77446",
-        "jw_title": "Ms. Koizumi Loves Ramen Noodles",
-        "jw_path": "/de/Serie/ramenDa-Hao-kiXiao-Quan-san",
+        "searched_as": "Rokudenashi Majutsu Koushi to Akashic Records",
+        "jw_id": "ts55813",
+        "jw_title": "Akashic Records of Bastard Magic Instructor",
+        "jw_path": "/de/Serie/Rokudenashi-Majutsu-Koushi-to-Akashic-Records",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
@@ -555,7 +318,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/G65P79ZK6"
+            "url": "https://www.crunchyroll.com/watch/GJWU2XGXK"
           }
         ],
         "my_channel_hits": [],
@@ -566,7 +329,53 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.befe8a2d-1ecc-4406-9a4a-a077804a2442"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.572cb1ec-c6ea-4cec-9c06-fd25ea921a77"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B07T1J6KD6?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 36513,
+      "title": "Rokuhou-dou Yotsuiro Biyori",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Rokuhou-dou Yotsuiro Biyori",
+        "jw_id": "ts79044",
+        "jw_title": "Yotsuiro Biyori",
+        "jw_path": null,
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GR0XDWNMY"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0d9c1a08-03a2-485d-9d2e-ff237fbb60dc"
           }
         ],
         "adn_channel_caveat": [],
@@ -577,14 +386,438 @@
       "errors": []
     },
     {
-      "mal_id": 210,
-      "title": "Ranma ½",
+      "mal_id": 25867,
+      "title": "Rolling☆Girls",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Ranma ½",
-        "jw_id": "ts20738",
-        "jw_title": "Ranma ½",
-        "jw_path": "/de/Serie/ranma-1-2",
+        "searched_as": "Rolling☆Girls",
+        "jw_id": "ts55799",
+        "jw_title": "The Rolling Girls",
+        "jw_path": "/de/Serie/The-Rolling-Girls",
+        "match_confidence": "exact",
+        "verdict": "no_stream_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1056964101"
+          }
+        ],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 52865,
+      "title": "Romantic Killer",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Romantic Killer",
+        "jw_id": "ts363093",
+        "jw_title": "Romantic Killer",
+        "jw_path": "/de/Serie/Romantic-Killer",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "nfx",
+            "name": "Netflix",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.netflix.com/title/81318888"
+          },
+          {
+            "provider": "nfa",
+            "name": "Netflix (Standard with Ads)",
+            "tier": "direct",
+            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+            "url": "https://www.netflix.com/title/81318888"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 59787,
+      "title": "Romelia Senki",
+      "status": "watching",
+      "result": {
+        "searched_as": "Romelia Senki",
+        "jw_id": "ts535458",
+        "jw_title": "Romelia War Chronicle",
+        "jw_path": "/de/Serie/romelia-war-chronicle",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00384291JAJP"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ec671e5c-bf1c-4130-92c1-52c157e60691"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 63188,
+      "title": "Ruri Dragon",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Ruri Dragon",
+        "jw_id": "ts513323",
+        "jw_title": "RuriDragon",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 64552,
+      "title": "S-Rank Boukensha de Aru Ore no Musume-tachi wa Juudo no Fathercon deshita",
+      "status": "plan_to_watch",
+      "result": {
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 20709,
+      "title": "Sabage-bu!",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Sabage-bu!",
+        "jw_id": "ts20073",
+        "jw_title": "Sabagebu!: Survival Game Club!",
+        "jw_path": "/de/Serie/sabagebutsu",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G69P32M8Y"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.45c66bf1-5760-43a5-b218-a1f9e21440cd"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 23277,
+      "title": "Saenai Heroine no Sodatekata",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Saenai Heroine no Sodatekata",
+        "jw_id": "ts55531",
+        "jw_title": "Saekano: How to Raise a Boring Girlfriend",
+        "jw_path": "/de/Serie/Saenai-Heroine-no-Sodatekata",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GRDQDWMWY"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8e352651-56f6-4396-ad2d-9e83768bf638"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0FM7P4N2C?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811321160&a=400165&m=14584"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1062606382"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811321162&a=400165&m=14584"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0FM7RVG5J?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1063264591"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 63078,
+      "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita. 2nd Season",
+      "status": "plan_to_watch",
+      "result": {
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 51837,
+      "title": "Saikin Yatotta Maid ga Ayashii",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Saikin Yatotta Maid ga Ayashii",
+        "jw_id": "ts351793",
+        "jw_title": "The Maid I Hired Recently Is Mysterious",
+        "jw_path": "/de/Serie/the-maid-i-hired-recently-is-mysterious",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GQJUGV47X"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.04b5c62c-a6c3-4ae7-8bb1-d85f68189891"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 61969,
+      "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+        "jw_id": "ts502434",
+        "jw_title": "I'll Live a Long Life to Dote on My Favorite Stepbrother!",
+        "jw_path": "/de/Serie/ill-live-a-long-life-to-dote-on-my-favorite-stepbrother",
+        "match_confidence": "exact",
+        "verdict": "hit_channel",
+        "my_direct_hits": [],
+        "my_channel_hits": [
+          {
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d8ac808f-5fe8-48b7-9b9e-bb33b3702f33"
+          }
+        ],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 64019,
+      "title": "Saishuu Gakushou Hibike! Euphonium: Kouhen",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Saishuu Gakushou Hibike! Euphonium: Kouhen",
+        "jw_id": "ts35459",
+        "jw_title": "Sound! Euphonium",
+        "jw_path": "/de/Serie/Xiang-ke-yuhuoniamu",
+        "match_confidence": "token",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00020631ENUS"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1eb280ba-185d-051d-9d8b-cd2026397d07"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DLBL545Z?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 61230,
+      "title": "Saishuu Gakushou Hibike! Euphonium: Zenpen",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Saishuu Gakushou Hibike! Euphonium: Zenpen",
+        "jw_id": "ts35459",
+        "jw_title": "Sound! Euphonium",
+        "jw_path": "/de/Serie/Xiang-ke-yuhuoniamu",
+        "match_confidence": "token",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00020631ENUS"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1eb280ba-185d-051d-9d8b-cd2026397d07"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DLBL545Z?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 957,
+      "title": "Saiunkoku Monogatari",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Saiunkoku Monogatari",
+        "jw_id": "ts28985",
+        "jw_title": "The Story of Saiunkoku",
+        "jw_path": "/de/Serie/the-story-of-saiunkoku",
         "match_confidence": "exact",
         "verdict": "no_stream_hit",
         "my_direct_hits": [],
@@ -599,7 +832,7 @@
             "name": "Amazon (Kauf)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.amazon.de/dp/B01CORK0F6?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+            "url": "https://www.amazon.de/dp/B001AIRJQY?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           }
         ],
         "de_legal_availability": false
@@ -607,41 +840,96 @@
       "errors": []
     },
     {
-      "mal_id": 59145,
-      "title": "Ranma ½ (2024)",
+      "mal_id": 12531,
+      "title": "Sakamichi no Apollon",
       "status": "plan_to_watch",
       "result": {
-        "verdict": "no_match"
+        "searched_as": "Sakamichi no Apollon",
+        "jw_id": "ts26698",
+        "jw_title": "Kids on the Slope",
+        "jw_path": "/de/Serie/kids-on-the-slope",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "adn",
+            "name": "ADN (Animation Digital Network)",
+            "tier": "direct",
+            "note": null,
+            "url": "https://animationdigitalnetwork.com/de/video/1355-kids-on-the-slope/30605-folge-1"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [
+          {
+            "provider": "ada",
+            "name": "ADN (Amazon-Channel)",
+            "tier": "adn_channel_caveat",
+            "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6f748e8a-7e9d-426c-8c95-107af78eb293"
+          }
+        ],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true,
+        "adn_video": {
+          "url": "https://animationdigitalnetwork.com/de/video/1355-kids-on-the-slope",
+          "status": 451,
+          "available": null,
+          "note": "ADN-Seite nicht abrufbar (HTTP 451)"
+        }
       },
       "errors": []
     },
     {
-      "mal_id": 60564,
-      "title": "Ranma ½ (2024) 2nd Season",
+      "mal_id": 5671,
+      "title": "Saki",
       "status": "plan_to_watch",
       "result": {
-        "verdict": "no_match"
+        "searched_as": "Saki",
+        "jw_id": "ts24469",
+        "jw_title": "Saki",
+        "jw_path": "/de/Serie/Saki",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G65VPX0E6"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.acc20682-79e2-4a5b-b35e-a4c75d6b9b8d"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
       },
       "errors": []
     },
     {
-      "mal_id": 63801,
-      "title": "Ranma ½ (2024) 3rd Season",
+      "mal_id": 34494,
+      "title": "Sakura Quest",
       "status": "plan_to_watch",
       "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 64462,
-      "title": "Re:bel Robotica",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Re:bel Robotica",
-        "jw_id": "ts40568",
-        "jw_title": "Robotica",
-        "jw_path": null,
+        "searched_as": "Sakura Quest",
+        "jw_id": "ts56245",
+        "jw_title": "Sakura Quest",
+        "jw_path": "/de/Serie/sakura-quest",
         "match_confidence": null,
         "verdict": "no_hit",
         "my_direct_hits": [],
@@ -656,678 +944,67 @@
       "errors": []
     },
     {
-      "mal_id": 31240,
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "mal_id": 205,
+      "title": "Samurai Champloo",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Re:Zero kara Hajimeru Isekai Seikatsu",
-        "jw_id": "ts41257",
-        "jw_title": "Re: Zero - Starting Life in Another World",
-        "jw_path": "/de/Serie/Re-ZERO-Starting-Life-in-Another-World",
+        "searched_as": "Samurai Champloo",
+        "jw_id": "ts31799",
+        "jw_title": "Samurai Champloo",
+        "jw_path": "/de/Serie/Samurai-Champloo",
         "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00345525DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0787268f-3ff4-43e1-a853-cdfe632eff96"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07X5R7M5Q?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427352"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07WZHHS1F?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427052"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340049&a=400165&m=14584"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340050&a=400165&m=14584"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 38414,
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna",
-        "jw_id": "ts41257",
-        "jw_title": "Re: Zero - Starting Life in Another World",
-        "jw_path": "/de/Serie/Re-ZERO-Starting-Life-in-Another-World",
-        "match_confidence": "low",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00345525DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0787268f-3ff4-43e1-a853-cdfe632eff96"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07X5R7M5Q?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427352"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07WZHHS1F?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427052"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340049&a=400165&m=14584"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340050&a=400165&m=14584"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 39587,
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
-        "jw_id": "ts41257",
-        "jw_title": "Re: Zero - Starting Life in Another World",
-        "jw_path": "/de/Serie/Re-ZERO-Starting-Life-in-Another-World",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00345525DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0787268f-3ff4-43e1-a853-cdfe632eff96"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07X5R7M5Q?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427352"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07WZHHS1F?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427052"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340049&a=400165&m=14584"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340050&a=400165&m=14584"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 42203,
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
-        "jw_id": "ts41257",
-        "jw_title": "Re: Zero - Starting Life in Another World",
-        "jw_path": "/de/Serie/Re-ZERO-Starting-Life-in-Another-World",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00345525DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0787268f-3ff4-43e1-a853-cdfe632eff96"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07X5R7M5Q?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427352"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07WZHHS1F?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427052"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340049&a=400165&m=14584"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340050&a=400165&m=14584"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 54857,
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
-        "jw_id": "ts41257",
-        "jw_title": "Re: Zero - Starting Life in Another World",
-        "jw_path": "/de/Serie/Re-ZERO-Starting-Life-in-Another-World",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00345525DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0787268f-3ff4-43e1-a853-cdfe632eff96"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07X5R7M5Q?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427352"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07WZHHS1F?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427052"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340049&a=400165&m=14584"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340050&a=400165&m=14584"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 61316,
-      "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
-        "jw_id": "ts41257",
-        "jw_title": "Re: Zero - Starting Life in Another World",
-        "jw_path": "/de/Serie/Re-ZERO-Starting-Life-in-Another-World",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00345525DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0787268f-3ff4-43e1-a853-cdfe632eff96"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07X5R7M5Q?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427352"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B07WZHHS1F?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427052"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340049&a=400165&m=14584"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811340050&a=400165&m=14584"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 64640,
-      "title": "Real mo Tama ni wa Uso wo Tsuku",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 710,
-      "title": "Rec",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Rec",
-        "jw_id": "ts72502",
-        "jw_title": "REC",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
+        "verdict": "no_stream_hit",
         "my_direct_hits": [],
         "my_channel_hits": [],
         "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
         "legal_de_other_providers": [],
-        "buy_physical_offers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "vdb",
+            "name": "Videobuster (Kauf/Leihe)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/85112/samurai-champloo?campaign=vb50feed#rental&rental-dvd"
+          }
+        ],
         "de_legal_availability": false
       },
       "errors": []
     },
     {
-      "mal_id": 1847,
-      "title": "Rec: Yurusarezarumono",
+      "mal_id": 59267,
+      "title": "Sanda",
       "status": "plan_to_watch",
       "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 32094,
-      "title": "Reikenzan: Hoshikuzu-tachi no Utage",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Reikenzan: Hoshikuzu-tachi no Utage",
-        "jw_id": "ts42407",
-        "jw_title": "Reikenzan",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 59443,
-      "title": "Reincarnation no Kaben",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Reincarnation no Kaben",
-        "jw_id": "ts496249",
-        "jw_title": "Petals of Reincarnation",
-        "jw_path": "/de/Serie/petals-of-reincarnation",
-        "match_confidence": "exact",
-        "verdict": "hit_channel",
-        "my_direct_hits": [],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b89b927e-502e-4990-97b3-5a0a40e4a24b"
-          }
-        ],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 56228,
-      "title": "Rekishi ni Nokoru Akujo ni Naru zo",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Rekishi ni Nokoru Akujo ni Naru zo",
-        "jw_id": "ts431169",
-        "jw_title": "I’ll Become a Villainess Who Goes Down in History",
-        "jw_path": "/de/Serie/ill-become-a-villainess-who-goes-down-in-history",
+        "searched_as": "Sanda",
+        "jw_id": "ts443633",
+        "jw_title": "Sanda",
+        "jw_path": "/de/Serie/sanda",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
           {
-            "provider": "cru",
-            "name": "Crunchyroll",
+            "provider": "amp",
+            "name": "Amazon Prime Video",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/G0DUMGPNN"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d05a91a0-99e3-4a8b-9ff0-3da3341f1128"
           }
         ],
         "my_channel_hits": [],
         "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.702dd44b-54d8-45bd-9bed-c3381a87898a"
-          }
-        ],
+        "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
         "legal_de_other_providers": [],
         "buy_physical_offers": [
           {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
+            "provider": "pva",
+            "name": "Prime Video (Kauf/Leihe, pva)",
             "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1074900366"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B0G2BNJHKG?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d05a91a0-99e3-4a8b-9ff0-3da3341f1128"
           }
         ],
         "de_legal_availability": true
@@ -1335,14 +1012,14 @@
       "errors": []
     },
     {
-      "mal_id": 32262,
-      "title": "Renai Boukun",
+      "mal_id": 44055,
+      "title": "Sasaki to Miyano",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Renai Boukun",
-        "jw_id": "ts56112",
-        "jw_title": "Love Tyrant",
-        "jw_path": "/de/Serie/Love-Tyrant",
+        "searched_as": "Sasaki to Miyano",
+        "jw_id": "ts296477",
+        "jw_title": "Sasaki and Miyano",
+        "jw_path": "/de/Serie/Sasaki-and-Miyano",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
@@ -1351,7 +1028,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/GYEX119V6"
+            "url": "https://www.crunchyroll.com/watch/GEVUWQVN0"
           }
         ],
         "my_channel_hits": [],
@@ -1362,45 +1039,7 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0ef6f302-2eb7-4556-be3b-2f310ee7d35b"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 61013,
-      "title": "Replica datte, Koi wo Suru.",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Replica datte, Koi wo Suru.",
-        "jw_id": "ts469805",
-        "jw_title": "Even a Replica Can Fall in Love",
-        "jw_path": "/de/Serie/even-a-replica-can-fall-in-love",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00374769JAJP"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.49f6c6cc-13d3-4897-8ada-eee4bbc51479"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.175b5b56-31a9-4127-a749-1ce730c7b127"
           }
         ],
         "adn_channel_caveat": [],
@@ -1412,18 +1051,18 @@
     }
   ],
   "cycle_hits_summary": {
-    "hit_direct": 295,
+    "hit_direct": 311,
     "de_legal_only": 7,
-    "hit_channel": 18,
+    "hit_channel": 20,
     "hit_adn_channel_caveat": 1,
     "hit_channel_candidate": 3,
     "hit_cr_channel_caveat": 5
   },
   "cycle_progress": {
-    "processed": 602,
-    "of": 832,
-    "remaining": 230,
-    "eta_runs": 8
+    "processed": 632,
+    "of": 838,
+    "remaining": 206,
+    "eta_runs": 7
   },
   "cycle_hits": {
     "1": {
@@ -2131,6 +1770,37 @@
       ],
       "legal_de_other_providers": []
     },
+    "5671": {
+      "title": "Saki",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Saki",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G65VPX0E6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.acc20682-79e2-4a5b-b35e-a4c75d6b9b8d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "5680": {
       "title": "K-On!",
       "mal_status": "plan_to_watch",
@@ -2737,6 +2407,43 @@
         "episode_count": 11,
         "season_video_count": 11,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
+    "12531": {
+      "title": "Sakamichi no Apollon",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Kids on the Slope",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1355-kids-on-the-slope/30605-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6f748e8a-7e9d-426c-8c95-107af78eb293"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1355-kids-on-the-slope",
+        "status": 451,
+        "available": null,
+        "note": "ADN-Seite nicht abrufbar (HTTP 451)"
       }
     },
     "14397": {
@@ -3455,6 +3162,37 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "20709": {
+      "title": "Sabage-bu!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sabagebu!: Survival Game Club!",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G69P32M8Y"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.45c66bf1-5760-43a5-b218-a1f9e21440cd"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "20785": {
       "title": "Mahouka Koukou no Rettousei",
       "mal_status": "plan_to_watch",
@@ -3731,6 +3469,37 @@
         "season_video_count": 24,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "23277": {
+      "title": "Saenai Heroine no Sodatekata",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Saekano: How to Raise a Boring Girlfriend",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GRDQDWMWY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8e352651-56f6-4396-ad2d-9e83768bf638"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "23281": {
       "title": "Psycho-Pass 2",
@@ -4785,6 +4554,37 @@
       "crunchyroll_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "32951": {
+      "title": "Rokudenashi Majutsu Koushi to Akashic Records",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Akashic Records of Bastard Magic Instructor",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GJWU2XGXK"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.572cb1ec-c6ea-4cec-9c06-fd25ea921a77"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "33487": {
       "title": "Masamune-kun no Revenge",
       "mal_status": "on_hold",
@@ -5419,6 +5219,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1046a83e-8533-40b0-b584-4ecfa80f9d88"
         }
       ]
+    },
+    "36513": {
+      "title": "Rokuhou-dou Yotsuiro Biyori",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Yotsuiro Biyori",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GR0XDWNMY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0d9c1a08-03a2-485d-9d2e-ff237fbb60dc"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "36982": {
       "title": "Micchiri Neko",
@@ -6085,6 +5916,60 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.26ea1ee6-8fd4-43a1-8515-4b4d500953c3"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "38940": {
+      "title": "Cop Craft",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Cop Craft",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d8516859-40d8-495c-9a91-cc550197657e"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "38992": {
+      "title": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Science fell in Love, so I tried to prove it",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G14U4ME07"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6b891b82-6e0f-4e10-9d49-8bfc7da963ae"
         }
       ],
       "adn_channel_caveat": [],
@@ -6777,6 +6662,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "43470": {
+      "title": "Rikei ga Koi ni Ochita no de Shoumei shitemita. Heart",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Science fell in Love, so I tried to prove it",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G14U4ME07"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6b891b82-6e0f-4e10-9d49-8bfc7da963ae"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "43691": {
       "title": "Kageki Shoujo!!",
       "mal_status": "plan_to_watch",
@@ -6834,6 +6750,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4bd2a826-b522-4a2c-b307-f010a2e5793b"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "44055": {
+      "title": "Sasaki to Miyano",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sasaki and Miyano",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GEVUWQVN0"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.175b5b56-31a9-4127-a749-1ce730c7b127"
         }
       ],
       "adn_channel_caveat": [],
@@ -7665,6 +7612,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "51837": {
+      "title": "Saikin Yatotta Maid ga Ayashii",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Maid I Hired Recently Is Mysterious",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GQJUGV47X"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.04b5c62c-a6c3-4ae7-8bb1-d85f68189891"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "51916": {
       "title": "Dekiru Neko wa Kyou mo Yuuutsu",
       "mal_status": "plan_to_watch",
@@ -8050,6 +8028,36 @@
           "tier": "direct",
           "note": null,
           "url": "https://www.crunchyroll.com/watch/GD9UV34J3"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "52865": {
+      "title": "Romantic Killer",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Romantic Killer",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81318888"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81318888"
         }
       ],
       "my_channel_hits": [],
@@ -8652,6 +8660,57 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f9c808ee-f920-43a1-8286-8d575387354b"
         }
       ]
+    },
+    "54859": {
+      "title": "Rinkai!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Rinkai!",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1170-rinkai/25322-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9192a8db-2a0b-4d25-98d6-388ee697e2d2"
+        }
+      ],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.365e9f0e-f0a4-4910-9c46-67ec279ff3ea"
+        }
+      ],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1170-rinkai",
+        "status": 200,
+        "adn_title": "RINKAI!",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 12,
+        "season_video_count": 12,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
     },
     "54915": {
       "title": "5-toubun no Hanayome∽",
@@ -10073,6 +10132,29 @@
         }
       ]
     },
+    "59267": {
+      "title": "Sanda",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sanda",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d05a91a0-99e3-4a8b-9ff0-3da3341f1128"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "59369": {
       "title": "Lycoris Recoil: Friends Are Thieves of Time.",
       "mal_status": "plan_to_watch",
@@ -10305,6 +10387,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4e390798-9714-4b16-a7be-d5f4fe645644"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "59787": {
+      "title": "Romelia Senki",
+      "mal_status": "watching",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Romelia War Chronicle",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00384291JAJP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ec671e5c-bf1c-4130-92c1-52c157e60691"
         }
       ],
       "adn_channel_caveat": [],
@@ -11010,6 +11123,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "61230": {
+      "title": "Saishuu Gakushou Hibike! Euphonium: Zenpen",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Sound! Euphonium",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00020631ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1eb280ba-185d-051d-9d8b-cd2026397d07"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "61274": {
       "title": "Ginga Tokkyuu Milky☆Subway",
       "mal_status": "plan_to_watch",
@@ -11154,6 +11298,29 @@
         }
       ],
       "crunchyroll_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "61969": {
+      "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "I'll Live a Long Life to Dote on My Favorite Stepbrother!",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d8ac808f-5fe8-48b7-9b9e-bb33b3702f33"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
     "61987": {
@@ -12487,6 +12654,37 @@
         "season_video_count": 25,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "64019": {
+      "title": "Saishuu Gakushou Hibike! Euphonium: Kouhen",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-10-31T09:39:45.755Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Sound! Euphonium",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00020631ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1eb280ba-185d-051d-9d8b-cd2026397d07"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "64059": {
       "title": "Boushoku no Berserk 2nd Season",
