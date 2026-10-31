@@ -8,10 +8,7 @@ erfolgreicher Run existiert. Ergebnisse:
   - late    : Erfolg-Run vorhanden, aber deutlich verspaetet (v4, s.u.)
   - failed  : Run(s) vorhanden, aber kein Erfolg (conclusion != success);
               manueller Catch-up nach Fehlschlag zaehlt als "ok (manuell)" (v5)
-  - waiting : kein Run seit Termin, aber Jitter-Fenster (LATE_ALARM_HOURS)
-               noch offen - kein Alarm (v6)
-  - missing : gar kein Run seit erwartetem Termin UND Jitter-Fenster
-               abgelaufen (v6: Alarm erst nach expected + LATE_ALARM_HOURS)
+  - missing : gar kein Run seit erwartetem Termin
   - error   : Workflow/API nicht abrufbar
   - pending : Workflow ist noch nicht lange genug live (v3)
 
@@ -35,15 +32,6 @@ zaehlte als ok"):
      zusaetzlich Runs JEDES Events; existiert seit dem erwarteten Termin ein
      erfolgreicher Run (z.B. workflow_dispatch), gilt der Workflow als "ok",
      mit Vermerk "(manuell)" im Detail.
-
-v6-Fix (31.10.2026, Cron-Jitter-Rennen): "missing" alarmierte sofort,
-  sobald beim Waechter-Lauf kein Run seit dem Termin existierte - egal wie
-  jung der Termin war. Laeuft der Waechter puenktlich, ein Jitter-betroffener
-  Workflow aber erst ~6h spaeter, war "missing" ein Rennen von zwei
-  verzögerten Crons (Beispiel Anime2You: Termin 06:30, Run real ~12:30,
-  Waechter-Check 12:23 -> Fehl-missing Minuten vor dem Run). v6 waegt ab bis
-  expected + LATE_ALARM_HOURS ("waiting", kein Alarm). Die Toleranz ist damit
-  fuer ok/late/missing einheitlich LATE_ALARM_HOURS.
 
 v5-Fix (31.10.2026, Issue #3 Befund): Der v4-Catch-up griff nur im
   missing-Zweig (kein geplanter Run vorhanden). Ging ein geplanter Run
@@ -215,18 +203,8 @@ def check_workflow(wf, now):
                         "expected": expected_at.isoformat()}
         except Exception:
             pass  # Fallback-Query gescheitert -> regulaer "missing" melden
-        # v6: Jitter-Fenster offen? GitHub startet Runs oft erst ~6h nach
-        # Termin. Solange expected + LATE_ALARM_HOURS noch nicht erreicht
-        # ist, wartet der Waechter ab ("waiting") statt "missing" zu melden -
-        # sonst waere es ein Rennen zwischen zwei verzögerten Crons
-        # (Befund 31.10.2026: Waechter puenktlich um 12:23 vs. Anime2You
-        # im ~6h-Jitter erst ~12:30 -> Fehl-missing wenige Minuten davor).
-        if now < expected_at + timedelta(hours=LATE_ALARM_HOURS):
-            return {"name": wf["name"], "status": "waiting",
-                    "detail": f"kein Run seit erwartetem Termin, Jitter-Fenster offen bis {(expected_at + timedelta(hours=LATE_ALARM_HOURS)).isoformat()}",
-                    "expected": expected_at.isoformat()}
         return {"name": wf["name"], "status": "missing",
-                "detail": "kein scheduled Run seit erwartetem Termin (Jitter-Fenster abgelaufen)",
+                "detail": "kein scheduled Run seit erwartetem Termin",
                 "expected": expected_at.isoformat()}
 
     ok_runs = [r for r in runs
@@ -339,7 +317,7 @@ def main():
     results = [check_workflow(wf, now) for wf in EXPECTED]
     # pending = junge Workflows vor ihrem ersten Cron: KEIN Alarm-Grund.
     # v4: "late" alarmiert jetzt ebenfalls (Verspaetung ueber Schwelle).
-    problems = [r for r in results if r["status"] not in ("ok", "pending", "waiting")]
+    problems = [r for r in results if r["status"] not in ("ok", "pending")]
 
     status = {
         "generated_at": now.isoformat(),
