@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-31T12:32:14.023379+00:00",
+  "generated_at": "2026-10-31T12:36:44.389448+00:00",
   "ok": false,
   "grace_hours": 4,
-  "late_alarm_hours": 4,
+  "late_alarm_hours": 8,
   "workflows": [
     {
       "name": "MAL Sync",
-      "status": "late",
-      "detail": "Erfolg 2026-10-26T10:13:35Z (Run 40305725640), aber 5.9h nach Termin 2026-10-26T04:17:00+00:00 (Schwelle 4h)",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-26T10:13:35Z (Run 40305725640), +5.9h",
       "expected": "2026-10-26T04:17:00+00:00"
     },
     {
       "name": "MAL Friends Candidates",
-      "status": "late",
-      "detail": "Erfolg 2026-10-26T10:23:25Z (Run 40307030009), aber 5.8h nach Termin 2026-10-26T04:35:00+00:00 (Schwelle 4h)",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-26T10:23:25Z (Run 40307030009), +5.8h",
       "expected": "2026-10-26T04:35:00+00:00"
     },
     {
       "name": "AniList Export",
-      "status": "late",
-      "detail": "Erfolg 2026-10-26T10:33:04Z (Run 40308285268), aber 5.8h nach Termin 2026-10-26T04:47:00+00:00 (Schwelle 4h)",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-26T10:33:04Z (Run 40308285268), +5.8h",
       "expected": "2026-10-26T04:47:00+00:00"
     },
     {
       "name": "Abo-Katalog-Check",
-      "status": "late",
-      "detail": "Erfolg 2026-10-26T11:07:42Z (Run 40312705894), aber 5.8h nach Termin 2026-10-26T05:17:00+00:00 (Schwelle 4h)",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-26T11:07:42Z (Run 40312705894), +5.8h",
       "expected": "2026-10-26T05:17:00+00:00"
     },
     {
@@ -36,14 +36,14 @@
     },
     {
       "name": "Release-Kalender",
-      "status": "late",
-      "detail": "Erfolg 2026-10-29T11:00:21Z (Run 40861976144), aber 6.5h nach Termin 2026-10-29T04:30:00+00:00 (Schwelle 4h)",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-29T11:00:21Z (Run 40861976144), +6.5h",
       "expected": "2026-10-29T04:30:00+00:00"
     },
     {
       "name": "Streaming Rollcheck",
-      "status": "late",
-      "detail": "Erfolg 2026-10-31T09:39:26Z (Run 41189577782), aber 6.4h nach Termin 2026-10-31T03:17:00+00:00 (Schwelle 4h)",
+      "status": "ok",
+      "detail": "Erfolg 2026-10-31T09:39:26Z (Run 41189577782), +6.4h",
       "expected": "2026-10-31T03:17:00+00:00"
     },
     {
