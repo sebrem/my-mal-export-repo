@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:36:44.389448+00:00",
+  "generated_at": "2026-10-31T12:40:56.503238+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -30,8 +30,8 @@
     },
     {
       "name": "Verlags-Announcements",
-      "status": "failed",
-      "detail": "letzter Run 2026-10-28T11:40:09Z: failure (Run 40681738207)",
+      "status": "ok",
+      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-10-31T12:34:48Z (Run 41201737639) - geplanter Run davor rot",
       "expected": "2026-10-28T05:47:00+00:00"
     },
     {
