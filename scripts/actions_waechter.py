@@ -6,7 +6,8 @@ Workflow wird geprueft, ob seit dessen letztem erwarteten Cron-Termin ein
 erfolgreicher Run existiert. Ergebnisse:
   - ok      : Erfolg-Run seit letztem erwarteten Termin vorhanden
   - late    : Erfolg-Run vorhanden, aber deutlich verspaetet (v4, s.u.)
-  - failed  : Run(s) vorhanden, aber kein Erfolg (conclusion != success)
+  - failed  : Run(s) vorhanden, aber kein Erfolg (conclusion != success);
+              manueller Catch-up nach Fehlschlag zaehlt als "ok (manuell)" (v5)
   - missing : gar kein Run seit erwartetem Termin
   - error   : Workflow/API nicht abrufbar
   - pending : Workflow ist noch nicht lange genug live (v3)
@@ -31,6 +32,12 @@ zaehlte als ok"):
      zusaetzlich Runs JEDES Events; existiert seit dem erwarteten Termin ein
      erfolgreicher Run (z.B. workflow_dispatch), gilt der Workflow als "ok",
      mit Vermerk "(manuell)" im Detail.
+
+v5-Fix (31.10.2026, Issue #3 Befund): Der v4-Catch-up griff nur im
+  missing-Zweig (kein geplanter Run vorhanden). Ging ein geplanter Run
+  FEHL und wurde danach manuell erfolgreich nachgezogen, blieb der Waechter
+  trotzdem "failed". v5 prueft den manuellen Catch-up jetzt auch im
+  failed-Zweig -> "ok (manuell ... geplanter Run davor rot)".
 
 v3-Fix (23.10.2026, Erst-Alarm-Analyse): EXPECTED-Eintraege bekommen ein
 optionales "since" (Geburtsdatum/Live-Datum des Workflows). Liegt der
@@ -216,6 +223,24 @@ def check_workflow(wf, now):
         return {"name": wf["name"], "status": "ok",
                 "detail": f"Erfolg {newest['created_at']} (Run {newest['id']}), +{delay_h:.1f}h",
                 "expected": expected_at.isoformat()}
+
+    # v5: geplanter Run rot, aber danach manuell erfolgreich nachgezogen ->
+    # "ok (manuell)" statt "failed" (gleiche Catch-up-Logik wie im
+    # missing-Zweig). Befund 31.10.2026: Verlags-Announcements 28.10.
+    # geplant rot, 2x manuell erfolgreich -> Waechter blieb trotzdem rot.
+    try:
+        any_data = api(f"/repos/{REPO}/actions/workflows/{wf['file']}/runs",
+                       params={"per_page": 30})
+        any_ok = [r for r in any_data.get("workflow_runs", [])
+                  if r["status"] == "completed" and r["conclusion"] == "success"
+                  and parse_ts(r["created_at"]) >= expected_at]
+        if any_ok:
+            newest_ok = max(any_ok, key=lambda r: parse_ts(r["created_at"]))
+            return {"name": wf["name"], "status": "ok",
+                    "detail": f"Erfolg (manuell, event={newest_ok.get('event', '?')}) {newest_ok['created_at']} (Run {newest_ok['id']}) - geplanter Run davor rot",
+                    "expected": expected_at.isoformat()}
+    except Exception:
+        pass  # Fallback-Query gescheitert -> regulaer "failed" melden
 
     newest = max(runs, key=lambda r: parse_ts(r["created_at"]))
     conc = newest.get("conclusion") or newest.get("status")
