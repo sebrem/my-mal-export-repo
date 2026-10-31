@@ -26,7 +26,10 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Erstlauf mit leerem Snapshot = Vollcheck (~1301 Titel, >30 Min).
+    # Regelbetrieb (Rotation, ~1/4 der Titel) braucht nur ~15 Min, aber der
+    # headroom schadet nicht: MU-Antwortzeiten variieren stark.
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
