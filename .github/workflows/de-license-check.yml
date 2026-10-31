@@ -4,8 +4,9 @@
 #
 # Voraussetzung: scripts/de_license_check.py im Repo (Commits: Sebastian selbst).
 # Rotationsprinzip: --max-age 28 (Skript-Default) -> jeder Lauf prueft nur das
-# aelteste Viertel der aktiven Titel (~1301 Titel im Export 31.10.2026,
-# ~15 Min Laufzeit). Neue Titel (frisch auf MAL angelegt) laufen sofort mit.
+# aelteste Viertel der aktiven Titel (gemessen 31.10.2026: ~3.6 s/Titel, also
+# ~20-25 Min pro Rotationslauf). Neue Titel (frisch auf MAL angelegt) laufen sofort mit.
+# Status: committed & Erstlauf erfolgreich (31.10.2026, 1306 Titel, Snapshot-Commit 367d8e0).
 
 name: DE-License-Check
 
