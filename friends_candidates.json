@@ -13,7 +13,8 @@
       9,
       9,
       8,
-      10
+      10,
+      8
     ],
     "friends": [
       "f01",
@@ -26,7 +27,72 @@
       "f13",
       "f17",
       "f18",
-      "f19"
+      "f19",
+      "f20"
+    ],
+    "count": 12
+  },
+  {
+    "mal_id": 25777,
+    "title": "Shingeki no Kyojin Season 2",
+    "scores": [
+      10,
+      10,
+      8,
+      8,
+      9,
+      10,
+      8,
+      8,
+      9,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f08",
+      "f09",
+      "f13",
+      "f17",
+      "f18",
+      "f19",
+      "f20"
+    ],
+    "count": 12
+  },
+  {
+    "mal_id": 38524,
+    "title": "Shingeki no Kyojin Season 3 Part 2",
+    "scores": [
+      10,
+      10,
+      9,
+      9,
+      10,
+      10,
+      9,
+      8,
+      9,
+      8,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f08",
+      "f09",
+      "f13",
+      "f17",
+      "f19",
+      "f20"
     ],
     "count": 11
   },
@@ -93,6 +159,68 @@
     "count": 11
   },
   {
+    "mal_id": 44511,
+    "title": "Chainsaw Man",
+    "scores": [
+      10,
+      8,
+      9,
+      9,
+      8,
+      8,
+      9,
+      9,
+      9,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f08",
+      "f11",
+      "f13",
+      "f15",
+      "f19",
+      "f20"
+    ],
+    "count": 11
+  },
+  {
+    "mal_id": 57555,
+    "title": "Chainsaw Man Movie: Reze-hen",
+    "scores": [
+      9,
+      10,
+      10,
+      9,
+      9,
+      10,
+      9,
+      9,
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f08",
+      "f09",
+      "f11",
+      "f13",
+      "f17",
+      "f20"
+    ],
+    "count": 11
+  },
+  {
     "mal_id": 9253,
     "title": "Steins;Gate",
     "scores": [
@@ -122,18 +250,18 @@
     "count": 10
   },
   {
-    "mal_id": 25777,
-    "title": "Shingeki no Kyojin Season 2",
+    "mal_id": 35760,
+    "title": "Shingeki no Kyojin Season 3",
     "scores": [
       10,
       10,
-      8,
-      8,
+      9,
       9,
       10,
-      8,
+      10,
       8,
       9,
+      8,
       8
     ],
     "friends": [
@@ -143,68 +271,10 @@
       "f06",
       "f07",
       "f08",
-      "f09",
       "f13",
       "f17",
-      "f19"
-    ],
-    "count": 10
-  },
-  {
-    "mal_id": 38524,
-    "title": "Shingeki no Kyojin Season 3 Part 2",
-    "scores": [
-      10,
-      10,
-      9,
-      9,
-      10,
-      10,
-      9,
-      8,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f07",
-      "f08",
-      "f09",
-      "f13",
-      "f17",
-      "f19"
-    ],
-    "count": 10
-  },
-  {
-    "mal_id": 44511,
-    "title": "Chainsaw Man",
-    "scores": [
-      10,
-      8,
-      9,
-      9,
-      8,
-      8,
-      9,
-      9,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f07",
-      "f08",
-      "f11",
-      "f13",
-      "f15",
-      "f19"
+      "f19",
+      "f20"
     ],
     "count": 10
   },
@@ -267,35 +337,6 @@
     "count": 10
   },
   {
-    "mal_id": 57555,
-    "title": "Chainsaw Man Movie: Reze-hen",
-    "scores": [
-      9,
-      10,
-      10,
-      9,
-      9,
-      10,
-      9,
-      9,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f07",
-      "f08",
-      "f09",
-      "f11",
-      "f13",
-      "f17"
-    ],
-    "count": 10
-  },
-  {
     "mal_id": 53887,
     "title": "Spy x Family Season 2",
     "scores": [
@@ -325,29 +366,83 @@
     "count": 10
   },
   {
-    "mal_id": 35760,
-    "title": "Shingeki no Kyojin Season 3",
+    "mal_id": 1535,
+    "title": "Death Note",
     "scores": [
       10,
-      10,
-      9,
-      9,
-      10,
-      10,
       8,
+      8,
+      8,
+      10,
+      10,
+      9,
       9,
       8
     ],
     "friends": [
       "f01",
-      "f02",
       "f05",
       "f06",
       "f07",
-      "f08",
+      "f11",
+      "f15",
+      "f16",
+      "f17",
+      "f20"
+    ],
+    "count": 9
+  },
+  {
+    "mal_id": 40028,
+    "title": "Shingeki no Kyojin: The Final Season",
+    "scores": [
+      10,
+      10,
+      9,
+      10,
+      9,
+      9,
+      10,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f07",
+      "f09",
       "f13",
       "f17",
-      "f19"
+      "f19",
+      "f20"
+    ],
+    "count": 9
+  },
+  {
+    "mal_id": 48583,
+    "title": "Shingeki no Kyojin: The Final Season Part 2",
+    "scores": [
+      10,
+      10,
+      10,
+      9,
+      8,
+      9,
+      10,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f07",
+      "f09",
+      "f13",
+      "f17",
+      "f19",
+      "f20"
     ],
     "count": 9
   },
@@ -487,27 +582,27 @@
     "count": 9
   },
   {
-    "mal_id": 1535,
-    "title": "Death Note",
+    "mal_id": 1575,
+    "title": "Code Geass: Hangyaku no Lelouch",
     "scores": [
       10,
-      8,
-      8,
-      8,
-      10,
-      10,
       9,
+      8,
+      9,
+      8,
+      9,
+      10,
       9
     ],
     "friends": [
       "f01",
-      "f05",
+      "f02",
       "f06",
-      "f07",
-      "f11",
-      "f15",
+      "f08",
+      "f10",
       "f16",
-      "f17"
+      "f17",
+      "f20"
     ],
     "count": 8
   },
@@ -612,56 +707,6 @@
     "count": 8
   },
   {
-    "mal_id": 38826,
-    "title": "Tenki no Ko",
-    "scores": [
-      10,
-      8,
-      8,
-      9,
-      8,
-      10,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f06",
-      "f07",
-      "f09",
-      "f13",
-      "f15",
-      "f19"
-    ],
-    "count": 8
-  },
-  {
-    "mal_id": 40028,
-    "title": "Shingeki no Kyojin: The Final Season",
-    "scores": [
-      10,
-      10,
-      9,
-      10,
-      9,
-      9,
-      10,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f07",
-      "f09",
-      "f13",
-      "f17",
-      "f19"
-    ],
-    "count": 8
-  },
-  {
     "mal_id": 41457,
     "title": "86",
     "scores": [
@@ -733,31 +778,6 @@
       "f11",
       "f16",
       "f17"
-    ],
-    "count": 8
-  },
-  {
-    "mal_id": 48583,
-    "title": "Shingeki no Kyojin: The Final Season Part 2",
-    "scores": [
-      10,
-      10,
-      10,
-      9,
-      8,
-      9,
-      10,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f07",
-      "f09",
-      "f13",
-      "f17",
-      "f19"
     ],
     "count": 8
   },
@@ -860,29 +880,6 @@
       "f19"
     ],
     "count": 8
-  },
-  {
-    "mal_id": 1575,
-    "title": "Code Geass: Hangyaku no Lelouch",
-    "scores": [
-      10,
-      9,
-      8,
-      9,
-      8,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f06",
-      "f08",
-      "f10",
-      "f16",
-      "f17"
-    ],
-    "count": 7
   },
   {
     "mal_id": 30654,
@@ -1157,6 +1154,29 @@
       "f13",
       "f17",
       "f19"
+    ],
+    "count": 7
+  },
+  {
+    "mal_id": 2904,
+    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "scores": [
+      9,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f06",
+      "f08",
+      "f16",
+      "f17",
+      "f20"
     ],
     "count": 7
   },
@@ -1892,23 +1912,23 @@
     "count": 6
   },
   {
-    "mal_id": 2904,
-    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "mal_id": 20899,
+    "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
     "scores": [
       9,
-      10,
-      10,
-      10,
-      10,
-      10
+      9,
+      8,
+      9,
+      8,
+      8
     ],
     "friends": [
       "f01",
       "f02",
+      "f05",
       "f06",
-      "f08",
-      "f16",
-      "f17"
+      "f17",
+      "f18"
     ],
     "count": 6
   },
@@ -1997,6 +2017,27 @@
     "count": 6
   },
   {
+    "mal_id": 37991,
+    "title": "JoJo no Kimyou na Bouken Part 5: Ougon no Kaze",
+    "scores": [
+      9,
+      10,
+      9,
+      10,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f18",
+      "f20"
+    ],
+    "count": 6
+  },
+  {
     "mal_id": 54900,
     "title": "Wind Breaker",
     "scores": [
@@ -2077,6 +2118,27 @@
       "f09",
       "f13",
       "f17"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 25781,
+    "title": "Shingeki no Kyojin: Kuinaki Sentaku",
+    "scores": [
+      8,
+      8,
+      9,
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f02",
+      "f07",
+      "f08",
+      "f17",
+      "f19",
+      "f20"
     ],
     "count": 6
   },
@@ -2522,25 +2584,6 @@
     "count": 5
   },
   {
-    "mal_id": 20899,
-    "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
-    "scores": [
-      9,
-      9,
-      8,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f17"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 22319,
     "title": "Tokyo Ghoul",
     "scores": [
@@ -2712,25 +2755,6 @@
     "count": 5
   },
   {
-    "mal_id": 37991,
-    "title": "JoJo no Kimyou na Bouken Part 5: Ougon no Kaze",
-    "scores": [
-      9,
-      10,
-      9,
-      10,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f18"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 40456,
     "title": "Kimetsu no Yaiba Movie: Mugen Ressha-hen",
     "scores": [
@@ -2883,25 +2907,6 @@
     "count": 5
   },
   {
-    "mal_id": 25781,
-    "title": "Shingeki no Kyojin: Kuinaki Sentaku",
-    "scores": [
-      8,
-      8,
-      9,
-      9,
-      8
-    ],
-    "friends": [
-      "f02",
-      "f07",
-      "f08",
-      "f17",
-      "f19"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 30240,
     "title": "Prison School",
     "scores": [
@@ -2917,6 +2922,25 @@
       "f08",
       "f17",
       "f19"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 31933,
+    "title": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
+    "scores": [
+      8,
+      10,
+      9,
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f20"
     ],
     "count": 5
   },
@@ -4000,23 +4024,6 @@
     "count": 4
   },
   {
-    "mal_id": 31933,
-    "title": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
-    "scores": [
-      8,
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06"
-    ],
-    "count": 4
-  },
-  {
     "mal_id": 34577,
     "title": "Nanatsu no Taizai: Imashime no Fukkatsu",
     "scores": [
@@ -4941,6 +4948,21 @@
       "f01",
       "f02",
       "f19"
+    ],
+    "count": 3
+  },
+  {
+    "mal_id": 35849,
+    "title": "Darling in the FranXX",
+    "scores": [
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f07",
+      "f13",
+      "f20"
     ],
     "count": 3
   },
@@ -8010,19 +8032,6 @@
     "count": 2
   },
   {
-    "mal_id": 35849,
-    "title": "Darling in the FranXX",
-    "scores": [
-      9,
-      8
-    ],
-    "friends": [
-      "f07",
-      "f13"
-    ],
-    "count": 2
-  },
-  {
     "mal_id": 35972,
     "title": "Fairy Tail: Final Series",
     "scores": [
@@ -9630,19 +9639,6 @@
     "friends": [
       "f13",
       "f17"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 20853,
-    "title": "Hitsugi no Chaika",
-    "scores": [
-      8,
-      8
-    ],
-    "friends": [
-      "f13",
-      "f19"
     ],
     "count": 2
   },
@@ -11667,6 +11663,17 @@
     "count": 1
   },
   {
+    "mal_id": 1706,
+    "title": "JoJo no Kimyou na Bouken Part 7: Steel Ball Run",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f20"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 2124,
     "title": "Code Geass: Hangyaku no Lelouch Recaps",
     "scores": [
@@ -12444,17 +12451,6 @@
     ],
     "friends": [
       "f01"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 15379,
-    "title": "Kotoura-san",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f19"
     ],
     "count": 1
   },
@@ -14111,17 +14107,6 @@
   {
     "mal_id": 118289,
     "title": "Skip to Loafer",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f15"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 119161,
-    "title": "Spy x Family",
     "scores": [
       10
     ],
@@ -17339,17 +17324,6 @@
     ],
     "friends": [
       "f13"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 38940,
-    "title": "Cop Craft",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f19"
     ],
     "count": 1
   },
@@ -29201,6 +29175,17 @@
     "count": 1
   },
   {
+    "mal_id": 54444,
+    "title": "Fanren Xiu Xian Zhuan: Chongzhi Ban",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f02"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 54495,
     "title": "Kyoukai Senki: Kyokkou no Souki",
     "scores": [
@@ -30715,17 +30700,6 @@
     ],
     "friends": [
       "f06"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 104565,
-    "title": "Tokyo卍Revengers",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f01"
     ],
     "count": 1
   },
