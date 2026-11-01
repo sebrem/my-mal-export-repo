@@ -631,7 +631,37 @@
     34494,
     205,
     59267,
-    44055
+    44055,
+    65298,
+    52482,
+    58518,
+    1881,
+    54233,
+    58878,
+    2605,
+    2476,
+    53263,
+    21033,
+    65087,
+    1827,
+    61578,
+    53912,
+    47790,
+    64084,
+    42351,
+    38787,
+    339,
+    18119,
+    2104,
+    38759,
+    42395,
+    52347,
+    63819,
+    28069,
+    58426,
+    29786,
+    100,
+    38659
   ],
   "cycle": 1,
   "cycle_started": "2026-10-23T13:25:04.638Z",
@@ -711,6 +741,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f6bae55b-8e5b-483d-8e6f-a8bc6d8508ee"
         }
       ]
+    },
+    "100": {
+      "title": "Shin Shirayuki-hime Densetsu Prétear",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Pretear",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GX9UQ5X28"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ba7e6db7-1542-430a-a3b9-724d13ed7757"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "329": {
       "title": "Planetes",
@@ -1197,6 +1258,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ff6efb43-f7e5-4190-97d8-7b5d51d3ad9d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "2104": {
+      "title": "Seto no Hanayome",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "My Bride is a Mermaid",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GR9PX7086"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.68b36a71-cecf-335d-3fa4-f5ed72c4a1bf"
         }
       ],
       "adn_channel_caveat": [],
@@ -3401,6 +3493,45 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "29786": {
+      "title": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Shimoneta: A Boring World Where the Concept of 'Dirty Jokes' Doesn't Exist",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GN7UD1X52"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a5fb39cf-0a49-460f-9758-47cde518ee43"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.04130c66-ff0a-4003-97e0-ca6bba23f40c"
+        }
+      ]
+    },
     "30370": {
       "title": "Akatsuki no Yona OVA",
       "mal_status": "plan_to_watch",
@@ -5385,6 +5516,50 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "38659": {
+      "title": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUN55JZ"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1142-cautious-hero-the-hero-is-overpowered-but-overly-cautious/24771-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f95890b6-492d-4b5d-a31f-0a13c14f3b34"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1142-cautious-hero-the-hero-is-overpowered-but-overly-cautious",
+        "status": 451,
+        "available": null,
+        "note": "ADN-Seite nicht abrufbar (HTTP 451)"
+      }
+    },
     "38668": {
       "title": "Dorohedoro",
       "mal_status": "plan_to_watch",
@@ -5460,6 +5635,37 @@
           "url": "https://www.disneyplus.com/browse/entity-99c35086-cc39-481c-9827-333c0ab15d5a"
         }
       ]
+    },
+    "38759": {
+      "title": "Sewayaki Kitsune no Senko-san",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Helpful Fox Senko-san",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GYW4JJGK6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0a4eb57c-ea15-44cb-bd21-32ce82cef3c5"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "38924": {
       "title": "Nekopara",
@@ -6202,6 +6408,68 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "42351": {
+      "title": "Senpai ga Uzai Kouhai no Hanashi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "My Senpai is Annoying",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G31UX9J37"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b377f011-cf5e-43f1-b7ec-80dbdc979e56"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "42395": {
+      "title": "Shakunetsu Kabaddi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Burning Kabaddi",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G2XU050X2"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d6b8e298-82b0-44e5-907f-55ec0c4a4417"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "42670": {
       "title": "Princess Connect! Re:Dive Season 2",
       "mal_status": "plan_to_watch",
@@ -6418,6 +6686,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.cc657e59-4fce-412b-8ade-96ffc1e03e11"
         }
       ]
+    },
+    "47790": {
+      "title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GN7UD7DEG"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2fa931c4-0806-4024-b7e0-1c6a3d163449"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "48316": {
       "title": "Kage no Jitsuryokusha ni Naritakute!",
@@ -7452,6 +7751,51 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "52347": {
+      "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
+      "mal_status": "on_hold",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Shangri-La Frontier",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81727242"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81727242"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G8WU7VQ10"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6809ab28-66c9-4793-9ae9-f7f3bc2176e1"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "52446": {
       "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
       "mal_status": "plan_to_watch",
@@ -7478,6 +7822,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4d68b19f-1187-4c93-ba0f-b2178731a3f1"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "52482": {
+      "title": "Sasaki to Pii-chan",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sasaki and Peeps",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G4VUQVP2P"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9dd1b40b-661e-4b27-8c64-85b3e7d3b7f5"
         }
       ],
       "adn_channel_caveat": [],
@@ -7738,6 +8113,29 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "53263": {
+      "title": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Great Cleric",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G50UZV2EJ"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "53300": {
       "title": "Ojou to Banken-kun",
       "mal_status": "plan_to_watch",
@@ -7940,6 +8338,37 @@
       ],
       "legal_de_other_providers": []
     },
+    "53912": {
+      "title": "Seiyuu Radio no Uraomote",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Many Sides of Voice Actor Radio",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GVWU0M81G"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e670c126-a8e7-496f-9ce3-13a984974842"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "54000": {
       "title": "Otome Game Sekai wa Mob ni Kibishii Sekai desu 2",
       "mal_status": "plan_to_watch",
@@ -7978,6 +8407,57 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a12181f8-c02b-4b3f-a08c-6a6813e04f50"
         }
       ]
+    },
+    "54233": {
+      "title": "Sasayaku You ni Koi wo Utau",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sasayaku You ni Koi wo Utau",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1165-fluster-mir-ein-liebeslied/25298-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e8db9fe7-e0b4-4725-b73d-2db84e46930c"
+        }
+      ],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.fe0121d0-c0c9-4026-9043-e827b018f95f"
+        }
+      ],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1165-fluster-mir-ein-liebeslied",
+        "status": 200,
+        "adn_title": "Whisper Me a Love Song",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 12,
+        "season_video_count": 12,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
     },
     "54309": {
       "title": "Blue Archive the Animation",
@@ -9417,6 +9897,107 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "58426": {
+      "title": "Shikanoko Nokonoko Koshitantan",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "My Deer Friend Nokotan",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.21f86435-abfa-4cfd-bc9d-834b99460838"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GD9UE9P9N"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1188-my-deer-friend-nokotan/26192-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.21f86435-abfa-4cfd-bc9d-834b99460838"
+        }
+      ],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.21f86435-abfa-4cfd-bc9d-834b99460838"
+        }
+      ],
+      "legal_de_other_providers": [
+        {
+          "provider": "plx",
+          "name": null,
+          "tier": "other",
+          "note": "unmapped shortName – Map verfeinern",
+          "url": "https://watch.plex.tv/show/my-deer-friend-nokotan/season/1/episode/1?autoplay=1&utm_content=65f1e6d8477fead3139ec548&utm_medium=deeplink&utm_source=justWatch-v2-catalog"
+        },
+        {
+          "provider": "pxp",
+          "name": null,
+          "tier": "other",
+          "note": "unmapped shortName – Map verfeinern",
+          "url": "https://watch.plex.tv/embed/show/my-deer-friend-nokotan/season/1/episode/1?referrer=JustWatch"
+        },
+        {
+          "provider": "plc",
+          "name": null,
+          "tier": "other",
+          "note": "unmapped shortName – Map verfeinern",
+          "url": "https://www.justwatch.com/de/Serie/my-deer-friend-nokotan?package=plc"
+        },
+        {
+          "provider": "akp",
+          "name": "Akibapass (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.akibapass.tv/products/my-deer-friend-nokotan-omu-season-1"
+        },
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.922bf719-e049-4670-a18e-80fc50c67d20"
+        }
+      ],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1188-my-deer-friend-nokotan",
+        "status": 200,
+        "adn_title": "My Deer Friend Nokotan",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 13,
+        "season_video_count": 13,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "58492": {
       "title": "Mono",
       "mal_status": "plan_to_watch",
@@ -9605,6 +10186,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.182fb33e-bdcd-40e6-ab67-5e8355a9ffca"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "58878": {
+      "title": "Sayonara Lara",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Goodbye, Lara",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00378240ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b53fc88a-1b23-419e-808d-b52816b2d9f7"
         }
       ],
       "adn_channel_caveat": [],
@@ -10840,6 +11452,57 @@
       "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "61578": {
+      "title": "Seitokai ni mo Ana wa Aru!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Even the Student Council Has Its Holes!",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1428-even-the-student-council-has-its-holes/32946-folge-1"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.82564788-0466-47e4-806c-be5ecbcf5e9e"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.82564788-0466-47e4-806c-be5ecbcf5e9e"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1428-even-the-student-council-has-its-holes",
+        "status": 200,
+        "adn_title": "Even the Student Council Has Its Holes!",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 5,
+        "season_video_count": 5,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
     },
     "61694": {
       "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
@@ -12226,6 +12889,51 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "63819": {
+      "title": "Shibou Yuugi de Meshi wo Kuu. 44: Cloudy Beach",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "SHIBOYUGI: Das Phantom-Mädchen im Spiel des Todes",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/82047155"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00367376ESES"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/82047155"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6a60ae30-47f6-40cd-98da-11d946729464"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "64019": {
       "title": "Saishuu Gakushou Hibike! Euphonium: Kouhen",
       "mal_status": "plan_to_watch",
@@ -12283,6 +12991,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9c499945-cd72-484d-ad43-7d1603c897e8"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "64084": {
+      "title": "Sekai Saikyou no Majo, Hajimemashita",
+      "mal_status": "watching",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The World's Strongest Witch",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00385842ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.148ba47b-9b79-4352-96e5-9f204abee607"
         }
       ],
       "adn_channel_caveat": [],
@@ -12566,6 +13305,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5d750e60-9585-4d8d-8a59-fd720da05bce"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "65087": {
+      "title": "Seirei Gensouki 3",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-01T10:27:29.827Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Seirei Gensouki: Spirit Chronicles",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G4VUQX451"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.249e5028-5438-4e88-a611-e928ecb3e78a"
         }
       ],
       "adn_channel_caveat": [],
