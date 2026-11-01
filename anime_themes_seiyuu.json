@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-24T21:06:19.253Z",
+  "generated_at": "2026-11-01T12:08:48.354Z",
   "source": "mal_anime.json (Score >= 9) x animethemes.moe (search+page) x AniList GraphQL",
   "min_score": 9,
-  "count_shows": 216,
-  "themes_found": 204,
-  "cast_found": 215,
+  "count_shows": 221,
+  "themes_found": 208,
+  "cast_found": 220,
   "artist_frequency": [
     {
       "name": "fhána",
       "count": 8
     },
     {
-      "name": "Chiai Fujikawa",
-      "count": 6
+      "name": "HoneyWorks",
+      "count": 7
     },
     {
-      "name": "HoneyWorks",
+      "name": "Chiai Fujikawa",
       "count": 6
     },
     {
@@ -79,6 +79,10 @@
       "count": 4
     },
     {
+      "name": "Riria.",
+      "count": 4
+    },
+    {
       "name": "sajou no hana",
       "count": 4
     },
@@ -88,6 +92,10 @@
     },
     {
       "name": "Aira Yuuki",
+      "count": 3
+    },
+    {
+      "name": "Chorogons",
       "count": 3
     },
     {
@@ -115,7 +123,15 @@
       "count": 3
     },
     {
+      "name": "Kashitarou Itou",
+      "count": 3
+    },
+    {
       "name": "Lam Kohana",
+      "count": 3
+    },
+    {
+      "name": "Masayoshi Ooishi",
       "count": 3
     },
     {
@@ -128,10 +144,6 @@
     },
     {
       "name": "Reira Ushio",
-      "count": 3
-    },
-    {
-      "name": "Riria.",
       "count": 3
     },
     {
@@ -157,6 +169,10 @@
     {
       "name": "Zutto Mayonaka de Ii no ni.",
       "count": 3
+    },
+    {
+      "name": "&TEAM",
+      "count": 2
     },
     {
       "name": "Ai Kakuma",
@@ -188,10 +204,6 @@
     },
     {
       "name": "CHiCO",
-      "count": 2
-    },
-    {
-      "name": "Chorogons",
       "count": 2
     },
     {
@@ -239,10 +251,6 @@
       "count": 2
     },
     {
-      "name": "Kashitarou Itou",
-      "count": 2
-    },
-    {
       "name": "Katsuyuki Konishi",
       "count": 2
     },
@@ -260,10 +268,6 @@
     },
     {
       "name": "Mao Abe",
-      "count": 2
-    },
-    {
-      "name": "Masayoshi Ooishi",
       "count": 2
     },
     {
@@ -515,6 +519,10 @@
       "count": 1
     },
     {
+      "name": "ASTERISM",
+      "count": 1
+    },
+    {
       "name": "Atarayo",
       "count": 1
     },
@@ -616,6 +624,10 @@
     },
     {
       "name": "FantasticYouth",
+      "count": 1
+    },
+    {
+      "name": "FLOW",
       "count": 1
     },
     {
@@ -975,11 +987,11 @@
       "count": 1
     },
     {
-      "name": "Sachiko Kobayashi",
+      "name": "Saori Hayami",
       "count": 1
     },
     {
-      "name": "Saori Hayami",
+      "name": "Sara Hoshikawa",
       "count": 1
     },
     {
@@ -1126,7 +1138,7 @@
   "seiyuu_frequency": [
     {
       "name": "Atsumi Tanezaki",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Saori Hayami",
@@ -1134,18 +1146,22 @@
     },
     {
       "name": "Inori Minase",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Maaya Uchida",
-      "count": 18
+      "count": 19
+    },
+    {
+      "name": "Kaito Ishikawa",
+      "count": 17
     },
     {
       "name": "Haruka Tomatsu",
       "count": 15
     },
     {
-      "name": "Kaito Ishikawa",
+      "name": "Saori Oonishi",
       "count": 15
     },
     {
@@ -1153,19 +1169,23 @@
       "count": 14
     },
     {
-      "name": "Saori Oonishi",
+      "name": "Mao Ichimichi",
       "count": 14
     },
     {
-      "name": "Mao Ichimichi",
-      "count": 13
+      "name": "Nao Touyama",
+      "count": 14
     },
     {
-      "name": "Nao Touyama",
+      "name": "Asami Seto",
       "count": 13
     },
     {
       "name": "Sayumi Suzushiro",
+      "count": 13
+    },
+    {
+      "name": "Yoshino Aoyama",
       "count": 13
     },
     {
@@ -1177,7 +1197,7 @@
       "count": 13
     },
     {
-      "name": "Asami Seto",
+      "name": "Manaka Iwami",
       "count": 12
     },
     {
@@ -1186,10 +1206,6 @@
     },
     {
       "name": "Nobuhiko Okamoto",
-      "count": 12
-    },
-    {
-      "name": "Yoshino Aoyama",
       "count": 12
     },
     {
@@ -1205,11 +1221,11 @@
       "count": 11
     },
     {
-      "name": "Manaka Iwami",
+      "name": "Rina Hidaka",
       "count": 11
     },
     {
-      "name": "Rina Hidaka",
+      "name": "Taku Yashiro",
       "count": 11
     },
     {
@@ -1229,11 +1245,15 @@
       "count": 10
     },
     {
-      "name": "Shougo Sakata",
+      "name": "Kana Ichinose",
       "count": 10
     },
     {
-      "name": "Taku Yashiro",
+      "name": "Reina Ueda",
+      "count": 10
+    },
+    {
+      "name": "Shougo Sakata",
       "count": 10
     },
     {
@@ -1249,7 +1269,7 @@
       "count": 9
     },
     {
-      "name": "Kana Ichinose",
+      "name": "Makoto Furukawa",
       "count": 9
     },
     {
@@ -1257,11 +1277,15 @@
       "count": 9
     },
     {
+      "name": "Miyu Tomita",
+      "count": 9
+    },
+    {
       "name": "Miyuki Sawashiro",
       "count": 9
     },
     {
-      "name": "Reina Ueda",
+      "name": "Shunichi Toki",
       "count": 9
     },
     {
@@ -1269,15 +1293,23 @@
       "count": 9
     },
     {
+      "name": "Youko Hikasa",
+      "count": 9
+    },
+    {
       "name": "Yuusuke Kobayashi",
       "count": 9
     },
     {
-      "name": "Kouhei Amasaki",
+      "name": "Chiaki Kobayashi",
       "count": 8
     },
     {
-      "name": "Makoto Furukawa",
+      "name": "Hiro Shimono",
+      "count": 8
+    },
+    {
+      "name": "Kouhei Amasaki",
       "count": 8
     },
     {
@@ -1289,15 +1321,11 @@
       "count": 8
     },
     {
-      "name": "Miyu Tomita",
+      "name": "Miku Itou",
       "count": 8
     },
     {
       "name": "Shizuka Ishigami",
-      "count": 8
-    },
-    {
-      "name": "Shunichi Toki",
       "count": 8
     },
     {
@@ -1309,27 +1337,27 @@
       "count": 8
     },
     {
-      "name": "Youko Hikasa",
+      "name": "Yuuki Kuwahara",
       "count": 8
     },
     {
-      "name": "Yuuki Kuwahara",
-      "count": 8
+      "name": "Ai Kayano",
+      "count": 7
     },
     {
       "name": "Aya Yamane",
       "count": 7
     },
     {
-      "name": "Chiaki Kobayashi",
-      "count": 7
-    },
-    {
-      "name": "Hiro Shimono",
+      "name": "Haruka Shiraishi",
       "count": 7
     },
     {
       "name": "Kaori Ishihara",
+      "count": 7
+    },
+    {
+      "name": "Konomi Inagaki",
       "count": 7
     },
     {
@@ -1341,7 +1369,7 @@
       "count": 7
     },
     {
-      "name": "Miku Itou",
+      "name": "Rie Takahashi",
       "count": 7
     },
     {
@@ -1373,15 +1401,7 @@
       "count": 7
     },
     {
-      "name": "Ai Kayano",
-      "count": 6
-    },
-    {
       "name": "Gen Satou",
-      "count": 6
-    },
-    {
-      "name": "Haruka Shiraishi",
       "count": 6
     },
     {
@@ -1405,10 +1425,6 @@
       "count": 6
     },
     {
-      "name": "Konomi Inagaki",
-      "count": 6
-    },
-    {
       "name": "Lynn",
       "count": 6
     },
@@ -1422,10 +1438,6 @@
     },
     {
       "name": "Natsuki Hanae",
-      "count": 6
-    },
-    {
-      "name": "Rie Takahashi",
       "count": 6
     },
     {
@@ -1553,6 +1565,10 @@
       "count": 5
     },
     {
+      "name": "Yurika Kubo",
+      "count": 5
+    },
+    {
       "name": "Yuu Serizawa",
       "count": 5
     },
@@ -1570,6 +1586,10 @@
     },
     {
       "name": "Akira Sekine",
+      "count": 4
+    },
+    {
+      "name": "Anna Nagase",
       "count": 4
     },
     {
@@ -1598,6 +1618,10 @@
     },
     {
       "name": "Fuuka Izumi",
+      "count": 4
+    },
+    {
+      "name": "Honoka Inoue",
       "count": 4
     },
     {
@@ -1657,6 +1681,10 @@
       "count": 4
     },
     {
+      "name": "Ryoutarou Okiayu",
+      "count": 4
+    },
+    {
       "name": "Saki Miyashita",
       "count": 4
     },
@@ -1682,6 +1710,10 @@
     },
     {
       "name": "Shinji Kawada",
+      "count": 4
+    },
+    {
+      "name": "Shion Wakayama",
       "count": 4
     },
     {
@@ -1721,10 +1753,6 @@
       "count": 4
     },
     {
-      "name": "Yurika Kubo",
-      "count": 4
-    },
-    {
       "name": "Yuuko Natsuyoshi",
       "count": 4
     },
@@ -1734,10 +1762,6 @@
     },
     {
       "name": "Ami Maeshima",
-      "count": 3
-    },
-    {
-      "name": "Anna Nagase",
       "count": 3
     },
     {
@@ -1769,11 +1793,11 @@
       "count": 3
     },
     {
-      "name": "Hitomi Nabatame",
+      "name": "Hisako Kanemoto",
       "count": 3
     },
     {
-      "name": "Honoka Inoue",
+      "name": "Hitomi Nabatame",
       "count": 3
     },
     {
@@ -1821,6 +1845,10 @@
       "count": 3
     },
     {
+      "name": "Miyari Nemoto",
+      "count": 3
+    },
+    {
       "name": "Miyu Irino",
       "count": 3
     },
@@ -1849,19 +1877,11 @@
       "count": 3
     },
     {
-      "name": "Ryoutarou Okiayu",
-      "count": 3
-    },
-    {
       "name": "Sara Matsumoto",
       "count": 3
     },
     {
       "name": "Satoshi Hino",
-      "count": 3
-    },
-    {
-      "name": "Shion Wakayama",
       "count": 3
     },
     {
@@ -1926,6 +1946,10 @@
     },
     {
       "name": "Yurina Amami",
+      "count": 3
+    },
+    {
+      "name": "Yuuki Wakai",
       "count": 3
     },
     {
@@ -2013,6 +2037,10 @@
       "count": 2
     },
     {
+      "name": "Hiiro Ishibashi",
+      "count": 2
+    },
+    {
       "name": "Himika Akaneya",
       "count": 2
     },
@@ -2022,10 +2050,6 @@
     },
     {
       "name": "Hiroyuki Yoshino",
-      "count": 2
-    },
-    {
-      "name": "Hisako Kanemoto",
       "count": 2
     },
     {
@@ -2133,10 +2157,6 @@
       "count": 2
     },
     {
-      "name": "Miyari Nemoto",
-      "count": 2
-    },
-    {
       "name": "Nana Mizuki",
       "count": 2
     },
@@ -2237,6 +2257,10 @@
       "count": 2
     },
     {
+      "name": "Shougo Yano",
+      "count": 2
+    },
+    {
       "name": "Shouya Ishige",
       "count": 2
     },
@@ -2266,6 +2290,10 @@
     },
     {
       "name": "Tomoya Takagi",
+      "count": 2
+    },
+    {
+      "name": "Toshinari Fukamachi",
       "count": 2
     },
     {
@@ -2314,10 +2342,6 @@
     },
     {
       "name": "Yuuki Kaji",
-      "count": 2
-    },
-    {
-      "name": "Yuuki Wakai",
       "count": 2
     },
     {
@@ -2581,10 +2605,6 @@
       "count": 1
     },
     {
-      "name": "Hiiro Ishibashi",
-      "count": 1
-    },
-    {
       "name": "Hika Tsukishiro",
       "count": 1
     },
@@ -2694,6 +2714,10 @@
     },
     {
       "name": "Kana Aoi",
+      "count": 1
+    },
+    {
+      "name": "Kana Ueda",
       "count": 1
     },
     {
@@ -3257,10 +3281,6 @@
       "count": 1
     },
     {
-      "name": "Shougo Yano",
-      "count": 1
-    },
-    {
       "name": "Shouta  Hayama",
       "count": 1
     },
@@ -3325,6 +3345,10 @@
       "count": 1
     },
     {
+      "name": "Tarou Kiuchi",
+      "count": 1
+    },
+    {
       "name": "Tatsuya Gashuin",
       "count": 1
     },
@@ -3357,10 +3381,6 @@
       "count": 1
     },
     {
-      "name": "Toshinari Fukamachi",
-      "count": 1
-    },
-    {
       "name": "Toshio Furukawa",
       "count": 1
     },
@@ -3390,6 +3410,10 @@
     },
     {
       "name": "Yasuko Sawaguchi",
+      "count": 1
+    },
+    {
+      "name": "Yasunori Matsumoto",
       "count": 1
     },
     {
@@ -5573,6 +5597,11 @@
           "character": "Tien",
           "role": "SUPPORTING",
           "seiyuu": "Hiro Shimono"
+        },
+        {
+          "character": "Rose Haha",
+          "role": "SUPPORTING",
+          "seiyuu": "Ai Kayano"
         }
       ]
     },
@@ -7131,7 +7160,7 @@
       "id": 35983,
       "title": "Harukana Receive",
       "score": 9,
-      "status": "watching",
+      "status": "completed",
       "slug": "harukana_receive",
       "themes": [
         {
@@ -7470,6 +7499,73 @@
           "character": "Teruyo Oshie",
           "role": "SUPPORTING",
           "seiyuu": "Minami Takahashi"
+        }
+      ]
+    },
+    {
+      "id": 58271,
+      "title": "Honey Lemon Soda",
+      "score": 10,
+      "status": "completed",
+      "slug": "honey_lemon_soda",
+      "themes": [
+        {
+          "type": "OP",
+          "title": "Magic Hour",
+          "artists": [
+            "&TEAM"
+          ],
+          "character_song": false
+        },
+        {
+          "type": "ED",
+          "title": "Wonderful World",
+          "artists": [
+            "&TEAM"
+          ],
+          "character_song": false
+        }
+      ],
+      "seiyuu": [
+        {
+          "character": "Uka Ishimori",
+          "role": "MAIN",
+          "seiyuu": "Kana Ichinose"
+        },
+        {
+          "character": "Kai Miura",
+          "role": "MAIN",
+          "seiyuu": "Shougo Yano"
+        },
+        {
+          "character": "Ayumi Endou",
+          "role": "SUPPORTING",
+          "seiyuu": "Miyari Nemoto"
+        },
+        {
+          "character": "Satoru Seto",
+          "role": "SUPPORTING",
+          "seiyuu": "Taku Yashiro"
+        },
+        {
+          "character": "Tomoya Takamine",
+          "role": "SUPPORTING",
+          "seiyuu": "Shunichi Toki"
+        },
+        {
+          "character": "Serina Kanno",
+          "role": "SUPPORTING",
+          "seiyuu": "Rie Takahashi"
+        },
+        {
+          "character": "Yuru Hashimoto",
+          "role": "SUPPORTING",
+          "seiyuu": "Honoka Inoue"
+        },
+        {
+          "character": "Marin Fujita",
+          "role": "SUPPORTING",
+          "seiyuu": "Shion Wakayama"
         }
       ]
     },
@@ -9805,6 +9901,73 @@
       ]
     },
     {
+      "id": 59897,
+      "title": "Kobayashi-san Chi no Maid Dragon Movie: Samishigariya no Ryuu",
+      "score": 9,
+      "status": "completed",
+      "slug": "kobayashi_san_chi_no_maid_dragon",
+      "themes": [
+        {
+          "type": "OP",
+          "title": "Aozora no Rhapsody",
+          "artists": [
+            "fhána"
+          ],
+          "character_song": false
+        },
+        {
+          "type": "ED",
+          "title": "Ishukan Communication",
+          "artists": [
+            "Chorogons"
+          ],
+          "character_song": false
+        }
+      ],
+      "seiyuu": [
+        {
+          "character": "Kanna Kamui",
+          "role": "MAIN",
+          "seiyuu": "Maria Naganawa"
+        },
+        {
+          "character": "Kobayashi",
+          "role": "MAIN",
+          "seiyuu": "Mutsumi Tamura"
+        },
+        {
+          "character": "Tohru",
+          "role": "MAIN",
+          "seiyuu": "Yuuki Kuwahara"
+        },
+        {
+          "character": "Elma",
+          "role": "SUPPORTING",
+          "seiyuu": "Yuuki Takada"
+        },
+        {
+          "character": "Quetzalcoatl",
+          "role": "SUPPORTING",
+          "seiyuu": "Minami Takahashi"
+        },
+        {
+          "character": "Ilulu",
+          "role": "SUPPORTING",
+          "seiyuu": "Shiori Sugiura"
+        },
+        {
+          "character": "Fafnir",
+          "role": "SUPPORTING",
+          "seiyuu": "Daisuke Ono"
+        },
+        {
+          "character": "Makoto Takiya",
+          "role": "SUPPORTING",
+          "seiyuu": "Yuuichi Nakamura"
+        }
+      ]
+    },
+    {
       "id": 39247,
       "title": "Kobayashi-san Chi no Maid Dragon S",
       "score": 9,
@@ -9957,73 +10120,6 @@
           "character": "Elma",
           "role": "SUPPORTING",
           "seiyuu": "Yuuki Takada"
-        },
-        {
-          "character": "Fafnir",
-          "role": "SUPPORTING",
-          "seiyuu": "Daisuke Ono"
-        },
-        {
-          "character": "Makoto Takiya",
-          "role": "SUPPORTING",
-          "seiyuu": "Yuuichi Nakamura"
-        }
-      ]
-    },
-    {
-      "id": 59897,
-      "title": "Kobayashi-san Chi no Maid Dragon: Samishigariya no Ryuu",
-      "score": 9,
-      "status": "completed",
-      "slug": "kobayashisan_chi_no_maid_dragon_samishigariya_no_ryuu",
-      "themes": [
-        {
-          "type": "OP",
-          "title": "Namida no Parade",
-          "artists": [
-            "fhána"
-          ],
-          "character_song": false
-        },
-        {
-          "type": "ED",
-          "title": "Bokutachi no Hibi",
-          "artists": [
-            "Sachiko Kobayashi"
-          ],
-          "character_song": false
-        }
-      ],
-      "seiyuu": [
-        {
-          "character": "Kanna Kamui",
-          "role": "MAIN",
-          "seiyuu": "Maria Naganawa"
-        },
-        {
-          "character": "Kobayashi",
-          "role": "MAIN",
-          "seiyuu": "Mutsumi Tamura"
-        },
-        {
-          "character": "Tohru",
-          "role": "MAIN",
-          "seiyuu": "Yuuki Kuwahara"
-        },
-        {
-          "character": "Elma",
-          "role": "SUPPORTING",
-          "seiyuu": "Yuuki Takada"
-        },
-        {
-          "character": "Quetzalcoatl",
-          "role": "SUPPORTING",
-          "seiyuu": "Minami Takahashi"
-        },
-        {
-          "character": "Ilulu",
-          "role": "SUPPORTING",
-          "seiyuu": "Shiori Sugiura"
         },
         {
           "character": "Fafnir",
@@ -11764,6 +11860,63 @@
           "character": "Narrator",
           "role": "BACKGROUND",
           "seiyuu": "Shigeru Chiba"
+        }
+      ]
+    },
+    {
+      "id": 60948,
+      "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
+      "score": 9,
+      "status": "watching",
+      "slug": "mezametara_saikyou_soubi_to_uchuusenmochi_datta_node_ikkodate_mezashite_youhei_to_shite_jiyuu_ni_ikitai",
+      "themes": [
+        {
+          "type": "OP",
+          "title": "UNSTOPPABLE",
+          "artists": [
+            "FLOW"
+          ],
+          "character_song": false
+        },
+        {
+          "type": "ED",
+          "title": "MY WAY",
+          "artists": [
+            "ASTERISM"
+          ],
+          "character_song": false
+        }
+      ],
+      "seiyuu": [
+        {
+          "character": "Takahiro Sato",
+          "role": "MAIN",
+          "seiyuu": "Makoto Furukawa"
+        },
+        {
+          "character": "Elma",
+          "role": "MAIN",
+          "seiyuu": "Anna Nagase"
+        },
+        {
+          "character": "Mimi",
+          "role": "MAIN",
+          "seiyuu": "Konomi Inagaki"
+        },
+        {
+          "character": "Serena Halls",
+          "role": "MAIN",
+          "seiyuu": "Haruka Shiraishi"
+        },
+        {
+          "character": "May",
+          "role": "SUPPORTING",
+          "seiyuu": "Saori Oonishi"
+        },
+        {
+          "character": "Shoko",
+          "role": "SUPPORTING",
+          "seiyuu": "Kana Ueda"
         }
       ]
     },
@@ -13644,6 +13797,56 @@
       ]
     },
     {
+      "id": 62582,
+      "title": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+      "score": 9,
+      "status": "completed",
+      "slug": "seishun_buta_yarou_wa_dear_friend_no_yume_wo_minai",
+      "themes": null,
+      "seiyuu": [
+        {
+          "character": "Sakuta Azusagawa",
+          "role": "MAIN",
+          "seiyuu": "Kaito Ishikawa"
+        },
+        {
+          "character": "Mai Sakurajima",
+          "role": "MAIN",
+          "seiyuu": "Asami Seto"
+        },
+        {
+          "character": "Miori Mitou",
+          "role": "MAIN",
+          "seiyuu": "Manaka Iwami"
+        },
+        {
+          "character": "Kaede Azusagawa",
+          "role": "SUPPORTING",
+          "seiyuu": "Yurika Kubo"
+        },
+        {
+          "character": "Rio Futaba",
+          "role": "SUPPORTING",
+          "seiyuu": "Atsumi Tanezaki"
+        },
+        {
+          "character": "Tomoe Koga",
+          "role": "SUPPORTING",
+          "seiyuu": "Nao Touyama"
+        },
+        {
+          "character": "Nodoka Toyohama",
+          "role": "SUPPORTING",
+          "seiyuu": "Maaya Uchida"
+        },
+        {
+          "character": "Shouko Makinohara",
+          "role": "SUPPORTING",
+          "seiyuu": "Inori Minase"
+        }
+      ]
+    },
+    {
       "id": 53129,
       "title": "Seishun Buta Yarou wa Odekake Sister no Yume wo Minai",
       "score": 9,
@@ -14273,6 +14476,74 @@
           "character": "Gizdo",
           "role": "SUPPORTING",
           "seiyuu": "Takuya Nakashima"
+        }
+      ]
+    },
+    {
+      "id": 63754,
+      "title": "Shiotaiou no Satou-san ga Ore ni dake Amai",
+      "score": 9,
+      "status": "watching",
+      "slug": "shiotaiou_no_satousan_ga_ore_ni_dake_amai",
+      "themes": [
+        {
+          "type": "OP",
+          "title": "Sugar Salt",
+          "artists": [
+            "Masayoshi Ooishi"
+          ],
+          "character_song": false
+        },
+        {
+          "type": "ED",
+          "title": "Hatsukoi Reply",
+          "artists": [
+            "HoneyWorks",
+            "Sara Hoshikawa"
+          ],
+          "character_song": false
+        }
+      ],
+      "seiyuu": [
+        {
+          "character": "Koharu Satou",
+          "role": "MAIN",
+          "seiyuu": "Miku Itou"
+        },
+        {
+          "character": "Souta Oshio",
+          "role": "MAIN",
+          "seiyuu": "Hiiro Ishibashi"
+        },
+        {
+          "character": "Rinka Sudou",
+          "role": "SUPPORTING",
+          "seiyuu": "Miyu Tomita"
+        },
+        {
+          "character": "Ren Misono",
+          "role": "SUPPORTING",
+          "seiyuu": "Chiaki Kobayashi"
+        },
+        {
+          "character": "Shizuku Misono",
+          "role": "SUPPORTING",
+          "seiyuu": "Yoshino Aoyama"
+        },
+        {
+          "character": "Mayo Nezu",
+          "role": "SUPPORTING",
+          "seiyuu": "Hisako Kanemoto"
+        },
+        {
+          "character": "Madoka Murasaki",
+          "role": "SUPPORTING",
+          "seiyuu": "Yuuki Wakai"
+        },
+        {
+          "character": "Seizaemon Oshio",
+          "role": "SUPPORTING",
+          "seiyuu": "Yasunori Matsumoto"
         }
       ]
     },
@@ -17514,6 +17785,73 @@
           "character": "Hazuki Kudou",
           "role": "SUPPORTING",
           "seiyuu": "Youko Hikasa"
+        }
+      ]
+    },
+    {
+      "id": 61440,
+      "title": "Watashi no Shiawase na Kekkon Special",
+      "score": 9,
+      "status": "completed",
+      "slug": "watashi_no_shiawase_na_kekkon",
+      "themes": [
+        {
+          "type": "OP",
+          "title": "Anata no Soba ni.",
+          "artists": [
+            "Riria."
+          ],
+          "character_song": false
+        },
+        {
+          "type": "ED",
+          "title": "Vita Philosophica",
+          "artists": [
+            "Kashitarou Itou"
+          ],
+          "character_song": false
+        }
+      ],
+      "seiyuu": [
+        {
+          "character": "Miyo Saimori",
+          "role": "MAIN",
+          "seiyuu": "Reina Ueda"
+        },
+        {
+          "character": "Kiyoka Kudou",
+          "role": "MAIN",
+          "seiyuu": "Kaito Ishikawa"
+        },
+        {
+          "character": "Yoshito Godou",
+          "role": "SUPPORTING",
+          "seiyuu": "Hiro Shimono"
+        },
+        {
+          "character": "Hazuki Kudou",
+          "role": "SUPPORTING",
+          "seiyuu": "Youko Hikasa"
+        },
+        {
+          "character": "Kimio Nagaba",
+          "role": "SUPPORTING",
+          "seiyuu": "Mao Ichimichi"
+        },
+        {
+          "character": "Kazushi Tatsuishi",
+          "role": "SUPPORTING",
+          "seiyuu": "Toshinari Fukamachi"
+        },
+        {
+          "character": "Zen Koumyouin",
+          "role": "SUPPORTING",
+          "seiyuu": "Tarou Kiuchi"
+        },
+        {
+          "character": "Tadakiyo Kudou",
+          "role": "SUPPORTING",
+          "seiyuu": "Ryoutarou Okiayu"
         }
       ]
     },

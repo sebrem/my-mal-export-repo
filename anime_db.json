@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T20:31:19.477Z",
+  "generated_at": "2026-11-01T11:48:28.023Z",
   "source": "mal_anime.json (alle Listentitel) x AniList GraphQL",
   "purpose": "Lokale Mini-DB fuer vage Inhaltsanfragen (Synopse/Tags/Charaktere statt Websuche)",
-  "count_titles": 1269,
+  "count_titles": 1282,
   "titles": [
     {
       "id": 63537,
@@ -265,7 +265,7 @@
         "format": "TV_SHORT",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 43,
+        "averageScore": 45,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -489,7 +489,7 @@
         "format": "TV_SHORT",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 50,
+        "averageScore": 52,
         "genres": [
           "Comedy",
           "Sci-Fi",
@@ -1759,7 +1759,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2025,
-        "averageScore": 53,
+        "averageScore": 54,
         "genres": [
           "Drama",
           "Mystery",
@@ -1953,12 +1953,12 @@
             "rank": 53
           },
           {
-            "name": "Coming of Age",
-            "rank": 26
+            "name": "Exiled",
+            "rank": 40
           },
           {
-            "name": "Urban Fantasy",
-            "rank": 20
+            "name": "Coming of Age",
+            "rank": 26
           }
         ],
         "studios": [
@@ -2466,7 +2466,7 @@
         "format": "ONA",
         "episodes": 18,
         "seasonYear": 2022,
-        "averageScore": 56,
+        "averageScore": 57,
         "genres": [
           "Comedy"
         ],
@@ -2543,7 +2543,7 @@
         "tags": [
           {
             "name": "Kuudere",
-            "rank": 91
+            "rank": 92
           },
           {
             "name": "School",
@@ -2587,7 +2587,7 @@
           },
           {
             "name": "CGI",
-            "rank": 46
+            "rank": 50
           },
           {
             "name": "Gyaru",
@@ -3138,7 +3138,7 @@
         "format": "TV",
         "episodes": 35,
         "seasonYear": 1996,
-        "averageScore": 75,
+        "averageScore": 74,
         "genres": [
           "Comedy",
           "Drama",
@@ -3598,7 +3598,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2005,
-        "averageScore": 56,
+        "averageScore": 57,
         "genres": [
           "Comedy"
         ],
@@ -3848,7 +3848,7 @@
         "romaji": "Akane-banashi 2nd Season",
         "english": null,
         "native": "あかね噺 第2期",
-        "description": "The second season of <i>Akane-banashi</i>. <br><br>\n\nAfter graduating from high school and officially becoming an apprentice of Shiguma Arakawa, Akane begins her journey as a professional Rakugoka under the name Akane Arakawa. <br><br>\n\n(Source: TV Asahi via Anime News Network)",
+        "description": "<i>“What you’re about to experience is nothing less than the living history of Rakugo.”</i> <br><br>\n\nInspired by her Rakugoka father, Akane Ousaki aims to become a Shin'uchi. After graduating high school, she formally joins Shiguma's school. Now known as Akane Arakawa, she takes her first steps as a Rakugoka. She arrives at Yasaka-tei, a traditional, bustling Rakugo theater. Surrounded by Shin'uchi, Akane finally begins her training at the heart of Rakugo performers.\nA full-fledged story of Rakugo, where master storytellers compete.<br><br>\n\nThe Zenza Arc begins! \n<br><br>\n(Source: Akane-banashi Global, edited)",
         "format": "TV",
         "episodes": null,
         "seasonYear": 2027,
@@ -3893,7 +3893,7 @@
         "studios": [
           "ZEXCS"
         ],
-        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx213360-hGlrAPFeN4BL.jpg",
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx213360-xNEWCLeQkXkI.jpg",
         "characters": [
           {
             "name": "Akane Ousaki",
@@ -3908,11 +3908,31 @@
             "role": "SUPPORTING"
           },
           {
+            "name": "Kaisei Arakawa",
+            "role": "SUPPORTING"
+          },
+          {
             "name": "Urara Ransaika",
             "role": "SUPPORTING"
           },
           {
             "name": "Chocho Konjakutei",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Guriko Arakawa",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Kyoji Arakawa",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Koguma Arakawa",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Maikeru Arakawa",
             "role": "SUPPORTING"
           }
         ]
@@ -4334,7 +4354,11 @@
           },
           {
             "name": "LGBTQ+ Themes",
-            "rank": 74
+            "rank": 76
+          },
+          {
+            "name": "Yuri",
+            "rank": 70
           },
           {
             "name": "Ensemble Cast",
@@ -4346,10 +4370,6 @@
           },
           {
             "name": "Primarily Child Cast",
-            "rank": 66
-          },
-          {
-            "name": "Yuri",
             "rank": 66
           },
           {
@@ -5970,7 +5990,7 @@
           },
           {
             "name": "Disability",
-            "rank": 92
+            "rank": 93
           },
           {
             "name": "LGBTQ+ Themes",
@@ -6043,7 +6063,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 73,
+        "averageScore": 74,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -6563,7 +6583,7 @@
           },
           {
             "name": "Yuri",
-            "rank": 70
+            "rank": 66
           },
           {
             "name": "Fitness",
@@ -7656,7 +7676,7 @@
         "romaji": "Ao no Hako Season 2",
         "english": "Blue Box Season 2",
         "native": "アオのハコ Season２",
-        "description": "The second season of <i>Ao no Hako</i>.\n",
+        "description": "The second season of <i>Ao no Hako</i>.<br><br>\n\nAs Taiki and Chinatsu navigate their evolving feelings, a fractured friendship from the past and fierce competition cloud the road to nationals.<br><br>\n\n(Source: Netflix, edited)",
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
@@ -7669,30 +7689,22 @@
         "tags": [
           {
             "name": "Primarily Teen Cast",
-            "rank": 97
-          },
-          {
-            "name": "Heterosexual",
             "rank": 96
           },
           {
-            "name": "School",
-            "rank": 91
-          },
-          {
-            "name": "Badminton",
-            "rank": 84
+            "name": "Heterosexual",
+            "rank": 94
           },
           {
             "name": "Male Protagonist",
             "rank": 84
           },
           {
-            "name": "Iyashikei",
+            "name": "Coming of Age",
             "rank": 80
           },
           {
-            "name": "Coming of Age",
+            "name": "School",
             "rank": 80
           },
           {
@@ -7700,28 +7712,36 @@
             "rank": 79
           },
           {
-            "name": "School Club",
-            "rank": 79
+            "name": "Iyashikei",
+            "rank": 77
+          },
+          {
+            "name": "Badminton",
+            "rank": 76
           },
           {
             "name": "Basketball",
             "rank": 70
           },
           {
-            "name": "Shounen",
-            "rank": 64
-          },
-          {
-            "name": "Acrobatics",
+            "name": "Female Protagonist",
             "rank": 60
           },
           {
-            "name": "Female Protagonist",
-            "rank": 56
+            "name": "Shounen",
+            "rank": 53
+          },
+          {
+            "name": "Acrobatics",
+            "rank": 40
+          },
+          {
+            "name": "School Club",
+            "rank": 40
           },
           {
             "name": "Unrequited Love",
-            "rank": 20
+            "rank": 13
           }
         ],
         "studios": [
@@ -7906,7 +7926,7 @@
         "format": "TV",
         "episodes": 14,
         "seasonYear": 2026,
-        "averageScore": 67,
+        "averageScore": 68,
         "genres": [
           "Drama"
         ],
@@ -8371,7 +8391,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 51,
+        "averageScore": 55,
         "genres": [
           "Adventure",
           "Fantasy"
@@ -9766,7 +9786,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 59,
+        "averageScore": 60,
         "genres": [
           "Mystery"
         ],
@@ -10740,7 +10760,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 63,
+        "averageScore": 64,
         "genres": [
           "Comedy",
           "Romance",
@@ -12403,7 +12423,7 @@
           },
           {
             "name": "Yandere",
-            "rank": 70
+            "rank": 73
           },
           {
             "name": "Yuri",
@@ -12418,7 +12438,7 @@
             "rank": 60
           },
           {
-            "name": "Slapstick",
+            "name": "Cute Girls Doing Cute Things",
             "rank": 55
           }
         ],
@@ -13702,6 +13722,115 @@
       }
     },
     {
+      "id": 49665,
+      "title": "Blue Thermal",
+      "anilist": {
+        "romaji": "Blue Thermal",
+        "english": null,
+        "native": "ブルーサーマル",
+        "description": "\"I want to experience a love that sparkles!\" Arriving from Nagasaki with her wishful mantra is Tamaki Tsuru, who in high school could think only about volleyball. Things don’t begin well, however, when she looks for an extracurricular club to join and proceeds to immediately ding a glider at aviation club tryouts ending up having to work it off. She is initially disillusioned with campus life. Then Kuramochi, the club leader and glider pilot, takes Tamaki under his wing, and from the moment he takes her up for a flight in a glider, Tamaki becomes a captive of the vast beauty of the skies.<br>\n<br>\n(Source: Eleven Arts)",
+        "format": "MOVIE",
+        "episodes": 1,
+        "seasonYear": 2022,
+        "averageScore": 66,
+        "genres": [
+          "Drama",
+          "Sports"
+        ],
+        "tags": [
+          {
+            "name": "Aviation",
+            "rank": 97
+          },
+          {
+            "name": "School Club",
+            "rank": 95
+          },
+          {
+            "name": "College",
+            "rank": 91
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 90
+          },
+          {
+            "name": "Seinen",
+            "rank": 75
+          },
+          {
+            "name": "Educational",
+            "rank": 40
+          },
+          {
+            "name": "Foreign",
+            "rank": 30
+          },
+          {
+            "name": "School",
+            "rank": 20
+          },
+          {
+            "name": "Suicide",
+            "rank": 16
+          }
+        ],
+        "studios": [
+          "Telecom Animation Film"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx138379-9oCYnGuO5bud.jpg",
+        "characters": [
+          {
+            "name": "Jun Kuramochi",
+            "role": "MAIN"
+          },
+          {
+            "name": "Daisuke Sorachi",
+            "role": "MAIN"
+          },
+          {
+            "name": "Tamaki Tsuru",
+            "role": "MAIN"
+          },
+          {
+            "name": "Kaoru Mochida",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Harukaze Aihara",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Yukari Muroi",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Eita Naruhara",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Ayako Maki",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Musuka",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Chizuru Yano",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-29T00:15:15+00:00"
+      }
+    },
+    {
       "id": 47917,
       "title": "Bocchi the Rock!",
       "anilist": {
@@ -13765,19 +13894,19 @@
           },
           {
             "name": "Yuri",
-            "rank": 65
+            "rank": 64
+          },
+          {
+            "name": "Slapstick",
+            "rank": 63
           },
           {
             "name": "Mixed Media",
             "rank": 63
           },
           {
-            "name": "Slapstick",
-            "rank": 62
-          },
-          {
             "name": "Seinen",
-            "rank": 60
+            "rank": 61
           }
         ],
         "studios": [
@@ -14458,7 +14587,7 @@
           },
           {
             "name": "Food",
-            "rank": 50
+            "rank": 51
           },
           {
             "name": "Slapstick",
@@ -15455,7 +15584,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2019,
-        "averageScore": 71,
+        "averageScore": 70,
         "genres": [
           "Comedy",
           "Ecchi",
@@ -16747,11 +16876,11 @@
         "tags": [
           {
             "name": "Female Protagonist",
-            "rank": 94
+            "rank": 95
           },
           {
             "name": "Villainess",
-            "rank": 90
+            "rank": 91
           },
           {
             "name": "Anti-Hero",
@@ -16759,15 +16888,15 @@
           },
           {
             "name": "Revenge",
+            "rank": 82
+          },
+          {
+            "name": "Gore",
             "rank": 80
           },
           {
             "name": "Exiled",
-            "rank": 79
-          },
-          {
-            "name": "Gore",
-            "rank": 77
+            "rank": 75
           },
           {
             "name": "Royal Affairs",
@@ -17869,7 +17998,7 @@
         "format": "ONA",
         "episodes": 12,
         "seasonYear": null,
-        "averageScore": 60,
+        "averageScore": 62,
         "genres": [
           "Comedy",
           "Fantasy"
@@ -18029,7 +18158,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 65,
+        "averageScore": 66,
         "genres": [
           "Drama",
           "Fantasy",
@@ -19986,7 +20115,7 @@
         "format": "TV",
         "episodes": 11,
         "seasonYear": 2026,
-        "averageScore": 76,
+        "averageScore": 78,
         "genres": [
           "Comedy",
           "Romance"
@@ -20021,20 +20150,20 @@
             "rank": 55
           },
           {
-            "name": "Female Protagonist",
-            "rank": 20
-          },
-          {
-            "name": "Baseball",
-            "rank": 20
-          },
-          {
             "name": "Urban",
             "rank": 20
           },
           {
             "name": "Writing",
             "rank": 20
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 10
+          },
+          {
+            "name": "Baseball",
+            "rank": 10
           }
         ],
         "studios": [
@@ -20067,9 +20196,9 @@
       "list_status": {
         "status": "watching",
         "score": 9,
-        "num_episodes_watched": 1,
+        "num_episodes_watched": 3,
         "is_rewatching": false,
-        "updated_at": "2026-10-13T21:15:43+00:00",
+        "updated_at": "2026-10-28T16:32:15+00:00",
         "start_date": "2026-10-13"
       }
     },
@@ -20462,15 +20591,15 @@
             "rank": 89
           },
           {
+            "name": "LGBTQ+ Themes",
+            "rank": 88
+          },
+          {
             "name": "Yuri",
             "rank": 87
           },
           {
             "name": "Aliens",
-            "rank": 85
-          },
-          {
-            "name": "LGBTQ+ Themes",
             "rank": 85
           },
           {
@@ -20700,7 +20829,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2013,
-        "averageScore": 73,
+        "averageScore": 74,
         "genres": [
           "Comedy",
           "Romance",
@@ -21879,7 +22008,7 @@
           },
           {
             "name": "Boys' Love",
-            "rank": 33
+            "rank": 32
           },
           {
             "name": "Post-Apocalyptic",
@@ -22210,6 +22339,140 @@
         "num_episodes_watched": 0,
         "is_rewatching": false,
         "updated_at": "2025-12-09T20:36:56+00:00"
+      }
+    },
+    {
+      "id": 38940,
+      "title": "Cop Craft",
+      "anilist": {
+        "romaji": "Cop Craft",
+        "english": "Cop Craft",
+        "native": "コップクラフト",
+        "description": "The story is set in San Teresa City on the fictional Pacific island of Kariaena. The \"buddy police action\" series follows the detective Kei Matoba and the alternate-world knight Tirana.<br><br>\n\n15 years ago, an unknown hyperspace gate opened over the Pacific. Beyond this gate lies Reto Semaani, a strange alternate world where fairies and demons live.<br><br>\n\nSan Teresa City — a city where over two million immigrants live from both worlds. As a result, there are the haves and the have-nots. Here is the world's newest \"city of dreams.\" But in the shadow of the chaos, crime is rampant: drugs, prostitution, and weapon trafficking. The detectives who stand up to these heinous crimes are in the San Teresa City Police. When the detective Kei Matoba and the alternate-world knight Tirana — two individuals who differ in gender, personality, and even world of origin — meet, an incident erupts. Two worlds. Two justices. From this, the curtain rises on a buddy police action story!\n<br><br>\n(Source: Anime News Network)",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2019,
+        "averageScore": 64,
+        "genres": [
+          "Action",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "tags": [
+          {
+            "name": "Police",
+            "rank": 95
+          },
+          {
+            "name": "Crime",
+            "rank": 93
+          },
+          {
+            "name": "Urban Fantasy",
+            "rank": 91
+          },
+          {
+            "name": "Magic",
+            "rank": 82
+          },
+          {
+            "name": "Detective",
+            "rank": 76
+          },
+          {
+            "name": "Noir",
+            "rank": 73
+          },
+          {
+            "name": "Gangs",
+            "rank": 73
+          },
+          {
+            "name": "Guns",
+            "rank": 72
+          },
+          {
+            "name": "Foreign",
+            "rank": 66
+          },
+          {
+            "name": "Politics",
+            "rank": 61
+          },
+          {
+            "name": "Swordplay",
+            "rank": 60
+          },
+          {
+            "name": "Reverse Isekai",
+            "rank": 60
+          },
+          {
+            "name": "Isekai",
+            "rank": 58
+          },
+          {
+            "name": "Demons",
+            "rank": 45
+          },
+          {
+            "name": "Language Barrier",
+            "rank": 44
+          }
+        ],
+        "studios": [
+          "Millepensee"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106893-tlfD9BdkNcSt.jpg",
+        "characters": [
+          {
+            "name": "Tilarna Exedilika",
+            "role": "MAIN"
+          },
+          {
+            "name": "Kei Matoba",
+            "role": "MAIN"
+          },
+          {
+            "name": "Jamie Austin",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Tony Mcbee",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Cecil Epps",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Jack Roth",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Cameron Estefan",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Biz O'naill",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Aleksandr Godnov",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Kenny",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-30T04:30:03+00:00"
       }
     },
     {
@@ -24349,7 +24612,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 65,
+        "averageScore": 66,
         "genres": [
           "Action",
           "Supernatural"
@@ -25690,6 +25953,10 @@
             "rank": 68
           },
           {
+            "name": "Crafts",
+            "rank": 68
+          },
+          {
             "name": "Tomboy",
             "rank": 62
           },
@@ -25699,7 +25966,7 @@
           },
           {
             "name": "Yuri",
-            "rank": 42
+            "rank": 48
           }
         ],
         "studios": [
@@ -25770,7 +26037,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 66,
+        "averageScore": 69,
         "genres": [
           "Mystery",
           "Romance"
@@ -26378,7 +26645,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2019,
-        "averageScore": 76,
+        "averageScore": 75,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -26570,11 +26837,11 @@
         "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21096-1wIOxpjtXb7J.jpg",
         "characters": [
           {
-            "name": "Hikaru Kusakabe",
+            "name": "Rihito Sajou",
             "role": "MAIN"
           },
           {
-            "name": "Rihito Sajou",
+            "name": "Hikaru Kusakabe",
             "role": "MAIN"
           },
           {
@@ -26630,7 +26897,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 71,
+        "averageScore": 72,
         "genres": [
           "Fantasy",
           "Romance"
@@ -26693,15 +26960,19 @@
           {
             "name": "Tien",
             "role": "SUPPORTING"
+          },
+          {
+            "name": "Rose Haha",
+            "role": "SUPPORTING"
           }
         ]
       },
       "list_status": {
         "status": "watching",
         "score": 9,
-        "num_episodes_watched": 2,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-12T19:26:46+00:00",
+        "updated_at": "2026-10-28T08:33:18+00:00",
         "start_date": "2026-10-05"
       }
     },
@@ -28881,7 +29152,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2023,
-        "averageScore": 65,
+        "averageScore": 64,
         "genres": [
           "Action",
           "Adventure",
@@ -28935,7 +29206,7 @@
           },
           {
             "name": "Age Gap",
-            "rank": 20
+            "rank": 26
           },
           {
             "name": "Guns",
@@ -30866,7 +31137,7 @@
         "format": "TV",
         "episodes": 52,
         "seasonYear": 1975,
-        "averageScore": 68,
+        "averageScore": 69,
         "genres": [
           "Drama",
           "Slice of Life"
@@ -31355,12 +31626,12 @@
             "rank": 85
           },
           {
-            "name": "Male Protagonist",
-            "rank": 83
+            "name": "Gore",
+            "rank": 84
           },
           {
-            "name": "Gore",
-            "rank": 82
+            "name": "Male Protagonist",
+            "rank": 83
           },
           {
             "name": "Seinen",
@@ -31729,6 +32000,10 @@
           {
             "name": "Exorcism",
             "rank": 20
+          },
+          {
+            "name": "Snowscape",
+            "rank": 20
           }
         ],
         "studios": [
@@ -32051,7 +32326,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2025,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Adventure",
           "Fantasy"
@@ -32140,7 +32415,7 @@
         "format": "TV",
         "episodes": 24,
         "seasonYear": 2025,
-        "averageScore": 68,
+        "averageScore": 69,
         "genres": [
           "Romance",
           "Slice of Life"
@@ -32745,15 +33020,11 @@
           },
           {
             "name": "Gambling",
-            "rank": 92
+            "rank": 89
           },
           {
             "name": "Denpa",
             "rank": 84
-          },
-          {
-            "name": "Tragedy",
-            "rank": 81
           },
           {
             "name": "Primarily Female Cast",
@@ -32761,6 +33032,10 @@
           },
           {
             "name": "Seinen",
+            "rank": 76
+          },
+          {
+            "name": "Tragedy",
             "rank": 76
           },
           {
@@ -32782,10 +33057,6 @@
           {
             "name": "Time Skip",
             "rank": 53
-          },
-          {
-            "name": "Large Breasts",
-            "rank": 42
           }
         ],
         "studios": [
@@ -33825,7 +34096,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2024,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Drama",
           "Sports"
@@ -33935,7 +34206,7 @@
         "format": "TV_SHORT",
         "episodes": 24,
         "seasonYear": 2025,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Action",
           "Comedy"
@@ -34479,8 +34750,8 @@
             "rank": 45
           },
           {
-            "name": "Nekomimi",
-            "rank": 44
+            "name": "Cosplay",
+            "rank": 45
           }
         ],
         "studios": [
@@ -35760,16 +36031,16 @@
             "rank": 73
           },
           {
+            "name": "Yuri",
+            "rank": 65
+          },
+          {
             "name": "Found Family",
             "rank": 64
           },
           {
-            "name": "Yuri",
-            "rank": 62
-          },
-          {
             "name": "LGBTQ+ Themes",
-            "rank": 61
+            "rank": 62
           },
           {
             "name": "Tragedy",
@@ -36377,7 +36648,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2025,
-        "averageScore": 74,
+        "averageScore": 75,
         "genres": [
           "Drama",
           "Music",
@@ -36687,7 +36958,7 @@
           },
           {
             "name": "Revenge",
-            "rank": 89
+            "rank": 90
           },
           {
             "name": "Gore",
@@ -37221,7 +37492,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 1996,
-        "averageScore": 60,
+        "averageScore": 62,
         "genres": [
           "Comedy",
           "Drama",
@@ -38090,7 +38361,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 62,
+        "averageScore": 63,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -38254,7 +38525,7 @@
           },
           {
             "name": "Yuri",
-            "rank": 38
+            "rank": 47
           },
           {
             "name": "Animals",
@@ -38458,6 +38729,132 @@
       }
     },
     {
+      "id": 45620,
+      "title": "Gyokou no Nikuko-chan",
+      "anilist": {
+        "romaji": "Gyokou no Nikuko-chan",
+        "english": "Fortune Favors Lady Nikuko",
+        "native": "漁港の肉子ちゃん",
+        "description": "“Fortune Favors Lady Nikuko” is the heartwarming and moving comedy drama of an unconventional family – a not-so-ordinary mother-and-daughter pair who live their lives to the fullest.\n<br><br>\nEasy-going, cheerful, passionate and always ready to eat something delicious, mother Nikuko falls hard for the bad guys. Her happy motto: “Ordinary is best of all!”\nNaturally Nikuko’s loud and bold spirit embarrasses 11-year-old Kikuko, her daughter on the verge of puberty.\nWith nothing in common except living together on a boat at the port, a miracle occurs when their secret is revealed. \n",
+        "format": "MOVIE",
+        "episodes": 1,
+        "seasonYear": 2021,
+        "averageScore": 70,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Slice of Life"
+        ],
+        "tags": [
+          {
+            "name": "Coming of Age",
+            "rank": 100
+          },
+          {
+            "name": "Rural",
+            "rank": 97
+          },
+          {
+            "name": "Family Life",
+            "rank": 95
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 80
+          },
+          {
+            "name": "Adoption",
+            "rank": 80
+          },
+          {
+            "name": "Coastal",
+            "rank": 73
+          },
+          {
+            "name": "Iyashikei",
+            "rank": 73
+          },
+          {
+            "name": "Food",
+            "rank": 70
+          },
+          {
+            "name": "Slapstick",
+            "rank": 60
+          },
+          {
+            "name": "Parenthood",
+            "rank": 60
+          },
+          {
+            "name": "School",
+            "rank": 48
+          },
+          {
+            "name": "Primarily Child Cast",
+            "rank": 36
+          },
+          {
+            "name": "Basketball",
+            "rank": 33
+          },
+          {
+            "name": "Bullying",
+            "rank": 20
+          }
+        ],
+        "studios": [
+          "Studio 4°C"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127958-AxJzNaz3tFqO.jpg",
+        "characters": [
+          {
+            "name": "Kikuko",
+            "role": "MAIN"
+          },
+          {
+            "name": "Nikuko-chan",
+            "role": "MAIN"
+          },
+          {
+            "name": "Ninomiya",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Darcia",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Miu",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Maria",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Sassan",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Yamori",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Tokage",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-28T12:06:52+00:00"
+      }
+    },
+    {
       "id": 38091,
       "title": "Hachigatsu no Cinderella Nine",
       "anilist": {
@@ -38571,7 +38968,7 @@
         "format": "SPECIAL",
         "episodes": 1,
         "seasonYear": 2021,
-        "averageScore": 59,
+        "averageScore": 60,
         "genres": [
           "Sports"
         ],
@@ -39154,7 +39551,7 @@
         "format": "MUSIC",
         "episodes": 1,
         "seasonYear": null,
-        "averageScore": 61,
+        "averageScore": 62,
         "genres": [],
         "tags": [],
         "studios": [],
@@ -39671,6 +40068,124 @@
       }
     },
     {
+      "id": 4551,
+      "title": "Hakushaku to Yousei",
+      "anilist": {
+        "romaji": "Hakushaku to Yousei",
+        "english": "Earl and Fairy",
+        "native": "伯爵と妖精",
+        "description": "In the nineteenth century, we find Lydia Carlton living in Scotland, making a living as a fairy doctor. She is one of those rare humans who can see and communicate with fairies. But no one believes her. However, Edgar is in need of someone with a vast knowledge of fairy lore, and Lydia is just that person. After rescuing her, he becomes her employer, but there are many secrets and emotions that seem to follow Edgar, who claims to be the Blue Knight's Earl.",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2008,
+        "averageScore": 67,
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "tags": [
+          {
+            "name": "Magic",
+            "rank": 79
+          },
+          {
+            "name": "Foreign",
+            "rank": 79
+          },
+          {
+            "name": "Historical",
+            "rank": 79
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 79
+          },
+          {
+            "name": "Mythology",
+            "rank": 79
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 79
+          },
+          {
+            "name": "Shoujo",
+            "rank": 79
+          },
+          {
+            "name": "Fairy",
+            "rank": 79
+          },
+          {
+            "name": "Primarily Male Cast",
+            "rank": 70
+          },
+          {
+            "name": "Butler",
+            "rank": 60
+          },
+          {
+            "name": "Medicine",
+            "rank": 60
+          }
+        ],
+        "studios": [
+          "Artland"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4551-zfBV7wHjmviU.png",
+        "characters": [
+          {
+            "name": "Edgar J. C. Ashenbert",
+            "role": "MAIN"
+          },
+          {
+            "name": "Lydia Carlton",
+            "role": "MAIN"
+          },
+          {
+            "name": "Raven",
+            "role": "MAIN"
+          },
+          {
+            "name": "Nico",
+            "role": "MAIN"
+          },
+          {
+            "name": "Kelpie",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Paul Ferman",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Ulysses",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Ermine",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Carlton Kyouju",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Marigold",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-28T14:54:56+00:00"
+      }
+    },
+    {
       "id": 54362,
       "title": "Hametsu no Oukoku",
       "anilist": {
@@ -40184,7 +40699,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 66,
+        "averageScore": 67,
         "genres": [
           "Drama"
         ],
@@ -40195,7 +40710,7 @@
           },
           {
             "name": "Environmental",
-            "rank": 40
+            "rank": 50
           },
           {
             "name": "Stop Motion",
@@ -40974,12 +41489,13 @@
         ]
       },
       "list_status": {
-        "status": "watching",
+        "status": "completed",
         "score": 9,
-        "num_episodes_watched": 6,
+        "num_episodes_watched": 12,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T12:26:40+00:00",
-        "start_date": "2026-10-15"
+        "updated_at": "2026-10-22T20:37:44+00:00",
+        "start_date": "2026-10-15",
+        "finish_date": "2026-10-22"
       }
     },
     {
@@ -41768,7 +42284,7 @@
         "format": "TV_SHORT",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 51,
+        "averageScore": 52,
         "genres": [
           "Fantasy",
           "Romance"
@@ -42876,7 +43392,7 @@
           },
           {
             "name": "Coming of Age",
-            "rank": 91
+            "rank": 92
           },
           {
             "name": "Classical Music",
@@ -42896,7 +43412,7 @@
           },
           {
             "name": "Yuri",
-            "rank": 50
+            "rank": 51
           },
           {
             "name": "LGBTQ+ Themes",
@@ -42977,7 +43493,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2017,
-        "averageScore": 77,
+        "averageScore": 78,
         "genres": [
           "Drama",
           "Music",
@@ -43735,20 +44251,20 @@
             "rank": 66
           },
           {
+            "name": "Tragedy",
+            "rank": 64
+          },
+          {
             "name": "Primarily Adult Cast",
             "rank": 63
           },
           {
-            "name": "Tragedy",
-            "rank": 63
-          },
-          {
             "name": "Female Harem",
-            "rank": 61
+            "rank": 62
           },
           {
-            "name": "Office Lady",
-            "rank": 59
+            "name": "Suicide",
+            "rank": 60
           }
         ],
         "studios": [
@@ -43951,7 +44467,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 49,
+        "averageScore": 50,
         "genres": [
           "Comedy",
           "Romance"
@@ -45610,6 +46126,141 @@
       }
     },
     {
+      "id": 20853,
+      "title": "Hitsugi no Chaika",
+      "anilist": {
+        "romaji": "Hitsugi no Chaika",
+        "english": "Chaika -The Coffin Princess-",
+        "native": "棺姫のチャイカ",
+        "description": "Toru Acura is a 20-year-old retired soldier meandering through life now that the war has ended. He encounters Chaika Trabant, a 14-year-old sorceress carrying a coffin, and follows her in hopes of finding meaning to his life again. The two travel with Toru's adopted sister, Akari, the employed member of the group and thus Toru's source of income.\n<br><br>\n(Source: Anime News Network)",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2014,
+        "averageScore": 69,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "tags": [
+          {
+            "name": "Magic",
+            "rank": 100
+          },
+          {
+            "name": "Fugitive",
+            "rank": 92
+          },
+          {
+            "name": "Memory Manipulation",
+            "rank": 84
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 79
+          },
+          {
+            "name": "Guns",
+            "rank": 75
+          },
+          {
+            "name": "Amnesia",
+            "rank": 72
+          },
+          {
+            "name": "Anti-Hero",
+            "rank": 70
+          },
+          {
+            "name": "Urban",
+            "rank": 70
+          },
+          {
+            "name": "Travel",
+            "rank": 70
+          },
+          {
+            "name": "Swordplay",
+            "rank": 60
+          },
+          {
+            "name": "Male Protagonist",
+            "rank": 55
+          },
+          {
+            "name": "Steampunk",
+            "rank": 54
+          },
+          {
+            "name": "Military",
+            "rank": 53
+          },
+          {
+            "name": "Foreign",
+            "rank": 50
+          },
+          {
+            "name": "Rural",
+            "rank": 50
+          }
+        ],
+        "studios": [
+          "bones"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20462-Gi2HXG6e1oYY.jpg",
+        "characters": [
+          {
+            "name": "Chaika Trabant",
+            "role": "MAIN"
+          },
+          {
+            "name": "Toru Acura",
+            "role": "MAIN"
+          },
+          {
+            "name": "Akari Acura",
+            "role": "MAIN"
+          },
+          {
+            "name": "Fredrica",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Chaika Bohdan",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Albéric Gillette",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Nikolai Avtotor",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Viivi Holopainen",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Zita Brusasco",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Matthäus Callaway",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-30T09:15:14+00:00"
+      }
+    },
+    {
       "id": 56646,
       "title": "Hokuto no Ken: Fist of the North Star",
       "anilist": {
@@ -45955,11 +46606,13 @@
         ]
       },
       "list_status": {
-        "status": "plan_to_watch",
-        "score": 0,
-        "num_episodes_watched": 0,
+        "status": "completed",
+        "score": 10,
+        "num_episodes_watched": 12,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T10:04:30+00:00"
+        "updated_at": "2026-10-25T10:23:36+00:00",
+        "start_date": "2026-10-24",
+        "finish_date": "2026-10-25"
       }
     },
     {
@@ -47507,6 +48160,14 @@
           {
             "name": "Miwako Kirigaya",
             "role": "SUPPORTING"
+          },
+          {
+            "name": "Aoi",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Sawarabi",
+            "role": "SUPPORTING"
           }
         ]
       },
@@ -48368,7 +49029,7 @@
         "format": "TV_SHORT",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 48,
+        "averageScore": 49,
         "genres": [
           "Horror",
           "Mystery",
@@ -48564,7 +49225,7 @@
         "format": "TV",
         "episodes": 39,
         "seasonYear": 2011,
-        "averageScore": 77,
+        "averageScore": 78,
         "genres": [
           "Comedy",
           "Drama"
@@ -48879,19 +49540,19 @@
             "role": "SUPPORTING"
           },
           {
+            "name": "Lydia Ainsworth",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Abbie Garnet",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Carol Caroline",
+            "role": "SUPPORTING"
+          },
+          {
             "name": "Evi Armstrong",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Albert Alium",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Stella White",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Olivia Arnold",
             "role": "SUPPORTING"
           }
         ]
@@ -48915,7 +49576,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 69,
+        "averageScore": 70,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -49106,12 +49767,12 @@
             "rank": 60
           },
           {
-            "name": "Rural",
-            "rank": 44
+            "name": "Yuri",
+            "rank": 60
           },
           {
-            "name": "Yuri",
-            "rank": 20
+            "name": "Rural",
+            "rank": 44
           }
         ],
         "studios": [
@@ -49512,7 +50173,7 @@
           },
           {
             "name": "LGBTQ+ Themes",
-            "rank": 53
+            "rank": 51
           }
         ],
         "studios": [
@@ -49961,7 +50622,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2019,
-        "averageScore": 53,
+        "averageScore": 52,
         "genres": [
           "Action",
           "Adventure",
@@ -50898,7 +51559,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 69,
+        "averageScore": 70,
         "genres": [
           "Adventure",
           "Fantasy",
@@ -51027,7 +51688,7 @@
           },
           {
             "name": "Kingdom Management",
-            "rank": 75
+            "rank": 77
           },
           {
             "name": "Polyamorous",
@@ -52086,16 +52747,16 @@
             "rank": 79
           },
           {
-            "name": "Primarily Adult Cast",
-            "rank": 79
-          },
-          {
             "name": "Iyashikei",
             "rank": 74
           },
           {
             "name": "Male Protagonist",
             "rank": 71
+          },
+          {
+            "name": "Primarily Adult Cast",
+            "rank": 70
           },
           {
             "name": "Food",
@@ -52247,6 +52908,10 @@
           },
           {
             "name": "Danjuurou Iwata",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Nene Haneshita",
             "role": "SUPPORTING"
           }
         ]
@@ -53504,7 +54169,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2021,
-        "averageScore": 70,
+        "averageScore": 69,
         "genres": [
           "Comedy",
           "Drama",
@@ -53970,16 +54635,16 @@
             "rank": 60
           },
           {
+            "name": "Cars",
+            "rank": 60
+          },
+          {
             "name": "Economics",
             "rank": 53
           },
           {
             "name": "Food",
             "rank": 46
-          },
-          {
-            "name": "Necromancy",
-            "rank": 40
           }
         ],
         "studios": [
@@ -54633,6 +55298,140 @@
         "updated_at": "2026-04-04T23:18:50+00:00",
         "start_date": "2026-01-13",
         "finish_date": "2026-04-05"
+      }
+    },
+    {
+      "id": 10357,
+      "title": "Jinrui wa Suitai Shimashita",
+      "anilist": {
+        "romaji": "Jinrui wa Suitai Shimashita",
+        "english": "Humanity Has Declined",
+        "native": "人類は衰退しました",
+        "description": "For years, declining birth rates have forced what's left of the human race to cede more and more territory to other beings who have appeared to take advantage of the emptying ecological niche. Now, only a handful of humans remain among the remnants of civilization and Earth is dominated by faeries &mdash;tiny, ten-inch tall creatures of surprising intelligence. But humanity's importance isn't over quite yet, as young Watashi learns as she makes the decision to return to her hometown and assume her grandfather's position as an arbitrator between the races. Unfortunately, the job isn't going to be anywhere near as simple as she expected, and it's going to take a wisdom far beyond her years to achieve her most important mission. <br><br>\n(Source: Sentai Filmworks)",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2012,
+        "averageScore": 75,
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "tags": [
+          {
+            "name": "Satire",
+            "rank": 95
+          },
+          {
+            "name": "Fairy",
+            "rank": 94
+          },
+          {
+            "name": "Post-Apocalyptic",
+            "rank": 91
+          },
+          {
+            "name": "Surreal Comedy",
+            "rank": 88
+          },
+          {
+            "name": "Achronological Order",
+            "rank": 85
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 85
+          },
+          {
+            "name": "Time Skip",
+            "rank": 79
+          },
+          {
+            "name": "Episodic",
+            "rank": 78
+          },
+          {
+            "name": "Lost Civilization",
+            "rank": 77
+          },
+          {
+            "name": "Food",
+            "rank": 56
+          },
+          {
+            "name": "Magic",
+            "rank": 52
+          },
+          {
+            "name": "Cute Girls Doing Cute Things",
+            "rank": 52
+          },
+          {
+            "name": "Robots",
+            "rank": 40
+          },
+          {
+            "name": "Yandere",
+            "rank": 34
+          },
+          {
+            "name": "School",
+            "rank": 33
+          }
+        ],
+        "studios": [
+          "AIC A.S.T.A."
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10357-JJvq6G2S01kl.png",
+        "characters": [
+          {
+            "name": "Watashi",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yousei-san",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Sofu",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Y",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Joshu-san",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Pion",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Otarou",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Ichigin-san",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Doctor",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "RYOBO-230R",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-28T15:03:37+00:00"
       }
     },
     {
@@ -55390,7 +56189,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2015,
-        "averageScore": 69,
+        "averageScore": 68,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -56232,27 +57031,27 @@
           },
           {
             "name": "Heterosexual",
-            "rank": 77
+            "rank": 78
           },
           {
             "name": "Primarily Teen Cast",
-            "rank": 75
-          },
-          {
-            "name": "Otaku Culture",
-            "rank": 63
-          },
-          {
-            "name": "Episodic",
-            "rank": 63
+            "rank": 77
           },
           {
             "name": "Restaurant",
-            "rank": 60
+            "rank": 66
           },
           {
-            "name": "Chibi",
-            "rank": 58
+            "name": "Otaku Culture",
+            "rank": 65
+          },
+          {
+            "name": "Episodic",
+            "rank": 64
+          },
+          {
+            "name": "School Club",
+            "rank": 62
           }
         ],
         "studios": [
@@ -56627,6 +57426,22 @@
           {
             "name": "Mercedes Grunewald",
             "role": "MAIN"
+          },
+          {
+            "name": "Benkei",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Florian",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Ryudia",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Kuro",
+            "role": "SUPPORTING"
           }
         ]
       },
@@ -57143,7 +57958,7 @@
           },
           {
             "name": "Iyashikei",
-            "rank": 83
+            "rank": 80
           },
           {
             "name": "Exorcism",
@@ -57242,7 +58057,7 @@
         "format": "TV",
         "episodes": 24,
         "seasonYear": 2026,
-        "averageScore": 57,
+        "averageScore": 58,
         "genres": [
           "Drama",
           "Mystery",
@@ -58221,7 +59036,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2012,
-        "averageScore": 80,
+        "averageScore": 81,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -59052,7 +59867,7 @@
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 65,
+        "averageScore": 68,
         "genres": [
           "Adventure",
           "Fantasy",
@@ -59073,7 +59888,7 @@
           },
           {
             "name": "Language Barrier",
-            "rank": 70
+            "rank": 72
           },
           {
             "name": "Female Protagonist",
@@ -59328,7 +60143,7 @@
         "format": "TV_SHORT",
         "episodes": 6,
         "seasonYear": 2024,
-        "averageScore": 59,
+        "averageScore": 60,
         "genres": [
           "Horror",
           "Mystery"
@@ -60297,6 +61112,139 @@
       }
     },
     {
+      "id": 37447,
+      "title": "Karakuri Circus",
+      "anilist": {
+        "romaji": "Karakuri Circus",
+        "english": "Karakuri Circus",
+        "native": "からくりサーカス",
+        "description": "The protagonist, Masaru, has just inherited a big fortune after the death of his father. However, people are trying to get their hands on it by any means necessary, even if it means killing him. Narumi helped Masaru from being kidnapped after fighting some weird guys. He found out that they're not humans but wooden puppets with amazing strength. After a hard fight, Narumi was forced to admit that he's no opponent for them; and just when he started to think that Masaru would be captured, Shirogane, Masaru's watcher arrives from France with a weapon, the puppet Arlequin. Here, begins the story of Karakuri Circus.\n",
+        "format": "TV",
+        "episodes": 36,
+        "seasonYear": 2018,
+        "averageScore": 68,
+        "genres": [
+          "Adventure",
+          "Mystery"
+        ],
+        "tags": [
+          {
+            "name": "Shounen",
+            "rank": 89
+          },
+          {
+            "name": "Circus",
+            "rank": 84
+          },
+          {
+            "name": "Conspiracy",
+            "rank": 80
+          },
+          {
+            "name": "Artificial Intelligence",
+            "rank": 79
+          },
+          {
+            "name": "Pandemic",
+            "rank": 79
+          },
+          {
+            "name": "Cyborg",
+            "rank": 79
+          },
+          {
+            "name": "Robots",
+            "rank": 77
+          },
+          {
+            "name": "Memory Manipulation",
+            "rank": 72
+          },
+          {
+            "name": "Male Protagonist",
+            "rank": 69
+          },
+          {
+            "name": "Martial Arts",
+            "rank": 64
+          },
+          {
+            "name": "Alchemy",
+            "rank": 60
+          },
+          {
+            "name": "Body Swapping",
+            "rank": 60
+          },
+          {
+            "name": "Fugitive",
+            "rank": 60
+          },
+          {
+            "name": "Proxy Battle",
+            "rank": 60
+          },
+          {
+            "name": "Tragedy",
+            "rank": 50
+          }
+        ],
+        "studios": [
+          "Studio VOLN"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101336-RhdykHwHu1dh.jpg",
+        "characters": [
+          {
+            "name": "Narumi Katou",
+            "role": "MAIN"
+          },
+          {
+            "name": "Masaru Saiga",
+            "role": "MAIN"
+          },
+          {
+            "name": "Shirogane",
+            "role": "MAIN"
+          },
+          {
+            "name": "Guy Christophe Rech",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Arlequino",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Eiryou Ashihana",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Columbine",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Hiro Nakamachi",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Noriyuki Nakamachi",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Shouji Saiga",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-26T06:24:51+00:00"
+      }
+    },
+    {
       "id": 56980,
       "title": "Karasu wa Aruji wo Erabanai",
       "anilist": {
@@ -60503,11 +61451,11 @@
             "rank": 60
           },
           {
-            "name": "Tragedy",
+            "name": "LGBTQ+ Themes",
             "rank": 60
           },
           {
-            "name": "Cute Girls Doing Cute Things",
+            "name": "Tragedy",
             "rank": 60
           }
         ],
@@ -60578,7 +61526,7 @@
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Action",
           "Adventure",
@@ -60591,6 +61539,10 @@
           },
           {
             "name": "Economics",
+            "rank": 60
+          },
+          {
+            "name": "Exiled",
             "rank": 60
           },
           {
@@ -60615,6 +61567,10 @@
           },
           {
             "name": "Super Power",
+            "rank": 20
+          },
+          {
+            "name": "Dungeon",
             "rank": 20
           }
         ],
@@ -60655,10 +61611,10 @@
       },
       "list_status": {
         "status": "watching",
-        "score": 7,
-        "num_episodes_watched": 3,
+        "score": 8,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T21:48:18+00:00",
+        "updated_at": "2026-10-24T21:01:09+00:00",
         "start_date": "2026-10-06"
       }
     },
@@ -61203,7 +62159,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 72,
+        "averageScore": 73,
         "genres": [
           "Comedy",
           "Horror",
@@ -61351,7 +62307,7 @@
           },
           {
             "name": "Gyaru",
-            "rank": 83
+            "rank": 84
           },
           {
             "name": "Twins",
@@ -61458,11 +62414,11 @@
         "tags": [
           {
             "name": "Fake Relationship",
-            "rank": 98
+            "rank": 96
           },
           {
             "name": "Marriage",
-            "rank": 95
+            "rank": 93
           },
           {
             "name": "Heterosexual",
@@ -61473,16 +62429,16 @@
             "rank": 82
           },
           {
+            "name": "Work",
+            "rank": 81
+          },
+          {
             "name": "Seinen",
             "rank": 81
           },
           {
-            "name": "Work",
-            "rank": 80
-          },
-          {
             "name": "Primarily Adult Cast",
-            "rank": 80
+            "rank": 81
           },
           {
             "name": "Office Lady",
@@ -61506,7 +62462,7 @@
           },
           {
             "name": "Travel",
-            "rank": 57
+            "rank": 54
           },
           {
             "name": "Rural",
@@ -61893,7 +62849,7 @@
           },
           {
             "name": "Medieval",
-            "rank": 86
+            "rank": 85
           },
           {
             "name": "Military",
@@ -62690,6 +63646,10 @@
             "rank": 95
           },
           {
+            "name": "Tragedy",
+            "rank": 93
+          },
+          {
             "name": "Primarily Female Cast",
             "rank": 93
           },
@@ -62698,20 +63658,16 @@
             "rank": 92
           },
           {
-            "name": "Tragedy",
-            "rank": 92
-          },
-          {
             "name": "Female Protagonist",
             "rank": 90
           },
           {
             "name": "Primarily Teen Cast",
-            "rank": 88
+            "rank": 89
           },
           {
             "name": "School",
-            "rank": 85
+            "rank": 84
           },
           {
             "name": "LGBTQ+ Themes",
@@ -63911,7 +64867,7 @@
           },
           {
             "name": "Meta",
-            "rank": 90
+            "rank": 89
           },
           {
             "name": "Parody",
@@ -64915,7 +65871,7 @@
           },
           {
             "name": "LGBTQ+ Themes",
-            "rank": 85
+            "rank": 86
           },
           {
             "name": "Rock Music",
@@ -64934,12 +65890,12 @@
             "rank": 77
           },
           {
-            "name": "Work",
-            "rank": 75
-          },
-          {
             "name": "Gyaru",
             "rank": 74
+          },
+          {
+            "name": "Work",
+            "rank": 70
           },
           {
             "name": "Josei",
@@ -66061,7 +67017,7 @@
         "format": "TV_SHORT",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 56,
+        "averageScore": 60,
         "genres": [
           "Fantasy",
           "Romance"
@@ -66605,6 +67561,143 @@
       }
     },
     {
+      "id": 59897,
+      "title": "Kobayashi-san Chi no Maid Dragon Movie: Samishigariya no Ryuu",
+      "anilist": {
+        "romaji": "Kobayashi-san Chi no Maidragon: Samishigariya no Ryuu",
+        "english": "Miss Kobayashi's Dragon Maid: A lonely dragon wants to be loved",
+        "native": "小林さんちのメイドラゴン さみしがりやの竜",
+        "description": "<i>\"I don’t want to let go of her hand. Because, we are a family.\"</i>\n<br><br>\nMiss Kobayashi, Tohru, Kanna, and Iruru's peaceful lives are shattered when Kanna’s father, Kamun Kamui, leader of the Chaos Forces, arrives and forces her to return to the Dragon World to fix a past mistake. With a war brewing between Chaos and Harmony, Kanna must find a way to unite the two worlds but is torn between her loyalty to her friends and her father's demands. Miss Kobayashi, however, refuses to let her go and tries to mend Kanna and Kamui’s broken bond. As dragons clash, Iruru uncovers a hidden force manipulating the war. Can they stop the war before it consumes both worlds?\n<br><br>\n(Source: Kyoto Animation YouTube Channel, Crunchyroll)",
+        "format": "MOVIE",
+        "episodes": 1,
+        "seasonYear": 2025,
+        "averageScore": 82,
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Slice of Life"
+        ],
+        "tags": [
+          {
+            "name": "Dragons",
+            "rank": 95
+          },
+          {
+            "name": "Magic",
+            "rank": 90
+          },
+          {
+            "name": "Found Family",
+            "rank": 87
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 85
+          },
+          {
+            "name": "Estranged Family",
+            "rank": 84
+          },
+          {
+            "name": "Family Life",
+            "rank": 80
+          },
+          {
+            "name": "Cute Girls Doing Cute Things",
+            "rank": 79
+          },
+          {
+            "name": "Shapeshifting",
+            "rank": 79
+          },
+          {
+            "name": "Monster Girl",
+            "rank": 79
+          },
+          {
+            "name": "Reverse Isekai",
+            "rank": 79
+          },
+          {
+            "name": "Seinen",
+            "rank": 75
+          },
+          {
+            "name": "Isekai",
+            "rank": 66
+          },
+          {
+            "name": "War",
+            "rank": 64
+          },
+          {
+            "name": "Swordplay",
+            "rank": 60
+          },
+          {
+            "name": "Maids",
+            "rank": 57
+          }
+        ],
+        "studios": [
+          "Kyoto Animation"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181839-pgM02tCNM2ae.png",
+        "characters": [
+          {
+            "name": "Kanna Kamui",
+            "role": "MAIN"
+          },
+          {
+            "name": "Kobayashi",
+            "role": "MAIN"
+          },
+          {
+            "name": "Tohru",
+            "role": "MAIN"
+          },
+          {
+            "name": "Elma",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Quetzalcoatl",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Ilulu",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Fafnir",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Makoto Takiya",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Riko Saikawa",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Shouta Magatsuchi",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "completed",
+        "score": 9,
+        "num_episodes_watched": 1,
+        "is_rewatching": false,
+        "updated_at": "2026-03-31T20:10:33+00:00",
+        "start_date": "2026-03-31",
+        "finish_date": "2026-03-31"
+      }
+    },
+    {
       "id": 39247,
       "title": "Kobayashi-san Chi no Maid Dragon S",
       "anilist": {
@@ -66874,143 +67967,6 @@
         "updated_at": "2026-03-30T19:08:26+00:00",
         "start_date": "2026-03-30",
         "finish_date": "2026-03-30"
-      }
-    },
-    {
-      "id": 59897,
-      "title": "Kobayashi-san Chi no Maid Dragon: Samishigariya no Ryuu",
-      "anilist": {
-        "romaji": "Kobayashi-san Chi no Maidragon: Samishigariya no Ryuu",
-        "english": "Miss Kobayashi's Dragon Maid: A lonely dragon wants to be loved",
-        "native": "小林さんちのメイドラゴン さみしがりやの竜",
-        "description": "<i>\"I don’t want to let go of her hand. Because, we are a family.\"</i>\n<br><br>\nMiss Kobayashi, Tohru, Kanna, and Iruru's peaceful lives are shattered when Kanna’s father, Kamun Kamui, leader of the Chaos Forces, arrives and forces her to return to the Dragon World to fix a past mistake. With a war brewing between Chaos and Harmony, Kanna must find a way to unite the two worlds but is torn between her loyalty to her friends and her father's demands. Miss Kobayashi, however, refuses to let her go and tries to mend Kanna and Kamui’s broken bond. As dragons clash, Iruru uncovers a hidden force manipulating the war. Can they stop the war before it consumes both worlds?\n<br><br>\n(Source: Kyoto Animation YouTube Channel, Crunchyroll)",
-        "format": "MOVIE",
-        "episodes": 1,
-        "seasonYear": 2025,
-        "averageScore": 82,
-        "genres": [
-          "Action",
-          "Drama",
-          "Fantasy",
-          "Slice of Life"
-        ],
-        "tags": [
-          {
-            "name": "Dragons",
-            "rank": 95
-          },
-          {
-            "name": "Magic",
-            "rank": 90
-          },
-          {
-            "name": "Found Family",
-            "rank": 87
-          },
-          {
-            "name": "Female Protagonist",
-            "rank": 85
-          },
-          {
-            "name": "Estranged Family",
-            "rank": 84
-          },
-          {
-            "name": "Family Life",
-            "rank": 80
-          },
-          {
-            "name": "Cute Girls Doing Cute Things",
-            "rank": 79
-          },
-          {
-            "name": "Shapeshifting",
-            "rank": 79
-          },
-          {
-            "name": "Monster Girl",
-            "rank": 79
-          },
-          {
-            "name": "Reverse Isekai",
-            "rank": 79
-          },
-          {
-            "name": "Seinen",
-            "rank": 75
-          },
-          {
-            "name": "Isekai",
-            "rank": 66
-          },
-          {
-            "name": "War",
-            "rank": 64
-          },
-          {
-            "name": "Swordplay",
-            "rank": 60
-          },
-          {
-            "name": "Maids",
-            "rank": 57
-          }
-        ],
-        "studios": [
-          "Kyoto Animation"
-        ],
-        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181839-pgM02tCNM2ae.png",
-        "characters": [
-          {
-            "name": "Kanna Kamui",
-            "role": "MAIN"
-          },
-          {
-            "name": "Kobayashi",
-            "role": "MAIN"
-          },
-          {
-            "name": "Tohru",
-            "role": "MAIN"
-          },
-          {
-            "name": "Elma",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Quetzalcoatl",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Ilulu",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Fafnir",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Makoto Takiya",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Riko Saikawa",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Shouta Magatsuchi",
-            "role": "SUPPORTING"
-          }
-        ]
-      },
-      "list_status": {
-        "status": "completed",
-        "score": 9,
-        "num_episodes_watched": 1,
-        "is_rewatching": false,
-        "updated_at": "2026-03-31T20:10:33+00:00",
-        "start_date": "2026-03-31",
-        "finish_date": "2026-03-31"
       }
     },
     {
@@ -68110,7 +69066,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 38,
+        "averageScore": 37,
         "genres": [
           "Comedy"
         ],
@@ -68829,7 +69785,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2025,
-        "averageScore": 55,
+        "averageScore": 59,
         "genres": [
           "Adventure",
           "Fantasy",
@@ -69456,12 +70412,12 @@
             "rank": 65
           },
           {
-            "name": "Cute Girls Doing Cute Things",
-            "rank": 63
-          },
-          {
             "name": "Tsundere",
             "rank": 61
+          },
+          {
+            "name": "Cute Girls Doing Cute Things",
+            "rank": 60
           },
           {
             "name": "Medieval",
@@ -71394,6 +72350,198 @@
       }
     },
     {
+      "id": 15379,
+      "title": "Kotoura-san",
+      "anilist": {
+        "romaji": "Kotoura-san",
+        "english": "The Troubled Life of Miss Kotoura",
+        "native": "琴浦さん",
+        "description": "A school love comedy. Kotoura Haruka is a 15-year-old girl who can read people's minds. She has been suffering from troubles caused by her mind-reading ability, and her parents got divorced as a result. She moves to a new high school but tries to keep away from her classmates. Manabe Yoshihisa, one of her classmates, accepts and appreciates her ability and she begins to interact with her friends with his help.\n",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2013,
+        "averageScore": 68,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "tags": [
+          {
+            "name": "Super Power",
+            "rank": 100
+          },
+          {
+            "name": "School Club",
+            "rank": 89
+          },
+          {
+            "name": "School",
+            "rank": 88
+          },
+          {
+            "name": "Coming of Age",
+            "rank": 79
+          },
+          {
+            "name": "Bullying",
+            "rank": 74
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 74
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 72
+          },
+          {
+            "name": "Dissociative Identities",
+            "rank": 60
+          },
+          {
+            "name": "Love Triangle",
+            "rank": 45
+          },
+          {
+            "name": "Seinen",
+            "rank": 45
+          },
+          {
+            "name": "Crime",
+            "rank": 40
+          },
+          {
+            "name": "Tsundere",
+            "rank": 36
+          },
+          {
+            "name": "Detective",
+            "rank": 30
+          },
+          {
+            "name": "Police",
+            "rank": 26
+          },
+          {
+            "name": "Surreal Comedy",
+            "rank": 20
+          }
+        ],
+        "studios": [
+          "AIC"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15379-tSZbUJQzAvRi.png",
+        "characters": [
+          {
+            "name": "Haruka Kotoura",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yoshihisa Manabe",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yuriko Mifune",
+            "role": "MAIN"
+          },
+          {
+            "name": "Daichi Muroto",
+            "role": "MAIN"
+          },
+          {
+            "name": "Hiyori Moritani",
+            "role": "MAIN"
+          },
+          {
+            "name": "Zenzou Kotoura",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Kumiko Kotoura",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Onozaki",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Oshou",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Yuu",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-31T09:37:29+00:00"
+      }
+    },
+    {
+      "id": 16636,
+      "title": "Kotoura-san: Haruka no Heya",
+      "anilist": {
+        "romaji": "Kotoura-san: Haruka no Heya",
+        "english": "The Troubled Life of Miss Kotoura: Haruka no Heya",
+        "native": "琴浦さん 春香の部屋",
+        "description": "Mini episodes of <em>Kotoura-san</em> introducing each of the series' characters.",
+        "format": "ONA",
+        "episodes": 6,
+        "seasonYear": 2012,
+        "averageScore": 60,
+        "genres": [
+          "Comedy"
+        ],
+        "tags": [
+          {
+            "name": "School",
+            "rank": 50
+          },
+          {
+            "name": "Seinen",
+            "rank": 20
+          }
+        ],
+        "studios": [],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16636.jpg",
+        "characters": [
+          {
+            "name": "Haruka Kotoura",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yoshihisa Manabe",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yuriko Mifune",
+            "role": "MAIN"
+          },
+          {
+            "name": "Daichi Muroto",
+            "role": "MAIN"
+          },
+          {
+            "name": "Hiyori Moritani",
+            "role": "MAIN"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-31T09:37:36+00:00"
+      }
+    },
+    {
       "id": 24629,
       "title": "Koufuku Graffiti",
       "anilist": {
@@ -72140,7 +73288,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 63,
+        "averageScore": 64,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -72788,7 +73936,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2022,
-        "averageScore": 69,
+        "averageScore": 68,
         "genres": [
           "Action",
           "Adventure",
@@ -73371,7 +74519,7 @@
         "format": "TV",
         "episodes": 24,
         "seasonYear": 2026,
-        "averageScore": 67,
+        "averageScore": 68,
         "genres": [
           "Action",
           "Comedy",
@@ -73515,14 +74663,18 @@
         "tags": [
           {
             "name": "School",
-            "rank": 60
-          },
-          {
-            "name": "Heterosexual",
-            "rank": 30
+            "rank": 66
           },
           {
             "name": "Primarily Teen Cast",
+            "rank": 50
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 40
+          },
+          {
+            "name": "Female Harem",
             "rank": 20
           }
         ],
@@ -73850,7 +75002,7 @@
           },
           {
             "name": "Politics",
-            "rank": 91
+            "rank": 92
           },
           {
             "name": "Ancient China",
@@ -73951,9 +75103,9 @@
       "list_status": {
         "status": "watching",
         "score": 10,
-        "num_episodes_watched": 3,
+        "num_episodes_watched": 5,
         "is_rewatching": false,
-        "updated_at": "2026-10-16T20:20:27+00:00",
+        "updated_at": "2026-10-30T20:30:49+00:00",
         "start_date": "2026-10-03"
       }
     },
@@ -74989,7 +76141,7 @@
         "format": "TV",
         "episodes": 26,
         "seasonYear": 2026,
-        "averageScore": 65,
+        "averageScore": 66,
         "genres": [
           "Drama",
           "Psychological"
@@ -76418,11 +77570,11 @@
         "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx197715-KLFLxU24U1uL.png",
         "characters": [
           {
-            "name": "Alice",
+            "name": "Kouji Kagami",
             "role": "MAIN"
           },
           {
-            "name": "Kouji Kagami",
+            "name": "Alice",
             "role": "MAIN"
           },
           {
@@ -76539,12 +77691,12 @@
             "rank": 72
           },
           {
-            "name": "Restaurant",
-            "rank": 69
+            "name": "Yuri",
+            "rank": 70
           },
           {
-            "name": "Yuri",
-            "rank": 68
+            "name": "Restaurant",
+            "rank": 69
           }
         ],
         "studios": [
@@ -78967,7 +80119,7 @@
         "format": "TV",
         "episodes": 109,
         "seasonYear": 1967,
-        "averageScore": 64,
+        "averageScore": 65,
         "genres": [
           "Fantasy",
           "Mahou Shoujo"
@@ -81700,7 +82852,7 @@
           },
           {
             "name": "Bisexual",
-            "rank": 78
+            "rank": 77
           },
           {
             "name": "Female Harem",
@@ -81860,7 +83012,7 @@
         "format": "TV",
         "episodes": 20,
         "seasonYear": 2026,
-        "averageScore": 65,
+        "averageScore": 67,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -81869,18 +83021,18 @@
         "tags": [
           {
             "name": "Josei",
-            "rank": 75
+            "rank": 77
           },
           {
             "name": "Medieval",
-            "rank": 66
-          },
-          {
-            "name": "Male Protagonist",
-            "rank": 60
+            "rank": 75
           },
           {
             "name": "Cute Boys Doing Cute Things",
+            "rank": 64
+          },
+          {
+            "name": "Male Protagonist",
             "rank": 60
           },
           {
@@ -81888,16 +83040,20 @@
             "rank": 60
           },
           {
+            "name": "Politics",
+            "rank": 46
+          },
+          {
+            "name": "Royal Affairs",
+            "rank": 45
+          },
+          {
             "name": "Crossdressing",
             "rank": 40
           },
           {
-            "name": "Politics",
-            "rank": 30
-          },
-          {
-            "name": "Royal Affairs",
-            "rank": 26
+            "name": "Swordplay",
+            "rank": 33
           },
           {
             "name": "Male Harem",
@@ -81908,15 +83064,7 @@
             "rank": 25
           },
           {
-            "name": "Swordplay",
-            "rank": 20
-          },
-          {
             "name": "Female Protagonist",
-            "rank": 10
-          },
-          {
-            "name": "LGBTQ+ Themes",
             "rank": 10
           },
           {
@@ -82290,6 +83438,112 @@
       }
     },
     {
+      "id": 42590,
+      "title": "Mashiro no Oto",
+      "anilist": {
+        "romaji": "Mashiro no Oto",
+        "english": "Those Snow White Notes",
+        "native": "ましろのおと",
+        "description": "Sawamura Matsugorou is a shamisen player of legendary talent. Upon his death, his grandson, Sawamura Setsu, lost his ability to play. Having lost his beloved sound, Setsu finds himself in Tokyo in search of a new sound to love. Tachiki Yuna, who works at a club, hooks him up with a gig to play there as a warm up act. Setsu imbues the sound of his shamisen with his many thoughts and feelings he has of others, still searching for his own sound and his own feelings.<br>\n<br>\n(Source: Crunchyroll)",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2021,
+        "averageScore": 73,
+        "genres": [
+          "Drama",
+          "Music"
+        ],
+        "tags": [
+          {
+            "name": "Musical Theater",
+            "rank": 100
+          },
+          {
+            "name": "Coming of Age",
+            "rank": 79
+          },
+          {
+            "name": "Male Protagonist",
+            "rank": 78
+          },
+          {
+            "name": "School Club",
+            "rank": 60
+          },
+          {
+            "name": "Shounen",
+            "rank": 60
+          },
+          {
+            "name": "Urban",
+            "rank": 48
+          },
+          {
+            "name": "School",
+            "rank": 45
+          },
+          {
+            "name": "Tragedy",
+            "rank": 42
+          }
+        ],
+        "studios": [
+          "Shin-Ei Animation"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx122348-FawMIyUnMDW5.jpg",
+        "characters": [
+          {
+            "name": "Setsu Sawamura",
+            "role": "MAIN"
+          },
+          {
+            "name": "Rai Nagamori",
+            "role": "MAIN"
+          },
+          {
+            "name": "Kaito Yaguchi",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yui Yamazato",
+            "role": "MAIN"
+          },
+          {
+            "name": "Shuri Maeda",
+            "role": "MAIN"
+          },
+          {
+            "name": "Umeko Sawamura",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Wakana Sawamura",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Mai Tanuma",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Sakura Yamano",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Keiko Koyabu",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "watching",
+        "score": 0,
+        "num_episodes_watched": 1,
+        "is_rewatching": false,
+        "updated_at": "2026-10-25T22:28:45+00:00",
+        "start_date": "2026-10-25"
+      }
+    },
+    {
       "id": 52211,
       "title": "Mashle",
       "anilist": {
@@ -82317,7 +83571,7 @@
           },
           {
             "name": "Shounen",
-            "rank": 90
+            "rank": 89
           },
           {
             "name": "Parody",
@@ -82329,43 +83583,43 @@
           },
           {
             "name": "Fitness",
-            "rank": 87
+            "rank": 86
           },
           {
             "name": "Slapstick",
-            "rank": 84
-          },
-          {
-            "name": "Primarily Teen Cast",
-            "rank": 82
+            "rank": 83
           },
           {
             "name": "Super Power",
-            "rank": 81
+            "rank": 80
+          },
+          {
+            "name": "Primarily Teen Cast",
+            "rank": 80
           },
           {
             "name": "Primarily Male Cast",
-            "rank": 80
+            "rank": 78
           },
           {
             "name": "Kuudere",
-            "rank": 80
+            "rank": 76
           },
           {
             "name": "Aromantic",
-            "rank": 68
-          },
-          {
-            "name": "Adoption",
-            "rank": 63
+            "rank": 73
           },
           {
             "name": "Food",
-            "rank": 62
+            "rank": 66
+          },
+          {
+            "name": "Adoption",
+            "rank": 65
           },
           {
             "name": "Battle Royale",
-            "rank": 60
+            "rank": 64
           }
         ],
         "studios": [
@@ -82434,7 +83688,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 59,
+        "averageScore": 60,
         "genres": [
           "Mystery",
           "Psychological",
@@ -83052,12 +84306,12 @@
             "rank": 73
           },
           {
-            "name": "Rehabilitation",
-            "rank": 66
-          },
-          {
             "name": "Work",
             "rank": 65
+          },
+          {
+            "name": "Rehabilitation",
+            "rank": 63
           },
           {
             "name": "Urban",
@@ -83816,12 +85070,12 @@
             "rank": 97
           },
           {
-            "name": "Female Harem",
-            "rank": 92
+            "name": "Space Opera",
+            "rank": 88
           },
           {
-            "name": "Space Opera",
-            "rank": 85
+            "name": "Female Harem",
+            "rank": 86
           },
           {
             "name": "Heterosexual",
@@ -83833,7 +85087,11 @@
           },
           {
             "name": "Elf",
-            "rank": 73
+            "rank": 75
+          },
+          {
+            "name": "Nudity",
+            "rank": 66
           },
           {
             "name": "Seinen",
@@ -83841,10 +85099,6 @@
           },
           {
             "name": "Male Protagonist",
-            "rank": 60
-          },
-          {
-            "name": "Nudity",
             "rank": 60
           },
           {
@@ -83885,10 +85139,10 @@
       },
       "list_status": {
         "status": "watching",
-        "score": 8,
-        "num_episodes_watched": 3,
+        "score": 9,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T20:32:59+00:00",
+        "updated_at": "2026-10-28T08:35:07+00:00",
         "start_date": "2026-10-04"
       }
     },
@@ -84727,7 +85981,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2017,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Slice of Life",
           "Sports"
@@ -85055,7 +86309,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2018,
-        "averageScore": 71,
+        "averageScore": 72,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -85709,7 +86963,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2025,
-        "averageScore": 55,
+        "averageScore": 54,
         "genres": [
           "Action",
           "Adventure",
@@ -87149,6 +88403,10 @@
             "rank": 81
           },
           {
+            "name": "Female Harem",
+            "rank": 81
+          },
+          {
             "name": "Time Loop",
             "rank": 81
           },
@@ -87157,12 +88415,12 @@
             "rank": 80
           },
           {
-            "name": "Female Harem",
+            "name": "Family Life",
             "rank": 80
           },
           {
-            "name": "Family Life",
-            "rank": 80
+            "name": "Heterosexual",
+            "rank": 79
           },
           {
             "name": "Coming of Age",
@@ -87175,10 +88433,6 @@
           {
             "name": "Medieval",
             "rank": 78
-          },
-          {
-            "name": "Heterosexual",
-            "rank": 77
           }
         ],
         "studios": [
@@ -88314,19 +89568,19 @@
             "rank": 98
           },
           {
-            "name": "Coming of Age",
-            "rank": 90
-          },
-          {
             "name": "Rural",
-            "rank": 90
+            "rank": 91
           },
           {
-            "name": "Male Protagonist",
-            "rank": 86
+            "name": "Coming of Age",
+            "rank": 87
           },
           {
             "name": "Time Skip",
+            "rank": 87
+          },
+          {
+            "name": "Male Protagonist",
             "rank": 86
           },
           {
@@ -88346,15 +89600,15 @@
             "rank": 66
           },
           {
-            "name": "Age Gap",
-            "rank": 62
-          },
-          {
             "name": "Mythology",
             "rank": 60
           },
           {
             "name": "School",
+            "rank": 60
+          },
+          {
+            "name": "Age Gap",
             "rank": 60
           },
           {
@@ -89927,7 +91181,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": null,
-        "averageScore": 75,
+        "averageScore": 76,
         "genres": [
           "Action",
           "Comedy",
@@ -90816,11 +92070,11 @@
         "tags": [
           {
             "name": "Steampunk",
-            "rank": 91
+            "rank": 92
           },
           {
             "name": "Yandere",
-            "rank": 80
+            "rank": 82
           },
           {
             "name": "Ensemble Cast",
@@ -90828,15 +92082,19 @@
           },
           {
             "name": "Male Protagonist",
-            "rank": 76
+            "rank": 78
           },
           {
             "name": "Female Protagonist",
-            "rank": 72
+            "rank": 73
+          },
+          {
+            "name": "Environmental",
+            "rank": 73
           },
           {
             "name": "Boys' Love",
-            "rank": 63
+            "rank": 61
           },
           {
             "name": "LGBTQ+ Themes",
@@ -90847,7 +92105,7 @@
             "rank": 60
           },
           {
-            "name": "Environmental",
+            "name": "Bisexual",
             "rank": 60
           },
           {
@@ -90859,20 +92117,16 @@
             "rank": 55
           },
           {
+            "name": "Urban",
+            "rank": 53
+          },
+          {
             "name": "Heterosexual",
-            "rank": 50
+            "rank": 48
           },
           {
             "name": "Educational",
             "rank": 48
-          },
-          {
-            "name": "Crossdressing",
-            "rank": 46
-          },
-          {
-            "name": "Artificial Intelligence",
-            "rank": 46
           }
         ],
         "studios": [
@@ -90890,7 +92144,7 @@
           },
           {
             "name": "Yousuke Mizoe",
-            "role": "SUPPORTING"
+            "role": "MAIN"
           },
           {
             "name": "Kengo Kuga",
@@ -92371,7 +93625,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 62,
+        "averageScore": 64,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -93252,7 +94506,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2022,
-        "averageScore": 58,
+        "averageScore": 57,
         "genres": [
           "Adventure",
           "Comedy",
@@ -93543,7 +94797,7 @@
         "format": "ONA",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Action",
           "Comedy",
@@ -93900,7 +95154,7 @@
           },
           {
             "name": "Josei",
-            "rank": 80
+            "rank": 82
           },
           {
             "name": "Cute Boys Doing Cute Things",
@@ -93908,7 +95162,7 @@
           },
           {
             "name": "LGBTQ+ Themes",
-            "rank": 79
+            "rank": 80
           },
           {
             "name": "Isekai",
@@ -93920,15 +95174,15 @@
           },
           {
             "name": "Dungeon",
-            "rank": 52
+            "rank": 53
           },
           {
             "name": "Swordplay",
-            "rank": 50
+            "rank": 53
           },
           {
             "name": "Guns",
-            "rank": 20
+            "rank": 40
           }
         ],
         "studios": [
@@ -94136,7 +95390,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 60,
+        "averageScore": 62,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -94241,9 +95495,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 2,
+        "num_episodes_watched": 3,
         "is_rewatching": false,
-        "updated_at": "2026-10-11T18:28:55+00:00",
+        "updated_at": "2026-10-19T20:20:08+00:00",
         "start_date": "2026-10-04"
       }
     },
@@ -94568,11 +95822,12 @@
         ]
       },
       "list_status": {
-        "status": "plan_to_watch",
-        "score": 0,
-        "num_episodes_watched": 0,
+        "status": "watching",
+        "score": 8,
+        "num_episodes_watched": 10,
         "is_rewatching": false,
-        "updated_at": "2025-08-20T10:22:59+00:00"
+        "updated_at": "2026-10-30T19:32:42+00:00",
+        "start_date": "2026-10-25"
       }
     },
     {
@@ -94831,7 +96086,7 @@
         "format": "ONA",
         "episodes": 8,
         "seasonYear": 2026,
-        "averageScore": 59,
+        "averageScore": 61,
         "genres": [
           "Hentai"
         ],
@@ -94919,7 +96174,7 @@
         "format": "OVA",
         "episodes": 4,
         "seasonYear": 2012,
-        "averageScore": 61,
+        "averageScore": 62,
         "genres": [
           "Slice of Life"
         ],
@@ -95164,7 +96419,7 @@
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 55,
+        "averageScore": 58,
         "genres": [
           "Music"
         ],
@@ -96066,6 +97321,10 @@
             "rank": 75
           },
           {
+            "name": "Female Protagonist",
+            "rank": 73
+          },
+          {
             "name": "Nakadashi",
             "rank": 73
           },
@@ -96084,10 +97343,6 @@
           {
             "name": "Hypersexuality",
             "rank": 66
-          },
-          {
-            "name": "Volleyball",
-            "rank": 60
           }
         ],
         "studios": [
@@ -97875,12 +99130,12 @@
             "rank": 96
           },
           {
-            "name": "Shapeshifting",
+            "name": "Kaiju",
             "rank": 95
           },
           {
-            "name": "Kaiju",
-            "rank": 94
+            "name": "Shapeshifting",
+            "rank": 95
           },
           {
             "name": "Monster Girl",
@@ -97892,7 +99147,7 @@
           },
           {
             "name": "Body Image",
-            "rank": 92
+            "rank": 93
           },
           {
             "name": "Heterosexual",
@@ -98616,7 +99871,7 @@
           }
         ],
         "studios": [],
-        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx201140-mUtyml4LLamp.jpg",
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx201140-NNYiWaIe5vS2.jpg",
         "characters": [
           {
             "name": "Saika Kuozaki",
@@ -100459,7 +101714,7 @@
         "format": "TV_SHORT",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 57,
+        "averageScore": 58,
         "genres": [
           "Fantasy"
         ],
@@ -102381,7 +103636,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2023,
-        "averageScore": 60,
+        "averageScore": 61,
         "genres": [
           "Adventure",
           "Fantasy"
@@ -103158,7 +104413,7 @@
         "romaji": "Ranma 1/2 (2024) 3rd Season",
         "english": "Ranma1/2 (2024) Season 3",
         "native": "らんま1/2 (2024) 第3期",
-        "description": "The third season of <i>Ranma 1/2 (2024)</i>.",
+        "description": "The third season of <i>Ranma 1/2 (2024)</i>.<br><br>\n\nMore rivals and misadventures follow Ranma and Akane as Cologne trains Ryouga, a cookie war crumbles out of control, and Shampoo brews new schemes.<br><br>\n\n(Source: Netflix, edited)",
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
@@ -103316,10 +104571,6 @@
             "rank": 94
           },
           {
-            "name": "Seinen",
-            "rank": 93
-          },
-          {
             "name": "Tragedy",
             "rank": 88
           },
@@ -103332,20 +104583,20 @@
             "rank": 85
           },
           {
+            "name": "Seinen",
+            "rank": 85
+          },
+          {
             "name": "Isekai",
             "rank": 79
           },
           {
-            "name": "Philosophy",
-            "rank": 79
-          },
-          {
             "name": "Witch",
-            "rank": 78
+            "rank": 77
           },
           {
             "name": "Curses",
-            "rank": 78
+            "rank": 77
           },
           {
             "name": "Magic",
@@ -103353,7 +104604,7 @@
           },
           {
             "name": "Cult",
-            "rank": 76
+            "rank": 75
           },
           {
             "name": "Gore",
@@ -103361,11 +104612,15 @@
           },
           {
             "name": "Medieval",
-            "rank": 73
+            "rank": 74
           },
           {
             "name": "Body Horror",
             "rank": 69
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 67
           }
         ],
         "studios": [
@@ -103623,10 +104878,6 @@
             "rank": 79
           },
           {
-            "name": "Female Protagonist",
-            "rank": 79
-          },
-          {
             "name": "Cult",
             "rank": 78
           },
@@ -103641,6 +104892,10 @@
           {
             "name": "Body Horror",
             "rank": 71
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 70
           }
         ],
         "studios": [
@@ -103859,10 +105114,6 @@
         ],
         "tags": [
           {
-            "name": "Seinen",
-            "rank": 97
-          },
-          {
             "name": "Memory Manipulation",
             "rank": 96
           },
@@ -103875,16 +105126,16 @@
             "rank": 92
           },
           {
-            "name": "Amnesia",
-            "rank": 92
-          },
-          {
             "name": "Dissociative Identities",
             "rank": 91
           },
           {
-            "name": "Tragedy",
-            "rank": 88
+            "name": "Amnesia",
+            "rank": 91
+          },
+          {
+            "name": "Seinen",
+            "rank": 89
           },
           {
             "name": "Time Manipulation",
@@ -103892,6 +105143,10 @@
           },
           {
             "name": "Magic",
+            "rank": 87
+          },
+          {
+            "name": "Tragedy",
             "rank": 87
           },
           {
@@ -103907,15 +105162,15 @@
             "rank": 83
           },
           {
-            "name": "Philosophy",
-            "rank": 79
-          },
-          {
             "name": "Cult",
             "rank": 75
           },
           {
-            "name": "Female Protagonist",
+            "name": "Philosophy",
+            "rank": 75
+          },
+          {
+            "name": "Medieval",
             "rank": 74
           }
         ],
@@ -105410,7 +106665,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2024,
-        "averageScore": 50,
+        "averageScore": 51,
         "genres": [
           "Sports"
         ],
@@ -106111,11 +107366,11 @@
         "romaji": "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita",
         "english": "Romelia War Chronicle",
         "native": "ロメリア戦記 〜魔王を倒した後も人類やばそうだから軍隊組織した〜",
-        "description": "Romelia and her party succeed in defeating the Demon King Zelgis, though Prince Henri’s reckless charge forces them into a grueling battle. In the aftermath, Romelia is branded \"dead weight\" for not fighting directly, and the Prince unilaterally breaks off their engagement. Denied a place in the victory celebrations, Romelia returns home, only to be met with cold indifference from her family and society. Yet, she refuses to break. She has already set her sights on the path that lies ahead.\n<br><br>\n(Source: Crunchyroll)\n<br><br>\n<i>Note: Romelia War Chronicle was streamed 2 days in advance of the TV broadcast on AnimeTimes, U-NEXT, and Netflix beginning October 3, 2026. Regular broadcasting began on October 5, 2026.</i>",
+        "description": "Romelia and her party succeed in defeating the Demon King Zelgis, though Prince Henri’s reckless charge forces them into a grueling battle. In the aftermath, Romelia is branded \"dead weight\" for not fighting directly, and the Prince unilaterally breaks off their engagement. Denied a place in the victory celebrations, Romelia returns home, only to be met with cold indifference from her family and society. Yet, she refuses to break. She has already set her sights on the path that lies ahead.\n<br><br>\n(Source: Crunchyroll)\n<br><br>\n<i>Note: Romelia War Chronicle streamed 2 days in advance of the TV broadcast on AnimeTimes, U-NEXT, and Netflix beginning October 3, 2026. Regular broadcasting began on October 5, 2026.</i>",
         "format": "ONA",
-        "episodes": 24,
+        "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 70,
+        "averageScore": 71,
         "genres": [
           "Adventure",
           "Drama",
@@ -106165,6 +107420,14 @@
           {
             "name": "Rural",
             "rank": 40
+          },
+          {
+            "name": "Twins",
+            "rank": 40
+          },
+          {
+            "name": "Survival",
+            "rank": 20
           }
         ],
         "studios": [
@@ -106217,10 +107480,40 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 3,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T13:19:13+00:00",
+        "updated_at": "2026-10-24T15:49:35+00:00",
         "start_date": "2026-10-03"
+      }
+    },
+    {
+      "id": 65298,
+      "title": "Romelia Senki Part 2",
+      "anilist": {
+        "romaji": "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita Part II",
+        "english": null,
+        "native": "ロメリア戦記 〜魔王を倒した後も人類やばそうだから軍隊組織した〜 第IIクール",
+        "description": "The second part of <i>Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita</i>.",
+        "format": "TV",
+        "episodes": 12,
+        "seasonYear": 2027,
+        "averageScore": null,
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "tags": [],
+        "studios": [],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx219243-o9iT7Rl7vB4k.png",
+        "characters": []
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-31T14:35:53+00:00"
       }
     },
     {
@@ -106562,7 +107855,7 @@
         "tags": [
           {
             "name": "Kingdom Management",
-            "rank": 85
+            "rank": 86
           },
           {
             "name": "Cohabitation",
@@ -106574,7 +107867,7 @@
           },
           {
             "name": "Age Gap",
-            "rank": 69
+            "rank": 70
           },
           {
             "name": "LGBTQ+ Themes",
@@ -106609,16 +107902,16 @@
             "rank": 40
           },
           {
-            "name": "Gender Bending",
-            "rank": 33
-          },
-          {
             "name": "Parenthood",
-            "rank": 20
+            "rank": 40
           },
           {
             "name": "CGI",
-            "rank": 20
+            "rank": 40
+          },
+          {
+            "name": "Gender Bending",
+            "rank": 37
           }
         ],
         "studios": [
@@ -107175,11 +108468,11 @@
             "rank": 99
           },
           {
-            "name": "Heterosexual",
-            "rank": 88
+            "name": "Revenge",
+            "rank": 84
           },
           {
-            "name": "Revenge",
+            "name": "Heterosexual",
             "rank": 84
           },
           {
@@ -107326,6 +108619,10 @@
             "rank": 79
           },
           {
+            "name": "Found Family",
+            "rank": 79
+          },
+          {
             "name": "Survival",
             "rank": 76
           },
@@ -107360,10 +108657,6 @@
           {
             "name": "Isekai",
             "rank": 52
-          },
-          {
-            "name": "Medieval",
-            "rank": 46
           }
         ],
         "studios": [
@@ -108621,7 +109914,7 @@
         "format": "ONA",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 52,
+        "averageScore": 53,
         "genres": [
           "Fantasy",
           "Romance"
@@ -108731,7 +110024,7 @@
         "format": "MUSIC",
         "episodes": 1,
         "seasonYear": null,
-        "averageScore": 59,
+        "averageScore": 62,
         "genres": [
           "Romance"
         ],
@@ -108761,7 +110054,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 70,
+        "averageScore": 74,
         "genres": [
           "Drama",
           "Music",
@@ -108806,7 +110099,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 73,
+        "averageScore": 75,
         "genres": [
           "Drama",
           "Music",
@@ -108920,7 +110213,7 @@
         "format": "TV",
         "episodes": 39,
         "seasonYear": 2006,
-        "averageScore": 73,
+        "averageScore": 74,
         "genres": [
           "Adventure",
           "Comedy",
@@ -110249,7 +111542,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 69,
+        "averageScore": 70,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -110258,6 +111551,14 @@
         "tags": [
           {
             "name": "Urban Fantasy",
+            "rank": 79
+          },
+          {
+            "name": "Crossover",
+            "rank": 79
+          },
+          {
+            "name": "Magic",
             "rank": 79
           },
           {
@@ -110306,14 +111607,6 @@
           },
           {
             "name": "Isekai",
-            "rank": 60
-          },
-          {
-            "name": "Politics",
-            "rank": 60
-          },
-          {
-            "name": "Royal Affairs",
             "rank": 60
           }
         ],
@@ -110751,16 +112044,16 @@
             "rank": 92
           },
           {
-            "name": "Yuri",
-            "rank": 84
-          },
-          {
             "name": "Coastal",
             "rank": 81
           },
           {
             "name": "Urban Fantasy",
             "rank": 81
+          },
+          {
+            "name": "LGBTQ+ Themes",
+            "rank": 80
           },
           {
             "name": "Curses",
@@ -110771,11 +112064,11 @@
             "rank": 78
           },
           {
-            "name": "Interspecies",
-            "rank": 75
+            "name": "Yuri",
+            "rank": 77
           },
           {
-            "name": "LGBTQ+ Themes",
+            "name": "Interspecies",
             "rank": 75
           },
           {
@@ -112597,7 +113890,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 82,
+        "averageScore": 84,
         "genres": [
           "Drama",
           "Psychological",
@@ -112694,11 +113987,11 @@
         ]
       },
       "list_status": {
-        "status": "plan_to_watch",
-        "score": 0,
-        "num_episodes_watched": 0,
+        "status": "completed",
+        "score": 9,
+        "num_episodes_watched": 1,
         "is_rewatching": false,
-        "updated_at": "2025-09-27T19:58:04+00:00"
+        "updated_at": "2026-10-27T21:39:50+00:00"
       }
     },
     {
@@ -112987,63 +114280,63 @@
         ],
         "tags": [
           {
-            "name": "College",
-            "rank": 92
-          },
-          {
-            "name": "Urban Fantasy",
+            "name": "Male Protagonist",
             "rank": 90
           },
           {
-            "name": "Heterosexual",
-            "rank": 85
+            "name": "Urban Fantasy",
+            "rank": 89
           },
           {
-            "name": "Male Protagonist",
-            "rank": 79
+            "name": "College",
+            "rank": 88
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 86
+          },
+          {
+            "name": "Alternate Universe",
+            "rank": 72
           },
           {
             "name": "Primarily Adult Cast",
             "rank": 72
           },
           {
-            "name": "Alternate Universe",
+            "name": "Memory Manipulation",
             "rank": 70
           },
           {
-            "name": "Memory Manipulation",
-            "rank": 66
-          },
-          {
-            "name": "Female Protagonist",
-            "rank": 50
-          },
-          {
-            "name": "Acting",
-            "rank": 50
-          },
-          {
             "name": "Idol",
-            "rank": 48
+            "rank": 50
           },
           {
             "name": "Time Skip",
-            "rank": 48
-          },
-          {
-            "name": "CGI",
             "rank": 46
           },
           {
-            "name": "POV",
-            "rank": 35
+            "name": "CGI",
+            "rank": 45
           },
           {
-            "name": "Age Gap",
-            "rank": 20
+            "name": "Acting",
+            "rank": 44
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 40
+          },
+          {
+            "name": "POV",
+            "rank": 32
           },
           {
             "name": "Kuudere",
+            "rank": 30
+          },
+          {
+            "name": "Age Gap",
             "rank": 20
           }
         ],
@@ -113277,43 +114570,43 @@
           },
           {
             "name": "Nudity",
-            "rank": 81
+            "rank": 82
+          },
+          {
+            "name": "Male Protagonist",
+            "rank": 80
           },
           {
             "name": "Female Protagonist",
             "rank": 79
           },
           {
-            "name": "Male Protagonist",
-            "rank": 77
+            "name": "Mixed Gender Harem",
+            "rank": 76
           },
           {
-            "name": "Mixed Gender Harem",
-            "rank": 74
+            "name": "Heterosexual",
+            "rank": 73
           },
           {
             "name": "Femboy",
-            "rank": 68
+            "rank": 69
           },
           {
             "name": "Ensemble Cast",
-            "rank": 64
+            "rank": 66
           },
           {
             "name": "Shounen",
             "rank": 60
           },
           {
-            "name": "LGBTQ+ Themes",
-            "rank": 60
-          },
-          {
             "name": "Meta",
-            "rank": 53
+            "rank": 55
           },
           {
-            "name": "Yuri",
-            "rank": 42
+            "name": "LGBTQ+ Themes",
+            "rank": 54
           }
         ],
         "studios": [
@@ -113726,7 +115019,7 @@
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 69,
+        "averageScore": 70,
         "genres": [
           "Action",
           "Comedy",
@@ -113750,6 +115043,10 @@
             "rank": 79
           },
           {
+            "name": "Cute Girls Doing Cute Things",
+            "rank": 79
+          },
+          {
             "name": "Meta",
             "rank": 75
           },
@@ -113762,15 +115059,15 @@
             "rank": 72
           },
           {
-            "name": "Cute Girls Doing Cute Things",
-            "rank": 60
-          },
-          {
             "name": "Estranged Family",
             "rank": 40
           },
           {
             "name": "Dungeon",
+            "rank": 40
+          },
+          {
+            "name": "Elf",
             "rank": 40
           },
           {
@@ -113783,6 +115080,10 @@
           },
           {
             "name": "Witch",
+            "rank": 20
+          },
+          {
+            "name": "Pandemic",
             "rank": 20
           }
         ],
@@ -113819,15 +115120,23 @@
           {
             "name": "Yggdrasil",
             "role": "SUPPORTING"
+          },
+          {
+            "name": "Zariche",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Elhaur",
+            "role": "SUPPORTING"
           }
         ]
       },
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 2,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-14T21:55:57+00:00",
+        "updated_at": "2026-10-28T16:04:07+00:00",
         "start_date": "2026-10-12"
       }
     },
@@ -114369,7 +115678,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2013,
-        "averageScore": 74,
+        "averageScore": 73,
         "genres": [
           "Comedy",
           "Romance",
@@ -115387,12 +116696,16 @@
             "rank": 79
           },
           {
+            "name": "Yuri",
+            "rank": 60
+          },
+          {
             "name": "Seinen",
             "rank": 53
           },
           {
-            "name": "Yuri",
-            "rank": 53
+            "name": "LGBTQ+ Themes",
+            "rank": 45
           },
           {
             "name": "Revenge",
@@ -115401,10 +116714,6 @@
           {
             "name": "Suicide",
             "rank": 30
-          },
-          {
-            "name": "LGBTQ+ Themes",
-            "rank": 26
           },
           {
             "name": "Bar",
@@ -117204,7 +118513,7 @@
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 64,
+        "averageScore": 65,
         "genres": [
           "Adventure",
           "Fantasy"
@@ -117281,9 +118590,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 2,
+        "num_episodes_watched": 3,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T20:32:39+00:00",
+        "updated_at": "2026-10-25T17:02:49+00:00",
         "start_date": "2026-10-13"
       }
     },
@@ -117878,12 +119187,12 @@
             "rank": 89
           },
           {
-            "name": "Dystopian",
+            "name": "Denpa",
             "rank": 89
           },
           {
-            "name": "Denpa",
-            "rank": 88
+            "name": "Dystopian",
+            "rank": 89
           },
           {
             "name": "Meta",
@@ -117898,11 +119207,11 @@
             "rank": 82
           },
           {
-            "name": "Body Horror",
-            "rank": 80
+            "name": "Psychosexual",
+            "rank": 81
           },
           {
-            "name": "Psychosexual",
+            "name": "Body Horror",
             "rank": 80
           },
           {
@@ -118105,7 +119414,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 68,
+        "averageScore": 69,
         "genres": [
           "Comedy",
           "Romance"
@@ -118113,7 +119422,7 @@
         "tags": [
           {
             "name": "Heterosexual",
-            "rank": 95
+            "rank": 96
           },
           {
             "name": "Photography",
@@ -118193,10 +119502,10 @@
       },
       "list_status": {
         "status": "watching",
-        "score": 8,
-        "num_episodes_watched": 2,
+        "score": 9,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-13T15:37:10+00:00",
+        "updated_at": "2026-10-28T08:28:50+00:00",
         "start_date": "2026-10-06"
       }
     },
@@ -118856,16 +120165,16 @@
             "rank": 96
           },
           {
-            "name": "Orphan",
-            "rank": 95
-          },
-          {
             "name": "Philosophy",
             "rank": 94
           },
           {
             "name": "Psychosexual",
             "rank": 94
+          },
+          {
+            "name": "Orphan",
+            "rank": 92
           },
           {
             "name": "Fairy Tale",
@@ -118880,19 +120189,19 @@
             "rank": 88
           },
           {
+            "name": "Yuri",
+            "rank": 86
+          },
+          {
             "name": "Ensemble Cast",
             "rank": 86
           },
           {
-            "name": "Yuri",
+            "name": "Primarily Teen Cast",
             "rank": 85
           },
           {
             "name": "Swordplay",
-            "rank": 84
-          },
-          {
-            "name": "Primarily Teen Cast",
             "rank": 84
           },
           {
@@ -121552,6 +122861,45 @@
       }
     },
     {
+      "id": 64482,
+      "title": "Snowball Earth 2nd Season",
+      "anilist": {
+        "romaji": "Snowball Earth 2nd Season",
+        "english": null,
+        "native": "スノウボールアース 第2期",
+        "description": "The second season of <i>Snowball Earth</i>. <br><br>",
+        "format": "TV",
+        "episodes": null,
+        "seasonYear": null,
+        "averageScore": null,
+        "genres": [
+          "Action",
+          "Mecha",
+          "Sci-Fi"
+        ],
+        "tags": [],
+        "studios": [],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx213579-oFSlp20lxqIV.png",
+        "characters": [
+          {
+            "name": "Tetsuo Yabusame",
+            "role": "MAIN"
+          },
+          {
+            "name": "Yukio",
+            "role": "MAIN"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-06-26T18:15:55+00:00"
+      }
+    },
+    {
       "id": 6802,
       "title": "So Ra No Wo To",
       "anilist": {
@@ -121696,7 +123044,7 @@
         "format": "OVA",
         "episodes": 2,
         "seasonYear": 2010,
-        "averageScore": 73,
+        "averageScore": 74,
         "genres": [
           "Music",
           "Sci-Fi",
@@ -122589,7 +123937,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2022,
-        "averageScore": 69,
+        "averageScore": 68,
         "genres": [
           "Comedy",
           "Romance",
@@ -123048,6 +124396,96 @@
         "updated_at": "2026-03-27T22:28:56+00:00",
         "start_date": "2026-01-16",
         "finish_date": "2026-03-27"
+      }
+    },
+    {
+      "id": 63816,
+      "title": "Sousou no Frieren: Ougonkyou-hen",
+      "anilist": {
+        "romaji": "Sousou no Frieren 3rd Season",
+        "english": null,
+        "native": "葬送のフリーレン 第3期",
+        "description": "The third season of <i>Sousou no Frieren</i>.",
+        "format": "TV",
+        "episodes": null,
+        "seasonYear": 2027,
+        "averageScore": null,
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ],
+        "tags": [
+          {
+            "name": "Travel",
+            "rank": 100
+          },
+          {
+            "name": "Magic",
+            "rank": 100
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 96
+          },
+          {
+            "name": "Elf",
+            "rank": 79
+          },
+          {
+            "name": "Demons",
+            "rank": 73
+          },
+          {
+            "name": "Medieval",
+            "rank": 66
+          },
+          {
+            "name": "Philosophy",
+            "rank": 60
+          },
+          {
+            "name": "Shounen",
+            "rank": 60
+          },
+          {
+            "name": "Swordplay",
+            "rank": 60
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 36
+          },
+          {
+            "name": "Time Skip",
+            "rank": 33
+          },
+          {
+            "name": "Found Family",
+            "rank": 20
+          },
+          {
+            "name": "Tragedy",
+            "rank": 20
+          }
+        ],
+        "studios": [
+          "MADHOUSE"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx209939-g2Njkml1rheG.jpg",
+        "characters": [
+          {
+            "name": "Macht",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-03-28T11:50:26+00:00"
       }
     },
     {
@@ -123545,7 +124983,7 @@
         "format": "TV",
         "episodes": 11,
         "seasonYear": 2015,
-        "averageScore": 69,
+        "averageScore": 68,
         "genres": [
           "Drama",
           "Mystery",
@@ -124673,7 +126111,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": 2025,
-        "averageScore": 63,
+        "averageScore": 65,
         "genres": [
           "Drama",
           "Romance",
@@ -125128,7 +126566,7 @@
           },
           {
             "name": "Age Gap",
-            "rank": 85
+            "rank": 86
           },
           {
             "name": "Konbini",
@@ -125140,11 +126578,11 @@
           },
           {
             "name": "Episodic",
-            "rank": 75
+            "rank": 76
           },
           {
             "name": "Male Protagonist",
-            "rank": 73
+            "rank": 74
           },
           {
             "name": "Female Protagonist",
@@ -125516,12 +126954,12 @@
             "rank": 84
           },
           {
-            "name": "Isekai",
-            "rank": 80
-          },
-          {
             "name": "Urban Fantasy",
             "rank": 79
+          },
+          {
+            "name": "Isekai",
+            "rank": 77
           },
           {
             "name": "Primarily Female Cast",
@@ -126336,7 +127774,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 71,
+        "averageScore": 72,
         "genres": [
           "Romance"
         ],
@@ -126437,7 +127875,7 @@
         "format": "TV",
         "episodes": 13,
         "seasonYear": 2003,
-        "averageScore": 68,
+        "averageScore": 69,
         "genres": [
           "Comedy",
           "Drama",
@@ -126646,7 +128084,7 @@
     },
     {
       "id": 64266,
-      "title": "Takopii no Genzai: Arigatou, Mata Ashita",
+      "title": "Takopii no Genzai Movie: Arigatou, Mata Ashita",
       "anilist": {
         "romaji": "Takopii no Genzai: Arigatou, Mata Ashita",
         "english": null,
@@ -128461,122 +129899,6 @@
       }
     },
     {
-      "id": 64340,
-      "title": "Tempal: Item no Chikara",
-      "anilist": {
-        "romaji": "Tempal: Item no Chikara",
-        "english": "Overgeared",
-        "native": "テムパル～アイテムの力～",
-        "description": "Sin Yeong-U (a.k.a. Grid), an unlucky man in life and a low-level player in the popular VR game “Satisfy,” finds a powerful item that earns him a rare legendary class title: “Pagma’s Successor.” He’s now a skilled blacksmith who can forge unique weapons and equip the game’s most powerful gear. Grid resolves to use his new abilities to achieve fame and fortune, but as his very existence begins to stir up trouble in Satisfy, he realizes that life as a legend may be more than he bargained for….<br><br>\n\n(Source: Tapas, edited)<br><br>\n\n<i>Note: Tempal: Item no Chikara is streaming a week in advance of the TV broadcast on Prime Video and Crunchyroll beginning September 27th, 2026. Regular broadcasting began on October 2nd, 2026.</i>",
-        "format": "ONA",
-        "episodes": 12,
-        "seasonYear": 2026,
-        "averageScore": 75,
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "tags": [
-          {
-            "name": "Virtual World",
-            "rank": 86
-          },
-          {
-            "name": "Male Protagonist",
-            "rank": 83
-          },
-          {
-            "name": "Video Games",
-            "rank": 80
-          },
-          {
-            "name": "Slapstick",
-            "rank": 79
-          },
-          {
-            "name": "Shounen",
-            "rank": 79
-          },
-          {
-            "name": "Marriage",
-            "rank": 79
-          },
-          {
-            "name": "E-Sports",
-            "rank": 68
-          },
-          {
-            "name": "Magic",
-            "rank": 60
-          },
-          {
-            "name": "Primarily Adult Cast",
-            "rank": 60
-          },
-          {
-            "name": "Swordplay",
-            "rank": 60
-          }
-        ],
-        "studios": [
-          "J.C.STAFF"
-        ],
-        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx212888-NhyvqPt5aIuJ.jpg",
-        "characters": [
-          {
-            "name": "Yeong-U Sin",
-            "role": "MAIN"
-          },
-          {
-            "name": "Vantner",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Regas",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Se-Hee Shin",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Toban",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Euphemina",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Jishuka",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Faker",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Yu-Ra",
-            "role": "SUPPORTING"
-          },
-          {
-            "name": "Irene",
-            "role": "SUPPORTING"
-          }
-        ]
-      },
-      "list_status": {
-        "status": "watching",
-        "score": 8,
-        "num_episodes_watched": 4,
-        "is_rewatching": false,
-        "updated_at": "2026-10-18T21:46:17+00:00",
-        "start_date": "2026-09-27"
-      }
-    },
-    {
       "id": 54275,
       "title": "Temple",
       "anilist": {
@@ -128702,6 +130024,141 @@
         "num_episodes_watched": 0,
         "is_rewatching": false,
         "updated_at": "2025-09-05T15:23:10+00:00"
+      }
+    },
+    {
+      "id": 38826,
+      "title": "Tenki no Ko",
+      "anilist": {
+        "romaji": "Tenki no Ko",
+        "english": "Weathering With You",
+        "native": "天気の子",
+        "description": "High school student Hodaka leaves his home on an isolated island and moves to Tokyo, but he immediately becomes broke. He lives his days in isolation, but finally finds a job as a writer for a shady occult magazine. After he starts his job, the weather has been rainy day after day. In a corner of the crowded and busy city, Hodaka meets a young woman named Hina. Due to certain circumstances, Hina and her younger brother live together, but have a cheerful and sturdy life. Hina also has a certain power: the power to stop the rain and clear the sky.\n<br><br>\n(Source: Anime News Network)",
+        "format": "MOVIE",
+        "episodes": 1,
+        "seasonYear": 2019,
+        "averageScore": 81,
+        "genres": [
+          "Drama",
+          "Romance",
+          "Slice of Life",
+          "Supernatural"
+        ],
+        "tags": [
+          {
+            "name": "Urban Fantasy",
+            "rank": 94
+          },
+          {
+            "name": "Urban",
+            "rank": 90
+          },
+          {
+            "name": "Environmental",
+            "rank": 88
+          },
+          {
+            "name": "Orphan",
+            "rank": 88
+          },
+          {
+            "name": "Female Protagonist",
+            "rank": 84
+          },
+          {
+            "name": "Male Protagonist",
+            "rank": 83
+          },
+          {
+            "name": "Fugitive",
+            "rank": 80
+          },
+          {
+            "name": "Found Family",
+            "rank": 80
+          },
+          {
+            "name": "Coming of Age",
+            "rank": 79
+          },
+          {
+            "name": "Prophecy",
+            "rank": 79
+          },
+          {
+            "name": "Family Life",
+            "rank": 78
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 75
+          },
+          {
+            "name": "Magic",
+            "rank": 73
+          },
+          {
+            "name": "Work",
+            "rank": 66
+          },
+          {
+            "name": "Super Power",
+            "rank": 66
+          }
+        ],
+        "studios": [
+          "CoMix Wave"
+        ],
+        "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106286-5COcpd0J9VbL.png",
+        "characters": [
+          {
+            "name": "Hodaka Morishima",
+            "role": "MAIN"
+          },
+          {
+            "name": "Hina Amano",
+            "role": "MAIN"
+          },
+          {
+            "name": "Nagi Amano",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Fumi Tachibana",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Natsumi Suga",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Takai",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Keisuke Suga",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Detective Yasui",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Kana Sakura",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Uranai Obaba",
+            "role": "SUPPORTING"
+          }
+        ]
+      },
+      "list_status": {
+        "status": "plan_to_watch",
+        "score": 0,
+        "num_episodes_watched": 0,
+        "is_rewatching": false,
+        "updated_at": "2026-10-31T08:36:29+00:00"
       }
     },
     {
@@ -129088,7 +130545,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 66,
+        "averageScore": 67,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -129212,7 +130669,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2026,
-        "averageScore": 69,
+        "averageScore": 70,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -129311,7 +130768,7 @@
         "format": "ONA",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 66,
+        "averageScore": 65,
         "genres": [
           "Action",
           "Adventure",
@@ -129330,6 +130787,10 @@
             "rank": 79
           },
           {
+            "name": "Female Harem",
+            "rank": 79
+          },
+          {
             "name": "Isekai",
             "rank": 60
           },
@@ -129339,6 +130800,10 @@
           },
           {
             "name": "Seinen",
+            "rank": 20
+          },
+          {
+            "name": "Nudity",
             "rank": 20
           }
         ],
@@ -129392,9 +130857,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 3,
+        "num_episodes_watched": 5,
         "is_rewatching": false,
-        "updated_at": "2026-10-12T16:52:22+00:00",
+        "updated_at": "2026-10-28T08:33:40+00:00",
         "start_date": "2026-10-05"
       }
     },
@@ -129928,7 +131393,7 @@
         "format": "TV",
         "episodes": null,
         "seasonYear": 2026,
-        "averageScore": 70,
+        "averageScore": 69,
         "genres": [
           "Adventure",
           "Fantasy"
@@ -129936,7 +131401,7 @@
         "tags": [
           {
             "name": "Kingdom Management",
-            "rank": 73
+            "rank": 79
           },
           {
             "name": "Isekai",
@@ -129997,11 +131462,15 @@
             "role": "SUPPORTING"
           },
           {
-            "name": "Zaht Brozudo",
+            "name": "Kreitz Louvent",
             "role": "SUPPORTING"
           },
           {
-            "name": "Musia Trick",
+            "name": "Ren Louvent",
+            "role": "SUPPORTING"
+          },
+          {
+            "name": "Zaht Brozudo",
             "role": "SUPPORTING"
           }
         ]
@@ -130009,9 +131478,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 4,
+        "num_episodes_watched": 5,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T20:32:11+00:00",
+        "updated_at": "2026-10-25T17:03:29+00:00",
         "start_date": "2026-09-28"
       }
     },
@@ -130059,6 +131528,10 @@
           },
           {
             "name": "CGI",
+            "rank": 20
+          },
+          {
+            "name": "Creature Taming",
             "rank": 20
           }
         ],
@@ -130112,9 +131585,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 4,
+        "num_episodes_watched": 5,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T13:20:17+00:00",
+        "updated_at": "2026-10-24T15:50:23+00:00",
         "start_date": "2026-10-03"
       }
     },
@@ -130141,19 +131614,15 @@
             "rank": 97
           },
           {
+            "name": "Reincarnation",
+            "rank": 85
+          },
+          {
             "name": "Male Protagonist",
             "rank": 85
           },
           {
-            "name": "Reincarnation",
-            "rank": 84
-          },
-          {
             "name": "Femboy",
-            "rank": 79
-          },
-          {
-            "name": "Creature Taming",
             "rank": 79
           },
           {
@@ -130163,6 +131632,10 @@
           {
             "name": "Demons",
             "rank": 76
+          },
+          {
+            "name": "Creature Taming",
+            "rank": 73
           },
           {
             "name": "Assassins",
@@ -130181,12 +131654,12 @@
             "rank": 70
           },
           {
-            "name": "Female Harem",
-            "rank": 67
-          },
-          {
             "name": "Swordplay",
             "rank": 66
+          },
+          {
+            "name": "Female Harem",
+            "rank": 65
           },
           {
             "name": "Maids",
@@ -130697,12 +132170,12 @@
             "rank": 66
           },
           {
-            "name": "Cute Girls Doing Cute Things",
-            "rank": 62
+            "name": "Gore",
+            "rank": 64
           },
           {
-            "name": "Gore",
-            "rank": 60
+            "name": "Cute Girls Doing Cute Things",
+            "rank": 62
           },
           {
             "name": "Coastal",
@@ -130747,9 +132220,9 @@
       "list_status": {
         "status": "watching",
         "score": 9,
-        "num_episodes_watched": 3,
+        "num_episodes_watched": 5,
         "is_rewatching": false,
-        "updated_at": "2026-10-15T19:26:13+00:00",
+        "updated_at": "2026-10-30T04:11:01+00:00",
         "start_date": "2026-10-01"
       }
     },
@@ -132765,7 +134238,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 58,
+        "averageScore": 60,
         "genres": [
           "Slice of Life"
         ],
@@ -132784,7 +134257,7 @@
           },
           {
             "name": "Travel",
-            "rank": 92
+            "rank": 93
           },
           {
             "name": "School Club",
@@ -132812,6 +134285,10 @@
           },
           {
             "name": "Yuri",
+            "rank": 26
+          },
+          {
+            "name": "Chibi",
             "rank": 20
           }
         ],
@@ -132894,18 +134371,18 @@
           },
           {
             "name": "Superhero",
-            "rank": 82
-          },
-          {
-            "name": "Swordplay",
-            "rank": 80
-          },
-          {
-            "name": "Shoujo",
-            "rank": 80
+            "rank": 85
           },
           {
             "name": "Henshin",
+            "rank": 84
+          },
+          {
+            "name": "Shoujo",
+            "rank": 83
+          },
+          {
+            "name": "Swordplay",
             "rank": 80
           },
           {
@@ -132918,7 +134395,7 @@
           },
           {
             "name": "Fairy Tale",
-            "rank": 75
+            "rank": 76
           },
           {
             "name": "Magic",
@@ -132937,16 +134414,16 @@
             "rank": 60
           },
           {
+            "name": "LGBTQ+ Themes",
+            "rank": 46
+          },
+          {
             "name": "Femboy",
             "rank": 45
           },
           {
             "name": "Cyborg",
             "rank": 44
-          },
-          {
-            "name": "Crossdressing",
-            "rank": 43
           }
         ],
         "studios": [
@@ -133391,7 +134868,7 @@
         "tags": [
           {
             "name": "Heterosexual",
-            "rank": 96
+            "rank": 97
           },
           {
             "name": "School",
@@ -133640,7 +135117,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 64,
+        "averageScore": 65,
         "genres": [
           "Comedy",
           "Romance",
@@ -133883,7 +135360,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2013,
-        "averageScore": 67,
+        "averageScore": 68,
         "genres": [
           "Comedy",
           "Romance",
@@ -134348,7 +135825,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2025,
-        "averageScore": 76,
+        "averageScore": 77,
         "genres": [
           "Adventure",
           "Comedy",
@@ -135999,12 +137476,12 @@
             "rank": 56
           },
           {
-            "name": "Centaur",
-            "rank": 50
+            "name": "Mixed Gender Harem",
+            "rank": 53
           },
           {
-            "name": "Female Harem",
-            "rank": 45
+            "name": "Centaur",
+            "rank": 50
           }
         ],
         "studios": [
@@ -136135,11 +137612,7 @@
         "tags": [
           {
             "name": "Surreal Comedy",
-            "rank": 92
-          },
-          {
-            "name": "Urban Fantasy",
-            "rank": 79
+            "rank": 94
           },
           {
             "name": "Found Family",
@@ -136148,6 +137621,10 @@
           {
             "name": "Slapstick",
             "rank": 73
+          },
+          {
+            "name": "Urban Fantasy",
+            "rank": 70
           },
           {
             "name": "Magic",
@@ -136160,6 +137637,10 @@
           {
             "name": "Exiled",
             "rank": 66
+          },
+          {
+            "name": "Parody",
+            "rank": 65
           },
           {
             "name": "Male Protagonist",
@@ -136187,10 +137668,6 @@
           },
           {
             "name": "Revenge",
-            "rank": 20
-          },
-          {
-            "name": "Dragons",
             "rank": 20
           }
         ],
@@ -136244,9 +137721,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 2,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-13T21:14:37+00:00",
+        "updated_at": "2026-10-28T08:32:17+00:00",
         "start_date": "2026-10-13"
       }
     },
@@ -136378,9 +137855,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 16,
+        "num_episodes_watched": 18,
         "is_rewatching": false,
-        "updated_at": "2026-10-15T19:25:13+00:00",
+        "updated_at": "2026-10-29T19:47:04+00:00",
         "start_date": "2026-07-02"
       }
     },
@@ -137651,11 +139128,12 @@
         ]
       },
       "list_status": {
-        "status": "plan_to_watch",
-        "score": 0,
-        "num_episodes_watched": 0,
+        "status": "watching",
+        "score": 8,
+        "num_episodes_watched": 1,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T10:12:37+00:00"
+        "updated_at": "2026-10-23T15:56:40+00:00",
+        "start_date": "2026-10-23"
       }
     },
     {
@@ -137977,6 +139455,14 @@
           {
             "name": "Urban",
             "rank": 20
+          },
+          {
+            "name": "Video Games",
+            "rank": 20
+          },
+          {
+            "name": "Love Triangle",
+            "rank": 20
           }
         ],
         "studios": [
@@ -138029,9 +139515,9 @@
       "list_status": {
         "status": "watching",
         "score": 9,
-        "num_episodes_watched": 15,
+        "num_episodes_watched": 17,
         "is_rewatching": false,
-        "updated_at": "2026-10-16T20:20:20+00:00",
+        "updated_at": "2026-10-30T20:31:27+00:00",
         "start_date": "2026-07-08"
       }
     },
@@ -139889,7 +141375,7 @@
         "format": "SPECIAL",
         "episodes": 4,
         "seasonYear": 2011,
-        "averageScore": 76,
+        "averageScore": 77,
         "genres": [
           "Slice of Life"
         ],
@@ -139957,7 +141443,7 @@
         "format": "TV",
         "episodes": 10,
         "seasonYear": 2025,
-        "averageScore": 63,
+        "averageScore": 64,
         "genres": [
           "Music",
           "Slice of Life"
@@ -140455,7 +141941,7 @@
         "format": "TV",
         "episodes": 40,
         "seasonYear": 1979,
-        "averageScore": 81,
+        "averageScore": 82,
         "genres": [
           "Adventure",
           "Drama",
@@ -142068,7 +143554,7 @@
         "format": "SPECIAL",
         "episodes": 3,
         "seasonYear": 2026,
-        "averageScore": null,
+        "averageScore": 76,
         "genres": [
           "Drama",
           "Romance",
@@ -142077,7 +143563,7 @@
         "tags": [
           {
             "name": "Heterosexual",
-            "rank": 79
+            "rank": 100
           },
           {
             "name": "Shoujo",
@@ -142102,6 +143588,10 @@
           {
             "name": "Urban Fantasy",
             "rank": 60
+          },
+          {
+            "name": "Curses",
+            "rank": 20
           }
         ],
         "studios": [
@@ -142152,11 +143642,13 @@
         ]
       },
       "list_status": {
-        "status": "plan_to_watch",
-        "score": 0,
-        "num_episodes_watched": 0,
+        "status": "completed",
+        "score": 9,
+        "num_episodes_watched": 3,
         "is_rewatching": false,
-        "updated_at": "2026-09-08T13:37:46+00:00"
+        "updated_at": "2026-10-25T21:29:21+00:00",
+        "start_date": "2026-10-25",
+        "finish_date": "2026-10-25"
       }
     },
     {
@@ -142306,16 +143798,16 @@
             "rank": 96
           },
           {
+            "name": "Yuri",
+            "rank": 94
+          },
+          {
             "name": "Female Protagonist",
             "rank": 94
           },
           {
             "name": "Primarily Female Cast",
             "rank": 94
-          },
-          {
-            "name": "Yuri",
-            "rank": 93
           },
           {
             "name": "Acting",
@@ -142634,7 +144126,7 @@
           },
           {
             "name": "Kuudere",
-            "rank": 66
+            "rank": 65
           },
           {
             "name": "Seinen",
@@ -142754,10 +144246,6 @@
             "rank": 95
           },
           {
-            "name": "Heterosexual",
-            "rank": 87
-          },
-          {
             "name": "Episodic",
             "rank": 87
           },
@@ -142776,6 +144264,10 @@
           {
             "name": "Primarily Teen Cast",
             "rank": 84
+          },
+          {
+            "name": "Heterosexual",
+            "rank": 83
           },
           {
             "name": "Parody",
@@ -143254,7 +144746,7 @@
         "format": "SPECIAL",
         "episodes": 1,
         "seasonYear": 2015,
-        "averageScore": 79,
+        "averageScore": 80,
         "genres": [
           "Comedy",
           "Romance",
@@ -143748,7 +145240,7 @@
         "format": "ONA",
         "episodes": 15,
         "seasonYear": null,
-        "averageScore": 62,
+        "averageScore": 63,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -143992,7 +145484,7 @@
         "format": "TV",
         "episodes": 24,
         "seasonYear": 2006,
-        "averageScore": 76,
+        "averageScore": 77,
         "genres": [
           "Comedy",
           "Drama",
@@ -144129,7 +145621,7 @@
         "format": "TV_SHORT",
         "episodes": 170,
         "seasonYear": 1992,
-        "averageScore": 65,
+        "averageScore": 66,
         "genres": [
           "Adventure",
           "Comedy",
@@ -144868,6 +146360,10 @@
             "rank": 70
           },
           {
+            "name": "Crafts",
+            "rank": 60
+          },
+          {
             "name": "Family Life",
             "rank": 56
           },
@@ -144981,6 +146477,10 @@
           {
             "name": "Educational",
             "rank": 43
+          },
+          {
+            "name": "Crafts",
+            "rank": 20
           },
           {
             "name": "Primarily Child Cast",
@@ -145737,7 +147237,7 @@
         "format": "OVA",
         "episodes": 1,
         "seasonYear": 2017,
-        "averageScore": 73,
+        "averageScore": 74,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -146739,9 +148239,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 4,
+        "num_episodes_watched": 5,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T20:36:27+00:00",
+        "updated_at": "2026-10-24T17:37:05+00:00",
         "start_date": "2026-09-27"
       }
     },
@@ -146756,7 +148256,7 @@
         "format": "MOVIE",
         "episodes": 1,
         "seasonYear": null,
-        "averageScore": 75,
+        "averageScore": 76,
         "genres": [
           "Adventure",
           "Drama",
@@ -147197,7 +148697,7 @@
         "format": "ONA",
         "episodes": 22,
         "seasonYear": 2022,
-        "averageScore": 61,
+        "averageScore": 62,
         "genres": [
           "Comedy"
         ],
@@ -147787,7 +149287,7 @@
         "format": "ONA",
         "episodes": 10,
         "seasonYear": null,
-        "averageScore": 62,
+        "averageScore": 64,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -147895,7 +149395,7 @@
         "format": "TV_SHORT",
         "episodes": 30,
         "seasonYear": 2022,
-        "averageScore": 70,
+        "averageScore": 71,
         "genres": [
           "Comedy",
           "Slice of Life"
@@ -148480,7 +149980,7 @@
         "format": "TV",
         "episodes": 12,
         "seasonYear": 2026,
-        "averageScore": 66,
+        "averageScore": 67,
         "genres": [
           "Comedy",
           "Fantasy",
@@ -148509,6 +150009,14 @@
           },
           {
             "name": "Shoujo",
+            "rank": 60
+          },
+          {
+            "name": "Arranged Marriage",
+            "rank": 60
+          },
+          {
+            "name": "Royal Affairs",
             "rank": 60
           }
         ],
@@ -148554,9 +150062,9 @@
       "list_status": {
         "status": "watching",
         "score": 8,
-        "num_episodes_watched": 3,
+        "num_episodes_watched": 4,
         "is_rewatching": false,
-        "updated_at": "2026-10-18T20:32:52+00:00",
+        "updated_at": "2026-10-28T08:36:01+00:00",
         "start_date": "2026-10-04"
       }
     },
@@ -150864,11 +152372,11 @@
           },
           {
             "name": "Magic",
-            "rank": 77
+            "rank": 78
           },
           {
             "name": "Dungeon",
-            "rank": 72
+            "rank": 75
           },
           {
             "name": "CGI",
@@ -150895,7 +152403,7 @@
             "rank": 40
           },
           {
-            "name": "Love Triangle",
+            "name": "Exiled",
             "rank": 40
           },
           {
@@ -150903,11 +152411,11 @@
             "rank": 33
           },
           {
-            "name": "Female Protagonist",
-            "rank": 20
+            "name": "Love Triangle",
+            "rank": 30
           },
           {
-            "name": "Exiled",
+            "name": "Female Protagonist",
             "rank": 20
           }
         ],
@@ -152445,11 +153953,11 @@
             "rank": 81
           },
           {
-            "name": "Demons",
+            "name": "Vampire",
             "rank": 73
           },
           {
-            "name": "Vampire",
+            "name": "Demons",
             "rank": 73
           },
           {
@@ -152473,11 +153981,11 @@
             "rank": 63
           },
           {
-            "name": "Shapeshifting",
+            "name": "Ghost",
             "rank": 60
           },
           {
-            "name": "Ghost",
+            "name": "Shapeshifting",
             "rank": 60
           },
           {
@@ -152790,11 +154298,11 @@
             "rank": 89
           },
           {
-            "name": "Twins",
+            "name": "Male Protagonist",
             "rank": 83
           },
           {
-            "name": "Male Protagonist",
+            "name": "Twins",
             "rank": 83
           },
           {
@@ -152818,11 +154326,11 @@
             "rank": 76
           },
           {
-            "name": "Coming of Age",
+            "name": "Anti-Hero",
             "rank": 73
           },
           {
-            "name": "Anti-Hero",
+            "name": "Coming of Age",
             "rank": 73
           },
           {
@@ -152830,7 +154338,7 @@
             "rank": 72
           },
           {
-            "name": "Time Skip",
+            "name": "Pregnancy",
             "rank": 70
           }
         ],
