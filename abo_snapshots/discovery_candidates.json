@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-28T11:41:55.647319+00:00",
+ "generated_at": "2026-11-02T13:31:03.056263+00:00",
  "note": "Vorfilter fuer Abo-Discovery-Check (20./Monat). Fund != Empfehlung: Kandidaten vom Agenten verifizieren (Doppelkauf-Check-Sequenz + MAL-Lesestand nach Format-Lesarten). already_tracked nicht als Neufund melden (Status-Drift pruefen). mp_noise ignorieren.",
  "counts": {
-  "candidates": 114,
-  "already_tracked": 31,
-  "mp_noise": 10
+  "candidates": 109,
+  "already_tracked": 36,
+  "mp_noise": 7
  },
  "candidates": {
   "mangaup": [
@@ -292,9 +292,9 @@
     "mal_score": null
    },
    {
-    "title": "A WILLFUL MARRIAGE",
-    "title_id": "0303003563",
-    "title_url": "https://mangaplaza.com/title/0303003563/",
+    "title": "A HUSBAND OF CONVENIENCE",
+    "title_id": "0303001335",
+    "title_url": "https://mangaplaza.com/title/0303001335/",
     "platform": "mangaplaza",
     "patterns": [
      "Ehe-Praemisse"
@@ -340,18 +340,6 @@
     "mal_score": null
    },
    {
-    "title": "Flora's Defiance",
-    "title_id": "0303006390",
-    "title_url": "https://mangaplaza.com/title/0303006390/",
-    "platform": "mangaplaza",
-    "patterns": [
-     "Ehe-Praemisse"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
     "title": "Getting Married To a Good-For-Nothing ~Would This Marriage Work?~",
     "title_id": "0303004886",
     "title_url": "https://mangaplaza.com/title/0303004886/",
@@ -382,18 +370,6 @@
     "platform": "mangaplaza",
     "patterns": [
      "Food/Slow-Life"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "KISS THE BRIDESMAID",
-    "title_id": "0303000583",
-    "title_url": "https://mangaplaza.com/title/0303000583/",
-    "platform": "mangaplaza",
-    "patterns": [
-     "Ehe-Praemisse"
     ],
     "mal_id": null,
     "mal_status": null,
@@ -436,9 +412,21 @@
     "mal_score": null
    },
    {
-    "title": "SURRENDER TO HER SPANISH HUSBAND",
-    "title_id": "0303002397",
-    "title_url": "https://mangaplaza.com/title/0303002397/",
+    "title": "SHE'S HAVING THE BOSS'S BABY",
+    "title_id": "0303003701",
+    "title_url": "https://mangaplaza.com/title/0303003701/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Office/Workplace"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "SHOTGUN WEDDING",
+    "title_id": "0303001204",
+    "title_url": "https://mangaplaza.com/title/0303001204/",
     "platform": "mangaplaza",
     "patterns": [
      "Ehe-Praemisse"
@@ -448,9 +436,9 @@
     "mal_score": null
    },
    {
-    "title": "THE BONNY BRIDE",
-    "title_id": "0303001030",
-    "title_url": "https://mangaplaza.com/title/0303001030/",
+    "title": "THE MEDITERRANEAN'S WIFE BY CONTRACT",
+    "title_id": "0303000571",
+    "title_url": "https://mangaplaza.com/title/0303000571/",
     "platform": "mangaplaza",
     "patterns": [
      "Ehe-Praemisse"
@@ -460,21 +448,9 @@
     "mal_score": null
    },
    {
-    "title": "THE MARRIAGE PROPOSITION",
-    "title_id": "0303004028",
-    "title_url": "https://mangaplaza.com/title/0303004028/",
-    "platform": "mangaplaza",
-    "patterns": [
-     "Ehe-Praemisse"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "THE TROUBLEMAKER BRIDE",
-    "title_id": "0303003553",
-    "title_url": "https://mangaplaza.com/title/0303003553/",
+    "title": "THE SALVATORE MARRIAGE DEAL",
+    "title_id": "0303000497",
+    "title_url": "https://mangaplaza.com/title/0303000497/",
     "platform": "mangaplaza",
     "patterns": [
      "Ehe-Praemisse"
@@ -490,6 +466,30 @@
     "platform": "mangaplaza",
     "patterns": [
      "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Husband Project",
+    "title_id": "0303005881",
+    "title_url": "https://mangaplaza.com/title/0303005881/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "The Prince's Secret Bride",
+    "title_id": "0303006057",
+    "title_url": "https://mangaplaza.com/title/0303006057/",
+    "platform": "mangaplaza",
+    "patterns": [
+     "Ehe-Praemisse"
     ],
     "mal_id": null,
     "mal_status": null,
@@ -791,42 +791,6 @@
     "platform": "jnc",
     "patterns": [
      "Office/Workplace"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill",
-    "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill",
-    "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill",
-    "platform": "jnc",
-    "patterns": [
-     "Food/Slow-Life"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill (Manga)",
-    "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill-manga",
-    "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill-manga",
-    "platform": "jnc",
-    "patterns": [
-     "Food/Slow-Life"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill: Sui’s Great Adventure",
-    "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
-    "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
-    "platform": "jnc",
-    "patterns": [
-     "Food/Slow-Life"
     ],
     "mal_id": null,
     "mal_status": null,
@@ -1205,30 +1169,6 @@
     "mal_score": null
    },
    {
-    "title": "[jnc] The Banished Former Hero Lives as He Pleases",
-    "title_id": "the-banished-former-hero-lives-as-he-pleases",
-    "title_url": "https://j-novel.club/series/the-banished-former-hero-lives-as-he-pleases",
-    "platform": "jnc",
-    "patterns": [
-     "Food/Slow-Life"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "[jnc] The Banished Former Hero Lives as He Pleases (Manga)",
-    "title_id": "the-banished-former-hero-lives-as-he-pleases-manga",
-    "title_url": "https://j-novel.club/series/the-banished-former-hero-lives-as-he-pleases-manga",
-    "platform": "jnc",
-    "patterns": [
-     "Food/Slow-Life"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
     "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride",
     "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
     "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
@@ -1560,6 +1500,42 @@
    "mal_score": 8
   },
   {
+   "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill",
+   "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill",
+   "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 105747,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill (Manga)",
+   "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill-manga",
+   "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 105747,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] Campfire Cooking in Another World with My Absurd Skill: Sui’s Great Adventure",
+   "title_id": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
+   "title_url": "https://j-novel.club/series/campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 105747,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
    "title": "[jnc] Fluffy-Eared Realm Restoration: Taking It Slow with My Cool Big Brother",
    "title_id": "fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother",
    "title_url": "https://j-novel.club/series/fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother",
@@ -1682,6 +1658,30 @@
    "mal_score": 0
   },
   {
+   "title": "[jnc] The Banished Former Hero Lives as He Pleases",
+   "title_id": "the-banished-former-hero-lives-as-he-pleases",
+   "title_url": "https://j-novel.club/series/the-banished-former-hero-lives-as-he-pleases",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 159818,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Banished Former Hero Lives as He Pleases (Manga)",
+   "title_id": "the-banished-former-hero-lives-as-he-pleases-manga",
+   "title_url": "https://j-novel.club/series/the-banished-former-hero-lives-as-he-pleases-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 159818,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
    "title": "[jnc] The Diary of a Middle-Aged Sage's Carefree Life in Another World",
    "title_id": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world",
    "title_url": "https://j-novel.club/series/the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world",
@@ -1795,33 +1795,9 @@
  ],
  "mp_noise": [
   {
-   "title": "A WEDDING AT THE ITALIAN'S DEMAND",
-   "title_id": "0303004661",
-   "title_url": "https://mangaplaza.com/title/0303004661/",
-   "platform": "mangaplaza",
-   "patterns": [
-    "Ehe-Praemisse"
-   ],
-   "mal_id": null,
-   "mal_status": null,
-   "mal_score": null
-  },
-  {
-   "title": "SECRET SON, CONVENIENT WIFE",
-   "title_id": "0303003427",
-   "title_url": "https://mangaplaza.com/title/0303003427/",
-   "platform": "mangaplaza",
-   "patterns": [
-    "Ehe-Praemisse"
-   ],
-   "mal_id": null,
-   "mal_status": null,
-   "mal_score": null
-  },
-  {
-   "title": "Self-Love and Lingerie How to Love Your Coworker",
-   "title_id": "0303005534",
-   "title_url": "https://mangaplaza.com/title/0303005534/",
+   "title": "KEPT BY HER GREEK BOSS",
+   "title_id": "0303003523",
+   "title_url": "https://mangaplaza.com/title/0303003523/",
    "platform": "mangaplaza",
    "patterns": [
     "Office/Workplace"
@@ -1831,9 +1807,9 @@
    "mal_score": null
   },
   {
-   "title": "THE BILLIONAIRE CLAIMS HIS WIFE",
-   "title_id": "0303004238",
-   "title_url": "https://mangaplaza.com/title/0303004238/",
+   "title": "Reluctant Mistress, Blackmailed Wife",
+   "title_id": "0303005406",
+   "title_url": "https://mangaplaza.com/title/0303005406/",
    "platform": "mangaplaza",
    "patterns": [
     "Ehe-Praemisse"
@@ -1843,24 +1819,12 @@
    "mal_score": null
   },
   {
-   "title": "THE BOSS'S SECRET MISTRESS",
-   "title_id": "0303000694",
-   "title_url": "https://mangaplaza.com/title/0303000694/",
+   "title": "THE GREEK PRINCE'S CHOSEN WIFE",
+   "title_id": "0303000488",
+   "title_url": "https://mangaplaza.com/title/0303000488/",
    "platform": "mangaplaza",
    "patterns": [
-    "Office/Workplace"
-   ],
-   "mal_id": null,
-   "mal_status": null,
-   "mal_score": null
-  },
-  {
-   "title": "THE MILLIONAIRE BOSS'S BABY",
-   "title_id": "0303003439",
-   "title_url": "https://mangaplaza.com/title/0303003439/",
-   "platform": "mangaplaza",
-   "patterns": [
-    "Office/Workplace"
+    "Ehe-Praemisse"
    ],
    "mal_id": null,
    "mal_status": null,
@@ -1879,9 +1843,9 @@
    "mal_score": null
   },
   {
-   "title": "The Italian Billionaire's Bride",
-   "title_id": "0303005614",
-   "title_url": "https://mangaplaza.com/title/0303005614/",
+   "title": "THE SPANISH DOCTOR'S CONVENIENT BRIDE",
+   "title_id": "0303001108",
+   "title_url": "https://mangaplaza.com/title/0303001108/",
    "platform": "mangaplaza",
    "patterns": [
     "Ehe-Praemisse"
@@ -1891,9 +1855,9 @@
    "mal_score": null
   },
   {
-   "title": "The Sheikh's Ransomed Bride",
-   "title_id": "0303005343",
-   "title_url": "https://mangaplaza.com/title/0303005343/",
+   "title": "The Spaniard's Marriage Bargain",
+   "title_id": "0303006280",
+   "title_url": "https://mangaplaza.com/title/0303006280/",
    "platform": "mangaplaza",
    "patterns": [
     "Ehe-Praemisse"
