@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T13:00:46.477Z",
+ "generated_at": "2026-11-02T19:24:52.710Z",
  "source": "graphql.anilist.co (v2), Matching über idMal",
  "anime": [
   {
@@ -3432,7 +3432,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1794123000,
-    "timeUntilAiring": 498989
+    "timeUntilAiring": 475982
    },
    "relations": [
     {
@@ -3528,7 +3528,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1793967960,
-    "timeUntilAiring": 343949
+    "timeUntilAiring": 320942
    },
    "relations": []
   },
@@ -4678,7 +4678,7 @@
     "Comedy",
     "Sports"
    ],
-   "averageScore": 70,
+   "averageScore": 71,
    "title": {
     "romaji": "Bamboo Blade",
     "english": null,
@@ -8209,7 +8209,7 @@
     "Romance",
     "Slice of Life"
    ],
-   "averageScore": 76,
+   "averageScore": 75,
    "title": {
     "romaji": "Chuunibyou demo Koi ga Shitai!",
     "english": "Love, Chunibyo & Other Delusions",
@@ -8669,7 +8669,7 @@
    "nextAiringEpisode": {
     "episode": 4,
     "airingAt": 1793714400,
-    "timeUntilAiring": 90376
+    "timeUntilAiring": 67370
    },
    "relations": [
     {
@@ -11246,7 +11246,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794227400,
-    "timeUntilAiring": 603371
+    "timeUntilAiring": 580364
    },
    "relations": [
     {
@@ -13353,7 +13353,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795680000,
-    "timeUntilAiring": 2055967
+    "timeUntilAiring": 2032960
    },
    "relations": [
     {
@@ -13887,7 +13887,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1793881800,
-    "timeUntilAiring": 257765
+    "timeUntilAiring": 234759
    },
    "relations": [
     {
@@ -20378,7 +20378,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1793975400,
-    "timeUntilAiring": 351332
+    "timeUntilAiring": 328324
    },
    "relations": [
     {
@@ -21004,7 +21004,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1793896080,
-    "timeUntilAiring": 272011
+    "timeUntilAiring": 249003
    },
    "relations": [
     {
@@ -23528,7 +23528,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1799335560,
-    "timeUntilAiring": 5711485
+    "timeUntilAiring": 5688478
    },
    "relations": [
     {
@@ -25198,7 +25198,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794150000,
-    "timeUntilAiring": 525921
+    "timeUntilAiring": 502913
    },
    "relations": [
     {
@@ -26490,7 +26490,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794069000,
-    "timeUntilAiring": 444918
+    "timeUntilAiring": 421911
    },
    "relations": [
     {
@@ -26832,7 +26832,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1793807100,
-    "timeUntilAiring": 183017
+    "timeUntilAiring": 160009
    },
    "relations": [
     {
@@ -28169,7 +28169,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1799416800,
-    "timeUntilAiring": 5792714
+    "timeUntilAiring": 5769706
    },
    "relations": [
     {
@@ -28768,7 +28768,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1793890800,
-    "timeUntilAiring": 266713
+    "timeUntilAiring": 243705
    },
    "relations": [
     {
@@ -30562,7 +30562,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1793890560,
-    "timeUntilAiring": 266468
+    "timeUntilAiring": 243461
    },
    "relations": [
     {
@@ -31644,7 +31644,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1793973600,
-    "timeUntilAiring": 349506
+    "timeUntilAiring": 326438
    },
    "relations": [
     {
@@ -31793,7 +31793,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1796914800,
-    "timeUntilAiring": 3290706
+    "timeUntilAiring": 3267638
    },
    "relations": []
   },
@@ -33988,6 +33988,75 @@
    ]
   },
   {
+   "id": 107693,
+   "idMal": 39196,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Fantasy"
+   ],
+   "averageScore": 77,
+   "title": {
+    "romaji": "Mairimashita! Iruma-kun",
+    "english": "Welcome to Demon School! Iruma-kun",
+    "native": "魔入りました！入間くん"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://www6.nhk.or.jp/anime/program/detail.html?i=iruma",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/nep_irumakun/",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/81194192",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/iruma_kun",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1Sf_lALh99YZAJTp5IaRft",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://youtube.com/@animeofficial5506",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Hulu",
+     "url": "https://www.hulu.com/series/bc9d04d6-0575-4341-82ca-8c6f5b697651",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 104241,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Welcome to Demon School! Iruma-kun"
+    }
+   ]
+  },
+  {
    "id": 112609,
    "idMal": 40571,
    "format": "TV",
@@ -34155,7 +34224,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795100400,
-    "timeUntilAiring": 1476300
+    "timeUntilAiring": 1453233
    },
    "relations": [
     {
@@ -34268,52 +34337,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Wandering Witch: The Journey of Elaina"
-    }
-   ]
-  },
-  {
-   "id": 213796,
-   "idMal": 64528,
-   "format": "TV",
-   "isAdult": false,
-   "status": "NOT_YET_RELEASED",
-   "genres": [
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Majo to Ryouken",
-    "english": null,
-    "native": "魔女と猟犬"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/wah_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://witch-and-hound-anime.com/",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 139271,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Majo to Ryouken"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 159161,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Witch and Hound"
     }
    ]
   },
@@ -34525,63 +34548,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "The Witch and the Beast"
-    }
-   ]
-  },
-  {
-   "id": 156023,
-   "idMal": 53434,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 73,
-   "title": {
-    "romaji": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
-    "english": "An Archdemon's Dilemma: How to Love Your Elf Bride",
-    "native": "魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/madome_PR",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://madome-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2106176",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 103707,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 113169,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride"
     }
    ]
   },
@@ -34953,6 +34919,52 @@
    ]
   },
   {
+   "id": 213796,
+   "idMal": 64528,
+   "format": "TV",
+   "isAdult": false,
+   "status": "NOT_YET_RELEASED",
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Majo to Ryouken",
+    "english": null,
+    "native": "魔女と猟犬"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/wah_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://witch-and-hound-anime.com/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 139271,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Majo to Ryouken"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 159161,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Witch and Hound"
+    }
+   ]
+  },
+  {
    "id": 158,
    "idMal": 158,
    "format": "TV",
@@ -35272,6 +35284,63 @@
    ]
   },
   {
+   "id": 156023,
+   "idMal": 53434,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+    "english": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+    "native": "魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/madome_PR",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://madome-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2106176",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 103707,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 113169,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride"
+    }
+   ]
+  },
+  {
    "id": 199547,
    "idMal": 62601,
    "format": "TV",
@@ -35339,58 +35408,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Marriage Toxin"
-    }
-   ]
-  },
-  {
-   "id": 202381,
-   "idMal": 62964,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Mystery",
-    "Psychological",
-    "Supernatural"
-   ],
-   "averageScore": 60,
-   "title": {
-    "romaji": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
-    "english": "Killed again, Mr. Detective.",
-    "native": "また殺されてしまったのですね、探偵様"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/matakoro_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.tbs.co.jp/anime/matakoro",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00371787/killed-again-mr-detective",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 139706,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 157157,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Killed Again, Mr. Detective?"
     }
    ]
   },
@@ -35517,7 +35534,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794043500,
-    "timeUntilAiring": 419397
+    "timeUntilAiring": 396330
    },
    "relations": [
     {
@@ -35835,65 +35852,6 @@
    ]
   },
   {
-   "id": 186541,
-   "idMal": 60948,
-   "format": "TV",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Comedy",
-    "Drama",
-    "Mecha",
-    "Romance",
-    "Sci-Fi"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Mezametara Saikyou Soubi to Uchuusen-mochi datta node, Ikkodate Mezashite Youhei to shite Jiyuu ni Ikitai",
-    "english": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
-    "native": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/saikyosoubi",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://saikyosoubi.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00384006/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": {
-    "episode": 6,
-    "airingAt": 1794141000,
-    "timeUntilAiring": 516896
-   },
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 131650,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 125498,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!"
-    }
-   ]
-  },
-  {
    "id": 187942,
    "idMal": 61211,
    "format": "TV",
@@ -35993,6 +35951,58 @@
    ]
   },
   {
+   "id": 202381,
+   "idMal": 62964,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Mystery",
+    "Psychological",
+    "Supernatural"
+   ],
+   "averageScore": 60,
+   "title": {
+    "romaji": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
+    "english": "Killed again, Mr. Detective.",
+    "native": "また殺されてしまったのですね、探偵様"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/matakoro_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.tbs.co.jp/anime/matakoro",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00371787/killed-again-mr-detective",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 139706,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 157157,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Killed Again, Mr. Detective?"
+    }
+   ]
+  },
+  {
    "id": 206298,
    "idMal": 63326,
    "format": "MOVIE",
@@ -36024,7 +36034,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1802962800,
-    "timeUntilAiring": 9338696
+    "timeUntilAiring": 9315629
    },
    "relations": [
     {
@@ -36275,45 +36285,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Minami Kamakura Koukou Joshi Jitensha-bu"
-    }
-   ]
-  },
-  {
-   "id": 98439,
-   "idMal": 35078,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 72,
-   "title": {
-    "romaji": "Mitsuboshi Colors",
-    "english": "Mitsuboshi Colors",
-    "native": "三ツ星カラーズ"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://mitsuboshi-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/3boshi_anime",
-     "type": "SOCIAL"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 81467,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Mitsuboshi Colors"
     }
    ]
   },
@@ -36621,6 +36592,65 @@
    ]
   },
   {
+   "id": 186541,
+   "idMal": 60948,
+   "format": "TV",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Mezametara Saikyou Soubi to Uchuusen-mochi datta node, Ikkodate Mezashite Youhei to shite Jiyuu ni Ikitai",
+    "english": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+    "native": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/saikyosoubi",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://saikyosoubi.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00384006/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": {
+    "episode": 6,
+    "airingAt": 1794141000,
+    "timeUntilAiring": 493827
+   },
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 131650,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 125498,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!"
+    }
+   ]
+  },
+  {
    "id": 188487,
    "idMal": 61276,
    "format": "TV",
@@ -36904,56 +36934,41 @@
    ]
   },
   {
-   "id": 136435,
-   "idMal": 49376,
+   "id": 98439,
+   "idMal": 35078,
    "format": "TV",
    "isAdult": false,
    "status": "FINISHED",
    "genres": [
-    "Slice of Life",
-    "Sports"
+    "Comedy",
+    "Slice of Life"
    ],
-   "averageScore": 68,
+   "averageScore": 72,
    "title": {
-    "romaji": "Mou Ippon!",
-    "english": "Ippon! again",
-    "native": "もういっぽん！"
+    "romaji": "Mitsuboshi Colors",
+    "english": "Mitsuboshi Colors",
+    "native": "三ツ星カラーズ"
    },
    "externalLinks": [
     {
      "site": "Official Site",
-     "url": "https://ipponagain.com/",
+     "url": "http://mitsuboshi-anime.com/",
      "type": "INFO"
     },
     {
      "site": "Twitter",
-     "url": "https://twitter.com/ipponagain_pr",
+     "url": "https://twitter.com/3boshi_anime",
      "type": "SOCIAL"
-    },
-    {
-     "site": "HIDIVE",
-     "url": "https://www.hidive.com/tv/ippon-again",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2GTD5eb1FOEFT-OPoVhIjJ",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Hoopla",
-     "url": "https://www.hoopladigital.com/television/ippon-again-season-1-ayasa-ito/16309485",
-     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null,
    "relations": [
     {
      "relationType": "ADAPTATION",
-     "mal_id": 129451,
+     "mal_id": 81467,
      "type": "MANGA",
      "format": "MANGA",
-     "title": "Mou Ippon!"
+     "title": "Mitsuboshi Colors"
     }
    ]
   },
@@ -37476,51 +37491,6 @@
    ]
   },
   {
-   "id": 114963,
-   "idMal": 41168,
-   "format": "MOVIE",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 73,
-   "title": {
-    "romaji": "Nakitai Watashi wa Neko wo Kaburu",
-    "english": "A Whisker Away",
-    "native": "泣きたい私は猫をかぶる"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://nakineko-movie.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/nakineko_movie",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/81281872",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 134765,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Nakitai Watashi wa Neko wo Kaburu"
-    }
-   ]
-  },
-  {
    "id": 127720,
    "idMal": 45576,
    "format": "TV",
@@ -37595,6 +37565,60 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Mushoku Tensei: Jobless Reincarnation"
+    }
+   ]
+  },
+  {
+   "id": 136435,
+   "idMal": 49376,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Slice of Life",
+    "Sports"
+   ],
+   "averageScore": 68,
+   "title": {
+    "romaji": "Mou Ippon!",
+    "english": "Ippon! again",
+    "native": "もういっぽん！"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://ipponagain.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/ipponagain_pr",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "HIDIVE",
+     "url": "https://www.hidive.com/tv/ippon-again",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2GTD5eb1FOEFT-OPoVhIjJ",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Hoopla",
+     "url": "https://www.hoopladigital.com/television/ippon-again-season-1-ayasa-ito/16309485",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 129451,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Mou Ippon!"
     }
    ]
   },
@@ -38229,51 +38253,6 @@
    "relations": []
   },
   {
-   "id": 99939,
-   "idMal": 34658,
-   "format": "OVA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 65,
-   "title": {
-    "romaji": "Nekopara OVA",
-    "english": null,
-    "native": "ネコぱらOVA"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://nekoparaova.com/index.html",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/nekopara_pr",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/channel/UCo1SoPp0YuMnXEEe9txiwLw",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 67721,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Nekopara"
-    }
-   ]
-  },
-  {
    "id": 106863,
    "idMal": 38924,
    "format": "TV",
@@ -38309,6 +38288,51 @@
    ],
    "nextAiringEpisode": null,
    "relations": []
+  },
+  {
+   "id": 114963,
+   "idMal": 41168,
+   "format": "MOVIE",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "Nakitai Watashi wa Neko wo Kaburu",
+    "english": "A Whisker Away",
+    "native": "泣きたい私は猫をかぶる"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://nakineko-movie.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/nakineko_movie",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/81281872",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 134765,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Nakitai Watashi wa Neko wo Kaburu"
+    }
+   ]
   },
   {
    "id": 124132,
@@ -38765,6 +38789,51 @@
    ]
   },
   {
+   "id": 99939,
+   "idMal": 34658,
+   "format": "OVA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 65,
+   "title": {
+    "romaji": "Nekopara OVA",
+    "english": null,
+    "native": "ネコぱらOVA"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://nekoparaova.com/index.html",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/nekopara_pr",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/channel/UCo1SoPp0YuMnXEEe9txiwLw",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 67721,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Nekopara"
+    }
+   ]
+  },
+  {
    "id": 103303,
    "idMal": 62856,
    "format": "TV",
@@ -38929,73 +38998,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Sacrificial Princess and the King of Beasts"
-    }
-   ]
-  },
-  {
-   "id": 137909,
-   "idMal": 49612,
-   "format": "ONA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 62,
-   "title": {
-    "romaji": "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
-    "english": "Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World",
-    "native": "人間不信の冒険者たちが世界を救うようです"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://www.ningenfushin-anime.jp/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/ningenfushinPR",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/G24H1N8ZN/ningen-fushin-adventurers-who-dont-believe-in-humanity-will-save-the-world",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0X9kRSmdiB5L2FfA_eTyMZ",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/media/2073490/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/2bwfzdba54p",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 125530,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Apparently, Disillusioned Adventurers Will Save the World"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 139551,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Apparently, Disillusioned Adventurers Will Save the World"
     }
    ]
   },
@@ -39567,6 +39569,73 @@
    ]
   },
   {
+   "id": 137909,
+   "idMal": 49612,
+   "format": "ONA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 62,
+   "title": {
+    "romaji": "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
+    "english": "Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World",
+    "native": "人間不信の冒険者たちが世界を救うようです"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://www.ningenfushin-anime.jp/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/ningenfushinPR",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/G24H1N8ZN/ningen-fushin-adventurers-who-dont-believe-in-humanity-will-save-the-world",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0X9kRSmdiB5L2FfA_eTyMZ",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/media/2073490/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/2bwfzdba54p",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 125530,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Apparently, Disillusioned Adventurers Will Save the World"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 139551,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Apparently, Disillusioned Adventurers Will Save the World"
+    }
+   ]
+  },
+  {
    "id": 177120,
    "idMal": 58725,
    "format": "TV",
@@ -39717,55 +39786,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Rooster Fighter"
-    }
-   ]
-  },
-  {
-   "id": 187860,
-   "idMal": 61184,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 64,
-   "title": {
-    "romaji": "Nohara Hiroshi: Hiru Meshi no Ryuugi",
-    "english": "Style of Hiroshi Nohara's Lunch",
-    "native": "野原ひろし 昼メシの流儀"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/Hiroshi_LunchTV",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/y3vh1mljd1",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Prime Video",
-     "url": "https://www.primevideo.com/detail/0TCBMWD27E6X7V06T3RBSONUWW",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 118192,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Nohara Hiroshi Hiru Meshi no Ryuugi"
     }
    ]
   },
@@ -40160,50 +40180,6 @@
    ]
   },
   {
-   "id": 97673,
-   "idMal": 34148,
-   "format": "TV_SHORT",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 63,
-   "title": {
-    "romaji": "Nyanko Days",
-    "english": "Nyanko Days",
-    "native": "にゃんこデイズ"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/nyanko_days",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "http://nyanko-days.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "http://www.crunchyroll.com/nyanko-days",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 101613,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Nyanko Days"
-    }
-   ]
-  },
-  {
    "id": 98779,
    "idMal": 36990,
    "format": "MOVIE",
@@ -40410,6 +40386,55 @@
    ]
   },
   {
+   "id": 187860,
+   "idMal": 61184,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life"
+   ],
+   "averageScore": 64,
+   "title": {
+    "romaji": "Nohara Hiroshi: Hiru Meshi no Ryuugi",
+    "english": "Style of Hiroshi Nohara's Lunch",
+    "native": "野原ひろし 昼メシの流儀"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/Hiroshi_LunchTV",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/y3vh1mljd1",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Prime Video",
+     "url": "https://www.primevideo.com/detail/0TCBMWD27E6X7V06T3RBSONUWW",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 118192,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Nohara Hiroshi Hiru Meshi no Ryuugi"
+    }
+   ]
+  },
+  {
    "id": 218530,
    "idMal": 65214,
    "format": "TV",
@@ -40554,6 +40579,50 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Okusama ga Seito Kaichou!"
+    }
+   ]
+  },
+  {
+   "id": 97673,
+   "idMal": 34148,
+   "format": "TV_SHORT",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life"
+   ],
+   "averageScore": 63,
+   "title": {
+    "romaji": "Nyanko Days",
+    "english": "Nyanko Days",
+    "native": "にゃんこデイズ"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/nyanko_days",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "http://nyanko-days.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "http://www.crunchyroll.com/nyanko-days",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 101613,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Nyanko Days"
     }
    ]
   },
@@ -40927,7 +40996,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794142800,
-    "timeUntilAiring": 518666
+    "timeUntilAiring": 495618
    },
    "relations": [
     {
@@ -40938,40 +41007,6 @@
      "title": "Oji-san wa Kawaii Mono ga Osuki."
     }
    ]
-  },
-  {
-   "id": 206523,
-   "idMal": 63352,
-   "format": "TV",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Music"
-   ],
-   "averageScore": 58,
-   "title": {
-    "romaji": "Onegai AiPri",
-    "english": null,
-    "native": "おねがいアイプリ"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/aipri_animepr",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://aipri.jp/anime/special/onegai/",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": {
-    "episode": 32,
-    "airingAt": 1794097800,
-    "timeUntilAiring": 473666
-   },
-   "relations": []
   },
   {
    "id": 208685,
@@ -41068,72 +41103,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Spice & Wolf"
-    }
-   ]
-  },
-  {
-   "id": 8769,
-   "idMal": 8769,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 65,
-   "title": {
-    "romaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
-    "english": "Oreimo",
-    "native": "俺の妹がこんなに可愛いわけがない"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://www.oreimo-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "http://www.crunchyroll.com/oreimo",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/oreimo_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/80193248",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/37930",
-     "type": "STREAMING"
-    },
-    {
-     "site": "OceanVeil",
-     "url": "https://oceanveil.net/anime_titles/432",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 13667,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 15317,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Oreimo"
     }
    ]
   },
@@ -41659,6 +41628,106 @@
    ]
   },
   {
+   "id": 206523,
+   "idMal": 63352,
+   "format": "TV",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Music"
+   ],
+   "averageScore": 58,
+   "title": {
+    "romaji": "Onegai AiPri",
+    "english": null,
+    "native": "おねがいアイプリ"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/aipri_animepr",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://aipri.jp/anime/special/onegai/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": {
+    "episode": 32,
+    "airingAt": 1794097800,
+    "timeUntilAiring": 450616
+   },
+   "relations": []
+  },
+  {
+   "id": 8769,
+   "idMal": 8769,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life"
+   ],
+   "averageScore": 65,
+   "title": {
+    "romaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
+    "english": "Oreimo",
+    "native": "俺の妹がこんなに可愛いわけがない"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://www.oreimo-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "http://www.crunchyroll.com/oreimo",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/oreimo_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/80193248",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/37930",
+     "type": "STREAMING"
+    },
+    {
+     "site": "OceanVeil",
+     "url": "https://oceanveil.net/anime_titles/432",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 13667,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 15317,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Oreimo"
+    }
+   ]
+  },
+  {
    "id": 98657,
    "idMal": 35484,
    "format": "TV_SHORT",
@@ -41867,60 +41936,6 @@
      "type": "MANGA",
      "format": "NOVEL",
      "title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs"
-    }
-   ]
-  },
-  {
-   "id": 148098,
-   "idMal": 51705,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance"
-   ],
-   "averageScore": 70,
-   "title": {
-    "romaji": "Otonari ni Ginga",
-    "english": "A Galaxy Next Door",
-    "native": "おとなりに銀河"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://otonari-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/otonariniginga",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GXJHM3PZW/a-galaxy-next-door",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3i4JfyhDkbbCApEL8MMif",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2079737",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 130641,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "A Galaxy Next Door"
     }
    ]
   },
@@ -42787,6 +42802,60 @@
    ]
   },
   {
+   "id": 148098,
+   "idMal": 51705,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "averageScore": 70,
+   "title": {
+    "romaji": "Otonari ni Ginga",
+    "english": "A Galaxy Next Door",
+    "native": "おとなりに銀河"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://otonari-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/otonariniginga",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GXJHM3PZW/a-galaxy-next-door",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3i4JfyhDkbbCApEL8MMif",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2079737",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 130641,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "A Galaxy Next Door"
+    }
+   ]
+  },
+  {
    "id": 170019,
    "idMal": 56876,
    "format": "TV",
@@ -42849,61 +42918,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "The Angel Next Door Spoils Me Rotten"
-    }
-   ]
-  },
-  {
-   "id": 174043,
-   "idMal": 57944,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 57,
-   "title": {
-    "romaji": "Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki",
-    "english": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest",
-    "native": "パーティーから追放されたその治癒師、実は最強につき"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://sonochiyushi.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/sonochiyushi",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/G4PH0WJZN/the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2118206",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhjvN8nBbvOSLr8SKkzwmkm",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 131780,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest"
     }
    ]
   },
@@ -43428,6 +43442,61 @@
    ]
   },
   {
+   "id": 174043,
+   "idMal": 57944,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 57,
+   "title": {
+    "romaji": "Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki",
+    "english": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest",
+    "native": "パーティーから追放されたその治癒師、実は最強につき"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://sonochiyushi.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/sonochiyushi",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/G4PH0WJZN/the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2118206",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7JhjvN8nBbvOSLr8SKkzwmkm",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 131780,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest"
+    }
+   ]
+  },
+  {
    "id": 189987,
    "idMal": 61425,
    "format": "TV",
@@ -43512,40 +43581,6 @@
      "type": "MANGA",
      "format": "NOVEL",
      "title": "I Saved Myself with a Potion!: Life in Another World"
-    }
-   ]
-  },
-  {
-   "id": 202955,
-   "idMal": 63019,
-   "format": "ONA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "averageScore": 84,
-   "title": {
-    "romaji": "Prism Rondo",
-    "english": "Love Through A Prism",
-    "native": "プリズム輪舞曲"
-   },
-   "externalLinks": [
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/81498882",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 190128,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Love Through a Prism"
     }
    ]
   },
@@ -44045,42 +44080,36 @@
    ]
   },
   {
-   "id": 185699,
-   "idMal": 60555,
-   "format": "TV",
+   "id": 202955,
+   "idMal": 63019,
+   "format": "ONA",
    "isAdult": false,
-   "status": "NOT_YET_RELEASED",
+   "status": "FINISHED",
    "genres": [
-    "Comedy",
-    "Fantasy",
-    "Slice of Life"
+    "Drama",
+    "Romance"
    ],
-   "averageScore": null,
+   "averageScore": 84,
    "title": {
-    "romaji": "Ramen Aka Neko: Sono ni",
-    "english": null,
-    "native": "ラーメン赤猫 其の二"
+    "romaji": "Prism Rondo",
+    "english": "Love Through A Prism",
+    "native": "プリズム輪舞曲"
    },
    "externalLinks": [
     {
-     "site": "Twitter",
-     "url": "https://x.com/ramenakaneko/",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://ramenakaneko.com/",
-     "type": "INFO"
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/81498882",
+     "type": "STREAMING"
     }
    ],
    "nextAiringEpisode": null,
    "relations": [
     {
      "relationType": "ADAPTATION",
-     "mal_id": 154933,
+     "mal_id": 190128,
      "type": "MANGA",
      "format": "MANGA",
-     "title": "Red Cat Ramen"
+     "title": "Love Through a Prism"
     }
    ]
   },
@@ -44687,6 +44716,46 @@
    ]
   },
   {
+   "id": 185699,
+   "idMal": 60555,
+   "format": "TV",
+   "isAdult": false,
+   "status": "NOT_YET_RELEASED",
+   "genres": [
+    "Comedy",
+    "Fantasy",
+    "Slice of Life"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Ramen Aka Neko: Sono ni",
+    "english": null,
+    "native": "ラーメン赤猫 其の二"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/ramenakaneko/",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://ramenakaneko.com/",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 154933,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Red Cat Ramen"
+    }
+   ]
+  },
+  {
    "id": 185731,
    "idMal": 60564,
    "format": "TV",
@@ -44737,100 +44806,6 @@
    ]
   },
   {
-   "id": 189046,
-   "idMal": 61316,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Drama",
-    "Fantasy",
-    "Psychological",
-    "Romance",
-    "Thriller"
-   ],
-   "averageScore": 90,
-   "title": {
-    "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
-    "english": "Re:ZERO -Starting Life in Another World- Season 4",
-    "native": "Re:ゼロから始める異世界生活 4th season"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/Rezero_official",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Instagram",
-     "url": "https://www.instagram.com/re.zero.fans/",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "http://re-zero-anime.jp/tv/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://www.twitter.com/ReZero_En",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GRGG9798R",
-     "type": "STREAMING"
-    },
-    {
-     "site": "TikTok",
-     "url": "https://www.tiktok.com/@rezero_anime_official",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/re-zero-starting-life-in-another-world-season-4-2026-201wmt3pwgh",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Facebook",
-     "url": "https://www.facebook.com/ReZero.fans",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2342439",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/ReZEROFR",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/@Rezero_official",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 74697,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Re:ZERO -Starting Life in Another World-"
-    }
-   ]
-  },
-  {
    "id": 209872,
    "idMal": 63801,
    "format": "TV",
@@ -44872,7 +44847,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794066960,
-    "timeUntilAiring": 442818
+    "timeUntilAiring": 419770
    },
    "relations": [
     {
@@ -45102,50 +45077,6 @@
    ]
   },
   {
-   "id": 107067,
-   "idMal": 38992,
-   "format": "ONA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance"
-   ],
-   "averageScore": 71,
-   "title": {
-    "romaji": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
-    "english": "Science Fell in Love, So I Tried to Prove It",
-    "native": "理系が恋に落ちたので証明してみた。"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://rikekoi.jp/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/rikeigakoini",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/science-fell-in-love-so-i-tried-to-prove-it",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 99528,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Science Fell in Love, So I Tried to Prove It"
-    }
-   ]
-  },
-  {
    "id": 168139,
    "idMal": 56228,
    "format": "TV",
@@ -45300,6 +45231,100 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Even a Replica Can Fall in Love"
+    }
+   ]
+  },
+  {
+   "id": 189046,
+   "idMal": 61316,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Psychological",
+    "Romance",
+    "Thriller"
+   ],
+   "averageScore": 90,
+   "title": {
+    "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 4th Season",
+    "english": "Re:ZERO -Starting Life in Another World- Season 4",
+    "native": "Re:ゼロから始める異世界生活 4th season"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/Rezero_official",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Instagram",
+     "url": "https://www.instagram.com/re.zero.fans/",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "http://re-zero-anime.jp/tv/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://www.twitter.com/ReZero_En",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GRGG9798R",
+     "type": "STREAMING"
+    },
+    {
+     "site": "TikTok",
+     "url": "https://www.tiktok.com/@rezero_anime_official",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/re-zero-starting-life-in-another-world-season-4-2026-201wmt3pwgh",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Facebook",
+     "url": "https://www.facebook.com/ReZero.fans",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2342439",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/ReZEROFR",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/@Rezero_official",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 74697,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Re:ZERO -Starting Life in Another World-"
     }
    ]
   },
@@ -45519,6 +45544,50 @@
    ]
   },
   {
+   "id": 107067,
+   "idMal": 38992,
+   "format": "ONA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "averageScore": 71,
+   "title": {
+    "romaji": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
+    "english": "Science Fell in Love, So I Tried to Prove It",
+    "native": "理系が恋に落ちたので証明してみた。"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://rikekoi.jp/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/rikeigakoini",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/science-fell-in-love-so-i-tried-to-prove-it",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 99528,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Science Fell in Love, So I Tried to Prove It"
+    }
+   ]
+  },
+  {
    "id": 125124,
    "idMal": 43470,
    "format": "TV",
@@ -45566,47 +45635,6 @@
      "title": "Science Fell in Love, So I Tried to Prove It"
     }
    ]
-  },
-  {
-   "id": 140502,
-   "idMal": 50185,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Sports"
-   ],
-   "averageScore": 72,
-   "title": {
-    "romaji": "Ryman's Club",
-    "english": "Salaryman's Club",
-    "native": "リーマンズクラブ"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/rymansclub_PR",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://rymansclub.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://crunchyroll.com/series/G9VHN9P99/salarymans-club",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgvkxyz-QVER9yvp_8KZrIP",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": []
   },
   {
    "id": 153930,
@@ -45773,7 +45801,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794052800,
-    "timeUntilAiring": 428655
+    "timeUntilAiring": 405607
    },
    "relations": [
     {
@@ -46043,6 +46071,47 @@
      "title": "How to Raise a Boring Girlfriend"
     }
    ]
+  },
+  {
+   "id": 140502,
+   "idMal": 50185,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Sports"
+   ],
+   "averageScore": 72,
+   "title": {
+    "romaji": "Ryman's Club",
+    "english": "Salaryman's Club",
+    "native": "リーマンズクラブ"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/rymansclub_PR",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://rymansclub.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://crunchyroll.com/series/G9VHN9P99/salarymans-club",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgvkxyz-QVER9yvp_8KZrIP",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": []
   },
   {
    "id": 149326,
@@ -46338,63 +46407,6 @@
    ]
   },
   {
-   "id": 183161,
-   "idMal": 60146,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 60,
-   "title": {
-    "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
-    "english": "The Beginning After the End",
-    "native": "最強の王様、二度目の人生は 何をする?"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://saikyo2dome-tbate.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/saikyo2dome",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2125013",
-     "type": "STREAMING"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/aw5chcnlgh",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/tw/title/82036784",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://ani.gamer.com.tw/animeVideo.php?sn=42890",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": []
-  },
-  {
    "id": 196218,
    "idMal": 62078,
    "format": "ONA",
@@ -46650,40 +46662,6 @@
    ]
   },
   {
-   "id": 5671,
-   "idMal": 5671,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Slice of Life",
-    "Sports"
-   ],
-   "averageScore": 72,
-   "title": {
-    "romaji": "Saki",
-    "english": "Saki",
-    "native": "咲-Saki-"
-   },
-   "externalLinks": [
-    {
-     "site": "Crunchyroll",
-     "url": "http://www.crunchyroll.com/saki",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 6310,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Saki"
-    }
-   ]
-  },
-  {
    "id": 12531,
    "idMal": 12531,
    "format": "TV",
@@ -46918,6 +46896,63 @@
      "title": "The Most Notorious \"Talker\" Runs the World's Greatest Clan"
     }
    ]
+  },
+  {
+   "id": 183161,
+   "idMal": 60146,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 60,
+   "title": {
+    "romaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
+    "english": "The Beginning After the End",
+    "native": "最強の王様、二度目の人生は 何をする?"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://saikyo2dome-tbate.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/saikyo2dome",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2125013",
+     "type": "STREAMING"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/aw5chcnlgh",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/tw/title/82036784",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://ani.gamer.com.tw/animeVideo.php?sn=42890",
+     "type": "INFO"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": []
   },
   {
    "id": 188035,
@@ -47244,6 +47279,40 @@
    "relations": []
   },
   {
+   "id": 5671,
+   "idMal": 5671,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Slice of Life",
+    "Sports"
+   ],
+   "averageScore": 72,
+   "title": {
+    "romaji": "Saki",
+    "english": "Saki",
+    "native": "咲-Saki-"
+   },
+   "externalLinks": [
+    {
+     "site": "Crunchyroll",
+     "url": "http://www.crunchyroll.com/saki",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 6310,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Saki"
+    }
+   ]
+  },
+  {
    "id": 13759,
    "idMal": 13759,
    "format": "TV",
@@ -47566,7 +47635,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1793797200,
-    "timeUntilAiring": 173051
+    "timeUntilAiring": 150003
    },
    "relations": [
     {
@@ -47584,43 +47653,6 @@
      "title": "Sasaki & Peeps"
     }
    ]
-  },
-  {
-   "id": 177637,
-   "idMal": 58878,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 76,
-   "title": {
-    "romaji": "Sayonara Lara",
-    "english": "Goodbye, Lara",
-    "native": "さよならララ"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://goodbyelara.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/Goodbye_Lara",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00378059/goodbye-lara",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": []
   },
   {
    "id": 179302,
@@ -48254,6 +48286,43 @@
    ]
   },
   {
+   "id": 177637,
+   "idMal": 58878,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 76,
+   "title": {
+    "romaji": "Sayonara Lara",
+    "english": "Goodbye, Lara",
+    "native": "さよならララ"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://goodbyelara.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/Goodbye_Lara",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00378059/goodbye-lara",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": []
+  },
+  {
    "id": 184951,
    "idMal": 60371,
    "format": "TV",
@@ -48356,54 +48425,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "You and I Are Polar Opposites"
-    }
-   ]
-  },
-  {
-   "id": 217578,
-   "idMal": 65087,
-   "format": "TV",
-   "isAdult": false,
-   "status": "NOT_YET_RELEASED",
-   "genres": [
-    "Action",
-    "Drama",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Seirei Gensouki 3",
-    "english": null,
-    "native": "精霊幻想記3"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/seireigensouki",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://seireigensouki.com/",
-     "type": "INFO"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 108306,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Seirei Gensouki: Spirit Chronicles"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 93314,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Seirei Gensouki: Spirit Chronicles"
     }
    ]
   },
@@ -49022,7 +49043,7 @@
    "nextAiringEpisode": {
     "episode": 6,
     "airingAt": 1794065400,
-    "timeUntilAiring": 441248
+    "timeUntilAiring": 418200
    },
    "relations": [
     {
@@ -49155,68 +49176,50 @@
    "relations": []
   },
   {
-   "id": 211778,
-   "idMal": 64084,
+   "id": 217578,
+   "idMal": 65087,
    "format": "TV",
    "isAdult": false,
-   "status": "RELEASING",
+   "status": "NOT_YET_RELEASED",
    "genres": [
     "Action",
-    "Comedy",
-    "Fantasy"
+    "Drama",
+    "Fantasy",
+    "Romance"
    ],
-   "averageScore": 70,
+   "averageScore": null,
    "title": {
-    "romaji": "Sekai Saikyou no Majo, Hajimemashita",
-    "english": "The World's Strongest Witch",
-    "native": "世界最強の魔女、始めました"
+    "romaji": "Seirei Gensouki 3",
+    "english": null,
+    "native": "精霊幻想記3"
    },
    "externalLinks": [
     {
-     "site": "Official Site",
-     "url": "https://sekamajo-anime.com/",
-     "type": "INFO"
-    },
-    {
      "site": "Twitter",
-     "url": "https://x.com/sekamajo_anime",
+     "url": "https://x.com/seireigensouki",
      "type": "SOCIAL"
     },
     {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00384009/the-worlds-strongest-witch",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2432827",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLLJ_VmZxSJuY",
-     "type": "STREAMING"
+     "site": "Official Site",
+     "url": "https://seireigensouki.com/",
+     "type": "INFO"
     }
    ],
-   "nextAiringEpisode": {
-    "episode": 5,
-    "airingAt": 1793797200,
-    "timeUntilAiring": 173048
-   },
+   "nextAiringEpisode": null,
    "relations": [
     {
-     "relationType": "ADAPTATION",
-     "mal_id": 180195,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "The World’s Strongest Witch"
-    },
-    {
      "relationType": "ALTERNATIVE",
-     "mal_id": 162463,
+     "mal_id": 108306,
      "type": "MANGA",
      "format": "MANGA",
-     "title": "Sekai Saikyou no Majo, Hajimemashita: Watashi dake \"Kouryaku Site\" wo Mireru Sekai de Jiyuu ni Ikimasu"
+     "title": "Seirei Gensouki: Spirit Chronicles"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 93314,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Seirei Gensouki: Spirit Chronicles"
     }
    ]
   },
@@ -49805,47 +49808,68 @@
    ]
   },
   {
-   "id": 219265,
-   "idMal": 65300,
+   "id": 211778,
+   "idMal": 64084,
    "format": "TV",
    "isAdult": false,
-   "status": "NOT_YET_RELEASED",
+   "status": "RELEASING",
    "genres": [
+    "Action",
     "Comedy",
-    "Slice of Life",
-    "Supernatural"
+    "Fantasy"
    ],
-   "averageScore": null,
+   "averageScore": 70,
    "title": {
-    "romaji": "Shibatsuki Bukken",
-    "english": null,
-    "native": "シバつき物件"
+    "romaji": "Sekai Saikyou no Majo, Hajimemashita",
+    "english": "The World's Strongest Witch",
+    "native": "世界最強の魔女、始めました"
    },
    "externalLinks": [
     {
      "site": "Official Site",
-     "url": "https://shibatsukibukken.com",
+     "url": "https://sekamajo-anime.com/",
      "type": "INFO"
     },
     {
      "site": "Twitter",
-     "url": "https://x.com/shiba_inu_muu",
+     "url": "https://x.com/sekamajo_anime",
      "type": "SOCIAL"
     },
     {
-     "site": "Instagram",
-     "url": "https://www.instagram.com/muuchan_shiba_inu",
-     "type": "SOCIAL"
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00384009/the-worlds-strongest-witch",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2432827",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLLJ_VmZxSJuY",
+     "type": "STREAMING"
     }
    ],
-   "nextAiringEpisode": null,
+   "nextAiringEpisode": {
+    "episode": 5,
+    "airingAt": 1793797200,
+    "timeUntilAiring": 149980
+   },
    "relations": [
     {
      "relationType": "ADAPTATION",
-     "mal_id": 171481,
+     "mal_id": 180195,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "The World’s Strongest Witch"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 162463,
      "type": "MANGA",
      "format": "MANGA",
-     "title": "Shiba Inu Rooms"
+     "title": "Sekai Saikyou no Majo, Hajimemashita: Watashi dake \"Kouryaku Site\" wo Mireru Sekai de Jiyuu ni Ikimasu"
     }
    ]
   },
@@ -50017,79 +50041,6 @@
    "externalLinks": [],
    "nextAiringEpisode": null,
    "relations": []
-  },
-  {
-   "id": 105156,
-   "idMal": 38659,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Comedy",
-    "Fantasy"
-   ],
-   "averageScore": 73,
-   "title": {
-    "romaji": "Shinchou Yuusha: Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru",
-    "english": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
-    "native": "慎重勇者～この勇者が俺ＴＵＥＥＥくせに慎重すぎる～"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://shincho-yusha.jp/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/shincho_yusha",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Hulu",
-     "url": "https://www.hulu.com/cautious-hero-the-hero-is-overpowered-but-overly-cautious",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0hI_XedalMVIvHcVLOouiv",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/81196818",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/cautious-hero-the-hero-is-overpowered-but-overly-cautious",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/34773",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 103761,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "The Hero Is Overpowered but Overly Cautious"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 116772,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Hero is Overpowered but Overly Cautious"
-    }
-   ]
   },
   {
    "id": 126213,
@@ -50545,6 +50496,51 @@
    ]
   },
   {
+   "id": 219265,
+   "idMal": 65300,
+   "format": "TV",
+   "isAdult": false,
+   "status": "NOT_YET_RELEASED",
+   "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Shibatsuki Bukken",
+    "english": null,
+    "native": "シバつき物件"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://shibatsukibukken.com",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/shiba_inu_muu",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Instagram",
+     "url": "https://www.instagram.com/muuchan_shiba_inu",
+     "type": "SOCIAL"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 171481,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Shiba Inu Rooms"
+    }
+   ]
+  },
+  {
    "id": 30,
    "idMal": 30,
    "format": "TV",
@@ -50710,6 +50706,79 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Shinryaku! Ika Musume"
+    }
+   ]
+  },
+  {
+   "id": 105156,
+   "idMal": 38659,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "Shinchou Yuusha: Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru",
+    "english": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+    "native": "慎重勇者～この勇者が俺ＴＵＥＥＥくせに慎重すぎる～"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://shincho-yusha.jp/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/shincho_yusha",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Hulu",
+     "url": "https://www.hulu.com/cautious-hero-the-hero-is-overpowered-but-overly-cautious",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0hI_XedalMVIvHcVLOouiv",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/81196818",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/cautious-hero-the-hero-is-overpowered-but-overly-cautious",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/34773",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 103761,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "The Hero Is Overpowered but Overly Cautious"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 116772,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Hero is Overpowered but Overly Cautious"
     }
    ]
   },
@@ -51030,7 +51099,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1794148200,
-    "timeUntilAiring": 524044
+    "timeUntilAiring": 500977
    },
    "relations": [
     {
@@ -51079,76 +51148,6 @@
    ],
    "nextAiringEpisode": null,
    "relations": []
-  },
-  {
-   "id": 209502,
-   "idMal": 63754,
-   "format": "TV",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Comedy",
-    "Romance"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Shiotaiou no Satou-san ga Ore ni dake Amai",
-    "english": "The Cold Sato-san is Only Sweet to Me",
-    "native": "塩対応の佐藤さんが俺にだけ甘い"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/shioamaofficial",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "TikTok",
-     "url": "https://www.tiktok.com/@shioama_official",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Instagram",
-     "url": "https://www.instagram.com/shioama_official",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://shioama-anime.com",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00384014/the-cold-sato-san-is-only-sweet-to-me",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2433556",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": {
-    "episode": 5,
-    "airingAt": 1793710800,
-    "timeUntilAiring": 86644
-   },
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 135563,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "The Salty Koharu Has a Soft Spot for Me"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 129562,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Salty Koharu Has a Soft Spot for Me"
-    }
-   ]
   },
   {
    "id": 440,
@@ -51378,76 +51377,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Descending Stories: Showa Genroku Rakugo Shinju"
-    }
-   ]
-  },
-  {
-   "id": 21860,
-   "idMal": 33502,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Fantasy",
-    "Mystery",
-    "Romance",
-    "Slice of Life",
-    "Supernatural"
-   ],
-   "averageScore": 75,
-   "title": {
-    "romaji": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
-    "english": "WorldEnd: What are you doing at the end of the world? Are you busy? Will you save us?",
-    "native": "終末なにしてますか? 忙しいですか? 救ってもらっていいですか?"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/sukasuka_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "http://sukasuka-anime.com",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "http://www.crunchyroll.com/worldend-what-do-you-do-at-the-end-of-the-world-are-you-busy-will-you-save-us",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/80193136",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0SxShip9NhNFbZoIv8f4UZ",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/36386",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 81211,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "WorldEnd: What Do You Do at the End of the World? Are You Busy? Will You Save Us?"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 98964,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?"
     }
    ]
   },
@@ -51797,6 +51726,76 @@
    ]
   },
   {
+   "id": 209502,
+   "idMal": 63754,
+   "format": "TV",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Shiotaiou no Satou-san ga Ore ni dake Amai",
+    "english": "The Cold Sato-san is Only Sweet to Me",
+    "native": "塩対応の佐藤さんが俺にだけ甘い"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/shioamaofficial",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "TikTok",
+     "url": "https://www.tiktok.com/@shioama_official",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Instagram",
+     "url": "https://www.instagram.com/shioama_official",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://shioama-anime.com",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00384014/the-cold-sato-san-is-only-sweet-to-me",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2433556",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": {
+    "episode": 5,
+    "airingAt": 1793710800,
+    "timeUntilAiring": 63575
+   },
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 135563,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "The Salty Koharu Has a Soft Spot for Me"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 129562,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Salty Koharu Has a Soft Spot for Me"
+    }
+   ]
+  },
+  {
    "id": 2942,
    "idMal": 2942,
    "format": "TV",
@@ -51919,6 +51918,76 @@
    "relations": []
   },
   {
+   "id": 21860,
+   "idMal": 33502,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Mystery",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "averageScore": 75,
+   "title": {
+    "romaji": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+    "english": "WorldEnd: What are you doing at the end of the world? Are you busy? Will you save us?",
+    "native": "終末なにしてますか? 忙しいですか? 救ってもらっていいですか?"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/sukasuka_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "http://sukasuka-anime.com",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "http://www.crunchyroll.com/worldend-what-do-you-do-at-the-end-of-the-world-are-you-busy-will-you-save-us",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/80193136",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0SxShip9NhNFbZoIv8f4UZ",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/36386",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 81211,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "WorldEnd: What Do You Do at the End of the World? Are You Busy? Will You Save Us?"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 98964,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?"
+    }
+   ]
+  },
+  {
    "id": 112608,
    "idMal": 40586,
    "format": "TV",
@@ -51978,55 +52047,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "I’ve Been Killing Slimes for 300 Years and Maxed Out My Level"
-    }
-   ]
-  },
-  {
-   "id": 127549,
-   "idMal": 45425,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Slice of Life",
-    "Sports"
-   ],
-   "averageScore": 71,
-   "title": {
-    "romaji": "Slow Loop",
-    "english": "Slow Loop",
-    "native": "スローループ"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/slowloop_tv",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://slowlooptv.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/media/1035933/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/slow-loop",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 118269,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Slow Loop"
     }
    ]
   },
@@ -52414,46 +52434,6 @@
    "relations": []
   },
   {
-   "id": 21009,
-   "idMal": 29163,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Drama",
-    "Slice of Life"
-   ],
-   "averageScore": 68,
-   "title": {
-    "romaji": "Sore ga Seiyuu!",
-    "english": "Seiyu's Life!",
-    "native": "それが声優！"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://soregaseiyu.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Hulu",
-     "url": "http://www.hulu.com/seiyus-life",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 33143,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Sore ga Seiyuu!"
-    }
-   ]
-  },
-  {
    "id": 98693,
    "idMal": 35540,
    "format": "TV",
@@ -52605,6 +52585,55 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Somali and the Forest Spirit"
+    }
+   ]
+  },
+  {
+   "id": 127549,
+   "idMal": 45425,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Slice of Life",
+    "Sports"
+   ],
+   "averageScore": 71,
+   "title": {
+    "romaji": "Slow Loop",
+    "english": "Slow Loop",
+    "native": "スローループ"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/slowloop_tv",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://slowlooptv.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/media/1035933/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/slow-loop",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 118269,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Slow Loop"
     }
    ]
   },
@@ -53123,6 +53152,46 @@
    ]
   },
   {
+   "id": 21009,
+   "idMal": 29163,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Slice of Life"
+   ],
+   "averageScore": 68,
+   "title": {
+    "romaji": "Sore ga Seiyuu!",
+    "english": "Seiyu's Life!",
+    "native": "それが声優！"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://soregaseiyu.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Hulu",
+     "url": "http://www.hulu.com/seiyus-life",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 33143,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Sore ga Seiyuu!"
+    }
+   ]
+  },
+  {
    "id": 21190,
    "idMal": 28621,
    "format": "TV",
@@ -53233,75 +53302,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "When Will Ayumu Make His Move?"
-    }
-   ]
-  },
-  {
-   "id": 139821,
-   "idMal": 49980,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Adventure",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 73,
-   "title": {
-    "romaji": "Sugar Apple Fairy Tale",
-    "english": "Sugar Apple Fairy Tale",
-    "native": "シュガーアップル・フェアリーテイル"
-   },
-   "externalLinks": [
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/G5PHNM7E2/sugar-apple-fairy-tale",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://sugarapple-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/sugarapple_pr",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jW_xDvXXJOphlaMLZxsJ-",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2074512",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 45968,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Ginzatoushi to Kuro no Yousei: Sugar Apple Fairy Tale"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 45966,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Sugar Apple Fairy Tale: The Silver Sugar Master and the Obsidian Fairy"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 141486,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Sugar Apple Fairy Tale"
     }
    ]
   },
@@ -53977,6 +53977,75 @@
    ]
   },
   {
+   "id": 139821,
+   "idMal": 49980,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Adventure",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "Sugar Apple Fairy Tale",
+    "english": "Sugar Apple Fairy Tale",
+    "native": "シュガーアップル・フェアリーテイル"
+   },
+   "externalLinks": [
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/G5PHNM7E2/sugar-apple-fairy-tale",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://sugarapple-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/sugarapple_pr",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jW_xDvXXJOphlaMLZxsJ-",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2074512",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 45968,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Ginzatoushi to Kuro no Yousei: Sugar Apple Fairy Tale"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 45966,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Sugar Apple Fairy Tale: The Silver Sugar Master and the Obsidian Fairy"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 141486,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Sugar Apple Fairy Tale"
+    }
+   ]
+  },
+  {
    "id": 143200,
    "idMal": 50694,
    "format": "TV",
@@ -54217,56 +54286,6 @@
    "relations": []
   },
   {
-   "id": 196187,
-   "idMal": 62076,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 81,
-   "title": {
-    "romaji": "Super no Ura de Yani Suu Futari",
-    "english": "Smoking Behind the Supermarket with You",
-    "native": "スーパーの裏でヤニ吸うふたり"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/yanisuu_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://yanisuu.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/82757039",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 148467,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Smoking Behind the Supermarket with You"
-    }
-   ]
-  },
-  {
    "id": 206609,
    "idMal": 61926,
    "format": "MOVIE",
@@ -54405,44 +54424,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "You’re Under Arrest!"
-    }
-   ]
-  },
-  {
-   "id": 2486,
-   "idMal": 2486,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Drama",
-    "Romance",
-    "Slice of Life",
-    "Supernatural"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Takahashi Rumiko Anthology",
-    "english": null,
-    "native": "高橋留美子劇場"
-   },
-   "externalLinks": [],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 74059,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Rumic Theater"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 5405,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Executive's Dog"
     }
    ]
   },
@@ -54853,6 +54834,56 @@
    ]
   },
   {
+   "id": 196187,
+   "idMal": 62076,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 81,
+   "title": {
+    "romaji": "Super no Ura de Yani Suu Futari",
+    "english": "Smoking Behind the Supermarket with You",
+    "native": "スーパーの裏でヤニ吸うふたり"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/yanisuu_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://yanisuu.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00378116/smoking-behind-the-supermarket-with-you",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/82757039",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 148467,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Smoking Behind the Supermarket with You"
+    }
+   ]
+  },
+  {
    "id": 202985,
    "idMal": 63014,
    "format": "TV",
@@ -54950,6 +54981,44 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Suterare Seijo no Isekai Gohantabi: Kakure Skill de Camping Car wo Shoukan Shimashita"
+    }
+   ]
+  },
+  {
+   "id": 2486,
+   "idMal": 2486,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Takahashi Rumiko Anthology",
+    "english": null,
+    "native": "高橋留美子劇場"
+   },
+   "externalLinks": [],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 74059,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Rumic Theater"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 5405,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Executive's Dog"
     }
    ]
   },
@@ -55344,88 +55413,6 @@
    ]
   },
   {
-   "id": 111321,
-   "idMal": 40356,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 65,
-   "title": {
-    "romaji": "Tate no Yuusha no Nariagari Season 2",
-    "english": "The Rising of the Shield Hero Season 2",
-    "native": "盾の勇者の成り上がり Season 2"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://shieldhero-anime.jp/2nd/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/shieldheroanime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/ShieldHeroEN",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/media/1047893/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/the-rising-of-the-shield-hero-s2-2022-1o4dpauj2ph",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Hulu",
-     "url": "https://www.hulu.com/series/97f1d394-0ac7-48c2-bb1b-7b2575848441",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Disney Plus",
-     "url": "https://www.disneyplus.com/series/the-rising-of-the-shield-hero-aka-tate-no-yuusha-no/4lgHH2jdAefe",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/81058649",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 67617,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "The Rising of the Shield Hero"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 67615,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Rising of the Shield Hero"
-    }
-   ]
-  },
-  {
    "id": 178005,
    "idMal": 59047,
    "format": "ONA",
@@ -55587,7 +55574,7 @@
    "nextAiringEpisode": {
     "episode": 1,
     "airingAt": 1795705200,
-    "timeUntilAiring": 2081016
+    "timeUntilAiring": 2057967
    },
    "relations": [
     {
@@ -55657,6 +55644,88 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Weathering With You"
+    }
+   ]
+  },
+  {
+   "id": 111321,
+   "idMal": 40356,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 65,
+   "title": {
+    "romaji": "Tate no Yuusha no Nariagari Season 2",
+    "english": "The Rising of the Shield Hero Season 2",
+    "native": "盾の勇者の成り上がり Season 2"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://shieldhero-anime.jp/2nd/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/shieldheroanime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/ShieldHeroEN",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/media/1047893/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/the-rising-of-the-shield-hero-s2-2022-1o4dpauj2ph",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Hulu",
+     "url": "https://www.hulu.com/series/97f1d394-0ac7-48c2-bb1b-7b2575848441",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Disney Plus",
+     "url": "https://www.disneyplus.com/series/the-rising-of-the-shield-hero-aka-tate-no-yuusha-no/4lgHH2jdAefe",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/81058649",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 67617,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "The Rising of the Shield Hero"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 67615,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Rising of the Shield Hero"
     }
    ]
   },
@@ -56172,51 +56241,6 @@
    ]
   },
   {
-   "id": 205054,
-   "idMal": 63266,
-   "format": "OVA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 70,
-   "title": {
-    "romaji": "Tensei Akujo no Kuro Rekishi OVA",
-    "english": "The Dark History of the Reincarnated Villainess: Yomi, Jealousy, and a Birthday / Iana and Sol's Feverish Day",
-    "native": "転生悪女の黒歴史 OVA"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://x.com/tenkuro_PR",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://tenkuro-pr.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GG5H5XQZQ/",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 125725,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Dark History of the Reincarnated Villainess"
-    }
-   ]
-  },
-  {
    "id": 212888,
    "idMal": 64340,
    "format": "ONA",
@@ -56254,7 +56278,7 @@
    "nextAiringEpisode": {
     "episode": 7,
     "airingAt": 1794148200,
-    "timeUntilAiring": 524015
+    "timeUntilAiring": 500966
    },
    "relations": [
     {
@@ -56574,82 +56598,6 @@
    ]
   },
   {
-   "id": 159042,
-   "idMal": 53913,
-   "format": "ONA",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 75,
-   "title": {
-    "romaji": "Tensei Shitara Ken Deshita 2nd Season",
-    "english": "Reincarnated as a Sword Season 2",
-    "native": "転生したら剣でした 第2期"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/tenken_official",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://tenken-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "HIDIVE",
-     "url": "https://www.hidive.com/season/39506",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Amazon Prime Video",
-     "url": "https://www.amazon.com/gp/video/detail/B0HLCHQS6T",
-     "type": "STREAMING"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/1v4ebkyoz21",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLcSpWjb7H0lk",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/2432099",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": {
-    "episode": 6,
-    "airingAt": 1793806200,
-    "timeUntilAiring": 182013
-   },
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 99891,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Reincarnated as a Sword"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 103144,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Reincarnated as a Sword"
-    }
-   ]
-  },
-  {
    "id": 164702,
    "idMal": 55265,
    "format": "TV",
@@ -56910,7 +56858,7 @@
    "nextAiringEpisode": {
     "episode": 7,
     "airingAt": 1794148200,
-    "timeUntilAiring": 524013
+    "timeUntilAiring": 500964
    },
    "relations": [
     {
@@ -56974,7 +56922,7 @@
    "nextAiringEpisode": {
     "episode": 7,
     "airingAt": 1794056400,
-    "timeUntilAiring": 432213
+    "timeUntilAiring": 409164
    },
    "relations": [
     {
@@ -57051,6 +56999,51 @@
    ]
   },
   {
+   "id": 205054,
+   "idMal": 63266,
+   "format": "OVA",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 70,
+   "title": {
+    "romaji": "Tensei Akujo no Kuro Rekishi OVA",
+    "english": "The Dark History of the Reincarnated Villainess: Yomi, Jealousy, and a Birthday / Iana and Sol's Feverish Day",
+    "native": "転生悪女の黒歴史 OVA"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://x.com/tenkuro_PR",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://tenkuro-pr.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GG5H5XQZQ/",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 125725,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Dark History of the Reincarnated Villainess"
+    }
+   ]
+  },
+  {
    "id": 209219,
    "idMal": 63712,
    "format": "ONA",
@@ -57103,9 +57096,9 @@
     }
    ],
    "nextAiringEpisode": {
-    "episode": 6,
-    "airingAt": 1793624400,
-    "timeUntilAiring": 213
+    "episode": 7,
+    "airingAt": 1794229200,
+    "timeUntilAiring": 581964
    },
    "relations": [
     {
@@ -57570,6 +57563,82 @@
    ]
   },
   {
+   "id": 159042,
+   "idMal": 53913,
+   "format": "ONA",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 75,
+   "title": {
+    "romaji": "Tensei Shitara Ken Deshita 2nd Season",
+    "english": "Reincarnated as a Sword Season 2",
+    "native": "転生したら剣でした 第2期"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/tenken_official",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://tenken-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "HIDIVE",
+     "url": "https://www.hidive.com/season/39506",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Amazon Prime Video",
+     "url": "https://www.amazon.com/gp/video/detail/B0HLCHQS6T",
+     "type": "STREAMING"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/1v4ebkyoz21",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLcSpWjb7H0lk",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/2432099",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": {
+    "episode": 6,
+    "airingAt": 1793806200,
+    "timeUntilAiring": 158963
+   },
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 99891,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Reincarnated as a Sword"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 103144,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Reincarnated as a Sword"
+    }
+   ]
+  },
+  {
    "id": 182205,
    "idMal": 59970,
    "format": "TV",
@@ -57701,57 +57770,6 @@
    ]
   },
   {
-   "id": 217330,
-   "idMal": 65070,
-   "format": "TV",
-   "isAdult": false,
-   "status": "NOT_YET_RELEASED",
-   "genres": [
-    "Action",
-    "Adventure",
-    "Comedy",
-    "Fantasy"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Tensei Shitara Slime Datta Ken: Clayman REVENGE",
-    "english": null,
-    "native": "転生したらスライムだった件 クレイマンREVENGE"
-   },
-   "externalLinks": [
-    {
-     "site": "Instagram",
-     "url": "https://www.instagram.com/tensura_official/",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://www.ten-sura.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "TikTok",
-     "url": "https://www.tiktok.com/@ten_sura_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/ten_sura_anime",
-     "type": "SOCIAL"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 146397,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "That Time I Got Reincarnated as a Slime: Clayman's Revenge"
-    }
-   ]
-  },
-  {
    "id": 217331,
    "idMal": 63129,
    "format": "TV",
@@ -57825,48 +57843,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Angel Sanctuary"
-    }
-   ]
-  },
-  {
-   "id": 2236,
-   "idMal": 2236,
-   "format": "MOVIE",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Sci-Fi"
-   ],
-   "averageScore": 78,
-   "title": {
-    "romaji": "Toki wo Kakeru Shoujo",
-    "english": "The Girl Who Leapt Through Time",
-    "native": "時をかける少女"
-   },
-   "externalLinks": [
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/the-girl-who-leapt-through-time",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 4171,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Girl Who Leapt Through Time"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 9256,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "The Girl Who Leapt Through Time"
     }
    ]
   },
@@ -58189,7 +58165,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1793890800,
-    "timeUntilAiring": 266611
+    "timeUntilAiring": 243562
    },
    "relations": [
     {
@@ -58296,6 +58272,57 @@
    ]
   },
   {
+   "id": 217330,
+   "idMal": 65070,
+   "format": "TV",
+   "isAdult": false,
+   "status": "NOT_YET_RELEASED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Tensei Shitara Slime Datta Ken: Clayman REVENGE",
+    "english": null,
+    "native": "転生したらスライムだった件 クレイマンREVENGE"
+   },
+   "externalLinks": [
+    {
+     "site": "Instagram",
+     "url": "https://www.instagram.com/tensura_official/",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://www.ten-sura.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "TikTok",
+     "url": "https://www.tiktok.com/@ten_sura_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/ten_sura_anime",
+     "type": "SOCIAL"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 146397,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "That Time I Got Reincarnated as a Slime: Clayman's Revenge"
+    }
+   ]
+  },
+  {
    "id": 523,
    "idMal": 523,
    "format": "MOVIE",
@@ -58332,6 +58359,48 @@
    ],
    "nextAiringEpisode": null,
    "relations": []
+  },
+  {
+   "id": 2236,
+   "idMal": 2236,
+   "format": "MOVIE",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Sci-Fi"
+   ],
+   "averageScore": 78,
+   "title": {
+    "romaji": "Toki wo Kakeru Shoujo",
+    "english": "The Girl Who Leapt Through Time",
+    "native": "時をかける少女"
+   },
+   "externalLinks": [
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/the-girl-who-leapt-through-time",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 4171,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Girl Who Leapt Through Time"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 9256,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "The Girl Who Leapt Through Time"
+    }
+   ]
   },
   {
    "id": 14227,
@@ -58404,7 +58473,7 @@
     "Romance",
     "Slice of Life"
    ],
-   "averageScore": 68,
+   "averageScore": 67,
    "title": {
     "romaji": "Tonari no Kaibutsu-kun: Tonari no Gokudou-kun",
     "english": null,
@@ -58882,61 +58951,6 @@
      "type": "MANGA",
      "format": "NOVEL",
      "title": "Alya Sometimes Hides Her Feelings in Russian"
-    }
-   ]
-  },
-  {
-   "id": 213702,
-   "idMal": 64516,
-   "format": "TV",
-   "isAdult": false,
-   "status": "NOT_YET_RELEASED",
-   "genres": [
-    "Action",
-    "Drama",
-    "Fantasy"
-   ],
-   "averageScore": null,
-   "title": {
-    "romaji": "Tongari Boushi no Atelier 2nd Season",
-    "english": "Witch Hat Atelier Season 2",
-    "native": "とんがり帽子のアトリエ 第2期"
-   },
-   "externalLinks": [
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00258001/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://tongari-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/tongari_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "TikTok",
-     "url": "https://www.tiktok.com/@tongari_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/@tongari_anime",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 100035,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Witch Hat Atelier"
     }
    ]
   },
@@ -59471,6 +59485,61 @@
    ]
   },
   {
+   "id": 213702,
+   "idMal": 64516,
+   "format": "TV",
+   "isAdult": false,
+   "status": "NOT_YET_RELEASED",
+   "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+   ],
+   "averageScore": null,
+   "title": {
+    "romaji": "Tongari Boushi no Atelier 2nd Season",
+    "english": "Witch Hat Atelier Season 2",
+    "native": "とんがり帽子のアトリエ 第2期"
+   },
+   "externalLinks": [
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00258001/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://tongari-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/tongari_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "TikTok",
+     "url": "https://www.tiktok.com/@tongari_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/@tongari_anime",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 100035,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Witch Hat Atelier"
+    }
+   ]
+  },
+  {
    "id": 20918,
    "idMal": 28025,
    "format": "TV",
@@ -59757,57 +59826,6 @@
    ]
   },
   {
-   "id": 155838,
-   "idMal": 53397,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Adventure",
-    "Fantasy"
-   ],
-   "averageScore": 65,
-   "title": {
-    "romaji": "Tsuyokute New Saga",
-    "english": "New Saga",
-    "native": "強くてニューサーガ"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/tsuyosaga_pr",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://tsuyosaga-pr.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GVDHX859Q/new-saga",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 74283,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "New Saga"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 74287,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Tsuyokute New Saga"
-    }
-   ]
-  },
-  {
    "id": 162785,
    "idMal": 54726,
    "format": "TV",
@@ -59914,7 +59932,7 @@
    "nextAiringEpisode": {
     "episode": 19,
     "airingAt": 1793892360,
-    "timeUntilAiring": 268166
+    "timeUntilAiring": 245118
    },
    "relations": [
     {
@@ -60138,7 +60156,7 @@
    "nextAiringEpisode": {
     "episode": 5,
     "airingAt": 1793718000,
-    "timeUntilAiring": 93806
+    "timeUntilAiring": 70758
    },
    "relations": [
     {
@@ -60581,6 +60599,57 @@
    ]
   },
   {
+   "id": 155838,
+   "idMal": 53397,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Adventure",
+    "Fantasy"
+   ],
+   "averageScore": 65,
+   "title": {
+    "romaji": "Tsuyokute New Saga",
+    "english": "New Saga",
+    "native": "強くてニューサーガ"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/tsuyosaga_pr",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://tsuyosaga-pr.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GVDHX859Q/new-saga",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 74283,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "New Saga"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 74287,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Tsuyokute New Saga"
+    }
+   ]
+  },
+  {
    "id": 156092,
    "idMal": 53447,
    "format": "ONA",
@@ -60723,60 +60792,6 @@
    ]
   },
   {
-   "id": 195240,
-   "idMal": 61930,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Sports"
-   ],
-   "averageScore": 86,
-   "title": {
-    "romaji": "Uma Musume: Cinderella Gray Part 2",
-    "english": "Umamusume: Cinderella Gray 2nd Cour",
-    "native": "ウマ娘 シンデレラグレイ 第2クール"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://anime-cinderellagray.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/umamusu_animeCG",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9aElhFk89DyndS6JDvLh7z",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/82030222",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Amazon Prime Video",
-     "url": "https://www.primevideo.com/detail/0K6S3ADL4O8MDCRV79NL5OOMVD",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 133431,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Uma Musume: Cinderella Gray"
-    }
-   ]
-  },
-  {
    "id": 203490,
    "idMal": 63061,
    "format": "TV",
@@ -60813,7 +60828,7 @@
    "nextAiringEpisode": {
     "episode": 18,
     "airingAt": 1793977200,
-    "timeUntilAiring": 353005
+    "timeUntilAiring": 329956
    },
    "relations": [
     {
@@ -61073,57 +61088,6 @@
    ]
   },
   {
-   "id": 115113,
-   "idMal": 41226,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Ecchi",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 67,
-   "title": {
-    "romaji": "Uzaki-chan wa Asobitai!",
-    "english": "Uzaki-chan Wants to Hang Out!",
-    "native": "宇崎ちゃんは遊びたい！"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://uzakichan.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/uzakichan_asobi",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/uzaki-chan-wants-to-hang-out",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/media/35473",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 114417,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Uzaki-chan Wants to Hang Out!"
-    }
-   ]
-  },
-  {
    "id": 116287,
    "idMal": 41392,
    "format": "TV",
@@ -61371,6 +61335,60 @@
    ]
   },
   {
+   "id": 195240,
+   "idMal": 61930,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Sports"
+   ],
+   "averageScore": 86,
+   "title": {
+    "romaji": "Uma Musume: Cinderella Gray Part 2",
+    "english": "Umamusume: Cinderella Gray 2nd Cour",
+    "native": "ウマ娘 シンデレラグレイ 第2クール"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://anime-cinderellagray.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/umamusu_animeCG",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9aElhFk89DyndS6JDvLh7z",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/82030222",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Amazon Prime Video",
+     "url": "https://www.primevideo.com/detail/0K6S3ADL4O8MDCRV79NL5OOMVD",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 133431,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Uma Musume: Cinderella Gray"
+    }
+   ]
+  },
+  {
    "id": 215835,
    "idMal": 64867,
    "format": "ONA",
@@ -61396,7 +61414,7 @@
    "nextAiringEpisode": {
     "episode": 7,
     "airingAt": 1794139200,
-    "timeUntilAiring": 515004
+    "timeUntilAiring": 491955
    },
    "relations": []
   },
@@ -61601,40 +61619,42 @@
    "relations": []
   },
   {
-   "id": 102680,
-   "idMal": 37993,
+   "id": 115113,
+   "idMal": 41226,
    "format": "TV",
    "isAdult": false,
    "status": "FINISHED",
    "genres": [
     "Comedy",
+    "Ecchi",
+    "Romance",
     "Slice of Life"
    ],
-   "averageScore": 69,
+   "averageScore": 67,
    "title": {
-    "romaji": "Watashi ni Tenshi ga Maiorita!",
-    "english": "WATATEN!: an Angel Flew Down to Me",
-    "native": "私に天使が舞い降りた！"
+    "romaji": "Uzaki-chan wa Asobitai!",
+    "english": "Uzaki-chan Wants to Hang Out!",
+    "native": "宇崎ちゃんは遊びたい！"
    },
    "externalLinks": [
     {
      "site": "Official Site",
-     "url": "http://watatentv.com/",
+     "url": "https://uzakichan.com/",
      "type": "INFO"
     },
     {
      "site": "Twitter",
-     "url": "https://twitter.com/watatentv",
+     "url": "https://twitter.com/uzakichan_asobi",
      "type": "SOCIAL"
     },
     {
      "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/wataten-an-angel-flew-down-to-me",
+     "url": "https://www.crunchyroll.com/uzaki-chan-wants-to-hang-out",
      "type": "STREAMING"
     },
     {
      "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/35172",
+     "url": "https://www.bilibili.tv/media/35473",
      "type": "STREAMING"
     }
    ],
@@ -61642,10 +61662,10 @@
    "relations": [
     {
      "relationType": "ADAPTATION",
-     "mal_id": 106175,
+     "mal_id": 114417,
      "type": "MANGA",
      "format": "MANGA",
-     "title": "Watashi ni Tenshi ga Maiorita!"
+     "title": "Uzaki-chan Wants to Hang Out!"
     }
    ]
   },
@@ -61960,50 +61980,6 @@
    ]
   },
   {
-   "id": 6956,
-   "idMal": 6956,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 74,
-   "title": {
-    "romaji": "WORKING!!",
-    "english": "Wagnaria!!",
-    "native": "WORKING!!"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/Wagnaria",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "http://www.wagnaria.com/1st/",
-     "type": "INFO"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/en/media/36249",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 3044,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "WORKING!!"
-    }
-   ]
-  },
-  {
    "id": 20503,
    "idMal": 21085,
    "format": "TV",
@@ -62050,6 +62026,55 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Witchcraft Works"
+    }
+   ]
+  },
+  {
+   "id": 102680,
+   "idMal": 37993,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Watashi ni Tenshi ga Maiorita!",
+    "english": "WATATEN!: an Angel Flew Down to Me",
+    "native": "私に天使が舞い降りた！"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://watatentv.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/watatentv",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/wataten-an-angel-flew-down-to-me",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/35172",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 106175,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Watashi ni Tenshi ga Maiorita!"
     }
    ]
   },
@@ -62701,6 +62726,50 @@
    "relations": []
   },
   {
+   "id": 6956,
+   "idMal": 6956,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Slice of Life"
+   ],
+   "averageScore": 74,
+   "title": {
+    "romaji": "WORKING!!",
+    "english": "Wagnaria!!",
+    "native": "WORKING!!"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/Wagnaria",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "http://www.wagnaria.com/1st/",
+     "type": "INFO"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/en/media/36249",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 3044,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "WORKING!!"
+    }
+   ]
+  },
+  {
    "id": 10521,
    "idMal": 10521,
    "format": "TV",
@@ -63073,67 +63142,6 @@
    ]
   },
   {
-   "id": 108489,
-   "idMal": 39547,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 82,
-   "title": {
-    "romaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
-    "english": "My Teen Romantic Comedy SNAFU Climax!",
-    "native": "やはり俺の青春ラブコメはまちがっている。完"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://www.tbs.co.jp/anime/oregairu/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/anime_oregairu",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "HIDIVE",
-     "url": "https://www.hidive.com/tv/my-teen-romantic-comedy-snafu-climax",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/my-teen-romantic-comedy-snafu",
-     "type": "STREAMING"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/19rrhll8z9",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/id/media/35368",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 40171,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "My Youth Romantic Comedy Is Wrong, As I Expected"
-    }
-   ]
-  },
-  {
    "id": 141914,
    "idMal": 55731,
    "format": "ONA",
@@ -63384,57 +63392,6 @@
    ]
   },
   {
-   "id": 20966,
-   "idMal": 28677,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Mystery",
-    "Romance",
-    "Supernatural"
-   ],
-   "averageScore": 73,
-   "title": {
-    "romaji": "Yamada-kun to 7-nin no Majo",
-    "english": "Yamada and the Seven Witches",
-    "native": "山田くんと7人の魔女"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://www.yamajo-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "http://www.crunchyroll.com/yamada-kun-and-the-seven-witches",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/yamajo_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://youtube.com/playlist?list=PLxSscENEp7JjskJ0TWP1V9KqH-szrYbpi",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 35003,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Yamada-kun and the Seven Witches"
-    }
-   ]
-  },
-  {
    "id": 21003,
    "idMal": 27887,
    "format": "SPECIAL",
@@ -63569,6 +63526,67 @@
    ]
   },
   {
+   "id": 108489,
+   "idMal": 39547,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 82,
+   "title": {
+    "romaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
+    "english": "My Teen Romantic Comedy SNAFU Climax!",
+    "native": "やはり俺の青春ラブコメはまちがっている。完"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://www.tbs.co.jp/anime/oregairu/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/anime_oregairu",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "HIDIVE",
+     "url": "https://www.hidive.com/tv/my-teen-romantic-comedy-snafu-climax",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/my-teen-romantic-comedy-snafu",
+     "type": "STREAMING"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/19rrhll8z9",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/id/media/35368",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 40171,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "My Youth Romantic Comedy Is Wrong, As I Expected"
+    }
+   ]
+  },
+  {
    "id": 122148,
    "idMal": 42568,
    "format": "TV_SHORT",
@@ -63699,6 +63717,57 @@
    ],
    "nextAiringEpisode": null,
    "relations": []
+  },
+  {
+   "id": 20966,
+   "idMal": 28677,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Mystery",
+    "Romance",
+    "Supernatural"
+   ],
+   "averageScore": 73,
+   "title": {
+    "romaji": "Yamada-kun to 7-nin no Majo",
+    "english": "Yamada and the Seven Witches",
+    "native": "山田くんと7人の魔女"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://www.yamajo-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "http://www.crunchyroll.com/yamada-kun-and-the-seven-witches",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/yamajo_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://youtube.com/playlist?list=PLxSscENEp7JjskJ0TWP1V9KqH-szrYbpi",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 35003,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Yamada-kun and the Seven Witches"
+    }
+   ]
   },
   {
    "id": 109020,
@@ -64053,63 +64122,6 @@
    ]
   },
   {
-   "id": 175914,
-   "idMal": 58390,
-   "format": "TV",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Psychological",
-    "Romance",
-    "Slice of Life",
-    "Supernatural"
-   ],
-   "averageScore": 84,
-   "title": {
-    "romaji": "Yofukashi no Uta Season 2",
-    "english": "Call of the Night Season 2",
-    "native": "よふかしのうた Season 2"
-   },
-   "externalLinks": [
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/yofukashi_pr",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Official Site",
-     "url": "https://yofukashi-no-uta.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Instagram",
-     "url": "https://www.instagram.com/yofukashi_pr/",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "HIDIVE",
-     "url": "https://www.hidive.com/season/31574",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Amazon Prime Video",
-     "url": "https://www.primevideo.com/detail/0R6FDBMOY7ICNHGEQNII2RA941",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 121480,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Call of the Night"
-    }
-   ]
-  },
-  {
    "id": 180523,
    "idMal": 59644,
    "format": "ONA",
@@ -64253,7 +64265,7 @@
    "nextAiringEpisode": {
     "episode": 7,
     "airingAt": 1794058200,
-    "timeUntilAiring": 433997
+    "timeUntilAiring": 410948
    },
    "relations": [
     {
@@ -64627,6 +64639,63 @@
    ]
   },
   {
+   "id": 175914,
+   "idMal": 58390,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Comedy",
+    "Psychological",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+   ],
+   "averageScore": 84,
+   "title": {
+    "romaji": "Yofukashi no Uta Season 2",
+    "english": "Call of the Night Season 2",
+    "native": "よふかしのうた Season 2"
+   },
+   "externalLinks": [
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/yofukashi_pr",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Official Site",
+     "url": "https://yofukashi-no-uta.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Instagram",
+     "url": "https://www.instagram.com/yofukashi_pr/",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "HIDIVE",
+     "url": "https://www.hidive.com/season/31574",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Amazon Prime Video",
+     "url": "https://www.primevideo.com/detail/0R6FDBMOY7ICNHGEQNII2RA941",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 121480,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Call of the Night"
+    }
+   ]
+  },
+  {
    "id": 195600,
    "idMal": 62001,
    "format": "TV",
@@ -64690,62 +64759,6 @@
      "type": "MANGA",
      "format": "MANGA",
      "title": "Daemons of the Shadow Realm"
-    }
-   ]
-  },
-  {
-   "id": 200455,
-   "idMal": 62753,
-   "format": "TV",
-   "isAdult": false,
-   "status": "RELEASING",
-   "genres": [
-    "Comedy",
-    "Fantasy",
-    "Romance"
-   ],
-   "averageScore": 67,
-   "title": {
-    "romaji": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
-    "english": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
-    "native": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://yowaki-max-anime.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://x.com/yowaki_max/",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/series/GT00365562",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": {
-    "episode": 6,
-    "airingAt": 1794148200,
-    "timeUntilAiring": 523995
-   },
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 143374,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
-    },
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 188793,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
     }
    ]
   },
@@ -65125,26 +65138,6 @@
    "relations": []
   },
   {
-   "id": 134413,
-   "idMal": 49026,
-   "format": "OVA",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Comedy",
-    "Slice of Life"
-   ],
-   "averageScore": 74,
-   "title": {
-    "romaji": "Yuru Camp△ SEASON 2 OVA",
-    "english": null,
-    "native": "ゆるキャン△ SEASON 2 OVA"
-   },
-   "externalLinks": [],
-   "nextAiringEpisode": null,
-   "relations": []
-  },
-  {
    "id": 157397,
    "idMal": 53632,
    "format": "TV",
@@ -65373,6 +65366,62 @@
    ]
   },
   {
+   "id": 200455,
+   "idMal": 62753,
+   "format": "TV",
+   "isAdult": false,
+   "status": "RELEASING",
+   "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+   ],
+   "averageScore": 67,
+   "title": {
+    "romaji": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
+    "english": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+    "native": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://yowaki-max-anime.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://x.com/yowaki_max/",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/series/GT00365562",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": {
+    "episode": 6,
+    "airingAt": 1794148200,
+    "timeUntilAiring": 500945
+   },
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 143374,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
+    },
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 188793,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta"
+    }
+   ]
+  },
+  {
    "id": 214246,
    "idMal": 64643,
    "format": "TV",
@@ -65489,82 +65538,24 @@
    ]
   },
   {
-   "id": 140457,
-   "idMal": 50175,
-   "format": "TV",
+   "id": 134413,
+   "idMal": 49026,
+   "format": "OVA",
    "isAdult": false,
    "status": "FINISHED",
    "genres": [
-    "Action",
-    "Adventure",
     "Comedy",
-    "Fantasy"
+    "Slice of Life"
    ],
-   "averageScore": 69,
+   "averageScore": 74,
    "title": {
-    "romaji": "Yuusha, Yamemasu",
-    "english": "I'm Quitting Heroing",
-    "native": "勇者、辞めます"
+    "romaji": "Yuru Camp△ SEASON 2 OVA",
+    "english": null,
+    "native": "ゆるキャン△ SEASON 2 OVA"
    },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "https://yuuyame.com/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/yuuyame_anime",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "HIDIVE",
-     "url": "https://www.hidive.com/tv/im-quitting-heroing",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Bilibili TV",
-     "url": "https://www.bilibili.tv/media/1049915/",
-     "type": "STREAMING"
-    },
-    {
-     "site": "YouTube",
-     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhzv3dEqiEWHhlXoQfWAk0w",
-     "type": "STREAMING"
-    },
-    {
-     "site": "iQ",
-     "url": "https://www.iq.com/album/d9ikew6z10",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Hulu",
-     "url": "https://www.hulu.com/series/im-quitting-heroing-1f6c723e-d3da-4389-8719-8ff22856851c",
-     "type": "STREAMING"
-    },
-    {
-     "site": "Netflix",
-     "url": "https://www.netflix.com/title/81594273",
-     "type": "STREAMING"
-    }
-   ],
+   "externalLinks": [],
    "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ADAPTATION",
-     "mal_id": 115500,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "I'm Quitting Heroing"
-    },
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 115501,
-     "type": "MANGA",
-     "format": "MANGA",
-     "title": "I'm Quitting Heroing"
-    }
-   ]
+   "relations": []
   },
   {
    "id": 148109,
@@ -66112,51 +66103,6 @@
    ]
   },
   {
-   "id": 21296,
-   "idMal": 31245,
-   "format": "MOVIE",
-   "isAdult": false,
-   "status": "FINISHED",
-   "genres": [
-    "Drama",
-    "Romance",
-    "Slice of Life"
-   ],
-   "averageScore": 69,
-   "title": {
-    "romaji": "Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai",
-    "english": "I've Always Liked You",
-    "native": "ずっと前から好きでした。～告白実行委員会～"
-   },
-   "externalLinks": [
-    {
-     "site": "Official Site",
-     "url": "http://www.honeyworks-movie.jp/",
-     "type": "INFO"
-    },
-    {
-     "site": "Twitter",
-     "url": "https://twitter.com/HoneyWorksMovie",
-     "type": "SOCIAL"
-    },
-    {
-     "site": "Crunchyroll",
-     "url": "https://www.crunchyroll.com/ive-always-liked-you",
-     "type": "STREAMING"
-    }
-   ],
-   "nextAiringEpisode": null,
-   "relations": [
-    {
-     "relationType": "ALTERNATIVE",
-     "mal_id": 86655,
-     "type": "MANGA",
-     "format": "NOVEL",
-     "title": "Kokuhaku Yokou Renshuu Series"
-    }
-   ]
-  },
-  {
    "id": 97682,
    "idMal": 34176,
    "format": "TV",
@@ -66249,6 +66195,84 @@
    ],
    "nextAiringEpisode": null,
    "relations": []
+  },
+  {
+   "id": 140457,
+   "idMal": 50175,
+   "format": "TV",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Yuusha, Yamemasu",
+    "english": "I'm Quitting Heroing",
+    "native": "勇者、辞めます"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "https://yuuyame.com/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/yuuyame_anime",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "HIDIVE",
+     "url": "https://www.hidive.com/tv/im-quitting-heroing",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Bilibili TV",
+     "url": "https://www.bilibili.tv/media/1049915/",
+     "type": "STREAMING"
+    },
+    {
+     "site": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhzv3dEqiEWHhlXoQfWAk0w",
+     "type": "STREAMING"
+    },
+    {
+     "site": "iQ",
+     "url": "https://www.iq.com/album/d9ikew6z10",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Hulu",
+     "url": "https://www.hulu.com/series/im-quitting-heroing-1f6c723e-d3da-4389-8719-8ff22856851c",
+     "type": "STREAMING"
+    },
+    {
+     "site": "Netflix",
+     "url": "https://www.netflix.com/title/81594273",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ADAPTATION",
+     "mal_id": 115500,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "I'm Quitting Heroing"
+    },
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 115501,
+     "type": "MANGA",
+     "format": "MANGA",
+     "title": "I'm Quitting Heroing"
+    }
+   ]
   },
   {
    "id": 164312,
@@ -66634,6 +66658,51 @@
    ],
    "nextAiringEpisode": null,
    "relations": []
+  },
+  {
+   "id": 21296,
+   "idMal": 31245,
+   "format": "MOVIE",
+   "isAdult": false,
+   "status": "FINISHED",
+   "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+   ],
+   "averageScore": 69,
+   "title": {
+    "romaji": "Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai",
+    "english": "I've Always Liked You",
+    "native": "ずっと前から好きでした。～告白実行委員会～"
+   },
+   "externalLinks": [
+    {
+     "site": "Official Site",
+     "url": "http://www.honeyworks-movie.jp/",
+     "type": "INFO"
+    },
+    {
+     "site": "Twitter",
+     "url": "https://twitter.com/HoneyWorksMovie",
+     "type": "SOCIAL"
+    },
+    {
+     "site": "Crunchyroll",
+     "url": "https://www.crunchyroll.com/ive-always-liked-you",
+     "type": "STREAMING"
+    }
+   ],
+   "nextAiringEpisode": null,
+   "relations": [
+    {
+     "relationType": "ALTERNATIVE",
+     "mal_id": 86655,
+     "type": "MANGA",
+     "format": "NOVEL",
+     "title": "Kokuhaku Yokou Renshuu Series"
+    }
+   ]
   },
   {
    "id": 150672,
