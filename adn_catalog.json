@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T13:47:20.458Z",
+  "updated": "2026-11-02T19:14:45.539Z",
   "source": "https://animationdigitalnetwork.com/de/video",
   "locale": "fr (Geo-Redirect vom Runner – vgl. adn_catalog_status.json)",
   "note": "FR-Gesamtkatalog (Superset). DE-Katalog siehe adn_catalog_de.json. Sprach-/Genre-Codes in FR-Sicht.",
@@ -101,9 +101,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr,de",
@@ -834,8 +834,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "fhd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr",
@@ -1077,8 +1077,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "sd",
-        "hd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -1184,9 +1184,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,pl",
@@ -1778,9 +1778,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -1916,9 +1916,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -1986,8 +1986,8 @@
       "nextVideoReleaseDate": "2026-11-05T08:00:00Z",
       "qualities": [
         "sd",
-        "fhd",
-        "hd"
+        "hd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -2317,8 +2317,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
+        "fhd",
         "hd"
       ],
       "basedOn": "Light Novel",
@@ -2558,8 +2558,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
+        "fhd",
         "hd"
       ],
       "basedOn": "Light Novel",
@@ -2695,9 +2695,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "hd",
-        "fhd",
-        "sd"
+        "fhd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -2728,8 +2728,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "fhd",
+        "hd",
         "sd"
       ],
       "basedOn": "Manga",
@@ -2799,8 +2799,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "fhd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -3216,8 +3216,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "hd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -3355,9 +3355,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "hd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -3561,9 +3561,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "hd",
-        "sd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -3593,8 +3593,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
       "basedOn": "Roman",
@@ -3627,8 +3627,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
+        "sd",
         "hd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -3768,8 +3768,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "fhd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -3907,9 +3907,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "hd",
-        "fhd",
-        "sd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -4111,9 +4111,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
-        "hd"
+        "hd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -4148,9 +4148,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -4675,9 +4675,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -4710,9 +4710,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "hd",
-        "fhd",
-        "sd"
+        "fhd"
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr",
@@ -4814,9 +4814,9 @@
       "newEpisode": true,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -5952,8 +5952,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "sd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -6775,9 +6775,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr",
@@ -6848,8 +6848,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "sd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -7473,8 +7473,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
+        "fhd",
         "hd"
       ],
       "basedOn": "Roman",
@@ -8132,9 +8132,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "fhd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8424,9 +8424,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -8567,9 +8567,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -8632,9 +8632,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "hd",
-        "sd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -8771,8 +8771,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "fhd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8802,9 +8802,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8964,9 +8964,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
-        "hd"
+        "hd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8999,9 +8999,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
+        "hd",
         "sd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -9069,9 +9069,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "fhd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -9342,8 +9342,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "sd",
-        "fhd",
-        "hd"
+        "hd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de",
@@ -9375,9 +9375,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,pl",
@@ -9440,9 +9440,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -9474,9 +9474,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -9574,8 +9574,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "hd",
+        "sd",
         "fhd"
       ],
       "basedOn": "Manga",
@@ -9644,9 +9644,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr",
@@ -10079,9 +10079,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -17928,8 +17928,8 @@
       "nextVideoReleaseDate": "2026-11-13T08:00:00Z",
       "qualities": [
         "fhd",
-        "hd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -18678,9 +18678,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -19769,9 +19769,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -19803,9 +19803,9 @@
       "newEpisode": true,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "hd",
-        "sd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -19837,8 +19837,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "hd",
+        "sd",
         "fhd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -19939,8 +19939,8 @@
       "nextVideoReleaseDate": "2026-11-07T17:00:00Z",
       "qualities": [
         "hd",
-        "sd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -19971,8 +19971,8 @@
       "newEpisode": true,
       "nextVideoReleaseDate": "2026-11-08T16:00:00Z",
       "qualities": [
-        "fhd",
         "sd",
+        "fhd",
         "hd"
       ],
       "basedOn": "Manga",
@@ -20005,8 +20005,8 @@
       "nextVideoReleaseDate": "2026-11-08T16:05:00Z",
       "qualities": [
         "hd",
-        "sd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
