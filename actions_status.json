@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:35:31.415618+00:00",
+  "generated_at": "2026-11-02T19:37:23.066624+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -31,7 +31,7 @@
     {
       "name": "Verlags-Announcements",
       "status": "ok",
-      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-10-31T12:34:48Z (Run 41201737639) - geplanter Run davor rot",
+      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-11-02T19:34:48Z (Run 41511238352) - geplanter Run davor rot",
       "expected": "2026-10-28T05:47:00+00:00"
     },
     {
