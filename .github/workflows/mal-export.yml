@@ -59,12 +59,15 @@ jobs:
           fetch_list anime ',num_episodes'
           fetch_list manga ',num_chapters,num_volumes'
 
+      - name: Slim-Indexe erzeugen (MAL, Session-Schutz 02.11.2026)
+        run: python3 scripts/make_indexes.py --mal
+
       - name: Committen (nur wenn sich etwas geändert hat)
         run: |
           set -euo pipefail
           git config user.name  "mal-sync-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add mal_anime.json mal_manga.json
+          git add mal_anime.json mal_manga.json mal_anime_index.json mal_manga_index.json
           if git diff --cached --quiet; then
             echo "Keine Aenderungen seit letztem Pull - kein Commit noetig."
           else
