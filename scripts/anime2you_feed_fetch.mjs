@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Fetch der RSS-Feeds von anime2you.de, manga2you.de, ADN News (DE) und aniSearch News (DE).
+// Fetch der RSS-Feeds von anime2you.de, manga2you.de, ADN News (DE), aniSearch News (DE)
+// und Crunchyroll News (DE).
 // Bewusst ohne Dependencies (kein rss-parser): einfacher Item-Regex reicht
 // fuer Titel/Link/Datum. Blockiert ein Feed (403/Challenge/etc.), wird das
 // in anime2you_feed_status.json diagnostiziert, statt den Lauf crashen zu lassen.
@@ -7,6 +8,10 @@
 // GitHub-Runner koennen aber durchkommen (analog Anime2You-Block-Beobachtung).
 // aniSearch (29.10.2026): Feed ist auf der Seite NICHT verlinkt, lebt am alten
 // CDN-Pfad (cdn.anisearch.de/media/rss/de/news.xml); kein Proxy-Block beobachtet.
+// Crunchyroll News (02.11.2026): cr-news-api-service.prd.crunchyrollsvc.com/v1/de-DE/rss;
+// im Mistral-Proxy abrufbar, aber RSS-Retention nur ~4 Items (~1-2 Tage) - daher
+// zusaetzlich in die GitHub-Action genommen, damit der taegliche Harvest eine
+// verlaessliche CR-Kopie ohne Rotationsluecken bildet (CR-Items site "crunchyroll-news").
 // Workflow-Name/Dateinamen bewusst unveraendert gelassen (Wächter-Kompatibilitaet,
 // Newsletter-Check liest weiterhin anime2you_news.json; ADN-Items tragen site "adn-news",
 // aniSearch-Items site "anisearch-news").
@@ -18,6 +23,7 @@ const FEEDS = [
   { site: "manga2you", url: "https://www.manga2you.de/feed/" },
   { site: "adn-news", url: "https://news.animationdigitalnetwork.com/de/feed/" },
   { site: "anisearch-news", url: "https://cdn.anisearch.de/media/rss/de/news.xml" },
+  { site: "crunchyroll-news", url: "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/de-DE/rss" },
 ];
 const NEWS_FILE = "anime2you_news.json";
 const STATUS_FILE = "anime2you_feed_status.json";
