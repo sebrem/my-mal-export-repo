@@ -106,6 +106,8 @@ EXPECTED = [
      "since": "2026-10-24T11:21:00+00:00"},  # live 24.10. 11:21 (rss pilot); Cron taegl. 06:30; NICHT in v4-Liste gewesen
     {"file": "de-license-check.yml",     "name": "DE-License-Check",         "days": [0], "hour": 7, "minute": 0,
      "since": "2026-10-31T09:29:00+00:00"},  # live 31.10. (Commit 09:29 UTC); erster Cron: Mo 02.11.2026 07:00
+    {"file": "staff-harvest.yml",            "name": "Staff Harvest",           "dom": 1, "hour": 5, "minute": 7,
+     "since": "2026-11-02T21:00:00+00:00"},  # live 02.11.; erster Cron: Di 01.12.2026 05:07
 ]
 
 
