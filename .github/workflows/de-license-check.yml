@@ -51,6 +51,9 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
         continue-on-error: true # Info-Tool, kein CI-Gate (Skript-Exit immer 0)
 
+      - name: Slim-Indexe erzeugen (de_licenses, Session-Schutz 02.11.2026)
+        run: python3 scripts/make_indexes.py --delicenses
+
       - name: Upload check.log
         if: always()
         uses: actions/upload-artifact@v4
@@ -68,7 +71,7 @@ jobs:
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add abo_snapshots/de_licenses.json
+          git add abo_snapshots/de_licenses.json abo_snapshots/de_licenses_index.json
           if git diff --cached --quiet; then
             echo "Keine Snapshot-Aenderung - kein Push noetig"
             exit 0

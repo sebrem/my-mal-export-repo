@@ -22,10 +22,21 @@ Erzeugt (jeweils im Repo-Root, neben den Quelldateien):
       nur Treffer-Verdicts (hit_* / *_caveat / de_legal_only) mit vollem
       result-Block – kleine Datei fuer Monitoring-/Lane-Checks.
 
+Zweiter Ausbau (2026-11-02, Nachfrage "weitere Indizes"):
+- aus anime_db.json:        anime_db_index.json (id -> Titel, AniList-Kern, Genres, Top-Tags)
+- aus anilist_dump.json:     anilist_index.json  (idMal -> AniList-Status/Score/Genres/Airing)
+- aus staff_harvest.json:    staff_harvest_index.json (Aggregate + id -> Staff-Namen)
+- aus abo_snapshots/de_licenses.json: abo_snapshots/de_licenses_index.json
+                             (id -> Titel, mu_licensed, mu_status, Verlagsnamen)
+Fette Felder (Synopsen, Charaktere, externalLinks, relations, Rollen-Details,
+Publisher-Notizen) bleiben bewusst NUR in den Voll-Dateien – sie werden bei
+Bedarf gezielt einzeln abgerufen, nie fuer Flaechen-Checks.
+
 Aufruf:
     python3 scripts/make_indexes.py --mal        # nur MAL-Indexe
     python3 scripts/make_indexes.py --rollcheck  # nur Rollcheck-Indexe
-    python3 scripts/make_indexes.py              # beides
+    python3 scripts/make_indexes.py --animedb --anilist --staff --delicenses
+    python3 scripts/make_indexes.py              # alles
 
 Reine stdlib. Fehlt eine Quelldatei, wird ihr Index STILL UEBERSPRUNGEN
 (nicht geloescht) – Workflows committen nur vorhandene Dateien.
@@ -180,19 +191,184 @@ def rollcheck_index():
     return dst_index
 
 
+ANIME_DB_TAG_LIMIT = 8
+
+
+def animedb_index():
+    src = os.path.join(ROOT, "anime_db.json")
+    data = load_json(src)
+    if data is None:
+        print("SKIP anime_db_index.json (Quelldatei fehlt)")
+        return None
+    entries = {}
+    for t in data.get("titles", []):
+        an = t.get("anilist") or {}
+        tags = [
+            {"name": tg.get("name"), "rank": tg.get("rank")}
+            for tg in (an.get("tags") or [])[:ANIME_DB_TAG_LIMIT]
+        ]
+        entries[str(t.get("id"))] = {
+            "title": t.get("title"),
+            "romaji": an.get("romaji"),
+            "english": an.get("english"),
+            "format": an.get("format"),
+            "episodes": an.get("episodes"),
+            "seasonYear": an.get("seasonYear"),
+            "averageScore": an.get("averageScore"),
+            "genres": an.get("genres") or [],
+            "tags": tags,
+        }
+    out = {
+        "generated_at": data.get("generated_at"),
+        "count": len(entries),
+        "note": "Slim-Index (id -> Kern-Metadaten/Genres/Tags); Synopsen+Charaktere -> anime_db.json",
+        "entries": entries,
+    }
+    dst = os.path.join(ROOT, "anime_db_index.json")
+    dump_json(dst, out)
+    print("OK anime_db_index.json (%d Eintraege)" % len(entries))
+    return dst
+
+
+def anilist_index():
+    src = os.path.join(ROOT, "anilist_dump.json")
+    data = load_json(src)
+    if data is None:
+        print("SKIP anilist_index.json (Quelldatei fehlt)")
+        return None
+    entries = {}
+    for kind in ("anime", "manga"):
+        for item in data.get(kind) or []:
+            mal_id = item.get("idMal")
+            if not mal_id:
+                continue
+            na = item.get("nextAiringEpisode") or {}
+            entries[str(mal_id)] = {
+                "kind": kind,
+                "anilist_id": item.get("id"),
+                "al_status": item.get("status"),
+                "format": item.get("format"),
+                "averageScore": item.get("averageScore"),
+                "genres": item.get("genres") or [],
+                "next_episode": na.get("episode"),
+                "next_airing_at": na.get("airingAt"),
+            }
+    out = {
+        "generated_at": data.get("generated_at"),
+        "count": len(entries),
+        "unmapped_count": len(data.get("unmapped") or []),
+        "note": "Slim-Index (idMal -> AniList-Status/Score/Airing); externalLinks/relations -> anilist_dump.json",
+        "entries": entries,
+    }
+    dst = os.path.join(ROOT, "anilist_index.json")
+    dump_json(dst, out)
+    print("OK anilist_index.json (%d Eintraege)" % len(entries))
+    return dst
+
+
+def _names(lst):
+    return [p.get("name") for p in (lst or []) if p.get("name")]
+
+
+def staff_index():
+    src = os.path.join(ROOT, "staff_harvest.json")
+    data = load_json(src)
+    if data is None:
+        print("SKIP staff_harvest_index.json (Quelldatei fehlt)")
+        return None
+    def slim(items):
+        out = {}
+        for it in items or []:
+            out[str(it.get("id"))] = {
+                "title": it.get("title"),
+                "score": it.get("score"),
+                "status": it.get("status"),
+                "mangaka": _names(it.get("mangaka")),
+                "original_story": _names(it.get("original_story")),
+                "studios": it.get("studios") or [],
+                "directors": _names(it.get("directors")),
+                "chara_design": _names(it.get("chara_design")),
+                "original_creator": _names(it.get("original_creator")),
+                "series_composition": _names(it.get("series_composition")),
+            }
+        return out
+    out = {
+        "generated_at": data.get("generated_at"),
+        "count_manga": data.get("count_manga"),
+        "count_anime": data.get("count_anime"),
+        "aggregates": data.get("aggregates"),
+        "note": "Slim-Index (Aggregate + id -> Staff-NAMEN ohne Rollen); Rollen-Details -> staff_harvest.json",
+        "manga": slim(data.get("manga")),
+        "anime": slim(data.get("anime")),
+    }
+    dst = os.path.join(ROOT, "staff_harvest_index.json")
+    dump_json(dst, out)
+    print("OK staff_harvest_index.json (%d Manga, %d Anime)"
+          % (len(out["manga"]), len(out["anime"])))
+    return dst
+
+
+def delicenses_index():
+    src = os.path.join(ROOT, "abo_snapshots", "de_licenses.json")
+    data = load_json(src)
+    if data is None:
+        print("SKIP de_licenses_index.json (Quelldatei fehlt)")
+        return None
+    entries = {}
+    for mal_id, t in (data.get("titles") or {}).items():
+        entries[str(mal_id)] = {
+            "title": t.get("title"),
+            "mal_status": t.get("status"),
+            "mu_licensed": t.get("mu_licensed"),
+            "mu_status": t.get("mu_status"),
+            "publishers": [
+                {"name": p.get("name"), "type": p.get("type")}
+                for p in (t.get("publishers") or [])
+            ],
+            "last_checked": (t.get("last_checked") or "")[:10],
+        }
+    out = {
+        "generated_at": data.get("generated_at"),
+        "count": len(entries),
+        "note": "Slim-Index (id -> Lizenzstatus/Verlagsnamen); Notes/mu_series_id -> de_licenses.json",
+        "entries": entries,
+    }
+    dst = os.path.join(ROOT, "abo_snapshots", "de_licenses_index.json")
+    dump_json(dst, out)
+    print("OK de_licenses_index.json (%d Eintraege)" % len(entries))
+    return dst
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mal", action="store_true", help="MAL-Indexe erzeugen")
     ap.add_argument("--rollcheck", action="store_true", help="Rollcheck-Indexe erzeugen")
+    ap.add_argument("--animedb", action="store_true", help="anime_db_index.json erzeugen")
+    ap.add_argument("--anilist", action="store_true", help="anilist_index.json erzeugen")
+    ap.add_argument("--staff", action="store_true", help="staff_harvest_index.json erzeugen")
+    ap.add_argument("--delicenses", action="store_true", help="de_licenses_index.json erzeugen")
     args = ap.parse_args()
-    if not (args.mal or args.rollcheck):
+    if not any([args.mal, args.rollcheck, args.animedb, args.anilist,
+                args.staff, args.delicenses]):
         args.mal = True
         args.rollcheck = True
+        args.animedb = True
+        args.anilist = True
+        args.staff = True
+        args.delicenses = True
     if args.mal:
         mal_index("anime")
         mal_index("manga")
     if args.rollcheck:
         rollcheck_index()
+    if args.animedb:
+        animedb_index()
+    if args.anilist:
+        anilist_index()
+    if args.staff:
+        staff_index()
+    if args.delicenses:
+        delicenses_index()
     return 0
 
 
