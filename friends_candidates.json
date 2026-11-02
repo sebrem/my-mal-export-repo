@@ -73,10 +73,11 @@
       10,
       9,
       9,
-      10,
+      8,
       10,
       9,
       8,
+      9,
       9,
       8,
       10
@@ -91,6 +92,38 @@
       "f09",
       "f13",
       "f17",
+      "f18",
+      "f19",
+      "f20"
+    ],
+    "count": 12
+  },
+  {
+    "mal_id": 35760,
+    "title": "Shingeki no Kyojin Season 3",
+    "scores": [
+      10,
+      10,
+      9,
+      9,
+      10,
+      10,
+      8,
+      9,
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f08",
+      "f13",
+      "f17",
+      "f18",
       "f19",
       "f20"
     ],
@@ -227,7 +260,7 @@
       10,
       10,
       10,
-      10,
+      9,
       10,
       9,
       10,
@@ -246,35 +279,6 @@
       "f12",
       "f13",
       "f15"
-    ],
-    "count": 10
-  },
-  {
-    "mal_id": 35760,
-    "title": "Shingeki no Kyojin Season 3",
-    "scores": [
-      10,
-      10,
-      9,
-      9,
-      10,
-      10,
-      8,
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f07",
-      "f08",
-      "f13",
-      "f17",
-      "f19",
-      "f20"
     ],
     "count": 10
   },
@@ -763,7 +767,7 @@
       10,
       10,
       8,
-      10,
+      9,
       9,
       9,
       10,
@@ -1043,6 +1047,29 @@
     "count": 7
   },
   {
+    "mal_id": 51535,
+    "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
+    "scores": [
+      10,
+      10,
+      9,
+      10,
+      9,
+      10,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f07",
+      "f13",
+      "f19",
+      "f20"
+    ],
+    "count": 7
+  },
+  {
     "mal_id": 52299,
     "title": "Ore dake Level Up na Ken",
     "scores": [
@@ -1119,7 +1146,7 @@
       8,
       9,
       9,
-      10,
+      9,
       10,
       9
     ],
@@ -1301,7 +1328,7 @@
     "scores": [
       9,
       9,
-      9,
+      8,
       9,
       10,
       9,
@@ -1665,7 +1692,7 @@
     "scores": [
       10,
       8,
-      8,
+      9,
       8,
       9,
       9
@@ -1698,27 +1725,6 @@
       "f13",
       "f14",
       "f17"
-    ],
-    "count": 6
-  },
-  {
-    "mal_id": 51535,
-    "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
-    "scores": [
-      10,
-      10,
-      9,
-      10,
-      9,
-      10
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f07",
-      "f13",
-      "f19"
     ],
     "count": 6
   },
@@ -1814,7 +1820,7 @@
       8,
       9,
       8,
-      10,
+      9,
       8
     ],
     "friends": [
@@ -1970,6 +1976,27 @@
       "f06",
       "f08",
       "f09",
+      "f19"
+    ],
+    "count": 6
+  },
+  {
+    "mal_id": 34134,
+    "title": "One Punch Man 2nd Season",
+    "scores": [
+      9,
+      8,
+      8,
+      8,
+      8,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f07",
+      "f11",
+      "f14",
       "f19"
     ],
     "count": 6
@@ -2622,25 +2649,6 @@
     "count": 5
   },
   {
-    "mal_id": 34134,
-    "title": "One Punch Man 2nd Season",
-    "scores": [
-      9,
-      8,
-      8,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f11",
-      "f14",
-      "f19"
-    ],
-    "count": 5
-  },
-  {
     "mal_id": 34240,
     "title": "Shelter (Music)",
     "scores": [
@@ -2740,7 +2748,7 @@
     "title": "Violet Evergarden: Kitto \"Ai\" wo Shiru Hi ga Kuru no Darou",
     "scores": [
       9,
-      10,
+      9,
       9,
       9,
       8
@@ -3106,23 +3114,6 @@
     "count": 4
   },
   {
-    "mal_id": 1210,
-    "title": "NHK ni Youkoso!",
-    "scores": [
-      10,
-      10,
-      10,
-      9
-    ],
-    "friends": [
-      "f07",
-      "f14",
-      "f15",
-      "f16"
-    ],
-    "count": 4
-  },
-  {
     "mal_id": 2001,
     "title": "Tengen Toppa Gurren Lagann",
     "scores": [
@@ -3161,7 +3152,7 @@
     "title": "Mirai Nikki (TV)",
     "scores": [
       10,
-      9,
+      8,
       8,
       9
     ],
@@ -3263,7 +3254,7 @@
     "title": "Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly",
     "scores": [
       10,
-      9,
+      8,
       10,
       9
     ],
@@ -3280,7 +3271,7 @@
     "title": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
     "scores": [
       10,
-      9,
+      8,
       10,
       9
     ],
@@ -3599,6 +3590,23 @@
     "count": 4
   },
   {
+    "mal_id": 1210,
+    "title": "NHK ni Youkoso!",
+    "scores": [
+      9,
+      10,
+      10,
+      9
+    ],
+    "friends": [
+      "f07",
+      "f14",
+      "f15",
+      "f16"
+    ],
+    "count": 4
+  },
+  {
     "mal_id": 6862,
     "title": "K-On!: Live House!",
     "scores": [
@@ -3790,7 +3798,7 @@
     "title": "Made in Abyss Movie 3: Fukaki Tamashii no Reimei",
     "scores": [
       9,
-      10,
+      9,
       10,
       9
     ],
@@ -3843,7 +3851,7 @@
       9,
       8,
       8,
-      9
+      8
     ],
     "friends": [
       "f01",
@@ -3894,7 +3902,7 @@
       9,
       10,
       9,
-      10
+      9
     ],
     "friends": [
       "f01",
@@ -4052,23 +4060,6 @@
     "friends": [
       "f02",
       "f06",
-      "f17",
-      "f19"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 37475,
-    "title": "Kishuku Gakkou no Juliet",
-    "scores": [
-      8,
-      8,
-      8,
-      9
-    ],
-    "friends": [
-      "f02",
-      "f07",
       "f17",
       "f19"
     ],
@@ -4948,21 +4939,6 @@
       "f01",
       "f02",
       "f19"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 35849,
-    "title": "Darling in the FranXX",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f07",
-      "f13",
-      "f20"
     ],
     "count": 3
   },
@@ -5942,6 +5918,21 @@
     "count": 3
   },
   {
+    "mal_id": 35849,
+    "title": "Darling in the FranXX",
+    "scores": [
+      8,
+      8,
+      8
+    ],
+    "friends": [
+      "f07",
+      "f13",
+      "f20"
+    ],
+    "count": 3
+  },
+  {
     "mal_id": 36106,
     "title": "Shingeki no Kyojin: Lost Girls",
     "scores": [
@@ -5987,8 +5978,8 @@
     "count": 3
   },
   {
-    "mal_id": 37956,
-    "title": "3D Kanojo: Real Girl 2nd Season",
+    "mal_id": 37475,
+    "title": "Kishuku Gakkou no Juliet",
     "scores": [
       8,
       8,
@@ -5996,8 +5987,8 @@
     ],
     "friends": [
       "f02",
-      "f07",
-      "f11"
+      "f17",
+      "f19"
     ],
     "count": 3
   },
@@ -6914,6 +6905,19 @@
     "count": 2
   },
   {
+    "mal_id": 61967,
+    "title": "Black Clover 2nd Season",
+    "scores": [
+      10,
+      10
+    ],
+    "friends": [
+      "f01",
+      "f02"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 90125,
     "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
     "scores": [
@@ -7326,19 +7330,6 @@
     "friends": [
       "f15",
       "f17"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 4654,
-    "title": "Toaru Majutsu no Index",
-    "scores": [
-      9,
-      8
-    ],
-    "friends": [
-      "f02",
-      "f07"
     ],
     "count": 2
   },
@@ -10436,6 +10427,19 @@
     "count": 2
   },
   {
+    "mal_id": 37956,
+    "title": "3D Kanojo: Real Girl 2nd Season",
+    "scores": [
+      8,
+      9
+    ],
+    "friends": [
+      "f02",
+      "f11"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 37996,
     "title": "Asobi Asobase: Cosplay Taikai/Otona no Watashi e",
     "scores": [
@@ -11298,7 +11302,7 @@
     "title": "5-toubun no Hanayome*",
     "scores": [
       8,
-      10
+      8
     ],
     "friends": [
       "f02",
@@ -13093,17 +13097,6 @@
     "count": 1
   },
   {
-    "mal_id": 36885,
-    "title": "Saenai Heroine no Sodatekata Fine",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f07"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 36951,
     "title": "Yuu☆Yuu☆Hakusho: Two Shots/Noru ka Soru ka",
     "scores": [
@@ -13698,17 +13691,6 @@
     "count": 1
   },
   {
-    "mal_id": 52196,
-    "title": "Date A Live V",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f07"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 53013,
     "title": "Let You Down",
     "scores": [
@@ -13940,17 +13922,6 @@
     "count": 1
   },
   {
-    "mal_id": 61967,
-    "title": "Black Clover 2nd Season",
-    "scores": [
-      10
-    ],
-    "friends": [
-      "f01"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 62276,
     "title": "Guimi Zhi Zhu Specials",
     "scores": [
@@ -13991,6 +13962,17 @@
     ],
     "friends": [
       "f17"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 62789,
+    "title": "Yi Zhan Cangqiong",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f02"
     ],
     "count": 1
   },
@@ -14931,7 +14913,7 @@
   },
   {
     "mal_id": 3369,
-    "title": "Shoubushi Densetsu Tetsuya",
+    "title": "Gambler Densetsu Tetsuya",
     "scores": [
       9
     ],
@@ -15097,6 +15079,17 @@
   {
     "mal_id": 4565,
     "title": "Tengen Toppa Gurren Lagann Movie 2: Lagann-hen",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f02"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 4654,
+    "title": "Toaru Majutsu no Index",
     "scores": [
       9
     ],
@@ -17537,17 +17530,6 @@
     "count": 1
   },
   {
-    "mal_id": 41461,
-    "title": "Date A Live IV",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f07"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 41497,
     "title": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
     "scores": [
@@ -17900,6 +17882,17 @@
     "count": 1
   },
   {
+    "mal_id": 52196,
+    "title": "Date A Live V",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f07"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 52635,
     "title": "Kami no Tou: Ouji no Kikan",
     "scores": [
@@ -18171,17 +18164,6 @@
     ],
     "friends": [
       "f15"
-    ],
-    "count": 1
-  },
-  {
-    "mal_id": 58143,
-    "title": "Aishang Ta de Liyou Extra",
-    "scores": [
-      9
-    ],
-    "friends": [
-      "f07"
     ],
     "count": 1
   },
@@ -18494,8 +18476,8 @@
     "count": 1
   },
   {
-    "mal_id": 62703,
-    "title": "Bai Lian Cheng Shen 3",
+    "mal_id": 62651,
+    "title": "Cang Yuan Tu 3",
     "scores": [
       9
     ],
@@ -18505,8 +18487,8 @@
     "count": 1
   },
   {
-    "mal_id": 62789,
-    "title": "Yi Zhan Cangqiong",
+    "mal_id": 62703,
+    "title": "Bai Lian Cheng Shen 3",
     "scores": [
       9
     ],
@@ -18523,6 +18505,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 63240,
+    "title": "Fanren Xiu Xian Zhuan: Mulan Zhi Zhan",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f02"
     ],
     "count": 1
   },
@@ -22774,7 +22767,7 @@
   },
   {
     "mal_id": 10681,
-    "title": "Blood-C: The Last Dark",
+    "title": "Blood-C Movie: The Last Dark",
     "scores": [
       8
     ],
@@ -26557,6 +26550,17 @@
     "count": 1
   },
   {
+    "mal_id": 36885,
+    "title": "Saenai Heroine no Sodatekata Fine",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f07"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 36915,
     "title": "Fate/Grand Order: Moonlight/Lostroom",
     "scores": [
@@ -27554,6 +27558,17 @@
     ],
     "friends": [
       "f19"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 41461,
+    "title": "Date A Live IV",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f07"
     ],
     "count": 1
   },
@@ -29670,6 +29685,17 @@
     "count": 1
   },
   {
+    "mal_id": 58143,
+    "title": "Aishang Ta de Liyou Extra",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f07"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 58185,
     "title": "Midareuchi",
     "scores": [
@@ -30462,6 +30488,17 @@
     "count": 1
   },
   {
+    "mal_id": 62734,
+    "title": "Lingjing Xingzhe",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f02"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 62887,
     "title": "All You Need Is Kill",
     "scores": [
@@ -30986,6 +31023,17 @@
     ],
     "friends": [
       "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 147863,
+    "title": "Nano Machine",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f02"
     ],
     "count": 1
   },
