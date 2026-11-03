@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:47:44.569021+00:00",
+  "generated_at": "2026-11-03T11:10:08.948407+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -43,8 +43,8 @@
     {
       "name": "Streaming Rollcheck",
       "status": "ok",
-      "detail": "Erfolg 2026-11-02T11:06:43Z (Run 41434142574), +7.8h",
-      "expected": "2026-11-02T03:17:00+00:00"
+      "detail": "Erfolg 2026-11-03T10:52:37Z (Run 41622884743), +7.6h",
+      "expected": "2026-11-03T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
@@ -60,9 +60,9 @@
     },
     {
       "name": "Anime2You Feed Harvest",
-      "status": "late",
-      "detail": "Erfolg 2026-11-02T16:25:40Z (Run 41481353320), aber 9.9h nach Termin 2026-11-02T06:30:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-02T06:30:00+00:00"
+      "status": "waiting",
+      "detail": "kein Run seit erwartetem Termin, Jitter-Fenster offen bis 2026-11-03T14:30:00+00:00",
+      "expected": "2026-11-03T06:30:00+00:00"
     },
     {
       "name": "DE-License-Check",
@@ -75,6 +75,12 @@
       "status": "pending",
       "detail": "live seit 2026-11-02T21:00Z; erwarteter Termin 2026-11-01T05:07:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-11-01T05:07:00+00:00"
+    },
+    {
+      "name": "Interest-Stacks Harvest",
+      "status": "pending",
+      "detail": "live seit 2026-11-03T11:00Z; erwarteter Termin 2026-11-01T05:13:00+00:00 davor - erster Cron steht noch aus",
+      "expected": "2026-11-01T05:13:00+00:00"
     }
   ]
 }
