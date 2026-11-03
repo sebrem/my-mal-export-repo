@@ -108,6 +108,8 @@ EXPECTED = [
      "since": "2026-10-31T09:29:00+00:00"},  # live 31.10. (Commit 09:29 UTC); erster Cron: Mo 02.11.2026 07:00
     {"file": "staff-harvest.yml",            "name": "Staff Harvest",           "dom": 1, "hour": 5, "minute": 7,
      "since": "2026-11-02T21:00:00+00:00"},  # live 02.11.; erster Cron: Di 01.12.2026 05:07
+    {"file": "interest-stacks.yml",      "name": "Interest-Stacks Harvest", "dom": 1, "hour": 5, "minute": 13,
+     "since": "2026-11-03T11:00:00+00:00"},  # live 03.11.; erster Cron: Di 01.12.2026 05:13
 ]
 
 
