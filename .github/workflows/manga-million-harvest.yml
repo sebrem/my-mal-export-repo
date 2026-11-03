@@ -1,0 +1,35 @@
+name: Manga Million Harvest
+on:
+  schedule:
+    - cron: "40 4 * * 1"  # montags 04:40 UTC: nach MAL-Pull (04:17), vor dem Abgleich (05:00), damit der Abgleich den frischen Katalog sieht
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manga-million-harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Harvest Manga Million Katalog
+        run: python scripts/manga_million_catalog.py
+      - name: Commit
+        run: |
+          git config user.name "manga-million-bot"
+          git config user.email "actions@github.com"
+          git add abo_snapshots/manga_million_catalog.json abo_snapshots/manga_million_changes.json abo_snapshots/manga_million_index.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen."
+          else
+            git commit -m "chore: manga million harvest $(date -u +%F)"
+            git push
+          fi
