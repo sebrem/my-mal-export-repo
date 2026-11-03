@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:10:08.948407+00:00",
+  "generated_at": "2026-11-03T12:10:42.408368+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -81,6 +81,12 @@
       "status": "pending",
       "detail": "live seit 2026-11-03T11:00Z; erwarteter Termin 2026-11-01T05:13:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-11-01T05:13:00+00:00"
+    },
+    {
+      "name": "Manga Million Harvest",
+      "status": "pending",
+      "detail": "live seit 2026-11-03T11:48Z; erwarteter Termin 2026-11-02T04:40:00+00:00 davor - erster Cron steht noch aus",
+      "expected": "2026-11-02T04:40:00+00:00"
     }
   ]
 }
