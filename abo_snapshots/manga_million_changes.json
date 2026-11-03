@@ -1,6 +1,3836 @@
 {
- "generated_at": "2026-11-03T11:52:05+00:00",
+ "generated_at": "2026-11-03T12:08:05+00:00",
  "new": [],
  "removed": [],
- "renamed": []
+ "renamed": [],
+ "language_changes": [
+  {
+   "id": 1,
+   "name": "One Piece",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#108",
+    "Bahasa Indonesia": "#001～#108",
+    "Español": "#001～#108",
+    "Español (Argentina)": "#001～#108",
+    "ภาษาไทย": "#001～#108",
+    "Čeština": "#001～#008",
+    "Deutsch": "#001～#108",
+    "English": "#001～#108",
+    "Türkçe": "#001～#008",
+    "Suomi": "#001～#008",
+    "Tiếng Việt": "#001～#108",
+    "Polski": "#001～#108",
+    "Português": "#001～#108",
+    "Русский язык": "#001～#108",
+    "한국어": "#001～#108",
+    "繁體中文": "#001～#108、#1190～",
+    "Español (México)": "#001",
+    "Français": "#001～#108",
+    "Português (Brasil)": "#001～#108",
+    "简体中文": "#001～#071",
+    "Ελληνικά": "#001～#108、#1190～",
+    "ភាសាខ្មែរ": "#001～#108、#1190～",
+    "Svenska": "#001～#108、#1190～",
+    "Tagalog": "#001～#108、#1190～",
+    "हिन्दी": "#001～#108、#1190～",
+    "العربية": "#001～#108"
+   }
+  },
+  {
+   "id": 4,
+   "name": "Takopi’s Original Sin",
+   "old": null,
+   "new": {
+    "Italiano": "#001",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001",
+    "Deutsch": "#001～#003",
+    "Türkçe": "#001",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#003",
+    "Polski": "#001",
+    "Русский язык": "#001",
+    "English": "#001～#007",
+    "한국어": "#001",
+    "繁體中文": "#001",
+    "简体中文": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#016",
+    "Svenska": "#001～#016",
+    "Tagalog": "#001～#016"
+   }
+  },
+  {
+   "id": 7,
+   "name": "Look Back",
+   "old": null,
+   "new": {
+    "Italiano": "#001",
+    "Bahasa Indonesia": "#001",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001",
+    "Čeština": "#001",
+    "Deutsch": "#001",
+    "Türkçe": "#001",
+    "Français": "#001",
+    "Tiếng Việt": "#001",
+    "Polski": "#001",
+    "Português": "#001",
+    "Bahasa Melayu": "#001",
+    "Русский язык": "#001",
+    "English": "#001",
+    "한국어": "#001",
+    "繁體中文": "#001",
+    "简体中文": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001",
+    "ភាសាខ្មែរ": "#001",
+    "Svenska": "#001",
+    "Tagalog": "#001",
+    "हिन्दी": "#001"
+   }
+  },
+  {
+   "id": 10,
+   "name": "Dandadan",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#023",
+    "Bahasa Indonesia": "#001～#005",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#005",
+    "Čeština": "#001～#002",
+    "Türkçe": "#001～#023",
+    "Français": "#001～#005",
+    "English": "#001～#023",
+    "한국어": "#001～#005",
+    "繁體中文": "#001～#023",
+    "简体中文": "#001～#003",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#005",
+    "Português (Brasil)": "#001",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#040",
+    "Svenska": "#001～#040",
+    "Tagalog": "#001～#040"
+   }
+  },
+  {
+   "id": 13,
+   "name": "Sakamoto Days",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#002",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 16,
+   "name": "Kaiju No. 8",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Italiano": "#001～#026",
+    "Bahasa Indonesia": "#001～#026",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Türkçe": "#001",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#026",
+    "Português": "#001",
+    "Bahasa Melayu": "#001～#007",
+    "English": "#001～#026",
+    "한국어": "#001～#017",
+    "繁體中文": "#001～#007",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#007",
+    "Português (Brasil)": "#001",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 19,
+   "name": "【OSHI NO KO】",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#030",
+    "Bahasa Indonesia": "#001～#030",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#020",
+    "Čeština": "#001～#010",
+    "Deutsch": "#001～#030",
+    "Türkçe": "#001～#010",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#020",
+    "Português": "#001",
+    "Русский язык": "#001～#002",
+    "English": "#001～#010",
+    "한국어": "#001～#020",
+    "繁體中文": "#001～#003",
+    "简体中文": "#001～#002",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Polski": "#001～#010",
+    "Ελληνικά": "#001～#050",
+    "ភាសាខ្មែរ": "#001～#050",
+    "Svenska": "#001～#050",
+    "Tagalog": "#001～#050",
+    "हिन्दी": "#001～#050"
+   }
+  },
+  {
+   "id": 22,
+   "name": "Mashle: Magic and Muscles",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#026",
+    "Bahasa Indonesia": "#001～#008",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#026",
+    "Deutsch": "#001～#008",
+    "Türkçe": "#001",
+    "Français": "#001～#008",
+    "Tiếng Việt": "#001～#026",
+    "English": "#001～#026",
+    "한국어": "#001～#017",
+    "繁體中文": "#001～#026",
+    "简体中文": "#001～#008",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#044",
+    "ភាសាខ្មែរ": "#001～#044",
+    "Svenska": "#001～#044",
+    "Tagalog": "#001～#044",
+    "हिन्दी": "#001～#044"
+   }
+  },
+  {
+   "id": 25,
+   "name": "Spy x Family",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Bahasa Indonesia": "#001～#005",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#005",
+    "Čeština": "#001～#005",
+    "Türkçe": "#001～#005",
+    "Suomi": "#001～#017",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#017",
+    "Polski": "#001～#005",
+    "Português": "#001",
+    "Bahasa Melayu": "#001～#005",
+    "Русский язык": "#001～#011",
+    "English": "#001～#017",
+    "한국어": "#001～#005",
+    "繁體中文": "#001～#017",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#005",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#030",
+    "ភាសាខ្មែរ": "#001～#030",
+    "Svenska": "#001～#030",
+    "Tagalog": "#001～#030",
+    "हिन्दी": "#001～#030"
+   }
+  },
+  {
+   "id": 28,
+   "name": "Chainsaw Man",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#025",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#025",
+    "Türkçe": "#001～#007",
+    "Suomi": "#001～#025",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#007",
+    "Polski": "#001～#007",
+    "Português": "#001",
+    "Русский язык": "#001～#002",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043"
+   }
+  },
+  {
+   "id": 31,
+   "name": "Jujutsu Kaisen",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Türkçe": "#001～#016",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "Português": "#001",
+    "Bahasa Melayu": "#001～#007",
+    "Русский язык": "#001～#002",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#007",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 34,
+   "name": "Hell&#x27;s Paradise: Jigokuraku",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#026",
+    "Bahasa Indonesia": "#001～#002",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#006",
+    "Français": "#001～#006",
+    "Polski": "#001～#006",
+    "Русский язык": "#001～#026",
+    "English": "#001～#026",
+    "한국어": "#001～#006",
+    "繁體中文": "#001～#026",
+    "简体中文": "#001～#006",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#006",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#026",
+    "Svenska": "#001～#026",
+    "Tagalog": "#001～#026"
+   }
+  },
+  {
+   "id": 37,
+   "name": "Dr. STONE",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "English": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 40,
+   "name": "The Promised Neverland",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Italiano": "#001～#025",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001～#007",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "Português": "#001",
+    "Русский язык": "#001～#034",
+    "English": "#001～#034",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 43,
+   "name": "Honey Lemon Soda",
+   "old": null,
+   "new": {
+    "Italiano": "#001",
+    "ภาษาไทย": "#001～#004",
+    "Deutsch": "#001～#012",
+    "Français": "#001～#004",
+    "English": "#001～#004",
+    "繁體中文": "#001～#004",
+    "简体中文": "#001～#003",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Español": "#001",
+    "Ελληνικά": "#001～#020",
+    "ភាសាខ្មែរ": "#001～#020",
+    "Svenska": "#001～#020",
+    "Tagalog": "#001～#020",
+    "हिन्दी": "#001～#020"
+   }
+  },
+  {
+   "id": 46,
+   "name": "Boruto: Naruto Next Generations",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#003",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#011",
+    "Deutsch": "#001～#003",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#011",
+    "Polski": "#001～#003",
+    "English": "#001～#011",
+    "한국어": "#001～#007",
+    "繁體中文": "#001～#011",
+    "简体中文": "#001～#003",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#019",
+    "ភាសាខ្មែរ": "#001～#019",
+    "Svenska": "#001～#019",
+    "Tagalog": "#001～#019",
+    "हिन्दी": "#001～#019"
+   }
+  },
+  {
+   "id": 49,
+   "name": "Astra Lost in Space",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#028",
+    "Español": "#001",
+    "Deutsch": "#001～#028",
+    "Français": "#001～#007",
+    "Português": "#001～#007",
+    "Português (Brasil)": "#001～#007",
+    "English": "#001～#028",
+    "한국어": "#001～#007",
+    "Español (México)": "#001",
+    "繁體中文": "#001～#028",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#049",
+    "ភាសាខ្មែរ": "#001～#049",
+    "Svenska": "#001～#049",
+    "Tagalog": "#001～#049",
+    "हिन्दी": "#001～#049"
+   }
+  },
+  {
+   "id": 52,
+   "name": "Demon Slayer: Kimetsu no Yaiba",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Italiano": "#001～#025",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001～#007",
+    "Suomi": "#001～#025",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "Português": "#001～#007",
+    "Bahasa Melayu": "#001～#007",
+    "Русский язык": "#001～#025",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 55,
+   "name": "Platinum End",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "ภาษาไทย": "#001～#009",
+    "Deutsch": "#001～#009",
+    "Français": "#001～#003",
+    "Português": "#001～#009",
+    "Português (Brasil)": "#001～#009",
+    "English": "#001～#009",
+    "한국어": "#001～#003",
+    "繁體中文": "#001～#009",
+    "Español (México)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#015",
+    "Svenska": "#001～#015",
+    "Tagalog": "#001～#015"
+   }
+  },
+  {
+   "id": 58,
+   "name": "Kaguya-sama: Love Is War",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#030",
+    "ภาษาไทย": "#001～#010",
+    "Deutsch": "#001～#030",
+    "Türkçe": "#001",
+    "Français": "#001～#010",
+    "Tiếng Việt": "#001～#030",
+    "Русский язык": "#001～#010",
+    "English": "#001～#030",
+    "한국어": "#001～#030",
+    "繁體中文": "#001～#030",
+    "简体中文": "#001～#010",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#050",
+    "ភាសាខ្មែរ": "#001～#050",
+    "Svenska": "#001～#050",
+    "Tagalog": "#001～#050",
+    "हिन्दी": "#001～#050"
+   }
+  },
+  {
+   "id": 61,
+   "name": "Black Clover",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#025",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Polski": "#001～#003",
+    "Ελληνικά": "#001～#044",
+    "ភាសាខ្មែរ": "#001～#044",
+    "Svenska": "#001～#044",
+    "Tagalog": "#001～#044",
+    "हिन्दी": "#001～#044"
+   }
+  },
+  {
+   "id": 64,
+   "name": "Golden Kamuy",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#027",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Français": "#001",
+    "Polski": "#001～#007",
+    "English": "#001～#027",
+    "한국어": "#001～#027",
+    "繁體中文": "#001～#007",
+    "简体中文": "#001～#007",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#048",
+    "ភាសាខ្មែរ": "#001～#048",
+    "Svenska": "#001～#048",
+    "Tagalog": "#001～#048",
+    "हिन्दी": "#001～#048"
+   }
+  },
+  {
+   "id": 67,
+   "name": "My Hero Academia",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Italiano": "#001～#026",
+    "Bahasa Indonesia": "#001～#026",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001～#026",
+    "Suomi": "#001～#026",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#026",
+    "Polski": "#001～#007",
+    "Português": "#001～#007",
+    "Português (Brasil)": "#001～#007",
+    "Русский язык": "#001～#007",
+    "English": "#001～#053",
+    "한국어": "#001～#026",
+    "繁體中文": "#001～#026",
+    "Español (México)": "#001",
+    "Ελληνικά": "#001～#044",
+    "ភាសាខ្មែរ": "#001～#044",
+    "Svenska": "#001～#044",
+    "Tagalog": "#001～#044",
+    "हिन्दी": "#001～#044"
+   }
+  },
+  {
+   "id": 70,
+   "name": "World Trigger",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Español": "#001～#016",
+    "ภาษาไทย": "#001～#025",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 73,
+   "name": "Assassination Classroom",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#007",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001～#007",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#007",
+    "Polski": "#001～#007",
+    "Português": "#001",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 76,
+   "name": "One-Punch Man",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "ภาษาไทย": "#001～#020",
+    "Čeština": "#001～#008",
+    "Türkçe": "#001",
+    "Suomi": "#001～#015",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#020",
+    "Polski": "#001～#008",
+    "Português": "#001",
+    "Русский язык": "#001～#008",
+    "English": "#001～#020",
+    "한국어": "#001～#020",
+    "繁體中文": "#001～#020",
+    "简体中文": "#001～#008",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#008",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#029",
+    "ភាសាខ្មែរ": "#001～#029",
+    "Svenska": "#001～#029",
+    "Tagalog": "#001～#029",
+    "हिन्दी": "#001～#029"
+   }
+  },
+  {
+   "id": 79,
+   "name": "Haikyu!!",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Italiano": "#001～#025",
+    "Bahasa Indonesia": "#001～#025",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Türkçe": "#001～#016",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "Português (Brasil)": "#001～#016",
+    "Русский язык": "#001～#002",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#007",
+    "Polski": "#001～#007",
+    "Ελληνικά": "#001～#044",
+    "ភាសាខ្មែរ": "#001～#044",
+    "Svenska": "#001～#044",
+    "Tagalog": "#001～#044",
+    "हिन्दी": "#001～#044"
+   }
+  },
+  {
+   "id": 82,
+   "name": "Tokyo Ghoul",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#029",
+    "Bahasa Indonesia": "#001～#029",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#009",
+    "Čeština": "#001～#009",
+    "Türkçe": "#001～#009",
+    "Français": "#001～#003",
+    "Polski": "#001～#009",
+    "Português": "#001",
+    "Русский язык": "#001～#009",
+    "English": "#001～#029",
+    "한국어": "#001～#009",
+    "繁體中文": "#001～#009",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#009",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#048",
+    "Svenska": "#001～#048",
+    "Tagalog": "#001～#048"
+   }
+  },
+  {
+   "id": 85,
+   "name": "Terra Formars - Yu Sasuga, Ken-ichi Tachibana",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#006",
+    "Deutsch": "#001～#025",
+    "Français": "#001～#006",
+    "Português (Brasil)": "#001～#025",
+    "English": "#001～#025",
+    "한국어": "#001～#014",
+    "繁體中文": "#001～#006",
+    "Español (México)": "#001",
+    "Ελληνικά": "#001～#047",
+    "Svenska": "#001～#047",
+    "Tagalog": "#001～#047"
+   }
+  },
+  {
+   "id": 88,
+   "name": "Blue Exorcist",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#011",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#011",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#011",
+    "Polski": "#001～#003",
+    "Português": "#001～#006",
+    "Português (Brasil)": "#001～#003",
+    "English": "#001～#011",
+    "한국어": "#001～#007",
+    "繁體中文": "#001",
+    "简体中文": "#001～#003",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#003",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#019",
+    "ភាសាខ្មែរ": "#001～#019",
+    "Svenska": "#001～#019",
+    "Tagalog": "#001～#019",
+    "हिन्दी": "#001～#019"
+   }
+  },
+  {
+   "id": 91,
+   "name": "Kuroko&#x27;s Basketball",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#025",
+    "Türkçe": "#001～#007",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 94,
+   "name": "Bakuman。",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#025",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#025",
+    "Deutsch": "#001～#025",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "Português (Brasil)": "#001～#025",
+    "Русский язык": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 97,
+   "name": "Kingdom",
+   "old": null,
+   "new": {
+    "العربية": "#001～#003",
+    "Italiano": "#001～#030",
+    "Español": "#001～#030",
+    "Español (Argentina)": "#001～#030",
+    "ภาษาไทย": "#001～#008",
+    "Deutsch": "#001～#030",
+    "Français": "#001～#030",
+    "Tiếng Việt": "#001～#008",
+    "English": "#001～#030",
+    "한국어": "#001～#030",
+    "繁體中文": "#001～#008",
+    "简体中文": "#001～#008",
+    "Ελληνικά": "#001～#052",
+    "ភាសាខ្មែរ": "#001～#052",
+    "Svenska": "#001～#052",
+    "Tagalog": "#001～#052",
+    "हिन्दी": "#001～#052"
+   }
+  },
+  {
+   "id": 100,
+   "name": "Kimi ni Todoke: From Me to You",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#011",
+    "Bahasa Indonesia": "#001～#004",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#004",
+    "Deutsch": "#001～#012",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#011",
+    "English": "#001～#011",
+    "한국어": "#001～#003",
+    "繁體中文": "#001～#011",
+    "简体中文": "#001～#004",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#021",
+    "ភាសាខ្មែរ": "#001～#021",
+    "Svenska": "#001～#021",
+    "Tagalog": "#001～#021",
+    "हिन्दी": "#001～#021"
+   }
+  },
+  {
+   "id": 103,
+   "name": "Gin Tama",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#022",
+    "Español": "#001～#022",
+    "ภาษาไทย": "#001～#006",
+    "Deutsch": "#001～#022",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#022",
+    "English": "#001～#022",
+    "한국어": "#001～#022",
+    "繁體中文": "#001～#022",
+    "简体中文": "#001～#006",
+    "Ελληνικά": "#001～#040",
+    "ភាសាខ្មែរ": "#001～#040",
+    "Svenska": "#001～#040",
+    "Tagalog": "#001～#040",
+    "हिन्दी": "#001～#040"
+   }
+  },
+  {
+   "id": 106,
+   "name": "Death Note",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#025",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#025",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#025",
+    "Türkçe": "#001",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "Português": "#001～#007",
+    "Português (Brasil)": "#001～#007",
+    "Русский язык": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#007",
+    "繁體中文": "#001～#025",
+    "Español (México)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043"
+   }
+  },
+  {
+   "id": 109,
+   "name": "Bleach",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#025",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#025",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#025",
+    "Türkçe": "#001～#016",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001",
+    "Ελληνικά": "#001～#043",
+    "ភាសាខ្មែរ": "#001～#043",
+    "Svenska": "#001～#043",
+    "Tagalog": "#001～#043",
+    "हिन्दी": "#001～#043"
+   }
+  },
+  {
+   "id": 112,
+   "name": "Nana",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#002",
+    "Deutsch": "#001～#006",
+    "Türkçe": "#001～#002",
+    "Français": "#001～#006",
+    "Polski": "#001～#002",
+    "Português (Brasil)": "#001～#006",
+    "English": "#001～#010",
+    "繁體中文": "#001～#002",
+    "简体中文": "#001～#002",
+    "Español (México)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#018",
+    "Svenska": "#001～#018",
+    "Tagalog": "#001～#018",
+    "हिन्दी": "#001～#018"
+   }
+  },
+  {
+   "id": 115,
+   "name": "Naruto",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#027",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001～#007",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#027",
+    "Polski": "#001～#007",
+    "Português": "#001～#007",
+    "Русский язык": "#001～#007",
+    "English": "#001～#027",
+    "한국어": "#001～#027",
+    "繁體中文": "#001～#027",
+    "简体中文": "#001～#007",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Ελληνικά": "#001～#045",
+    "ភាសាខ្មែរ": "#001～#045",
+    "Svenska": "#001～#045",
+    "Tagalog": "#001～#045",
+    "हिन्दी": "#001～#045"
+   }
+  },
+  {
+   "id": 118,
+   "name": "The Prince of Tennis",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001～#025",
+    "Français": "#001",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001",
+    "简体中文": "#001～#007",
+    "Ελληνικά": "#001～#042",
+    "ភាសាខ្មែរ": "#001～#042",
+    "Svenska": "#001～#042",
+    "Tagalog": "#001～#042",
+    "हिन्दी": "#001～#042"
+   }
+  },
+  {
+   "id": 121,
+   "name": "Hunter x Hunter",
+   "old": null,
+   "new": {
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#026",
+    "Deutsch": "#001～#008",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#026",
+    "Polski": "#001～#008",
+    "Português (Brasil)": "#001～#017",
+    "English": "#001～#026",
+    "한국어": "#001～#026",
+    "繁體中文": "#001～#026",
+    "简体中文": "#001～#008",
+    "Español (México)": "#001",
+    "Italiano": "#001",
+    "Español": "#001",
+    "Ελληνικά": "#001～#044",
+    "ភាសាខ្មែរ": "#001～#044",
+    "Svenska": "#001～#044",
+    "Tagalog": "#001～#044",
+    "हिन्दी": "#001～#044"
+   }
+  },
+  {
+   "id": 124,
+   "name": "Rurouni Kenshin",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#006",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#006",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#022",
+    "Português": "#001～#006",
+    "Português (Brasil)": "#001～#006",
+    "English": "#001～#022",
+    "한국어": "#001～#012",
+    "繁體中文": "#001～#022",
+    "简体中文": "#001～#006",
+    "Español (México)": "#001",
+    "Español": "#001",
+    "Ελληνικά": "#001～#039",
+    "ភាសាខ្មែរ": "#001～#039",
+    "Svenska": "#001～#039",
+    "Tagalog": "#001～#039",
+    "हिन्दी": "#001～#039"
+   }
+  },
+  {
+   "id": 127,
+   "name": "JoJo&#x27;s Bizarre Adventure: Part 1--Phantom Blood",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#014",
+    "Bahasa Indonesia": "#001～#010",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#044",
+    "Deutsch": "#001～#014",
+    "Français": "#001～#008",
+    "Polski": "#001～#011",
+    "English": "#001～#044",
+    "한국어": "#001～#027",
+    "简体中文": "#001～#008",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Ελληνικά": "#001～#047",
+    "ភាសាខ្មែរ": "#001～#047",
+    "Svenska": "#001～#047",
+    "Tagalog": "#001～#047",
+    "हिन्दी": "#001～#047"
+   }
+  },
+  {
+   "id": 130,
+   "name": "Captain Tsubasa",
+   "old": null,
+   "new": {
+    "العربية": "#001",
+    "Italiano": "#001～#004",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#013",
+    "English": "#001",
+    "繁體中文": "#001～#013",
+    "简体中文": "#001～#004",
+    "Español (México)": "#001",
+    "Ελληνικά": "#001～#023",
+    "ភាសាខ្មែរ": "#001～#023",
+    "Svenska": "#001～#023",
+    "Tagalog": "#001～#023",
+    "हिन्दी": "#001～#023"
+   }
+  },
+  {
+   "id": 133,
+   "name": "Yotsuya Senpai no Kaidan",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 136,
+   "name": "HUNGRY JOKER",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 139,
+   "name": "SKET DANCE",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 142,
+   "name": "Sexy Commando Side Story: Amazing!! Masaru-san",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 145,
+   "name": "Witching Hour Zoo",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 148,
+   "name": "Super Dog Rilienthal",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 151,
+   "name": "LIAR GAME",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 154,
+   "name": "Bartender",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 175,
+   "name": "Radiation House",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 178,
+   "name": "Welcome to Ethics Class",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 181,
+   "name": "DRAFT KING",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 184,
+   "name": "Shrink: Psychiatrist Yowai",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 187,
+   "name": "The King’s Tailor: Sarto Finito",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 190,
+   "name": "Sing “Yesterday” For Me",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 193,
+   "name": "Daimonji and Problem Children",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 196,
+   "name": "ONE PIECE ACADEMY",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 199,
+   "name": "CAPTAIN TSUBASA KIDS DREAM",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 202,
+   "name": "CAPTAIN TSUBASA BOYS DREAM",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 205,
+   "name": "Hell Teacher: Jigoku Sensei Nube S",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 208,
+   "name": "Rock Lee&#x27;s Springtime of Youth Full Power Ninja Chronicles",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 211,
+   "name": "Chopperman",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 214,
+   "name": "Extra Spicy! Curry Prince",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 217,
+   "name": "Gourmet Academy Toriko",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 220,
+   "name": "What the Ancient?! Here Comes Pharaoh-kun!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 223,
+   "name": "Real Taste! Usakichi-kun",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 226,
+   "name": "Korosensei Quest!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 229,
+   "name": "BORUTO: SAIKYO DASH GENERATIONS",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 232,
+   "name": "Black Clover SD: Asta on the Road to the Wizard King",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 235,
+   "name": "Yell for the Blue Sky",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 238,
+   "name": "My sister&#x27;s Midori-kun",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 241,
+   "name": "We Don&#x27;t Know Love Yet",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 244,
+   "name": "He&#x27;s Mine!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 247,
+   "name": "Let&#x27;s Hang Out in Territory M!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 250,
+   "name": "CRAZY FOR YOU",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 253,
+   "name": "HOT ROAD",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 256,
+   "name": "Kabamaru Igano",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 259,
+   "name": "THE DEVIL DOES EXIST",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 262,
+   "name": "Gyaru Japon",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 265,
+   "name": "SIX HALF",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 268,
+   "name": "HAKOIRI GIRL",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 271,
+   "name": "Innocently, Softly",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 274,
+   "name": "The Sun (May Be) Watching",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 277,
+   "name": "Bridge of Threads",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 280,
+   "name": "Yesterday, Today, and Tomorrow",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 283,
+   "name": "Crescent Moon and Shooting Star",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 286,
+   "name": "STILL IMMATURE",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 289,
+   "name": "We cannot pay you for this! ~Ms. Moriwaka of Accounting Depart~",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 292,
+   "name": "Solo Dining Robot",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 295,
+   "name": "THE ROUND POTAGER",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 298,
+   "name": "Honey Bitter",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 301,
+   "name": "Anohana: The Flower We Saw That Day",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 304,
+   "name": "PSYCHO-PASS : Inspector Akane Tsunemori - Hikaru Miyoshi / PSYCHO-PASS Committee / Akira Amano / Gen Urobuchi (NITRO PLUS)",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 307,
+   "name": "This Communication",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 310,
+   "name": "Strange Tales from the Handy Shop Karukaya",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 313,
+   "name": "Mr.Clice",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 316,
+   "name": "Super! Luckyman",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 319,
+   "name": "Gag Manga Biyori",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 322,
+   "name": "Puppet Master Sakon",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 325,
+   "name": "Embalming: THE ANOTHER TALE OF FRANKENSTEIN",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 328,
+   "name": "Good Luck Girl!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 331,
+   "name": "Teiichi: Battle of Supreme High",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 334,
+   "name": "Shiki",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 337,
+   "name": "The First Murder",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 340,
+   "name": "The Cutest Boy is Waiting for Me at Home",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 346,
+   "name": "Gintaro-san, Much Obliged",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 349,
+   "name": "THE MOMENT",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 352,
+   "name": "Pure and Natural Cock-A-Doodle-Doo",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 355,
+   "name": "Twice a Day",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 358,
+   "name": "You and I on the G string",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 361,
+   "name": "Otome Tsubaki Never Laughs",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 364,
+   "name": "Papa told me",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 367,
+   "name": "Sumika Sumire",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 370,
+   "name": "Detective Doggy",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 373,
+   "name": "My Mom is Easily Flustered",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 376,
+   "name": "Goro Akechi,Epicurean Private Eye",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 379,
+   "name": "For the First Time",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 382,
+   "name": "Aranjuez of Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 385,
+   "name": "Chopin is Always in My Pocket",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 388,
+   "name": "N★Y Bird",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 391,
+   "name": "Tonkatsu DJ Agetaro",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 394,
+   "name": "Eren the Southpaw",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 397,
+   "name": "KISSxDEATH",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 400,
+   "name": "My Capricorn friend",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 403,
+   "name": "Re/Member",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 406,
+   "name": "The Naked Swan",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 409,
+   "name": "Saguri’s Explorations",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 412,
+   "name": "A Medusa in a Spa Town",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 415,
+   "name": "My Face Doesn’t Belong in This World",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 418,
+   "name": "Hyper Inflation",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 421,
+   "name": "Debby the Corsifa Never Backs Down",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 424,
+   "name": "The King of the Board",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 427,
+   "name": "Kuroko’s Basketball Replace PLUS",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 430,
+   "name": "Food Wars!: L&#x27;etoile",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 433,
+   "name": "How to Brew Delicious Coffee",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 436,
+   "name": "Evil Beauty and the Devil Prince",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 439,
+   "name": "You Are the Blue Lightning in Me",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 442,
+   "name": "HIGH SCORE",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 445,
+   "name": "Animal Yokocho",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 448,
+   "name": "My First Love Like a Bright Sun",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 451,
+   "name": "Vampire and the Rose",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 454,
+   "name": "Furuya sensei belongs to An-chan!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 457,
+   "name": "Nana&#x27;s Rainbow Revolution",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 460,
+   "name": "Buddy Go!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 463,
+   "name": "CRASH！",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 466,
+   "name": "Hiyokoi: Chick Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 469,
+   "name": "Screaming Lessons",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 475,
+   "name": "Yumeiro Patissiere",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 478,
+   "name": "Stardust★Wink",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 481,
+   "name": "Rockin‘★Heaven",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 484,
+   "name": "Nagatacho Strawberry",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 487,
+   "name": "GALS!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 490,
+   "name": "Sparkly Lion Boy",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 493,
+   "name": "Sweet Memory Konpeito",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 496,
+   "name": "Kodocha: Sana&#x27;s Stage",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 499,
+   "name": "Hime-chan&#x27;s Ribbon",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 502,
+   "name": "Akazukin Chacha",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 505,
+   "name": "Good Morning Call",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 508,
+   "name": "Baby★LOVE",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 511,
+   "name": "The Scandal of You and Me",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 514,
+   "name": "Chibi Maruko-chan",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 517,
+   "name": "Silhouette of star eyes",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 520,
+   "name": "Whisper of the Heart",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 523,
+   "name": "Junket Bank",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 526,
+   "name": "BUNGO",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 529,
+   "name": "Ilios",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 532,
+   "name": "Gaslight Stray Dog Detectives",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 535,
+   "name": "Record of Havila War: Tales of the Butterfly",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 538,
+   "name": "Usogui",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 541,
+   "name": "81diver",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 544,
+   "name": "Brynhildr in the Darkness",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 547,
+   "name": "War of the Youths",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 550,
+   "name": "Rikudo",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 553,
+   "name": "The Evil Woman Next Door",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 556,
+   "name": "Liar Lily",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 559,
+   "name": "Ojosama Wa Oyomesama. ‐The Young Lady Gets Married‐",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 562,
+   "name": "Switch Girl!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 565,
+   "name": "My First Boyfriend",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 568,
+   "name": "Mei’s Butler",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 571,
+   "name": "Mairu, The Bitch",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 574,
+   "name": "Parfait Chic",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 577,
+   "name": "Love Story! – Fall in Love, Hanabi –",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 580,
+   "name": "I&#x27;m Walkin&#x27;",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 586,
+   "name": "Cuteness Overload Crisis",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 589,
+   "name": "Do something bad with me.",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 592,
+   "name": "Tama&#x27;s Reward",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 595,
+   "name": "La Vie en rose",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 598,
+   "name": "Legend of the Galactic Heroes",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 601,
+   "name": "The Sitting Duck Bites Back: Professor Kamo&#x27;s Lecture on Behavioral Economics",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 604,
+   "name": "Messiah: The Former Hero Who Saved Another World Dominates the Real World Overflowing With Monsters",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 607,
+   "name": "Erio &amp; the Electric Doll",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 610,
+   "name": "ONE PIECE in Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 613,
+   "name": "Monster’s Bouquet",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 616,
+   "name": "Better to Cry for Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 619,
+   "name": "Welcome to Apartment Aoharu",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 622,
+   "name": "Daily Life at Tadano Technical High School",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 625,
+   "name": "Flower and Asura",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 628,
+   "name": "The Melancholy of Yukio Okumura, a Businessman Exorcist",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 631,
+   "name": "Let’s! Haikyu?!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 634,
+   "name": "Pochi Kuro",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 637,
+   "name": "Kagamigami",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 640,
+   "name": "Sunny After Bloom - Boys Over Flowers: Next Season",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 643,
+   "name": "In One&#x27;s Last Moment",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 646,
+   "name": "The Ultimate Engagement",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 649,
+   "name": "Toki of Choices",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 652,
+   "name": "The Witch’s Cursed Paintings",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 655,
+   "name": "Suginami Subjugation Officer: The People on Dungeon Duty",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 658,
+   "name": "Black Clover: Quartet Knights",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 661,
+   "name": "The parodied Jokeland",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 664,
+   "name": "Haikyu-bu!!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 667,
+   "name": "Dear CALL",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 670,
+   "name": "Timebomb Teacher",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 673,
+   "name": "Moriarty the Patriot: The Remains",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 676,
+   "name": "FIRE BALL！",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 679,
+   "name": "What an AVERAGE way Koiko goes!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 682,
+   "name": "Yagami is Still Mean Today",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 685,
+   "name": "Black Marriage",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 688,
+   "name": "The Fledgling’s Waltz",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 691,
+   "name": "She&#x27;s too cute to take away",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 694,
+   "name": "The World Best Boyfriend",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 697,
+   "name": "Because of You, Love Will Die",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 700,
+   "name": "You Are My Brightest Star",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 703,
+   "name": "100 Days Until You Die",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 706,
+   "name": "Sky Blue Lemon and a Lost Cat",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 709,
+   "name": "Black Iron Einheri",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 712,
+   "name": "The Karakida Family’s Bookshop Life",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 715,
+   "name": "Spring, Love and You",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 718,
+   "name": "This is not Love, Thank You",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 721,
+   "name": "Wolf Rise",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 724,
+   "name": "The Level Up Disaster of 20XX: New Power From the Hands of God",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 727,
+   "name": "Reflections of Youth",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 730,
+   "name": "The Sisters and the North Star",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 733,
+   "name": "Two Spoonfuls of Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 736,
+   "name": "Eureka Moment with You",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 739,
+   "name": "Stars and Dust -Don&#x27;t worry, Be happy!-",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 742,
+   "name": "Sunshine in the Miniature Garden",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 745,
+   "name": "Bye Bye Liberty",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 748,
+   "name": "Fleeting Gradient",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 751,
+   "name": "Invisible",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 754,
+   "name": "Alma",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 757,
+   "name": "Far East Chimeratica",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 760,
+   "name": "Editor in Another World - Tasked to Save the World with Manga",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 763,
+   "name": "Love Agency",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 766,
+   "name": "Suisai -Playing Rainbow Hues-",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 769,
+   "name": "Let’s Go Home",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 772,
+   "name": "Alice on her Tiptoes",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 775,
+   "name": "Craving You",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 778,
+   "name": "Tell Me at Night",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 781,
+   "name": "The Nightjar Soars Through the Sky",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 784,
+   "name": "Loving a younger guy",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 787,
+   "name": "We Found Wonderland",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 790,
+   "name": "Zashisu",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 793,
+   "name": "Love Letters Written in June",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 796,
+   "name": "When Spring Met Storm",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 799,
+   "name": "I My Me Mine",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 802,
+   "name": "SEISHUN NOTE",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 805,
+   "name": "Yura&#x27;s Secret 10%",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 808,
+   "name": "At the Heart of the Universe&#x27;s Edge",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 811,
+   "name": "The First Train at Dawn",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 814,
+   "name": "A Star Twinkles Above a Flower in Sodom",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 817,
+   "name": "Karekore Kirakira Machi",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 820,
+   "name": "Stand by me - A Love Letter",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 823,
+   "name": "Taisho Girl Fairy Tale",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 826,
+   "name": "ROBOT×LASERBEAM",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 829,
+   "name": "ONE PIECE: Kobiyama, Coby’s Look-Alike — The Great Treasure of Identical Doubles",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 832,
+   "name": "THE COMIQ",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 835,
+   "name": "Ao: Short Stories by Sho Aimoto",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 838,
+   "name": "Batuque",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 841,
+   "name": "Clean Freak! Aoyama",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 844,
+   "name": "Grape &amp; Violet",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 847,
+   "name": "Siren of Blue Youth",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 850,
+   "name": "Ameri&#x27;s Cave",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 853,
+   "name": "Faster Than a Blink!!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 856,
+   "name": "Primax",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 859,
+   "name": "Even If Death Do Us Part",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 862,
+   "name": "Arisugawa in Wonderland",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 865,
+   "name": "The Dragon, the Hero, and the Courier",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 868,
+   "name": "All Grown Up With You,Still Just Friends",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 871,
+   "name": "Not Just Something Like Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 874,
+   "name": "He is My Boss",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 877,
+   "name": "Love…with Him?",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 880,
+   "name": "let&#x27;s hold hands",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 883,
+   "name": "Lady &amp; Oldman",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 886,
+   "name": "Shibuya-kun’s Pickup",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 889,
+   "name": "I Hate Komiyama",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 892,
+   "name": "Ran and Aoi",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 895,
+   "name": "Into the Wallflower Maid Café",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 898,
+   "name": "Hinata&#x27;s Blue",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 901,
+   "name": "Moon Cinders",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 904,
+   "name": "Bell the Wolf",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 907,
+   "name": "A Girl from the Yamada Family",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 910,
+   "name": "Garcon",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 913,
+   "name": "Department of Corporate Slave Rabbits",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 916,
+   "name": "Bonds on Stage",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 919,
+   "name": "Smiling at Yoarashi",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 922,
+   "name": "The Fox God Wants to Play",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 925,
+   "name": "Your Love Interest",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 928,
+   "name": "Takuma of the Forest",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 931,
+   "name": "A Taste of Happiness",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 937,
+   "name": "Evil Heroes",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 940,
+   "name": "Rock Up Prince",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 943,
+   "name": "A Heroeless World",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 946,
+   "name": "Much Ado About Nothing",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 949,
+   "name": "EX-ARM",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 952,
+   "name": "Secret Innocent World : Roommates with My Handsome Boss",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 955,
+   "name": "BORDER66",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 958,
+   "name": "One Winged Michelangelo",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 961,
+   "name": "A Second Chance at Love with Hayami",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 964,
+   "name": "Full Drum",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 967,
+   "name": "GIGANTIS",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 970,
+   "name": "Katagimodoshi",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 973,
+   "name": "The 9th Desert",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 976,
+   "name": "KOKORO NO PROGRAM",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 979,
+   "name": "Crescent Moon and a Cat",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 982,
+   "name": "Jumping",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 985,
+   "name": "Mandate of Justice",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 988,
+   "name": "Kochikame 1976–1981",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 991,
+   "name": "TOUGH",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 997,
+   "name": "High School Exciting",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1000,
+   "name": "Akane-banashi",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#016",
+    "Français": "#001",
+    "Português (Brasil)": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#007",
+    "繁體中文": "#001～#025"
+   }
+  },
+  {
+   "id": 1003,
+   "name": "Undead Unluck",
+   "old": null,
+   "new": {
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Français": "#001",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001"
+   }
+  },
+  {
+   "id": 1006,
+   "name": "WITCH WATCH",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#026",
+    "Bahasa Indonesia": "#001～#003",
+    "Español": "#001～#026",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#026",
+    "Français": "#001～#017",
+    "English": "#001～#026",
+    "한국어": "#001～#017",
+    "繁體中文": "#001～#026",
+    "简体中文": "#001～#002",
+    "Polski": "#001～#003"
+   }
+  },
+  {
+   "id": 1009,
+   "name": "Kagurabachi",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#027",
+    "Bahasa Indonesia": "#001～#008",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#008",
+    "Čeština": "#001",
+    "Deutsch": "#001～#008",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#008",
+    "English": "#001～#018",
+    "한국어": "#001～#008",
+    "繁體中文": "#001～#027",
+    "简体中文": "#001～#003",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Polski": "#001～#003"
+   }
+  },
+  {
+   "id": 1012,
+   "name": "Kill Blue",
+   "old": null,
+   "new": {
+    "Español": "#001～#025",
+    "Español (Argentina)": "#001～#025",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Français": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#007",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#002",
+    "Bahasa Indonesia": "#001～#002"
+   }
+  },
+  {
+   "id": 1015,
+   "name": "Nisekoi: False Love",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Français": "#001～#007",
+    "Tiếng Việt": "#001～#025",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#007",
+    "Português (Brasil)": "#001"
+   }
+  },
+  {
+   "id": 1018,
+   "name": "Bobobo-bo Bo-bobo",
+   "old": null,
+   "new": {
+    "Español": "#001～#031",
+    "한국어": "#001～#010"
+   }
+  },
+  {
+   "id": 1021,
+   "name": "Reborn!",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#025",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#025",
+    "English": "#001～#025",
+    "한국어": "#001～#025",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001"
+   }
+  },
+  {
+   "id": 1024,
+   "name": "Hinomaru Sumo",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001～#007",
+    "Français": "#001～#003",
+    "简体中文": "#001～#007",
+    "繁體中文": "#001～#025"
+   }
+  },
+  {
+   "id": 1027,
+   "name": "Food Wars!: Shokugeki no Soma",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001～#005",
+    "Deutsch": "#001～#005",
+    "Français": "#001～#005",
+    "Polski": "#001～#005",
+    "English": "#001～#021",
+    "한국어": "#001～#021",
+    "繁體中文": "#001～#021",
+    "简体中文": "#001～#005",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001"
+   }
+  },
+  {
+   "id": 1030,
+   "name": "The Elusive Samurai",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Français": "#001",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1033,
+   "name": "YuYu Hakusho",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#026",
+    "Bahasa Indonesia": "#001",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#008",
+    "Deutsch": "#001～#008",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#026",
+    "Polski": "#001～#008",
+    "Português (Brasil)": "#001～#026",
+    "English": "#001～#026",
+    "한국어": "#001～#017",
+    "繁體中文": "#001～#026",
+    "简体中文": "#001～#008",
+    "Español (México)": "#001"
+   }
+  },
+  {
+   "id": 1036,
+   "name": "Yu-Gi-Oh!",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#024",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#024",
+    "Português (Brasil)": "#001～#015",
+    "English": "#001～#024",
+    "한국어": "#001～#012",
+    "繁體中文": "#001～#024",
+    "简体中文": "#001～#007",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1039,
+   "name": "Marriage Toxin",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#006",
+    "Deutsch": "#001～#025",
+    "Français": "#001～#006",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#006",
+    "English": "#001～#025",
+    "한국어": "#001～#006",
+    "繁體中文": "#001～#025",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001"
+   }
+  },
+  {
+   "id": 1042,
+   "name": "Black Torch",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#003",
+    "Español": "#001～#003",
+    "ภาษาไทย": "#001～#003",
+    "Français": "#001",
+    "Polski": "#001",
+    "English": "#001～#003",
+    "한국어": "#001",
+    "繁體中文": "#001",
+    "Deutsch": "#001～#003",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1045,
+   "name": "My Hero Academia: Vigilantes",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#020",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#005",
+    "Čeština": "#001～#005",
+    "Deutsch": "#001～#005",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#020",
+    "Polski": "#001～#005",
+    "Português (Brasil)": "#001～#020",
+    "English": "#001～#020",
+    "한국어": "#001～#013",
+    "繁體中文": "#001～#020",
+    "Español (México)": "#001"
+   }
+  },
+  {
+   "id": 1048,
+   "name": "SUMMERTIME RENDERING",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#031",
+    "Español": "#001～#031",
+    "Español (Argentina)": "#001～#031",
+    "ภาษาไทย": "#001～#010",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#020",
+    "Polski": "#001～#010",
+    "English": "#001～#031",
+    "繁體中文": "#001～#031",
+    "简体中文": "#001～#005",
+    "Deutsch": "#001～#010"
+   }
+  },
+  {
+   "id": 1051,
+   "name": "Red Cat Ramen",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#011",
+    "Français": "#001",
+    "한국어": "#001～#011",
+    "繁體中文": "#001～#011",
+    "ภาษาไทย": "#001～#120"
+   }
+  },
+  {
+   "id": 1054,
+   "name": "Romantic Killer",
+   "old": null,
+   "new": {
+    "Español": "#001～#009",
+    "Español (Argentina)": "#001～#009",
+    "Français": "#001～#009",
+    "English": "#001～#009",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1057,
+   "name": "Aharen-san is Indecipherable (Omnibus)",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001～#010",
+    "English": "#001～#010",
+    "한국어": "#001～#020",
+    "繁體中文": "#001～#010",
+    "简体中文": "#001～#010"
+   }
+  },
+  {
+   "id": 1060,
+   "name": "Magilumiere Magical Girls Inc.",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#022",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#004",
+    "Français": "#001",
+    "English": "#001～#022",
+    "한국어": "#001～#004",
+    "繁體中文": "#001～#004",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#004",
+    "Português (Brasil)": "#001"
+   }
+  },
+  {
+   "id": 1063,
+   "name": "Ron Kamonohashi: Deranged Detective",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#018",
+    "ภาษาไทย": "#001～#006",
+    "Français": "#001～#006",
+    "한국어": "#001～#005",
+    "繁體中文": "#001～#005",
+    "简体中文": "#001～#018",
+    "Deutsch": "#001～#005",
+    "Español": "#001～#018",
+    "Polski": "#001～#003"
+   }
+  },
+  {
+   "id": 1066,
+   "name": "You and I Are Polar Opposites",
+   "old": null,
+   "new": {
+    "Italiano": "#001",
+    "Bahasa Indonesia": "#001～#002",
+    "Español": "#001～#022",
+    "ภาษาไทย": "#001～#006",
+    "Français": "#001～#006",
+    "English": "#001～#022",
+    "한국어": "#001～#006",
+    "繁體中文": "#001～#006",
+    "Tiếng Việt": "#001～#006",
+    "Polski": "#001～#003"
+   }
+  },
+  {
+   "id": 1069,
+   "name": "Tis Time for &quot;Torture,&quot; Princess",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001～#014",
+    "한국어": "#001～#043",
+    "繁體中文": "#001～#014",
+    "简体中文": "#001～#005"
+   }
+  },
+  {
+   "id": 1072,
+   "name": "Oblivion Battery",
+   "old": null,
+   "new": {
+    "한국어": "#001～#012",
+    "繁體中文": "#001～#019"
+   }
+  },
+  {
+   "id": 1075,
+   "name": "Chained Soldier",
+   "old": null,
+   "new": {
+    "Español": "#001～#005",
+    "ภาษาไทย": "#001～#005",
+    "Français": "#001",
+    "English": "#001～#005",
+    "한국어": "#001～#005",
+    "繁體中文": "#001～#023",
+    "Deutsch": "#001～#005",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1078,
+   "name": "Burn the Witch",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001",
+    "Deutsch": "#001",
+    "Français": "#001",
+    "Tiếng Việt": "#001",
+    "English": "#001",
+    "한국어": "#001",
+    "繁體中文": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001"
+   }
+  },
+  {
+   "id": 1081,
+   "name": "Blue Box",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#025",
+    "Bahasa Indonesia": "#001～#007",
+    "Español": "#001～#016",
+    "Español (Argentina)": "#001～#016",
+    "ภาษาไทย": "#001～#007",
+    "Čeština": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Türkçe": "#001",
+    "Français": "#001～#002",
+    "Tiếng Việt": "#001～#025",
+    "Polski": "#001～#007",
+    "Português (Brasil)": "#001～#007",
+    "English": "#001～#025",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#025",
+    "简体中文": "#001～#005"
+   }
+  },
+  {
+   "id": 1084,
+   "name": "Kindergarten Wars",
+   "old": null,
+   "new": {
+    "Español": "#001～#007",
+    "Español (Argentina)": "#001～#007",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#007",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#015",
+    "English": "#001～#007",
+    "한국어": "#001～#007",
+    "繁體中文": "#001～#007",
+    "简体中文": "#001～#002",
+    "Italiano": "#001",
+    "Polski": "#001～#004"
+   }
+  },
+  {
+   "id": 1087,
+   "name": "Claymore",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#015",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#015",
+    "Deutsch": "#001～#015",
+    "Français": "#001～#003",
+    "Tiếng Việt": "#001～#004",
+    "Polski": "#001～#004",
+    "English": "#001～#015",
+    "한국어": "#001～#015",
+    "繁體中文": "#001～#004",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001"
+   }
+  },
+  {
+   "id": 1090,
+   "name": "Dark Gathering",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001～#003",
+    "Français": "#001",
+    "English": "#001～#011",
+    "한국어": "#001～#003",
+    "繁體中文": "#001",
+    "简体中文": "#001～#003",
+    "Español": "#001～#011"
+   }
+  },
+  {
+   "id": 1093,
+   "name": "Seraph of the End",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#003",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#003",
+    "Türkçe": "#001",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#011",
+    "Polski": "#001～#003",
+    "English": "#001～#011",
+    "한국어": "#001～#011",
+    "繁體中文": "#001",
+    "简体中文": "#001～#003",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#003",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1096,
+   "name": "Moriarty the Patriot",
+   "old": null,
+   "new": {
+    "Bahasa Indonesia": "#001～#003",
+    "Español": "#001～#003",
+    "ภาษาไทย": "#001～#011",
+    "Deutsch": "#001～#003",
+    "Türkçe": "#001",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#003",
+    "Polski": "#001～#003",
+    "English": "#001～#011",
+    "한국어": "#001～#007",
+    "繁體中文": "#001～#011",
+    "简体中文": "#001～#003",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1099,
+   "name": "Blood Blockade Battlefront",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#010",
+    "ภาษาไทย": "#001～#004",
+    "Français": "#001～#004",
+    "Português (Brasil)": "#001～#007",
+    "English": "#001～#004",
+    "한국어": "#001～#004",
+    "繁體中文": "#001～#004",
+    "简体中文": "#001",
+    "Polski": "#001～#004"
+   }
+  },
+  {
+   "id": 1102,
+   "name": "There’s No Freaking Way I’ll be Your Lover! Unless…",
+   "old": null,
+   "new": {
+    "ภาษาไทย": "#001",
+    "English": "#001～#008",
+    "한국어": "#001～#026",
+    "繁體中文": "#001～#026",
+    "Español (Argentina)": "#001",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001"
+   }
+  },
+  {
+   "id": 1105,
+   "name": "Gantz",
+   "old": null,
+   "new": {
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#010",
+    "Čeština": "#001～#010",
+    "Deutsch": "#001～#010",
+    "Türkçe": "#001",
+    "Français": "#001～#010",
+    "Polski": "#001～#010",
+    "English": "#001～#034",
+    "한국어": "#001～#034",
+    "繁體中文": "#001～#010",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001",
+    "Español": "#001"
+   }
+  },
+  {
+   "id": 1108,
+   "name": "Kowloon Generic Romance",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#026",
+    "Español": "#001～#008",
+    "ภาษาไทย": "#001～#008",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#017",
+    "English": "#001～#008",
+    "한국어": "#001～#026",
+    "繁體中文": "#001～#026",
+    "Polski": "#001～#003"
+   }
+  },
+  {
+   "id": 1111,
+   "name": "Tokyo Ghoul: re",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#031",
+    "Bahasa Indonesia": "#001～#031",
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#009",
+    "Čeština": "#001～#009",
+    "Türkçe": "#001～#031",
+    "Français": "#001～#003",
+    "Polski": "#001～#009",
+    "Русский язык": "#001～#009",
+    "English": "#001～#031",
+    "한국어": "#001～#020",
+    "繁體中文": "#001～#009",
+    "Español (México)": "#001",
+    "Deutsch": "#001～#009",
+    "Português (Brasil)": "#001"
+   }
+  },
+  {
+   "id": 1114,
+   "name": "Boys Over Flowers",
+   "old": null,
+   "new": {
+    "Español": "#001～#017",
+    "ภาษาไทย": "#001～#005",
+    "Tiếng Việt": "#001～#017",
+    "English": "#001～#017",
+    "한국어": "#001～#017",
+    "繁體中文": "#001～#003",
+    "简体中文": "#001～#005",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1117,
+   "name": "Ao Haru Ride",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#003",
+    "Deutsch": "#001～#011",
+    "Türkçe": "#001～#004",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#011",
+    "Polski": "#001～#003",
+    "English": "#001～#011",
+    "한국어": "#001～#003",
+    "繁體中文": "#001～#011",
+    "简体中文": "#001～#003",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1120,
+   "name": "My Love Story!!",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#035",
+    "Bahasa Indonesia": "#001～#035",
+    "Español": "#001",
+    "ภาษาไทย": "#001～#011",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#035",
+    "English": "#001～#035",
+    "한국어": "#001～#011",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "繁體中文": "#001～#035",
+    "Deutsch": "#001～#023"
+   }
+  },
+  {
+   "id": 1123,
+   "name": "Love Me, Love Me Not",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#004",
+    "Deutsch": "#001～#012",
+    "Français": "#001",
+    "Tiếng Việt": "#001～#012",
+    "Polski": "#001～#004",
+    "English": "#001～#012",
+    "한국어": "#001～#004",
+    "繁體中文": "#001～#012",
+    "简体中文": "#001～#004",
+    "Español (México)": "#001",
+    "Português (Brasil)": "#001",
+    "Italiano": "#001"
+   }
+  },
+  {
+   "id": 1126,
+   "name": "Cops and Crooks",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1129,
+   "name": "2.5 Dimensional Seduction",
+   "old": null,
+   "new": {
+    "Français": "#001～#016",
+    "English": "#001～#007",
+    "한국어": "#001～#016",
+    "繁體中文": "#001"
+   }
+  },
+  {
+   "id": 1132,
+   "name": "Hokkaido Gals Are Super Adorable!",
+   "old": null,
+   "new": {
+    "Español": "#001～#028",
+    "ภาษาไทย": "#001～#008",
+    "Français": "#001～#008",
+    "English": "#001～#008",
+    "한국어": "#001～#008",
+    "繁體中文": "#001～#028",
+    "Deutsch": "#001～#008"
+   }
+  },
+  {
+   "id": 1135,
+   "name": "D.Gray-man",
+   "old": null,
+   "new": {
+    "Español": "#001",
+    "Español (Argentina)": "#001",
+    "ภาษาไทย": "#001～#007",
+    "Deutsch": "#001～#026",
+    "Français": "#001～#003",
+    "Polski": "#001",
+    "English": "#001～#026",
+    "한국어": "#001～#016",
+    "繁體中文": "#001～#026",
+    "简体中文": "#001～#007",
+    "Español (México)": "#001",
+    "Tiếng Việt": "#001～#026"
+   }
+  },
+  {
+   "id": 1138,
+   "name": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+   "old": null,
+   "new": {
+    "Italiano": "#001～#023",
+    "Bahasa Indonesia": "#001～#003",
+    "Español": "#001～#023",
+    "Español (Argentina)": "#001～#023",
+    "ภาษาไทย": "#001～#005",
+    "Français": "#001",
+    "English": "#001～#005",
+    "한국어": "#001～#014",
+    "繁體中文": "#001～#023"
+   }
+  },
+  {
+   "id": 1159,
+   "name": "Kochikame 2010–2021",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1173,
+   "name": "The Happiest In The World!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1176,
+   "name": "He loves me too much!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1179,
+   "name": "I Gave a Host 15 Million Yen. Was I a Fool?",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1182,
+   "name": "Marriage, Like the Moon, Waxes and Wanes",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1185,
+   "name": "My Beloved Sora",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1188,
+   "name": "Too Early for a God to Fall in Love",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1191,
+   "name": "Strawberry Cake",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1194,
+   "name": "That&#x27;s What It&#x27;s Like Being Fourteen",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1197,
+   "name": "How to Discipline Shiro Shirogane",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1200,
+   "name": "Minami the Super Evolution",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1203,
+   "name": "Wanderlust",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1206,
+   "name": "Can I Live With You?",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1209,
+   "name": "A Pacifist Vampire Who Lives for Eternity, and Before I Knew It, I’d Become the World’s Strongest ~I’m One of the Four Heavenly Kings of the Demon King’s Army and the New Progenitor? Who Do You Think I Am?~",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1212,
+   "name": "The Disciple of Genova: A Mage Who Can Only Fight for 10 Seconds Raises the Future &quot;Demon King&quot;",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1215,
+   "name": "I&#x27;m Supposed to Become a Neglected Consort in the Future, but Something Strange is Happening…",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1218,
+   "name": "About the Time I Helped Find a Beautiful Exchange Student’s Lost Little Sister",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1221,
+   "name": "An Ordinary Noblewoman Reincarnated into an Unplayed Otome Game Stitches Sacred Embroidery Thread",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1224,
+   "name": "Sawa the Gal Wants to Fish and Eat",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1227,
+   "name": "Together with Serial-san",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1230,
+   "name": "High School Exorcist Akane!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1233,
+   "name": "Takami-san of the Heights",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1236,
+   "name": "Stupid Woman",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1239,
+   "name": "My Sister&#x27;s Best Friend",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1248,
+   "name": "Gone Viral? Streaming an Unbeatable Dungeon Full of Powerful Species Straight From My House?!",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1251,
+   "name": "Red Mudan",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1254,
+   "name": "The Suspicious Cop",
+   "old": null,
+   "new": {}
+  },
+  {
+   "id": 1257,
+   "name": "Trial Friends",
+   "old": null,
+   "new": {}
+  }
+ ]
 }
