@@ -1,0 +1,1992 @@
+{
+ "generated_at": "2026-11-03T11:41:43+00:00",
+ "count": 397,
+ "note": "Slim-Index: id -> name/name_de; Voll-Katalog in manga_million_catalog.json",
+ "titles": {
+  "1": {
+   "name": "One Piece",
+   "name_de": "One Piece",
+   "de_differs": false
+  },
+  "4": {
+   "name": "Takopi’s Original Sin",
+   "name_de": "Takopi’s Original Sin",
+   "de_differs": false
+  },
+  "7": {
+   "name": "Look Back",
+   "name_de": "Look Back",
+   "de_differs": false
+  },
+  "10": {
+   "name": "Dandadan",
+   "name_de": "Dandadan",
+   "de_differs": false
+  },
+  "13": {
+   "name": "Sakamoto Days",
+   "name_de": "Sakamoto Days",
+   "de_differs": false
+  },
+  "16": {
+   "name": "Kaiju No. 8",
+   "name_de": "Kaiju No. 8",
+   "de_differs": false
+  },
+  "19": {
+   "name": "【OSHI NO KO】",
+   "name_de": "[Mein*Star]",
+   "de_differs": true
+  },
+  "22": {
+   "name": "Mashle: Magic and Muscles",
+   "name_de": "Mashle: Magic and Muscles",
+   "de_differs": false
+  },
+  "25": {
+   "name": "Spy x Family",
+   "name_de": "Spy × Family",
+   "de_differs": true
+  },
+  "28": {
+   "name": "Chainsaw Man",
+   "name_de": "Chainsaw Man",
+   "de_differs": false
+  },
+  "31": {
+   "name": "Jujutsu Kaisen",
+   "name_de": "Jujutsu Kaisen",
+   "de_differs": false
+  },
+  "34": {
+   "name": "Hell&#x27;s Paradise: Jigokuraku",
+   "name_de": "Hell’s Paradise",
+   "de_differs": true
+  },
+  "37": {
+   "name": "Dr. STONE",
+   "name_de": "Dr. Stone",
+   "de_differs": true
+  },
+  "40": {
+   "name": "The Promised Neverland",
+   "name_de": "THE PROMISED NEVERLAND",
+   "de_differs": true
+  },
+  "43": {
+   "name": "Honey Lemon Soda",
+   "name_de": "Honey Lemon Soda",
+   "de_differs": false
+  },
+  "46": {
+   "name": "Boruto: Naruto Next Generations",
+   "name_de": "Boruto – Naruto Next Generations",
+   "de_differs": true
+  },
+  "49": {
+   "name": "Astra Lost in Space",
+   "name_de": "Astra Lost in Space",
+   "de_differs": false
+  },
+  "52": {
+   "name": "Demon Slayer: Kimetsu no Yaiba",
+   "name_de": "Demon Slayer - Kimetsu no Yaiba",
+   "de_differs": true
+  },
+  "55": {
+   "name": "Platinum End",
+   "name_de": "Platinum End",
+   "de_differs": false
+  },
+  "58": {
+   "name": "Kaguya-sama: Love Is War",
+   "name_de": "Kaguya-sama: Love is War",
+   "de_differs": true
+  },
+  "61": {
+   "name": "Black Clover",
+   "name_de": "Black Clover",
+   "de_differs": false
+  },
+  "64": {
+   "name": "Golden Kamuy",
+   "name_de": "Golden Kamuy",
+   "de_differs": false
+  },
+  "67": {
+   "name": "My Hero Academia",
+   "name_de": "My Hero Academia",
+   "de_differs": false
+  },
+  "70": {
+   "name": "World Trigger",
+   "name_de": "World Trigger",
+   "de_differs": false
+  },
+  "73": {
+   "name": "Assassination Classroom",
+   "name_de": "Assassination Classroom",
+   "de_differs": false
+  },
+  "76": {
+   "name": "One-Punch Man",
+   "name_de": "ONE-PUNCH MAN",
+   "de_differs": true
+  },
+  "79": {
+   "name": "Haikyu!!",
+   "name_de": "Haikyu!!",
+   "de_differs": false
+  },
+  "82": {
+   "name": "Tokyo Ghoul",
+   "name_de": "Tokyo Ghoul",
+   "de_differs": false
+  },
+  "85": {
+   "name": "Terra Formars - Yu Sasuga, Ken-ichi Tachibana",
+   "name_de": "Terra Formars - Ken-ichi Tachibana, Yu Sasuga",
+   "de_differs": true
+  },
+  "88": {
+   "name": "Blue Exorcist",
+   "name_de": "Blue Exorcist",
+   "de_differs": false
+  },
+  "91": {
+   "name": "Kuroko&#x27;s Basketball",
+   "name_de": "Kuroko&#x27;s Basketball",
+   "de_differs": false
+  },
+  "94": {
+   "name": "Bakuman。",
+   "name_de": "Bakuman.",
+   "de_differs": true
+  },
+  "97": {
+   "name": "Kingdom",
+   "name_de": "KINGDOM",
+   "de_differs": true
+  },
+  "100": {
+   "name": "Kimi ni Todoke: From Me to You",
+   "name_de": "Nah bei dir – Kimi ni todoke",
+   "de_differs": true
+  },
+  "103": {
+   "name": "Gin Tama",
+   "name_de": "Gin Tama",
+   "de_differs": false
+  },
+  "106": {
+   "name": "Death Note",
+   "name_de": "Death Note",
+   "de_differs": false
+  },
+  "109": {
+   "name": "Bleach",
+   "name_de": "Bleach",
+   "de_differs": false
+  },
+  "112": {
+   "name": "Nana",
+   "name_de": "NANA",
+   "de_differs": true
+  },
+  "115": {
+   "name": "Naruto",
+   "name_de": "Naruto",
+   "de_differs": false
+  },
+  "118": {
+   "name": "The Prince of Tennis",
+   "name_de": "The Prince of Tennis",
+   "de_differs": false
+  },
+  "121": {
+   "name": "Hunter x Hunter",
+   "name_de": "Hunter X Hunter",
+   "de_differs": true
+  },
+  "124": {
+   "name": "Rurouni Kenshin",
+   "name_de": "Rurouni Kenshin",
+   "de_differs": false
+  },
+  "127": {
+   "name": "JoJo&#x27;s Bizarre Adventure: Part 1--Phantom Blood",
+   "name_de": "JoJo&#x27;s Bizarre Adventure",
+   "de_differs": true
+  },
+  "130": {
+   "name": "Captain Tsubasa",
+   "name_de": "Captain Tsubasa",
+   "de_differs": false
+  },
+  "133": {
+   "name": "Yotsuya Senpai no Kaidan",
+   "name_de": "Yotsuya Senpai no Kaidan",
+   "de_differs": false
+  },
+  "136": {
+   "name": "HUNGRY JOKER",
+   "name_de": "HUNGRY JOKER",
+   "de_differs": false
+  },
+  "139": {
+   "name": "SKET DANCE",
+   "name_de": "SKET DANCE",
+   "de_differs": false
+  },
+  "142": {
+   "name": "Sexy Commando Side Story: Amazing!! Masaru-san",
+   "name_de": "Sexy Commando Side Story: Amazing!! Masaru-san",
+   "de_differs": false
+  },
+  "145": {
+   "name": "Witching Hour Zoo",
+   "name_de": "Witching Hour Zoo",
+   "de_differs": false
+  },
+  "148": {
+   "name": "Super Dog Rilienthal",
+   "name_de": "Super Dog Rilienthal",
+   "de_differs": false
+  },
+  "151": {
+   "name": "LIAR GAME",
+   "name_de": "LIAR GAME",
+   "de_differs": false
+  },
+  "154": {
+   "name": "Bartender",
+   "name_de": "Bartender",
+   "de_differs": false
+  },
+  "175": {
+   "name": "Radiation House",
+   "name_de": "Radiation House",
+   "de_differs": false
+  },
+  "178": {
+   "name": "Welcome to Ethics Class",
+   "name_de": "Welcome to Ethics Class",
+   "de_differs": false
+  },
+  "181": {
+   "name": "DRAFT KING",
+   "name_de": "DRAFT KING",
+   "de_differs": false
+  },
+  "184": {
+   "name": "Shrink: Psychiatrist Yowai",
+   "name_de": "Shrink: Psychiatrist Yowai",
+   "de_differs": false
+  },
+  "187": {
+   "name": "The King’s Tailor: Sarto Finito",
+   "name_de": "The King’s Tailor: Sarto Finito",
+   "de_differs": false
+  },
+  "190": {
+   "name": "Sing “Yesterday” For Me",
+   "name_de": "Sing “Yesterday” For Me",
+   "de_differs": false
+  },
+  "193": {
+   "name": "Daimonji and Problem Children",
+   "name_de": "Daimonji and Problem Children",
+   "de_differs": false
+  },
+  "196": {
+   "name": "ONE PIECE ACADEMY",
+   "name_de": "ONE PIECE ACADEMY",
+   "de_differs": false
+  },
+  "199": {
+   "name": "CAPTAIN TSUBASA KIDS DREAM",
+   "name_de": "CAPTAIN TSUBASA KIDS DREAM",
+   "de_differs": false
+  },
+  "202": {
+   "name": "CAPTAIN TSUBASA BOYS DREAM",
+   "name_de": "CAPTAIN TSUBASA BOYS DREAM",
+   "de_differs": false
+  },
+  "205": {
+   "name": "Hell Teacher: Jigoku Sensei Nube S",
+   "name_de": "Hell Teacher: Jigoku Sensei Nube S",
+   "de_differs": false
+  },
+  "208": {
+   "name": "Rock Lee&#x27;s Springtime of Youth Full Power Ninja Chronicles",
+   "name_de": "Rock Lee&#x27;s Springtime of Youth Full Power Ninja Chronicles",
+   "de_differs": false
+  },
+  "211": {
+   "name": "Chopperman",
+   "name_de": "Chopperman",
+   "de_differs": false
+  },
+  "214": {
+   "name": "Extra Spicy! Curry Prince",
+   "name_de": "Extra Spicy! Curry Prince",
+   "de_differs": false
+  },
+  "217": {
+   "name": "Gourmet Academy Toriko",
+   "name_de": "Gourmet Academy Toriko",
+   "de_differs": false
+  },
+  "220": {
+   "name": "What the Ancient?! Here Comes Pharaoh-kun!",
+   "name_de": "What the Ancient?! Here Comes Pharaoh-kun!",
+   "de_differs": false
+  },
+  "223": {
+   "name": "Real Taste! Usakichi-kun",
+   "name_de": "Real Taste! Usakichi-kun",
+   "de_differs": false
+  },
+  "226": {
+   "name": "Korosensei Quest!",
+   "name_de": "Korosensei Quest!",
+   "de_differs": false
+  },
+  "229": {
+   "name": "BORUTO: SAIKYO DASH GENERATIONS",
+   "name_de": "BORUTO: SAIKYO DASH GENERATIONS",
+   "de_differs": false
+  },
+  "232": {
+   "name": "Black Clover SD: Asta on the Road to the Wizard King",
+   "name_de": "Black Clover SD: Asta on the Road to the Wizard King",
+   "de_differs": false
+  },
+  "235": {
+   "name": "Yell for the Blue Sky",
+   "name_de": "Yell for the Blue Sky",
+   "de_differs": false
+  },
+  "238": {
+   "name": "My sister&#x27;s Midori-kun",
+   "name_de": "My sister&#x27;s Midori-kun",
+   "de_differs": false
+  },
+  "241": {
+   "name": "We Don&#x27;t Know Love Yet",
+   "name_de": "We Don&#x27;t Know Love Yet",
+   "de_differs": false
+  },
+  "244": {
+   "name": "He&#x27;s Mine!",
+   "name_de": "He&#x27;s Mine!",
+   "de_differs": false
+  },
+  "247": {
+   "name": "Let&#x27;s Hang Out in Territory M!",
+   "name_de": "Let&#x27;s Hang Out in Territory M!",
+   "de_differs": false
+  },
+  "250": {
+   "name": "CRAZY FOR YOU",
+   "name_de": "CRAZY FOR YOU",
+   "de_differs": false
+  },
+  "253": {
+   "name": "HOT ROAD",
+   "name_de": "HOT ROAD",
+   "de_differs": false
+  },
+  "256": {
+   "name": "Kabamaru Igano",
+   "name_de": "Kabamaru Igano",
+   "de_differs": false
+  },
+  "259": {
+   "name": "THE DEVIL DOES EXIST",
+   "name_de": "THE DEVIL DOES EXIST",
+   "de_differs": false
+  },
+  "262": {
+   "name": "Gyaru Japon",
+   "name_de": "Gyaru Japon",
+   "de_differs": false
+  },
+  "265": {
+   "name": "SIX HALF",
+   "name_de": "SIX HALF",
+   "de_differs": false
+  },
+  "268": {
+   "name": "HAKOIRI GIRL",
+   "name_de": "HAKOIRI GIRL",
+   "de_differs": false
+  },
+  "271": {
+   "name": "Innocently, Softly",
+   "name_de": "Innocently, Softly",
+   "de_differs": false
+  },
+  "274": {
+   "name": "The Sun (May Be) Watching",
+   "name_de": "The Sun (May Be) Watching",
+   "de_differs": false
+  },
+  "277": {
+   "name": "Bridge of Threads",
+   "name_de": "Bridge of Threads",
+   "de_differs": false
+  },
+  "280": {
+   "name": "Yesterday, Today, and Tomorrow",
+   "name_de": "Yesterday, Today, and Tomorrow",
+   "de_differs": false
+  },
+  "283": {
+   "name": "Crescent Moon and Shooting Star",
+   "name_de": "Crescent Moon and Shooting Star",
+   "de_differs": false
+  },
+  "286": {
+   "name": "STILL IMMATURE",
+   "name_de": "STILL IMMATURE",
+   "de_differs": false
+  },
+  "289": {
+   "name": "We cannot pay you for this! ~Ms. Moriwaka of Accounting Depart~",
+   "name_de": "We cannot pay you for this! ~Ms. Moriwaka of Accounting Depart~",
+   "de_differs": false
+  },
+  "292": {
+   "name": "Solo Dining Robot",
+   "name_de": "Solo Dining Robot",
+   "de_differs": false
+  },
+  "295": {
+   "name": "THE ROUND POTAGER",
+   "name_de": "THE ROUND POTAGER",
+   "de_differs": false
+  },
+  "298": {
+   "name": "Honey Bitter",
+   "name_de": "Honey Bitter",
+   "de_differs": false
+  },
+  "301": {
+   "name": "Anohana: The Flower We Saw That Day",
+   "name_de": "Anohana: The Flower We Saw That Day",
+   "de_differs": false
+  },
+  "304": {
+   "name": "PSYCHO-PASS : Inspector Akane Tsunemori - Hikaru Miyoshi / PSYCHO-PASS Committee / Akira Amano / Gen Urobuchi (NITRO PLUS)",
+   "name_de": "PSYCHO-PASS : Inspector Akane Tsunemori - Hikaru Miyoshi / PSYCHO-PASS Committee / Akira Amano / Gen Urobuchi (NITRO PLUS)",
+   "de_differs": false
+  },
+  "307": {
+   "name": "This Communication",
+   "name_de": "This Communication",
+   "de_differs": false
+  },
+  "310": {
+   "name": "Strange Tales from the Handy Shop Karukaya",
+   "name_de": "Strange Tales from the Handy Shop Karukaya",
+   "de_differs": false
+  },
+  "313": {
+   "name": "Mr.Clice",
+   "name_de": "Mr.Clice",
+   "de_differs": false
+  },
+  "316": {
+   "name": "Super! Luckyman",
+   "name_de": "Super! Luckyman",
+   "de_differs": false
+  },
+  "319": {
+   "name": "Gag Manga Biyori",
+   "name_de": "Gag Manga Biyori",
+   "de_differs": false
+  },
+  "322": {
+   "name": "Puppet Master Sakon",
+   "name_de": "Puppet Master Sakon",
+   "de_differs": false
+  },
+  "325": {
+   "name": "Embalming: THE ANOTHER TALE OF FRANKENSTEIN",
+   "name_de": "Embalming: THE ANOTHER TALE OF FRANKENSTEIN",
+   "de_differs": false
+  },
+  "328": {
+   "name": "Good Luck Girl!",
+   "name_de": "Good Luck Girl!",
+   "de_differs": false
+  },
+  "331": {
+   "name": "Teiichi: Battle of Supreme High",
+   "name_de": "Teiichi: Battle of Supreme High",
+   "de_differs": false
+  },
+  "334": {
+   "name": "Shiki",
+   "name_de": "Shiki",
+   "de_differs": false
+  },
+  "337": {
+   "name": "The First Murder",
+   "name_de": "The First Murder",
+   "de_differs": false
+  },
+  "340": {
+   "name": "The Cutest Boy is Waiting for Me at Home",
+   "name_de": "The Cutest Boy is Waiting for Me at Home",
+   "de_differs": false
+  },
+  "346": {
+   "name": "Gintaro-san, Much Obliged",
+   "name_de": "Gintaro-san, Much Obliged",
+   "de_differs": false
+  },
+  "349": {
+   "name": "THE MOMENT",
+   "name_de": "THE MOMENT",
+   "de_differs": false
+  },
+  "352": {
+   "name": "Pure and Natural Cock-A-Doodle-Doo",
+   "name_de": "Pure and Natural Cock-A-Doodle-Doo",
+   "de_differs": false
+  },
+  "355": {
+   "name": "Twice a Day",
+   "name_de": "Twice a Day",
+   "de_differs": false
+  },
+  "358": {
+   "name": "You and I on the G string",
+   "name_de": "You and I on the G string",
+   "de_differs": false
+  },
+  "361": {
+   "name": "Otome Tsubaki Never Laughs",
+   "name_de": "Otome Tsubaki Never Laughs",
+   "de_differs": false
+  },
+  "364": {
+   "name": "Papa told me",
+   "name_de": "Papa told me",
+   "de_differs": false
+  },
+  "367": {
+   "name": "Sumika Sumire",
+   "name_de": "Sumika Sumire",
+   "de_differs": false
+  },
+  "370": {
+   "name": "Detective Doggy",
+   "name_de": "Detective Doggy",
+   "de_differs": false
+  },
+  "373": {
+   "name": "My Mom is Easily Flustered",
+   "name_de": "My Mom is Easily Flustered",
+   "de_differs": false
+  },
+  "376": {
+   "name": "Goro Akechi,Epicurean Private Eye",
+   "name_de": "Goro Akechi,Epicurean Private Eye",
+   "de_differs": false
+  },
+  "379": {
+   "name": "For the First Time",
+   "name_de": "For the First Time",
+   "de_differs": false
+  },
+  "382": {
+   "name": "Aranjuez of Love",
+   "name_de": "Aranjuez of Love",
+   "de_differs": false
+  },
+  "385": {
+   "name": "Chopin is Always in My Pocket",
+   "name_de": "Chopin is Always in My Pocket",
+   "de_differs": false
+  },
+  "388": {
+   "name": "N★Y Bird",
+   "name_de": "N★Y Bird",
+   "de_differs": false
+  },
+  "391": {
+   "name": "Tonkatsu DJ Agetaro",
+   "name_de": "Tonkatsu DJ Agetaro",
+   "de_differs": false
+  },
+  "394": {
+   "name": "Eren the Southpaw",
+   "name_de": "Eren the Southpaw",
+   "de_differs": false
+  },
+  "397": {
+   "name": "KISSxDEATH",
+   "name_de": "KISSxDEATH",
+   "de_differs": false
+  },
+  "400": {
+   "name": "My Capricorn friend",
+   "name_de": "My Capricorn friend",
+   "de_differs": false
+  },
+  "403": {
+   "name": "Re/Member",
+   "name_de": "Re/Member",
+   "de_differs": false
+  },
+  "406": {
+   "name": "The Naked Swan",
+   "name_de": "The Naked Swan",
+   "de_differs": false
+  },
+  "409": {
+   "name": "Saguri’s Explorations",
+   "name_de": "Saguri’s Explorations",
+   "de_differs": false
+  },
+  "412": {
+   "name": "A Medusa in a Spa Town",
+   "name_de": "A Medusa in a Spa Town",
+   "de_differs": false
+  },
+  "415": {
+   "name": "My Face Doesn’t Belong in This World",
+   "name_de": "My Face Doesn’t Belong in This World",
+   "de_differs": false
+  },
+  "418": {
+   "name": "Hyper Inflation",
+   "name_de": "Hyper Inflation",
+   "de_differs": false
+  },
+  "421": {
+   "name": "Debby the Corsifa Never Backs Down",
+   "name_de": "Debby the Corsifa Never Backs Down",
+   "de_differs": false
+  },
+  "424": {
+   "name": "The King of the Board",
+   "name_de": "The King of the Board",
+   "de_differs": false
+  },
+  "427": {
+   "name": "Kuroko’s Basketball Replace PLUS",
+   "name_de": "Kuroko’s Basketball Replace PLUS",
+   "de_differs": false
+  },
+  "430": {
+   "name": "Food Wars!: L&#x27;etoile",
+   "name_de": "Food Wars!: L&#x27;etoile",
+   "de_differs": false
+  },
+  "433": {
+   "name": "How to Brew Delicious Coffee",
+   "name_de": "How to Brew Delicious Coffee",
+   "de_differs": false
+  },
+  "436": {
+   "name": "Evil Beauty and the Devil Prince",
+   "name_de": "Evil Beauty and the Devil Prince",
+   "de_differs": false
+  },
+  "439": {
+   "name": "You Are the Blue Lightning in Me",
+   "name_de": "You Are the Blue Lightning in Me",
+   "de_differs": false
+  },
+  "442": {
+   "name": "HIGH SCORE",
+   "name_de": "HIGH SCORE",
+   "de_differs": false
+  },
+  "445": {
+   "name": "Animal Yokocho",
+   "name_de": "Animal Yokocho",
+   "de_differs": false
+  },
+  "448": {
+   "name": "My First Love Like a Bright Sun",
+   "name_de": "My First Love Like a Bright Sun",
+   "de_differs": false
+  },
+  "451": {
+   "name": "Vampire and the Rose",
+   "name_de": "Vampire and the Rose",
+   "de_differs": false
+  },
+  "454": {
+   "name": "Furuya sensei belongs to An-chan!",
+   "name_de": "Furuya sensei belongs to An-chan!",
+   "de_differs": false
+  },
+  "457": {
+   "name": "Nana&#x27;s Rainbow Revolution",
+   "name_de": "Nana&#x27;s Rainbow Revolution",
+   "de_differs": false
+  },
+  "460": {
+   "name": "Buddy Go!",
+   "name_de": "Buddy Go!",
+   "de_differs": false
+  },
+  "463": {
+   "name": "CRASH！",
+   "name_de": "CRASH！",
+   "de_differs": false
+  },
+  "466": {
+   "name": "Hiyokoi: Chick Love",
+   "name_de": "Hiyokoi: Chick Love",
+   "de_differs": false
+  },
+  "469": {
+   "name": "Screaming Lessons",
+   "name_de": "Screaming Lessons",
+   "de_differs": false
+  },
+  "475": {
+   "name": "Yumeiro Patissiere",
+   "name_de": "Yumeiro Patissiere",
+   "de_differs": false
+  },
+  "478": {
+   "name": "Stardust★Wink",
+   "name_de": "Stardust★Wink",
+   "de_differs": false
+  },
+  "481": {
+   "name": "Rockin‘★Heaven",
+   "name_de": "Rockin‘★Heaven",
+   "de_differs": false
+  },
+  "484": {
+   "name": "Nagatacho Strawberry",
+   "name_de": "Nagatacho Strawberry",
+   "de_differs": false
+  },
+  "487": {
+   "name": "GALS!",
+   "name_de": "GALS!",
+   "de_differs": false
+  },
+  "490": {
+   "name": "Sparkly Lion Boy",
+   "name_de": "Sparkly Lion Boy",
+   "de_differs": false
+  },
+  "493": {
+   "name": "Sweet Memory Konpeito",
+   "name_de": "Sweet Memory Konpeito",
+   "de_differs": false
+  },
+  "496": {
+   "name": "Kodocha: Sana&#x27;s Stage",
+   "name_de": "Kodocha: Sana&#x27;s Stage",
+   "de_differs": false
+  },
+  "499": {
+   "name": "Hime-chan&#x27;s Ribbon",
+   "name_de": "Hime-chan&#x27;s Ribbon",
+   "de_differs": false
+  },
+  "502": {
+   "name": "Akazukin Chacha",
+   "name_de": "Akazukin Chacha",
+   "de_differs": false
+  },
+  "505": {
+   "name": "Good Morning Call",
+   "name_de": "Good Morning Call",
+   "de_differs": false
+  },
+  "508": {
+   "name": "Baby★LOVE",
+   "name_de": "Baby★LOVE",
+   "de_differs": false
+  },
+  "511": {
+   "name": "The Scandal of You and Me",
+   "name_de": "The Scandal of You and Me",
+   "de_differs": false
+  },
+  "514": {
+   "name": "Chibi Maruko-chan",
+   "name_de": "Chibi Maruko-chan",
+   "de_differs": false
+  },
+  "517": {
+   "name": "Silhouette of star eyes",
+   "name_de": "Silhouette of star eyes",
+   "de_differs": false
+  },
+  "520": {
+   "name": "Whisper of the Heart",
+   "name_de": "Whisper of the Heart",
+   "de_differs": false
+  },
+  "523": {
+   "name": "Junket Bank",
+   "name_de": "Junket Bank",
+   "de_differs": false
+  },
+  "526": {
+   "name": "BUNGO",
+   "name_de": "BUNGO",
+   "de_differs": false
+  },
+  "529": {
+   "name": "Ilios",
+   "name_de": "Ilios",
+   "de_differs": false
+  },
+  "532": {
+   "name": "Gaslight Stray Dog Detectives",
+   "name_de": "Gaslight Stray Dog Detectives",
+   "de_differs": false
+  },
+  "535": {
+   "name": "Record of Havila War: Tales of the Butterfly",
+   "name_de": "Record of Havila War: Tales of the Butterfly",
+   "de_differs": false
+  },
+  "538": {
+   "name": "Usogui",
+   "name_de": "Usogui",
+   "de_differs": false
+  },
+  "541": {
+   "name": "81diver",
+   "name_de": "81diver",
+   "de_differs": false
+  },
+  "544": {
+   "name": "Brynhildr in the Darkness",
+   "name_de": "Brynhildr in the Darkness",
+   "de_differs": false
+  },
+  "547": {
+   "name": "War of the Youths",
+   "name_de": "War of the Youths",
+   "de_differs": false
+  },
+  "550": {
+   "name": "Rikudo",
+   "name_de": "Rikudo",
+   "de_differs": false
+  },
+  "553": {
+   "name": "The Evil Woman Next Door",
+   "name_de": "The Evil Woman Next Door",
+   "de_differs": false
+  },
+  "556": {
+   "name": "Liar Lily",
+   "name_de": "Liar Lily",
+   "de_differs": false
+  },
+  "559": {
+   "name": "Ojosama Wa Oyomesama. ‐The Young Lady Gets Married‐",
+   "name_de": "Ojosama Wa Oyomesama. ‐The Young Lady Gets Married‐",
+   "de_differs": false
+  },
+  "562": {
+   "name": "Switch Girl!",
+   "name_de": "Switch Girl!",
+   "de_differs": false
+  },
+  "565": {
+   "name": "My First Boyfriend",
+   "name_de": "My First Boyfriend",
+   "de_differs": false
+  },
+  "568": {
+   "name": "Mei’s Butler",
+   "name_de": "Mei’s Butler",
+   "de_differs": false
+  },
+  "571": {
+   "name": "Mairu, The Bitch",
+   "name_de": "Mairu, The Bitch",
+   "de_differs": false
+  },
+  "574": {
+   "name": "Parfait Chic",
+   "name_de": "Parfait Chic",
+   "de_differs": false
+  },
+  "577": {
+   "name": "Love Story! – Fall in Love, Hanabi –",
+   "name_de": "Love Story! – Fall in Love, Hanabi –",
+   "de_differs": false
+  },
+  "580": {
+   "name": "I&#x27;m Walkin&#x27;",
+   "name_de": "I&#x27;m Walkin&#x27;",
+   "de_differs": false
+  },
+  "586": {
+   "name": "Cuteness Overload Crisis",
+   "name_de": "Cuteness Overload Crisis",
+   "de_differs": false
+  },
+  "589": {
+   "name": "Do something bad with me.",
+   "name_de": "Do something bad with me.",
+   "de_differs": false
+  },
+  "592": {
+   "name": "Tama&#x27;s Reward",
+   "name_de": "Tama&#x27;s Reward",
+   "de_differs": false
+  },
+  "595": {
+   "name": "La Vie en rose",
+   "name_de": "La Vie en rose",
+   "de_differs": false
+  },
+  "598": {
+   "name": "Legend of the Galactic Heroes",
+   "name_de": "Legend of the Galactic Heroes",
+   "de_differs": false
+  },
+  "601": {
+   "name": "The Sitting Duck Bites Back: Professor Kamo&#x27;s Lecture on Behavioral Economics",
+   "name_de": "The Sitting Duck Bites Back: Professor Kamo&#x27;s Lecture on Behavioral Economics",
+   "de_differs": false
+  },
+  "604": {
+   "name": "Messiah: The Former Hero Who Saved Another World Dominates the Real World Overflowing With Monsters",
+   "name_de": "Messiah: The Former Hero Who Saved Another World Dominates the Real World Overflowing With Monsters",
+   "de_differs": false
+  },
+  "607": {
+   "name": "Erio &amp; the Electric Doll",
+   "name_de": "Erio &amp; the Electric Doll",
+   "de_differs": false
+  },
+  "610": {
+   "name": "ONE PIECE in Love",
+   "name_de": "ONE PIECE in Love",
+   "de_differs": false
+  },
+  "613": {
+   "name": "Monster’s Bouquet",
+   "name_de": "Monster’s Bouquet",
+   "de_differs": false
+  },
+  "616": {
+   "name": "Better to Cry for Love",
+   "name_de": "Better to Cry for Love",
+   "de_differs": false
+  },
+  "619": {
+   "name": "Welcome to Apartment Aoharu",
+   "name_de": "Welcome to Apartment Aoharu",
+   "de_differs": false
+  },
+  "622": {
+   "name": "Daily Life at Tadano Technical High School",
+   "name_de": "Daily Life at Tadano Technical High School",
+   "de_differs": false
+  },
+  "625": {
+   "name": "Flower and Asura",
+   "name_de": "Flower and Asura",
+   "de_differs": false
+  },
+  "628": {
+   "name": "The Melancholy of Yukio Okumura, a Businessman Exorcist",
+   "name_de": "The Melancholy of Yukio Okumura, a Businessman Exorcist",
+   "de_differs": false
+  },
+  "631": {
+   "name": "Let’s! Haikyu?!",
+   "name_de": "Let’s! Haikyu?!",
+   "de_differs": false
+  },
+  "634": {
+   "name": "Pochi Kuro",
+   "name_de": "Pochi Kuro",
+   "de_differs": false
+  },
+  "637": {
+   "name": "Kagamigami",
+   "name_de": "Kagamigami",
+   "de_differs": false
+  },
+  "640": {
+   "name": "Sunny After Bloom - Boys Over Flowers: Next Season",
+   "name_de": "Sunny After Bloom - Boys Over Flowers: Next Season",
+   "de_differs": false
+  },
+  "643": {
+   "name": "In One&#x27;s Last Moment",
+   "name_de": "In One&#x27;s Last Moment",
+   "de_differs": false
+  },
+  "646": {
+   "name": "The Ultimate Engagement",
+   "name_de": "The Ultimate Engagement",
+   "de_differs": false
+  },
+  "649": {
+   "name": "Toki of Choices",
+   "name_de": "Toki of Choices",
+   "de_differs": false
+  },
+  "652": {
+   "name": "The Witch’s Cursed Paintings",
+   "name_de": "The Witch’s Cursed Paintings",
+   "de_differs": false
+  },
+  "655": {
+   "name": "Suginami Subjugation Officer: The People on Dungeon Duty",
+   "name_de": "Suginami Subjugation Officer: The People on Dungeon Duty",
+   "de_differs": false
+  },
+  "658": {
+   "name": "Black Clover: Quartet Knights",
+   "name_de": "Black Clover: Quartet Knights",
+   "de_differs": false
+  },
+  "661": {
+   "name": "The parodied Jokeland",
+   "name_de": "The parodied Jokeland",
+   "de_differs": false
+  },
+  "664": {
+   "name": "Haikyu-bu!!",
+   "name_de": "Haikyu-bu!!",
+   "de_differs": false
+  },
+  "667": {
+   "name": "Dear CALL",
+   "name_de": "Dear CALL",
+   "de_differs": false
+  },
+  "670": {
+   "name": "Timebomb Teacher",
+   "name_de": "Timebomb Teacher",
+   "de_differs": false
+  },
+  "673": {
+   "name": "Moriarty the Patriot: The Remains",
+   "name_de": "Moriarty the Patriot: The Remains",
+   "de_differs": false
+  },
+  "676": {
+   "name": "FIRE BALL！",
+   "name_de": "FIRE BALL！",
+   "de_differs": false
+  },
+  "679": {
+   "name": "What an AVERAGE way Koiko goes!",
+   "name_de": "What an AVERAGE way Koiko goes!",
+   "de_differs": false
+  },
+  "682": {
+   "name": "Yagami is Still Mean Today",
+   "name_de": "Yagami is Still Mean Today",
+   "de_differs": false
+  },
+  "685": {
+   "name": "Black Marriage",
+   "name_de": "Black Marriage",
+   "de_differs": false
+  },
+  "688": {
+   "name": "The Fledgling’s Waltz",
+   "name_de": "The Fledgling’s Waltz",
+   "de_differs": false
+  },
+  "691": {
+   "name": "She&#x27;s too cute to take away",
+   "name_de": "She&#x27;s too cute to take away",
+   "de_differs": false
+  },
+  "694": {
+   "name": "The World Best Boyfriend",
+   "name_de": "The World Best Boyfriend",
+   "de_differs": false
+  },
+  "697": {
+   "name": "Because of You, Love Will Die",
+   "name_de": "Because of You, Love Will Die",
+   "de_differs": false
+  },
+  "700": {
+   "name": "You Are My Brightest Star",
+   "name_de": "You Are My Brightest Star",
+   "de_differs": false
+  },
+  "703": {
+   "name": "100 Days Until You Die",
+   "name_de": "100 Days Until You Die",
+   "de_differs": false
+  },
+  "706": {
+   "name": "Sky Blue Lemon and a Lost Cat",
+   "name_de": "Sky Blue Lemon and a Lost Cat",
+   "de_differs": false
+  },
+  "709": {
+   "name": "Black Iron Einheri",
+   "name_de": "Black Iron Einheri",
+   "de_differs": false
+  },
+  "712": {
+   "name": "The Karakida Family’s Bookshop Life",
+   "name_de": "The Karakida Family’s Bookshop Life",
+   "de_differs": false
+  },
+  "715": {
+   "name": "Spring, Love and You",
+   "name_de": "Spring, Love and You",
+   "de_differs": false
+  },
+  "718": {
+   "name": "This is not Love, Thank You",
+   "name_de": "This is not Love, Thank You",
+   "de_differs": false
+  },
+  "721": {
+   "name": "Wolf Rise",
+   "name_de": "Wolf Rise",
+   "de_differs": false
+  },
+  "724": {
+   "name": "The Level Up Disaster of 20XX: New Power From the Hands of God",
+   "name_de": "The Level Up Disaster of 20XX: New Power From the Hands of God",
+   "de_differs": false
+  },
+  "727": {
+   "name": "Reflections of Youth",
+   "name_de": "Reflections of Youth",
+   "de_differs": false
+  },
+  "730": {
+   "name": "The Sisters and the North Star",
+   "name_de": "The Sisters and the North Star",
+   "de_differs": false
+  },
+  "733": {
+   "name": "Two Spoonfuls of Love",
+   "name_de": "Two Spoonfuls of Love",
+   "de_differs": false
+  },
+  "736": {
+   "name": "Eureka Moment with You",
+   "name_de": "Eureka Moment with You",
+   "de_differs": false
+  },
+  "739": {
+   "name": "Stars and Dust -Don&#x27;t worry, Be happy!-",
+   "name_de": "Stars and Dust -Don&#x27;t worry, Be happy!-",
+   "de_differs": false
+  },
+  "742": {
+   "name": "Sunshine in the Miniature Garden",
+   "name_de": "Sunshine in the Miniature Garden",
+   "de_differs": false
+  },
+  "745": {
+   "name": "Bye Bye Liberty",
+   "name_de": "Bye Bye Liberty",
+   "de_differs": false
+  },
+  "748": {
+   "name": "Fleeting Gradient",
+   "name_de": "Fleeting Gradient",
+   "de_differs": false
+  },
+  "751": {
+   "name": "Invisible",
+   "name_de": "Invisible",
+   "de_differs": false
+  },
+  "754": {
+   "name": "Alma",
+   "name_de": "Alma",
+   "de_differs": false
+  },
+  "757": {
+   "name": "Far East Chimeratica",
+   "name_de": "Far East Chimeratica",
+   "de_differs": false
+  },
+  "760": {
+   "name": "Editor in Another World - Tasked to Save the World with Manga",
+   "name_de": "Editor in Another World - Tasked to Save the World with Manga",
+   "de_differs": false
+  },
+  "763": {
+   "name": "Love Agency",
+   "name_de": "Love Agency",
+   "de_differs": false
+  },
+  "766": {
+   "name": "Suisai -Playing Rainbow Hues-",
+   "name_de": "Suisai -Playing Rainbow Hues-",
+   "de_differs": false
+  },
+  "769": {
+   "name": "Let’s Go Home",
+   "name_de": "Let’s Go Home",
+   "de_differs": false
+  },
+  "772": {
+   "name": "Alice on her Tiptoes",
+   "name_de": "Alice on her Tiptoes",
+   "de_differs": false
+  },
+  "775": {
+   "name": "Craving You",
+   "name_de": "Craving You",
+   "de_differs": false
+  },
+  "778": {
+   "name": "Tell Me at Night",
+   "name_de": "Tell Me at Night",
+   "de_differs": false
+  },
+  "781": {
+   "name": "The Nightjar Soars Through the Sky",
+   "name_de": "The Nightjar Soars Through the Sky",
+   "de_differs": false
+  },
+  "784": {
+   "name": "Loving a younger guy",
+   "name_de": "Loving a younger guy",
+   "de_differs": false
+  },
+  "787": {
+   "name": "We Found Wonderland",
+   "name_de": "We Found Wonderland",
+   "de_differs": false
+  },
+  "790": {
+   "name": "Zashisu",
+   "name_de": "Zashisu",
+   "de_differs": false
+  },
+  "793": {
+   "name": "Love Letters Written in June",
+   "name_de": "Love Letters Written in June",
+   "de_differs": false
+  },
+  "796": {
+   "name": "When Spring Met Storm",
+   "name_de": "When Spring Met Storm",
+   "de_differs": false
+  },
+  "799": {
+   "name": "I My Me Mine",
+   "name_de": "I My Me Mine",
+   "de_differs": false
+  },
+  "802": {
+   "name": "SEISHUN NOTE",
+   "name_de": "SEISHUN NOTE",
+   "de_differs": false
+  },
+  "805": {
+   "name": "Yura&#x27;s Secret 10%",
+   "name_de": "Yura&#x27;s Secret 10%",
+   "de_differs": false
+  },
+  "808": {
+   "name": "At the Heart of the Universe&#x27;s Edge",
+   "name_de": "At the Heart of the Universe&#x27;s Edge",
+   "de_differs": false
+  },
+  "811": {
+   "name": "The First Train at Dawn",
+   "name_de": "The First Train at Dawn",
+   "de_differs": false
+  },
+  "814": {
+   "name": "A Star Twinkles Above a Flower in Sodom",
+   "name_de": "A Star Twinkles Above a Flower in Sodom",
+   "de_differs": false
+  },
+  "817": {
+   "name": "Karekore Kirakira Machi",
+   "name_de": "Karekore Kirakira Machi",
+   "de_differs": false
+  },
+  "820": {
+   "name": "Stand by me - A Love Letter",
+   "name_de": "Stand by me - A Love Letter",
+   "de_differs": false
+  },
+  "823": {
+   "name": "Taisho Girl Fairy Tale",
+   "name_de": "Taisho Girl Fairy Tale",
+   "de_differs": false
+  },
+  "826": {
+   "name": "ROBOT×LASERBEAM",
+   "name_de": "ROBOT×LASERBEAM",
+   "de_differs": false
+  },
+  "829": {
+   "name": "ONE PIECE: Kobiyama, Coby’s Look-Alike — The Great Treasure of Identical Doubles",
+   "name_de": "ONE PIECE: Kobiyama, Coby’s Look-Alike — The Great Treasure of Identical Doubles",
+   "de_differs": false
+  },
+  "832": {
+   "name": "THE COMIQ",
+   "name_de": "THE COMIQ",
+   "de_differs": false
+  },
+  "835": {
+   "name": "Ao: Short Stories by Sho Aimoto",
+   "name_de": "Ao: Short Stories by Sho Aimoto",
+   "de_differs": false
+  },
+  "838": {
+   "name": "Batuque",
+   "name_de": "Batuque",
+   "de_differs": false
+  },
+  "841": {
+   "name": "Clean Freak! Aoyama",
+   "name_de": "Clean Freak! Aoyama",
+   "de_differs": false
+  },
+  "844": {
+   "name": "Grape &amp; Violet",
+   "name_de": "Grape &amp; Violet",
+   "de_differs": false
+  },
+  "847": {
+   "name": "Siren of Blue Youth",
+   "name_de": "Siren of Blue Youth",
+   "de_differs": false
+  },
+  "850": {
+   "name": "Ameri&#x27;s Cave",
+   "name_de": "Ameri&#x27;s Cave",
+   "de_differs": false
+  },
+  "853": {
+   "name": "Faster Than a Blink!!",
+   "name_de": "Faster Than a Blink!!",
+   "de_differs": false
+  },
+  "856": {
+   "name": "Primax",
+   "name_de": "Primax",
+   "de_differs": false
+  },
+  "859": {
+   "name": "Even If Death Do Us Part",
+   "name_de": "Even If Death Do Us Part",
+   "de_differs": false
+  },
+  "862": {
+   "name": "Arisugawa in Wonderland",
+   "name_de": "Arisugawa in Wonderland",
+   "de_differs": false
+  },
+  "865": {
+   "name": "The Dragon, the Hero, and the Courier",
+   "name_de": "The Dragon, the Hero, and the Courier",
+   "de_differs": false
+  },
+  "868": {
+   "name": "All Grown Up With You,Still Just Friends",
+   "name_de": "All Grown Up With You,Still Just Friends",
+   "de_differs": false
+  },
+  "871": {
+   "name": "Not Just Something Like Love",
+   "name_de": "Not Just Something Like Love",
+   "de_differs": false
+  },
+  "874": {
+   "name": "He is My Boss",
+   "name_de": "He is My Boss",
+   "de_differs": false
+  },
+  "877": {
+   "name": "Love…with Him?",
+   "name_de": "Love…with Him?",
+   "de_differs": false
+  },
+  "880": {
+   "name": "let&#x27;s hold hands",
+   "name_de": "let&#x27;s hold hands",
+   "de_differs": false
+  },
+  "883": {
+   "name": "Lady &amp; Oldman",
+   "name_de": "Lady &amp; Oldman",
+   "de_differs": false
+  },
+  "886": {
+   "name": "Shibuya-kun’s Pickup",
+   "name_de": "Shibuya-kun’s Pickup",
+   "de_differs": false
+  },
+  "889": {
+   "name": "I Hate Komiyama",
+   "name_de": "I Hate Komiyama",
+   "de_differs": false
+  },
+  "892": {
+   "name": "Ran and Aoi",
+   "name_de": "Ran and Aoi",
+   "de_differs": false
+  },
+  "895": {
+   "name": "Into the Wallflower Maid Café",
+   "name_de": "Into the Wallflower Maid Café",
+   "de_differs": false
+  },
+  "898": {
+   "name": "Hinata&#x27;s Blue",
+   "name_de": "Hinata&#x27;s Blue",
+   "de_differs": false
+  },
+  "901": {
+   "name": "Moon Cinders",
+   "name_de": "Moon Cinders",
+   "de_differs": false
+  },
+  "904": {
+   "name": "Bell the Wolf",
+   "name_de": "Bell the Wolf",
+   "de_differs": false
+  },
+  "907": {
+   "name": "A Girl from the Yamada Family",
+   "name_de": "A Girl from the Yamada Family",
+   "de_differs": false
+  },
+  "910": {
+   "name": "Garcon",
+   "name_de": "Garcon",
+   "de_differs": false
+  },
+  "913": {
+   "name": "Department of Corporate Slave Rabbits",
+   "name_de": "Department of Corporate Slave Rabbits",
+   "de_differs": false
+  },
+  "916": {
+   "name": "Bonds on Stage",
+   "name_de": "Bonds on Stage",
+   "de_differs": false
+  },
+  "919": {
+   "name": "Smiling at Yoarashi",
+   "name_de": "Smiling at Yoarashi",
+   "de_differs": false
+  },
+  "922": {
+   "name": "The Fox God Wants to Play",
+   "name_de": "The Fox God Wants to Play",
+   "de_differs": false
+  },
+  "925": {
+   "name": "Your Love Interest",
+   "name_de": "Your Love Interest",
+   "de_differs": false
+  },
+  "928": {
+   "name": "Takuma of the Forest",
+   "name_de": "Takuma of the Forest",
+   "de_differs": false
+  },
+  "931": {
+   "name": "A Taste of Happiness",
+   "name_de": "A Taste of Happiness",
+   "de_differs": false
+  },
+  "937": {
+   "name": "Evil Heroes",
+   "name_de": "Evil Heroes",
+   "de_differs": false
+  },
+  "940": {
+   "name": "Rock Up Prince",
+   "name_de": "Rock Up Prince",
+   "de_differs": false
+  },
+  "943": {
+   "name": "A Heroeless World",
+   "name_de": "A Heroeless World",
+   "de_differs": false
+  },
+  "946": {
+   "name": "Much Ado About Nothing",
+   "name_de": "Much Ado About Nothing",
+   "de_differs": false
+  },
+  "949": {
+   "name": "EX-ARM",
+   "name_de": "EX-ARM",
+   "de_differs": false
+  },
+  "952": {
+   "name": "Secret Innocent World : Roommates with My Handsome Boss",
+   "name_de": "Secret Innocent World : Roommates with My Handsome Boss",
+   "de_differs": false
+  },
+  "955": {
+   "name": "BORDER66",
+   "name_de": "BORDER66",
+   "de_differs": false
+  },
+  "958": {
+   "name": "One Winged Michelangelo",
+   "name_de": "One Winged Michelangelo",
+   "de_differs": false
+  },
+  "961": {
+   "name": "A Second Chance at Love with Hayami",
+   "name_de": "A Second Chance at Love with Hayami",
+   "de_differs": false
+  },
+  "964": {
+   "name": "Full Drum",
+   "name_de": "Full Drum",
+   "de_differs": false
+  },
+  "967": {
+   "name": "GIGANTIS",
+   "name_de": "GIGANTIS",
+   "de_differs": false
+  },
+  "970": {
+   "name": "Katagimodoshi",
+   "name_de": "Katagimodoshi",
+   "de_differs": false
+  },
+  "973": {
+   "name": "The 9th Desert",
+   "name_de": "The 9th Desert",
+   "de_differs": false
+  },
+  "976": {
+   "name": "KOKORO NO PROGRAM",
+   "name_de": "KOKORO NO PROGRAM",
+   "de_differs": false
+  },
+  "979": {
+   "name": "Crescent Moon and a Cat",
+   "name_de": "Crescent Moon and a Cat",
+   "de_differs": false
+  },
+  "982": {
+   "name": "Jumping",
+   "name_de": "Jumping",
+   "de_differs": false
+  },
+  "985": {
+   "name": "Mandate of Justice",
+   "name_de": "Mandate of Justice",
+   "de_differs": false
+  },
+  "988": {
+   "name": "Kochikame 1976–1981",
+   "name_de": "Kochikame 1976–1981",
+   "de_differs": false
+  },
+  "991": {
+   "name": "TOUGH",
+   "name_de": "TOUGH",
+   "de_differs": false
+  },
+  "997": {
+   "name": "High School Exciting",
+   "name_de": "High School Exciting",
+   "de_differs": false
+  },
+  "1000": {
+   "name": "Akane-banashi",
+   "name_de": "Akane-banashi",
+   "de_differs": false
+  },
+  "1003": {
+   "name": "Undead Unluck",
+   "name_de": "Undead Unluck",
+   "de_differs": false
+  },
+  "1006": {
+   "name": "WITCH WATCH",
+   "name_de": "Witch Watch",
+   "de_differs": true
+  },
+  "1009": {
+   "name": "Kagurabachi",
+   "name_de": "Kagurabachi",
+   "de_differs": false
+  },
+  "1012": {
+   "name": "Kill Blue",
+   "name_de": "Kill Blue",
+   "de_differs": false
+  },
+  "1015": {
+   "name": "Nisekoi: False Love",
+   "name_de": "Nisekoi",
+   "de_differs": true
+  },
+  "1018": {
+   "name": "Bobobo-bo Bo-bobo",
+   "name_de": "Bobobo-bo Bo-bobo",
+   "de_differs": false
+  },
+  "1021": {
+   "name": "Reborn!",
+   "name_de": "Reborn!",
+   "de_differs": false
+  },
+  "1024": {
+   "name": "Hinomaru Sumo",
+   "name_de": "Hinomaru Sumo",
+   "de_differs": false
+  },
+  "1027": {
+   "name": "Food Wars!: Shokugeki no Soma",
+   "name_de": "Food Wars! – Shokugeki no Soma",
+   "de_differs": true
+  },
+  "1030": {
+   "name": "The Elusive Samurai",
+   "name_de": "The Elusive Samurai",
+   "de_differs": false
+  },
+  "1033": {
+   "name": "YuYu Hakusho",
+   "name_de": "Yu★Yu★Hakusho",
+   "de_differs": true
+  },
+  "1036": {
+   "name": "Yu-Gi-Oh!",
+   "name_de": "Yu-Gi-Oh",
+   "de_differs": true
+  },
+  "1039": {
+   "name": "Marriage Toxin",
+   "name_de": "Marriage Toxin",
+   "de_differs": false
+  },
+  "1042": {
+   "name": "Black Torch",
+   "name_de": "Black Torch",
+   "de_differs": false
+  },
+  "1045": {
+   "name": "My Hero Academia: Vigilantes",
+   "name_de": "Vigilante – My Hero Academia Illegals",
+   "de_differs": true
+  },
+  "1048": {
+   "name": "SUMMERTIME RENDERING",
+   "name_de": "Bright Sun – Dark Shadows",
+   "de_differs": true
+  },
+  "1051": {
+   "name": "Red Cat Ramen",
+   "name_de": "Red Cat Ramen",
+   "de_differs": false
+  },
+  "1054": {
+   "name": "Romantic Killer",
+   "name_de": "Romantic Killer",
+   "de_differs": false
+  },
+  "1057": {
+   "name": "Aharen-san is Indecipherable (Omnibus)",
+   "name_de": "Aharen-san is Indecipherable (Omnibus)",
+   "de_differs": false
+  },
+  "1060": {
+   "name": "Magilumiere Magical Girls Inc.",
+   "name_de": "Magilumiere Inc.",
+   "de_differs": true
+  },
+  "1063": {
+   "name": "Ron Kamonohashi: Deranged Detective",
+   "name_de": "Meisterdetektiv Ron Kamonohashi",
+   "de_differs": true
+  },
+  "1066": {
+   "name": "You and I Are Polar Opposites",
+   "name_de": "You and I Are Polar Opposites",
+   "de_differs": false
+  },
+  "1069": {
+   "name": "Tis Time for &quot;Torture,&quot; Princess",
+   "name_de": "Tis Time for &quot;Torture,&quot; Princess",
+   "de_differs": false
+  },
+  "1072": {
+   "name": "Oblivion Battery",
+   "name_de": "Oblivion Battery",
+   "de_differs": false
+  },
+  "1075": {
+   "name": "Chained Soldier",
+   "name_de": "Demon Slave",
+   "de_differs": true
+  },
+  "1078": {
+   "name": "Burn the Witch",
+   "name_de": "Burn The Witch",
+   "de_differs": true
+  },
+  "1081": {
+   "name": "Blue Box",
+   "name_de": "Blue Box",
+   "de_differs": false
+  },
+  "1084": {
+   "name": "Kindergarten Wars",
+   "name_de": "Kindergarten WARS",
+   "de_differs": true
+  },
+  "1087": {
+   "name": "Claymore",
+   "name_de": "Claymore",
+   "de_differs": false
+  },
+  "1090": {
+   "name": "Dark Gathering",
+   "name_de": "Dark Gathering",
+   "de_differs": false
+  },
+  "1093": {
+   "name": "Seraph of the End",
+   "name_de": "Seraph of the End",
+   "de_differs": false
+  },
+  "1096": {
+   "name": "Moriarty the Patriot",
+   "name_de": "Moriarty the Patriot",
+   "de_differs": false
+  },
+  "1099": {
+   "name": "Blood Blockade Battlefront",
+   "name_de": "Blood Blockade Battlefront",
+   "de_differs": false
+  },
+  "1102": {
+   "name": "There’s No Freaking Way I’ll be Your Lover! Unless…",
+   "name_de": "There’s No Freaking Way I’ll be Your Lover! Unless…",
+   "de_differs": false
+  },
+  "1105": {
+   "name": "Gantz",
+   "name_de": "GANTZ",
+   "de_differs": true
+  },
+  "1108": {
+   "name": "Kowloon Generic Romance",
+   "name_de": "Kowloon Generic Romance",
+   "de_differs": false
+  },
+  "1111": {
+   "name": "Tokyo Ghoul: re",
+   "name_de": "Tokyo Ghoul:re",
+   "de_differs": true
+  },
+  "1114": {
+   "name": "Boys Over Flowers",
+   "name_de": "Boys Over Flowers",
+   "de_differs": false
+  },
+  "1117": {
+   "name": "Ao Haru Ride",
+   "name_de": "Blue Spring Ride",
+   "de_differs": true
+  },
+  "1120": {
+   "name": "My Love Story!!",
+   "name_de": "MY LOVE STORY!!",
+   "de_differs": true
+  },
+  "1123": {
+   "name": "Love Me, Love Me Not",
+   "name_de": "Miracles of Love – Nimm dein Schicksal in die Hand",
+   "de_differs": true
+  },
+  "1126": {
+   "name": "Cops and Crooks",
+   "name_de": "Cops and Crooks",
+   "de_differs": false
+  },
+  "1129": {
+   "name": "2.5 Dimensional Seduction",
+   "name_de": "2.5 Dimensional Seduction",
+   "de_differs": false
+  },
+  "1132": {
+   "name": "Hokkaido Gals Are Super Adorable!",
+   "name_de": "Hokkaido Gals Are Super Adorable!",
+   "de_differs": false
+  },
+  "1135": {
+   "name": "D.Gray-man",
+   "name_de": "D. Gray-man",
+   "de_differs": true
+  },
+  "1138": {
+   "name": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+   "name_de": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+   "de_differs": false
+  },
+  "1159": {
+   "name": "Kochikame 2010–2021",
+   "name_de": "Kochikame 2010–2021",
+   "de_differs": false
+  },
+  "1173": {
+   "name": "The Happiest In The World!",
+   "name_de": "The Happiest In The World!",
+   "de_differs": false
+  },
+  "1176": {
+   "name": "He loves me too much!",
+   "name_de": "He loves me too much!",
+   "de_differs": false
+  },
+  "1179": {
+   "name": "I Gave a Host 15 Million Yen. Was I a Fool?",
+   "name_de": "I Gave a Host 15 Million Yen. Was I a Fool?",
+   "de_differs": false
+  },
+  "1182": {
+   "name": "Marriage, Like the Moon, Waxes and Wanes",
+   "name_de": "Marriage, Like the Moon, Waxes and Wanes",
+   "de_differs": false
+  },
+  "1185": {
+   "name": "My Beloved Sora",
+   "name_de": "My Beloved Sora",
+   "de_differs": false
+  },
+  "1188": {
+   "name": "Too Early for a God to Fall in Love",
+   "name_de": "Too Early for a God to Fall in Love",
+   "de_differs": false
+  },
+  "1191": {
+   "name": "Strawberry Cake",
+   "name_de": "Strawberry Cake",
+   "de_differs": false
+  },
+  "1194": {
+   "name": "That&#x27;s What It&#x27;s Like Being Fourteen",
+   "name_de": "That&#x27;s What It&#x27;s Like Being Fourteen",
+   "de_differs": false
+  },
+  "1197": {
+   "name": "How to Discipline Shiro Shirogane",
+   "name_de": "How to Discipline Shiro Shirogane",
+   "de_differs": false
+  },
+  "1200": {
+   "name": "Minami the Super Evolution",
+   "name_de": "Minami the Super Evolution",
+   "de_differs": false
+  },
+  "1203": {
+   "name": "Wanderlust",
+   "name_de": "Wanderlust",
+   "de_differs": false
+  },
+  "1206": {
+   "name": "Can I Live With You?",
+   "name_de": "Can I Live With You?",
+   "de_differs": false
+  },
+  "1209": {
+   "name": "A Pacifist Vampire Who Lives for Eternity, and Before I Knew It, I’d Become the World’s Strongest ~I’m One of the Four Heavenly Kings of the Demon King’s Army and the New Progenitor? Who Do You Think I Am?~",
+   "name_de": "A Pacifist Vampire Who Lives for Eternity, and Before I Knew It, I’d Become the World’s Strongest ~I’m One of the Four Heavenly Kings of the Demon King’s Army and the New Progenitor? Who Do You Think I Am?~",
+   "de_differs": false
+  },
+  "1212": {
+   "name": "The Disciple of Genova: A Mage Who Can Only Fight for 10 Seconds Raises the Future &quot;Demon King&quot;",
+   "name_de": "The Disciple of Genova: A Mage Who Can Only Fight for 10 Seconds Raises the Future &quot;Demon King&quot;",
+   "de_differs": false
+  },
+  "1215": {
+   "name": "I&#x27;m Supposed to Become a Neglected Consort in the Future, but Something Strange is Happening…",
+   "name_de": "I&#x27;m Supposed to Become a Neglected Consort in the Future, but Something Strange is Happening…",
+   "de_differs": false
+  },
+  "1218": {
+   "name": "About the Time I Helped Find a Beautiful Exchange Student’s Lost Little Sister",
+   "name_de": "About the Time I Helped Find a Beautiful Exchange Student’s Lost Little Sister",
+   "de_differs": false
+  },
+  "1221": {
+   "name": "An Ordinary Noblewoman Reincarnated into an Unplayed Otome Game Stitches Sacred Embroidery Thread",
+   "name_de": "An Ordinary Noblewoman Reincarnated into an Unplayed Otome Game Stitches Sacred Embroidery Thread",
+   "de_differs": false
+  },
+  "1224": {
+   "name": "Sawa the Gal Wants to Fish and Eat",
+   "name_de": "Sawa the Gal Wants to Fish and Eat",
+   "de_differs": false
+  },
+  "1227": {
+   "name": "Together with Serial-san",
+   "name_de": "Together with Serial-san",
+   "de_differs": false
+  },
+  "1230": {
+   "name": "High School Exorcist Akane!",
+   "name_de": "High School Exorcist Akane!",
+   "de_differs": false
+  },
+  "1233": {
+   "name": "Takami-san of the Heights",
+   "name_de": "Takami-san of the Heights",
+   "de_differs": false
+  },
+  "1236": {
+   "name": "Stupid Woman",
+   "name_de": "Stupid Woman",
+   "de_differs": false
+  },
+  "1239": {
+   "name": "My Sister&#x27;s Best Friend",
+   "name_de": "My Sister&#x27;s Best Friend",
+   "de_differs": false
+  },
+  "1248": {
+   "name": "Gone Viral? Streaming an Unbeatable Dungeon Full of Powerful Species Straight From My House?!",
+   "name_de": "Gone Viral? Streaming an Unbeatable Dungeon Full of Powerful Species Straight From My House?!",
+   "de_differs": false
+  },
+  "1251": {
+   "name": "Red Mudan",
+   "name_de": "Red Mudan",
+   "de_differs": false
+  },
+  "1254": {
+   "name": "The Suspicious Cop",
+   "name_de": "The Suspicious Cop",
+   "de_differs": false
+  },
+  "1257": {
+   "name": "Trial Friends",
+   "name_de": "Trial Friends",
+   "de_differs": false
+  }
+ }
+}
