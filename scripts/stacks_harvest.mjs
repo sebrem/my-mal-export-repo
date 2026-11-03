@@ -45,25 +45,58 @@ function decode(s) {
     .replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&nbsp;/g, " ");
 }
 
-// Eintraege aus einer Stack-Detailseite ziehen:
-// <a href=".../(anime|manga)/123/Slug">Titel</a> - pro Stack maximal 50 Eintraege, eine Seite.
-function parseStackEntries(html) {
-  const entries = [];
-  const seen = new Set();
-  // Sidebar ("More Top Anime" etc.) abschneiden: Hauptspalte endet vor "content-right"
+function stripTags(s) {
+  return decode(s.replace(/<br\s*\/?>/gi, " ").replace(/<[^>]+>/g, " "))
+    .replace(/\s+/g, " ").trim();
+}
+
+// Voller Stack-Parse: Beschreibung, Tags, Restacks, Autor, Eintraege inkl.
+// Kuratoren-Note/Score und Infozeile. Eintraege sitzen in div.seasonal-anime-Blocks
+// innerhalb der Hauptspalte (Ende vor "content-right", verifiziert 11/2026).
+function parseStack(html) {
   const cut = html.indexOf("content-right");
   const area = cut > 0 ? html.slice(0, cut) : html;
-  const re = /<a[^>]+href="[^"]*?myanimelist\.net\/(anime|manga)\/(\d+)(?:\/[^"]*)?"[^>]*>([^<]+)<\/a>/gi;
-  let m;
-  while ((m = re.exec(area)) !== null) {
-    const [, kind, idRaw, titleRaw] = m;
+
+  const titleM = area.match(/<h2 class="title">([^<]+)<\/h2>/i)
+    || html.match(/<title>([^<]+?)\s*-\s*Interest Stacks[^<]*<\/title>/i);
+  const introM = area.match(/<div class="introduction">([\s\S]*?)<\/div>/i);
+  const tagsM = area.match(/<div class="tag">([\s\S]*?)<\/div>/i);
+  const tags = tagsM ? [...tagsM[1].matchAll(/<span[^>]*>([^<]+)<\/span>/gi)].map(t => decode(t[1]).trim()).filter(Boolean) : [];
+  const restacksM = area.match(/class="js-btn-stack" data-id="\d+" data-num="(\d+)"/);
+  const authorM = area.match(/<span class="mr4">by<\/span><a href="[^"]*?\/profile\/([^"]+)"/);
+
+  // Eintrags-Blocks: Klasse-Reihenfolge und Zusatzattribute (data-genre etc.) variieren
+  const blocks = area.split(/<div class="[^"]*\bseasonal-anime js-seasonal-anime\b[^"]*"[^>]*>/).slice(1);
+  const entries = [];
+  const seen = new Set();
+  for (const blk of blocks) {
+    const a = blk.match(/<a[^>]+href="[^"]*?myanimelist\.net\/(anime|manga)\/(\d+)(?:\/[^"]*)?"[^>]*>([^<]+)<\/a>/i);
+    if (!a) continue;
+    const [, kind, idRaw, titleRaw] = a;
     const id = Number(idRaw);
-    const title = decode(titleRaw).trim();
-    if (!title || seen.has(kind + id)) continue;
+    if (!titleRaw.trim() || seen.has(kind + id)) continue;
     seen.add(kind + id);
-    entries.push({ kind, id, title });
+    const infoM = blk.match(/<div class="info">([\s\S]*?)<\/div>/i);
+    const info = infoM ? stripTags(infoM[1]) : "";
+    const yearM = info.match(/\b(19|20)\d{2}\b/);
+    const meM = blk.match(/Me:<i class="fas fa-star"><\/i>(\d+|-)/);
+    const authorM = blk.match(/Author:<i class="fas fa-star"><\/i>(\d+|-)/);
+    const noteM = blk.match(/<div class="intro">([\s\S]*?)<\/div>/i);
+    entries.push({
+      kind, id, title: decode(titleRaw).trim(),
+      info, year: yearM ? Number(yearM[0]) : null,
+      curator_score: meM && meM[1] !== "-" ? Number(meM[1]) : null,
+      curator_author_score: authorM && authorM[1] !== "-" ? Number(authorM[1]) : null,
+      note: noteM ? stripTags(noteM[1]) : "",
+    });
   }
-  return entries;
+  return {
+    title: decode(titleM?.[1] ?? "").trim(),
+    description: introM ? stripTags(introM[1]) : "",
+    tags, restacks: restacksM ? Number(restacksM[1]) : null,
+    author: authorM ? authorM[1] : null,
+    entries,
+  };
 }
 
 // Stacks von der Profil-Seite (mit Pagination via ?page=N, bis keine neuen IDs mehr kommen).
@@ -115,9 +148,8 @@ async function main() {
     const html = await politeFetch(`https://myanimelist.net/stacks/${id}`);
     if (html === null) { failedStacks++; continue; }
     // Titel: <h2 class="title"> (verifiziert), Fallback <title> ohne MAL-Suffix
-    const titleM = html.match(/<h2 class="title">([^<]+)<\/h2>/i)
-      || html.match(/<title>([^<]+?)\s*-\s*Interest Stacks[^<]*<\/title>/i);
-    const entries = parseStackEntries(html);
+    const parsed = parseStack(html);
+    const entries = parsed.entries;
     const isManga = entries.filter(e => e.kind === "manga").length > entries.filter(e => e.kind === "anime").length;
     if (entries.length === 0) {
       log(`  WARNUNG: Stack ${id} ohne Eintraege - Markup geaendert?`);
@@ -133,8 +165,10 @@ async function main() {
       return { ...e, on_list: !!own, list_status: own?.status ?? null, own_score: own?.score ?? 0 };
     });
     stacks.push({
-      id, title: decode(titleM?.[1] ?? `Stack ${id}`).trim(),
+      id, title: parsed.title || `Stack ${id}`,
       kind: isManga ? "manga" : "anime",
+      description: parsed.description, tags: parsed.tags,
+      restacks: parsed.restacks, author: parsed.author,
       entries: enriched, open_count: open,
     });
     if ((i + 1) % 20 === 0) log(`  ${i + 1}/${stackIds.length} Stacks...`);
@@ -161,18 +195,60 @@ async function main() {
   };
   writeFileSync("interest_stacks.json", JSON.stringify(out, null, 1) + "\n");
 
-  // Slim-Index (ohne Einzeltitel)
+  // Slim-Index (ohne Einzeltitel, aber mit inhaltlichem Kontext)
   const index = {
     generated_at: out.generated_at,
     user: MAL_USER,
     stack_count: stacks.length,
     open_count: totalOpen,
     stacks: stacks.map(s => ({
-      id: s.id, title: s.title, kind: s.kind,
+      id: s.id, title: s.title, kind: s.kind, tags: s.tags,
+      restacks: s.restacks,
+      description: s.description.slice(0, 160),
       entries: s.entries.length, open: s.open_count,
     })).sort((a, b) => a.open - b.open),
   };
   writeFileSync("interest_stacks_index.json", JSON.stringify(index, null, 1) + "\n");
+
+  // Titel-Index (Rueckrichtung): "Findet sich Titel X auf einem/mehreren Stacks?"
+  const titleIndex = {
+    generated_at: out.generated_at,
+    user: MAL_USER,
+    title_count: 0,
+    titles: {}, // "<kind>:<mal_id>" -> {title, stacks:[ids], open, ptw}
+  };
+  for (const s of stacks) {
+    for (const e of s.entries) {
+      const key = e.kind + ":" + e.id;
+      let t = titleIndex.titles[key];
+      if (!t) {
+        t = titleIndex.titles[key] = {
+          title: e.title, stacks: [], open: false, ptw: false,
+        };
+        if (!e.on_list) t.open = true;
+        else if (["plan_to_watch", "plan_to_read", "on_hold"].includes(e.list_status)) t.ptw = true;
+      }
+      t.stacks.push(s.id);
+    }
+  }
+  titleIndex.title_count = Object.keys(titleIndex.titles).length;
+  writeFileSync("interest_stacks_title_index.json", JSON.stringify(titleIndex, null, 1) + "\n");
+
+  // Offene Titel, die in mehreren Stacks auftauchen = staerkstes Empfehlungssignal
+  const openTitleCount = new Map(); // kind:id -> {title, kind, id, stacks:Set}
+  for (const s of stacks) {
+    for (const e of s.entries) {
+      if (e.on_list && !["plan_to_watch", "plan_to_read", "on_hold"].includes(e.list_status)) continue;
+      const key = e.kind + ":" + e.id;
+      if (!openTitleCount.has(key)) openTitleCount.set(key, { title: e.title, kind: e.kind, id: e.id, stacks: new Set(), notes: [] });
+      const t = openTitleCount.get(key);
+      t.stacks.add(s.id);
+      if (e.note) t.notes.push(e.note);
+    }
+  }
+  const topOpen = [...openTitleCount.values()]
+    .filter(t => t.stacks.size >= 2)
+    .sort((a, b) => b.stacks.size - a.stacks.size || a.title.localeCompare(b.title));
 
   // Schritt-Summary fuer den Action-Run
   summary.push(
@@ -181,9 +257,13 @@ async function main() {
     `- Titel gesamt: **${totalEntries}**`,
     `- Noch nicht im Bestand (oder PTW/On-Hold): **${totalOpen}**`,
     ``,
-    `Top-Stacks mit den meisten offenen Titeln:`,
+    `### Top-Stacks mit den meisten offenen Titeln`,
     ...index.stacks.slice(0, 10).map(s =>
-      `- ${s.open}/${s.entries} offen - [${s.title}](https://myanimelist.net/stacks/${s.id})`),
+      `- ${s.open}/${s.entries} offen - [${s.title}](https://myanimelist.net/stacks/${s.id})${s.tags.length ? " (" + s.tags.join(", ") + ")" : ""}`),
+    ``,
+    `### Offene Titel in mehreren Stacks (staerkstes Empfehlungssignal)`,
+    ...topOpen.slice(0, 15).map(t =>
+      `- ${t.stacks.size}x - [${t.title}](https://myanimelist.net/${t.kind}/${t.id})${t.notes.length ? ' - "' + t.notes[0].slice(0, 80) + '"' : ""}`),
   );
   if (process.env.GITHUB_STEP_SUMMARY) {
     const { appendFileSync } = await import("node:fs");
