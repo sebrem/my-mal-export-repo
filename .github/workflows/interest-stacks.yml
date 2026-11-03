@@ -1,0 +1,49 @@
+# GitHub Action: Monatlicher Interest-Stacks Harvest (MAL oeffentliche Stack-Seiten)
+# Die MAL API v2 bietet KEINE Stack-Endpoints - deshalb Harvest der oeffentlichen
+# Profil-/Stack-Seiten (1 req/s, gedrosselt). Der Abgleich gegen den Bestand laeuft
+# rein lokal gegen mal_anime.json / mal_manga.json aus dem wöchentlichen MAL-Sync.
+# Cron nach Staff-Harvest (05:07) und vor sonstigen 05:1x-Laeufen, off-peak.
+
+name: Interest-Stacks Harvest
+
+on:
+  schedule:
+    # monatlich, 1. des Monats 05:13 UTC (off-peak)
+    - cron: "13 5 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stacks-harvest
+  cancel-in-progress: false
+
+env:
+  MAL_USER: DevOpsElfMage
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (MAL-Exporte lesen)
+        uses: actions/checkout@v7
+
+      - name: Node setup
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Interest-Stacks harvesten & gegen Bestand abgleichen
+        env:
+          MAL_USER: ${{ env.MAL_USER }}
+        run: node scripts/stacks_harvest.mjs
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add interest_stacks.json interest_stacks_index.json
+          git diff --cached --quiet || git commit -m "chore: monthly interest stacks harvest ($(date -u +%F))"
+          git pull --rebase origin main
+          git push || (sleep 20 && git pull --rebase origin main && git push)
