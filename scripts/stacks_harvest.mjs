@@ -50,9 +50,12 @@ function decode(s) {
 function parseStackEntries(html) {
   const entries = [];
   const seen = new Set();
+  // Sidebar ("More Top Anime" etc.) abschneiden: Hauptspalte endet vor "content-right"
+  const cut = html.indexOf("content-right");
+  const area = cut > 0 ? html.slice(0, cut) : html;
   const re = /<a[^>]+href="[^"]*?myanimelist\.net\/(anime|manga)\/(\d+)(?:\/[^"]*)?"[^>]*>([^<]+)<\/a>/gi;
   let m;
-  while ((m = re.exec(html)) !== null) {
+  while ((m = re.exec(area)) !== null) {
     const [, kind, idRaw, titleRaw] = m;
     const id = Number(idRaw);
     const title = decode(titleRaw).trim();
@@ -67,7 +70,8 @@ function parseStackEntries(html) {
 async function harvestStackIds() {
   const ids = new Set();
   for (let page = 1; page <= 50; page++) {
-    const url = `https://myanimelist.net/profile/${MAL_USER}/stacks?page=${page}`;
+    // Pagination der Profil-Stacks-Seite ist ?p=N (verifiziert 11/2026), ~10 Stacks pro Seite
+    const url = `https://myanimelist.net/profile/${MAL_USER}/stacks?p=${page}`;
     const html = await politeFetch(url);
     if (html === null) break;
     const re = /myanimelist\.net\/stacks\/(\d+)/g;
@@ -110,10 +114,11 @@ async function main() {
   for (const [i, id] of stackIds.entries()) {
     const html = await politeFetch(`https://myanimelist.net/stacks/${id}`);
     if (html === null) { failedStacks++; continue; }
-    const titleM = html.match(/<h1[^>]*>([^<]+)<\/h1>/i)
-      || html.match(/<title>([^<]+)<\/title>/i);
-    const isManga = /\/manga\//.test(html) && !/\/anime\//.test(html);
+    // Titel: <h2 class="title"> (verifiziert), Fallback <title> ohne MAL-Suffix
+    const titleM = html.match(/<h2 class="title">([^<]+)<\/h2>/i)
+      || html.match(/<title>([^<]+?)\s*-\s*Interest Stacks[^<]*<\/title>/i);
     const entries = parseStackEntries(html);
+    const isManga = entries.filter(e => e.kind === "manga").length > entries.filter(e => e.kind === "anime").length;
     if (entries.length === 0) {
       log(`  WARNUNG: Stack ${id} ohne Eintraege - Markup geaendert?`);
       failedStacks++;
