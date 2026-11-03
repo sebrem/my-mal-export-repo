@@ -1,0 +1,3582 @@
+{
+ "generated_at": "2026-11-03T11:41:43+00:00",
+ "source": "https://mangamillion.shueisha.co.jp",
+ "note": "Titel-Katalog aus Sitemap+og:title; Kapitel-Sprachen pro Titel serverseitig nicht pruefbar (App-API token-geschuetzt); free limited-time service",
+ "count": 397,
+ "de_named_titles": 34,
+ "titles": [
+  {
+   "id": 1,
+   "name": "One Piece",
+   "author": "Eiichiro Oda",
+   "name_de": "One Piece",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1"
+  },
+  {
+   "id": 4,
+   "name": "Takopi’s Original Sin",
+   "author": "Taizan5",
+   "name_de": "Takopi’s Original Sin",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/4",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/4"
+  },
+  {
+   "id": 7,
+   "name": "Look Back",
+   "author": "Tatsuki Fujimoto",
+   "name_de": "Look Back",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/7",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/7"
+  },
+  {
+   "id": 10,
+   "name": "Dandadan",
+   "author": "Yukinobu Tatsu",
+   "name_de": "Dandadan",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/10",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/10"
+  },
+  {
+   "id": 13,
+   "name": "Sakamoto Days",
+   "author": "Yuto Suzuki",
+   "name_de": "Sakamoto Days",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/13",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/13"
+  },
+  {
+   "id": 16,
+   "name": "Kaiju No. 8",
+   "author": "Naoya Matsumoto",
+   "name_de": "Kaiju No. 8",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/16",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/16"
+  },
+  {
+   "id": 19,
+   "name": "【OSHI NO KO】",
+   "author": "Aka Akasaka × Mengo Yokoyari",
+   "name_de": "[Mein*Star]",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/19",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/19"
+  },
+  {
+   "id": 22,
+   "name": "Mashle: Magic and Muscles",
+   "author": "Hajime Komoto",
+   "name_de": "Mashle: Magic and Muscles",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/22",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/22"
+  },
+  {
+   "id": 25,
+   "name": "Spy x Family",
+   "author": "Tatsuya Endo",
+   "name_de": "Spy × Family",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/25",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/25"
+  },
+  {
+   "id": 28,
+   "name": "Chainsaw Man",
+   "author": "Tatsuki Fujimoto",
+   "name_de": "Chainsaw Man",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/28",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/28"
+  },
+  {
+   "id": 31,
+   "name": "Jujutsu Kaisen",
+   "author": "Gege Akutami",
+   "name_de": "Jujutsu Kaisen",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/31",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/31"
+  },
+  {
+   "id": 34,
+   "name": "Hell&#x27;s Paradise: Jigokuraku",
+   "author": "Yuji Kaku",
+   "name_de": "Hell’s Paradise",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/34",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/34"
+  },
+  {
+   "id": 37,
+   "name": "Dr. STONE",
+   "author": "Boichi, Riichiro Inagaki",
+   "name_de": "Dr. Stone",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/37",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/37"
+  },
+  {
+   "id": 40,
+   "name": "The Promised Neverland",
+   "author": "Posuka Demizu, Kaiu Shirai",
+   "name_de": "THE PROMISED NEVERLAND",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/40",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/40"
+  },
+  {
+   "id": 43,
+   "name": "Honey Lemon Soda",
+   "author": "Mayu Murata",
+   "name_de": "Honey Lemon Soda",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/43",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/43"
+  },
+  {
+   "id": 46,
+   "name": "Boruto: Naruto Next Generations",
+   "author": "Masashi Kishimoto, Mikio Ikemoto, Ukyo Kodachi",
+   "name_de": "Boruto – Naruto Next Generations",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/46",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/46"
+  },
+  {
+   "id": 49,
+   "name": "Astra Lost in Space",
+   "author": "Kenta Shinohara",
+   "name_de": "Astra Lost in Space",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/49",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/49"
+  },
+  {
+   "id": 52,
+   "name": "Demon Slayer: Kimetsu no Yaiba",
+   "author": "Koyoharu Gotouge",
+   "name_de": "Demon Slayer - Kimetsu no Yaiba",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/52",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/52"
+  },
+  {
+   "id": 55,
+   "name": "Platinum End",
+   "author": "Tsugumi Ohba, Takeshi Obata",
+   "name_de": "Platinum End",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/55",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/55"
+  },
+  {
+   "id": 58,
+   "name": "Kaguya-sama: Love Is War",
+   "author": "Aka Akasaka",
+   "name_de": "Kaguya-sama: Love is War",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/58",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/58"
+  },
+  {
+   "id": 61,
+   "name": "Black Clover",
+   "author": "Yūki Tabata",
+   "name_de": "Black Clover",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/61",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/61"
+  },
+  {
+   "id": 64,
+   "name": "Golden Kamuy",
+   "author": "Satoru Noda",
+   "name_de": "Golden Kamuy",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/64",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/64"
+  },
+  {
+   "id": 67,
+   "name": "My Hero Academia",
+   "author": "Kohei Horikoshi",
+   "name_de": "My Hero Academia",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/67",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/67"
+  },
+  {
+   "id": 70,
+   "name": "World Trigger",
+   "author": "Daisuke Ashihara",
+   "name_de": "World Trigger",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/70",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/70"
+  },
+  {
+   "id": 73,
+   "name": "Assassination Classroom",
+   "author": "Yusei Matsui",
+   "name_de": "Assassination Classroom",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/73",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/73"
+  },
+  {
+   "id": 76,
+   "name": "One-Punch Man",
+   "author": "ONE, Yusuke Murata",
+   "name_de": "ONE-PUNCH MAN",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/76",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/76"
+  },
+  {
+   "id": 79,
+   "name": "Haikyu!!",
+   "author": "Haruichi Furudate",
+   "name_de": "Haikyu!!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/79",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/79"
+  },
+  {
+   "id": 82,
+   "name": "Tokyo Ghoul",
+   "author": "Sui Ishida",
+   "name_de": "Tokyo Ghoul",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/82",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/82"
+  },
+  {
+   "id": 85,
+   "name": "Terra Formars - Yu Sasuga, Ken-ichi Tachibana",
+   "author": "",
+   "name_de": "Terra Formars - Ken-ichi Tachibana, Yu Sasuga",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/85",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/85"
+  },
+  {
+   "id": 88,
+   "name": "Blue Exorcist",
+   "author": "Kazue Kato",
+   "name_de": "Blue Exorcist",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/88",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/88"
+  },
+  {
+   "id": 91,
+   "name": "Kuroko&#x27;s Basketball",
+   "author": "Tadatoshi Fujimaki",
+   "name_de": "Kuroko&#x27;s Basketball",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/91",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/91"
+  },
+  {
+   "id": 94,
+   "name": "Bakuman。",
+   "author": "Takeshi Obata, Tsugumi Ohba",
+   "name_de": "Bakuman.",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/94",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/94"
+  },
+  {
+   "id": 97,
+   "name": "Kingdom",
+   "author": "Yasuhisa Hara",
+   "name_de": "KINGDOM",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/97",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/97"
+  },
+  {
+   "id": 100,
+   "name": "Kimi ni Todoke: From Me to You",
+   "author": "Karuho Shiina",
+   "name_de": "Nah bei dir – Kimi ni todoke",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/100",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/100"
+  },
+  {
+   "id": 103,
+   "name": "Gin Tama",
+   "author": "Hideaki Sorachi",
+   "name_de": "Gin Tama",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/103",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/103"
+  },
+  {
+   "id": 106,
+   "name": "Death Note",
+   "author": "Takeshi Obata, Tsugumi Ohba",
+   "name_de": "Death Note",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/106",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/106"
+  },
+  {
+   "id": 109,
+   "name": "Bleach",
+   "author": "Tite Kubo",
+   "name_de": "Bleach",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/109",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/109"
+  },
+  {
+   "id": 112,
+   "name": "Nana",
+   "author": "Ai Yazawa",
+   "name_de": "NANA",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/112",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/112"
+  },
+  {
+   "id": 115,
+   "name": "Naruto",
+   "author": "Masashi Kishimoto",
+   "name_de": "Naruto",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/115",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/115"
+  },
+  {
+   "id": 118,
+   "name": "The Prince of Tennis",
+   "author": "Takeshi Konomi",
+   "name_de": "The Prince of Tennis",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/118",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/118"
+  },
+  {
+   "id": 121,
+   "name": "Hunter x Hunter",
+   "author": "Yoshihiro Togashi",
+   "name_de": "Hunter X Hunter",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/121",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/121"
+  },
+  {
+   "id": 124,
+   "name": "Rurouni Kenshin",
+   "author": "Nobuhiro Watsuki",
+   "name_de": "Rurouni Kenshin",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/124",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/124"
+  },
+  {
+   "id": 127,
+   "name": "JoJo&#x27;s Bizarre Adventure: Part 1--Phantom Blood",
+   "author": "Hirohiko Araki",
+   "name_de": "JoJo&#x27;s Bizarre Adventure",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/127",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/127"
+  },
+  {
+   "id": 130,
+   "name": "Captain Tsubasa",
+   "author": "Yoichi Takahashi",
+   "name_de": "Captain Tsubasa",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/130",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/130"
+  },
+  {
+   "id": 133,
+   "name": "Yotsuya Senpai no Kaidan",
+   "author": "Haruichi Furudate",
+   "name_de": "Yotsuya Senpai no Kaidan",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/133",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/133"
+  },
+  {
+   "id": 136,
+   "name": "HUNGRY JOKER",
+   "author": "Yuki Tabata",
+   "name_de": "HUNGRY JOKER",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/136",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/136"
+  },
+  {
+   "id": 139,
+   "name": "SKET DANCE",
+   "author": "Kenta Shinohara",
+   "name_de": "SKET DANCE",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/139",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/139"
+  },
+  {
+   "id": 142,
+   "name": "Sexy Commando Side Story: Amazing!! Masaru-san",
+   "author": "Kyosuke Usuta",
+   "name_de": "Sexy Commando Side Story: Amazing!! Masaru-san",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/142",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/142"
+  },
+  {
+   "id": 145,
+   "name": "Witching Hour Zoo",
+   "author": "Kohei Horikoshi",
+   "name_de": "Witching Hour Zoo",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/145",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/145"
+  },
+  {
+   "id": 148,
+   "name": "Super Dog Rilienthal",
+   "author": "Daisuke Ashihara",
+   "name_de": "Super Dog Rilienthal",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/148",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/148"
+  },
+  {
+   "id": 151,
+   "name": "LIAR GAME",
+   "author": "Shinobu Kaitani",
+   "name_de": "LIAR GAME",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/151",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/151"
+  },
+  {
+   "id": 154,
+   "name": "Bartender",
+   "author": "Araki Joh / Kenji Nagatomo",
+   "name_de": "Bartender",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/154",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/154"
+  },
+  {
+   "id": 175,
+   "name": "Radiation House",
+   "author": "Tomohiro Yokomaku / Taishi Mori",
+   "name_de": "Radiation House",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/175",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/175"
+  },
+  {
+   "id": 178,
+   "name": "Welcome to Ethics Class",
+   "author": "Shiori Amase",
+   "name_de": "Welcome to Ethics Class",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/178",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/178"
+  },
+  {
+   "id": 181,
+   "name": "DRAFT KING",
+   "author": "Tetsuro Kuromatsu",
+   "name_de": "DRAFT KING",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/181",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/181"
+  },
+  {
+   "id": 184,
+   "name": "Shrink: Psychiatrist Yowai",
+   "author": "Jin Nanami / Tsukiko",
+   "name_de": "Shrink: Psychiatrist Yowai",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/184",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/184"
+  },
+  {
+   "id": 187,
+   "name": "The King’s Tailor: Sarto Finito",
+   "author": "Ton Okawara",
+   "name_de": "The King’s Tailor: Sarto Finito",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/187",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/187"
+  },
+  {
+   "id": 190,
+   "name": "Sing “Yesterday” For Me",
+   "author": "Kei Toume",
+   "name_de": "Sing “Yesterday” For Me",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/190",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/190"
+  },
+  {
+   "id": 193,
+   "name": "Daimonji and Problem Children",
+   "author": "Botaro Sase",
+   "name_de": "Daimonji and Problem Children",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/193",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/193"
+  },
+  {
+   "id": 196,
+   "name": "ONE PIECE ACADEMY",
+   "author": "Souhei Kouji　/　Eiichiro Oda",
+   "name_de": "ONE PIECE ACADEMY",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/196",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/196"
+  },
+  {
+   "id": 199,
+   "name": "CAPTAIN TSUBASA KIDS DREAM",
+   "author": "Yoichi Takahashi / Kunikazu Toda",
+   "name_de": "CAPTAIN TSUBASA KIDS DREAM",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/199",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/199"
+  },
+  {
+   "id": 202,
+   "name": "CAPTAIN TSUBASA BOYS DREAM",
+   "author": "Yoichi Takahashi / Kunikazu Toda",
+   "name_de": "CAPTAIN TSUBASA BOYS DREAM",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/202",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/202"
+  },
+  {
+   "id": 205,
+   "name": "Hell Teacher: Jigoku Sensei Nube S",
+   "author": "Shou Makura / Takeshi Okano",
+   "name_de": "Hell Teacher: Jigoku Sensei Nube S",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/205",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/205"
+  },
+  {
+   "id": 208,
+   "name": "Rock Lee&#x27;s Springtime of Youth Full Power Ninja Chronicles",
+   "author": "Kenji Taira / Masashi Kishimoto",
+   "name_de": "Rock Lee&#x27;s Springtime of Youth Full Power Ninja Chronicles",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/208",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/208"
+  },
+  {
+   "id": 211,
+   "name": "Chopperman",
+   "author": "Hirofumi Takei / Eiichiro Oda",
+   "name_de": "Chopperman",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/211",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/211"
+  },
+  {
+   "id": 214,
+   "name": "Extra Spicy! Curry Prince",
+   "author": "Makoto Kamo",
+   "name_de": "Extra Spicy! Curry Prince",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/214",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/214"
+  },
+  {
+   "id": 217,
+   "name": "Gourmet Academy Toriko",
+   "author": "Akitsugu Mizumoto / Mitsutoshi Shimabukuro",
+   "name_de": "Gourmet Academy Toriko",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/217",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/217"
+  },
+  {
+   "id": 220,
+   "name": "What the Ancient?! Here Comes Pharaoh-kun!",
+   "author": "Setta Kobayashi",
+   "name_de": "What the Ancient?! Here Comes Pharaoh-kun!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/220",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/220"
+  },
+  {
+   "id": 223,
+   "name": "Real Taste! Usakichi-kun",
+   "author": "Shimon Sekii",
+   "name_de": "Real Taste! Usakichi-kun",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/223",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/223"
+  },
+  {
+   "id": 226,
+   "name": "Korosensei Quest!",
+   "author": "Kizuku Watanabe / Jo Aoto / Yusei Matsui",
+   "name_de": "Korosensei Quest!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/226",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/226"
+  },
+  {
+   "id": 229,
+   "name": "BORUTO: SAIKYO DASH GENERATIONS",
+   "author": "Kenji Taira / Original Work / Masashi Kishimoto",
+   "name_de": "BORUTO: SAIKYO DASH GENERATIONS",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/229",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/229"
+  },
+  {
+   "id": 232,
+   "name": "Black Clover SD: Asta on the Road to the Wizard King",
+   "author": "Setta Kobayashi / Yuki Tabata",
+   "name_de": "Black Clover SD: Asta on the Road to the Wizard King",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/232",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/232"
+  },
+  {
+   "id": 235,
+   "name": "Yell for the Blue Sky",
+   "author": "Kazune Kawahara",
+   "name_de": "Yell for the Blue Sky",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/235",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/235"
+  },
+  {
+   "id": 238,
+   "name": "My sister&#x27;s Midori-kun",
+   "author": "Amu Meguro",
+   "name_de": "My sister&#x27;s Midori-kun",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/238",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/238"
+  },
+  {
+   "id": 241,
+   "name": "We Don&#x27;t Know Love Yet",
+   "author": "Minami Mizuno",
+   "name_de": "We Don&#x27;t Know Love Yet",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/241",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/241"
+  },
+  {
+   "id": 244,
+   "name": "He&#x27;s Mine!",
+   "author": "Momoko Kouda",
+   "name_de": "He&#x27;s Mine!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/244",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/244"
+  },
+  {
+   "id": 247,
+   "name": "Let&#x27;s Hang Out in Territory M!",
+   "author": "Toko Minami",
+   "name_de": "Let&#x27;s Hang Out in Territory M!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/247",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/247"
+  },
+  {
+   "id": 250,
+   "name": "CRAZY FOR YOU",
+   "author": "Karuho Shiina",
+   "name_de": "CRAZY FOR YOU",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/250",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/250"
+  },
+  {
+   "id": 253,
+   "name": "HOT ROAD",
+   "author": "Tsumugi  Taku",
+   "name_de": "HOT ROAD",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/253",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/253"
+  },
+  {
+   "id": 256,
+   "name": "Kabamaru Igano",
+   "author": "Yu Azuki",
+   "name_de": "Kabamaru Igano",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/256",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/256"
+  },
+  {
+   "id": 259,
+   "name": "THE DEVIL DOES EXIST",
+   "author": "Mitsuba Takanashi",
+   "name_de": "THE DEVIL DOES EXIST",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/259",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/259"
+  },
+  {
+   "id": 262,
+   "name": "Gyaru Japon",
+   "author": "Masako Shitara",
+   "name_de": "Gyaru Japon",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/262",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/262"
+  },
+  {
+   "id": 265,
+   "name": "SIX HALF",
+   "author": "Rikako Iketani",
+   "name_de": "SIX HALF",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/265",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/265"
+  },
+  {
+   "id": 268,
+   "name": "HAKOIRI GIRL",
+   "author": "Rikako Iketani",
+   "name_de": "HAKOIRI GIRL",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/268",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/268"
+  },
+  {
+   "id": 271,
+   "name": "Innocently, Softly",
+   "author": "Ryo Ikuemi",
+   "name_de": "Innocently, Softly",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/271",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/271"
+  },
+  {
+   "id": 274,
+   "name": "The Sun (May Be) Watching",
+   "author": "Ryo Ikuemi",
+   "name_de": "The Sun (May Be) Watching",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/274",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/274"
+  },
+  {
+   "id": 277,
+   "name": "Bridge of Threads",
+   "author": "Shoko Hidaka",
+   "name_de": "Bridge of Threads",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/277",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/277"
+  },
+  {
+   "id": 280,
+   "name": "Yesterday, Today, and Tomorrow",
+   "author": "Sono Kisaragi",
+   "name_de": "Yesterday, Today, and Tomorrow",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/280",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/280"
+  },
+  {
+   "id": 283,
+   "name": "Crescent Moon and Shooting Star",
+   "author": "Ayumi Shiina",
+   "name_de": "Crescent Moon and Shooting Star",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/283",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/283"
+  },
+  {
+   "id": 286,
+   "name": "STILL IMMATURE",
+   "author": "Maria",
+   "name_de": "STILL IMMATURE",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/286",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/286"
+  },
+  {
+   "id": 289,
+   "name": "We cannot pay you for this! ~Ms. Moriwaka of Accounting Depart~",
+   "author": "Yuko Aoki / Kosachi Mori",
+   "name_de": "We cannot pay you for this! ~Ms. Moriwaka of Accounting Depart~",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/289",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/289"
+  },
+  {
+   "id": 292,
+   "name": "Solo Dining Robot",
+   "author": "Hisae Iwaoka",
+   "name_de": "Solo Dining Robot",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/292",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/292"
+  },
+  {
+   "id": 295,
+   "name": "THE ROUND POTAGER",
+   "author": "Haruka Aizawa",
+   "name_de": "THE ROUND POTAGER",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/295",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/295"
+  },
+  {
+   "id": 298,
+   "name": "Honey Bitter",
+   "author": "Miho Obana",
+   "name_de": "Honey Bitter",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/298",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/298"
+  },
+  {
+   "id": 301,
+   "name": "Anohana: The Flower We Saw That Day",
+   "author": "Super Peace Busters / \nMitsu Izumi",
+   "name_de": "Anohana: The Flower We Saw That Day",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/301",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/301"
+  },
+  {
+   "id": 304,
+   "name": "PSYCHO-PASS : Inspector Akane Tsunemori - Hikaru Miyoshi / PSYCHO-PASS Committee / Akira Amano / Gen Urobuchi (NITRO PLUS)",
+   "author": "",
+   "name_de": "PSYCHO-PASS : Inspector Akane Tsunemori - Hikaru Miyoshi / PSYCHO-PASS Committee / Akira Amano / Gen Urobuchi (NITRO PLUS)",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/304",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/304"
+  },
+  {
+   "id": 307,
+   "name": "This Communication",
+   "author": "Rokudai Maruei",
+   "name_de": "This Communication",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/307",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/307"
+  },
+  {
+   "id": 310,
+   "name": "Strange Tales from the Handy Shop Karukaya",
+   "author": "Kazue Kato / Fuyumi Ono",
+   "name_de": "Strange Tales from the Handy Shop Karukaya",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/310",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/310"
+  },
+  {
+   "id": 313,
+   "name": "Mr.Clice",
+   "author": "Osamu Akimoto",
+   "name_de": "Mr.Clice",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/313",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/313"
+  },
+  {
+   "id": 316,
+   "name": "Super! Luckyman",
+   "author": "Hiroshi Gamou",
+   "name_de": "Super! Luckyman",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/316",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/316"
+  },
+  {
+   "id": 319,
+   "name": "Gag Manga Biyori",
+   "author": "Kosuke Masuda",
+   "name_de": "Gag Manga Biyori",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/319",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/319"
+  },
+  {
+   "id": 322,
+   "name": "Puppet Master Sakon",
+   "author": "Maro Sharaku / Takeshi Obata",
+   "name_de": "Puppet Master Sakon",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/322",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/322"
+  },
+  {
+   "id": 325,
+   "name": "Embalming: THE ANOTHER TALE OF FRANKENSTEIN",
+   "author": "Nobuhiro Watsuki",
+   "name_de": "Embalming: THE ANOTHER TALE OF FRANKENSTEIN",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/325",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/325"
+  },
+  {
+   "id": 328,
+   "name": "Good Luck Girl!",
+   "author": "Yoshiaki Sukeno",
+   "name_de": "Good Luck Girl!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/328",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/328"
+  },
+  {
+   "id": 331,
+   "name": "Teiichi: Battle of Supreme High",
+   "author": "Usamaru Furuya",
+   "name_de": "Teiichi: Battle of Supreme High",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/331",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/331"
+  },
+  {
+   "id": 334,
+   "name": "Shiki",
+   "author": "Fuyumi Ono / Ryu Fujisaki",
+   "name_de": "Shiki",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/334",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/334"
+  },
+  {
+   "id": 337,
+   "name": "The First Murder",
+   "author": "Kanmi",
+   "name_de": "The First Murder",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/337",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/337"
+  },
+  {
+   "id": 340,
+   "name": "The Cutest Boy is Waiting for Me at Home",
+   "author": "Waka Takase",
+   "name_de": "The Cutest Boy is Waiting for Me at Home",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/340",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/340"
+  },
+  {
+   "id": 346,
+   "name": "Gintaro-san, Much Obliged",
+   "author": "Akiko Higashimura",
+   "name_de": "Gintaro-san, Much Obliged",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/346",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/346"
+  },
+  {
+   "id": 349,
+   "name": "THE MOMENT",
+   "author": "Satoru Makimura",
+   "name_de": "THE MOMENT",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/349",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/349"
+  },
+  {
+   "id": 352,
+   "name": "Pure and Natural Cock-A-Doodle-Doo",
+   "author": "Fusako Kuramochi",
+   "name_de": "Pure and Natural Cock-A-Doodle-Doo",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/352",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/352"
+  },
+  {
+   "id": 355,
+   "name": "Twice a Day",
+   "author": "Ryo Ikuemi",
+   "name_de": "Twice a Day",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/355",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/355"
+  },
+  {
+   "id": 358,
+   "name": "You and I on the G string",
+   "author": "Ryo Ikuemi",
+   "name_de": "You and I on the G string",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/358",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/358"
+  },
+  {
+   "id": 361,
+   "name": "Otome Tsubaki Never Laughs",
+   "author": "Mitsuba Takanashi",
+   "name_de": "Otome Tsubaki Never Laughs",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/361",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/361"
+  },
+  {
+   "id": 364,
+   "name": "Papa told me",
+   "author": "Nanae Haruno",
+   "name_de": "Papa told me",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/364",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/364"
+  },
+  {
+   "id": 367,
+   "name": "Sumika Sumire",
+   "author": "Mitsuba Takanashi",
+   "name_de": "Sumika Sumire",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/367",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/367"
+  },
+  {
+   "id": 370,
+   "name": "Detective Doggy",
+   "author": "Kozueko Morimoto",
+   "name_de": "Detective Doggy",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/370",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/370"
+  },
+  {
+   "id": 373,
+   "name": "My Mom is Easily Flustered",
+   "author": "Akiko Higashimura",
+   "name_de": "My Mom is Easily Flustered",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/373",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/373"
+  },
+  {
+   "id": 376,
+   "name": "Goro Akechi,Epicurean Private Eye",
+   "author": "Akiko Higashimura",
+   "name_de": "Goro Akechi,Epicurean Private Eye",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/376",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/376"
+  },
+  {
+   "id": 379,
+   "name": "For the First Time",
+   "author": "Fumiko Tanikawa",
+   "name_de": "For the First Time",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/379",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/379"
+  },
+  {
+   "id": 382,
+   "name": "Aranjuez of Love",
+   "author": "Satoru Makimura",
+   "name_de": "Aranjuez of Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/382",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/382"
+  },
+  {
+   "id": 385,
+   "name": "Chopin is Always in My Pocket",
+   "author": "Fusako Kuramochi",
+   "name_de": "Chopin is Always in My Pocket",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/385",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/385"
+  },
+  {
+   "id": 388,
+   "name": "N★Y Bird",
+   "author": "Satoru Makimura",
+   "name_de": "N★Y Bird",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/388",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/388"
+  },
+  {
+   "id": 391,
+   "name": "Tonkatsu DJ Agetaro",
+   "author": "Yipiao / Yujiro Koyama",
+   "name_de": "Tonkatsu DJ Agetaro",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/391",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/391"
+  },
+  {
+   "id": 394,
+   "name": "Eren the Southpaw",
+   "author": "Kappy / Nifuni",
+   "name_de": "Eren the Southpaw",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/394",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/394"
+  },
+  {
+   "id": 397,
+   "name": "KISSxDEATH",
+   "author": "Yasuhiro Kanou",
+   "name_de": "KISSxDEATH",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/397",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/397"
+  },
+  {
+   "id": 400,
+   "name": "My Capricorn friend",
+   "author": "Otsuichi / Masaru Miyokawa",
+   "name_de": "My Capricorn friend",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/400",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/400"
+  },
+  {
+   "id": 403,
+   "name": "Re/Member",
+   "author": "Welzard/Katsutoshi Murase",
+   "name_de": "Re/Member",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/403",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/403"
+  },
+  {
+   "id": 406,
+   "name": "The Naked Swan",
+   "author": "Tsurun Hatomune",
+   "name_de": "The Naked Swan",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/406",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/406"
+  },
+  {
+   "id": 409,
+   "name": "Saguri’s Explorations",
+   "author": "Yoco Akiyama",
+   "name_de": "Saguri’s Explorations",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/409",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/409"
+  },
+  {
+   "id": 412,
+   "name": "A Medusa in a Spa Town",
+   "author": "Taira Wadachi",
+   "name_de": "A Medusa in a Spa Town",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/412",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/412"
+  },
+  {
+   "id": 415,
+   "name": "My Face Doesn’t Belong in This World",
+   "author": "Manose",
+   "name_de": "My Face Doesn’t Belong in This World",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/415",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/415"
+  },
+  {
+   "id": 418,
+   "name": "Hyper Inflation",
+   "author": "Kyu Sumiyoshi",
+   "name_de": "Hyper Inflation",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/418",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/418"
+  },
+  {
+   "id": 421,
+   "name": "Debby the Corsifa Never Backs Down",
+   "author": "Masahiro Hirakata",
+   "name_de": "Debby the Corsifa Never Backs Down",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/421",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/421"
+  },
+  {
+   "id": 424,
+   "name": "The King of the Board",
+   "author": "Toshiya Watahiki / Garaku Akinai",
+   "name_de": "The King of the Board",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/424",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/424"
+  },
+  {
+   "id": 427,
+   "name": "Kuroko’s Basketball Replace PLUS",
+   "author": "Ichiro Takahashi / Tadatoshi Fujimaki/ Sawako Hirabayashi",
+   "name_de": "Kuroko’s Basketball Replace PLUS",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/427",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/427"
+  },
+  {
+   "id": 430,
+   "name": "Food Wars!: L&#x27;etoile",
+   "author": "Michiko Ito / Taiki Akitoki / Yuto Tsukuda / Shun Saeki / Yuki Morisaki",
+   "name_de": "Food Wars!: L&#x27;etoile",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/430",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/430"
+  },
+  {
+   "id": 433,
+   "name": "How to Brew Delicious Coffee",
+   "author": "Yuki Aonuma / Ao Suzumemura / Yu / Yuka Murayama",
+   "name_de": "How to Brew Delicious Coffee",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/433",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/433"
+  },
+  {
+   "id": 436,
+   "name": "Evil Beauty and the Devil Prince",
+   "author": "Noriko Asaka / *Aira*",
+   "name_de": "Evil Beauty and the Devil Prince",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/436",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/436"
+  },
+  {
+   "id": 439,
+   "name": "You Are the Blue Lightning in Me",
+   "author": "Umi Nijisawa",
+   "name_de": "You Are the Blue Lightning in Me",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/439",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/439"
+  },
+  {
+   "id": 442,
+   "name": "HIGH SCORE",
+   "author": "Chinami Tsuyama",
+   "name_de": "HIGH SCORE",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/442",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/442"
+  },
+  {
+   "id": 445,
+   "name": "Animal Yokocho",
+   "author": "Ryo Maekawa",
+   "name_de": "Animal Yokocho",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/445",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/445"
+  },
+  {
+   "id": 448,
+   "name": "My First Love Like a Bright Sun",
+   "author": "Honoka Kinoshita",
+   "name_de": "My First Love Like a Bright Sun",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/448",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/448"
+  },
+  {
+   "id": 451,
+   "name": "Vampire and the Rose",
+   "author": "Noriko Asaka",
+   "name_de": "Vampire and the Rose",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/451",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/451"
+  },
+  {
+   "id": 454,
+   "name": "Furuya sensei belongs to An-chan!",
+   "author": "Yuko Kasumi",
+   "name_de": "Furuya sensei belongs to An-chan!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/454",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/454"
+  },
+  {
+   "id": 457,
+   "name": "Nana&#x27;s Rainbow Revolution",
+   "author": "Mizuka Yuzuhara",
+   "name_de": "Nana&#x27;s Rainbow Revolution",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/457",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/457"
+  },
+  {
+   "id": 460,
+   "name": "Buddy Go!",
+   "author": "Minori Kurosaki",
+   "name_de": "Buddy Go!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/460",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/460"
+  },
+  {
+   "id": 463,
+   "name": "CRASH！",
+   "author": "Yuka Fujiwara",
+   "name_de": "CRASH！",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/463",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/463"
+  },
+  {
+   "id": 466,
+   "name": "Hiyokoi: Chick Love",
+   "author": "Moe Yukimaru",
+   "name_de": "Hiyokoi: Chick Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/466",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/466"
+  },
+  {
+   "id": 469,
+   "name": "Screaming Lessons",
+   "author": "Emi Ishikawa",
+   "name_de": "Screaming Lessons",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/469",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/469"
+  },
+  {
+   "id": 475,
+   "name": "Yumeiro Patissiere",
+   "author": "Natsumi Matsumoto",
+   "name_de": "Yumeiro Patissiere",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/475",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/475"
+  },
+  {
+   "id": 478,
+   "name": "Stardust★Wink",
+   "author": "Nana Haruta",
+   "name_de": "Stardust★Wink",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/478",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/478"
+  },
+  {
+   "id": 481,
+   "name": "Rockin‘★Heaven",
+   "author": "Mayu Sakai",
+   "name_de": "Rockin‘★Heaven",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/481",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/481"
+  },
+  {
+   "id": 484,
+   "name": "Nagatacho Strawberry",
+   "author": "Mayu Sakai",
+   "name_de": "Nagatacho Strawberry",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/484",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/484"
+  },
+  {
+   "id": 487,
+   "name": "GALS!",
+   "author": "Mihona Fujii",
+   "name_de": "GALS!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/487",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/487"
+  },
+  {
+   "id": 490,
+   "name": "Sparkly Lion Boy",
+   "author": "Yoko Maki",
+   "name_de": "Sparkly Lion Boy",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/490",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/490"
+  },
+  {
+   "id": 493,
+   "name": "Sweet Memory Konpeito",
+   "author": "Aki Mochida",
+   "name_de": "Sweet Memory Konpeito",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/493",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/493"
+  },
+  {
+   "id": 496,
+   "name": "Kodocha: Sana&#x27;s Stage",
+   "author": "Miho Obana",
+   "name_de": "Kodocha: Sana&#x27;s Stage",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/496",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/496"
+  },
+  {
+   "id": 499,
+   "name": "Hime-chan&#x27;s Ribbon",
+   "author": "Megumi Mizusawa",
+   "name_de": "Hime-chan&#x27;s Ribbon",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/499",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/499"
+  },
+  {
+   "id": 502,
+   "name": "Akazukin Chacha",
+   "author": "Min Ayahana",
+   "name_de": "Akazukin Chacha",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/502",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/502"
+  },
+  {
+   "id": 505,
+   "name": "Good Morning Call",
+   "author": "Yue Takasuka",
+   "name_de": "Good Morning Call",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/505",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/505"
+  },
+  {
+   "id": 508,
+   "name": "Baby★LOVE",
+   "author": "Ayumi Shiina",
+   "name_de": "Baby★LOVE",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/508",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/508"
+  },
+  {
+   "id": 511,
+   "name": "The Scandal of You and Me",
+   "author": "Ayumi Shiina",
+   "name_de": "The Scandal of You and Me",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/511",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/511"
+  },
+  {
+   "id": 514,
+   "name": "Chibi Maruko-chan",
+   "author": "Momoko Sakura",
+   "name_de": "Chibi Maruko-chan",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/514",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/514"
+  },
+  {
+   "id": 517,
+   "name": "Silhouette of star eyes",
+   "author": "Aoi Hiiragi",
+   "name_de": "Silhouette of star eyes",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/517",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/517"
+  },
+  {
+   "id": 520,
+   "name": "Whisper of the Heart",
+   "author": "Aoi Hiiragi",
+   "name_de": "Whisper of the Heart",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/520",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/520"
+  },
+  {
+   "id": 523,
+   "name": "Junket Bank",
+   "author": "Ikko Tanaka",
+   "name_de": "Junket Bank",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/523",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/523"
+  },
+  {
+   "id": 526,
+   "name": "BUNGO",
+   "author": "Yuji Ninomiya",
+   "name_de": "BUNGO",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/526",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/526"
+  },
+  {
+   "id": 529,
+   "name": "Ilios",
+   "author": "Masaki Enjoji",
+   "name_de": "Ilios",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/529",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/529"
+  },
+  {
+   "id": 532,
+   "name": "Gaslight Stray Dog Detectives",
+   "author": "Yugo Aosaki / Toshimitsu Matsubara",
+   "name_de": "Gaslight Stray Dog Detectives",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/532",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/532"
+  },
+  {
+   "id": 535,
+   "name": "Record of Havila War: Tales of the Butterfly",
+   "author": "MINOSUKE / Kenjiro Machi / Namiko Nishimura",
+   "name_de": "Record of Havila War: Tales of the Butterfly",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/535",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/535"
+  },
+  {
+   "id": 538,
+   "name": "Usogui",
+   "author": "Toshio Sako",
+   "name_de": "Usogui",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/538",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/538"
+  },
+  {
+   "id": 541,
+   "name": "81diver",
+   "author": "Yokusaru Shibata",
+   "name_de": "81diver",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/541",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/541"
+  },
+  {
+   "id": 544,
+   "name": "Brynhildr in the Darkness",
+   "author": "Lynn Okamoto",
+   "name_de": "Brynhildr in the Darkness",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/544",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/544"
+  },
+  {
+   "id": 547,
+   "name": "War of the Youths",
+   "author": "Masaki Kasahara",
+   "name_de": "War of the Youths",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/547",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/547"
+  },
+  {
+   "id": 550,
+   "name": "Rikudo",
+   "author": "Toshimitsu Matsubara",
+   "name_de": "Rikudo",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/550",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/550"
+  },
+  {
+   "id": 553,
+   "name": "The Evil Woman Next Door",
+   "author": "Vanessa Chihiro Tamaki",
+   "name_de": "The Evil Woman Next Door",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/553",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/553"
+  },
+  {
+   "id": 556,
+   "name": "Liar Lily",
+   "author": "Ayumi Komura",
+   "name_de": "Liar Lily",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/556",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/556"
+  },
+  {
+   "id": 559,
+   "name": "Ojosama Wa Oyomesama. ‐The Young Lady Gets Married‐",
+   "author": "Megumi Hazuki",
+   "name_de": "Ojosama Wa Oyomesama. ‐The Young Lady Gets Married‐",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/559",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/559"
+  },
+  {
+   "id": 562,
+   "name": "Switch Girl!",
+   "author": "Natsumi Aida",
+   "name_de": "Switch Girl!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/562",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/562"
+  },
+  {
+   "id": 565,
+   "name": "My First Boyfriend",
+   "author": "Miyoshi Tomori",
+   "name_de": "My First Boyfriend",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/565",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/565"
+  },
+  {
+   "id": 568,
+   "name": "Mei’s Butler",
+   "author": "Rico Miyagi",
+   "name_de": "Mei’s Butler",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/568",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/568"
+  },
+  {
+   "id": 571,
+   "name": "Mairu, The Bitch",
+   "author": "Zakuri Sato",
+   "name_de": "Mairu, The Bitch",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/571",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/571"
+  },
+  {
+   "id": 574,
+   "name": "Parfait Chic",
+   "author": "Nagamu Nanaji",
+   "name_de": "Parfait Chic",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/574",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/574"
+  },
+  {
+   "id": 577,
+   "name": "Love Story! – Fall in Love, Hanabi –",
+   "author": "Nagamu Nanaji",
+   "name_de": "Love Story! – Fall in Love, Hanabi –",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/577",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/577"
+  },
+  {
+   "id": 580,
+   "name": "I&#x27;m Walkin&#x27;",
+   "author": "Nagamu Nanaji",
+   "name_de": "I&#x27;m Walkin&#x27;",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/580",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/580"
+  },
+  {
+   "id": 586,
+   "name": "Cuteness Overload Crisis",
+   "author": "Mitsuru Kido",
+   "name_de": "Cuteness Overload Crisis",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/586",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/586"
+  },
+  {
+   "id": 589,
+   "name": "Do something bad with me.",
+   "author": "Haru Aoi",
+   "name_de": "Do something bad with me.",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/589",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/589"
+  },
+  {
+   "id": 592,
+   "name": "Tama&#x27;s Reward",
+   "author": "Kaori Hoshiya",
+   "name_de": "Tama&#x27;s Reward",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/592",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/592"
+  },
+  {
+   "id": 595,
+   "name": "La Vie en rose",
+   "author": "Chihiro Hiro",
+   "name_de": "La Vie en rose",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/595",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/595"
+  },
+  {
+   "id": 598,
+   "name": "Legend of the Galactic Heroes",
+   "author": "Yoshiki Tanaka / Ryu Fujisaki",
+   "name_de": "Legend of the Galactic Heroes",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/598",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/598"
+  },
+  {
+   "id": 601,
+   "name": "The Sitting Duck Bites Back: Professor Kamo&#x27;s Lecture on Behavioral Economics",
+   "author": "Shinobu Kaitani/Takeshi Natsuhara",
+   "name_de": "The Sitting Duck Bites Back: Professor Kamo&#x27;s Lecture on Behavioral Economics",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/601",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/601"
+  },
+  {
+   "id": 604,
+   "name": "Messiah: The Former Hero Who Saved Another World Dominates the Real World Overflowing With Monsters",
+   "author": "Owari Heisei / Eri Harada",
+   "name_de": "Messiah: The Former Hero Who Saved Another World Dominates the Real World Overflowing With Monsters",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/604",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/604"
+  },
+  {
+   "id": 607,
+   "name": "Erio &amp; the Electric Doll",
+   "author": "Mujirushi Shimazaki / Kuroimori",
+   "name_de": "Erio &amp; the Electric Doll",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/607",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/607"
+  },
+  {
+   "id": 610,
+   "name": "ONE PIECE in Love",
+   "author": "Daiki Ihara (based on ONE PIECE by Eiichiro Oda)",
+   "name_de": "ONE PIECE in Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/610",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/610"
+  },
+  {
+   "id": 613,
+   "name": "Monster’s Bouquet",
+   "author": "Shini Amahana",
+   "name_de": "Monster’s Bouquet",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/613",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/613"
+  },
+  {
+   "id": 616,
+   "name": "Better to Cry for Love",
+   "author": "Aki Kusaka",
+   "name_de": "Better to Cry for Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/616",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/616"
+  },
+  {
+   "id": 619,
+   "name": "Welcome to Apartment Aoharu",
+   "author": "Minami Mizuno",
+   "name_de": "Welcome to Apartment Aoharu",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/619",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/619"
+  },
+  {
+   "id": 622,
+   "name": "Daily Life at Tadano Technical High School",
+   "author": "Chisato Oga",
+   "name_de": "Daily Life at Tadano Technical High School",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/622",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/622"
+  },
+  {
+   "id": 625,
+   "name": "Flower and Asura",
+   "author": "Ayano Takeda / Musshu",
+   "name_de": "Flower and Asura",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/625",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/625"
+  },
+  {
+   "id": 628,
+   "name": "The Melancholy of Yukio Okumura, a Businessman Exorcist",
+   "author": "Minoru Sasaki / Kazue Kato",
+   "name_de": "The Melancholy of Yukio Okumura, a Businessman Exorcist",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/628",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/628"
+  },
+  {
+   "id": 631,
+   "name": "Let’s! Haikyu?!",
+   "author": "Haruichi Furudate",
+   "name_de": "Let’s! Haikyu?!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/631",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/631"
+  },
+  {
+   "id": 634,
+   "name": "Pochi Kuro",
+   "author": "Naoya Matsumoto",
+   "name_de": "Pochi Kuro",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/634",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/634"
+  },
+  {
+   "id": 637,
+   "name": "Kagamigami",
+   "author": "Toshiaki Iwashiro",
+   "name_de": "Kagamigami",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/637",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/637"
+  },
+  {
+   "id": 640,
+   "name": "Sunny After Bloom - Boys Over Flowers: Next Season",
+   "author": "Yoko Kamio",
+   "name_de": "Sunny After Bloom - Boys Over Flowers: Next Season",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/640",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/640"
+  },
+  {
+   "id": 643,
+   "name": "In One&#x27;s Last Moment",
+   "author": "Kentaro Fukuda",
+   "name_de": "In One&#x27;s Last Moment",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/643",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/643"
+  },
+  {
+   "id": 646,
+   "name": "The Ultimate Engagement",
+   "author": "Shunji Eto / Yoshiyuki Miwa",
+   "name_de": "The Ultimate Engagement",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/646",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/646"
+  },
+  {
+   "id": 649,
+   "name": "Toki of Choices",
+   "author": "Kiri Gunchi",
+   "name_de": "Toki of Choices",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/649",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/649"
+  },
+  {
+   "id": 652,
+   "name": "The Witch’s Cursed Paintings",
+   "author": "Hachi",
+   "name_de": "The Witch’s Cursed Paintings",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/652",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/652"
+  },
+  {
+   "id": 655,
+   "name": "Suginami Subjugation Officer: The People on Dungeon Duty",
+   "author": "Robinson Haruhara / Yuki Sato / Naoki Saito",
+   "name_de": "Suginami Subjugation Officer: The People on Dungeon Duty",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/655",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/655"
+  },
+  {
+   "id": 658,
+   "name": "Black Clover: Quartet Knights",
+   "author": "Tashiro Yumiya/ Yuki Tabata",
+   "name_de": "Black Clover: Quartet Knights",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/658",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/658"
+  },
+  {
+   "id": 661,
+   "name": "The parodied Jokeland",
+   "author": "Shuhei Miyazaki / Kaiu Shirai / Posuka Demizu",
+   "name_de": "The parodied Jokeland",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/661",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/661"
+  },
+  {
+   "id": 664,
+   "name": "Haikyu-bu!!",
+   "author": "Kyohei Miyajima",
+   "name_de": "Haikyu-bu!!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/664",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/664"
+  },
+  {
+   "id": 667,
+   "name": "Dear CALL",
+   "author": "Kiri Gunchi",
+   "name_de": "Dear CALL",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/667",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/667"
+  },
+  {
+   "id": 670,
+   "name": "Timebomb Teacher",
+   "author": "Yanagi Takakuchi",
+   "name_de": "Timebomb Teacher",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/670",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/670"
+  },
+  {
+   "id": 673,
+   "name": "Moriarty the Patriot: The Remains",
+   "author": "Yosuke Saita / Hikaru Miyoshi",
+   "name_de": "Moriarty the Patriot: The Remains",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/673",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/673"
+  },
+  {
+   "id": 676,
+   "name": "FIRE BALL！",
+   "author": "Yukinobu Tatsu",
+   "name_de": "FIRE BALL！",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/676",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/676"
+  },
+  {
+   "id": 679,
+   "name": "What an AVERAGE way Koiko goes!",
+   "author": "Nagamu Nanaji",
+   "name_de": "What an AVERAGE way Koiko goes!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/679",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/679"
+  },
+  {
+   "id": 682,
+   "name": "Yagami is Still Mean Today",
+   "author": "Saki Aikawa",
+   "name_de": "Yagami is Still Mean Today",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/682",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/682"
+  },
+  {
+   "id": 685,
+   "name": "Black Marriage",
+   "author": "Saki Aikawa",
+   "name_de": "Black Marriage",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/685",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/685"
+  },
+  {
+   "id": 688,
+   "name": "The Fledgling’s Waltz",
+   "author": "Mika Satonaka",
+   "name_de": "The Fledgling’s Waltz",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/688",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/688"
+  },
+  {
+   "id": 691,
+   "name": "She&#x27;s too cute to take away",
+   "author": "Mutsumi Yoshida",
+   "name_de": "She&#x27;s too cute to take away",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/691",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/691"
+  },
+  {
+   "id": 694,
+   "name": "The World Best Boyfriend",
+   "author": "Umi Ayase",
+   "name_de": "The World Best Boyfriend",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/694",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/694"
+  },
+  {
+   "id": 697,
+   "name": "Because of You, Love Will Die",
+   "author": "Miyoshi Tomori / Saro Tekkotsu",
+   "name_de": "Because of You, Love Will Die",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/697",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/697"
+  },
+  {
+   "id": 700,
+   "name": "You Are My Brightest Star",
+   "author": "Shiki Kawabata",
+   "name_de": "You Are My Brightest Star",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/700",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/700"
+  },
+  {
+   "id": 703,
+   "name": "100 Days Until You Die",
+   "author": "Migihara",
+   "name_de": "100 Days Until You Die",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/703",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/703"
+  },
+  {
+   "id": 706,
+   "name": "Sky Blue Lemon and a Lost Cat",
+   "author": "Mika Satonaka",
+   "name_de": "Sky Blue Lemon and a Lost Cat",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/706",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/706"
+  },
+  {
+   "id": 709,
+   "name": "Black Iron Einheri",
+   "author": "Toshimitsu Matsubara",
+   "name_de": "Black Iron Einheri",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/709",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/709"
+  },
+  {
+   "id": 712,
+   "name": "The Karakida Family’s Bookshop Life",
+   "author": "Kei Toume",
+   "name_de": "The Karakida Family’s Bookshop Life",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/712",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/712"
+  },
+  {
+   "id": 715,
+   "name": "Spring, Love and You",
+   "author": "Umi Ayase",
+   "name_de": "Spring, Love and You",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/715",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/715"
+  },
+  {
+   "id": 718,
+   "name": "This is not Love, Thank You",
+   "author": "Nojin Yuki",
+   "name_de": "This is not Love, Thank You",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/718",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/718"
+  },
+  {
+   "id": 721,
+   "name": "Wolf Rise",
+   "author": "Yu Ito",
+   "name_de": "Wolf Rise",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/721",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/721"
+  },
+  {
+   "id": 724,
+   "name": "The Level Up Disaster of 20XX: New Power From the Hands of God",
+   "author": "Takuya Uchida",
+   "name_de": "The Level Up Disaster of 20XX: New Power From the Hands of God",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/724",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/724"
+  },
+  {
+   "id": 727,
+   "name": "Reflections of Youth",
+   "author": "Mayu Sakai",
+   "name_de": "Reflections of Youth",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/727",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/727"
+  },
+  {
+   "id": 730,
+   "name": "The Sisters and the North Star",
+   "author": "Mizuka Yuzuhara",
+   "name_de": "The Sisters and the North Star",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/730",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/730"
+  },
+  {
+   "id": 733,
+   "name": "Two Spoonfuls of Love",
+   "author": "Kozue Onoyama",
+   "name_de": "Two Spoonfuls of Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/733",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/733"
+  },
+  {
+   "id": 736,
+   "name": "Eureka Moment with You",
+   "author": "Ayuko",
+   "name_de": "Eureka Moment with You",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/736",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/736"
+  },
+  {
+   "id": 739,
+   "name": "Stars and Dust -Don&#x27;t worry, Be happy!-",
+   "author": "Kaori Hoshiya",
+   "name_de": "Stars and Dust -Don&#x27;t worry, Be happy!-",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/739",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/739"
+  },
+  {
+   "id": 742,
+   "name": "Sunshine in the Miniature Garden",
+   "author": "Shiki Kawabata",
+   "name_de": "Sunshine in the Miniature Garden",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/742",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/742"
+  },
+  {
+   "id": 745,
+   "name": "Bye Bye Liberty",
+   "author": "Ayuko Hatta",
+   "name_de": "Bye Bye Liberty",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/745",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/745"
+  },
+  {
+   "id": 748,
+   "name": "Fleeting Gradient",
+   "author": "Chihiro Hiro",
+   "name_de": "Fleeting Gradient",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/748",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/748"
+  },
+  {
+   "id": 751,
+   "name": "Invisible",
+   "author": "Jun Ogino",
+   "name_de": "Invisible",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/751",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/751"
+  },
+  {
+   "id": 754,
+   "name": "Alma",
+   "author": "Shinji Mito",
+   "name_de": "Alma",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/754",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/754"
+  },
+  {
+   "id": 757,
+   "name": "Far East Chimeratica",
+   "author": "Daisuke Itabashi",
+   "name_de": "Far East Chimeratica",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/757",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/757"
+  },
+  {
+   "id": 760,
+   "name": "Editor in Another World - Tasked to Save the World with Manga",
+   "author": "Sohei Inaba / Ryu Horie",
+   "name_de": "Editor in Another World - Tasked to Save the World with Manga",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/760",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/760"
+  },
+  {
+   "id": 763,
+   "name": "Love Agency",
+   "author": "Aka Akasaka x 5mm Nishizawa",
+   "name_de": "Love Agency",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/763",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/763"
+  },
+  {
+   "id": 766,
+   "name": "Suisai -Playing Rainbow Hues-",
+   "author": "Moe Yukimaru",
+   "name_de": "Suisai -Playing Rainbow Hues-",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/766",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/766"
+  },
+  {
+   "id": 769,
+   "name": "Let’s Go Home",
+   "author": "Yuko Kasumi",
+   "name_de": "Let’s Go Home",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/769",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/769"
+  },
+  {
+   "id": 772,
+   "name": "Alice on her Tiptoes",
+   "author": "Mutsumi Yoshida",
+   "name_de": "Alice on her Tiptoes",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/772",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/772"
+  },
+  {
+   "id": 775,
+   "name": "Craving You",
+   "author": "Koomori",
+   "name_de": "Craving You",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/775",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/775"
+  },
+  {
+   "id": 778,
+   "name": "Tell Me at Night",
+   "author": "Yuri Nakagawa",
+   "name_de": "Tell Me at Night",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/778",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/778"
+  },
+  {
+   "id": 781,
+   "name": "The Nightjar Soars Through the Sky",
+   "author": "Shiki Kawabata",
+   "name_de": "The Nightjar Soars Through the Sky",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/781",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/781"
+  },
+  {
+   "id": 784,
+   "name": "Loving a younger guy",
+   "author": "Chihiro Hiro",
+   "name_de": "Loving a younger guy",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/784",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/784"
+  },
+  {
+   "id": 787,
+   "name": "We Found Wonderland",
+   "author": "Kana Watanabe",
+   "name_de": "We Found Wonderland",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/787",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/787"
+  },
+  {
+   "id": 790,
+   "name": "Zashisu",
+   "author": "Masanori Morita",
+   "name_de": "Zashisu",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/790",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/790"
+  },
+  {
+   "id": 793,
+   "name": "Love Letters Written in June",
+   "author": "Nana Haruta",
+   "name_de": "Love Letters Written in June",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/793",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/793"
+  },
+  {
+   "id": 796,
+   "name": "When Spring Met Storm",
+   "author": "Ayuko",
+   "name_de": "When Spring Met Storm",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/796",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/796"
+  },
+  {
+   "id": 799,
+   "name": "I My Me Mine",
+   "author": "Haru Yuuki",
+   "name_de": "I My Me Mine",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/799",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/799"
+  },
+  {
+   "id": 802,
+   "name": "SEISHUN NOTE",
+   "author": "Umi Ayase",
+   "name_de": "SEISHUN NOTE",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/802",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/802"
+  },
+  {
+   "id": 805,
+   "name": "Yura&#x27;s Secret 10%",
+   "author": "Mutsumi Yoshida",
+   "name_de": "Yura&#x27;s Secret 10%",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/805",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/805"
+  },
+  {
+   "id": 808,
+   "name": "At the Heart of the Universe&#x27;s Edge",
+   "author": "Kaori Hoshiya",
+   "name_de": "At the Heart of the Universe&#x27;s Edge",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/808",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/808"
+  },
+  {
+   "id": 811,
+   "name": "The First Train at Dawn",
+   "author": "Yugo Aosaki / Shirohiko Yamada",
+   "name_de": "The First Train at Dawn",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/811",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/811"
+  },
+  {
+   "id": 814,
+   "name": "A Star Twinkles Above a Flower in Sodom",
+   "author": "Haru Aoi",
+   "name_de": "A Star Twinkles Above a Flower in Sodom",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/814",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/814"
+  },
+  {
+   "id": 817,
+   "name": "Karekore Kirakira Machi",
+   "author": "Kaori Hoshiya",
+   "name_de": "Karekore Kirakira Machi",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/817",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/817"
+  },
+  {
+   "id": 820,
+   "name": "Stand by me - A Love Letter",
+   "author": "Riho Masuda",
+   "name_de": "Stand by me - A Love Letter",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/820",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/820"
+  },
+  {
+   "id": 823,
+   "name": "Taisho Girl Fairy Tale",
+   "author": "Sana Kirioka",
+   "name_de": "Taisho Girl Fairy Tale",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/823",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/823"
+  },
+  {
+   "id": 826,
+   "name": "ROBOT×LASERBEAM",
+   "author": "Tadatoshi Fujimaki",
+   "name_de": "ROBOT×LASERBEAM",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/826",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/826"
+  },
+  {
+   "id": 829,
+   "name": "ONE PIECE: Kobiyama, Coby’s Look-Alike — The Great Treasure of Identical Doubles",
+   "author": "Nakamaru / Eiichiro Oda",
+   "name_de": "ONE PIECE: Kobiyama, Coby’s Look-Alike — The Great Treasure of Identical Doubles",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/829",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/829"
+  },
+  {
+   "id": 832,
+   "name": "THE COMIQ",
+   "author": "Kazuki Takahashi",
+   "name_de": "THE COMIQ",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/832",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/832"
+  },
+  {
+   "id": 835,
+   "name": "Ao: Short Stories by Sho Aimoto",
+   "author": "Sho Aimoto",
+   "name_de": "Ao: Short Stories by Sho Aimoto",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/835",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/835"
+  },
+  {
+   "id": 838,
+   "name": "Batuque",
+   "author": "Toshio Sako",
+   "name_de": "Batuque",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/838",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/838"
+  },
+  {
+   "id": 841,
+   "name": "Clean Freak! Aoyama",
+   "author": "Taku Sakamoto",
+   "name_de": "Clean Freak! Aoyama",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/841",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/841"
+  },
+  {
+   "id": 844,
+   "name": "Grape &amp; Violet",
+   "author": "Aki Mochida",
+   "name_de": "Grape &amp; Violet",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/844",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/844"
+  },
+  {
+   "id": 847,
+   "name": "Siren of Blue Youth",
+   "author": "Mikan Momokuri",
+   "name_de": "Siren of Blue Youth",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/847",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/847"
+  },
+  {
+   "id": 850,
+   "name": "Ameri&#x27;s Cave",
+   "author": "Zakuri Sato",
+   "name_de": "Ameri&#x27;s Cave",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/850",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/850"
+  },
+  {
+   "id": 853,
+   "name": "Faster Than a Blink!!",
+   "author": "Kazuki Funatsu",
+   "name_de": "Faster Than a Blink!!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/853",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/853"
+  },
+  {
+   "id": 856,
+   "name": "Primax",
+   "author": "Yokusaru Shibata / Masahiko Aoki",
+   "name_de": "Primax",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/856",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/856"
+  },
+  {
+   "id": 859,
+   "name": "Even If Death Do Us Part",
+   "author": "Chu Amairo",
+   "name_de": "Even If Death Do Us Part",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/859",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/859"
+  },
+  {
+   "id": 862,
+   "name": "Arisugawa in Wonderland",
+   "author": "Akira Ozaki",
+   "name_de": "Arisugawa in Wonderland",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/862",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/862"
+  },
+  {
+   "id": 865,
+   "name": "The Dragon, the Hero, and the Courier",
+   "author": "Gregorius Yamada",
+   "name_de": "The Dragon, the Hero, and the Courier",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/865",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/865"
+  },
+  {
+   "id": 868,
+   "name": "All Grown Up With You,Still Just Friends",
+   "author": "Aya Nakahara",
+   "name_de": "All Grown Up With You,Still Just Friends",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/868",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/868"
+  },
+  {
+   "id": 871,
+   "name": "Not Just Something Like Love",
+   "author": "Toko Minami",
+   "name_de": "Not Just Something Like Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/871",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/871"
+  },
+  {
+   "id": 874,
+   "name": "He is My Boss",
+   "author": "Mimi Tajima",
+   "name_de": "He is My Boss",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/874",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/874"
+  },
+  {
+   "id": 877,
+   "name": "Love…with Him?",
+   "author": "Ao Mimori",
+   "name_de": "Love…with Him?",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/877",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/877"
+  },
+  {
+   "id": 880,
+   "name": "let&#x27;s hold hands",
+   "author": "Amu Meguro",
+   "name_de": "let&#x27;s hold hands",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/880",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/880"
+  },
+  {
+   "id": 883,
+   "name": "Lady &amp; Oldman",
+   "author": "Natsume Ono",
+   "name_de": "Lady &amp; Oldman",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/883",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/883"
+  },
+  {
+   "id": 886,
+   "name": "Shibuya-kun’s Pickup",
+   "author": "Makoto Mitsuno",
+   "name_de": "Shibuya-kun’s Pickup",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/886",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/886"
+  },
+  {
+   "id": 889,
+   "name": "I Hate Komiyama",
+   "author": "Mano Momoshiro",
+   "name_de": "I Hate Komiyama",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/889",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/889"
+  },
+  {
+   "id": 892,
+   "name": "Ran and Aoi",
+   "author": "Rinko Ueda",
+   "name_de": "Ran and Aoi",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/892",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/892"
+  },
+  {
+   "id": 895,
+   "name": "Into the Wallflower Maid Café",
+   "author": "Sankakuhead",
+   "name_de": "Into the Wallflower Maid Café",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/895",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/895"
+  },
+  {
+   "id": 898,
+   "name": "Hinata&#x27;s Blue",
+   "author": "Amu Meguro",
+   "name_de": "Hinata&#x27;s Blue",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/898",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/898"
+  },
+  {
+   "id": 901,
+   "name": "Moon Cinders",
+   "author": "Ayu Kitazato",
+   "name_de": "Moon Cinders",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/901",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/901"
+  },
+  {
+   "id": 904,
+   "name": "Bell the Wolf",
+   "author": "Aya Nakahara",
+   "name_de": "Bell the Wolf",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/904",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/904"
+  },
+  {
+   "id": 907,
+   "name": "A Girl from the Yamada Family",
+   "author": "Nojin Yuki",
+   "name_de": "A Girl from the Yamada Family",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/907",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/907"
+  },
+  {
+   "id": 910,
+   "name": "Garcon",
+   "author": "Araki Joh / Ryu Horie",
+   "name_de": "Garcon",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/910",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/910"
+  },
+  {
+   "id": 913,
+   "name": "Department of Corporate Slave Rabbits",
+   "author": "Kamiya Fujisawa",
+   "name_de": "Department of Corporate Slave Rabbits",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/913",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/913"
+  },
+  {
+   "id": 916,
+   "name": "Bonds on Stage",
+   "author": "Shin Hotani",
+   "name_de": "Bonds on Stage",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/916",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/916"
+  },
+  {
+   "id": 919,
+   "name": "Smiling at Yoarashi",
+   "author": "Itsuki Tsutsui",
+   "name_de": "Smiling at Yoarashi",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/919",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/919"
+  },
+  {
+   "id": 922,
+   "name": "The Fox God Wants to Play",
+   "author": "Ayumu Yukimori",
+   "name_de": "The Fox God Wants to Play",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/922",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/922"
+  },
+  {
+   "id": 925,
+   "name": "Your Love Interest",
+   "author": "Koomori",
+   "name_de": "Your Love Interest",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/925",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/925"
+  },
+  {
+   "id": 928,
+   "name": "Takuma of the Forest",
+   "author": "Ayumi Komura",
+   "name_de": "Takuma of the Forest",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/928",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/928"
+  },
+  {
+   "id": 931,
+   "name": "A Taste of Happiness",
+   "author": "Santa Uonome",
+   "name_de": "A Taste of Happiness",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/931",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/931"
+  },
+  {
+   "id": 937,
+   "name": "Evil Heroes",
+   "author": "Yasunori Mitsunaga / Yoshimitsu Iruka",
+   "name_de": "Evil Heroes",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/937",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/937"
+  },
+  {
+   "id": 940,
+   "name": "Rock Up Prince",
+   "author": "Haruka Ikeda",
+   "name_de": "Rock Up Prince",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/940",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/940"
+  },
+  {
+   "id": 943,
+   "name": "A Heroeless World",
+   "author": "Suzu Kumano",
+   "name_de": "A Heroeless World",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/943",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/943"
+  },
+  {
+   "id": 946,
+   "name": "Much Ado About Nothing",
+   "author": "Kazune Kawahara / William Shakespeare",
+   "name_de": "Much Ado About Nothing",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/946",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/946"
+  },
+  {
+   "id": 949,
+   "name": "EX-ARM",
+   "author": "HiRock / Shinya Komi",
+   "name_de": "EX-ARM",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/949",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/949"
+  },
+  {
+   "id": 952,
+   "name": "Secret Innocent World : Roommates with My Handsome Boss",
+   "author": "Shiori Hamako",
+   "name_de": "Secret Innocent World : Roommates with My Handsome Boss",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/952",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/952"
+  },
+  {
+   "id": 955,
+   "name": "BORDER66",
+   "author": "Yoichi Komori / Yutaka Todo",
+   "name_de": "BORDER66",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/955",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/955"
+  },
+  {
+   "id": 958,
+   "name": "One Winged Michelangelo",
+   "author": "Shamu Ito",
+   "name_de": "One Winged Michelangelo",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/958",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/958"
+  },
+  {
+   "id": 961,
+   "name": "A Second Chance at Love with Hayami",
+   "author": "Saki Aikawa",
+   "name_de": "A Second Chance at Love with Hayami",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/961",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/961"
+  },
+  {
+   "id": 964,
+   "name": "Full Drum",
+   "author": "Tohru Hakoishi",
+   "name_de": "Full Drum",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/964",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/964"
+  },
+  {
+   "id": 967,
+   "name": "GIGANTIS",
+   "author": "Yoichi Komori / Kenichi Tachibana / Takayuki Yamamoto",
+   "name_de": "GIGANTIS",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/967",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/967"
+  },
+  {
+   "id": 970,
+   "name": "Katagimodoshi",
+   "author": "Kiyoto Shitara",
+   "name_de": "Katagimodoshi",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/970",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/970"
+  },
+  {
+   "id": 973,
+   "name": "The 9th Desert",
+   "author": "Kei Deguchi",
+   "name_de": "The 9th Desert",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/973",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/973"
+  },
+  {
+   "id": 976,
+   "name": "KOKORO NO PROGRAM",
+   "author": "Hinata Nakamura",
+   "name_de": "KOKORO NO PROGRAM",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/976",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/976"
+  },
+  {
+   "id": 979,
+   "name": "Crescent Moon and a Cat",
+   "author": "Ami Uozumi",
+   "name_de": "Crescent Moon and a Cat",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/979",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/979"
+  },
+  {
+   "id": 982,
+   "name": "Jumping",
+   "author": "Asahi Tsutsui",
+   "name_de": "Jumping",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/982",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/982"
+  },
+  {
+   "id": 985,
+   "name": "Mandate of Justice",
+   "author": "Yukinobu Tatsu",
+   "name_de": "Mandate of Justice",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/985",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/985"
+  },
+  {
+   "id": 988,
+   "name": "Kochikame 1976–1981",
+   "author": "Osamu Akimoto",
+   "name_de": "Kochikame 1976–1981",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/988",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/988"
+  },
+  {
+   "id": 991,
+   "name": "TOUGH",
+   "author": "Tetsuya Saruwatari",
+   "name_de": "TOUGH",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/991",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/991"
+  },
+  {
+   "id": 997,
+   "name": "High School Exciting",
+   "author": "Tetsuya Saruwatari",
+   "name_de": "High School Exciting",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/997",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/997"
+  },
+  {
+   "id": 1000,
+   "name": "Akane-banashi",
+   "author": "Takamasa Moue, Yuki Suenaga",
+   "name_de": "Akane-banashi",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1000",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1000"
+  },
+  {
+   "id": 1003,
+   "name": "Undead Unluck",
+   "author": "Yoshifumi Tozuka",
+   "name_de": "Undead Unluck",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1003",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1003"
+  },
+  {
+   "id": 1006,
+   "name": "WITCH WATCH",
+   "author": "Kenta Shinohara",
+   "name_de": "Witch Watch",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1006",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1006"
+  },
+  {
+   "id": 1009,
+   "name": "Kagurabachi",
+   "author": "Takeru Hokazono",
+   "name_de": "Kagurabachi",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1009",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1009"
+  },
+  {
+   "id": 1012,
+   "name": "Kill Blue",
+   "author": "Tadatoshi Fujimaki",
+   "name_de": "Kill Blue",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1012",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1012"
+  },
+  {
+   "id": 1015,
+   "name": "Nisekoi: False Love",
+   "author": "Naoshi Komi",
+   "name_de": "Nisekoi",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1015",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1015"
+  },
+  {
+   "id": 1018,
+   "name": "Bobobo-bo Bo-bobo",
+   "author": "Yoshio Sawai",
+   "name_de": "Bobobo-bo Bo-bobo",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1018",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1018"
+  },
+  {
+   "id": 1021,
+   "name": "Reborn!",
+   "author": "Akira Amano",
+   "name_de": "Reborn!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1021",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1021"
+  },
+  {
+   "id": 1024,
+   "name": "Hinomaru Sumo",
+   "author": "Kawada",
+   "name_de": "Hinomaru Sumo",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1024",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1024"
+  },
+  {
+   "id": 1027,
+   "name": "Food Wars!: Shokugeki no Soma",
+   "author": "Yuto Tsukuda / Shun Saeki / Yuki Morisaki",
+   "name_de": "Food Wars! – Shokugeki no Soma",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1027",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1027"
+  },
+  {
+   "id": 1030,
+   "name": "The Elusive Samurai",
+   "author": "Yusei Matsui",
+   "name_de": "The Elusive Samurai",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1030",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1030"
+  },
+  {
+   "id": 1033,
+   "name": "YuYu Hakusho",
+   "author": "Yoshihiro Togashi",
+   "name_de": "Yu★Yu★Hakusho",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1033",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1033"
+  },
+  {
+   "id": 1036,
+   "name": "Yu-Gi-Oh!",
+   "author": "Kazuki Takahashi",
+   "name_de": "Yu-Gi-Oh",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1036",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1036"
+  },
+  {
+   "id": 1039,
+   "name": "Marriage Toxin",
+   "author": "Mizuki Yoda, Joumyaku",
+   "name_de": "Marriage Toxin",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1039",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1039"
+  },
+  {
+   "id": 1042,
+   "name": "Black Torch",
+   "author": "Tsuyoshi Takaki",
+   "name_de": "Black Torch",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1042",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1042"
+  },
+  {
+   "id": 1045,
+   "name": "My Hero Academia: Vigilantes",
+   "author": "Betten Court, Hideyuki Furuhashi",
+   "name_de": "Vigilante – My Hero Academia Illegals",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1045",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1045"
+  },
+  {
+   "id": 1048,
+   "name": "SUMMERTIME RENDERING",
+   "author": "Yasuki Tanaka",
+   "name_de": "Bright Sun – Dark Shadows",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1048",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1048"
+  },
+  {
+   "id": 1051,
+   "name": "Red Cat Ramen",
+   "author": "Angyaman",
+   "name_de": "Red Cat Ramen",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1051",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1051"
+  },
+  {
+   "id": 1054,
+   "name": "Romantic Killer",
+   "author": "Wataru Momose",
+   "name_de": "Romantic Killer",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1054",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1054"
+  },
+  {
+   "id": 1057,
+   "name": "Aharen-san is Indecipherable (Omnibus)",
+   "author": "Asato Mizu",
+   "name_de": "Aharen-san is Indecipherable (Omnibus)",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1057",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1057"
+  },
+  {
+   "id": 1060,
+   "name": "Magilumiere Magical Girls Inc.",
+   "author": "Sekka Iwata, Yu Aoki",
+   "name_de": "Magilumiere Inc.",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1060",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1060"
+  },
+  {
+   "id": 1063,
+   "name": "Ron Kamonohashi: Deranged Detective",
+   "author": "Akira Amano",
+   "name_de": "Meisterdetektiv Ron Kamonohashi",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1063",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1063"
+  },
+  {
+   "id": 1066,
+   "name": "You and I Are Polar Opposites",
+   "author": "Kocha Agasawa",
+   "name_de": "You and I Are Polar Opposites",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1066",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1066"
+  },
+  {
+   "id": 1069,
+   "name": "Tis Time for &quot;Torture,&quot; Princess",
+   "author": "Hirakei, Robinson Haruhara",
+   "name_de": "Tis Time for &quot;Torture,&quot; Princess",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1069",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1069"
+  },
+  {
+   "id": 1072,
+   "name": "Oblivion Battery",
+   "author": "Eco Mikawa",
+   "name_de": "Oblivion Battery",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1072",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1072"
+  },
+  {
+   "id": 1075,
+   "name": "Chained Soldier",
+   "author": "Yohei Takemura, Takahiro",
+   "name_de": "Demon Slave",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1075",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1075"
+  },
+  {
+   "id": 1078,
+   "name": "Burn the Witch",
+   "author": "Tite Kubo",
+   "name_de": "Burn The Witch",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1078",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1078"
+  },
+  {
+   "id": 1081,
+   "name": "Blue Box",
+   "author": "Kouji Miura",
+   "name_de": "Blue Box",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1081",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1081"
+  },
+  {
+   "id": 1084,
+   "name": "Kindergarten Wars",
+   "author": "You Chiba",
+   "name_de": "Kindergarten WARS",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1084",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1084"
+  },
+  {
+   "id": 1087,
+   "name": "Claymore",
+   "author": "Norihiro Yagi",
+   "name_de": "Claymore",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1087",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1087"
+  },
+  {
+   "id": 1090,
+   "name": "Dark Gathering",
+   "author": "Kenichi Kondo",
+   "name_de": "Dark Gathering",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1090",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1090"
+  },
+  {
+   "id": 1093,
+   "name": "Seraph of the End",
+   "author": "Yamato Yamamoto, Daisuke Furuya, Takaya Kagami",
+   "name_de": "Seraph of the End",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1093",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1093"
+  },
+  {
+   "id": 1096,
+   "name": "Moriarty the Patriot",
+   "author": "Hikaru Miyoshi, Conan Doyle, Ryosuke Takeuchi",
+   "name_de": "Moriarty the Patriot",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1096",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1096"
+  },
+  {
+   "id": 1099,
+   "name": "Blood Blockade Battlefront",
+   "author": "Yasuhiro Nightow",
+   "name_de": "Blood Blockade Battlefront",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1099",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1099"
+  },
+  {
+   "id": 1102,
+   "name": "There’s No Freaking Way I’ll be Your Lover! Unless…",
+   "author": "Musshu, Teren Mikami, Eku Takeshima",
+   "name_de": "There’s No Freaking Way I’ll be Your Lover! Unless…",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1102",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1102"
+  },
+  {
+   "id": 1105,
+   "name": "Gantz",
+   "author": "Hiroya Oku",
+   "name_de": "GANTZ",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1105",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1105"
+  },
+  {
+   "id": 1108,
+   "name": "Kowloon Generic Romance",
+   "author": "Jun Mayuzuki",
+   "name_de": "Kowloon Generic Romance",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1108",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1108"
+  },
+  {
+   "id": 1111,
+   "name": "Tokyo Ghoul: re",
+   "author": "Sui Ishida",
+   "name_de": "Tokyo Ghoul:re",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1111",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1111"
+  },
+  {
+   "id": 1114,
+   "name": "Boys Over Flowers",
+   "author": "Yoko Kamio",
+   "name_de": "Boys Over Flowers",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1114",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1114"
+  },
+  {
+   "id": 1117,
+   "name": "Ao Haru Ride",
+   "author": "Io Sakisaka",
+   "name_de": "Blue Spring Ride",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1117",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1117"
+  },
+  {
+   "id": 1120,
+   "name": "My Love Story!!",
+   "author": "Aruko, Kazune Kawahara",
+   "name_de": "MY LOVE STORY!!",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1120",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1120"
+  },
+  {
+   "id": 1123,
+   "name": "Love Me, Love Me Not",
+   "author": "Io Sakisaka",
+   "name_de": "Miracles of Love – Nimm dein Schicksal in die Hand",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1123",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1123"
+  },
+  {
+   "id": 1126,
+   "name": "Cops and Crooks",
+   "author": "Shu Fukuda / Kenichi Furuya",
+   "name_de": "Cops and Crooks",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1126",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1126"
+  },
+  {
+   "id": 1129,
+   "name": "2.5 Dimensional Seduction",
+   "author": "Yu Hashimoto",
+   "name_de": "2.5 Dimensional Seduction",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1129",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1129"
+  },
+  {
+   "id": 1132,
+   "name": "Hokkaido Gals Are Super Adorable!",
+   "author": "Kai Ikada",
+   "name_de": "Hokkaido Gals Are Super Adorable!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1132",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1132"
+  },
+  {
+   "id": 1135,
+   "name": "D.Gray-man",
+   "author": "Katsura Hoshino",
+   "name_de": "D. Gray-man",
+   "de_differs": true,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1135",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1135"
+  },
+  {
+   "id": 1138,
+   "name": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+   "author": "Rikito Nakamura, Yukiko Nozawa",
+   "name_de": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1138",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1138"
+  },
+  {
+   "id": 1159,
+   "name": "Kochikame 2010–2021",
+   "author": "Osamu Akimoto",
+   "name_de": "Kochikame 2010–2021",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1159",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1159"
+  },
+  {
+   "id": 1173,
+   "name": "The Happiest In The World!",
+   "author": "Kizashi Haruyoshi/ Aruko",
+   "name_de": "The Happiest In The World!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1173",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1173"
+  },
+  {
+   "id": 1176,
+   "name": "He loves me too much!",
+   "author": "Kameno / *Aira* /Risa Nanahoshi / Lime Lyric",
+   "name_de": "He loves me too much!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1176",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1176"
+  },
+  {
+   "id": 1179,
+   "name": "I Gave a Host 15 Million Yen. Was I a Fool?",
+   "author": "Yuni / Kyoko",
+   "name_de": "I Gave a Host 15 Million Yen. Was I a Fool?",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1179",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1179"
+  },
+  {
+   "id": 1182,
+   "name": "Marriage, Like the Moon, Waxes and Wanes",
+   "author": "Zim Mizukiku / Rinka Ichimiya",
+   "name_de": "Marriage, Like the Moon, Waxes and Wanes",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1182",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1182"
+  },
+  {
+   "id": 1185,
+   "name": "My Beloved Sora",
+   "author": "haruko",
+   "name_de": "My Beloved Sora",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1185",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1185"
+  },
+  {
+   "id": 1188,
+   "name": "Too Early for a God to Fall in Love",
+   "author": "Mei Futami",
+   "name_de": "Too Early for a God to Fall in Love",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1188",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1188"
+  },
+  {
+   "id": 1191,
+   "name": "Strawberry Cake",
+   "author": "Ayu Kitazato",
+   "name_de": "Strawberry Cake",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1191",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1191"
+  },
+  {
+   "id": 1194,
+   "name": "That&#x27;s What It&#x27;s Like Being Fourteen",
+   "author": "Yun Fujiwara",
+   "name_de": "That&#x27;s What It&#x27;s Like Being Fourteen",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1194",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1194"
+  },
+  {
+   "id": 1197,
+   "name": "How to Discipline Shiro Shirogane",
+   "author": "Nao Arihara",
+   "name_de": "How to Discipline Shiro Shirogane",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1197",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1197"
+  },
+  {
+   "id": 1200,
+   "name": "Minami the Super Evolution",
+   "author": "Shinji Mito",
+   "name_de": "Minami the Super Evolution",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1200",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1200"
+  },
+  {
+   "id": 1203,
+   "name": "Wanderlust",
+   "author": "Onigunsou",
+   "name_de": "Wanderlust",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1203",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1203"
+  },
+  {
+   "id": 1206,
+   "name": "Can I Live With You?",
+   "author": "Kei Sasuga",
+   "name_de": "Can I Live With You?",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1206",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1206"
+  },
+  {
+   "id": 1209,
+   "name": "A Pacifist Vampire Who Lives for Eternity, and Before I Knew It, I’d Become the World’s Strongest ~I’m One of the Four Heavenly Kings of the Demon King’s Army and the New Progenitor? Who Do You Think I Am?~",
+   "author": "So Hazuki / TEDDY",
+   "name_de": "A Pacifist Vampire Who Lives for Eternity, and Before I Knew It, I’d Become the World’s Strongest ~I’m One of the Four Heavenly Kings of the Demon King’s Army and the New Progenitor? Who Do You Think I Am?~",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1209",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1209"
+  },
+  {
+   "id": 1212,
+   "name": "The Disciple of Genova: A Mage Who Can Only Fight for 10 Seconds Raises the Future &quot;Demon King&quot;",
+   "author": "Shippo Senoo / Jako Uotsuka / Naoki Akamine",
+   "name_de": "The Disciple of Genova: A Mage Who Can Only Fight for 10 Seconds Raises the Future &quot;Demon King&quot;",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1212",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1212"
+  },
+  {
+   "id": 1215,
+   "name": "I&#x27;m Supposed to Become a Neglected Consort in the Future, but Something Strange is Happening…",
+   "author": "Hibiki Sayama / Michi Takasato / Yasuyuki Syuri",
+   "name_de": "I&#x27;m Supposed to Become a Neglected Consort in the Future, but Something Strange is Happening…",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1215",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1215"
+  },
+  {
+   "id": 1218,
+   "name": "About the Time I Helped Find a Beautiful Exchange Student’s Lost Little Sister",
+   "author": "Pentagon / Nekokuro / Yo Midorikawa",
+   "name_de": "About the Time I Helped Find a Beautiful Exchange Student’s Lost Little Sister",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1218",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1218"
+  },
+  {
+   "id": 1221,
+   "name": "An Ordinary Noblewoman Reincarnated into an Unplayed Otome Game Stitches Sacred Embroidery Thread",
+   "author": "Hanami Nishine / Sena Tenryoji / Ai / Takahiko Saito / Suzuka Oda",
+   "name_de": "An Ordinary Noblewoman Reincarnated into an Unplayed Otome Game Stitches Sacred Embroidery Thread",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1221",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1221"
+  },
+  {
+   "id": 1224,
+   "name": "Sawa the Gal Wants to Fish and Eat",
+   "author": "Kazuki Funatsu",
+   "name_de": "Sawa the Gal Wants to Fish and Eat",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1224",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1224"
+  },
+  {
+   "id": 1227,
+   "name": "Together with Serial-san",
+   "author": "Hiromasa Okujima",
+   "name_de": "Together with Serial-san",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1227",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1227"
+  },
+  {
+   "id": 1230,
+   "name": "High School Exorcist Akane!",
+   "author": "Masao Ohtake",
+   "name_de": "High School Exorcist Akane!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1230",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1230"
+  },
+  {
+   "id": 1233,
+   "name": "Takami-san of the Heights",
+   "author": "Gaku Tanigaki",
+   "name_de": "Takami-san of the Heights",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1233",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1233"
+  },
+  {
+   "id": 1236,
+   "name": "Stupid Woman",
+   "author": "Meza Toono / Urasuke Ayano",
+   "name_de": "Stupid Woman",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1236",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1236"
+  },
+  {
+   "id": 1239,
+   "name": "My Sister&#x27;s Best Friend",
+   "author": "Waka Takase",
+   "name_de": "My Sister&#x27;s Best Friend",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1239",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1239"
+  },
+  {
+   "id": 1248,
+   "name": "Gone Viral? Streaming an Unbeatable Dungeon Full of Powerful Species Straight From My House?!",
+   "author": "Jin Aino / Rein Kuwashima",
+   "name_de": "Gone Viral? Streaming an Unbeatable Dungeon Full of Powerful Species Straight From My House?!",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1248",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1248"
+  },
+  {
+   "id": 1251,
+   "name": "Red Mudan",
+   "author": "Sanae Sono",
+   "name_de": "Red Mudan",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1251",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1251"
+  },
+  {
+   "id": 1254,
+   "name": "The Suspicious Cop",
+   "author": "Mukishitsu",
+   "name_de": "The Suspicious Cop",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1254",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1254"
+  },
+  {
+   "id": 1257,
+   "name": "Trial Friends",
+   "author": "Sando",
+   "name_de": "Trial Friends",
+   "de_differs": false,
+   "url_en": "https://mangamillion.shueisha.co.jp/en/title/1257",
+   "url_de": "https://mangamillion.shueisha.co.jp/de/title/1257"
+  }
+ ]
+}
