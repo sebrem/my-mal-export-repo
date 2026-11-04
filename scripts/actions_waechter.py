@@ -112,6 +112,8 @@ EXPECTED = [
      "since": "2026-11-03T11:00:00+00:00"},  # live 03.11.; erster Cron: Di 01.12.2026 05:13
     {"file": "manga-million-harvest.yml",  "name": "Manga Million Harvest",  "days": [0], "hour": 4, "minute": 40,
      "since": "2026-11-03T11:48:41+00:00"},  # live 03.11. (Commit 230b7f8); Erstläufe manuell ok (Run #1 v1 57s, Run #2 v2 47s); erster Cron: Mo 09.11.2026 04:40
+    {"file": "title_index.yml", "name": "Titel-Index", "days": [0], "hour": 4, "minute": 50,
+     "since": "2026-11-04T13:43:00+00:00"},  # live 04.11. ...; erster Cron: Mo 09.11. 04:50
 ]
 
 
