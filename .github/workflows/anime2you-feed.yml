@@ -6,6 +6,12 @@ name: Anime2You/Manga2You Feed Harvest
 # Ergebnis: anime2you_news.json (Items) + anime2you_feed_status.json (Diagnose).
 # Wenn die Feeds auch hier blocken (403/Challenge), steht der Status auf blocked
 # und die Route ist endgültig tot – dann die Action löschen.
+#
+# NEU (04.11.2026): Zusätzlich Schritt für yurianimenews.com (Squarespace-Feeds
+# per ?format=rss, auf der Seite unverlinkt). Ergebnis:
+# yurianimenews_news.json (Items inkl. Volltext, Release-Daten, Shop-Links)
+# + yurianimenews_feed_status.json (Diagnose). Wächter-EXPECTED bleibt
+# unverändert, da derselbe Workflow (anime2you-feed.yml) erweitert wurde.
 
 on:
   schedule:
@@ -33,15 +39,18 @@ jobs:
       - name: Feeds abholen und JSON bauen
         run: node scripts/anime2you_feed_fetch.mjs
 
+      - name: Yuri Anime News Feeds abholen und JSON bauen
+        run: node scripts/yurianimenews_feed_fetch.mjs
+
       - name: Ergebnisse committen
         run: |
           git config user.name "anime2you-feed-bot"
           git config user.email "actions@github.com"
-          git add anime2you_news.json anime2you_feed_status.json
+          git add anime2you_news.json anime2you_feed_status.json yurianimenews_news.json yurianimenews_feed_status.json
           if git diff --cached --quiet; then
             echo "Keine Aenderungen - kein Commit noetig."
           else
-            git commit -m "chore: anime2you/manga2you feed harvest $(date -u +%F)"
+            git commit -m "chore: anime2you/manga2you/yurianimenews feed harvest $(date -u +%F)"
             git pull --rebase origin main
             git push || (sleep 20 && git pull --rebase origin main && git push)
           fi
