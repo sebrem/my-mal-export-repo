@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:50:57.835322+00:00",
+  "generated_at": "2026-11-04T19:53:18.715746+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -60,8 +60,8 @@
     },
     {
       "name": "Anime2You Feed Harvest",
-      "status": "waiting",
-      "detail": "kein Run seit erwartetem Termin, Jitter-Fenster offen bis 2026-11-04T14:30:00+00:00",
+      "status": "late",
+      "detail": "Erfolg 2026-11-04T14:46:02Z (Run 41850847909), aber 8.3h nach Termin 2026-11-04T06:30:00+00:00 (Schwelle 8h)",
       "expected": "2026-11-04T06:30:00+00:00"
     },
     {
