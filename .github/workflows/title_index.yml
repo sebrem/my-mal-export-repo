@@ -1,14 +1,10 @@
-# .github/workflows/title_index.yml (Entwurf 04.11.2026)
+# .github/workflows/title_index.yml (live seit 04.11.2026)
 # Laeuft nach dem AniList-Export im Montags-Job und committet den
 # zentralen Titel-Index als Snapshots. Reines Read-only-Script,
-# keine Secrets, keine API-Calls.
-#
-# Alternative (weniger Datei-Wartung): als ZUSATZ-STEP in den bestehenden
-# Abo-Katalog-Check-Job einhaengen (nach mal_aliases.py, vor dem Commit)
-# - dann diese Datei nicht anlegen und stattdessen in der bestehenden
-# Workflow ergaenzen. Diese Variante hier ist die eigenstaendige Loesung.
+# keine Secrets, keine API-Calls. Liest optional de_titles.tsv
+# (Repo-Root) ein - fehlt die Datei, laeuft alles wie bisher.
 
-name: title_index
+name: Titel-Index
 
 on:
   schedule:
