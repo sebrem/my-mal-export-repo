@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T19:37:21.647111+00:00",
+  "generated_at": "2026-11-04T13:50:57.835322+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
   "workflows": [
     {
       "name": "MAL Sync",
-      "status": "ok",
-      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-11-02T19:06:32Z (Run 41506839337)",
+      "status": "late",
+      "detail": "Erfolg 2026-11-02T12:32:55Z (Run 41445598609), aber 8.3h nach Termin 2026-11-02T04:17:00+00:00 (Schwelle 8h)",
       "expected": "2026-11-02T04:17:00+00:00"
     },
     {
@@ -31,8 +31,8 @@
     {
       "name": "Verlags-Announcements",
       "status": "ok",
-      "detail": "Erfolg (manuell, event=workflow_dispatch) 2026-11-02T19:34:48Z (Run 41511238352) - geplanter Run davor rot",
-      "expected": "2026-10-28T05:47:00+00:00"
+      "detail": "Erfolg 2026-11-04T13:17:28Z (Run 41836748132), +7.5h",
+      "expected": "2026-11-04T05:47:00+00:00"
     },
     {
       "name": "Release-Kalender",
@@ -43,8 +43,8 @@
     {
       "name": "Streaming Rollcheck",
       "status": "ok",
-      "detail": "Erfolg 2026-11-03T10:52:37Z (Run 41622884743), +7.6h",
-      "expected": "2026-11-03T03:17:00+00:00"
+      "detail": "Erfolg 2026-11-04T10:55:04Z (Run 41817376125), +7.6h",
+      "expected": "2026-11-04T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
@@ -60,9 +60,9 @@
     },
     {
       "name": "Anime2You Feed Harvest",
-      "status": "late",
-      "detail": "Erfolg 2026-11-03T14:31:42Z (Run 41654562247), aber 8.0h nach Termin 2026-11-03T06:30:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-03T06:30:00+00:00"
+      "status": "waiting",
+      "detail": "kein Run seit erwartetem Termin, Jitter-Fenster offen bis 2026-11-04T14:30:00+00:00",
+      "expected": "2026-11-04T06:30:00+00:00"
     },
     {
       "name": "DE-License-Check",
@@ -87,6 +87,12 @@
       "status": "pending",
       "detail": "live seit 2026-11-03T11:48Z; erwarteter Termin 2026-11-02T04:40:00+00:00 davor - erster Cron steht noch aus",
       "expected": "2026-11-02T04:40:00+00:00"
+    },
+    {
+      "name": "Titel-Index",
+      "status": "pending",
+      "detail": "live seit 2026-11-04T13:43Z; erwarteter Termin 2026-11-02T04:50:00+00:00 davor - erster Cron steht noch aus",
+      "expected": "2026-11-02T04:50:00+00:00"
     }
   ]
 }
