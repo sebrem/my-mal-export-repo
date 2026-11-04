@@ -9,6 +9,19 @@ Quellen (read-only, alle im Repo):
   anilist_dump.json                -> idMal-Match: anilist_id, format
                                        (NOVEL/MANGA/TV/...), title.romaji/
                                        english/native, synonyms
+  de_titles.tsv (OPTIONAL, Repo-Root; kuratiert) -> dt. Titel je
+                                       (medium, mal_id); MAL/AniList pflegen
+                                       KEINE dt. Titel, deshalb eigene Lane.
+                                       Format (Tabulator-getrennt, Kopfzeile):
+                                         mal_id\tmedium\tde_titel\tquelle
+                                       quelle = z.B. litfass-bestand,
+                                       kobo-ebooks, platform_map, manuell.
+                                       Fehlt die Datei -> DE-Lane leer,
+                                       KEIN Fehler (graceful).
+                                       Bootstrap-Pflicht: dt. Titel einmalig
+                                       aus den Knowledge-Bestandsdateien
+                                       extrahieren (Titel dt. + Orig.-Spalte;
+                                       Orig. via Index selbst aufloesen).
 
 Ausgaben (ins Repo committet):
   abo_snapshots/title_index.json   -> Vollindex: ein Record je
@@ -52,6 +65,39 @@ INDEX_PATH = SNAP_DIR / "title_index.json"
 TSV_PATH = SNAP_DIR / "title_index.tsv"
 MAL_FILES = (("mal_manga.json", "manga"), ("mal_anime.json", "anime"))
 ANILIST_PATH = REPO / "anilist_dump.json"
+DE_TSV_PATH = REPO / "de_titles.tsv"
+
+
+def load_de_titles():
+    """Kuratierte dt. Titel -> {(medium, mal_id): {titel, quelle}}.
+
+    MAL/AniList pflegen KEINE dt. Titel - die DE-Lane lebt in einer
+    eigenen, von Hand gepflegten TSV im Repo (Bootstrap aus den
+    Knowledge-Bestandsdateien). Fehlt/unlesbar -> leeres Dict, kein Fehler.
+    """
+    out = {}
+    if not DE_TSV_PATH.exists():
+        return out
+    try:
+        with open(DE_TSV_PATH, encoding="utf-8") as f:
+            lines = f.read().splitlines()
+    except Exception:
+        return out
+    for line in lines[1:]:  # Kopfzeile mal_id medium de_titel quelle
+        parts = line.split("\t")
+        if len(parts) < 3:
+            continue
+        try:
+            mal_id = int(parts[0])
+        except ValueError:
+            continue
+        medium = parts[1] if parts[1] in ("manga", "anime") else "manga"
+        titel = parts[2].strip()
+        quelle = parts[3].strip() if len(parts) > 3 else "manuell"
+        if titel:
+            out.setdefault((medium, mal_id), []).append(
+                {"titel": titel, "quelle": quelle})
+    return out
 
 
 def norm(t):
@@ -98,8 +144,10 @@ def load_anilist_by_mal():
 
 def main():
     anilist = load_anilist_by_mal()
+    de_titles = load_de_titles()
     records = []
     unmapped = 0
+    de_hits = 0
 
     for fname, medium in MAL_FILES:
         path = REPO / fname
@@ -116,14 +164,17 @@ def main():
             al = anilist.get((medium, int(mal_id)))
             if al is None:
                 unmapped += 1
-            # Varianten-Menge: MAL-Titel + AniList romaji/english/native/
-            # synonyms; dann normalisieren, Dubletten und Leerstrings raus.
+            # DE-Lane: kuratierte dt. Titel als zusaetzliche Varianten
+            de = de_titles.get((medium, int(mal_id)))
+            if de:
+                de_hits += len(de)
             variants = []
             for v in [e.get("title"),
                       al and al["romaji"], al and al["english"],
                       al and al["native"]] + (al["synonyms"] if al else []):
                 if v and isinstance(v, str):
                     variants.append(v)
+            variants += [d["titel"] for d in (de or [])]
             keys = sorted({norm(v) for v in variants} - {""})
             rec = {
                 "mal_id": mal_id,
@@ -140,6 +191,8 @@ def main():
                 "title_romaji": al["romaji"] if al else None,
                 "title_english": al["english"] if al else None,
                 "title_native": al["native"] if al else None,
+                "title_german": [d["titel"] for d in (de or [])],
+                "de_sources": [d["quelle"] for d in (de or [])],
                 "synonyms": al["synonyms"] if al else [],
                 "note": None if al else "unmapped (kein AniList-Treffer)",
                 "keys": keys,
@@ -153,7 +206,9 @@ def main():
                     "count_records": len(records),
                     "count_unmapped": unmapped,
                     "sources": ["mal_manga.json", "mal_anime.json",
-                                "anilist_dump.json"],
+                                "anilist_dump.json"]
+                    + (["de_titles.tsv"] if de_titles else []),
+                    "count_de_titles": de_hits,
                     "records": records},
                    ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -169,7 +224,9 @@ def main():
 
     n_keys = sum(len(r["keys"]) for r in records)
     print(f"title_index: {len(records)} Titel-Records "
-          f"({unmapped} ohne AniList-Match), {n_keys} Index-Keys im TSV")
+          f"({unmapped} ohne AniList-Match, {de_hits} dt. Titel "
+          f"aus {DE_TSV_PATH.name if DE_TSV_PATH.exists() else 'keiner DE-Datei'}), "
+          f"{n_keys} Index-Keys im TSV")
     return 0
 
 
