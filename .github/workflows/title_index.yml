@@ -1,0 +1,52 @@
+# .github/workflows/title_index.yml (Entwurf 04.11.2026)
+# Laeuft nach dem AniList-Export im Montags-Job und committet den
+# zentralen Titel-Index als Snapshots. Reines Read-only-Script,
+# keine Secrets, keine API-Calls.
+#
+# Alternative (weniger Datei-Wartung): als ZUSATZ-STEP in den bestehenden
+# Abo-Katalog-Check-Job einhaengen (nach mal_aliases.py, vor dem Commit)
+# - dann diese Datei nicht anlegen und stattdessen in der bestehenden
+# Workflow ergaenzen. Diese Variante hier ist die eigenstaendige Loesung.
+
+name: title_index
+
+on:
+  schedule:
+    - cron: "50 4 * * 1"   # Mo 04:50 UTC - NACH mal-export (04:17)
+                            # und anilist_export (04:47)
+  workflow_dispatch:        # manueller Lauf, z.B. nach MAL-Bulk-Nachtraegen
+
+concurrency:
+  group: title_index
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Titel-Index bauen
+        run: python3 scripts/title_index.py
+
+      - name: Snapshot committen
+        run: |
+          git config user.name "title-index-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add abo_snapshots/title_index.json abo_snapshots/title_index.tsv
+          if git diff --cached --quiet; then
+            echo "Keine Index-Aenderungen - kein Commit"
+          else
+            git commit -m "title_index: Snapshot $(date -u +%F)"
+            git push
+          fi
