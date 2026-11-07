@@ -1,5 +1,5 @@
 {
-  "run": "2026-11-06T10:52:37.035Z",
+  "run": "2026-11-07T10:08:41.979Z",
   "source": "apis.justwatch.com/graphql (DE, Katalogstufe)",
   "chunk_size": 30,
   "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > hit_channel_candidate (Prime-Channel-Verdacht) > hit_cr_channel_caveat / hit_adn_channel_caveat (Channel-Katalog weicht ab – nicht CR-/ADN-direct!) ; de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten (Re-Lizenz-Monitoring-Signal). buy_physical = Disc/Kauf, kein Streaming-Signal. werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar. V8.5: adn_video-Feld = ADN-Video-Ebenen-Check (available/languages/episode_count aus ADN-Show-Seite); Geo-Caveat – s. adn_check.geo_suspect.",
@@ -14,24 +14,24 @@
   },
   "universe": {
     "status_filter": "alles außer dropped/completed",
-    "count": 843
+    "count": 848
   },
   "cycle": {
     "number": 1,
     "started": "2026-10-23T13:25:04.638Z",
-    "processed_before": 812,
-    "universe": 843,
+    "processed_before": 842,
+    "universe": 848,
     "cycle_completed_last_run": false
   },
   "chunk": {
-    "count": 30,
-    "first_mal_id": 52015,
-    "last_mal_id": 34176
+    "count": 11,
+    "first_mal_id": 468,
+    "last_mal_id": 52034
   },
   "chunk_results": [
     {
-      "mal_id": 52015,
-      "title": "Yofukashi no Uta Mini",
+      "mal_id": 468,
+      "title": "Innocence",
       "status": "plan_to_watch",
       "result": {
         "verdict": "no_match"
@@ -39,52 +39,8 @@
       "errors": []
     },
     {
-      "mal_id": 975,
-      "title": "Yokohama Kaidashi Kikou",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yokohama Kaidashi Kikou",
-        "jw_id": "ts80893",
-        "jw_title": "Yokohama Shopping Diary",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 976,
-      "title": "Yokohama Kaidashi Kikou: Quiet Country Cafe",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yokohama Kaidashi Kikou: Quiet Country Cafe",
-        "jw_id": "ts80893",
-        "jw_title": "Yokohama Shopping Diary",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 62001,
-      "title": "Yomi no Tsugai",
+      "mal_id": 37475,
+      "title": "Kishuku Gakkou no Juliet",
       "status": "plan_to_watch",
       "result": {
         "verdict": "no_match"
@@ -92,133 +48,42 @@
       "errors": []
     },
     {
-      "mal_id": 65024,
-      "title": "Yomi no Tsugai 2nd Season",
+      "mal_id": 43,
+      "title": "Koukaku Kidoutai",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "黄泉のツガイ 第2期",
-        "jw_id": "ts444422",
-        "jw_title": "Das Band der Unterwelt",
-        "jw_path": "/de/Serie/daemons-of-the-shadow-realm",
-        "match_confidence": "low",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "nfx",
-            "name": "Netflix",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.netflix.com/title/82719204"
-          },
-          {
-            "provider": "dnp",
-            "name": "Disney+",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.disneyplus.com/browse/entity-8cc06990-0faf-4a7e-ac1f-fb74cb4b9286"
-          },
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00374585JAJP"
-          },
-          {
-            "provider": "nfa",
-            "name": "Netflix (Standard with Ads)",
-            "tier": "direct",
-            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
-            "url": "https://www.netflix.com/title/82719204"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1a5e7044-2689-4a5b-ba06-44c5fa9f8237"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
+        "verdict": "no_match"
       },
       "errors": []
     },
     {
-      "mal_id": 62540,
-      "title": "Yonghansonyeo",
+      "mal_id": 58929,
+      "title": "Koukaku Kidoutai (TV)",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Yonghansonyeo",
-        "jw_id": "ts491876",
-        "jw_title": "Das Drachenmädchen-Problem",
-        "jw_path": "/de/Serie/dragon-girl",
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 6116,
+      "title": "Mainichi Kaasan",
+      "status": "plan_to_watch",
+      "result": {
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 65318,
+      "title": "Oshi ni Amagami",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Oshi ni Amagami",
+        "jw_id": "ts403401",
+        "jw_title": "Tying the Knot with an Amagami Sister",
+        "jw_path": "/de/Serie/tying-the-knot-with-an-amagami-sister",
         "match_confidence": "token",
-        "verdict": "de_legal_only",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "vik",
-            "name": "Rakuten Viki (nicht abonniert)",
-            "tier": "other",
-            "note": null,
-            "url": "https://www.viki.com/videos/1270398v-dragon-girl-problem-episode-3"
-          },
-          {
-            "provider": "vik",
-            "name": "Rakuten Viki (nicht abonniert)",
-            "tier": "other",
-            "note": null,
-            "url": "https://www.viki.com/videos/1270396v-dragon-girl-problem-episode-1"
-          }
-        ],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 51692,
-      "title": "Yoru wa Neko to Issho",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yoru wa Neko to Issho",
-        "jw_id": "ts348590",
-        "jw_title": "Nights with a Cat",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 62753,
-      "title": "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
-      "status": "watching",
-      "result": {
-        "searched_as": "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
-        "jw_id": "ts506202",
-        "jw_title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet from My Cunning Fiancé",
-        "jw_path": "/de/Serie/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance",
-        "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
           {
@@ -226,7 +91,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00366150JAJP"
+            "url": "https://www.crunchyroll.com/watch/GWDU7VX3P"
           }
         ],
         "my_channel_hits": [],
@@ -237,7 +102,7 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.947a74e7-ede1-4f8f-a182-d052c3f9519f"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.744c5f80-f490-4f62-981b-1f6d0f24e659"
           }
         ],
         "adn_channel_caveat": [],
@@ -248,382 +113,14 @@
       "errors": []
     },
     {
-      "mal_id": 60444,
-      "title": "Yowayowa Sensei",
+      "mal_id": 1195,
+      "title": "Zero no Tsukaima",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Yowayowa Sensei",
-        "jw_id": "ts504283",
-        "jw_title": "Yowayowa Sensei",
-        "jw_path": "/de/Serie/yowayowa-sensei",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "adn",
-            "name": "ADN (Animation Digital Network)",
-            "tier": "direct",
-            "note": null,
-            "url": "https://animationdigitalnetwork.com/de/video/1382-yowayowa-sensei/31422-folge-1"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [
-          {
-            "provider": "ada",
-            "name": "ADN (Amazon-Channel)",
-            "tier": "adn_channel_caveat",
-            "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7fc8681f-f69c-40fa-a7b1-e1a7a9b790b5"
-          }
-        ],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true,
-        "adn_video": {
-          "url": "https://animationdigitalnetwork.com/de/video/1382-yowayowa-sensei",
-          "status": 200,
-          "adn_title": "Yowayowa Sensei",
-          "available": true,
-          "languages": [
-            "vostf"
-          ],
-          "episode_count": 12,
-          "season_video_count": 12,
-          "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
-        }
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 53865,
-      "title": "Yozakura-san Chi no Daisakusen",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yozakura-san Chi no Daisakusen",
-        "jw_id": "ts419586",
-        "jw_title": "Mission: Yozakura Family",
-        "jw_path": "/de/Serie/mission-yozakura-family",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "dnp",
-            "name": "Disney+",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.disneyplus.com/browse/entity-ac689bea-f955-4d95-8693-7b87b5a309cb"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 6586,
-      "title": "Yume-iro Pâtissière",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yume-iro Pâtissière",
-        "jw_id": "ts23155",
-        "jw_title": "Yumeiro Patissiere",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 36726,
-      "title": "Yuragi-sou no Yuuna-san",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 64643,
-      "title": "Yurayura Q",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 32995,
-      "title": "Yuri!!! on Ice",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yuri!!! on Ice",
-        "jw_id": "ts47734",
-        "jw_title": "Yuri!!! on Ice",
-        "jw_path": "/de/Serie/Yuri-on-Ice",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00014801DEDE"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.960fcf42-d9b8-4fa5-bf4d-31167fc2dbc6"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B077MJ1RX3?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 34798,
-      "title": "Yuru Camp△",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yuru Camp△",
-        "jw_id": "ts77726",
-        "jw_title": "Laid-Back Camp",
-        "jw_path": "/de/Serie/yurukiyan",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G0DUN19QJ"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.935caaf7-c00d-45c4-b387-5c59ed4f6fd6"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "jyn",
-            "name": "Joyn (nicht abonniert)",
-            "tier": "other",
-            "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
-            "url": "https://www.joyn.de/serien/laid-back-camp"
-          }
-        ],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 38475,
-      "title": "Yuru Camp△ Movie",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 38474,
-      "title": "Yuru Camp△ Season 2",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 49026,
-      "title": "Yuru Camp△ Season 2 Specials",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 53410,
-      "title": "Yuru Camp△ Season 3",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 58855,
-      "title": "Yuru Camp△ Season 3 Specials",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 60267,
-      "title": "Yuru Camp△ Season 4",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 37341,
-      "title": "Yuru Camp△ Specials",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 10495,
-      "title": "Yuru Yuri",
-      "status": "on_hold",
-      "result": {
-        "searched_as": "Yuru Yuri",
-        "jw_id": "ts34293",
-        "jw_title": "YuruYuri",
-        "jw_path": "/de/Serie/Yuru-Yuri-San-Hai",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GYQ4WNKQ6"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3b683a57-b0f5-4de6-b3a7-0cbacb958176"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 51706,
-      "title": "Yuusha ga Shinda!",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yuusha ga Shinda!",
-        "jw_id": "ts347955",
-        "jw_title": "The Legendary Hero is Dead!",
-        "jw_path": "/de/Serie/the-legendary-hero-is-dead",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GEVUZN0P3"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3917a437-60a6-4e41-b969-f395a97b0ef0"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B0CYGVT1LW?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 63778,
-      "title": "Yuusha Party wo Oidasareta Kiyoubinbou 2nd Season",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 50175,
-      "title": "Yuusha, Yamemasu",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Yuusha, Yamemasu",
-        "jw_id": "ts314505",
-        "jw_title": "I'm Quitting Heroing",
-        "jw_path": "/de/Serie/Im-Quitting-Heroing",
+        "searched_as": "Zero no Tsukaima",
+        "jw_id": "ts20538",
+        "jw_title": "The Familiar of Zero",
+        "jw_path": "/de/Serie/The-Familiar-of-Zero",
         "match_confidence": "exact",
         "verdict": "hit_channel",
         "my_direct_hits": [],
@@ -633,7 +130,7 @@
             "name": "aniverse (Prime Channel)",
             "tier": "channel",
             "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.17b17486-76a6-4c4c-9c39-95434fe994af"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.64b6381a-f8d9-41f4-ac69-68f5899477fd"
           }
         ],
         "channel_candidates": [],
@@ -645,23 +142,16 @@
             "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
             "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.15e4fad6-2368-4082-b0d7-9534add6b10e"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.edf210ec-8bbc-435f-8137-5b9d738084b5"
           }
         ],
         "buy_physical_offers": [
           {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1067420368"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1066691265"
+            "url": "https://www.amazon.de/dp/B0FXCLF628?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           }
         ],
         "de_legal_availability": true
@@ -669,162 +159,125 @@
       "errors": []
     },
     {
-      "mal_id": 63820,
-      "title": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku 2nd Season",
+      "mal_id": 63606,
+      "title": "Zhe Tian Movie: Bei Guan Zhan Wang Teng",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku 2nd Season",
-        "jw_id": "ts435524",
-        "jw_title": "Sentenced to Be a Hero",
-        "jw_path": "/de/Serie/sentenced-to-be-a-hero-the-prison-records-of-penal-hero-unit-9004",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00356811ITIT"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3bfcc30d-163b-4afd-b185-86940d5cc139"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
+        "verdict": "no_match"
       },
       "errors": []
     },
     {
-      "mal_id": 63573,
-      "title": "Zeikin de Katta Hon",
+      "mal_id": 36999,
+      "title": "Zoku Owarimonogatari",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "税金で買った本",
-        "jw_id": "ts346271",
-        "jw_title": "金曜日には花を買って",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 58502,
-      "title": "Zenshuu.",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "全修。",
-        "jw_id": "ts425942",
-        "jw_title": "Zenshû.",
-        "jw_path": "/de/Serie/zenshu",
-        "match_confidence": "low",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G8WU7V701"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0b5a0ab4-b872-453e-9107-1c70c40b54a9"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 34176,
-      "title": "Zero kara Hajimeru Mahou no Sho",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Zero kara Hajimeru Mahou no Sho",
-        "jw_id": "ts56102",
-        "jw_title": "Grimoire of Zero",
-        "jw_path": "/de/Serie/Zero-kara-Hajimeru-Mahou-no-Sho",
+        "searched_as": "Zoku Owarimonogatari",
+        "jw_id": "ts88925",
+        "jw_title": "Zoku Owarimonogatari",
+        "jw_path": "/de/Serie/zoku-owarimonogatari",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
           {
-            "provider": "nfx",
-            "name": "Netflix",
+            "provider": "adn",
+            "name": "ADN (Animation Digital Network)",
             "tier": "direct",
             "note": null,
-            "url": "https://www.netflix.com/title/80192979"
-          },
+            "url": "https://animationdigitalnetwork.com/de/video/1227-zoku-owarimonogatari/26910-folge-1"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [
           {
-            "provider": "nfa",
-            "name": "Netflix (Standard with Ads)",
+            "provider": "ada",
+            "name": "ADN (Amazon-Channel)",
+            "tier": "adn_channel_caveat",
+            "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.001c4ad1-64f7-4533-b3ff-acccb41081ff"
+          }
+        ],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true,
+        "adn_video": {
+          "url": "https://animationdigitalnetwork.com/de/video/1227-zoku-owarimonogatari",
+          "status": 200,
+          "adn_title": "Zoku Owarimonogatari",
+          "available": true,
+          "languages": [
+            "vostf"
+          ],
+          "episode_count": 6,
+          "season_video_count": 6,
+          "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+        }
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 31245,
+      "title": "Zutto Mae kara Suki deshita. Kokuhaku Jikkou Iinkai",
+      "status": "plan_to_watch",
+      "result": {
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 52034,
+      "title": "[Oshi no Ko]",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "[Oshi no Ko]",
+        "jw_id": "ts419247",
+        "jw_title": "[Oshi No Ko]",
+        "jw_path": "/de/Serie/oshinoko",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "amp",
+            "name": "Amazon Prime Video",
             "tier": "direct",
-            "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
-            "url": "https://www.netflix.com/title/80192979"
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8a959180-b6d3-48eb-90a5-4b109409fa37"
           }
         ],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a5ead046-236f-4ede-8a32-1dfa90254a81"
-          }
-        ],
+        "my_channel_hits": [],
         "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
         "legal_de_other_providers": [],
-        "buy_physical_offers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "pva",
+            "name": "Prime Video (Kauf/Leihe, pva)",
+            "tier": "buy_physical",
+            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8a959180-b6d3-48eb-90a5-4b109409fa37"
+          }
+        ],
         "de_legal_availability": true
       },
       "errors": []
     }
   ],
   "cycle_hits_summary": {
-    "hit_direct": 415,
+    "hit_direct": 418,
     "de_legal_only": 10,
-    "hit_channel": 25,
+    "hit_channel": 26,
     "hit_adn_channel_caveat": 1,
     "hit_channel_candidate": 3,
     "hit_cr_channel_caveat": 6
   },
   "cycle_progress": {
-    "processed": 842,
-    "of": 843,
-    "remaining": 1,
-    "eta_runs": 1
+    "processed": 853,
+    "of": 848,
+    "remaining": -5,
+    "eta_runs": 0
   },
   "cycle_hits": {
     "1": {
@@ -1331,6 +784,37 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "1195": {
+      "title": "Zero no Tsukaima",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-07T10:08:41.979Z",
+      "cycle": 1,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "The Familiar of Zero",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.64b6381a-f8d9-41f4-ac69-68f5899477fd"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.edf210ec-8bbc-435f-8137-5b9d738084b5"
+        }
+      ]
     },
     "1524": {
       "title": "Fuujin Monogatari",
@@ -6077,6 +5561,49 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "36999": {
+      "title": "Zoku Owarimonogatari",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-07T10:08:41.979Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Zoku Owarimonogatari",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1227-zoku-owarimonogatari/26910-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.001c4ad1-64f7-4533-b3ff-acccb41081ff"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1227-zoku-owarimonogatari",
+        "status": 200,
+        "adn_title": "Zoku Owarimonogatari",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 6,
+        "season_video_count": 6,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "37140": {
       "title": "Gegege no Kitarou (2018)",
       "mal_status": "plan_to_watch",
@@ -9497,6 +9024,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1eb280ba-185d-051d-9d8b-cd2026397d07"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "52034": {
+      "title": "[Oshi no Ko]",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-07T10:08:41.979Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "[Oshi No Ko]",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8a959180-b6d3-48eb-90a5-4b109409fa37"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -16897,6 +16447,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.60eaee33-6c82-4648-a11e-d13915022b25"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "65318": {
+      "title": "Oshi ni Amagami",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-07T10:08:41.979Z",
+      "cycle": 1,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Tying the Knot with an Amagami Sister",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GWDU7VX3P"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.744c5f80-f490-4f62-981b-1f6d0f24e659"
         }
       ],
       "adn_channel_caveat": [],
