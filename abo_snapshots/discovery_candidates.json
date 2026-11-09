@@ -1,13 +1,26 @@
 {
- "generated_at": "2026-11-02T19:16:15.105281+00:00",
+ "generated_at": "2026-11-09T13:55:25.086103+00:00",
  "note": "Vorfilter fuer Abo-Discovery-Check (20./Monat). Fund != Empfehlung: Kandidaten vom Agenten verifizieren (Doppelkauf-Check-Sequenz + MAL-Lesestand nach Format-Lesarten). already_tracked nicht als Neufund melden (Status-Drift pruefen). mp_noise ignorieren.",
  "counts": {
-  "candidates": 109,
+  "candidates": 110,
   "already_tracked": 36,
   "mp_noise": 7
  },
  "candidates": {
   "mangaup": [
+   {
+    "title": "The Marquis and His Second Wife's Idea of a Peaceful Family Dinner Table",
+    "title_id": "1083",
+    "title_url": "https://global.manga-up.com/manga/1083",
+    "platform": "mangaup",
+    "patterns": [
+     "Ehe-Praemisse",
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
    {
     "title": "The World is Full of Monsters, but With My Fluffy Feline Companion, I'll Be Okay",
     "title_id": "981",

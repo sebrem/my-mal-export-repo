@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-02T19:15:38Z",
+ "run_at": "2026-11-09T13:55:00Z",
  "mangaplaza": {
   "new": {},
   "removed": [],
@@ -17,12 +17,31 @@
   "changed": {}
  },
  "mangaup": {
-  "new": {},
+  "new": {
+   "Love Unseen Beneath the Clear Night Sky": {
+    "title_id": "1236",
+    "title_url": "https://global.manga-up.com/manga/1236"
+   },
+   "The Marquis and His Second Wife&#x27;s Idea of a Peaceful Family Dinner Table": {
+    "title_id": "1083",
+    "title_url": "https://global.manga-up.com/manga/1083"
+   },
+   "Underdog Idol": {
+    "title_id": "1191",
+    "title_url": "https://global.manga-up.com/manga/1191"
+   }
+  },
   "removed": [],
   "changed": {}
  },
  "mangaplus": {
-  "new": {},
+  "new": {
+   "Ghost Taxi: Another Day, Another Departure": {
+    "title_id": "100860",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100860",
+    "status": "one-shot"
+   }
+  },
   "removed": [],
   "changed": {}
  },
@@ -32,8 +51,8 @@
   "changed": {}
  },
  "mal_aliases": {
-  "count": 1634,
-  "with_english": 925,
+  "count": 1670,
+  "with_english": 945,
   "open_titles_matched": 0,
   "jikan_fallback": false
  }
