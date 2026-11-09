@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T19:14:45.539Z",
+  "updated": "2026-11-09T14:16:41.009Z",
   "source": "https://animationdigitalnetwork.com/de/video",
   "locale": "fr (Geo-Redirect vom Runner – vgl. adn_catalog_status.json)",
   "note": "FR-Gesamtkatalog (Superset). DE-Katalog siehe adn_catalog_de.json. Sprach-/Genre-Codes in FR-Sicht.",
@@ -101,9 +101,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr,de",
@@ -270,8 +270,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
       "basedOn": "Manga",
@@ -574,7 +574,7 @@
       "simulcast": false,
       "available": true,
       "newEpisode": false,
-      "nextVideoReleaseDate": null,
+      "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -603,7 +603,7 @@
       "simulcast": false,
       "available": true,
       "newEpisode": false,
-      "nextVideoReleaseDate": null,
+      "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -667,8 +667,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "fhd",
+        "hd",
         "sd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -801,7 +801,7 @@
       "simulcast": false,
       "available": true,
       "newEpisode": false,
-      "nextVideoReleaseDate": null,
+      "nextVideoReleaseDate": "2026-11-25T08:00:00Z",
       "qualities": [],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -834,8 +834,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "sd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr",
@@ -1077,8 +1077,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "sd",
-        "fhd",
-        "hd"
+        "hd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -1184,8 +1184,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
+        "fhd",
         "sd"
       ],
       "basedOn": "Manga",
@@ -1916,9 +1916,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
+        "fhd",
         "sd",
-        "fhd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -1967,7 +1967,7 @@
       "url": "https://animationdigitalnetwork.com/video/348-detective-conan",
       "urlPath": "/video/348-detective-conan",
       "type": "EPS",
-      "episodeCount": 254,
+      "episodeCount": 274,
       "age": "12+",
       "languages": [
         "vostf",
@@ -1983,7 +1983,7 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-05T08:00:00Z",
+      "nextVideoReleaseDate": "2026-11-14T11:30:00Z",
       "qualities": [
         "sd",
         "hd",
@@ -2053,7 +2053,7 @@
       "simulcast": false,
       "available": true,
       "newEpisode": false,
-      "nextVideoReleaseDate": null,
+      "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -2111,7 +2111,7 @@
       "simulcast": false,
       "available": true,
       "newEpisode": false,
-      "nextVideoReleaseDate": null,
+      "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -2761,8 +2761,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
+        "fhd",
         "sd"
       ],
       "basedOn": "Manga",
@@ -2798,9 +2798,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -2870,8 +2870,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
+        "sd",
         "hd"
       ],
       "basedOn": "Manga",
@@ -3215,8 +3215,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
+        "fhd",
         "hd"
       ],
       "basedOn": "Manga",
@@ -3355,9 +3355,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
+        "sd",
         "fhd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -3491,8 +3491,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
+        "fhd",
         "sd"
       ],
       "basedOn": "Manga",
@@ -3561,9 +3561,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -3593,9 +3593,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
+        "fhd",
         "hd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Roman",
       "distributions": "fr",
@@ -3627,8 +3627,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
+        "fhd",
         "hd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -3767,8 +3767,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
       "basedOn": "Manga",
@@ -3907,8 +3907,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "hd",
+        "sd",
         "fhd"
       ],
       "basedOn": "Manga",
@@ -4111,9 +4111,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "hd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -4675,9 +4675,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -4710,9 +4710,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "hd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Jeu Vidéo",
       "distributions": "fr",
@@ -4811,7 +4811,7 @@
       "free": false,
       "simulcast": false,
       "available": true,
-      "newEpisode": true,
+      "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
@@ -5951,9 +5951,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -6775,9 +6775,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr",
@@ -6848,8 +6848,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "hd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -6863,7 +6863,7 @@
       "url": "https://animationdigitalnetwork.com/video/887-dreamland",
       "urlPath": "/video/887-dreamland",
       "type": "EPS",
-      "episodeCount": 3,
+      "episodeCount": 4,
       "age": "12+",
       "languages": [
         "vostf",
@@ -6881,9 +6881,9 @@
       "newEpisode": true,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -7474,8 +7474,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "sd",
-        "fhd",
-        "hd"
+        "hd",
+        "fhd"
       ],
       "basedOn": "Roman",
       "distributions": "fr",
@@ -8132,9 +8132,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "fhd",
-        "sd",
-        "hd"
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8424,9 +8424,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "hd",
-        "sd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -8440,7 +8440,7 @@
       "url": "https://animationdigitalnetwork.com/video/970-reincarnated-as-a-sword",
       "urlPath": "/video/970-reincarnated-as-a-sword",
       "type": "EPS",
-      "episodeCount": 17,
+      "episodeCount": 18,
       "age": "12+",
       "languages": [
         "vostf"
@@ -8458,7 +8458,7 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-04T15:30:00Z",
+      "nextVideoReleaseDate": "2026-11-11T15:30:00Z",
       "qualities": [
         "sd",
         "hd",
@@ -8567,9 +8567,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -8632,9 +8632,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -8771,8 +8771,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "sd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8802,9 +8802,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -8964,9 +8964,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "sd",
-        "hd",
-        "fhd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -9000,8 +9000,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "sd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -9069,9 +9069,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "fhd",
-        "sd",
-        "hd"
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -9136,8 +9136,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
       "basedOn": "Manga",
@@ -9342,8 +9342,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "sd",
-        "hd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de",
@@ -9407,9 +9407,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -9474,9 +9474,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -9507,9 +9507,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -9608,8 +9608,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
+        "fhd",
         "sd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -9644,9 +9644,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr",
@@ -9757,7 +9757,7 @@
     },
     {
       "id": 1031,
-      "title": "Naruto: The Lost Story. Mission : Protect the Waterfall Village",
+      "title": "Naruto: The Lost Story. Mission: Protect the Waterfall Village",
       "originalTitle": "Naruto : Takigakure no Shitou Ore ga Eiyuu Dattebayo !",
       "url": "https://animationdigitalnetwork.com/video/1031-naruto-the-lost-story-mission-protect-the-waterfall-village",
       "urlPath": "/video/1031-naruto-the-lost-story-mission-protect-the-waterfall-village",
@@ -9768,11 +9768,11 @@
         "vostf"
       ],
       "genres": [
-        "Animation japonaise",
         "Action",
         "Aventure",
         "Comédie",
-        "Shonen"
+        "Shonen",
+        "Animation japonaise"
       ],
       "free": false,
       "simulcast": false,
@@ -9784,7 +9784,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": null,
       "distributions": "fr",
       "rating": 3,
       "ratingsCount": 10
@@ -11039,7 +11039,7 @@
       "url": "https://animationdigitalnetwork.com/video/1084-le-college-noir",
       "urlPath": "/video/1084-le-college-noir",
       "type": "EPS",
-      "episodeCount": 12,
+      "episodeCount": 14,
       "age": "12+",
       "languages": [
         "vf"
@@ -11054,10 +11054,10 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-07T11:00:00Z",
+      "nextVideoReleaseDate": "2026-11-14T11:00:00Z",
       "qualities": [
-        "sd",
         "hd",
+        "sd",
         "fhd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -16706,7 +16706,7 @@
       "url": "https://animationdigitalnetwork.com/video/1311-tougen-anki",
       "urlPath": "/video/1311-tougen-anki",
       "type": "EPS",
-      "episodeCount": 31,
+      "episodeCount": 32,
       "age": "16+",
       "languages": [
         "vostf",
@@ -16724,7 +16724,7 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-06T16:00:00Z",
+      "nextVideoReleaseDate": "2026-11-13T16:00:00Z",
       "qualities": [
         "fhd",
         "hd",
@@ -17587,9 +17587,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "hd",
-        "fhd",
-        "sd"
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -17621,9 +17621,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
@@ -17658,9 +17658,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "sd",
-        "hd",
-        "fhd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -17859,8 +17859,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "hd",
-        "sd",
-        "fhd"
+        "fhd",
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -17928,8 +17928,8 @@
       "nextVideoReleaseDate": "2026-11-13T08:00:00Z",
       "qualities": [
         "fhd",
-        "sd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -18000,9 +18000,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "sd",
-        "hd",
-        "fhd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -18473,9 +18473,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -18506,9 +18506,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de",
@@ -18678,8 +18678,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
+        "sd",
         "hd"
       ],
       "basedOn": "Manga",
@@ -18694,7 +18694,7 @@
       "url": "https://animationdigitalnetwork.com/video/1381-rilakkuma",
       "urlPath": "/video/1381-rilakkuma",
       "type": "EPS",
-      "episodeCount": 30,
+      "episodeCount": 31,
       "age": "0+",
       "languages": [
         "vostf"
@@ -18707,11 +18707,11 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-07T01:00:00Z",
+      "nextVideoReleaseDate": "2026-11-14T01:00:00Z",
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr,de,pl",
@@ -19149,9 +19149,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -19465,8 +19465,8 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "hd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,pl",
@@ -19496,9 +19496,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -19631,8 +19631,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
       "basedOn": "Oeuvre Originale",
@@ -19664,12 +19664,12 @@
       "free": false,
       "simulcast": false,
       "available": true,
-      "newEpisode": true,
+      "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "sd",
-        "hd"
+        "hd",
+        "sd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -19703,8 +19703,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
-        "sd"
+        "sd",
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -19735,9 +19735,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "hd",
-        "sd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Roman",
       "distributions": "fr",
@@ -19769,8 +19769,8 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
+        "fhd",
         "sd"
       ],
       "basedOn": "Light Novel",
@@ -19800,7 +19800,7 @@
       "free": false,
       "simulcast": false,
       "available": true,
-      "newEpisode": true,
+      "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
@@ -19872,9 +19872,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr",
@@ -19905,9 +19905,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
+        "sd",
         "fhd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr,de,pl",
@@ -19921,7 +19921,7 @@
       "url": "https://animationdigitalnetwork.com/video/1428-even-the-student-council-has-its-holes",
       "urlPath": "/video/1428-even-the-student-council-has-its-holes",
       "type": "EPS",
-      "episodeCount": 5,
+      "episodeCount": 6,
       "age": "16+",
       "languages": [
         "vostf"
@@ -19936,11 +19936,11 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-07T17:00:00Z",
+      "nextVideoReleaseDate": "2026-11-14T17:00:00Z",
       "qualities": [
         "hd",
-        "fhd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -19954,28 +19954,26 @@
       "url": "https://animationdigitalnetwork.com/video/1429-now-that-i-can-control-reality-with-a-mouse-cursor-im-gonna-click-away-on-the-girls",
       "urlPath": "/video/1429-now-that-i-can-control-reality-with-a-mouse-cursor-im-gonna-click-away-on-the-girls",
       "type": "EPS",
-      "episodeCount": 5,
+      "episodeCount": 6,
       "age": "18+",
       "languages": [
         "vostf"
       ],
       "genres": [
-        "Animation japonaise",
-        "Drame",
         "Ecchi",
-        "Romance"
+        "Animation japonaise"
       ],
       "free": false,
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-08T16:00:00Z",
+      "nextVideoReleaseDate": "2026-11-15T16:00:00Z",
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": null,
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -19987,28 +19985,26 @@
       "url": "https://animationdigitalnetwork.com/video/1430-my-girlfriends-friend",
       "urlPath": "/video/1430-my-girlfriends-friend",
       "type": "EPS",
-      "episodeCount": 5,
+      "episodeCount": 6,
       "age": "18+",
       "languages": [
         "vostf"
       ],
       "genres": [
-        "Animation japonaise",
-        "Drame",
         "Ecchi",
-        "Romance"
+        "Animation japonaise"
       ],
       "free": false,
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-08T16:05:00Z",
+      "nextVideoReleaseDate": "2026-11-15T16:05:00Z",
       "qualities": [
-        "hd",
+        "sd",
         "fhd",
-        "sd"
+        "hd"
       ],
-      "basedOn": "Manga",
+      "basedOn": null,
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -20020,7 +20016,7 @@
       "url": "https://animationdigitalnetwork.com/video/1431-nia-liston-the-merciless-maiden",
       "urlPath": "/video/1431-nia-liston-the-merciless-maiden",
       "type": "EPS",
-      "episodeCount": 4,
+      "episodeCount": 5,
       "age": "12+",
       "languages": [
         "vostf"
@@ -20036,11 +20032,11 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-03T12:55:00Z",
+      "nextVideoReleaseDate": "2026-11-10T12:55:00Z",
       "qualities": [
-        "sd",
+        "fhd",
         "hd",
-        "fhd"
+        "sd"
       ],
       "basedOn": "Light Novel",
       "distributions": "fr,de,pl",
@@ -20054,7 +20050,7 @@
       "url": "https://animationdigitalnetwork.com/video/1432-dragon-ball-super-beerus",
       "urlPath": "/video/1432-dragon-ball-super-beerus",
       "type": "EPS",
-      "episodeCount": 4,
+      "episodeCount": 5,
       "age": "10+",
       "languages": [
         "vostf"
@@ -20071,11 +20067,11 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-08T17:00:00Z",
+      "nextVideoReleaseDate": "2026-11-15T17:00:00Z",
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Manga",
       "distributions": "fr,de,pl",
@@ -20089,7 +20085,7 @@
       "url": "https://animationdigitalnetwork.com/video/1433-suikoden",
       "urlPath": "/video/1433-suikoden",
       "type": "EPS",
-      "episodeCount": 4,
+      "episodeCount": 5,
       "age": "10+",
       "languages": [
         "vostf"
@@ -20104,10 +20100,10 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-03T14:30:00Z",
+      "nextVideoReleaseDate": "2026-11-10T14:30:00Z",
       "qualities": [
-        "sd",
         "fhd",
+        "sd",
         "hd"
       ],
       "basedOn": "Jeu Vidéo",
@@ -20122,7 +20118,7 @@
       "url": "https://animationdigitalnetwork.com/video/1434-yu-sanchi-from-yu-hachi",
       "urlPath": "/video/1434-yu-sanchi-from-yu-hachi",
       "type": "EPS",
-      "episodeCount": 4,
+      "episodeCount": 5,
       "age": "0+",
       "languages": [
         "vostf"
@@ -20135,11 +20131,11 @@
       "simulcast": false,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-06T07:00:00Z",
+      "nextVideoReleaseDate": "2026-11-13T07:00:00Z",
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr,de,pl",
@@ -20153,9 +20149,11 @@
       "url": "https://animationdigitalnetwork.com/video/1435-recreators",
       "urlPath": "/video/1435-recreators",
       "type": "EPS",
-      "episodeCount": 0,
+      "episodeCount": 22,
       "age": "12+",
-      "languages": [],
+      "languages": [
+        "vostf"
+      ],
       "genres": [
         "Animation japonaise",
         "Action",
@@ -20166,9 +20164,13 @@
       "free": false,
       "simulcast": false,
       "available": true,
-      "newEpisode": false,
+      "newEpisode": true,
       "nextVideoReleaseDate": null,
-      "qualities": [],
+      "qualities": [
+        "hd",
+        "fhd",
+        "sd"
+      ],
       "basedOn": "Oeuvre Originale",
       "distributions": "fr",
       "rating": 3,
@@ -20195,7 +20197,7 @@
       "simulcast": false,
       "available": true,
       "newEpisode": false,
-      "nextVideoReleaseDate": null,
+      "nextVideoReleaseDate": "2026-11-25T08:00:00Z",
       "qualities": [],
       "basedOn": "Manga",
       "distributions": "fr",
