@@ -1,14 +1,14 @@
 {
- "generated_at_utc": "2026-11-04T13:50:20Z",
- "count_records": 2683,
- "count_unmapped": 87,
+ "generated_at_utc": "2026-11-09T13:25:50Z",
+ "count_records": 2722,
+ "count_unmapped": 126,
  "sources": [
   "mal_manga.json",
   "mal_anime.json",
   "anilist_dump.json",
   "de_titles.tsv"
  ],
- "count_de_titles": 65,
+ "count_de_titles": 66,
  "records": [
   {
    "mal_id": 1,
@@ -134,6 +134,29 @@
     "berserk",
     "kenpuu denki berserk",
     "剣風伝奇ヘルセルク"
+   ]
+  },
+  {
+   "mal_id": 43,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koukaku Kidoutai",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koukaku kidoutai"
    ]
   },
   {
@@ -795,6 +818,29 @@
     "ghost in the shell stand alone complex",
     "koukaku kidoutai stand alone complex",
     "攻殻機動隊 stand alone complex"
+   ]
+  },
+  {
+   "mal_id": 468,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Innocence",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "innocence"
    ]
   },
   {
@@ -2584,6 +2630,29 @@
     "kimi ni todoke",
     "kimi ni todoke from me to you",
     "君に届け"
+   ]
+  },
+  {
+   "mal_id": 6116,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Mainichi Kaasan",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "mainichi kaasan"
    ]
   },
   {
@@ -9177,11 +9246,11 @@
    "medium": "anime",
    "anilist_id": 98385,
    "format": "TV",
-   "status": "plan_to_watch",
-   "score": 0,
+   "status": "watching",
+   "score": 9,
    "volumes_read": null,
    "chapters_read": null,
-   "start_date": null,
+   "start_date": "2026-11-05",
    "finish_date": null,
    "title_mal": "Koi wa Ameagari no You ni",
    "title_romaji": "Koi wa Ameagari no You ni",
@@ -10987,6 +11056,29 @@
     "rascal does not dream of bunny girl senpai",
     "seishun buta yarou wa bunny girl senpai no yume wo minai",
     "青春フタ野郎はハニーカール先輩の夢を見ない"
+   ]
+  },
+  {
+   "mal_id": 37475,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Kishuku Gakkou no Juliet",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "kishuku gakkou no juliet"
    ]
   },
   {
@@ -21530,12 +21622,12 @@
    "medium": "anime",
    "anilist_id": 172190,
    "format": "TV",
-   "status": "plan_to_watch",
-   "score": 0,
+   "status": "completed",
+   "score": 9,
    "volumes_read": null,
    "chapters_read": null,
-   "start_date": null,
-   "finish_date": null,
+   "start_date": "2026-11-02",
+   "finish_date": "2026-11-03",
    "title_mal": "Kimi wa Meido-sama.",
    "title_romaji": "Kimi wa Meido-sama.",
    "title_english": "You are Ms. Servant",
@@ -22921,6 +23013,29 @@
     "100 meters",
     "hyakuemu",
     "ひゃくえむ"
+   ]
+  },
+  {
+   "mal_id": 58929,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koukaku Kidoutai (TV)",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koukaku kidoutai tv"
    ]
   },
   {
@@ -28701,7 +28816,7 @@
    "chapters_read": null,
    "start_date": null,
    "finish_date": null,
-   "title_mal": "Girls Band Cry Movie 2",
+   "title_mal": "Girls Band Cry the Movie",
    "title_romaji": "GIRLS BAND CRY (Shinsaku Eiga)",
    "title_english": null,
    "title_native": "ガールズバンドクライ (新作映画)",
@@ -28710,8 +28825,8 @@
    "synonyms": [],
    "note": null,
    "keys": [
-    "girls band cry movie 2",
     "girls band cry shinsaku eiga",
+    "girls band cry the movie",
     "カールスハントクライ 新作映画"
    ]
   },
@@ -30422,6 +30537,29 @@
    ]
   },
   {
+   "mal_id": 63472,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Namidaame to Serenade",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "namidaame to serenade"
+   ]
+  },
+  {
    "mal_id": 63503,
    "medium": "anime",
    "anilist_id": 212563,
@@ -32089,6 +32227,29 @@
    ]
   },
   {
+   "mal_id": 64877,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Boku no Suki na Hito ga Suki na Hito",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "boku no suki na hito ga suki na hito"
+   ]
+  },
+  {
    "mal_id": 65009,
    "medium": "anime",
    "anilist_id": 216895,
@@ -32524,6 +32685,52 @@
     "bocchi the rock hoshi no ashiato",
     "bocchi the rock movie hoshi no ashiato",
     "ほっち さ ろっく 星のあしあと"
+   ]
+  },
+  {
+   "mal_id": 65318,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Oshi ni Amagami",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "oshi ni amagami"
+   ]
+  },
+  {
+   "mal_id": 65335,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita. 2nd Season",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "yuusha party ni kawaii ko ga ita node kokuhaku shitemita 2nd season"
    ]
   },
   {
@@ -33738,6 +33945,29 @@
    ]
   },
   {
+   "mal_id": 3395,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Dominion",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "dominion"
+   ]
+  },
+  {
    "mal_id": 3468,
    "medium": "manga",
    "anilist_id": 33468,
@@ -34202,6 +34432,29 @@
    ]
   },
   {
+   "mal_id": 7848,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koukaku Kidoutai: Stand Alone Complex",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koukaku kidoutai stand alone complex"
+   ]
+  },
+  {
    "mal_id": 8157,
    "medium": "manga",
    "anilist_id": 38157,
@@ -34454,6 +34707,29 @@
     "moonlight flowers",
     "moonlight flowers gekka bijin",
     "moonlight flowers 月下美人"
+   ]
+  },
+  {
+   "mal_id": 10820,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Innocence: After the Long Goodbye",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "innocence after the long goodbye"
    ]
   },
   {
@@ -36848,6 +37124,29 @@
    ]
   },
   {
+   "mal_id": 48321,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koukaku Kidoutai: Arise - Sleepless Eye",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koukaku kidoutai arise sleepless eye"
+   ]
+  },
+  {
    "mal_id": 48399,
    "medium": "manga",
    "anilist_id": 78399,
@@ -39073,6 +39372,29 @@
    "keys": [
     "onsen yousei hakone chan",
     "温泉幼精ハコネちゃん"
+   ]
+  },
+  {
+   "mal_id": 91514,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Kishuku Gakkou no Juliet",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "kishuku gakkou no juliet"
    ]
   },
   {
@@ -42523,6 +42845,29 @@
    ]
   },
   {
+   "mal_id": 111262,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Sora yori mo Tooi Basho",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "sora yori mo tooi basho"
+   ]
+  },
+  {
    "mal_id": 111322,
    "medium": "manga",
    "anilist_id": 101417,
@@ -42796,6 +43141,29 @@
     "a condition called love",
     "hananoi kun to koi no yamai",
     "花野井くんと恋の病"
+   ]
+  },
+  {
+   "mal_id": 112031,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koukaku Kidoutai Shousetsu Anthology",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koukaku kidoutai shousetsu anthology"
    ]
   },
   {
@@ -43296,6 +43664,29 @@
     "ima made ichido mo onna atsukaisareta koto ga nai jokishi wo onna atsukai suru",
     "imamade ichido mo onnaatsukai sareta koto ga nai onna kishi wo onnaatsukai suru manga",
     "今まて一度も女扱いされたことかない女騎士を女扱いする漫画"
+   ]
+  },
+  {
+   "mal_id": 113639,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "yuusha party ni kawaii ko ga ita node kokuhaku shitemita"
    ]
   },
   {
@@ -43813,7 +44204,7 @@
    "chapters_read": 0,
    "start_date": null,
    "finish_date": null,
-   "title_mal": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S-Rank ni Natteta",
+   "title_mal": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S-Rank ni Natteta: Kurokami no Ikusaotome",
    "title_romaji": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S-Rank ni Natteta: Kurokami no Ikusaotome",
    "title_english": "My Daughter Left the Nest and Returned an S-Rank Adventurer: The Black-Haired Valkyrie",
    "title_native": "冒険者になりたいと都に出て行った娘がSランクになってた　黒髪の戦乙女",
@@ -43822,7 +44213,6 @@
    "synonyms": [],
    "note": null,
    "keys": [
-    "boukensha ni naritai to miyako ni deteitta musume ga s rank ni natteta",
     "boukensha ni naritai to miyako ni deteitta musume ga s rank ni natteta kurokami no ikusaotome",
     "my daughter left the nest and returned an s rank adventurer the black haired valkyrie",
     "冒険者になりたいと都に出て行った娘かsランクになってた 黒髪の戦乙女"
@@ -45478,7 +45868,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 19,
+   "chapters_read": 50,
    "start_date": "2026-10-30",
    "finish_date": null,
    "title_mal": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
@@ -46298,6 +46688,29 @@
    ]
   },
   {
+   "mal_id": 121505,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koukaku Kidoutai: The Human Algorithm",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koukaku kidoutai the human algorithm"
+   ]
+  },
+  {
    "mal_id": 121550,
    "medium": "manga",
    "anilist_id": 111325,
@@ -46935,6 +47348,29 @@
     "ascendance of a bookworm i ll do anything to become a librarian part 3 let s spread books through the duchy",
     "honzuki no gekokujou shisho ni naru tame ni wa shudan wo erandeiraremasen dai 3 bu ryouchi ni hon wo hirogeyou",
     "本好きの下剋上 司書になるためには手段を選んていられません 第三部 領地に本を広けよう"
+   ]
+  },
+  {
+   "mal_id": 122863,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Kowloon Generic Romance",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "kowloon generic romance"
    ]
   },
   {
@@ -48100,7 +48536,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 108,
+   "chapters_read": 109,
    "start_date": "2026-06-29",
    "finish_date": null,
    "title_mal": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
@@ -48426,7 +48862,7 @@
    "medium": "manga",
    "anilist_id": 110974,
    "format": "MANGA",
-   "status": "reading",
+   "status": "plan_to_read",
    "score": 0,
    "volumes_read": 0,
    "chapters_read": 0,
@@ -48453,8 +48889,8 @@
    "format": "MANGA",
    "status": "reading",
    "score": 9,
-   "volumes_read": 5,
-   "chapters_read": 20,
+   "volumes_read": 6,
+   "chapters_read": 24,
    "start_date": "2026-10-11",
    "finish_date": null,
    "title_mal": "Uchi no Otouto-domo ga Sumimasen",
@@ -48817,6 +49253,29 @@
     "hyouken no majutsushi ga sekai wo suberu sekai saikyou no majutsushi de aru shounen wa majutsu gakuin ni nyuugaku suru",
     "the iceblade sorcerer shall rule the world",
     "冰剣の魔術師か世界を統へる 世界最強の魔術師てある少年は 魔術学院に入学する"
+   ]
+  },
+  {
+   "mal_id": 127941,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Kimi wa Meido-sama.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "kimi wa meido sama"
    ]
   },
   {
@@ -50028,7 +50487,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 87,
+   "chapters_read": 88,
    "start_date": "2026-10-05",
    "finish_date": null,
    "title_mal": "Chikan Saresou ni Natteiru S-kyuu Bishoujo wo Tasuketara Tonari no Seki no Osananajimi datta",
@@ -52438,6 +52897,29 @@
    "note": null,
    "keys": [
     "practiced liar"
+   ]
+  },
+  {
+   "mal_id": 137779,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "yuusha party ni kawaii ko ga ita node kokuhaku shitemita"
    ]
   },
   {
@@ -54941,7 +55423,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 205,
+   "chapters_read": 206,
    "start_date": "2026-06-14",
    "finish_date": null,
    "title_mal": "Kaoru Hana wa Rin to Saku",
@@ -55288,7 +55770,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 120,
+   "chapters_read": 134,
    "start_date": "2026-06-14",
    "finish_date": null,
    "title_mal": "Osananajimi to wa Love Comedy ni Naranai",
@@ -55708,6 +56190,29 @@
    ]
   },
   {
+   "mal_id": 146333,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Jishou Akuyaku Reijou na Tsuma no Kansatsu Kiroku.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "jishou akuyaku reijou na tsuma no kansatsu kiroku"
+   ]
+  },
+  {
    "mal_id": 146416,
    "medium": "manga",
    "anilist_id": 136402,
@@ -56122,7 +56627,7 @@
    "anilist_id": 207803,
    "format": "MANGA",
    "status": "reading",
-   "score": 0,
+   "score": 8,
    "volumes_read": 1,
    "chapters_read": 0,
    "start_date": null,
@@ -57518,6 +58023,29 @@
    ]
   },
   {
+   "mal_id": 153111,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Oshi ni Amagami",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "oshi ni amagami"
+   ]
+  },
+  {
    "mal_id": 153158,
    "medium": "manga",
    "anilist_id": 156303,
@@ -57570,6 +58098,29 @@
     "seltsame ereignisse im einkaufsviertel nekomachi",
     "strange happenings at nekomachi shopping district",
     "怪奇千万 猫町商店街"
+   ]
+  },
+  {
+   "mal_id": 153350,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Boku no Suki na Hito ga Suki na Hito",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "boku no suki na hito ga suki na hito"
    ]
   },
   {
@@ -57710,7 +58261,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 64,
+   "chapters_read": 65,
    "start_date": "2026-06-16",
    "finish_date": null,
    "title_mal": "Yuusha Party wo Tsuihou sareta Ore da ga, Ore kara Sudatte Kureta you de Ureshii....... nanode Daiseijo, Omae ni Otte Korarete wa Komaru no da ga?",
@@ -57811,7 +58362,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 61,
+   "chapters_read": 62,
    "start_date": "2026-06-26",
    "finish_date": null,
    "title_mal": "Bannou \"Murazukuri\" Cheat de Otegaru Slow Life: Mura desu ga Nani ka?",
@@ -58654,6 +59205,29 @@
    ]
   },
   {
+   "mal_id": 157406,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "jingai kyoushitsu no ningengirai kyoushi"
+   ]
+  },
+  {
    "mal_id": 157426,
    "medium": "manga",
    "anilist_id": 144077,
@@ -58855,6 +59429,29 @@
     "sacrificial princess and the king of beasts heir white rabbit and the prince of beasts",
     "shiro usagi to kemono no ouji niehime to kemono no ou spin off",
     "贄姫と獣の王 スヒンオフ 白兎と獣の王子"
+   ]
+  },
+  {
+   "mal_id": 158700,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Jingai Kyoushitsu no Ningengirai Kyoushi: Hitoma-sensei, Watashitachi ni Ningen wo Oshiete Kuremasu ka......?",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "jingai kyoushitsu no ningengirai kyoushi hitoma sensei watashitachi ni ningen wo oshiete kuremasu ka"
    ]
   },
   {
@@ -59146,10 +59743,10 @@
    "medium": "manga",
    "anilist_id": 165751,
    "format": "MANGA",
-   "status": "plan_to_read",
+   "status": "completed",
    "score": 0,
-   "volumes_read": 0,
-   "chapters_read": 0,
+   "volumes_read": 2,
+   "chapters_read": 13,
    "start_date": null,
    "finish_date": null,
    "title_mal": "Daraku Kazokuron",
@@ -59206,7 +59803,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 30,
+   "chapters_read": 32,
    "start_date": "2026-09-09",
    "finish_date": null,
    "title_mal": "Batsuichi ga Moteru nante Kiitemasen",
@@ -59475,7 +60072,7 @@
    "anilist_id": 165205,
    "format": "MANGA",
    "status": "reading",
-   "score": 0,
+   "score": 9,
    "volumes_read": 1,
    "chapters_read": 5,
    "start_date": "2026-09-26",
@@ -60785,11 +61382,11 @@
    "medium": "manga",
    "anilist_id": 143379,
    "format": "MANGA",
-   "status": "plan_to_read",
-   "score": 0,
-   "volumes_read": 0,
-   "chapters_read": 0,
-   "start_date": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 4,
+   "chapters_read": 30,
+   "start_date": "2026-11-07",
    "finish_date": null,
    "title_mal": "Gokugoku Futsuu no Fuufu no Hanashi: Matome",
    "title_romaji": "Gokugoku Futsuu no Fuufu no Hanashi",
@@ -61106,7 +61703,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 78,
+   "chapters_read": 79,
    "start_date": "2026-06-19",
    "finish_date": null,
    "title_mal": "Majo to Youhei",
@@ -62650,7 +63247,7 @@
    "status": "reading",
    "score": 7,
    "volumes_read": 0,
-   "chapters_read": 33,
+   "chapters_read": 34,
    "start_date": "2026-07-06",
    "finish_date": null,
    "title_mal": "Tensei Yuusha no Kimama Tabi",
@@ -62723,11 +63320,11 @@
    "medium": "manga",
    "anilist_id": 181168,
    "format": "MANGA",
-   "status": "plan_to_read",
-   "score": 0,
+   "status": "reading",
+   "score": 10,
    "volumes_read": 0,
-   "chapters_read": 0,
-   "start_date": null,
+   "chapters_read": 7,
+   "start_date": "2026-11-04",
    "finish_date": null,
    "title_mal": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",
    "title_romaji": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",
@@ -63185,6 +63782,29 @@
    ]
   },
   {
+   "mal_id": 174331,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "The Count's Secret Maid",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "the count s secret maid"
+   ]
+  },
+  {
    "mal_id": 174393,
    "medium": "manga",
    "anilist_id": 189580,
@@ -63419,6 +64039,29 @@
    ]
   },
   {
+   "mal_id": 176084,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "My Pace to Aruku",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "my pace to aruku"
+   ]
+  },
+  {
    "mal_id": 176232,
    "medium": "manga",
    "anilist_id": 184390,
@@ -63598,7 +64241,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 10,
+   "chapters_read": 11,
    "start_date": "2026-07-10",
    "finish_date": null,
    "title_mal": "Agereco!",
@@ -63613,6 +64256,29 @@
     "agereco",
     "agereco getting into the voice acting spirit",
     "アケレコ"
+   ]
+  },
+  {
+   "mal_id": 177215,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Bisque Doll de Chu♡",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "bisque doll de chu"
    ]
   },
   {
@@ -64114,9 +64780,9 @@
    "medium": "manga",
    "anilist_id": 194274,
    "format": "MANGA",
-   "status": "reading",
+   "status": "completed",
    "score": 8,
-   "volumes_read": 0,
+   "volumes_read": 4,
    "chapters_read": 17,
    "start_date": "2026-07-16",
    "finish_date": "2026-10-08",
@@ -64263,7 +64929,7 @@
    "anilist_id": 191766,
    "format": "MANGA",
    "status": "reading",
-   "score": 0,
+   "score": 8,
    "volumes_read": 1,
    "chapters_read": 5,
    "start_date": "2026-10-29",
@@ -64379,6 +65045,57 @@
     "me and the prez drinking under the stars",
     "shachou to sake to hoshi",
     "社長と酒と星"
+   ]
+  },
+  {
+   "mal_id": 181810,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Kusuriya no Hitorigoto Gaiden: Xiaolan Kaisouroku",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [
+    "Die Tagebücher der Apothekerin – Shaolans Erinnerungen"
+   ],
+   "de_sources": [
+    "litfass-bestand"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "die tagebucher der apothekerin shaolans erinnerungen",
+    "kusuriya no hitorigoto gaiden xiaolan kaisouroku"
+   ]
+  },
+  {
+   "mal_id": 181858,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Jishou Akuyaku Reijou na Tsuma no Kansatsu Kiroku.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "jishou akuyaku reijou na tsuma no kansatsu kiroku"
    ]
   },
   {
@@ -64656,7 +65373,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 34,
+   "chapters_read": 35,
    "start_date": "2026-07-16",
    "finish_date": null,
    "title_mal": "Osananananajimi",
@@ -64872,13 +65589,36 @@
    ]
   },
   {
+   "mal_id": 184692,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Bannou \"Murazukuri\" Cheat de Otegaru Slow Life: Mura desu ga Nani ka?",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "bannou murazukuri cheat de otegaru slow life mura desu ga nani ka"
+   ]
+  },
+  {
    "mal_id": 184716,
    "medium": "manga",
    "anilist_id": 195814,
    "format": "MANGA",
-   "status": "reading",
+   "status": "completed",
    "score": 8,
-   "volumes_read": 0,
+   "volumes_read": 4,
    "chapters_read": 24,
    "start_date": "2026-09-09",
    "finish_date": "2026-09-25",
@@ -64981,7 +65721,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 58,
+   "chapters_read": 59,
    "start_date": "2026-08-06",
    "finish_date": null,
    "title_mal": "Isekai Gourmet de Nariagari Musou: Yama ni Tsuihou sareta node, Nonbiri Camp wo Tanoshindeitara Itsunomanika Tsuyoku Natteite, Oukou Kizoku ya Jitsuryokusha-tachi ga Ore wo Houtteoite Kuremasen. Ippou, Ore wo Tsuihou shita Kizoku-tachi wa Hametsu ga Hajimaru",
@@ -65032,7 +65772,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 54,
+   "chapters_read": 55,
    "start_date": "2026-09-22",
    "finish_date": null,
    "title_mal": "Someone Hertz",
@@ -65348,7 +66088,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 40,
+   "chapters_read": 41,
    "start_date": "2026-07-03",
    "finish_date": null,
    "title_mal": "Haimiya-senpai wa Kowakute Kawaii",
@@ -65411,6 +66151,29 @@
     "bus for two",
     "futari bus",
     "ふたりハス"
+   ]
+  },
+  {
+   "mal_id": 188873,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Otonarisan no Gal ga Boku wo Horesasetakute Zenryoku Sugiru",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "otonarisan no gal ga boku wo horesasetakute zenryoku sugiru"
    ]
   },
   {
@@ -65743,6 +66506,29 @@
    ]
   },
   {
+   "mal_id": 189860,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 0,
+   "chapters_read": 22,
+   "start_date": "2026-11-09",
+   "finish_date": null,
+   "title_mal": "Shima Rock",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "shima rock"
+   ]
+  },
+  {
    "mal_id": 189979,
    "medium": "manga",
    "anilist_id": 213111,
@@ -66013,6 +66799,29 @@
    ]
   },
   {
+   "mal_id": 191071,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "completed",
+   "score": 8,
+   "volumes_read": 0,
+   "chapters_read": 1,
+   "start_date": "2026-11-09",
+   "finish_date": "2026-11-09",
+   "title_mal": "Pechi Pan Pochin",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "pechi pan pochin"
+   ]
+  },
+  {
    "mal_id": 191242,
    "medium": "manga",
    "anilist_id": 204007,
@@ -66093,7 +66902,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 14,
+   "chapters_read": 15,
    "start_date": "2026-09-14",
    "finish_date": null,
    "title_mal": "Yuiitsu Muni no Seirei Kajishi ga Saikyou no Bugu wo Tsukuru made: Dwarf no Kaji to Elf no Mahou wo Kiwameta Saikyou Half Elf wa, Mujikaku na Mama Musou suru",
@@ -66162,10 +66971,10 @@
    "medium": "manga",
    "anilist_id": null,
    "format": null,
-   "status": "on_hold",
+   "status": "reading",
    "score": 8,
-   "volumes_read": 0,
-   "chapters_read": 3,
+   "volumes_read": 3,
+   "chapters_read": 19,
    "start_date": "2026-09-05",
    "finish_date": null,
    "title_mal": "On wo Ada de Kaesareta Reijou no Kazoku ga Damatteiru Wake ga Nai",
@@ -66380,7 +67189,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 12,
+   "chapters_read": 13,
    "start_date": "2026-07-12",
    "finish_date": null,
    "title_mal": "Yata Miran to Seishun ni Joutou!!",
@@ -66589,6 +67398,29 @@
    ]
   },
   {
+   "mal_id": 195774,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Otonarisan no Gal ga Boku wo Horesasetakute Zenryoku Sugiru",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "otonarisan no gal ga boku wo horesasetakute zenryoku sugiru"
+   ]
+  },
+  {
    "mal_id": 195792,
    "medium": "manga",
    "anilist_id": 216972,
@@ -66691,7 +67523,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 9,
+   "chapters_read": 10,
    "start_date": "2026-09-10",
    "finish_date": null,
    "title_mal": "Ryuu no Nieyome: Shiitagerareta Shoujo wa Unmei no Tsugai toshite Aisareru",
@@ -66736,9 +67568,9 @@
    "medium": "manga",
    "anilist_id": null,
    "format": null,
-   "status": "reading",
+   "status": "completed",
    "score": 8,
-   "volumes_read": 0,
+   "volumes_read": 2,
    "chapters_read": 11,
    "start_date": "2026-09-05",
    "finish_date": "2026-10-08",
@@ -66786,7 +67618,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 7,
+   "chapters_read": 8,
    "start_date": "2026-09-22",
    "finish_date": null,
    "title_mal": "Evangeline wa Kutsu wo Haku",
@@ -66825,6 +67657,29 @@
    "keys": [
     "nanchatte kyuuketsuki morino san",
     "なんちゃって吸血鬼森野さん"
+   ]
+  },
+  {
+   "mal_id": 196788,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 9,
+   "volumes_read": 0,
+   "chapters_read": 5,
+   "start_date": "2026-11-09",
+   "finish_date": null,
+   "title_mal": "Slap Shot Girls",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "slap shot girls"
    ]
   },
   {
@@ -66874,6 +67729,29 @@
    ]
   },
   {
+   "mal_id": 197054,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Hatsu-iro Focus",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "hatsu iro focus"
+   ]
+  },
+  {
    "mal_id": 197279,
    "medium": "manga",
    "anilist_id": 208771,
@@ -66881,7 +67759,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 12,
+   "chapters_read": 13,
    "start_date": "2026-10-20",
    "finish_date": null,
    "title_mal": "Koukyuu no Hana Yuishi",
@@ -66922,6 +67800,29 @@
     "reading our way to a happy new world",
     "yomu tabi ni shiawase wo",
     "読むたひに幸せを"
+   ]
+  },
+  {
+   "mal_id": 197860,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Futari wa Sekai to Kamiawanai",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "futari wa sekai to kamiawanai"
    ]
   }
  ]
