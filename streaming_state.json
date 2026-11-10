@@ -59,7 +59,37 @@
     46971,
     63998,
     36214,
-    37171
+    37171,
+    6166,
+    9618,
+    38572,
+    57391,
+    58820,
+    42143,
+    21185,
+    59161,
+    5081,
+    54603,
+    30795,
+    2986,
+    36649,
+    33573,
+    62430,
+    64427,
+    31904,
+    13535,
+    52229,
+    34618,
+    54309,
+    49665,
+    61006,
+    55357,
+    65302,
+    31043,
+    49834,
+    63735,
+    64877,
+    21405
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -103,6 +133,57 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "5081": {
+      "title": "Bakemonogatari",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "low",
+      "jw_title": "Monogatari",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GEVUW339P"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari/26400-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.380b4162-7c0f-4a4f-a54a-4bd56612a7de"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari",
+        "status": 200,
+        "adn_title": "Bakemonogatari",
+        "available": true,
+        "languages": [
+          "vostf",
+          "vf"
+        ],
+        "episode_count": 15,
+        "season_video_count": 15,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "6164": {
       "title": "Aoi Hana",
       "mal_status": "on_hold",
@@ -124,6 +205,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.da3d73a2-b9fb-4dd3-a186-4ba21e081bc4"
         }
       ],
+      "legal_de_other_providers": []
+    },
+    "6166": {
+      "title": "Asobi ni Iku yo!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Cat Planet Cuties",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G6E5X8NPY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ce718514-b64f-4975-8ed9-459abc8963aa"
+        }
+      ],
+      "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
     "8676": {
@@ -304,6 +416,49 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "21405": {
+      "title": "Bokura wa Minna Kawai-sou",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Kawai Complex Guide to Manors and Hostel Behavior",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1114-the-kawai-complex-guide-to-manors-and-hostel-behavior/23916-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0c225403-8e3b-44c8-b68a-66ca24c58cdc"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1114-the-kawai-complex-guide-to-manors-and-hostel-behavior",
+        "status": 200,
+        "adn_title": "The Kawai Complex Guide to Manors and Hostel Behavior",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 13,
+        "season_video_count": 13,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "21995": {
       "title": "Ao Haru Ride",
       "mal_status": "plan_to_watch",
@@ -469,6 +624,90 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d4b7379b-515e-eaa3-0978-dce629a3ca42"
         }
       ]
+    },
+    "31043": {
+      "title": "Boku dake ga Inai Machi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Erased",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/80173711"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/80173711"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "31904": {
+      "title": "Big Order (TV)",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Big Order",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GYP8X4KMY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0c93ab44-f6b0-4ca7-9de3-76219a029c19"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "33573": {
+      "title": "BanG Dream!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "BanG Dream!",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GPWUK49V5"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "34051": {
       "title": "Akiba's Trip The Animation",
@@ -892,6 +1131,29 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "54309": {
+      "title": "Blue Archive the Animation",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Blue Archive: The Animation",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3b83adad-5381-4aac-84d8-a9f407816638"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "54915": {
       "title": "5-toubun no Hanayome∽",
       "mal_status": "plan_to_watch",
@@ -1055,6 +1317,37 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "57391": {
+      "title": "Astro Note",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Astro Note",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GZ7UVEG0X"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2067a017-59d7-44ea-831e-0f8cef189875"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "57719": {
       "title": "Akuyaku Reijou Tensei Ojisan",
       "mal_status": "plan_to_watch",
@@ -1153,6 +1446,88 @@
         }
       ]
     },
+    "58820": {
+      "title": "Awajima Hyakkei",
+      "mal_status": "on_hold",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "A Hundred Scenes of AWAJIMA",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00375069JAJP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5326d8d2-d33e-4252-9351-c3db47ebd6bf"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "59161": {
+      "title": "Bad Girl",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Bad Girl",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1308-bad-girl/29305-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ff5321ea-2bfd-471f-8b74-bee00a18b27b"
+        }
+      ],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d1f28e9c-2733-42f1-887d-94f6df017fc2"
+        }
+      ],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1308-bad-girl",
+        "status": 200,
+        "adn_title": "Bad Girl",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 12,
+        "season_video_count": 12,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "59619": {
       "title": "Ame to Kimi to",
       "mal_status": "plan_to_watch",
@@ -1218,6 +1593,37 @@
         "season_video_count": 9,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "62430": {
+      "title": "BanG Dream! Yume∞Mita",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-10T11:12:09.463Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "BanG Dream! YUME∞MITA",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00380373JAJP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.06d52337-b0a0-4a61-b353-fd1c35c32d25"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "63120": {
       "title": "Akatsuki no Yona (Zoku-hen)",
