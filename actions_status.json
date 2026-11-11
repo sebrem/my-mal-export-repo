@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:51:34.578393+00:00",
+  "generated_at": "2026-11-11T19:43:28.297801+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -31,8 +31,8 @@
     {
       "name": "Verlags-Announcements",
       "status": "ok",
-      "detail": "Erfolg 2026-11-04T13:17:28Z (Run 41836748132), +7.5h",
-      "expected": "2026-11-04T05:47:00+00:00"
+      "detail": "Erfolg 2026-11-11T12:58:42Z (Run 43024982300), +7.2h",
+      "expected": "2026-11-11T05:47:00+00:00"
     },
     {
       "name": "Release-Kalender",
@@ -43,8 +43,8 @@
     {
       "name": "Streaming Rollcheck",
       "status": "ok",
-      "detail": "Erfolg 2026-11-10T11:12:02Z (Run 42805499311), +7.9h",
-      "expected": "2026-11-10T03:17:00+00:00"
+      "detail": "Erfolg 2026-11-11T10:57:14Z (Run 43007887744), +7.7h",
+      "expected": "2026-11-11T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
@@ -61,8 +61,8 @@
     {
       "name": "Anime2You Feed Harvest",
       "status": "late",
-      "detail": "Erfolg 2026-11-10T15:07:21Z (Run 42841054982), aber 8.6h nach Termin 2026-11-10T06:30:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-10T06:30:00+00:00"
+      "detail": "Erfolg 2026-11-11T14:38:16Z (Run 43040388889), aber 8.1h nach Termin 2026-11-11T06:30:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-11T06:30:00+00:00"
     },
     {
       "name": "DE-License-Check",
