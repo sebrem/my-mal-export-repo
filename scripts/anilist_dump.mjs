@@ -8,6 +8,12 @@
 // BATCH 25→12 wegen AniList-Complexity-Budget. Zweck: Franchise-/Duo-Matching
 // ohne EN-Titelgleichheit (Beleg: Chichi wa Eiyuu – Anime-EN und Manga-EN
 // unterscheiden sich auf MAL je Medium; exaktes EN-Matching greift nicht).
+//
+// Delta 11.11.2026 (Alias-Harvest): FIELDS um synonyms erweitert – Quelle für
+// scripts/make_aliases.py (mal_aliases.json, id->Titelvarianten; Belegfall
+// Net-juu no Susume 36038: MAL-Schreibweise mit, AniList-/Ad-hoc-Schreibweisen
+// teils ohne Bindestrich). synonyms ist eine flache String-Liste, das
+// Complexity-Budget von BATCH=12 bleibt ausreichend.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -55,6 +61,7 @@ const FIELDS = `
   status
   genres
   averageScore
+  synonyms
   title { romaji english native }
   externalLinks { site url type }
   nextAiringEpisode { episode airingAt timeUntilAiring }
@@ -113,8 +120,8 @@ async function dumpAll(ids, type) {
     const data = await callGraphQL(query, { ids: batch, type });
     const found = data?.Page?.media ?? [];
     const foundMal = new Set(found.map((m) => m.idMal));
-    // Treffer übernehmen (auch Mehrfach-Mappings, z.B. LN + "the Comic");
-    // relations gefiltert als flache Liste an jeden Eintrag gehängt
+    // Treffer übernehmen (auch Mehrfach-Mappings, z.B. LN + "the Comic";
+    // relations gefiltert als flache Liste an jeden Eintrag gehängt)
     for (const media of found) {
       const slim = { ...media, relations: slimRelations(media, type) };
       entries.push(slim);
