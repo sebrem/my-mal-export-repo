@@ -5,7 +5,9 @@ Fuehrt alle Titel-Quellen des Repos zu EINEM normalisierten Index zusammen:
 
 Quellen (read-only, alle im Repo):
   mal_manga.json / mal_anime.json  -> id, title (Romaji-MAL), status,
-                                       score, Lesestand, Datumfelder
+                                       score, Lesestand, Datumfelder,
+                                       alternative_titles (en/ja/synonyms,
+                                       im Export seit 11.11.2026)
   anilist_dump.json                -> idMal-Match: anilist_id, format
                                        (NOVEL/MANGA/TV/...), title.romaji/
                                        english/native, synonyms
@@ -45,8 +47,10 @@ Design-Regeln:
     der MAL-Listen-Export hat dafuer KEIN Feld. Eintraege OHNE AniList-Match
     bekommen format=None + note "unmapped" (AniList-Pipeline nachfassen).
   - KEIN API-Abruf: nur die drei lokalen Dateien, laeuft in Sekunden.
-  - Jikan/AniList-GraphQL-Erweiterung (Synonyme, DE-Titel) bewusst als
-    optionale Ausbaustufe, nicht Teil v1.
+  - Synonym-Lane (Patch 12.11.2026, Moebiusschleife Redundanz-Befund): MAL
+    alternative_titles (en/ja/synonyms) + AniList synonyms sind jetzt VOLLE
+    Varianten-Keys (Beleg: "netojuu no susume" -> 36038 fehlte vorher im
+    Index). Jikan/GraphQL-Live-Abrufe bleiben bewusst draussen.
 
 Integration: eigener Workflow-Schritt nach anilist_export im Montags-Job
 (s. Workflow-Datei im Begleit-Canvas), Commit wie die anderen Snapshots.
@@ -161,6 +165,11 @@ def main():
             if not mal_id:
                 continue
             ls = e.get("list_status") or {}
+            # MAL-Synonym-Lane (Patch 12.11.2026): alternative_titles aus dem
+            # Listen-Export als Varianten (fehlt in alten Exports -> leer).
+            at = e.get("alternative_titles") or {}
+            mal_syns = [x for x in (at.get("synonyms") or [])
+                        if isinstance(x, str)]
             al = anilist.get((medium, int(mal_id)))
             if al is None:
                 unmapped += 1
@@ -168,12 +177,15 @@ def main():
             de = de_titles.get((medium, int(mal_id)))
             if de:
                 de_hits += len(de)
-            variants = []
-            for v in [e.get("title"),
-                      al and al["romaji"], al and al["english"],
-                      al and al["native"]] + (al["synonyms"] if al else []):
-                if v and isinstance(v, str):
-                    variants.append(v)
+            # (for-Header erlauben KEINE implizite Fortsetzung per
+            # Operator am Zeilenende - deshalb Liste per += aufbauen)
+            variants = [e.get("title"), at.get("en"), at.get("ja")]
+            variants += mal_syns
+            if al:
+                variants += [al["romaji"], al["english"], al["native"]]
+                variants += al["synonyms"]
+            variants = [v for v in variants
+                        if v and isinstance(v, str)]
             variants += [d["titel"] for d in (de or [])]
             keys = sorted({norm(v) for v in variants} - {""})
             rec = {
@@ -193,6 +205,9 @@ def main():
                 "title_native": al["native"] if al else None,
                 "title_german": [d["titel"] for d in (de or [])],
                 "de_sources": [d["quelle"] for d in (de or [])],
+                "mal_title_en": at.get("en"),
+                "mal_title_ja": at.get("ja"),
+                "mal_synonyms": mal_syns,
                 "synonyms": al["synonyms"] if al else [],
                 "note": None if al else "unmapped (kein AniList-Treffer)",
                 "keys": keys,
