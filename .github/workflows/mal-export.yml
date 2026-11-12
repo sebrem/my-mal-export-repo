@@ -44,7 +44,7 @@ jobs:
             url="https://api.myanimelist.net/v2/users/${MAL_USER}/${kind}list?fields=list_status${extra_fields}&nsfw=true&limit=500"
 
             while [ -n "$url" ]; do
-              page_data=$(curl -sfS --retry 3 --retry-delay 5 \
+              page_data=$(curl -gsfS --retry 3 --retry-delay 5 \
                 -H "X-MAL-CLIENT-ID: ${MAL_CLIENT_ID}" "$url")
 
               # Pro Eintrag: node-Metadaten + list_status (Score, Status etc.) zusammenführen
