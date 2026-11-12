@@ -4,7 +4,7 @@
 # (Peak-Time-Queueing); Off-Peak-Minuten kommen deutlich zuverlaessiger.
 #
 # Patch 2026-11-11 (Alias-Harvest): fetch_list um alternative_titles{en,ja,synonyms}
-# erweitert + make_aliases.py erzeugt mal_aliases.json (id->Titelvarianten,
+# erweitert + make_alias_index.py erzeugt mal_alias_index.json (id->Titelvarianten,
 # Belegfall Net-juu no Susume 36038). AniList-Daten im Alias-Index sind ggf.
 # einen Zyklus alt (AniList-Export laeuft erst 04:47 UTC).
 
@@ -68,14 +68,14 @@ jobs:
         run: python3 scripts/make_indexes.py --mal
 
       - name: Alias-Index erzeugen (id -> Titelvarianten, Patch 2026-11-11)
-        run: python3 scripts/make_aliases.py
+        run: python3 scripts/make_alias_index.py
 
       - name: Committen (nur wenn sich etwas geändert hat)
         run: |
           set -euo pipefail
           git config user.name  "mal-sync-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add mal_anime.json mal_manga.json mal_anime_index.json mal_manga_index.json mal_aliases.json
+          git add mal_anime.json mal_manga.json mal_anime_index.json mal_manga_index.json mal_alias_index.json
           if git diff --cached --quiet; then
             echo "Keine Aenderungen seit letztem Pull - kein Commit noetig."
           else

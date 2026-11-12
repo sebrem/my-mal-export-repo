@@ -1,32 +1,45 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-make_aliases.py – mal_aliases.json: Titelvarianten-Index (id -> Aliase).
+make_alias_index.py – mal_alias_index.json: Titelvarianten-Index (id -> Aliase).
+
+Umbenennung 12.11.2026 (Möbiusschleife): hieß make_aliases.py, Ausgabe hieß
+mal_aliases.json – kollidierte mit dem UNABHÄNGIGEN, älteren CLI-Resolver
+scripts/mal_aliases.py (open_titles.json -> open_title_hints.json, LIVE seit
+04.11.). Neue Namen: Script make_alias_index.py, Datendatei mal_alias_index.json.
 
 Hintergrund (2026-11-11, Beleg "Net-juu no Susume", MAL 36038):
 MAL-Schreibweisen variieren (Net-juu / Netojuu, Bindestrich ja/nein) und
 Ad-hoc-Suchen per Titel scheitern an exakter Schreibweise. Die Duo-Discovery-
-Regel (Skill anime-manga-abgleich) referenziert mal_aliases.json als
-id->Titelvarianten-Index. Quellen:
+Regel (Skill anime-manga-abgleich) referenziert den Alias-Index als
+id->Titelvarianten-Quelle. Quellen:
   1) mal_anime.json / mal_manga.json: Feld "title" + "alternative_titles"
-     (en/ja/synonyms; neu im MAL-Export seit Patch 2026-11-11, vorher fehlt
-     das Feld einfach -> Fallback auf AniList)
+     (en/ja/synonyms; im MAL-Export seit Patch 2026-11-11)
   2) anilist_dump.json: title{romaji english native} + synonyms
-     (synonyms neu im FIELDS-Patch von anilist_dump.mjs; alter Dump ohne
+     (synonyms im Dump seit FIELDS-Patch 2026-11-11; alter Dump ohne
      synonyms wird still ignoriert)
 
+ROLLE (Möbiusschleife 12.11.2026, Abgrenzung zur führenden Instanz):
+  Fuehrende Instanz fuer Titel-Lookups bleibt abo_snapshots/title_index.tsv
+  bzw. scripts/title_lookup.py (Fuzzy + Staleness-Fallback). mal_alias_index.json
+  ist die Synonym-/Varianten-VOLLDATENQUELLE mit norm-Keys fuer Duo-Discovery-
+  und Synonym-Greps; sein Synonym-Vorteil soll per Nachtrag in title_index.py
+  einfliesen, danach kann dieser Index in den Ruhestand.
+
 Ausgabe-Format (Repo-Root):
-  mal_aliases.json:
+  mal_alias_index.json:
     { generated_at, source, note, count,
       entries: { "<mal_id>": { "main": str, "variants": [...roh, dedup],
                                "norm": [...normalisiert, dedup] } } }
 
-Normalisierung fuer Matching: lowercase, nur [a-z0-9\u3040-\u30ff\u4e00-\u9fff]
-(alles andere inkl. Bindestrich/Leerzeichen/Punkt raus). Damit matcht
-"netjuunosusume" beide Schreibweisen (Net-juu / Netojuu). Fehlende Quellen
-werden still uebersprungen (Workflows committen nur vorhandene Dateien).
+MATCHING-SEMANTIK: 'norm' = lowercase, nur [a-z0-9\u3040-\u30ff\u4e00-\u9fff]
+(alles andere inkl. Bindestrich/Leerzeichen/Punkt raus). EXAKTER Vergleich
+gegen norm-Elemente - KEIN Substring-Match (Beleg: "pardon the intrusion"
+trifft nicht, norm-Element ist "pardontheintrusionimhome"; Vollvariante
+"Pardon the Intrusion, I'm Home!" trifft). Fehlende Quellen werden still
+uebersprungen.
 
-Aufruf: python3 scripts/make_aliases.py
+Aufruf: python3 scripts/make_alias_index.py
 """
 import json
 import os
@@ -34,6 +47,7 @@ import re
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = "mal_alias_index.json"
 
 # CJK-Kana/Kanji behalten, sonst nur a-z0-9
 _KEEP = re.compile(r"[^a-z0-9\u3040-\u30ff\u4e00-\u9fff]")
@@ -112,14 +126,14 @@ def main():
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "mal_anime.json/mal_manga.json (alternative_titles) + anilist_dump.json (title, synonyms)",
-        "note": "id -> Titelvarianten; 'norm' = normalisiert (lowercase, Sonderzeichen raus) fuer Schreibweisen-tolerantes Matching",
+        "note": "id -> Titelvarianten; 'norm' = normalisiert (lowercase, Sonderzeichen raus), EXAKT zu matchen (kein Substring); fuehrende Lookup-Instanz bleibt title_index.tsv",
         "count": len(entries),
         "entries": entries,
     }
-    with open(os.path.join(ROOT, "mal_aliases.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(ROOT, OUT), "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(",", ":"))
         fh.write("\n")
-    print("OK mal_aliases.json (%d Eintraege)" % len(entries))
+    print("OK %s (%d Eintraege)" % (OUT, len(entries)))
 
 
 if __name__ == "__main__":
