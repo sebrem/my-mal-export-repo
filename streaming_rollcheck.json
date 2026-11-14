@@ -1,5 +1,5 @@
 {
-  "run": "2026-11-13T10:58:20.743Z",
+  "run": "2026-11-14T10:25:46.117Z",
   "source": "apis.justwatch.com/graphql (DE, Katalogstufe)",
   "chunk_size": 30,
   "disclaimer": "Fund != Empfehlung; Katalogstufe, keine Video-Ebenen-Verifikation. Treffer-Tiers: hit_direct (Abo-Dienst direkt) > hit_channel (aniverse-Prime-Channel) > hit_channel_candidate (Prime-Channel-Verdacht) > hit_cr_channel_caveat / hit_adn_channel_caveat (Channel-Katalog weicht ab – nicht CR-/ADN-direct!) ; de_legal_only = legal in DE verfügbar, aber nicht auf eigenen Diensten (Re-Lizenz-Monitoring-Signal). buy_physical = Disc/Kauf, kein Streaming-Signal. werstreamt.es verworfen: 301-Selbstloop (Anti-Bot), für Automation unbrauchbar. V8.5: adn_video-Feld = ADN-Video-Ebenen-Check (available/languages/episode_count aus ADN-Show-Seite); Geo-Caveat – s. adn_check.geo_suspect.",
@@ -7,272 +7,37 @@
   "adn_check": {
     "enabled": true,
     "max_per_run": 12,
-    "checks_done": 2,
-    "available_true": 2,
+    "checks_done": 1,
+    "available_true": 1,
     "available_false": 0,
     "geo_suspect": false
   },
   "universe": {
     "status_filter": "alles außer dropped/completed",
-    "count": 867
+    "count": 869
   },
   "cycle": {
     "number": 2,
     "started": "2026-11-08T10:22:39.737Z",
-    "processed_before": 150,
-    "universe": 867,
+    "processed_before": 180,
+    "universe": 869,
     "cycle_completed_last_run": false
   },
   "chunk": {
     "count": 30,
-    "first_mal_id": 64906,
-    "last_mal_id": 55830
+    "first_mal_id": 10087,
+    "last_mal_id": 918
   },
   "chunk_results": [
     {
-      "mal_id": 64906,
-      "title": "Aoharu Once More",
+      "mal_id": 10087,
+      "title": "Fate/Zero",
       "status": "plan_to_watch",
       "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 33988,
-      "title": "Demi-chan wa Kataritai",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Demi-chan wa Kataritai",
-        "jw_id": "ts53359",
-        "jw_title": "Interviews mit Monster-Mädchen",
-        "jw_path": "/de/Serie/Interviews-With-Monster-Girls",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G4VUQEX35"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 9379,
-      "title": "Denpa Onna to Seishun Otoko",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Denpa Onna to Seishun Otoko",
-        "jw_id": "ts44786",
-        "jw_title": "Ground Control to Psychoelectric Girl",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 17513,
-      "title": "Diabolik Lovers",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Diabolik Lovers",
-        "jw_id": "ts11238",
-        "jw_title": "Diabolik Lovers",
-        "jw_path": "/de/Serie/diabolik-lovers",
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 31163,
-      "title": "Dimension W",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dimension W",
-        "jw_id": "ts41348",
-        "jw_title": "Dimension W",
-        "jw_path": "/de/Serie/Dimension-W",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GG1U2G8ZM"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d3f206fd-967f-4eb9-a069-3aa253f5f5f4"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1056964012"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1056964019"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 63423,
-      "title": "Doko yori mo Tooi Basho ni Iru Kimi e",
-      "status": "plan_to_watch",
-      "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 37982,
-      "title": "Domestic na Kanojo",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Domestic na Kanojo",
-        "jw_id": "ts84640",
-        "jw_title": "Domestic Girlfriend",
-        "jw_path": "/de/Serie/Domestic-Girlfriend",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GYXJDZ2E6"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6d3b05e6-31c3-4f1f-bddf-89804cbb75fe"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.edc52545-c41c-4474-b5c7-11e327eac477"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B09NRD2835?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059083013"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1059083016"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 2471,
-      "title": "Doraemon (1979)",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Doraemon (1979)",
-        "jw_id": "ts13931",
-        "jw_title": "Doraemon",
-        "jw_path": "/de/Serie/doraemon",
-        "match_confidence": null,
-        "verdict": "no_hit",
-        "my_direct_hits": [],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": false
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 38668,
-      "title": "Dorohedoro",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dorohedoro",
-        "jw_id": "ts221749",
-        "jw_title": "Dorohedoro",
-        "jw_path": "/de/Serie/Dorohedoro",
+        "searched_as": "Fate/Zero",
+        "jw_id": "ts11151",
+        "jw_title": "Fate/Zero",
+        "jw_path": "/de/Serie/Fate-Zero",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
@@ -281,140 +46,14 @@
             "name": "Netflix",
             "tier": "direct",
             "note": null,
-            "url": "https://www.netflix.com/title/80991903"
-          },
-          {
-            "provider": "dnp",
-            "name": "Disney+",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.disneyplus.com/browse/entity-99c35086-cc39-481c-9827-333c0ab15d5a"
-          },
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00375235JAJP"
+            "url": "https://www.netflix.com/title/70304256"
           },
           {
             "provider": "nfa",
             "name": "Netflix (Standard with Ads)",
             "tier": "direct",
             "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
-            "url": "https://www.netflix.com/title/80991903"
-          },
-          {
-            "provider": "adn",
-            "name": "ADN (Animation Digital Network)",
-            "tier": "direct",
-            "note": null,
-            "url": "https://animationdigitalnetwork.com/de/video/1375-dorohedoro/31263-folge-1"
-          }
-        ],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2b4286bc-67ac-4752-96a5-cc6759877188"
-          }
-        ],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2b4286bc-67ac-4752-96a5-cc6759877188"
-          }
-        ],
-        "adn_channel_caveat": [
-          {
-            "provider": "ada",
-            "name": "ADN (Amazon-Channel)",
-            "tier": "adn_channel_caveat",
-            "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2b4286bc-67ac-4752-96a5-cc6759877188"
-          }
-        ],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true,
-        "adn_video": {
-          "url": "https://animationdigitalnetwork.com/de/video/1375-dorohedoro",
-          "status": 200,
-          "adn_title": "Dorohedoro",
-          "available": true,
-          "languages": [
-            "vostf",
-            "vf"
-          ],
-          "episode_count": 24,
-          "season_video_count": 24,
-          "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
-        }
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 53421,
-      "title": "Dosanko Gal wa Namara Menkoi",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dosanko Gal wa Namara Menkoi",
-        "jw_id": "ts369586",
-        "jw_title": "Hokkaido Gals Are Super Adorable!",
-        "jw_path": "/de/Serie/hokkaido-gals-are-super-adorable",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G50UZV2MM"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e7f018c6-63a7-4bfe-96da-79975b1ac37b"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 38145,
-      "title": "Doukyonin wa Hiza, Tokidoki, Atama no Ue.",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Doukyonin wa Hiza, Tokidoki, Atama no Ue.",
-        "jw_id": "ts86176",
-        "jw_title": "My Roommate is a Cat",
-        "jw_path": "/de/Serie/My-Roommate-is-a-Cat",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G2XU08NMP"
+            "url": "https://www.netflix.com/title/70304256"
           }
         ],
         "my_channel_hits": [],
@@ -422,14 +61,29 @@
         "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
         "legal_de_other_providers": [],
-        "buy_physical_offers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1077659119"
+          },
+          {
+            "provider": "hgl",
+            "name": "Hugendubel (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-52448894)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Ffate_zero_staffelbox_blu_ray-52448894-produkt-details.html)"
+          }
+        ],
         "de_legal_availability": true
       },
       "errors": []
     },
     {
-      "mal_id": 30346,
-      "title": "Doukyuusei",
+      "mal_id": 11741,
+      "title": "Fate/Zero 2nd Season",
       "status": "plan_to_watch",
       "result": {
         "verdict": "no_match"
@@ -437,546 +91,18 @@
       "errors": []
     },
     {
-      "mal_id": 63409,
-      "title": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
-      "status": "watching",
+      "mal_id": 2553,
+      "title": "Flanders no Inu",
+      "status": "plan_to_watch",
       "result": {
-        "searched_as": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
-        "jw_id": "ts518751",
-        "jw_title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
-        "jw_path": "/de/Serie/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion",
+        "searched_as": "Flanders no Inu",
+        "jw_id": "ts3018",
+        "jw_title": "Niklaas, ein Junge aus Flandern",
+        "jw_path": "/de/Serie/niklaas-ein-junge-aus-flandern",
         "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00378314JAJP"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9240b2db-ed35-41ea-9b85-a77f2b923e3b"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 58259,
-      "title": "Douse, Koishite Shimaunda.",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Douse, Koishite Shimaunda.",
-        "jw_id": "ts440485",
-        "jw_title": "Anyway, I'm Falling in Love with You",
-        "jw_path": "/de/Serie/anyway-im-falling-in-love-with-you",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00349298ENUS"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b83f8d42-781d-4a60-834d-fe5f990a7d4e"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 59068,
-      "title": "Dungeon Meshi Season 2",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Delicious in Dungeon Season 2",
-        "jw_id": "ts35578",
-        "jw_title": "Danmachi: Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-        "jw_path": "/de/Serie/Danmachi-Is-It-Wrong-to-Try-to-Pick-Up-Girls-in-a-Dungeon",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G50UMKE57"
-          }
-        ],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.debc0db9-0da2-40cf-be32-1cfb523932b8"
-          }
-        ],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3006a632-53e3-4cb5-871c-e9a01a52a50f"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B098RS63ZD?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1069108410"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274295&a=400165&m=14584"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B08STPRLSX?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1058651909"
-          },
-          {
-            "provider": "hgl",
-            "name": "Hugendubel (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-49475208)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fdanmachi_is_it_wrong_to_try_to_pick_up_girls_in_a_dungeon_staffel_24_blu_ray-49475208-produkt-details.html)"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 63442,
-      "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka 6th Season",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka 6th Season",
-        "jw_id": "ts35578",
-        "jw_title": "Danmachi: Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-        "jw_path": "/de/Serie/Danmachi-Is-It-Wrong-to-Try-to-Pick-Up-Girls-in-a-Dungeon",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G50UMKE57"
-          }
-        ],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.debc0db9-0da2-40cf-be32-1cfb523932b8"
-          }
-        ],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3006a632-53e3-4cb5-871c-e9a01a52a50f"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B098RS63ZD?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1069108410"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274295&a=400165&m=14584"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B08STPRLSX?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1058651909"
-          },
-          {
-            "provider": "hgl",
-            "name": "Hugendubel (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-49475208)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fdanmachi_is_it_wrong_to_try_to_pick_up_girls_in_a_dungeon_staffel_24_blu_ray-49475208-produkt-details.html)"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 40453,
-      "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II OVA",
-        "jw_id": "ts35578",
-        "jw_title": "Danmachi: Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-        "jw_path": "/de/Serie/Danmachi-Is-It-Wrong-to-Try-to-Pick-Up-Girls-in-a-Dungeon",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G50UMKE57"
-          }
-        ],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.debc0db9-0da2-40cf-be32-1cfb523932b8"
-          }
-        ],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3006a632-53e3-4cb5-871c-e9a01a52a50f"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B098RS63ZD?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1069108410"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274295&a=400165&m=14584"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B08STPRLSX?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1058651909"
-          },
-          {
-            "provider": "hgl",
-            "name": "Hugendubel (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-49475208)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fdanmachi_is_it_wrong_to_try_to_pick_up_girls_in_a_dungeon_staffel_24_blu_ray-49475208-produkt-details.html)"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 32801,
-      "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka OVA",
-        "jw_id": "ts35578",
-        "jw_title": "Danmachi: Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-        "jw_path": "/de/Serie/Danmachi-Is-It-Wrong-to-Try-to-Pick-Up-Girls-in-a-Dungeon",
-        "match_confidence": "token",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
-            "tier": "direct",
-            "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/G50UMKE57"
-          }
-        ],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.debc0db9-0da2-40cf-be32-1cfb523932b8"
-          }
-        ],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3006a632-53e3-4cb5-871c-e9a01a52a50f"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [
-          {
-            "provider": "amz",
-            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
-            "tier": "other",
-            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          }
-        ],
-        "buy_physical_offers": [
-          {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
-            "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2eb4e5a6-4fca-8c62-2dd2-83908fc49983"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B098RS63ZD?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1069108410"
-          },
-          {
-            "provider": "bue",
-            "name": "Bücher.de (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.awin1.com/pclick.php?p=43811274295&a=400165&m=14584"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B08STPRLSX?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1058651909"
-          },
-          {
-            "provider": "hgl",
-            "name": "Hugendubel (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-49475208)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fblu_ray%2Fdanmachi_is_it_wrong_to_try_to_pick_up_girls_in_a_dungeon_staffel_24_blu_ray-49475208-produkt-details.html)"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 56348,
-      "title": "Dungeon no Naka no Hito",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Dungeon no Naka no Hito",
-        "jw_id": "ts434671",
-        "jw_title": "Dungeon People",
-        "jw_path": "/de/Serie/dungeon-people",
-        "match_confidence": "exact",
-        "verdict": "hit_channel",
+        "verdict": "de_legal_only",
         "my_direct_hits": [],
-        "my_channel_hits": [
-          {
-            "provider": "ava",
-            "name": "aniverse (Prime Channel)",
-            "tier": "channel",
-            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4158d4ca-afed-48fa-a85e-a055a7d57409"
-          }
-        ],
+        "my_channel_hits": [],
         "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
@@ -986,16 +112,16 @@
             "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
             "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.86890942-b13d-4ee9-9a78-9c870eb17d1a"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c7870d48-688a-4b84-9a3a-e1bd8a9d7c2b"
           }
         ],
         "buy_physical_offers": [
           {
-            "provider": "thl",
-            "name": "Thalia (Disc)",
+            "provider": "vdb",
+            "name": "Videobuster (Kauf/Leihe)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1074306311"
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/97060/niklaas-volume-1?campaign=vb50feed#rental&rental-dvd"
           }
         ],
         "de_legal_availability": true
@@ -1003,14 +129,14 @@
       "errors": []
     },
     {
-      "mal_id": 52081,
-      "title": "Edomae Elf",
+      "mal_id": 64459,
+      "title": "Fool Night",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Edomae Elf",
-        "jw_id": "ts356932",
-        "jw_title": "Otaku Elf",
-        "jw_path": null,
+        "searched_as": "Fool Night",
+        "jw_id": "ts531590",
+        "jw_title": "Fool Night",
+        "jw_path": "/de/Serie/fool-night",
         "match_confidence": null,
         "verdict": "no_hit",
         "my_direct_hits": [],
@@ -1025,14 +151,103 @@
       "errors": []
     },
     {
-      "mal_id": 39792,
-      "title": "Eizouken ni wa Te wo Dasu na!",
+      "mal_id": 9367,
+      "title": "Freezing",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Eizouken ni wa Te wo Dasu na!",
-        "jw_id": "ts186408",
-        "jw_title": "Eizouken ni wa Te wo Dasu na!",
-        "jw_path": "/de/Serie/Ying-Xiang-Yan-nihaShou-woChu-suna",
+        "searched_as": "Freezing",
+        "jw_id": "ts4325",
+        "jw_title": "Freezing",
+        "jw_path": "/de/Serie/freezing",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "amp",
+            "name": "Amazon Prime Video",
+            "tier": "direct",
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f4070404-8ad4-4590-a303-f8881c1a4896"
+          }
+        ],
+        "my_channel_hits": [
+          {
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.abaa8831-e0d8-49af-872d-0ae3ae1c5025"
+          }
+        ],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [
+          {
+            "provider": "amz",
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+            "tier": "other",
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e5a17b8b-8cd7-4afa-8abd-7508ce1e932e"
+          },
+          {
+            "provider": "fmd",
+            "name": "freenet video (nicht abonniert)",
+            "tier": "other",
+            "note": null,
+            "url": "https://freenet-video.meinvod.de/freezing-s01-se44706822"
+          }
+        ],
+        "buy_physical_offers": [
+          {
+            "provider": "pva",
+            "name": "Prime Video (Kauf/Leihe, pva)",
+            "tier": "buy_physical",
+            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f4070404-8ad4-4590-a303-f8881c1a4896"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0BT6V2W6C?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1067903880"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1067422950"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B00KDQDU2G?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 32696,
+      "title": "Fukigen na Mononokean",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Fukigen na Mononokean",
+        "jw_id": "ts38789",
+        "jw_title": "The Morose Mononokean",
+        "jw_path": "/de/Serie/The-Morose-Mononokean",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
@@ -1041,7 +256,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/GK9U353V4"
+            "url": "https://www.crunchyroll.com/watch/GR241EJ06"
           }
         ],
         "my_channel_hits": [],
@@ -1052,85 +267,116 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dd4b5aab-b901-4620-abc7-a476190a00ef"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.63290bfe-95a9-4072-a16f-618f14f3dd79"
           }
         ],
         "adn_channel_caveat": [],
         "legal_de_other_providers": [],
-        "buy_physical_offers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B07Z75ZYFS?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
         "de_legal_availability": true
       },
       "errors": []
     },
     {
-      "mal_id": 37033,
-      "title": "Emiya-san Chi no Kyou no Gohan",
+      "mal_id": 37958,
+      "title": "Fukigen na Mononokean Tsuzuki",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Emiya-san Chi no Kyou no Gohan",
-        "jw_id": "ts77697",
-        "jw_title": "Today's Menu for the Emiya Family",
-        "jw_path": null,
-        "match_confidence": null,
-        "verdict": "no_hit",
+        "searched_as": "Fukigen na Mononokean Tsuzuki",
+        "jw_id": "ts38789",
+        "jw_title": "The Morose Mononokean",
+        "jw_path": "/de/Serie/The-Morose-Mononokean",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GR241EJ06"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.63290bfe-95a9-4072-a16f-618f14f3dd79"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B07Z75ZYFS?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 33203,
+      "title": "Fukumenkei Noise",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Fukumenkei Noise",
+        "jw_id": "ts56254",
+        "jw_title": "Anonymous Noise",
+        "jw_path": "/de/Serie/THE-ANONYMOUS-NOISE",
+        "match_confidence": "exact",
+        "verdict": "no_stream_hit",
         "my_direct_hits": [],
         "my_channel_hits": [],
         "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
         "legal_de_other_providers": [],
-        "buy_physical_offers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1058337004"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1058337174"
+          }
+        ],
         "de_legal_availability": false
       },
       "errors": []
     },
     {
-      "mal_id": 51417,
-      "title": "Engage Kiss",
+      "mal_id": 71,
+      "title": "Full Metal Panic!",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Engage Kiss",
-        "jw_id": "ts343526",
-        "jw_title": "Engage Kiss",
-        "jw_path": "/de/Serie/engage-kiss",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GD9UVJ5X3"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [
-          {
-            "provider": "cra",
-            "name": "Crunchyroll (Amazon-Channel)",
-            "tier": "cr_channel_caveat",
-            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b5dde01f-e1c3-4105-8f6d-2ac84bf097c9"
-          }
-        ],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 790,
-      "title": "Ergo Proxy",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Ergo Proxy",
-        "jw_id": "ts19528",
-        "jw_title": "Ergo Proxy",
-        "jw_path": "/de/Serie/Ergo-Proxy",
+        "searched_as": "Full Metal Panic!",
+        "jw_id": "ts20308",
+        "jw_title": "Full Metal Panic!",
+        "jw_path": "/de/Serie/Full-Metal-Panic",
         "match_confidence": "exact",
         "verdict": "no_stream_hit",
         "my_direct_hits": [],
@@ -1145,7 +391,14 @@
             "name": "Videobuster (Kauf/Leihe)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.videobuster.de/dvd-bluray-verleih/93886/ergo-proxy?campaign=vb50feed#rental&rental-dvd"
+            "url": "https://www.videobuster.de/dvd-bluray-verleih/71274/full-metal-panic?campaign=vb50feed#rental&rental-dvd"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0102AL65K?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           }
         ],
         "de_legal_availability": false
@@ -1153,14 +406,14 @@
       "errors": []
     },
     {
-      "mal_id": 39063,
-      "title": "Fairy Gone",
+      "mal_id": 41025,
+      "title": "Fumetsu no Anata e",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Fairy Gone",
-        "jw_id": "ts88364",
-        "jw_title": "Fairy Gone",
-        "jw_path": "/de/Serie/Fairy-Gone",
+        "searched_as": "Fumetsu no Anata e",
+        "jw_id": "ts224077",
+        "jw_title": "To Your Eternity",
+        "jw_path": "/de/Serie/To-Your-Eternity",
         "match_confidence": "exact",
         "verdict": "hit_direct",
         "my_direct_hits": [
@@ -1169,52 +422,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/G50UZ9J40"
-          }
-        ],
-        "my_channel_hits": [],
-        "channel_candidates": [],
-        "crunchyroll_channel_caveat": [],
-        "adn_channel_caveat": [],
-        "legal_de_other_providers": [],
-        "buy_physical_offers": [
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B09ZCVNR9N?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B0DJ4NXM69?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          }
-        ],
-        "de_legal_availability": true
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 6702,
-      "title": "Fairy Tail",
-      "status": "plan_to_watch",
-      "result": {
-        "searched_as": "Fairy Tail",
-        "jw_id": "ts20513",
-        "jw_title": "Fairy Tail",
-        "jw_path": "/de/Serie/Fairy-Tail",
-        "match_confidence": "exact",
-        "verdict": "hit_direct",
-        "my_direct_hits": [
-          {
-            "provider": "cru",
-            "name": "Crunchyroll",
-            "tier": "direct",
-            "note": null,
-            "url": "https://www.crunchyroll.com/watch/GWDU8PD3E"
+            "url": "https://www.crunchyroll.com/watch/G0DUN8PD0"
           }
         ],
         "my_channel_hits": [],
@@ -1225,7 +433,7 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.18a0cd41-6755-42e5-bcb5-a98bb3791300"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46ef07e7-55b0-483e-919e-6c573dfe2e4d"
           }
         ],
         "adn_channel_caveat": [],
@@ -1235,44 +443,51 @@
             "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
             "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8bf1d687-9699-416d-9abc-f381b35eea24"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a8d836d4-c937-4212-b467-8cff70841512"
           }
         ],
         "buy_physical_offers": [
           {
-            "provider": "hgl",
-            "name": "Hugendubel (Disc)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://pdt.tradedoubler.com/click?a(2850890)p(249407)product(108906-29867158)ttid(3)url(https%3A%2F%2Fwww.hugendubel.de%2Fde%2Fdvd%2Fshinji_ishihira-fairy_tail_tv_serie_box_1_episoden_1_24_-29867158-produkt-details.html)"
-          },
-          {
             "provider": "adb",
             "name": "Amazon (Kauf)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.amazon.de/dp/B08DPRCVCG?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
-          },
-          {
-            "provider": "adb",
-            "name": "Amazon (Kauf)",
-            "tier": "buy_physical",
-            "note": null,
-            "url": "https://www.amazon.de/dp/B08DPPHXNM?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+            "url": "https://www.amazon.de/dp/B0DJC2DVSK?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
             "provider": "thl",
             "name": "Thalia (Disc)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427385"
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072571638"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DJBZJ5KW?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           },
           {
             "provider": "thl",
             "name": "Thalia (Disc)",
             "tier": "buy_physical",
             "note": null,
-            "url": "https://www.thalia.de/shop/home/artikeldetails/A1055427123"
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072571636"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811270302&a=400165&m=14584"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811270303&a=400165&m=14584"
           }
         ],
         "de_legal_availability": true
@@ -1280,24 +495,15 @@
       "errors": []
     },
     {
-      "mal_id": 22043,
-      "title": "Fairy Tail (2014)",
+      "mal_id": 49709,
+      "title": "Fumetsu no Anata e Season 2",
       "status": "plan_to_watch",
       "result": {
-        "verdict": "no_match"
-      },
-      "errors": []
-    },
-    {
-      "mal_id": 62927,
-      "title": "Fangkai Nage Nuwu",
-      "status": "on_hold",
-      "result": {
-        "searched_as": "Fangkai Nage Nuwu",
-        "jw_id": "ts521023",
-        "jw_title": "Release that Witch",
-        "jw_path": "/de/Serie/release-that-witch",
-        "match_confidence": "exact",
+        "searched_as": "Fumetsu no Anata e Season 2",
+        "jw_id": "ts224077",
+        "jw_title": "To Your Eternity",
+        "jw_path": "/de/Serie/To-Your-Eternity",
+        "match_confidence": "token",
         "verdict": "hit_direct",
         "my_direct_hits": [
           {
@@ -1305,7 +511,7 @@
             "name": "Crunchyroll",
             "tier": "direct",
             "note": null,
-            "url": "https://www.crunchyroll.com/watch/GE00366296TLPH"
+            "url": "https://www.crunchyroll.com/watch/G0DUN8PD0"
           }
         ],
         "my_channel_hits": [],
@@ -1316,7 +522,207 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.30476571-7040-424b-90fa-c219e1d3ce2c"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46ef07e7-55b0-483e-919e-6c573dfe2e4d"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [
+          {
+            "provider": "amz",
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+            "tier": "other",
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a8d836d4-c937-4212-b467-8cff70841512"
+          }
+        ],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DJC2DVSK?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072571638"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DJBZJ5KW?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072571636"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811270302&a=400165&m=14584"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811270303&a=400165&m=14584"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 54703,
+      "title": "Fumetsu no Anata e Season 3",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Fumetsu no Anata e Season 3",
+        "jw_id": "ts224077",
+        "jw_title": "To Your Eternity",
+        "jw_path": "/de/Serie/To-Your-Eternity",
+        "match_confidence": "token",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G0DUN8PD0"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46ef07e7-55b0-483e-919e-6c573dfe2e4d"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [
+          {
+            "provider": "amz",
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+            "tier": "other",
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a8d836d4-c937-4212-b467-8cff70841512"
+          }
+        ],
+        "buy_physical_offers": [
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DJC2DVSK?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072571638"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B0DJBZJ5KW?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1072571636"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811270302&a=400165&m=14584"
+          },
+          {
+            "provider": "bue",
+            "name": "Bücher.de (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.awin1.com/pclick.php?p=43811270303&a=400165&m=14584"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 60778,
+      "title": "Fushigi no Kuni de Alice to: Dive in Wonderland",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Fushigi ‌no ‌Kuni ‌de ‌Alice to: Dive ‌in ‌Wonderland",
+        "jw_id": "ts46771",
+        "jw_title": "Alice in Wonderland",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 60665,
+      "title": "Futari Solo Camp",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Futari Solo Camp",
+        "jw_id": "ts465562",
+        "jw_title": "Solo Camping for Two",
+        "jw_path": "/de/Serie/solo-camping-for-two-2025",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GPWU8XD4Z"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.33b5d3f9-a959-4af6-9e6d-daa7f16ce8c1"
           }
         ],
         "adn_channel_caveat": [],
@@ -1327,33 +733,151 @@
       "errors": []
     },
     {
-      "mal_id": 356,
-      "title": "Fate/stay night",
+      "mal_id": 65032,
+      "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den Part 2",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Fate/stay night",
-        "jw_id": "ts4594",
-        "jw_title": "Fate/Stay Night",
-        "jw_path": "/de/Serie/Fate-stay-night",
-        "match_confidence": "exact",
+        "searched_as": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den Part 2",
+        "jw_id": "ts473646",
+        "jw_title": "Though I Am an Inept Villainess",
+        "jw_path": "/de/Serie/though-i-am-an-inept-villainess",
+        "match_confidence": "token",
         "verdict": "hit_direct",
         "my_direct_hits": [
           {
-            "provider": "amp",
-            "name": "Amazon Prime Video",
+            "provider": "dnp",
+            "name": "Disney+",
             "tier": "direct",
             "note": null,
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.597438e9-7d8c-413e-b45c-59fc06c9d801"
+            "url": "https://www.disneyplus.com/browse/entity-79a3e335-2acc-408e-a942-1b0bac47d952"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00378869RURU"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0744ef87-5c21-4f15-a33a-4f028cb9067d"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 1524,
+      "title": "Fuujin Monogatari",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Fuujin Monogatari",
+        "jw_id": "ts20548",
+        "jw_title": "Monogatari",
+        "jw_path": "/de/Serie/Bakemonogatari",
+        "match_confidence": "token",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GEVUW339P"
           },
           {
             "provider": "adn",
             "name": "ADN (Animation Digital Network)",
             "tier": "direct",
             "note": null,
-            "url": "https://animationdigitalnetwork.com/de/video/49-fate-stay-night"
+            "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari/26400-folge-1"
           }
         ],
         "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [
+          {
+            "provider": "ada",
+            "name": "ADN (Amazon-Channel)",
+            "tier": "adn_channel_caveat",
+            "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.380b4162-7c0f-4a4f-a54a-4bd56612a7de"
+          }
+        ],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true,
+        "adn_video": {
+          "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari",
+          "status": 200,
+          "adn_title": "Bakemonogatari",
+          "available": true,
+          "languages": [
+            "vostf",
+            "vf"
+          ],
+          "episode_count": 15,
+          "season_video_count": 15,
+          "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+        }
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 63337,
+      "title": "FX Senshi Kurumi-chan",
+      "status": "watching",
+      "result": {
+        "searched_as": "FX Senshi Kurumi-chan",
+        "jw_id": "ts516207",
+        "jw_title": "FX Fighter Kurumi-chan",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 30544,
+      "title": "Gakusen Toshi Asterisk",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gakusen Toshi Asterisk",
+        "jw_id": "ts38723",
+        "jw_title": "The Asterisk War",
+        "jw_path": "/de/Serie/The-Asterisk-War",
+        "match_confidence": "exact",
+        "verdict": "hit_channel",
+        "my_direct_hits": [],
+        "my_channel_hits": [
+          {
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.89722c3c-2754-45cb-8e72-ccb82b1c4536"
+          }
+        ],
         "channel_candidates": [],
         "crunchyroll_channel_caveat": [],
         "adn_channel_caveat": [],
@@ -1363,47 +887,93 @@
             "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
             "tier": "other",
             "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e448d09a-170f-4075-903d-7c8d2e648dae"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a426f01c-f1cd-4b1b-8af3-b99287ec275f"
           }
         ],
         "buy_physical_offers": [
           {
-            "provider": "pva",
-            "name": "Prime Video (Kauf/Leihe, pva)",
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
             "tier": "buy_physical",
-            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.597438e9-7d8c-413e-b45c-59fc06c9d801"
+            "note": null,
+            "url": "https://www.amazon.de/dp/B076VY9198?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
+          },
+          {
+            "provider": "adb",
+            "name": "Amazon (Kauf)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.amazon.de/dp/B01DDDRU5S?tag=movie0c6-21&linkCode=osi&th=1&psc=1"
           }
         ],
-        "de_legal_availability": true,
-        "adn_video": {
-          "url": "https://animationdigitalnetwork.com/de/video/49-fate-stay-night",
-          "status": 200,
-          "adn_title": "Fate/stay night",
-          "available": true,
-          "languages": [
-            "vostf",
-            "vf"
-          ],
-          "episode_count": 24,
-          "season_video_count": 24,
-          "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
-        }
+        "de_legal_availability": true
       },
       "errors": []
     },
     {
-      "mal_id": 55830,
-      "title": "Fate/strange Fake",
+      "mal_id": 58491,
+      "title": "Ganbatte Ikimasshoi",
       "status": "plan_to_watch",
       "result": {
-        "searched_as": "Fate/strange Fake",
-        "jw_id": "ts394931",
-        "jw_title": "Fate/strange Fake",
-        "jw_path": "/de/Serie/fate-strange-fake",
-        "match_confidence": "exact",
-        "verdict": "hit_cr_channel_caveat",
+        "searched_as": "Ganbatte Ikimasshoi",
+        "jw_id": "ts27136",
+        "jw_title": "Give It All",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
         "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 62378,
+      "title": "Ganglion",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Ganglion",
+        "jw_id": "ts494706",
+        "jw_title": "Ganglion",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 37140,
+      "title": "Gegege no Kitarou (2018)",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gegege no Kitarou (2018)",
+        "jw_id": "ts78393",
+        "jw_title": "Gegege no Kitarou (2018)",
+        "jw_path": "/de/Serie/gegegenoGui-Tai-Lang",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G63K1GZX6"
+          }
+        ],
         "my_channel_hits": [],
         "channel_candidates": [],
         "crunchyroll_channel_caveat": [
@@ -1412,7 +982,325 @@
             "name": "Crunchyroll (Amazon-Channel)",
             "tier": "cr_channel_caveat",
             "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
-            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a209cbfb-f84c-4490-9058-d0bda033422f"
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5a19e3f5-4ddf-4b64-97a5-dd1b756b1be9"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 56691,
+      "title": "Gekkan Mousou Kagaku",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gekkan Mousou Kagaku",
+        "jw_id": "ts406742",
+        "jw_title": "Delusional Monthly Magazine",
+        "jw_path": "/de/Serie/delusional-monthly-magazine",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GPWUKV27D"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d332cc58-b45a-4755-a3c7-0aa4a35e5083"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 23289,
+      "title": "Gekkan Shoujo Nozaki-kun",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gekkan Shoujo Nozaki-kun",
+        "jw_id": "ts20913",
+        "jw_title": "Monthly Girls' Nozaki-kun",
+        "jw_path": "/de/Serie/Shojo-Mangaka-Nozaki-kun",
+        "match_confidence": "exact",
+        "verdict": "hit_channel",
+        "my_direct_hits": [],
+        "my_channel_hits": [
+          {
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2af5f849-d412-43f1-91f9-f8a3c1a38124"
+          }
+        ],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [
+          {
+            "provider": "amz",
+            "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+            "tier": "other",
+            "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.efecf22e-2b0f-451c-ae7d-5299d6e3f1b2"
+          }
+        ],
+        "buy_physical_offers": [
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1063316558"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1063115465"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 240,
+      "title": "Genshiken",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Genshiken",
+        "jw_id": "ts31990",
+        "jw_title": "Genshiken",
+        "jw_path": null,
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 62852,
+      "title": "Ghost Concert: Missing Songs",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Ghost Concert: Missing Songs",
+        "jw_id": "ts501773",
+        "jw_title": "GHOST CONCERT : missing Songs",
+        "jw_path": "/de/Serie/ghost-concert-missing-songs",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GE00374798JAJP"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5c9a9328-ccb1-4abd-9e09-f77c94ef1035"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 61813,
+      "title": "Ghost: Yoru no Hate",
+      "status": "plan_to_watch",
+      "result": {
+        "verdict": "no_match"
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 16918,
+      "title": "Gin no Saji",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gin no Saji",
+        "jw_id": "ts33615",
+        "jw_title": "Silver Spoon",
+        "jw_path": "/de/Serie/Silver-Spoon",
+        "match_confidence": null,
+        "verdict": "no_hit",
+        "my_direct_hits": [],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": false
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 61274,
+      "title": "Ginga Tokkyuu Milky☆Subway",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Ginga Tokkyuu Milky☆Subway",
+        "jw_id": "ts75698",
+        "jw_title": "Legend of the Galactic Heroes: Die Neue These",
+        "jw_path": "/de/Serie/Legend-of-the-Galactic-Heroes-Die-Neue-These",
+        "match_confidence": "token",
+        "verdict": "hit_channel",
+        "my_direct_hits": [],
+        "my_channel_hits": [
+          {
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3e2af435-a719-4381-8f2a-bfb63b1f94ea"
+          }
+        ],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 18411,
+      "title": "Gingitsune",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gingitsune",
+        "jw_id": "ts58504",
+        "jw_title": "Gingitsune: Messenger Fox of the Gods",
+        "jw_path": "/de/Serie/gingitsune",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "amp",
+            "name": "Amazon Prime Video",
+            "tier": "direct",
+            "note": null,
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+          },
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/G6K5K0WMY"
+          }
+        ],
+        "my_channel_hits": [
+          {
+            "provider": "ava",
+            "name": "aniverse (Prime Channel)",
+            "tier": "channel",
+            "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+          }
+        ],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+          }
+        ],
+        "adn_channel_caveat": [],
+        "legal_de_other_providers": [],
+        "buy_physical_offers": [
+          {
+            "provider": "pva",
+            "name": "Prime Video (Kauf/Leihe, pva)",
+            "tier": "buy_physical",
+            "note": "Transaktional, kein Abo-Signal (Nutzer-Check Yona 23.10.2026).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+          },
+          {
+            "provider": "thl",
+            "name": "Thalia (Disc)",
+            "tier": "buy_physical",
+            "note": null,
+            "url": "https://www.thalia.de/shop/home/artikeldetails/A1068308272"
+          }
+        ],
+        "de_legal_availability": true
+      },
+      "errors": []
+    },
+    {
+      "mal_id": 918,
+      "title": "Gintama",
+      "status": "plan_to_watch",
+      "result": {
+        "searched_as": "Gintama",
+        "jw_id": "ts29406",
+        "jw_title": "Gintama",
+        "jw_path": "/de/Serie/Gintama",
+        "match_confidence": "exact",
+        "verdict": "hit_direct",
+        "my_direct_hits": [
+          {
+            "provider": "cru",
+            "name": "Crunchyroll",
+            "tier": "direct",
+            "note": null,
+            "url": "https://www.crunchyroll.com/watch/GR9PJJX36"
+          }
+        ],
+        "my_channel_hits": [],
+        "channel_candidates": [],
+        "crunchyroll_channel_caveat": [
+          {
+            "provider": "cra",
+            "name": "Crunchyroll (Amazon-Channel)",
+            "tier": "cr_channel_caveat",
+            "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+            "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.445bb944-323c-4d71-8046-a419d66dea23"
           }
         ],
         "adn_channel_caveat": [],
@@ -1424,17 +1312,17 @@
     }
   ],
   "cycle_hits_summary": {
-    "hit_direct": 91,
+    "hit_direct": 106,
+    "de_legal_only": 3,
     "hit_adn_channel_caveat": 1,
-    "hit_channel": 7,
-    "de_legal_only": 2,
+    "hit_channel": 10,
     "hit_cr_channel_caveat": 2
   },
   "cycle_progress": {
-    "processed": 180,
-    "of": 867,
-    "remaining": 687,
-    "eta_runs": 23
+    "processed": 210,
+    "of": 869,
+    "remaining": 659,
+    "eta_runs": 22
   },
   "cycle_hits": {
     "1": {
@@ -1556,6 +1444,111 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "918": {
+      "title": "Gintama",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Gintama",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GR9PJJX36"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.445bb944-323c-4d71-8046-a419d66dea23"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "1524": {
+      "title": "Fuujin Monogatari",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Monogatari",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GEVUW339P"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari/26400-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.380b4162-7c0f-4a4f-a54a-4bd56612a7de"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari",
+        "status": 200,
+        "adn_title": "Bakemonogatari",
+        "available": true,
+        "languages": [
+          "vostf",
+          "vf"
+        ],
+        "episode_count": 15,
+        "season_video_count": 15,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
+    "2553": {
+      "title": "Flanders no Inu",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "de_legal_only",
+      "match_confidence": "exact",
+      "jw_title": "Niklaas, ein Junge aus Flandern",
+      "my_direct_hits": [],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c7870d48-688a-4b84-9a3a-e1bd8a9d7c2b"
+        }
+      ]
     },
     "5081": {
       "title": "Bakemonogatari",
@@ -1732,6 +1725,52 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "9367": {
+      "title": "Freezing",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Freezing",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f4070404-8ad4-4590-a303-f8881c1a4896"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.abaa8831-e0d8-49af-872d-0ae3ae1c5025"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e5a17b8b-8cd7-4afa-8abd-7508ce1e932e"
+        },
+        {
+          "provider": "fmd",
+          "name": "freenet video (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://freenet-video.meinvod.de/freezing-s01-se44706822"
+        }
+      ]
+    },
     "9989": {
       "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
       "mal_status": "plan_to_watch",
@@ -1750,6 +1789,36 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b4b0302e-b8f6-12c7-468b-79b9e698c146"
         }
       ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "10087": {
+      "title": "Fate/Zero",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Fate/Zero",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/70304256"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/70304256"
+        }
+      ],
+      "my_channel_hits": [],
       "channel_candidates": [],
       "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
@@ -2063,6 +2132,52 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "18411": {
+      "title": "Gingitsune",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Gingitsune: Messenger Fox of the Gods",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G6K5K0WMY"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eec0c738-28a1-47d4-8564-00f17ad9c7ac"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "18671": {
       "title": "Chuunibyou demo Koi ga Shitai! Ren",
       "mal_status": "plan_to_watch",
@@ -2149,6 +2264,37 @@
           "tier": "other",
           "note": null,
           "url": "https://www.viki.com/videos/1246346v-ao-haru-ride-episode-1"
+        }
+      ]
+    },
+    "23289": {
+      "title": "Gekkan Shoujo Nozaki-kun",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Monthly Girls' Nozaki-kun",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2af5f849-d412-43f1-91f9-f8a3c1a38124"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.efecf22e-2b0f-451c-ae7d-5299d6e3f1b2"
         }
       ]
     },
@@ -2380,6 +2526,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "30544": {
+      "title": "Gakusen Toshi Asterisk",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "The Asterisk War",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.89722c3c-2754-45cb-8e72-ccb82b1c4536"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a426f01c-f1cd-4b1b-8af3-b99287ec275f"
+        }
+      ]
+    },
     "31043": {
       "title": "Boku dake ga Inai Machi",
       "mal_status": "plan_to_watch",
@@ -2467,6 +2644,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0c93ab44-f6b0-4ca7-9de3-76219a029c19"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "32696": {
+      "title": "Fukigen na Mononokean",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Morose Mononokean",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GR241EJ06"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.63290bfe-95a9-4072-a16f-618f14f3dd79"
         }
       ],
       "adn_channel_caveat": [],
@@ -2703,6 +2911,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "37140": {
+      "title": "Gegege no Kitarou (2018)",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Gegege no Kitarou (2018)",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G63K1GZX6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5a19e3f5-4ddf-4b64-97a5-dd1b756b1be9"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "37171": {
       "title": "Asobi Asobase",
       "mal_status": "on_hold",
@@ -2815,6 +3054,37 @@
       "my_channel_hits": [],
       "channel_candidates": [],
       "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "37958": {
+      "title": "Fukigen na Mononokean Tsuzuki",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Morose Mononokean",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GR241EJ06"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.63290bfe-95a9-4072-a16f-618f14f3dd79"
+        }
+      ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -3161,6 +3431,45 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "41025": {
+      "title": "Fumetsu no Anata e",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "To Your Eternity",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUN8PD0"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46ef07e7-55b0-483e-919e-6c573dfe2e4d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a8d836d4-c937-4212-b467-8cff70841512"
+        }
+      ]
+    },
     "41468": {
       "title": "Burn the Witch",
       "mal_status": "plan_to_watch",
@@ -3288,6 +3597,45 @@
           "tier": "other",
           "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.eb428a66-41b4-4596-af62-68d4cbad698e"
+        }
+      ]
+    },
+    "49709": {
+      "title": "Fumetsu no Anata e Season 2",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "To Your Eternity",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUN8PD0"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46ef07e7-55b0-483e-919e-6c573dfe2e4d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a8d836d4-c937-4212-b467-8cff70841512"
         }
       ]
     },
@@ -3756,6 +4104,45 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "54703": {
+      "title": "Fumetsu no Anata e Season 3",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "To Your Eternity",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUN8PD0"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46ef07e7-55b0-483e-919e-6c573dfe2e4d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a8d836d4-c937-4212-b467-8cff70841512"
+        }
+      ]
+    },
     "54915": {
       "title": "5-toubun no Hanayome∽",
       "mal_status": "plan_to_watch",
@@ -3921,6 +4308,37 @@
         "season_video_count": 38,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "56691": {
+      "title": "Gekkan Mousou Kagaku",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Delusional Monthly Magazine",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GPWUKV27D"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d332cc58-b45a-4755-a3c7-0aa4a35e5083"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "56877": {
       "title": "Ao no Orchestra Season 2",
@@ -4631,6 +5049,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "60665": {
+      "title": "Futari Solo Camp",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Solo Camping for Two",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GPWU8XD4Z"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.33b5d3f9-a959-4af6-9e6d-daa7f16ce8c1"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "61196": {
       "title": "Dead Account",
       "mal_status": "plan_to_watch",
@@ -4659,6 +5108,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7c7afd76-cbaa-4b9e-ad1c-d72396945858"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "61274": {
+      "title": "Ginga Tokkyuu Milky☆Subway",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "token",
+      "jw_title": "Legend of the Galactic Heroes: Die Neue These",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3e2af435-a719-4381-8f2a-bfb63b1f94ea"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -4862,6 +5334,37 @@
         "season_video_count": 26,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "62852": {
+      "title": "Ghost Concert: Missing Songs",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "GHOST CONCERT : missing Songs",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00374798JAJP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5c9a9328-ccb1-4abd-9e09-f77c94ef1035"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "62865": {
       "title": "Dark Gathering 2nd Season",
@@ -5182,6 +5685,44 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4ba45668-7842-490c-a67f-7a175a65a9a1"
         }
       ]
+    },
+    "65032": {
+      "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den Part 2",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-14T10:25:46.117Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Though I Am an Inept Villainess",
+      "my_direct_hits": [
+        {
+          "provider": "dnp",
+          "name": "Disney+",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.disneyplus.com/browse/entity-79a3e335-2acc-408e-a942-1b0bac47d952"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00378869RURU"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0744ef87-5c21-4f15-a33a-4f028cb9067d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     }
   }
 }
