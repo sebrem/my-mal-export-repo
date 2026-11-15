@@ -209,7 +209,37 @@
     16918,
     61274,
     18411,
-    918
+    918,
+    63559,
+    55102,
+    62550,
+    40421,
+    54791,
+    58222,
+    62634,
+    49053,
+    60427,
+    37349,
+    21273,
+    29787,
+    64468,
+    852,
+    7578,
+    43692,
+    48707,
+    53148,
+    17895,
+    8425,
+    56843,
+    45620,
+    16,
+    31859,
+    387,
+    43438,
+    20583,
+    59457,
+    36094,
+    4551
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -333,6 +363,57 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "852": {
+      "title": "Gokinjo Monogatari",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Monogatari",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GEVUW339P"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari/26400-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.380b4162-7c0f-4a4f-a54a-4bd56612a7de"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1216-bakemonogatari",
+        "status": 200,
+        "adn_title": "Bakemonogatari",
+        "available": true,
+        "languages": [
+          "vostf",
+          "vf"
+        ],
+        "episode_count": 15,
+        "season_video_count": 15,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
     },
     "918": {
       "title": "Gintama",
@@ -580,6 +661,52 @@
           "tier": "other",
           "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8bf1d687-9699-416d-9abc-f381b35eea24"
+        }
+      ]
+    },
+    "8425": {
+      "title": "Gosick",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Gosick",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.91b75e17-bbb0-43d9-9d74-8ab7ed521338"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.91b75e17-bbb0-43d9-9d74-8ab7ed521338"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "jyn",
+          "name": "Joyn (nicht abonniert)",
+          "tier": "other",
+          "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
+          "url": "https://www.joyn.de/serien/gosick"
+        },
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.efc29f8d-82e7-429a-81fe-f7870534ce25"
         }
       ]
     },
@@ -1090,6 +1217,109 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "20583": {
+      "title": "Haikyuu!!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Haikyu!!",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/80090673"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU3P920"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/80090673"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/461-haikyu/24433-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [
+        {
+          "provider": "rlm",
+          "name": "RTL+ Max (Amazon Channel)",
+          "tier": "channel_candidate",
+          "note": "RTL+-Prime-Channel (Offer-URL watch.amazon.de): Katalogabweichung moeglich, Fund != RTL+-direct. Video-Ebene im Prime-Check verifizieren.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e7a5f1dc-c53e-48a1-a8e9-c90309679ade"
+        }
+      ],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.69759d38-9050-48d2-bc3a-58eb1c24fe2e"
+        }
+      ],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e8f8919a-fb5e-4ad7-be5b-7cf5bbb8d3ab"
+        }
+      ],
+      "legal_de_other_providers": [
+        {
+          "provider": "rps",
+          "name": "RTL+",
+          "tier": "other",
+          "note": "RTL+-Abo-Dienst (Offer-URL plus.rtl.de); nicht abonniert -> Re-Lizenz-Monitoring-Signal.",
+          "url": "https://plus.rtl.de/video-tv/serien/haikyu-1044326"
+        },
+        {
+          "provider": "tog",
+          "name": "TOGGO (kostenlos, ad-financed)",
+          "tier": "other",
+          "note": "RTL-Kids-Plattform toggo.de, gratis/werbefinanziert – legales Streaming-Signal, aber kein Abo-Dienst.",
+          "url": "https://www.toggo.de/haikyu-pty652"
+        },
+        {
+          "provider": "akp",
+          "name": "Akibapass (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.akibapass.tv/products/haikyu-s1-1"
+        }
+      ],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/461-haikyu",
+        "status": 200,
+        "adn_title": "Haikyu!!",
+        "available": true,
+        "languages": [
+          "vostf",
+          "vf"
+        ],
+        "episode_count": 90,
+        "season_video_count": 90,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "21405": {
       "title": "Bokura wa Minna Kawai-sou",
       "mal_status": "plan_to_watch",
@@ -1507,6 +1737,29 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "31859": {
+      "title": "Hai to Gensou no Grimgar",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Grimgar, Ashes and Illusions",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G4VUQEP24"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "31904": {
       "title": "Big Order (TV)",
       "mal_status": "plan_to_watch",
@@ -1884,6 +2137,45 @@
       "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "37349": {
+      "title": "Goblin Slayer",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Goblin Slayer",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.08ad52e9-8818-4ecb-8f35-058685210cf5"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.08ad52e9-8818-4ecb-8f35-058685210cf5"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.61834376-ed4f-4023-aeb8-77d64030b60e"
+        }
+      ]
     },
     "37379": {
       "title": "Chihayafuru 3",
@@ -3078,6 +3370,64 @@
         }
       ]
     },
+    "55102": {
+      "title": "Girls Band Cry",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "GIRLS BAND CRY",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GMKUE9VV2"
+        },
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/438/25461-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0b6631d8-6c2c-41f0-ae38-8cdec27743d8"
+        }
+      ],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0b6631d8-6c2c-41f0-ae38-8cdec27743d8"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/438",
+        "status": 200,
+        "adn_title": "Girls Band Cry",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 13,
+        "season_video_count": 13,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "55830": {
       "title": "Fate/strange Fake",
       "mal_status": "plan_to_watch",
@@ -3228,6 +3578,37 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "56843": {
+      "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "How I Attended an All-Guy's Mixer",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.022c19b1-7121-4b05-ac1f-02a55f9eea6d"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "akp",
+          "name": "Akibapass (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.akibapass.tv/products/how-i-attended-an-all-guy-s-mixer-omu-season-1"
+        }
+      ]
     },
     "56877": {
       "title": "Ao no Orchestra Season 2",
@@ -3672,6 +4053,37 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "59457": {
+      "title": "Haite Kudasai, Takamine-san",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Please Put Them On, Takamine-san",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G31UVE9ZP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.297aa1ab-69b0-48ae-acdd-61908ef22e82"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "59467": {
       "title": "Chiyu Mahou no Machigatta Tsukaikata 2nd Season",
       "mal_status": "plan_to_watch",
@@ -3806,6 +4218,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.fa00fbd0-54ee-4610-a950-e86c470a2d63"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "60427": {
+      "title": "Gnosia",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-15T10:53:17.157Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "GNOSIA",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00365134PTBR"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.48218e5a-b445-47bf-9570-831d03aac40f"
         }
       ],
       "adn_channel_caveat": [],
