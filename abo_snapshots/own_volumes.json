@@ -1,7 +1,7 @@
 {
   "_note": "Sebastian-/Agent-gepflegte Besitz-Bandstaende fuer den JNC-Anschluss-Abgleich (Copy-Paste-Konvention wie jnc_watchlist.json). FUEHREND fuer Bandzahlen bleiben die Knowledge-Inventare (kobo-ebooks.md, kindle-ebooks.md, google-play-buecher.md, litfass-bestand.md, bookwalker-ebooks.md) - hier stehen nur die JNC-Abgleich-relevanten Serien alsJOIN-Partner. EDITION-REGEL (14.11.2026): Adaptionen/Uebersetzungen gelten als content-gleich - volumes = Bandstand der besessenen/konsumierten Edition, die Edition steht in 'edition'/'note'. Eintrag = IDX gegen mal_manga_index (volumes-Feld) fuer Lesestand-Joins.",
   "_schema": "series[<jnc-slug>] = {mal_id, title, platform, edition, volumes: [Bandnummern], note}",
-  "_stand": "16.11.2026: +Genius Bd. 1 (PP-Konsum)",
+  "_stand": "16.11.2026: Genius-Plattform korrigiert jnc→kobo (Zweitkauf + Vorbestellung Bd. 2)",
   "series": {
     "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills": {
       "mal_id": 128894,
@@ -138,12 +138,12 @@
     "genius-in-the-library-this-bookish-rookie-will-save-the-day": {
       "mal_id": null,
       "title": "Genius in the Library: This Bookish Rookie Will Save the Day!",
-      "platform": "jnc",
-      "edition": "EN LN (Pre-Pub)",
+      "platform": "kobo",
+      "edition": "EN LN (Kobo; via JNC Pre-Pub gelesen)",
       "volumes": [
         1
       ],
-      "note": "Bd. 1 via JNC Pre-Pub gelesen 14.-16.11. (PP lief 15.11. ab); Bd. 2 PP ab 27.01.2027; LN hat keinen MAL-DB-Eintrag (nur Manga-Adaption MAL 187954, nicht tracken)"
+      "note": "Bd. 1 via JNC Pre-Pub gelesen 14.-16.11. + Sammler-Zweitkauf kobo 15.11. (7,13 EUR); Bd. 2 vorbestellt kobo (VÖ 27.01.2027), PP gelesen Parts 1-2; LN ohne MAL-DB-Eintrag (Manga-Adaption MAL 187954 nicht tracken)"
     }
   }
 }
