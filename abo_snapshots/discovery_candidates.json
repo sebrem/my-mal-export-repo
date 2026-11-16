@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-09T13:55:25.086103+00:00",
+ "generated_at": "2026-11-16T13:40:18.314311+00:00",
  "note": "Vorfilter fuer Abo-Discovery-Check (20./Monat). Fund != Empfehlung: Kandidaten vom Agenten verifizieren (Doppelkauf-Check-Sequenz + MAL-Lesestand nach Format-Lesarten). already_tracked nicht als Neufund melden (Status-Drift pruefen). mp_noise ignorieren.",
  "counts": {
-  "candidates": 110,
-  "already_tracked": 36,
+  "candidates": 116,
+  "already_tracked": 38,
   "mp_noise": 7
  },
  "candidates": {
@@ -605,19 +605,6 @@
     "mal_score": null
    },
    {
-    "title": "[jnc] Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King",
-    "title_id": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
-    "title_url": "https://j-novel.club/series/lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
-    "platform": "jnc",
-    "patterns": [
-     "Food/Slow-Life",
-     "Kreaturen/Fantasy"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
     "title": "[jnc] Marriage, Divorce, and Beyond: The White Mage and Black Knight's Romance Reignited",
     "title_id": "marriage-divorce-and-beyond-the-white-mage-and-black-knight-s-romance-reignited",
     "title_url": "https://j-novel.club/series/marriage-divorce-and-beyond-the-white-mage-and-black-knight-s-romance-reignited",
@@ -813,6 +800,18 @@
     "title": "[jnc] Can Someone Please Explain What’s Going On?!",
     "title_id": "can-someone-please-explain-what-s-going-on",
     "title_url": "https://j-novel.club/series/can-someone-please-explain-what-s-going-on",
+    "platform": "jnc",
+    "patterns": [
+     "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Clouds Drift, Love Follows",
+    "title_id": "clouds-drift-love-follows",
+    "title_url": "https://j-novel.club/series/clouds-drift-love-follows",
     "platform": "jnc",
     "patterns": [
      "Ehe-Praemisse"
@@ -1050,9 +1049,33 @@
     "mal_score": null
    },
    {
+    "title": "[jnc] Little Miss Slime Master",
+    "title_id": "little-miss-slime-master",
+    "title_url": "https://j-novel.club/series/little-miss-slime-master",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
     "title": "[jnc] Long Story Short, I’m Living in the Mountains",
     "title_id": "long-story-short-i-m-living-in-the-mountains",
     "title_url": "https://j-novel.club/series/long-story-short-i-m-living-in-the-mountains",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Merrily, We Tumble Along",
+    "title_id": "merrily-we-tumble-along",
+    "title_url": "https://j-novel.club/series/merrily-we-tumble-along",
     "platform": "jnc",
     "patterns": [
      "Food/Slow-Life"
@@ -1098,12 +1121,36 @@
     "mal_score": null
    },
    {
+    "title": "[jnc] My Leisure Logbook: A Taste of Isekai with the Goddess",
+    "title_id": "my-leisure-logbook-a-taste-of-isekai-with-the-goddess",
+    "title_url": "https://j-novel.club/series/my-leisure-logbook-a-taste-of-isekai-with-the-goddess",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
     "title": "[jnc] No Wife, No Problem: A Mage's Life with His Beloved Daughter",
     "title_id": "no-wife-no-problem-a-mage-s-life-with-his-beloved-daughter",
     "title_url": "https://j-novel.club/series/no-wife-no-problem-a-mage-s-life-with-his-beloved-daughter",
     "platform": "jnc",
     "patterns": [
      "Ehe-Praemisse"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Nowhere Isekai: Peace over Power for This Nothin’ Bumpkin",
+    "title_id": "nowhere-isekai-peace-over-power-for-this-nothin-bumpkin",
+    "title_url": "https://j-novel.club/series/nowhere-isekai-peace-over-power-for-this-nothin-bumpkin",
+    "platform": "jnc",
+    "patterns": [
+     "Food/Slow-Life"
     ],
     "mal_id": null,
     "mal_status": null,
@@ -1158,9 +1205,33 @@
     "mal_score": null
    },
    {
+    "title": "[jnc] Shut-in Savior: Sent to Another World with My House! (Manga)",
+    "title_id": "shut-in-savior-sent-to-another-world-with-my-house-manga",
+    "title_url": "https://j-novel.club/series/shut-in-savior-sent-to-another-world-with-my-house-manga",
+    "platform": "jnc",
+    "patterns": [
+     "Kuudere/Isolation"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
     "title": "[jnc] Side-By-Side Dreamers",
     "title_id": "side-by-side-dreamers",
     "title_url": "https://j-novel.club/series/side-by-side-dreamers",
+    "platform": "jnc",
+    "patterns": [
+     "Yuri"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
+    "title": "[jnc] Soldier Maids: Otherworld Cleanup Crew",
+    "title_id": "soldier-maids-otherworld-cleanup-crew",
+    "title_url": "https://j-novel.club/series/soldier-maids-otherworld-cleanup-crew",
     "platform": "jnc",
     "patterns": [
      "Yuri"
@@ -1595,6 +1666,32 @@
    "mal_id": 133309,
    "mal_status": "reading",
    "mal_score": 8
+  },
+  {
+   "title": "[jnc] Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King",
+   "title_id": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
+   "title_url": "https://j-novel.club/series/lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 172050,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King (Manga)",
+   "title_id": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-manga",
+   "title_url": "https://j-novel.club/series/lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Food/Slow-Life",
+    "Kreaturen/Fantasy"
+   ],
+   "mal_id": 172050,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
   },
   {
    "title": "[jnc] My Fiancé Cheated, But a New Love Rings!",
