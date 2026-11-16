@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-16T17:22:42+00:00",
+ "generated_at": "2026-11-16T17:39:50+00:00",
  "counts": {
-  "NUR-PP": 257,
+  "NUR-PP": 276,
   "KONFLIKT": 4,
-  "START_OK": 170,
-  "LUECKE": 70,
+  "START_OK": 163,
+  "LUECKE": 60,
   "FORTSETZUNG": 6
  },
  "note": "JNC-Anschluss-Klassifikation (START_OK/FORTSETZUNG/KONFLIKT/LUECKE/NUR-PP); KONFLIKT = Abo-Baende content-gleich bereits besessen - nie als 'jetzt lesbar' melden; Einheit = Volume; Fund != Empfehlung.",
@@ -359,19 +359,12 @@
   },
   "all-eyes-on-nekoyashiki-kun-notice-me-not-my-characters": {
    "title": "All Eyes on Nekoyashiki-kun! Notice Me, Not My Characters",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    3
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "altina-the-sword-princess": {
    "title": "Altina the Sword Princess",
@@ -433,7 +426,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 15,
+     "ablauf_ca": "2026-11-18"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -509,19 +507,12 @@
   },
   "an-otaku-prince-finds-love-in-akiba": {
    "title": "An Otaku Prince Finds Love in Akiba",
-   "klassifikation": "START_OK",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    1
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "an-unruly-summon": {
    "title": "An Unruly Summon",
@@ -660,15 +651,9 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 19,
-     "ablauf_ca": "2026-11-22"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    19,
     107
    ],
    "own_vols": [],
@@ -784,7 +769,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 1,
+     "ablauf_ca": "2026-11-19"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     1,
@@ -1119,7 +1109,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 36,
+     "ablauf_ca": "2026-11-30"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -1163,19 +1158,12 @@
   },
   "crybaby-love-song": {
    "title": "Crybaby Love Song",
-   "klassifikation": "START_OK",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    1
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "culinary-chronicles-of-the-court-flower": {
    "title": "Culinary Chronicles of the Court Flower",
@@ -1232,7 +1220,7 @@
   },
   "d-j-vute-betrayal-begets-new-beginnings": {
    "title": "Déjà Vute: Betrayal Begets New Beginnings",
-   "klassifikation": "START_OK",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
@@ -1240,7 +1228,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    1,
     2
    ],
    "own_vols": [],
@@ -1433,24 +1420,12 @@
   },
   "disowned-but-not-disheartened-life-is-good-with-overpowered-magic": {
    "title": "Disowned but Not Disheartened! Life Is Good with Overpowered Magic",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 4,
-     "ablauf_ca": "2026-11-23"
-    }
-   ],
-   "lib_vols": [],
-   "pp_vols": [
-    4
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "doll-kara": {
    "title": "Doll-Kara",
@@ -1552,7 +1527,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 1,
+     "ablauf_ca": "2026-11-23"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     1
@@ -1743,19 +1723,12 @@
   },
   "fired-but-i-maintain-all-the-software": {
    "title": "Fired? But I Maintain All the Software!",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    3
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "fired-but-i-maintain-all-the-software-manga": {
    "title": "Fired? But I Maintain All the Software! (Manga)",
@@ -1768,19 +1741,12 @@
   },
   "fleet-footed-dungeon-delver-tune-in-for-magical-girls-and-motion-blur": {
    "title": "Fleet-Footed Dungeon Delver: Tune in for Magical Girls and Motion Blur!",
-   "klassifikation": "START_OK",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    1
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother": {
    "title": "Fluffy-Eared Realm Restoration: Taking It Slow with My Cool Big Brother",
@@ -1866,7 +1832,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 7,
+     "ablauf_ca": "2026-11-23"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -1881,20 +1852,14 @@
   },
   "fraudulent-fianc-s": {
    "title": "Fraudulent Fiancés",
-   "klassifikation": "START_OK",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 1,
-     "ablauf_ca": "2026-11-28"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    1,
     2
    ],
    "own_vols": [],
@@ -2086,8 +2051,8 @@
    "klassifikation": "FORTSETZUNG",
    "mal_id": null,
    "mal_status": null,
-   "own_platform": "jnc",
-   "own_edition": "EN LN (Pre-Pub)",
+   "own_platform": "kobo",
+   "own_edition": "EN LN (Kobo; via JNC Pre-Pub gelesen)",
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
@@ -2191,9 +2156,7 @@
     2,
     3
    ],
-   "pp_vols": [
-    25
-   ],
+   "pp_vols": [],
    "own_vols": [],
    "mal_volumes_read": 0,
    "overlap": []
@@ -2205,7 +2168,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 1,
+     "ablauf_ca": "2026-11-18"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     1,
@@ -2249,19 +2217,13 @@
    "mal_status": "plan_to_read",
    "own_platform": "kobo",
    "own_edition": "EN LN",
-   "eilt": [
-    {
-     "band": 10,
-     "ablauf_ca": "2026-11-17"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [
     1,
     2,
     3
    ],
    "pp_vols": [
-    10,
     11
    ],
    "own_vols": [
@@ -2369,19 +2331,12 @@
   },
   "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home": {
    "title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home!",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    10
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga": {
    "title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga)",
@@ -2500,19 +2455,12 @@
   },
   "i-ll-never-set-foot-in-that-house-again-manga": {
    "title": "I’ll Never Set Foot in That House Again! (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    9
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi": {
    "title": "I Love Yuri and I Got Bodyswapped With a Fujoshi!",
@@ -2542,7 +2490,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    9,
     10
    ],
    "own_vols": [],
@@ -2617,7 +2564,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 11,
+     "ablauf_ca": "2026-11-19"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     11,
@@ -2817,19 +2769,12 @@
   },
   "infinite-dendrogram-manga": {
    "title": "Infinite Dendrogram (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    15
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "infinite-stratos": {
    "title": "Infinite Stratos",
@@ -2865,7 +2810,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 51,
+     "ablauf_ca": "2026-11-23"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -2960,7 +2910,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 8,
+     "ablauf_ca": "2026-11-30"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -3016,6 +2971,15 @@
    "own_edition": null,
    "eilt": []
   },
+  "jessica-bannister": {
+   "title": "Jessica Bannister",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": []
+  },
   "jk-haru-is-a-sex-worker-in-another-world": {
    "title": "JK Haru Is a Sex Worker in Another World",
    "klassifikation": "NUR-PP",
@@ -3045,19 +3009,12 @@
   },
   "keep-me-close-finding-my-home-in-you": {
    "title": "Keep Me Close: Finding My Home in You",
-   "klassifikation": "START_OK",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    1
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "knight-s-magic": {
    "title": "Knight's & Magic",
@@ -3066,15 +3023,9 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 10,
-     "ablauf_ca": "2026-11-30"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    10,
     11
    ],
    "own_vols": [],
@@ -3250,19 +3201,13 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 11,
-     "ablauf_ca": "2026-11-29"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [
     1,
     2,
     3
    ],
    "pp_vols": [
-    11,
     12
    ],
    "own_vols": [],
@@ -3593,7 +3538,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 1,
+     "ablauf_ca": "2026-11-23"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     1
@@ -3631,7 +3581,7 @@
   },
   "mirror-mirror-on-the-wall": {
    "title": "Mirror, Mirror on the Wall",
-   "klassifikation": "START_OK",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
@@ -3639,7 +3589,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    1,
     2
    ],
    "own_vols": [],
@@ -3665,7 +3614,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    3,
     4
    ],
    "own_vols": [],
@@ -3993,19 +3941,12 @@
   },
   "my-tiny-senpai": {
    "title": "My Tiny Senpai",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    7
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "nia-liston-the-merciless-maiden": {
    "title": "Nia Liston: The Merciless Maiden",
@@ -4064,20 +4005,13 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 17,
-     "ablauf_ca": "2026-11-29"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [
     1,
     2,
     3
    ],
-   "pp_vols": [
-    17
-   ],
+   "pp_vols": [],
    "own_vols": [],
    "mal_volumes_read": 0,
    "overlap": []
@@ -4329,7 +4263,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 22,
+     "ablauf_ca": "2026-11-30"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -4603,7 +4542,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    5,
     6
    ],
    "own_vols": [],
@@ -4633,7 +4571,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 3,
+     "ablauf_ca": "2026-11-25"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     3
@@ -4677,7 +4620,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    5,
     6
    ],
    "own_vols": [],
@@ -4722,24 +4664,21 @@
   },
   "safe-sound-in-the-arms-of-an-elite-knight-manga": {
    "title": "Safe & Sound in the Arms of an Elite Knight (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 7,
-     "ablauf_ca": "2026-11-22"
-    }
-   ],
-   "lib_vols": [],
-   "pp_vols": [
-    7
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
+  },
+  "saint-no-i-m-just-a-passing-beast-tamer": {
+   "title": "Saint? No! I'm Just a Passing Beast Tamer!",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": []
   },
   "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer": {
    "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer",
@@ -4751,7 +4690,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    5,
     6
    ],
    "own_vols": [],
@@ -4765,15 +4703,9 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 6,
-     "ablauf_ca": "2026-11-29"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    6,
     7
    ],
    "own_vols": [],
@@ -5186,7 +5118,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 18,
+     "ablauf_ca": "2026-11-20"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -5254,24 +5191,12 @@
   },
   "the-accursed-chef-and-his-pair-of-furry-foodies-manga": {
    "title": "The Accursed Chef and His Pair of Furry Foodies (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 2,
-     "ablauf_ca": "2026-11-22"
-    }
-   ],
-   "lib_vols": [],
-   "pp_vols": [
-    2
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "the-adorable-dungeon-master": {
    "title": "The Adorable Dungeon Master",
@@ -5356,15 +5281,9 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 6,
-     "ablauf_ca": "2026-11-21"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    6,
     7
    ],
    "own_vols": [],
@@ -5470,19 +5389,12 @@
   },
   "the-conqueror-from-a-dying-kingdom-manga": {
    "title": "The Conqueror from a Dying Kingdom (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    8
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "the-coppersmith-s-bride": {
    "title": "The Coppersmith's Bride",
@@ -5724,7 +5636,6 @@
    "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    5,
     6
    ],
    "own_vols": [],
@@ -5738,7 +5649,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 5,
+     "ablauf_ca": "2026-11-25"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     5,
@@ -5951,19 +5867,12 @@
   },
   "the-invincible-summoner-who-crawled-up-from-level-1-manga": {
    "title": "The Invincible Summoner Who Crawled Up from Level 1 (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    8
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "the-invincible-summoner-who-crawled-up-from-level-1-wrecking-reincarnators-with-my-hidden-dungeon-volume-1": {
    "title": "The Invincible Summoner Who Crawled Up from Level 1: Wrecking Reincarnators with My Hidden Dungeon",
@@ -5981,15 +5890,9 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 5,
-     "ablauf_ca": "2026-11-29"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    5,
     6
    ],
    "own_vols": [],
@@ -6137,7 +6040,6 @@
     3
    ],
    "pp_vols": [
-    16,
     17
    ],
    "own_vols": [],
@@ -6365,21 +6267,12 @@
   },
   "the-ryuo-s-work-is-never-done": {
    "title": "The Ryuo’s Work Is Never Done!",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    10,
-    11,
-    12
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "the-saga-of-lioncourt": {
    "title": "The Saga of Lioncourt",
@@ -6933,19 +6826,12 @@
   },
   "what-s-with-the-bag-kamiyama-san-manga": {
    "title": "What's with the Bag, Kamiyama-san? (Manga)",
-   "klassifikation": "LUECKE",
+   "klassifikation": "NUR-PP",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
-   "lib_vols": [],
-   "pp_vols": [
-    4
-   ],
-   "own_vols": [],
-   "mal_volumes_read": 0,
-   "overlap": []
+   "eilt": []
   },
   "when-supernatural-battles-became-commonplace": {
    "title": "When Supernatural Battles Became Commonplace",
@@ -7036,7 +6922,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 7,
+     "ablauf_ca": "2026-11-18"
+    }
+   ],
    "lib_vols": [],
    "pp_vols": [
     7,
@@ -7153,15 +7044,9 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [
-    {
-     "band": 5,
-     "ablauf_ca": "2026-11-16"
-    }
-   ],
+   "eilt": [],
    "lib_vols": [],
    "pp_vols": [
-    5,
     6
    ],
    "own_vols": [],
