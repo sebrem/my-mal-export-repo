@@ -3,9 +3,12 @@
 JNC-Verfuegbarkeits-Lane (Stand 14.11.2026, erste Iteration).
 Fragt die JNC-API v2 (labs.j-novel.club) ab und dokumentiert pro Serie:
   - library:        mind. ein Volume mit readerStreamingEnabled: true
-  - prepub_active:  Volumes mit publishing-Datum in der Zukunft oder
-                    <= 32 Tage zurueck (Pre-Pubs laufen ~1 Monat nach
-                    E-Book-Release ab, "expired" meist um den 15.)
+  - prepub_active:  Volumes mit publishing-Datum in der ZUKUNFT
+                    (aktualisierte Semantik 16.11.2026: Pre-Pub-Parts
+                    laufen exakt MIT dem E-Book-Release ab - Part-Feld
+                    "expiration" == Volume-"publishing", API-verifiziert
+                    an Fraudulent Fiances Bd. 1/Genius Bd. 1; die alte
+                    "+32 Tage"-Regel war ein Fehlschluss)
 WICHTIG (blank-UA-Pflicht): Die API antwortet nur mit LEEREM
 User-Agent (explizit ueberschrieben) und Accept: application/json;
 Browser-/Python-Standard-UA = 403.
@@ -36,7 +39,6 @@ SNAP_DIR.mkdir(exist_ok=True)
 SNAP_PATH = SNAP_DIR / "jnc_availability.json"
 CHANGES_PATH = REPO / "abo_changes.json"
 API = "https://labs.j-novel.club/app/v2"
-PREPUB_WINDOW_DAYS = 32   # publishing <= 32 Tage zurueck gilt als aktiv
 
 
 def api_get(url):
@@ -106,7 +108,7 @@ def main():
                 pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             except ValueError:
                 continue
-            if pub_dt > now or (now - pub_dt).days <= PREPUB_WINDOW_DAYS:
+            if pub_dt > now:   # PP aktiv = publishing Zukunft; Ablauf = publishing (expiration == publishing)
                 prepub.append({
                     "number": v.get("number"),
                     "title": v.get("title", ""),

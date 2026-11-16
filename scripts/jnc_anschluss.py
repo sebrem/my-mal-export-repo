@@ -22,8 +22,9 @@ sowie alle mit Library-Zugang als Basisklassifikation):
 - LUECKE       Abo beginnt erst spaeter (min verfuegbares Bd. > 1 und kein
                eigener Anschlussstand dabei)
 - NUR-PP       kein Library-Band, nur Pre-Pub-Fenster
-Plus "eilt"-Flag: aktive Pre-Pubs, deren Ablauf (publishing + 32 Tage)
-in <= 14 Tagen faellt.
+Plus "eilt"-Flag: aktive Pre-Pubs, deren Ablauf (= publishing,
+E-Book-Release; aktualisiert 16.11.: Part-expiration == publishing,
+KEINE +32-Tage-Frist mehr) in <= 14 Tagen faellt.
 Fund != Empfehlung: die Klassifikation ist Datenbasis, keine Empfehlung.
 Reine stdlib. continue-on-error im Workflow.
 """
@@ -38,7 +39,6 @@ AVAIL = SNAP / "jnc_availability.json"
 OWN = SNAP / "own_volumes.json"
 MALIDX = ROOT / "mal_manga_index.json"
 OUT = SNAP / "jnc_anschluss.json"
-PREPUB_WINDOW_DAYS = 32   # muss zu jnc_availability.py passen
 EILT_DAYS = 14
 
 
@@ -46,8 +46,19 @@ def classify(avail, own_vols, mal_read):
     lib = set(avail.get("library_vols") or [])
     pp = {}
     for p in avail.get("prepub_active") or []:
-        if p.get("number") is not None:
-            pp[p["number"]] = p.get("publishing")
+        if p.get("number") is None:
+            continue
+        # DEFENSIV: PP-Baende mit publishing in der Vergangenheit sind
+        # abgelaufen (expiration == publishing) - aus dem woechentlichen
+        # Snapshot herausfiltern, egal was der Snapshot noch enthaelt.
+        pub = p.get("publishing")
+        if pub:
+            try:
+                if date.fromisoformat(pub[:10]) < date.today():
+                    continue
+            except ValueError:
+                pass
+        pp[p["number"]] = pub
     avail_vols = lib | set(pp)
     if not avail_vols:
         return "NUR-PP", {}
@@ -115,7 +126,7 @@ def main():
             if not pub:
                 continue
             try:
-                exp = date.fromisoformat(pub[:10]) + timedelta(days=PREPUB_WINDOW_DAYS)
+                exp = date.fromisoformat(pub[:10])   # Ablauf = publishing (expiration == publishing)
             except ValueError:
                 continue
             if 0 <= (exp - today).days <= EILT_DAYS:
