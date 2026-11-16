@@ -254,6 +254,35 @@
     "count": 11
   },
   {
+    "mal_id": 1535,
+    "title": "Death Note",
+    "scores": [
+      10,
+      8,
+      8,
+      8,
+      8,
+      10,
+      10,
+      9,
+      9,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f07",
+      "f11",
+      "f15",
+      "f16",
+      "f17",
+      "f20"
+    ],
+    "count": 10
+  },
+  {
     "mal_id": 9253,
     "title": "Steins;Gate",
     "scores": [
@@ -426,33 +455,6 @@
       "f19"
     ],
     "count": 10
-  },
-  {
-    "mal_id": 1535,
-    "title": "Death Note",
-    "scores": [
-      10,
-      8,
-      8,
-      8,
-      10,
-      10,
-      9,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f05",
-      "f06",
-      "f07",
-      "f11",
-      "f15",
-      "f16",
-      "f17",
-      "f20"
-    ],
-    "count": 9
   },
   {
     "mal_id": 51009,
@@ -1467,7 +1469,7 @@
     "title": "Monster",
     "scores": [
       10,
-      8,
+      9,
       9,
       9,
       10,
@@ -1924,27 +1926,6 @@
     "count": 6
   },
   {
-    "mal_id": 20899,
-    "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
-    "scores": [
-      9,
-      9,
-      8,
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f17",
-      "f18"
-    ],
-    "count": 6
-  },
-  {
     "mal_id": 26055,
     "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders - Egypt-hen",
     "scores": [
@@ -2155,6 +2136,27 @@
     "count": 6
   },
   {
+    "mal_id": 20899,
+    "title": "JoJo no Kimyou na Bouken Part 3: Stardust Crusaders",
+    "scores": [
+      8,
+      9,
+      8,
+      9,
+      8,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f17",
+      "f18"
+    ],
+    "count": 6
+  },
+  {
     "mal_id": 25781,
     "title": "Shingeki no Kyojin: Kuinaki Sentaku",
     "scores": [
@@ -2351,19 +2353,19 @@
     "count": 5
   },
   {
-    "mal_id": 41025,
-    "title": "Fumetsu no Anata e",
+    "mal_id": 41402,
+    "title": "Mairimashita! Iruma-kun 2nd Season",
     "scores": [
       10,
-      9,
-      10,
       8,
-      8
+      8,
+      9,
+      9
     ],
     "friends": [
       "f01",
-      "f07",
-      "f11",
+      "f02",
+      "f14",
       "f17",
       "f19"
     ],
@@ -2460,6 +2462,25 @@
       "f02",
       "f07",
       "f09",
+      "f15"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 62542,
+    "title": "Grand Blue Season 3",
+    "scores": [
+      10,
+      8,
+      8,
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f07",
       "f15"
     ],
     "count": 5
@@ -2598,21 +2619,21 @@
     "count": 5
   },
   {
-    "mal_id": 15809,
-    "title": "Hataraku Maou-sama!",
+    "mal_id": 22297,
+    "title": "Fate/stay night: Unlimited Blade Works",
     "scores": [
       9,
       8,
       8,
-      8,
+      9,
       9
     ],
     "friends": [
+      "f01",
+      "f02",
+      "f07",
       "f08",
-      "f14",
-      "f15",
-      "f17",
-      "f19"
+      "f17"
     ],
     "count": 5
   },
@@ -2651,6 +2672,25 @@
       "f14",
       "f17",
       "f19"
+    ],
+    "count": 5
+  },
+  {
+    "mal_id": 31933,
+    "title": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
+    "scores": [
+      9,
+      10,
+      9,
+      10,
+      8
+    ],
+    "friends": [
+      "f01",
+      "f02",
+      "f05",
+      "f06",
+      "f20"
     ],
     "count": 5
   },
@@ -2936,25 +2976,6 @@
       "f08",
       "f17",
       "f19"
-    ],
-    "count": 5
-  },
-  {
-    "mal_id": 31933,
-    "title": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
-    "scores": [
-      8,
-      10,
-      9,
-      10,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f05",
-      "f06",
-      "f20"
     ],
     "count": 5
   },
@@ -3528,23 +3549,6 @@
     "count": 4
   },
   {
-    "mal_id": 62542,
-    "title": "Grand Blue Season 3",
-    "scores": [
-      10,
-      8,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f02",
-      "f07",
-      "f15"
-    ],
-    "count": 4
-  },
-  {
     "mal_id": 269,
     "title": "Bleach",
     "scores": [
@@ -3558,23 +3562,6 @@
       "f02",
       "f16",
       "f17"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 1210,
-    "title": "NHK ni Youkoso!",
-    "scores": [
-      9,
-      10,
-      10,
-      9
-    ],
-    "friends": [
-      "f07",
-      "f14",
-      "f15",
-      "f16"
     ],
     "count": 4
   },
@@ -3676,23 +3663,6 @@
       "f01",
       "f13",
       "f16",
-      "f17"
-    ],
-    "count": 4
-  },
-  {
-    "mal_id": 22297,
-    "title": "Fate/stay night: Unlimited Blade Works",
-    "scores": [
-      9,
-      8,
-      9,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f07",
-      "f08",
       "f17"
     ],
     "count": 4
@@ -4123,23 +4093,6 @@
     "count": 4
   },
   {
-    "mal_id": 41402,
-    "title": "Mairimashita! Iruma-kun 2nd Season",
-    "scores": [
-      8,
-      8,
-      9,
-      9
-    ],
-    "friends": [
-      "f02",
-      "f14",
-      "f17",
-      "f19"
-    ],
-    "count": 4
-  },
-  {
     "mal_id": 46352,
     "title": "Blue Period",
     "scores": [
@@ -4287,21 +4240,6 @@
     "count": 3
   },
   {
-    "mal_id": 634,
-    "title": "Koi Kaze",
-    "scores": [
-      10,
-      9,
-      8
-    ],
-    "friends": [
-      "f16",
-      "f17",
-      "f19"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 642,
     "title": "Vinland Saga",
     "scores": [
@@ -4422,21 +4360,6 @@
     "count": 3
   },
   {
-    "mal_id": 39198,
-    "title": "Kanata no Astra",
-    "scores": [
-      10,
-      8,
-      8
-    ],
-    "friends": [
-      "f02",
-      "f06",
-      "f19"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 44074,
     "title": "Shiguang Dailiren",
     "scores": [
@@ -4463,21 +4386,6 @@
       "f05",
       "f06",
       "f09"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 49709,
-    "title": "Fumetsu no Anata e Season 2",
-    "scores": [
-      10,
-      8,
-      9
-    ],
-    "friends": [
-      "f01",
-      "f17",
-      "f19"
     ],
     "count": 3
   },
@@ -4962,21 +4870,6 @@
     "count": 3
   },
   {
-    "mal_id": 38619,
-    "title": "Joshikousei no Mudazukai",
-    "scores": [
-      9,
-      8,
-      8
-    ],
-    "friends": [
-      "f06",
-      "f07",
-      "f08"
-    ],
-    "count": 3
-  },
-  {
     "mal_id": 38993,
     "title": "Karakai Jouzu no Takagi-san 2",
     "scores": [
@@ -5078,21 +4971,6 @@
       "f01",
       "f15",
       "f16"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 49721,
-    "title": "Karakai Jouzu no Takagi-san 3",
-    "scores": [
-      9,
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f15",
-      "f19"
     ],
     "count": 3
   },
@@ -5558,21 +5436,6 @@
       "f08",
       "f10",
       "f17"
-    ],
-    "count": 3
-  },
-  {
-    "mal_id": 20457,
-    "title": "Inari, Konkon, Koi Iroha.",
-    "scores": [
-      8,
-      8,
-      8
-    ],
-    "friends": [
-      "f13",
-      "f16",
-      "f19"
     ],
     "count": 3
   },
@@ -6940,19 +6803,6 @@
     "count": 2
   },
   {
-    "mal_id": 71,
-    "title": "Full Metal Panic!",
-    "scores": [
-      9,
-      9
-    ],
-    "friends": [
-      "f17",
-      "f19"
-    ],
-    "count": 2
-  },
-  {
     "mal_id": 73,
     "title": "Full Metal Panic! The Second Raid",
     "scores": [
@@ -8292,6 +8142,19 @@
     "count": 2
   },
   {
+    "mal_id": 49721,
+    "title": "Karakai Jouzu no Takagi-san 3",
+    "scores": [
+      9,
+      9
+    ],
+    "friends": [
+      "f01",
+      "f15"
+    ],
+    "count": 2
+  },
+  {
     "mal_id": 49909,
     "title": "Kotarou wa Hitorigurashi",
     "scores": [
@@ -8346,19 +8209,6 @@
   {
     "mal_id": 52402,
     "title": "Boku ni Sexfriend ga Dekita Riyuu",
-    "scores": [
-      9,
-      8
-    ],
-    "friends": [
-      "f01",
-      "f17"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 54703,
-    "title": "Fumetsu no Anata e Season 3",
     "scores": [
       9,
       8
@@ -10795,19 +10645,6 @@
     ],
     "friends": [
       "f02",
-      "f17"
-    ],
-    "count": 2
-  },
-  {
-    "mal_id": 48413,
-    "title": "Hataraku Maou-sama!!",
-    "scores": [
-      8,
-      8
-    ],
-    "friends": [
-      "f15",
       "f17"
     ],
     "count": 2
@@ -13738,6 +13575,17 @@
     "count": 1
   },
   {
+    "mal_id": 57470,
+    "title": "Modaete yo, Adam-kun",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f01"
+    ],
+    "count": 1
+  },
+  {
     "mal_id": 57559,
     "title": "MF Ghost 2nd Season",
     "scores": [
@@ -14042,6 +13890,17 @@
     ],
     "friends": [
       "f15"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 147171,
+    "title": "Eleceed",
+    "scores": [
+      10
+    ],
+    "friends": [
+      "f02"
     ],
     "count": 1
   },
@@ -18558,6 +18417,39 @@
   {
     "mal_id": 64688,
     "title": "I-Bull",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 65097,
+    "title": "AIYOU",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 65157,
+    "title": "Yumegokochi",
+    "scores": [
+      9
+    ],
+    "friends": [
+      "f01"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 65189,
+    "title": "Kumo wo Nuke Kazashimo e Watashi dake",
     "scores": [
       9
     ],
@@ -24210,17 +24102,6 @@
     "count": 1
   },
   {
-    "mal_id": 22057,
-    "title": "Inari, Konkon, Koi Iroha. Inari, Konkon, Semishigure.",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f13"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 22069,
     "title": "Swing Out Sisters (2014)",
     "scores": [
@@ -28995,17 +28876,6 @@
     "count": 1
   },
   {
-    "mal_id": 53200,
-    "title": "Hataraku Maou-sama!! 2nd Season",
-    "scores": [
-      8
-    ],
-    "friends": [
-      "f19"
-    ],
-    "count": 1
-  },
-  {
     "mal_id": 53257,
     "title": "Roshutsu-kei Mahou Joshi Daisei Christhea",
     "scores": [
@@ -30377,6 +30247,17 @@
     ],
     "friends": [
       "f02"
+    ],
+    "count": 1
+  },
+  {
+    "mal_id": 62518,
+    "title": "Ginga Tokkyuu Milky☆Subway Movie: Kakueki Teisha Gekijou Yuki",
+    "scores": [
+      8
+    ],
+    "friends": [
+      "f09"
     ],
     "count": 1
   },
