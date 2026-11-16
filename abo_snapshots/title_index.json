@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-12T08:04:24Z",
- "count_records": 2755,
- "count_unmapped": 89,
+ "generated_at_utc": "2026-11-16T13:11:23Z",
+ "count_records": 2785,
+ "count_unmapped": 119,
  "sources": [
   "mal_manga.json",
   "mal_anime.json",
@@ -232,7 +232,8 @@
    "mal_title_en": "Ghost in the Shell",
    "mal_title_ja": "GHOST IN THE SHELL（攻殻機動隊）",
    "mal_synonyms": [
-    "Ghost in the Shell"
+    "Ghost in the Shell",
+    "GITS"
    ],
    "synonyms": [
     "GitS",
@@ -6857,12 +6858,12 @@
    "medium": "anime",
    "anilist_id": 15379,
    "format": "TV",
-   "status": "watching",
+   "status": "completed",
    "score": 9,
    "volumes_read": null,
    "chapters_read": null,
    "start_date": "2026-11-11",
-   "finish_date": null,
+   "finish_date": "2026-11-15",
    "title_mal": "Kotoura-san",
    "title_romaji": "Kotoura-san",
    "title_english": "The Troubled Life of Miss Kotoura",
@@ -28472,7 +28473,7 @@
    "anilist_id": 156891,
    "format": "TV",
    "status": "completed",
-   "score": 7,
+   "score": 8,
    "volumes_read": null,
    "chapters_read": null,
    "start_date": null,
@@ -44397,7 +44398,7 @@
    "anilist_id": 203490,
    "format": "TV",
    "status": "watching",
-   "score": 9,
+   "score": 10,
    "volumes_read": null,
    "chapters_read": null,
    "start_date": "2026-07-08",
@@ -45692,6 +45693,36 @@
     "the duke s son claims he won t love me yet showers me with adoration",
     "きみを愛する気はない と言った次期公爵様かなせか溺愛してきます",
     "きみ愛"
+   ]
+  },
+  {
+   "mal_id": 63559,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Bad End Mokuzen no Heroine ni Tensei shita Watashi, Konse dewa Renai suru Tsumori ga Cheat na Ani ga Hanashite Kuremasen!?",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "バッドエンド目前のヒロインに転生した私、今世では恋愛するつもりがチートな兄が離してくれません!?",
+   "mal_synonyms": [
+    "I Was Reincarnated as the Heroine on the Verge of a Bad Ending, and I'm Determined to Fall in Love!"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "bad end mokuzen no heroine ni tensei shita watashi konse dewa renai suru tsumori ga cheat na ani ga hanashite kuremasen",
+    "i was reincarnated as the heroine on the verge of a bad ending and i m determined to fall in love",
+    "ハットエント目前のヒロインに転生した私 今世ては恋愛するつもりかチートな兄か離してくれません"
    ]
   },
   {
@@ -47699,6 +47730,33 @@
    ]
   },
   {
+   "mal_id": 64608,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Toratsugumi: Tsugumi Project",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "虎鶫 -TSUGUMI PROJECT-",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "toratsugumi tsugumi project",
+    "虎鶫 tsugumi project"
+   ]
+  },
+  {
    "mal_id": 64640,
    "medium": "anime",
    "anilist_id": 214215,
@@ -47804,6 +47862,36 @@
    ]
   },
   {
+   "mal_id": 64717,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "watching",
+   "score": 8,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": "2026-11-14",
+   "finish_date": null,
+   "title_mal": "Yuusanchi! from Yuu-hachi",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "ゆうさんち！from 遊ハち",
+   "mal_synonyms": [
+    "Welcome to Yu Hachi's House!"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "welcome to yu hachi s house",
+    "yuusanchi from yuu hachi",
+    "ゆうさんち from 遊ハち"
+   ]
+  },
+  {
    "mal_id": 64867,
    "medium": "anime",
    "anilist_id": 215835,
@@ -47858,6 +47946,33 @@
     "boku no suki na hito ga suki na hito",
     "my crush s crush",
     "ほくの好きな人か好きな人"
+   ]
+  },
+  {
+   "mal_id": 64906,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Aoharu Once More",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "アオハル・ワンスモア",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "aoharu once more",
+    "アオハル ワンスモア"
    ]
   },
   {
@@ -48506,6 +48621,36 @@
     "yuusha party ni kawaii ko ga ita no de kokuhaku shitemita 2nd season",
     "yuusha party ni kawaii ko ga ita node kokuhaku shitemita 2nd season",
     "勇者ハーティーにかわいい子かいたのて 告白してみた 第2期"
+   ]
+  },
+  {
+   "mal_id": 65437,
+   "medium": "anime",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_watch",
+   "score": 0,
+   "volumes_read": null,
+   "chapters_read": null,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Isekai Douraku ni Akitara",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "異世界道楽に飽きたら",
+   "mal_synonyms": [
+    "Living It Up in Another World Until I Get Bored"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "isekai douraku ni akitara",
+    "living it up in another world until i get bored",
+    "異世界道楽に飽きたら"
    ]
   },
   {
@@ -57647,6 +57792,34 @@
    ]
   },
   {
+   "mal_id": 83147,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 3,
+   "chapters_read": 21,
+   "start_date": "2026-11-12",
+   "finish_date": null,
+   "title_mal": "Isekai de Café wo Kaiten shimashita.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Opening a Café in Another World",
+   "mal_title_ja": "異世界でカフェを開店しました。",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "isekai de cafe wo kaiten shimashita",
+    "opening a cafe in another world",
+    "異世界てカフェを開店しました"
+   ]
+  },
+  {
    "mal_id": 83225,
    "medium": "manga",
    "anilist_id": 93368,
@@ -57684,6 +57857,33 @@
     "จอมมารตางโลกก บ บร วารสาวน กอ ญเช ญ",
     "異世界魔王と召喚少女の奴隷魔術",
     "異世界魔王與召喚少女的奴隸魔術"
+   ]
+  },
+  {
+   "mal_id": 83259,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Isekai de Café wo Kaiten shimashita.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "異世界でカフェを開店しました。",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "isekai de cafe wo kaiten shimashita",
+    "異世界てカフェを開店しました"
    ]
   },
   {
@@ -62908,6 +63108,33 @@
    ]
   },
   {
+   "mal_id": 107691,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Isekai Douraku ni Akitara",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "異世界道楽に飽きたら",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "isekai douraku ni akitara",
+    "異世界道楽に飽きたら"
+   ]
+  },
+  {
    "mal_id": 107795,
    "medium": "manga",
    "anilist_id": 98171,
@@ -66591,6 +66818,34 @@
     "부부 이상 연인 미만",
     "夫婦以上 恋人未満",
     "夫婦以上 戀人未滿"
+   ]
+  },
+  {
+   "mal_id": 115917,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 6,
+   "chapters_read": 18,
+   "start_date": "2026-11-13",
+   "finish_date": null,
+   "title_mal": "Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World!",
+   "mal_title_ja": "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "my isekai life i gained a second character class and became the strongest sage in the world",
+    "tensei kenja no isekai life dai 2 no shokugyou wo ete sekai saikyou ni narimashita",
+    "転生賢者の異世界ライフ 第二の職業を得て 世界最強になりました"
    ]
   },
   {
@@ -73415,7 +73670,7 @@
    "anilist_id": 117345,
    "format": "MANGA",
    "status": "reading",
-   "score": 9,
+   "score": 10,
    "volumes_read": 6,
    "chapters_read": 24,
    "start_date": "2026-10-11",
@@ -76003,6 +76258,34 @@
    ]
   },
   {
+   "mal_id": 131041,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita. @comic",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "The Weakest Tamer Began a Journey to Pick Up Trash",
+   "mal_title_ja": "最弱テイマーはゴミ拾いの旅を始めました。＠COMIC",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "saijaku tamer wa gomi hiroi no tabi wo hajimemashita comic",
+    "the weakest tamer began a journey to pick up trash",
+    "最弱テイマーはコミ拾いの旅を始めました comic"
+   ]
+  },
+  {
    "mal_id": 131342,
    "medium": "manga",
    "anilist_id": 127165,
@@ -77442,6 +77725,36 @@
     "witch watch 魔女守護者",
     "위치 워치",
     "ウィッチウォッチ"
+   ]
+  },
+  {
+   "mal_id": 133639,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 1,
+   "chapters_read": 5,
+   "start_date": "2026-11-12",
+   "finish_date": null,
+   "title_mal": "Hazure Potion ga Shouyu Datta node Ryouri Suru Koto ni Shimashita",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "ハズレポーションが醤油だったので料理することにしました",
+   "mal_synonyms": [
+    "I Decided to Cook Because the Losing Potion Was Soy Sauce"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "hazure potion ga shouyu datta node ryouri suru koto ni shimashita",
+    "i decided to cook because the losing potion was soy sauce",
+    "ハスレホーションか醤油たったのて料理することにしました"
    ]
   },
   {
@@ -79487,7 +79800,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 182,
+   "chapters_read": 183,
    "start_date": "2026-06-13",
    "finish_date": null,
    "title_mal": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu.",
@@ -82803,8 +83116,8 @@
    "format": "MANGA",
    "status": "reading",
    "score": 10,
-   "volumes_read": 11,
-   "chapters_read": 98,
+   "volumes_read": 12,
+   "chapters_read": 107,
    "start_date": "2026-03-03",
    "finish_date": null,
    "title_mal": "Akane-banashi",
@@ -82866,8 +83179,8 @@
    "format": "MANGA",
    "status": "reading",
    "score": 9,
-   "volumes_read": 2,
-   "chapters_read": 13,
+   "volumes_read": 3,
+   "chapters_read": 21,
    "start_date": "2026-03-16",
    "finish_date": null,
    "title_mal": "Otaku ni Yasashii Gal wa Inai!?",
@@ -88248,8 +88561,8 @@
    "format": "MANGA",
    "status": "reading",
    "score": 9,
-   "volumes_read": 10,
-   "chapters_read": 50,
+   "volumes_read": 11,
+   "chapters_read": 55,
    "start_date": null,
    "finish_date": null,
    "title_mal": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!",
@@ -89804,6 +90117,38 @@
    ]
   },
   {
+   "mal_id": 162623,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Ota x Nail: Plamo Danshi, Gal no Tsume wo Nuru",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "オタ×ネイル ～プラモ男子、ギャルの爪を塗る～",
+   "mal_synonyms": [
+    "Ota x Nail: Plastic Model Danshi, Gyaru no Tsume wo Nuru",
+    "Otaku x Nail"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "ota x nail plamo danshi gal no tsume wo nuru",
+    "ota x nail plastic model danshi gyaru no tsume wo nuru",
+    "otaku x nail",
+    "オタ ネイル フラモ男子 キャルの爪を塗る"
+   ]
+  },
+  {
    "mal_id": 162647,
    "medium": "manga",
    "anilist_id": 169254,
@@ -91320,7 +91665,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 50,
+   "chapters_read": 72,
    "start_date": "2026-08-09",
    "finish_date": null,
    "title_mal": "Futsuu no Keion-bu",
@@ -92076,6 +92421,34 @@
     "i quit my apprenticeship as a royal court wizard to become a magic item craftswoman",
     "kyuutei madoushi minarai wo yamete mahou item shokunin ni narimasu",
     "宮廷魔導師見習いを辞めて 魔法アイテム職人になります"
+   ]
+  },
+  {
+   "mal_id": 168857,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Bad End Mokuzen no Heroine ni Tensei shita Watashi, Konse dewa Renai suru Tsumori ga Cheat na Ani ga Hanashite Kuremasen!? @comic",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "I Was Reincarnated as the Heroine on the Verge of a Bad Ending, and I'm Determined to Fall in Love!",
+   "mal_title_ja": "バッドエンド目前のヒロインに転生した私、今世では恋愛するつもりがチートな兄が離してくれません！？@COMIC",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "bad end mokuzen no heroine ni tensei shita watashi konse dewa renai suru tsumori ga cheat na ani ga hanashite kuremasen comic",
+    "i was reincarnated as the heroine on the verge of a bad ending and i m determined to fall in love",
+    "ハットエント目前のヒロインに転生した私 今世ては恋愛するつもりかチートな兄か離してくれません comic"
    ]
   },
   {
@@ -93335,6 +93708,34 @@
     "saikyou f rank boukensha no kimamana henkyou seikatsu",
     "the carefree frontier life of the strongest f ranked adventurer",
     "最強fランク冒険者の気ままな辺境生活"
+   ]
+  },
+  {
+   "mal_id": 172050,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Akatsuki no Majo Lacey wa Jiyuu ni Ikitai: Maou Toubatsu wo Oeta node, Nonbiri Omise wo Hirakimasu",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King",
+   "mal_title_ja": "暁の魔女レイシーは自由に生きたい ～魔王討伐を終えたので、のんびりお店を開きます～",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "akatsuki no majo lacey wa jiyuu ni ikitai maou toubatsu wo oeta node nonbiri omise wo hirakimasu",
+    "lacey longs for freedom the dawn witch s low key life after defeating the demon king",
+    "暁の魔女レイシーは自由に生きたい 魔王討伐を終えたのて のんひりお店を開きます"
    ]
   },
   {
@@ -94815,6 +95216,34 @@
    ]
   },
   {
+   "mal_id": 177016,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Shoujo Seikan Hyouryuuki",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Girl's Interstellar Adventure",
+   "mal_title_ja": "少女星間漂流記",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "girl s interstellar adventure",
+    "shoujo seikan hyouryuuki",
+    "少女星間漂流記"
+   ]
+  },
+  {
    "mal_id": 177020,
    "medium": "manga",
    "anilist_id": 192035,
@@ -95002,6 +95431,39 @@
    ]
   },
   {
+   "mal_id": 177700,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 1,
+   "chapters_read": 6,
+   "start_date": "2026-11-12",
+   "finish_date": null,
+   "title_mal": "Mamahaha no Kokoroe",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "The Art of Being a Stepmother",
+   "mal_title_ja": "継母の心得",
+   "mal_synonyms": [
+    "Stepmother's Guide",
+    "Stepmother's Knowledge"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "mamahaha no kokoroe",
+    "stepmother s guide",
+    "stepmother s knowledge",
+    "the art of being a stepmother",
+    "継母の心得"
+   ]
+  },
+  {
    "mal_id": 178161,
    "medium": "manga",
    "anilist_id": 187624,
@@ -95085,6 +95547,36 @@
     "엄마를 만나러 가는 길",
     "去見媽咪的路上",
     "去见妈妈的路上"
+   ]
+  },
+  {
+   "mal_id": 178370,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Akatsuki no Majo Lacey wa Jiyuu ni Ikitai: Maou Toubatsu wo Oeta node, Nonbiri Omise wo Hirakimasu",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "暁の魔女レイシーは自由に生きたい～魔王討伐を終えたので、のんびりお店を開きます～",
+   "mal_synonyms": [
+    "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "akatsuki no majo lacey wa jiyuu ni ikitai maou toubatsu wo oeta node nonbiri omise wo hirakimasu",
+    "lacey longs for freedom the dawn witch s low key life after defeating the demon king",
+    "暁の魔女レイシーは自由に生きたい 魔王討伐を終えたのて のんひりお店を開きます"
    ]
   },
   {
@@ -95636,7 +96128,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 71,
+   "chapters_read": 72,
    "start_date": "2026-07-15",
    "finish_date": null,
    "title_mal": "Yamero Suki ni Natteshimau",
@@ -95973,6 +96465,36 @@
    ]
   },
   {
+   "mal_id": 181830,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Sekai wo Sukutta Saikyou Yuusha ni Stalker sareru Mura Musume no Hanashi",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "世界を救った最強勇者にストーカーされる村娘の話",
+   "mal_synonyms": [
+    "The Story of a Village Girl Who is Stalked by the Strongest Hero Who Saved the World"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "sekai wo sukutta saikyou yuusha ni stalker sareru mura musume no hanashi",
+    "the story of a village girl who is stalked by the strongest hero who saved the world",
+    "世界を救った最強勇者にストーカーされる村娘の話"
+   ]
+  },
+  {
    "mal_id": 181858,
    "medium": "manga",
    "anilist_id": 189560,
@@ -96181,6 +96703,36 @@
     "ohitoyoshi boukensha tensei shoujo wo hiroimashita",
     "the kind adventurer and the reincarnated girl",
     "お人好し冒険者 転生少女を拾いました"
+   ]
+  },
+  {
+   "mal_id": 182567,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Aoharu Once More",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Aoharu Once More",
+   "mal_title_ja": "アオハル・ワンスモア",
+   "mal_synonyms": [
+    "Once More on the Day of Youth"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "aoharu once more",
+    "once more on the day of youth",
+    "アオハル ワンスモア"
    ]
   },
   {
@@ -96903,7 +97455,7 @@
    "status": "reading",
    "score": 9,
    "volumes_read": 0,
-   "chapters_read": 55,
+   "chapters_read": 56,
    "start_date": "2026-09-22",
    "finish_date": null,
    "title_mal": "Someone Hertz",
@@ -97200,6 +97752,33 @@
     "botsuraku reijou no okinimesu mama konyaku haki sareta node houseki kanteishi toshite dokuritsu shimasu",
     "the free life of the forlorn lady shining on as a gem appraiser after getting dumped",
     "没落令嬢のお気に召すまま 婚約破棄されたのて宝石鑑定士として独立します"
+   ]
+  },
+  {
+   "mal_id": 187954,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Toshokan no Tensai Shoujo: Honzuki no Shinjin Kanri wa Boudai na Chishiki de Kuni wo Sukuimasu!",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "図書館の天才少女～本好きの新人官吏は膨大な知識で国を救います！～",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "toshokan no tensai shoujo honzuki no shinjin kanri wa boudai na chishiki de kuni wo sukuimasu",
+    "図書館の天才少女 本好きの新人官吏は膨大な知識て国を救います"
    ]
   },
   {
@@ -97728,6 +98307,39 @@
    ]
   },
   {
+   "mal_id": 189410,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 0,
+   "chapters_read": 5,
+   "start_date": "2026-11-16",
+   "finish_date": null,
+   "title_mal": "Majo no Ending Note",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Will of the Witch",
+   "mal_title_ja": "魔女の終活帳〈エンディングノート〉",
+   "mal_synonyms": [
+    "Majo no Shuukatsu Chou",
+    "The Witch's Ending Note"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "majo no ending note",
+    "majo no shuukatsu chou",
+    "the witch s ending note",
+    "will of the witch",
+    "魔女の終活帳 エンティンクノート"
+   ]
+  },
+  {
    "mal_id": 189411,
    "medium": "manga",
    "anilist_id": 203957,
@@ -97852,7 +98464,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 22,
+   "chapters_read": 23,
    "start_date": "2026-11-09",
    "finish_date": null,
    "title_mal": "Shima Rock",
@@ -98052,6 +98664,34 @@
     "tsuihou sareta seijo desu ga jitsu wa kunijuu kara aisare sugitete kowain desu kedo",
     "tsuihou sareta seijo desu ga jitsu wa kunijuu kara aisaresugitete kowain desu kedo",
     "追放された聖女てすか 実は国中から愛されすきてて怖いんてすけと"
+   ]
+  },
+  {
+   "mal_id": 190637,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Ohayou, Oyasumi, Mata Ashita.",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Good Morning, Good Night, and See You Tomorrow",
+   "mal_title_ja": "おはよう、おやすみ、また明日。",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "good morning good night and see you tomorrow",
+    "ohayou oyasumi mata ashita",
+    "おはよう おやすみ また明日"
    ]
   },
   {
@@ -98344,6 +98984,39 @@
     "the jack of all trades kicked out of the hero s party side story selma s awkward off duty life",
     "yuusha party wo oidasareta kiyoubinbou gaiden off no selma san wa bukiyou",
     "勇者ハーティを追い出された器用貧乏 外伝 オフのセルマさんは不器用"
+   ]
+  },
+  {
+   "mal_id": 191413,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 1,
+   "chapters_read": 0,
+   "start_date": "2026-11-15",
+   "finish_date": null,
+   "title_mal": "Bad End Mokuzen no Heroine ni Tensei shita Watashi, Konse dewa Renai suru Tsumori ga Cheat na Ani ga Hanashite Kuremasen!?",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn't Make Things So (Sister) Complex!",
+   "mal_title_ja": "バッドエンド目前のヒロインに転生した私、今世では恋愛するつもりがチートな兄が離してくれません!?",
+   "mal_synonyms": [
+    "I Want to Fall in Love After Getting Reincarnated as the Heroine on the Verge of a Bad Ending, but My OP Older Brother Won't Leave Me Alone!?",
+    "Bad End Mokuzen no Sagyou-kei Otome Game Heroine ni Tensei kedo, Toriaezu Renai Kurai sasete Moratte Ii desu ka?"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "bad end mokuzen no heroine ni tensei shita watashi konse dewa renai suru tsumori ga cheat na ani ga hanashite kuremasen",
+    "bad end mokuzen no sagyou kei otome game heroine ni tensei kedo toriaezu renai kurai sasete moratte ii desu ka",
+    "grinding my way to a happy ending if only my op big bro didn t make things so sister complex",
+    "i want to fall in love after getting reincarnated as the heroine on the verge of a bad ending but my op older brother won t leave me alone",
+    "ハットエント目前のヒロインに転生した私 今世ては恋愛するつもりかチートな兄か離してくれません"
    ]
   },
   {
@@ -98850,6 +99523,33 @@
    ]
   },
   {
+   "mal_id": 194723,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Fairy Olivine",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Fairy Olivine",
+   "mal_title_ja": "フェアリー・オリビン",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "fairy olivine",
+    "フェアリー オリヒン"
+   ]
+  },
+  {
    "mal_id": 194815,
    "medium": "manga",
    "anilist_id": 205998,
@@ -99046,6 +99746,36 @@
    ]
   },
   {
+   "mal_id": 195918,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Suki Datta Ko wo Maid ni Shitara, Ore no Heya de Kossori Nanika shiteiru",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "好きだった子をメイドにしたら、俺の部屋でこっそりナニかしている",
+   "mal_synonyms": [
+    "I Made the Girl I Liked My Maid, and Now She’s Secretly Doing Something in My Room"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "i made the girl i liked my maid and now she s secretly doing something in my room",
+    "suki datta ko wo maid ni shitara ore no heya de kossori nanika shiteiru",
+    "好きたった子をメイトにしたら 俺の部屋てこっそりナニかしている"
+   ]
+  },
+  {
    "mal_id": 195991,
    "medium": "manga",
    "anilist_id": null,
@@ -99171,7 +99901,7 @@
    "status": "reading",
    "score": 8,
    "volumes_read": 0,
-   "chapters_read": 8,
+   "chapters_read": 10,
    "start_date": "2026-09-05",
    "finish_date": null,
    "title_mal": "Morino-san Darugaramu",
@@ -99217,6 +99947,62 @@
     "dragon and flower the timid princess and the ice sword s loyalty",
     "ryuu to hana yowamushi hime ni hyouken no chuusei",
     "竜と華 弱虫姫に氷剣の忠誠"
+   ]
+  },
+  {
+   "mal_id": 196369,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 0,
+   "chapters_read": 16,
+   "start_date": "2026-11-16",
+   "finish_date": null,
+   "title_mal": "Watashi wa Ikenie no Hazu desu ga: Fuguu Shoujo wa Yasashii Kyuuketsuki ni Dekiai sare Shiawase ni Naru",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "I Was Sacrificed to a Vampire, But He Spoils Me Instead!",
+   "mal_title_ja": "私は生贄のはずですが～不遇少女は優しい吸血鬼に溺愛され幸せになる～",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "i was sacrificed to a vampire but he spoils me instead",
+    "watashi wa ikenie no hazu desu ga fuguu shoujo wa yasashii kyuuketsuki ni dekiai sare shiawase ni naru",
+    "私は生贄のはすてすか 不遇少女は優しい吸血鬼に溺愛され幸せになる"
+   ]
+  },
+  {
+   "mal_id": 196510,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "reading",
+   "score": 8,
+   "volumes_read": 0,
+   "chapters_read": 17,
+   "start_date": "2026-09-12",
+   "finish_date": null,
+   "title_mal": "Guild wo Tsuihou sareta kedo Mofumofu Shinjuu ni Sazukatta Kami Skill \"Random Renkin\" de Saikyou no Guild wo Tsukutte Musou shimasu",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Wildcard Alchemist: Building the Ultimate Guild with a Divine Fluffy Beast and Random Alchemy Skill",
+   "mal_title_ja": "ギルドを追放されたけどもふもふ神獣に授かった神スキル【ランダム錬金】で最強のギルドを作って無双します",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "guild wo tsuihou sareta kedo mofumofu shinjuu ni sazukatta kami skill random renkin de saikyou no guild wo tsukutte musou shimasu",
+    "wildcard alchemist building the ultimate guild with a divine fluffy beast and random alchemy skill",
+    "キルトを追放されたけともふもふ神獣に授かった神スキル ランタム錬金 て最強のキルトを作って無双します"
    ]
   },
   {
@@ -99409,6 +100195,36 @@
    ]
   },
   {
+   "mal_id": 196922,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Suki Datta Ko wo Maid ni Shitara, Ore no Heya de Kossori Nanika shiteiru",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "",
+   "mal_title_ja": "好きだった子をメイドにしたら、俺の部屋でこっそりナニかしている",
+   "mal_synonyms": [
+    "I Made the Girl I Liked My Maid, and Now She's Secretly Doing Something in My Room"
+   ],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "i made the girl i liked my maid and now she s secretly doing something in my room",
+    "suki datta ko wo maid ni shitara ore no heya de kossori nanika shiteiru",
+    "好きたった子をメイトにしたら 俺の部屋てこっそりナニかしている"
+   ]
+  },
+  {
    "mal_id": 197054,
    "medium": "manga",
    "anilist_id": 218016,
@@ -99519,6 +100335,62 @@
     "futari wa sekai to kamiawanai",
     "the two just don t fit into the world",
     "二人は世界とかみ合わない"
+   ]
+  },
+  {
+   "mal_id": 198008,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Koi wa Nail ja Kakusenai",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "You Can't Hide Love with Nail Polish",
+   "mal_title_ja": "恋はネイルじゃ隠せない",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "koi wa nail ja kakusenai",
+    "you can t hide love with nail polish",
+    "恋はネイルしゃ隠せない"
+   ]
+  },
+  {
+   "mal_id": 198039,
+   "medium": "manga",
+   "anilist_id": null,
+   "format": null,
+   "status": "plan_to_read",
+   "score": 0,
+   "volumes_read": 0,
+   "chapters_read": 0,
+   "start_date": null,
+   "finish_date": null,
+   "title_mal": "Moto Oshiego no Ninose-san",
+   "title_romaji": null,
+   "title_english": null,
+   "title_native": null,
+   "title_german": [],
+   "de_sources": [],
+   "mal_title_en": "Ninose Is My Former Student.",
+   "mal_title_ja": "元教え子の二ノ瀬さん",
+   "mal_synonyms": [],
+   "synonyms": [],
+   "note": "unmapped (kein AniList-Treffer)",
+   "keys": [
+    "moto oshiego no ninose san",
+    "ninose is my former student",
+    "元教え子の二ノ瀬さん"
    ]
   }
  ]
