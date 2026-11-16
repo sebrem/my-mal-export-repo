@@ -99,6 +99,10 @@ def mal_index(kind):
             "status": ls.get("status"),
             "score": ls.get("score"),
             "progress": progress,
+            # num_volumes_read (MAL-Baende; manga-relevant, bei anime null).
+            # Grundlage fuer bandgenaue Abgleiche (JNC-Einheiten-Regel:
+            # Einheit = Volume; progress = Kapitel ist dafuer unbrauchbar).
+            "volumes": ls.get("num_volumes_read"),
             "updated_at": ls.get("updated_at"),
         })
     out = {

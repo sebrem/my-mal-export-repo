@@ -76,6 +76,28 @@ jobs:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
+      # JNC-Verfuegbarkeits-Lane: Library-Status + aktive Pre-Pubs pro
+      # Serie, BANDGENAU (Einheit = Volume; blank-UA-Pflicht; catchup-Feld
+      # unzuverlaessig, Semantik im Skript-Docstring). Snapshot
+      # abo_snapshots/jnc_availability.json, Diff-Merge nach
+      # abo_changes.json["jnc_availability"].
+      - name: JNC-Verfuegbarkeit abgleichen
+        run: python scripts/jnc_availability.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
+      # JNC-Anschluss-Klassifikation: Verfuegbarkeit x Besitz
+      # (abo_snapshots/own_volumes.json, Sebastian/Agent-gepflegt) x
+      # MAL-Lesestand -> START_OK/FORTSETZUNG/KONFLIKT/LUECKE je Serie
+      # (KONFLIKT = nie als 'jetzt lesbar' melden; Fund != Empfehlung).
+      # Braucht das volumes-Feld aus dem make_indexes-Patch.
+      - name: JNC-Anschluss-Klassifikation
+        run: python scripts/jnc_anschluss.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
       - name: Katalog-Artefakte hochladen
         uses: actions/upload-artifact@v4
         with:
