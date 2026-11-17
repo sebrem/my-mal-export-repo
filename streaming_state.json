@@ -269,7 +269,37 @@
     53438,
     62804,
     21877,
-    58913
+    58913,
+    62584,
+    61015,
+    55774,
+    28825,
+    36296,
+    37007,
+    62100,
+    64551,
+    33654,
+    20853,
+    56646,
+    64487,
+    63601,
+    65103,
+    20431,
+    35075,
+    37029,
+    14753,
+    54856,
+    63293,
+    10408,
+    61199,
+    17919,
+    35557,
+    40230,
+    63469,
+    58919,
+    9996,
+    64254,
+    62018
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -1077,6 +1107,51 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "14753": {
+      "title": "Hori-san to Miyamura-kun",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Horimiya",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81020819"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GVWU8N11G"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81020819"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e84aaf58-e58f-47c4-a9a4-32ff9819d308"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "15039": {
       "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai. Movie",
       "mal_status": "plan_to_watch",
@@ -1442,6 +1517,37 @@
         "season_video_count": 90,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "20853": {
+      "title": "Hitsugi no Chaika",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "The Warrior Princess and the Barbaric King",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00362255FRFR"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.951a0ab7-9933-45a5-ae26-9a85f400d597"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "21405": {
       "title": "Bokura wa Minna Kawai-sou",
@@ -2219,6 +2325,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "35557": {
+      "title": "Houseki no Kuni",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Das Land der Juwelen",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d6a43d1e-936e-4443-a719-cc30976c3ea7"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.da49e65d-5b70-4775-9d0f-95ef3d9acb78"
+        }
+      ]
+    },
     "35608": {
       "title": "Chuunibyou demo Koi ga Shitai! Movie: Take On Me",
       "mal_status": "plan_to_watch",
@@ -2316,6 +2453,37 @@
       "my_channel_hits": [],
       "channel_candidates": [],
       "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "36296": {
+      "title": "Hinamatsuri",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Hinamatsuri",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G4VUQJ3G7"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5aec3e20-e712-4365-a160-b801c80bcc5a"
+        }
+      ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -2850,6 +3018,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1eb280ba-185d-051d-9d8b-cd2026397d07"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "40230": {
+      "title": "Housekishou Richard-shi no Nazo Kantei",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Case Files of Jeweler Richard",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GRW4WWDMY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6b6d26d9-c186-4c9d-9a46-3b985ec1df90"
         }
       ],
       "adn_channel_caveat": [],
@@ -3873,6 +4072,51 @@
         }
       ]
     },
+    "54856": {
+      "title": "Horimiya: Piece",
+      "mal_status": "on_hold",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Horimiya",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81020819"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GVWU8N11G"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81020819"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e84aaf58-e58f-47c4-a9a4-32ff9819d308"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "54915": {
       "title": "5-toubun no Hanayome∽",
       "mal_status": "plan_to_watch",
@@ -4008,6 +4252,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "55774": {
+      "title": "Himesama \"Goumon\" no Jikan desu",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "'Tis Time for \"Torture,\" Princess",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GMKUXP07K/episode-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.071f8443-314d-4ed4-b3f9-f5bab20f1d22"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "55830": {
       "title": "Fate/strange Fake",
       "mal_status": "plan_to_watch",
@@ -4092,6 +4367,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.86890942-b13d-4ee9-9a78-9c870eb17d1a"
         }
       ]
+    },
+    "56646": {
+      "title": "Hokuto no Ken: Fist of the North Star",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Fist of the North Star: HOKUTO NO KEN",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d1393f28-73de-40bb-a1e3-45f3212cee27"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "56647": {
       "title": "Ao no Miburo",
@@ -5239,6 +5537,49 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "62018": {
+      "title": "Ichijouma Mankitsugurashi!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Ichijōma Mankitsu Gurashi!",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1384-ichijoma-mankitsu-gurashi/31446-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.346ce92f-d242-4d70-9624-9e987e8f9d96"
+        }
+      ],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1384-ichijoma-mankitsu-gurashi",
+        "status": 200,
+        "adn_title": "Ichijôma Mankitsu Gurashi!",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 11,
+        "season_video_count": 11,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
+    },
     "62428": {
       "title": "Heika Watashi wo Wasurete Kudasai",
       "mal_status": "plan_to_watch",
@@ -5622,6 +5963,37 @@
         }
       ]
     },
+    "63293": {
+      "title": "Hotaru no Yomeiri",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Firefly Wedding",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00384155ES419"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d518b586-4bdb-4c0a-8877-a182a4a853b0"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "63409": {
       "title": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
       "mal_status": "watching",
@@ -5827,6 +6199,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "64254": {
+      "title": "Hyouken no Majutsushi ga Sekai wo Suberu II",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "The Iceblade Sorcerer Shall Rule the World",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G2XU0GVJ1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e9770b58-b8ee-433d-bf48-6f2b6169c4a4"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "64439": {
       "title": "Akane-banashi 2nd Season",
       "mal_status": "plan_to_watch",
@@ -5873,6 +6276,37 @@
         }
       ]
     },
+    "64551": {
+      "title": "Hitoribocchi no Isekai Kouryaku 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Hitoribocchi no Marumaruseikatsu",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GRMEWNG4Y"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.bff5c70b-bc2b-4d5e-84d3-d9cdc737d641"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "65032": {
       "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den Part 2",
       "mal_status": "plan_to_watch",
@@ -5906,6 +6340,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0744ef87-5c21-4f15-a33a-4f028cb9067d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "65103": {
+      "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen - Kizokuin no Toshokan wo Sukuitai!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-17T11:51:50.729Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Ascendance of a Bookworm",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G6KE09ME6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.60eaee33-6c82-4648-a11e-d13915022b25"
         }
       ],
       "adn_channel_caveat": [],
