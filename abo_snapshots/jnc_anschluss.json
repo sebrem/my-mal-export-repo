@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-16T17:39:50+00:00",
+ "generated_at": "2026-11-17T11:38:47+00:00",
  "counts": {
-  "NUR-PP": 276,
+  "NUR-PP": 310,
   "KONFLIKT": 4,
   "START_OK": 163,
-  "LUECKE": 60,
+  "LUECKE": 71,
   "FORTSETZUNG": 6
  },
- "note": "JNC-Anschluss-Klassifikation (START_OK/FORTSETZUNG/KONFLIKT/LUECKE/NUR-PP); KONFLIKT = Abo-Baende content-gleich bereits besessen - nie als 'jetzt lesbar' melden; Einheit = Volume; Fund != Empfehlung.",
+ "note": "JNC-Anschluss-Klassifikation (START_OK/FORTSETZUNG/KONFLIKT/LUECKE/NUR-PP); KONFLIKT = Abo-Baende content-gleich bereits besessen - nie als 'jetzt lesbar' melden; Einheit = Volume; Fund != Empfehlung. Seit v2 (17.11.): Nina-Serien mit Key 'nina:<slug>', platform jnc_nina, Pre-Pub-Abo ohne Backlist-Library.",
  "series": {
   "8th-loop-for-the-win-with-seven-lives-worth-of-xp-and-the-third-princess-s-appraisal-skill-my-behemoth-and-i-are-unstoppable": {
    "title": "8th Loop for the Win! With Seven Lives' Worth of XP and the Third Princess's Appraisal Skill, My Behemoth and I Are Unstoppable!",
@@ -713,7 +713,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 14,
+     "ablauf_ca": "2026-12-01"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -1121,7 +1126,8 @@
     3
    ],
    "pp_vols": [
-    36
+    36,
+    37
    ],
    "own_vols": [],
    "mal_volumes_read": 0,
@@ -3009,12 +3015,19 @@
   },
   "keep-me-close-finding-my-home-in-you": {
    "title": "Keep Me Close: Finding My Home in You",
-   "klassifikation": "NUR-PP",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": []
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    2
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": []
   },
   "knight-s-magic": {
    "title": "Knight's & Magic",
@@ -4275,7 +4288,8 @@
     3
    ],
    "pp_vols": [
-    22
+    22,
+    23
    ],
    "own_vols": [],
    "mal_volumes_read": 0,
@@ -6670,7 +6684,12 @@
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": [],
+   "eilt": [
+    {
+     "band": 14,
+     "ablauf_ca": "2026-12-01"
+    }
+   ],
    "lib_vols": [
     1,
     2,
@@ -7070,6 +7089,536 @@
    "own_platform": null,
    "own_edition": null,
    "eilt": []
+  },
+  "nina:7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy": {
+   "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Manga)",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [
+    {
+     "band": 7,
+     "ablauf_ca": "2026-11-28"
+    }
+   ],
+   "lib_vols": [],
+   "pp_vols": [
+    7
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-light-novel": {
+   "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Light Novel)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:86-eightysix": {
+   "title": "86 – EIGHTY-SIX",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    9
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:alya-fluestert-mir-auf-russisch-suesse-worte-zu": {
+   "title": "Alya flüstert mir auf Russisch süße Worte zu",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga": {
+   "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [
+    {
+     "band": 5,
+     "ablauf_ca": "2026-11-28"
+    }
+   ],
+   "lib_vols": [],
+   "pp_vols": [
+    5
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:arifureta-der-kampf-zurueck-in-meine-welt": {
+   "title": "Arifureta – Der Kampf zurück in meine Welt",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:asahina-sans-bento": {
+   "title": "Asahina-sans Bento",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:ascendance-of-a-bookworm-kein-weg-ist-zu-weit-um-bibliothekarin-zu-werden": {
+   "title": "Ascendance of a Bookworm: Kein Weg ist zu weit, um Bibliothekarin zu werden",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:brunhild": {
+   "title": "Brunhild",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:d-monin-hexe-und-exorzistin-manga": {
+   "title": "Dämonin, Hexe und Exorzistin (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:dahlia-l-sst-den-kopf-nicht-h-ngen": {
+   "title": "Dahlia lässt den Kopf nicht hängen",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    6
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:der-yakuza-ist-ein-papa": {
+   "title": "Der Yakuza ist ein Papa und ...",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:die-leere-schachtel-und-zeroth-maria": {
+   "title": "Die leere Schachtel und Zeroth Maria",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    6
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:die-legend-re-hexe-wird-als-unterdr-ckte-prinzessin-wiedergeboren-manga": {
+   "title": "Die legendäre Hexe wird als unterdrückte Prinzessin wiedergeboren  (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:die-suche-nach-dem-nichts": {
+   "title": "Die Suche nach dem Nichts",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:die-tagebuecher-der-apothekerin": {
+   "title": "Die Tagebücher der Apothekerin",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    8
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:die-welt-verbeugt-sich-vor-meinen-flammen": {
+   "title": "Die Welt verbeugt sich vor meinen Flammen",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:die-wiederauferstandene-braut-und-der-grausame-prinz-ein-schurkisches-ehepaar-f-r-h-here-ziele-light-novel": {
+   "title": "Die wiederauferstandene Braut und der grausame Prinz: Ein schurkisches Ehepaar für höhere Ziele (Light Novel)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:du-bist-nicht-allein-manga": {
+   "title": "Du bist nicht allein (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:fly-with-me-in-the-endless-sky": {
+   "title": "Fly With Me in the Endless Sky",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:hell-mode-un-joueur-hardcore-r-incarn-dans-un-autre-monde-devient-invincible": {
+   "title": "Hell Mode - Un joueur hardcore réincarné dans un autre monde devient invincible",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:hell-mode-unterforderter-hardcore-gamer-findet-die-ultimative-challenge-in-einer-anderen-welt": {
+   "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    10
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:i-m-in-love-with-the-villainess": {
+   "title": "I'm in Love with the Villainess",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:lady-tamer-das-comeback-der-versagerinnen": {
+   "title": "Lady Tamer: Das Comeback der Versagerinnen",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:lass-mich-dich-flicken": {
+   "title": "Lass mich dich flicken (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:mushoku-tensei-in-dieser-welt-mach-ich-alles-anders": {
+   "title": "Mushoku Tensei: In dieser Welt mach ich alles anders",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:mushoku-tensei-nouvelle-vie-nouvelle-chance": {
+   "title": "Mushoku Tensei : Nouvelle vie, nouvelle chance",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:my-dreamy-realist": {
+   "title": "My Dreamy Realist",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:reincarnated-as-a-sword-another-wish-manga": {
+   "title": "Reincarnated as a Sword: Another Wish (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:roll-over-and-die-i-will-fight-for-an-ordinary-life-with-my-love-and-cursed-sword-manga": {
+   "title": "Roll over and Die: I Will Fight for an Ordinary Life with My Love and Cursed Sword! (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:schritt-f-r-schritt-in-einer-neuen-welt-niemand-hat-mir-gesagt-dass-es-hier-monster-gibt": {
+   "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt!",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    4
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:spice-wolf": {
+   "title": "Spice & Wolf",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    7
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:tearmoon-empire-die-chroniken-der-heiligen-mia": {
+   "title": "Tearmoon Empire: Die Chroniken der Heiligen(?!) Mia",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:tearmoon-empire-story-de-la-guillotine-la-r-demption-d-une-princesse-r-incarn-e": {
+   "title": "Tearmoon Empire Story : De la guillotine à la rédemption d’une princesse réincarnée",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:the-eminence-in-shadow": {
+   "title": "The Eminence in Shadow",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:the-faraway-paladin": {
+   "title": "The Faraway Paladin",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:the-faraway-paladin-fr": {
+   "title": "The Faraway Paladin (FR)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom-manga": {
+   "title": "The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:the-tunnel-to-summer-the-exit-of-goodbyes": {
+   "title": "The Tunnel to Summer, the Exit of Goodbyes ",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:the-world-s-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat": {
+   "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+   "klassifikation": "LUECKE",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    5
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": [],
+   "platform": "jnc_nina"
+  },
+  "nina:tr-nen-des-homunkulus-alchemie-f-r-alle-die-verschwinden-m-chten": {
+   "title": "Tränen des Homunkulus – Alchemie für alle, die verschwinden möchten",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:unnamed-memory-de": {
+   "title": "Unnamed Memory",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:vom-yakuza-zur-villainess-wiedergeboren-in-einem-otome-game-light-novel": {
+   "title": "Vom Yakuza zur Villainess: Wiedergeboren in einem Otome-Game (Light Novel)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:vom-yakuza-zur-villainess-wiedergeboren-in-einem-otome-game-manga": {
+   "title": "Vom Yakuza zur Villainess: Wiedergeboren in einem Otome-Game (Manga)",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
+  },
+  "nina:your-forma": {
+   "title": "Your Forma",
+   "klassifikation": "NUR-PP",
+   "mal_id": null,
+   "mal_status": null,
+   "own_platform": null,
+   "own_edition": null,
+   "eilt": [],
+   "platform": "jnc_nina"
   }
  }
 }

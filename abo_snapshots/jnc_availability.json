@@ -791,6 +791,12 @@
     "publishing": "2026-11-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Cooking with Wild Game: Volume 36"
+   },
+   {
+    "number": 37,
+    "publishing": "2027-02-08T06:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "Cooking with Wild Game: Volume 37"
    }
   ],
   "status": "DEFAULT",
@@ -2243,7 +2249,14 @@
  "keep-me-close-finding-my-home-in-you": {
   "library": false,
   "library_vols": [],
-  "prepub_active": [],
+  "prepub_active": [
+   {
+    "number": 2,
+    "publishing": "2027-02-10T06:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "Keep Me Close: Finding My Home in You Volume 2"
+   }
+  ],
   "status": "DEFAULT",
   "title": "Keep Me Close: Finding My Home in You"
  },
@@ -3188,6 +3201,12 @@
     "publishing": "2026-11-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Private Tutor to the Duke’s Daughter: Volume 21"
+   },
+   {
+    "number": 23,
+    "publishing": "2027-02-23T06:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "Private Tutor to the Duke’s Daughter: Volume 22"
    }
   ],
   "status": "DEFAULT",
