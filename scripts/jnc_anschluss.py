@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 """
-jnc_anschluss.py – JNC-Anschluss-Klassifikation (14.11.2026, erste Iteration).
+jnc_anschluss.py v2 – JNC-Anschluss-Klassifikation (14.11.2026; v2 17.11.2026:
+JNC-Nina-Merge).
 
-Verbindet den JNC-Verfuegbarkeits-Snapshot bandgenau mit Sebastians
+Verbindet die JNC-Verfuegbarkeits-Snapshots bandgenau mit Sebastians
 Besitz-/Lesestand (Einheiten-Regel: JNC-Einheit = VOLUME, Haeppchen sind
 nicht kapitel-mappbar; MAL-progress = Kapitel ist fuer LN unbrauchbar).
 
 Quellen:
-- abo_snapshots/jnc_availability.json  (Step "JNC-Verfuegbarkeit abgleichen")
-- abo_snapshots/own_volumes.json       (Sebastian/Agent gepflegt, Copy-Paste
-  wie jnc_watchlist.json; Edition-Regel: Adaptionen/Uebersetzungen content-gleich)
-- mal_manga_index.json                 (MAL-Lesestand; "volumes"-Feld = num_volumes_read)
+- abo_snapshots/jnc_availability.json      (JNC USA, labs.j-novel.club)
+- abo_snapshots/jnc_nina_availability.json (JNC Nina, optional; v2 17.11. –
+  Skript laeuft auch ohne, wenn der Nina-Step noch fehlgeschlagen ist)
+- abo_snapshots/own_volumes.json           (Sebastian/Agent gepflegt;
+  Edition-Regel: Adaptionen/Uebersetzungen content-gleich.
+  v2-Konvention: Nina-Besitz/Lesestand als eigene Serie mit Key =
+  Nina-SLUG, "platform": "jnc_nina" (Schlüsselkollision mit JNC-Slugs
+  moeglich, deshalb nur nina_-Key dort eintragen, wo es um Nina geht)
+- mal_manga_index.json                     (MAL-Lesestand; "volumes"-Feld)
 
 Ausgabe: abo_snapshots/jnc_anschluss.json
 Klassifikation je Serie (nur fuer Serien mit OWN-Eintrag oder Lesestand>0
@@ -23,8 +29,12 @@ sowie alle mit Library-Zugang als Basisklassifikation):
                eigener Anschlussstand dabei)
 - NUR-PP       kein Library-Band, nur Pre-Pub-Fenster
 Plus "eilt"-Flag: aktive Pre-Pubs, deren Ablauf (= publishing,
-E-Book-Release; aktualisiert 16.11.: Part-expiration == publishing,
-KEINE +32-Tage-Frist mehr) in <= 14 Tagen faellt.
+E-Book-Release; Part-expiration == publishing, 16.11. API-verifiziert)
+in <= 14 Tagen faellt.
+Nina-Serien erscheinen mit Key "nina:<slug>" und "platform": "jnc_nina";
+Nina hat KEINE Backlist-Library - Library-Treffer dort = Loan/
+membership-abhaengig (Semantik: manga-sammlung/abo-katalog.md,
+Nina-Pre-Pub-Lane-Block 17.11.2026).
 Fund != Empfehlung: die Klassifikation ist Datenbasis, keine Empfehlung.
 Reine stdlib. continue-on-error im Workflow.
 """
@@ -36,6 +46,7 @@ from pathlib import Path
 ROOT = Path(os.environ.get("REPO_ROOT", str(Path.cwd())))
 SNAP = ROOT / "abo_snapshots"
 AVAIL = SNAP / "jnc_availability.json"
+AVAIL_NINA = SNAP / "jnc_nina_availability.json"
 OWN = SNAP / "own_volumes.json"
 MALIDX = ROOT / "mal_manga_index.json"
 OUT = SNAP / "jnc_anschluss.json"
@@ -90,20 +101,17 @@ def classify(avail, own_vols, mal_read):
     return "START_OK", details
 
 
-def main():
-    if not AVAIL.exists():
-        print("jnc_anschluss: jnc_availability.json fehlt - "
-              "erst JNC-Verfuegbarkeits-Step laufen lassen")
-        return 1
-    avail = json.loads(AVAIL.read_text(encoding="utf-8"))
-    own = {}
-    if OWN.exists():
-        try:
-            own = json.loads(OWN.read_text(encoding="utf-8")).get("series", {})
-        except Exception:
-            own = {}
-    mal_vols = {}
-    mal_status = {}
+def load_own():
+    if not OWN.exists():
+        return {}
+    try:
+        return json.loads(OWN.read_text(encoding="utf-8")).get("series", {})
+    except Exception:
+        return {}
+
+
+def load_mal():
+    mal_vols, mal_status = {}, {}
     if MALIDX.exists():
         try:
             for e in json.loads(MALIDX.read_text(encoding="utf-8")).get("list", []):
@@ -111,29 +119,34 @@ def main():
                 mal_status[e.get("id")] = e.get("status")
         except Exception:
             pass
-    today = date.today()
-    out_entries = {}
-    counts = {}
+    return mal_vols, mal_status
+
+
+def process_platform(avail, own, mal_vols, mal_status, today,
+                    platform=None, key_prefix=""):
+    """Verarbeitet einen Verfuegbarkeits-Snapshot; platform=None = JNC USA."""
+    out_entries, counts = {}, {}
     for slug, av in sorted(avail.items()):
+        if slug.startswith("_"):
+            continue   # Meta-Keys (_api_base, _generated_at) ueberspringen
         o = own.get(slug) or {}
         mid = o.get("mal_id")
         read = mal_vols.get(mid, 0) if mid else 0
         klass, det = classify(av, o.get("volumes") or [], read)
-        # EILT: aktive PP-Baende, Ablauf in <= 14 Tagen
         eilt = []
         for p in av.get("prepub_active") or []:
             pub = p.get("publishing")
             if not pub:
                 continue
             try:
-                exp = date.fromisoformat(pub[:10])   # Ablauf = publishing (expiration == publishing)
+                exp = date.fromisoformat(pub[:10])   # Ablauf = publishing
             except ValueError:
                 continue
             if 0 <= (exp - today).days <= EILT_DAYS:
                 eilt.append({"band": p.get("number"),
                              "ablauf_ca": exp.isoformat()})
         counts[klass] = counts.get(klass, 0) + 1
-        out_entries[slug] = {
+        entry = {
             "title": av.get("title"),
             "klassifikation": klass,
             "mal_id": mid,
@@ -143,21 +156,61 @@ def main():
             "eilt": eilt,
             **det,
         }
+        if platform:
+            entry["platform"] = platform
+        out_entries[key_prefix + slug] = entry
+    return out_entries, counts
+
+
+def main():
+    if not AVAIL.exists():
+        print("jnc_anschluss: jnc_availability.json fehlt - "
+              "erst JNC-Verfuegbarkeits-Step laufen lassen")
+        return 1
+    avail = json.loads(AVAIL.read_text(encoding="utf-8"))
+    own = load_own()
+    mal_vols, mal_status = load_mal()
+    today = date.today()
+
+    out_entries, counts = process_platform(
+        avail, own, mal_vols, mal_status, today)
+
+    # v2 17.11.2026: JNC-Nina-Merge (optionaler Snapshot)
+    nina_entries, nina_counts = {}, {}
+    if AVAIL_NINA.exists():
+        try:
+            avail_nina = json.loads(AVAIL_NINA.read_text(encoding="utf-8"))
+            nina_entries, nina_counts = process_platform(
+                avail_nina, own, mal_vols, mal_status, today,
+                platform="jnc_nina", key_prefix="nina:")
+            out_entries.update(nina_entries)
+            for k, v in nina_counts.items():
+                counts[k] = counts.get(k, 0) + v
+        except Exception as e:
+            print(f"jnc_anschluss: Nina-Merge fehlgeschlagen ({e}) - "
+                  f"nur JNC-USA-Klassifikation geschrieben")
+    else:
+        print("jnc_anschluss: jnc_nina_availability.json fehlt "
+              "(Nina-Step laeuft noch nicht / fehlgeschlagen) - "
+              "nur JNC-USA-Klassifikation")
+
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "counts": counts,
-        "note": "JNC-Anschluss-Klassifikation (START_OK/FORTSETZUNG/KONFLIKT/LUECKE/NUR-PP); "
-                "KONFLIKT = Abo-Baende content-gleich bereits besessen - nie als 'jetzt lesbar' "
-                "melden; Einheit = Volume; Fund != Empfehlung.",
+        "note": "JNC-Anschluss-Klassifikation (START_OK/FORTSETZUNG/KONFLIKT/"
+                "LUECKE/NUR-PP); KONFLIKT = Abo-Baende content-gleich bereits "
+                "besessen - nie als 'jetzt lesbar' melden; Einheit = Volume; "
+                "Fund != Empfehlung. Seit v2 (17.11.): Nina-Serien mit Key "
+                "'nina:<slug>', platform jnc_nina, Pre-Pub-Abo ohne Backlist-Library.",
         "series": out_entries,
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1),
                    encoding="utf-8")
     n_eilt = sum(1 for e in out_entries.values() if e["eilt"])
-    print("JNC-Anschluss: %d Serien (%s); EILT-Serien: %d -> %s"
+    print("JNC-Anschluss: %d Serien (%s; davon Nina: %d); EILT-Serien: %d -> %s"
           % (len(out_entries),
              ", ".join("%s=%d" % kv for kv in sorted(counts.items())),
-             n_eilt, OUT.name))
+             len(nina_entries), n_eilt, OUT.name))
     return 0
 
 
