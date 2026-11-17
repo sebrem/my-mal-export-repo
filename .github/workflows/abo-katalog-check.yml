@@ -81,16 +81,32 @@ jobs:
       # unzuverlaessig, Semantik im Skript-Docstring). Snapshot
       # abo_snapshots/jnc_availability.json, Diff-Merge nach
       # abo_changes.json["jnc_availability"].
-      - name: JNC-Verfuegbarkeit abgleichen
+      - name: JNC-Verfügbarkeit abgleichen
         run: python scripts/jnc_availability.py
         env:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
-      # JNC-Anschluss-Klassifikation: Verfuegbarkeit x Besitz
-      # (abo_snapshots/own_volumes.json, Sebastian/Agent-gepflegt) x
-      # MAL-Lesestand -> START_OK/FORTSETZUNG/KONFLIKT/LUECKE je Serie
-      # (KONFLIKT = nie als 'jetzt lesbar' melden; Fund != Empfehlung).
+      # JNC-NINA-Verfuegbarkeits-Lane (NEU 17.11.2026): Pre-Pub-Fenster
+      # der laufenden dt. Nina-Serien bandgenau, analog der JNC-USA-Lane.
+      # Sebastian ist Nina-JAHRES-Mitglied -> aktive Pre-Pubs = Abo-
+      # Lektuere (Ablauf mit E-Book-Release). API-Route wird per Kandi-
+      # daten-Probe ermittelt (Skript-Docstring; Mistral-Proxy blockt
+      # api.jnc-nina.eu, GitHub-Runner-Route zu testen - Feed-Block-Regel).
+      # Fehlschlag = Diagnose-Ausgabe, kein Snapshot-Schaden (continue-on-error).
+      # Snapshot abo_snapshots/jnc_nina_availability.json, Diff-Merge nach
+      # abo_changes.json["jnc_nina"].
+      - name: JNC-Nina-Verfügbarkeit abgleichen
+        run: python scripts/jnc_nina_availability.py
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+        continue-on-error: true
+
+      # JNC-Anschluss-Klassifikation: Verfuegbarkeit (JNC USA + Nina, v2
+      # 17.11.2026) x Besitz (abo_snapshots/own_volumes.json, Sebastian/
+      # Agent-gepflegt) x MAL-Lesestand -> START_OK/FORTSETZUNG/KONFLIKT/
+      # LUECKE je Serie (KONFLIKT = nie als 'jetzt lesbar' melden; Fund !=
+      # Empfehlung). Nina-Serien mit Key "nina:<slug>", platform jnc_nina.
       # Braucht das volumes-Feld aus dem make_indexes-Patch.
       - name: JNC-Anschluss-Klassifikation
         run: python scripts/jnc_anschluss.py
