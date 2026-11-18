@@ -299,7 +299,37 @@
     58919,
     9996,
     64254,
-    62018
+    62018,
+    60510,
+    35413,
+    20457,
+    22057,
+    63310,
+    468,
+    37497,
+    65437,
+    63912,
+    60253,
+    49220,
+    62808,
+    63254,
+    21327,
+    37286,
+    3731,
+    36220,
+    62469,
+    40530,
+    228,
+    56230,
+    64428,
+    10357,
+    63174,
+    52969,
+    29785,
+    38295,
+    38619,
+    63713,
+    26441
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -608,6 +638,45 @@
           "tier": "other",
           "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.c7870d48-688a-4b84-9a3a-e1bd8a9d7c2b"
+        }
+      ]
+    },
+    "3731": {
+      "title": "Itazura na Kiss",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Itazura na Kiss: Love in Tokyo",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G619NDZGY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b3a444b1-d717-44dc-bb21-3bc75d994f25"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "vik",
+          "name": "Rakuten Viki (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.viki.com/videos/1027821v-mischievous-kiss-love-in-tokyo-episode-1"
         }
       ]
     },
@@ -1855,6 +1924,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "26441": {
+      "title": "Junketsu no Maria",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Maria the Virgin Witch",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUNP093"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.ca08a97c-fba6-4bab-8597-9b1933d510e9"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "27601": {
       "title": "Chuunibyou demo Koi ga Shitai! Ren: The Rikka Wars",
       "mal_status": "plan_to_watch",
@@ -2456,6 +2556,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "36220": {
+      "title": "Itsudatte Bokura no Koi wa 10 cm Datta.",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Our love has always been 10 centimeters apart.",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GY5V454KY"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b52c1f77-7ef7-4eaa-a3ce-4d4ecda1ce2f"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "36296": {
       "title": "Hinamatsuri",
       "mal_status": "plan_to_watch",
@@ -2673,6 +2804,29 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "37497": {
+      "title": "Irozuku Sekai no Ashita kara",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "token",
+      "jw_title": "Die Welt in allen Farben: Iroduku",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e587021e-1402-459e-b3fe-415f901b7191"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "37914": {
       "title": "Chikyuugai Shounen Shoujo",
       "mal_status": "plan_to_watch",
@@ -2793,6 +2947,37 @@
       "my_channel_hits": [],
       "channel_candidates": [],
       "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "38295": {
+      "title": "Joshikausei",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Joshi Kausei",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G64PX8MWR"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f81ecef6-8609-44f1-b9ad-9711e93f253d"
+        }
+      ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -3108,6 +3293,37 @@
         }
       ]
     },
+    "40530": {
+      "title": "Jaku-Chara Tomozaki-kun",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Jaku-chara Tomozaki-kun",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUN45DM"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.88a784a8-1334-4ca5-8cd9-9d40b88089ed"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "40904": {
       "title": "Bokutachi no Remake",
       "mal_status": "plan_to_watch",
@@ -3406,6 +3622,36 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.3caba2c2-6ebc-4fed-8e2e-1e472d7c643c"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "49220": {
+      "title": "Isekai Ojisan",
+      "mal_status": "on_hold",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Uncle from Another World",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81499847"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81499847"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -3792,6 +4038,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d8579945-7e86-4a17-92d7-e322fb00d68a"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "52969": {
+      "title": "Jitsu wa Ore, Saikyou deshita?",
+      "mal_status": "on_hold",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Am I Actually the Strongest?",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GQJUGV02Q"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.fbada303-83a6-4ce0-a367-1e4e70cfa61b"
         }
       ],
       "adn_channel_caveat": [],
@@ -4334,6 +4611,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.969bea09-16bb-4cd9-8d54-1eed9c206aaa"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "56230": {
+      "title": "Jiisan Baasan Wakagaeru",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Grandpa and Grandma Turn Young Again",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G9DUE0ZE2"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -5634,6 +5934,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "62469": {
+      "title": "Izure Saikyou no Renkinjutsushi? 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Possibly the Greatest Alchemist of All Time",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GWDU7MNZ5"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d1732819-dd32-4dcb-b5bb-4f7a3fc40a6e"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "62484": {
       "title": "Chitose-kun wa Ramune Bin no Naka Part 2",
       "mal_status": "watching",
@@ -5804,6 +6135,51 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "62808": {
+      "title": "Isshiki-san wa Koi wo Shiritai.",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "low",
+      "jw_title": "My Dress-Up Darling",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81569754"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GQJUGVQEZ"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81569754"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.79142ac1-18a9-4b26-ac56-153540ad9d6a"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "62852": {
       "title": "Ghost Concert: Missing Songs",
       "mal_status": "plan_to_watch",
@@ -5963,6 +6339,29 @@
         }
       ]
     },
+    "63254": {
+      "title": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "The Brilliant Healer's New Life in the Shadows",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G0DUMXG9D"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "63293": {
       "title": "Hotaru no Yomeiri",
       "mal_status": "plan_to_watch",
@@ -5993,6 +6392,41 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "63310": {
+      "title": "Ingoku Danchi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Ingoku Danchi: Deviant's Apartment Complex",
+      "my_direct_hits": [
+        {
+          "provider": "adn",
+          "name": "ADN (Animation Digital Network)",
+          "tier": "direct",
+          "note": null,
+          "url": "https://animationdigitalnetwork.com/de/video/1385-ingoku-danchi-deviants-apartment-complex/31457-folge-1"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [],
+      "adn_video": {
+        "url": "https://animationdigitalnetwork.com/de/video/1385-ingoku-danchi-deviants-apartment-complex",
+        "status": 200,
+        "adn_title": "Ingoku Danchi: Deviant's Apartment Complex",
+        "available": true,
+        "languages": [
+          "vostf"
+        ],
+        "episode_count": 12,
+        "season_video_count": 12,
+        "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
+      }
     },
     "63409": {
       "title": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
@@ -6375,6 +6809,45 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "65437": {
+      "title": "Isekai Douraku ni Akitara",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-18T11:41:32.526Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "In Another World With My Smartphone",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GPWUK51VP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f4b2025a-ab39-899e-0076-13f8d333772f"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b4b2024f-30b8-767c-d10f-c5adb439d72f"
+        }
+      ]
     }
   }
 }
