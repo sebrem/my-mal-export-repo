@@ -47,6 +47,7 @@
   "prepub_active": [
    {
     "number": 15,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-23T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "A Late-Start Tamer’s Laid-Back Life: Volume 15"
@@ -61,6 +62,7 @@
   "prepub_active": [
    {
     "number": 12,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-23T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "A Late-Start Tamer’s Laid-Back Life (Manga) Volume 12"
@@ -91,6 +93,7 @@
   "prepub_active": [
    {
     "number": 10,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-13T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (Manga) Volume 10"
@@ -161,6 +164,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-22T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "A Wicked Lady’s Guide to Accidentally Saving the Kingdom: Volume 2"
@@ -231,9 +235,17 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-03T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "After-School Dungeon Diver: Level Grinding in Another World Volume 6"
+   },
+   {
+    "number": 7,
+    "prepub_expiry": "2027-04-15",
+    "publishing": "2027-03-17T05:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "After-School Dungeon Diver: Level Grinding in Another World Volume 7"
    }
   ],
   "status": "DEFAULT",
@@ -292,14 +304,7 @@
    2,
    3
   ],
-  "prepub_active": [
-   {
-    "number": 15,
-    "publishing": "2026-11-18T10:00:00Z",
-    "readerStreamingEnabled": false,
-    "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 15"
-   }
-  ],
+  "prepub_active": [],
   "status": "DEFAULT",
   "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)"
  },
@@ -423,6 +428,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-11T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Ascendance of a Bookworm: Hannelore’s Fifth Year at the Royal Academy Volume 3"
@@ -437,6 +443,7 @@
   "prepub_active": [
    {
     "number": 107,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-16T15:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Ascendance of a Bookworm (Manga) Part 3 Volume 7"
@@ -488,6 +495,7 @@
   "prepub_active": [
    {
     "number": 14,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-01T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Backstabbed in a Backwater Dungeon: My Trusted Companions Tried to Kill Me, But Thanks to the Gift of an Unlimited Gacha I Got LVL 9999 Friends and Am Out For Revenge on My Former Party Members and the World Volume 14"
@@ -526,13 +534,8 @@
   "library_vols": [],
   "prepub_active": [
    {
-    "number": 1,
-    "publishing": "2026-11-19T06:00:00Z",
-    "readerStreamingEnabled": false,
-    "title": "Being Famous Is NEET! Going Sister-Rank on Livestream Volume 1"
-   },
-   {
     "number": 2,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-18T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Being Famous Is NEET! Going Sister-Rank on Livestream Volume 2"
@@ -565,6 +568,7 @@
   "prepub_active": [
    {
     "number": 23,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2027-01-04T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Black Summoner: Volume 23"
@@ -579,6 +583,7 @@
   "prepub_active": [
    {
     "number": 24,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-09T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Black Summoner (Manga) Volume 24"
@@ -728,6 +733,7 @@
   "prepub_active": [
    {
     "number": 21,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-21T06:00:22Z",
     "readerStreamingEnabled": false,
     "title": "Chillin’ in Another World with Level 2 Super Cheat Powers: Volume 21"
@@ -742,6 +748,7 @@
   "prepub_active": [
    {
     "number": 13,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-15T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Chivalry of a Failed Knight: Volume 12"
@@ -763,6 +770,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-03T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Clouds Drift, Love Follows: Volume 1"
@@ -788,12 +796,14 @@
   "prepub_active": [
    {
     "number": 36,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Cooking with Wild Game: Volume 36"
    },
    {
     "number": 37,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-08T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Cooking with Wild Game: Volume 37"
@@ -812,6 +822,7 @@
   "prepub_active": [
    {
     "number": 14,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-11T15:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Cooking With Wild Game (Manga) Volume 14"
@@ -877,6 +888,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-27T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Déjà Vute: Betrayal Begets New Beginnings: Volume 2"
@@ -1077,6 +1089,7 @@
   "prepub_active": [
    {
     "number": 14,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-03-02T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "DUNGEON DIVE: Aim for the Deepest Level Volume 14"
@@ -1098,6 +1111,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-23T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight Volume 1"
@@ -1163,6 +1177,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-10T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "EXP Is Golden: Volume 6"
@@ -1221,6 +1236,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Finding Avalon: The Quest of a Chaosbringer Volume 7"
@@ -1235,6 +1251,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2027-07-15",
     "publishing": "2027-06-25T05:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Finding My Way to (You) in This MMO World: Volume 3"
@@ -1284,6 +1301,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2027-01-04T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Flung into a New World? Time to Lift the 200-Year Curse! Volume 6"
@@ -1316,6 +1334,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-16T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Forget Being the Villainess, I Want to Be an Adventurer! (Manga): Volume 6"
@@ -1334,6 +1353,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-23T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Formerly, the Fallen Daughter of the Duke: Volume 7"
@@ -1348,6 +1368,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-15T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Fraudulent Fiancés Return the Favor"
@@ -1383,6 +1404,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "From Two-Bit Baddie to Total Heartthrob: This Villainess Will Cross-Dress to Impress! Volume 7"
@@ -1496,6 +1518,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-27T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Genius in the Library: This Bookish Rookie Will Save the Day! Volume 2"
@@ -1522,6 +1545,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-25T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "God Sleeps in Seafoam: Volume 2"
@@ -1577,13 +1601,8 @@
   "library_vols": [],
   "prepub_active": [
    {
-    "number": 1,
-    "publishing": "2026-11-18T06:00:00Z",
-    "readerStreamingEnabled": false,
-    "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex! Volume 1"
-   },
-   {
     "number": 2,
+    "prepub_expiry": "2027-04-15",
     "publishing": "2027-03-10T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex! Volume 2"
@@ -1623,6 +1642,7 @@
   "prepub_active": [
    {
     "number": 11,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-31T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Haibara’s Teenage New Game+ Volume 11"
@@ -1641,7 +1661,15 @@
  "heir-to-a-monstermancer": {
   "library": false,
   "library_vols": [],
-  "prepub_active": [],
+  "prepub_active": [
+   {
+    "number": 3,
+    "prepub_expiry": "2027-03-15",
+    "publishing": "2027-03-05T06:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "Heir to a Monstermancer: Volume 3"
+   }
+  ],
   "status": "DEFAULT",
   "title": "Heir to a Monstermancer"
  },
@@ -1651,6 +1679,7 @@
   "prepub_active": [
    {
     "number": 13,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Hell Mode: Volume 13"
@@ -1665,6 +1694,7 @@
   "prepub_active": [
    {
     "number": 12,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-23T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Hell Mode (Manga): Volume 12"
@@ -1686,6 +1716,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-29T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "His Reluctant Thrall: Volume 1"
@@ -1764,18 +1795,21 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2038-02-15",
     "publishing": "2038-01-19T03:14:06Z",
     "readerStreamingEnabled": false,
     "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon 3.1415926535"
    },
    {
     "number": 2,
+    "prepub_expiry": "2038-02-15",
     "publishing": "2038-01-19T03:14:06Z",
     "readerStreamingEnabled": false,
     "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon √39"
    },
    {
     "number": 3,
+    "prepub_expiry": "2038-02-15",
     "publishing": "2038-01-19T03:14:06Z",
     "readerStreamingEnabled": false,
     "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon 57/6"
@@ -1790,6 +1824,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-02T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "I’ll Become an Elegant Villainess! Time to Enjoy My Second Life to the Fullest Volume 2"
@@ -1836,6 +1871,7 @@
   "prepub_active": [
    {
     "number": 10,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2027-01-01T21:00:00Z",
     "readerStreamingEnabled": false,
     "title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic (Manga): Volume 10"
@@ -1857,6 +1893,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-10T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "I’m Dating a Dark Summoner: Volume 1"
@@ -1898,13 +1935,8 @@
   "library_vols": [],
   "prepub_active": [
    {
-    "number": 11,
-    "publishing": "2026-11-19T06:00:00Z",
-    "readerStreamingEnabled": false,
-    "title": "I Parry Everything: Volume 11"
-   },
-   {
     "number": 12,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-26T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "I Parry Everything: Volume 12"
@@ -2009,6 +2041,7 @@
   "prepub_active": [
    {
     "number": 8,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-03T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Imperial Reincarnation: I Came, I Saw, I Survived Volume 8"
@@ -2020,7 +2053,15 @@
  "imperial-reincarnation-i-came-i-saw-i-survived-manga": {
   "library": false,
   "library_vols": [],
-  "prepub_active": [],
+  "prepub_active": [
+   {
+    "number": 6,
+    "prepub_expiry": "2027-02-15",
+    "publishing": "2027-01-27T21:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "Imperial Reincarnation: I Came, I Saw, I Survived (Manga) Volume 6"
+   }
+  ],
   "status": "DEFAULT",
   "title": "Imperial Reincarnation: I Came, I Saw, I Survived (Manga)"
  },
@@ -2118,6 +2159,7 @@
   "prepub_active": [
    {
     "number": 51,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-23T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Invaders of the Rokujouma!? Volume 49"
@@ -2150,6 +2192,7 @@
   "prepub_active": [
    {
     "number": 15,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-15T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Isekai Tensei: Recruited to Another World Volume 15"
@@ -2175,6 +2218,7 @@
   "prepub_active": [
    {
     "number": 8,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Isekai Walking: Volume 8"
@@ -2189,6 +2233,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-08T16:00:00Z",
     "readerStreamingEnabled": false,
     "title": "It’s a Grown Man’s Job to be a Magical Girl: Volume 1"
@@ -2252,6 +2297,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-10T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Keep Me Close: Finding My Home in You Volume 2"
@@ -2266,6 +2312,7 @@
   "prepub_active": [
    {
     "number": 11,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-03-04T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Knight's & Magic: Volume 11"
@@ -2320,6 +2367,7 @@
   "prepub_active": [
    {
     "number": 4,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-02T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King Volume 4"
@@ -2334,6 +2382,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-13T21:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King (Manga): Volume 1"
@@ -2412,6 +2461,7 @@
   "prepub_active": [
    {
     "number": 12,
+    "prepub_expiry": "2027-04-15",
     "publishing": "2027-03-10T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Let This Grieving Soul Retire: Volume 12"
@@ -2426,6 +2476,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-12T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Little Miss Slime Master: Volume 1"
@@ -2440,6 +2491,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-18T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Long Story Short, I’m Living in the Mountains: Volume 7"
@@ -2454,6 +2506,7 @@
   "prepub_active": [
    {
     "number": 5,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-28T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid: Volume 5"
@@ -2468,6 +2521,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-02T15:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid (Manga) Volume 6"
@@ -2562,6 +2616,7 @@
   "prepub_active": [
    {
     "number": 10,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2027-01-08T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Making Magic: The Sweet Life of a Witch Who Knows an Infinite MP Loophole Volume 10"
@@ -2655,6 +2710,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-27T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Merrily, We Tumble Along: Volume 1"
@@ -2669,6 +2725,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-23T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest Volume 1"
@@ -2701,6 +2758,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-04T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Mirror, Mirror on the Wall: Volume 2"
@@ -2722,6 +2780,7 @@
   "prepub_active": [
    {
     "number": 4,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-04T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Miss Medic’s Diary at War: Volume 4"
@@ -2889,6 +2948,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-05T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "My Leisure Logbook: A Taste of Isekai with the Goddess: Volume 1"
@@ -2956,7 +3016,15 @@
  "my-tiny-senpai": {
   "library": false,
   "library_vols": [],
-  "prepub_active": [],
+  "prepub_active": [
+   {
+    "number": 8,
+    "prepub_expiry": "2027-02-15",
+    "publishing": "2027-01-20T21:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "My Tiny Senpai Volume 8"
+   }
+  ],
   "status": "DEFAULT",
   "title": "My Tiny Senpai"
  },
@@ -2966,6 +3034,7 @@
   "prepub_active": [
    {
     "number": 11,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-09T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Nia Liston: The Merciless Maiden Volume 11"
@@ -2994,6 +3063,7 @@
   "prepub_active": [
    {
     "number": 4,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-02T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Notorious No More: The Villainess Enjoys Feigning Incompetence Volume 4"
@@ -3026,6 +3096,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-10T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Nowhere Isekai: Peace over Power for This Nothin’ Bumpkin Volume 1"
@@ -3058,6 +3129,7 @@
   "prepub_active": [
    {
     "number": 4,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-13T15:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga) Volume 4"
@@ -3198,12 +3270,14 @@
   "prepub_active": [
    {
     "number": 22,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-30T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Private Tutor to the Duke’s Daughter: Volume 21"
    },
    {
     "number": 23,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-23T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Private Tutor to the Duke’s Daughter: Volume 22"
@@ -3232,6 +3306,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-16T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Proud to Be the Villainess: Volume 3"
@@ -3246,6 +3321,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-02T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Putting a Price on World Peace"
@@ -3285,6 +3361,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-11T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Reborn to Reign: Imposing My Rules with My Mastery of Magic Volume 2"
@@ -3304,6 +3381,7 @@
   "prepub_active": [
    {
     "number": 14,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-16T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Rebuild World: Volume 9 Part One"
@@ -3333,6 +3411,7 @@
   "prepub_active": [
    {
     "number": 31,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-18T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Record of Wortenia War: Volume 31"
@@ -3410,6 +3489,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-13T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Repeated Vice: I Refuse to Be Important Enough to Die Volume 6"
@@ -3424,6 +3504,7 @@
   "prepub_active": [
    {
     "number": 2,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-13T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Reboot Volume 1"
@@ -3438,6 +3519,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-25T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Return of the Corpse King: Reining in My Cringe Secret Society Volume 3"
@@ -3452,6 +3534,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-17T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Revenge of the Soul Eater: Cast Out as a Weakling by My Sword Saint Father Volume 7"
@@ -3473,6 +3556,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-03T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance: Volume 6"
@@ -3523,6 +3607,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-25T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer: Volume 6"
@@ -3537,6 +3622,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-20T21:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer (Manga) Volume 7"
@@ -3609,6 +3695,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-27T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Shut-in Savior: Sent to Another World with My House! (Manga) Volume 1"
@@ -3669,6 +3756,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-11T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Soldier Maids: Otherworld Cleanup Crew Volume 1"
@@ -3753,6 +3841,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-12T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Specter / Spectator: From Supernatural Slump to Viral VTuber! Volume 1"
@@ -3847,13 +3936,8 @@
   ],
   "prepub_active": [
    {
-    "number": 18,
-    "publishing": "2026-11-20T06:00:00Z",
-    "readerStreamingEnabled": false,
-    "title": "Tearmoon Empire: Volume 18"
-   },
-   {
     "number": 102,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-03-04T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Tearmoon Empire Short Story Collection 2"
@@ -3868,6 +3952,7 @@
   "prepub_active": [
    {
     "number": 11,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-02T15:00:52Z",
     "readerStreamingEnabled": false,
     "title": "Tearmoon Empire (Manga) Volume 11"
@@ -3924,6 +4009,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-29T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill: Volume 6"
@@ -3973,6 +4059,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-20T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Bladesmith's Enchanted Weapons: Volume 7"
@@ -4107,6 +4194,7 @@
   "prepub_active": [
    {
     "number": 12,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-21T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Diary of a Middle-Aged Sage's Carefree Life in Another World: Volume 12"
@@ -4176,6 +4264,7 @@
   "prepub_active": [
    {
     "number": 11,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-30T18:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Eternal Fool's Words of Wisdom: A Pawsitively Fantastic Adventure (Manga) Volume 11"
@@ -4208,6 +4297,7 @@
   "prepub_active": [
    {
     "number": 1,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-10T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Eyes of God Paint the Ashen World with Color: Arise with the Power of Stats-Sight (Manga) Volume 1"
@@ -4243,6 +4333,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-15T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Fearsome Witch Teaches in Another World: Volume 6"
@@ -4257,12 +4348,14 @@
   "prepub_active": [
    {
     "number": 5,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-11-25T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 5"
    },
    {
     "number": 6,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-17T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 6"
@@ -4281,6 +4374,7 @@
   "prepub_active": [
    {
     "number": 15,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-26T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Frontier Lord Begins with Zero Subjects: Volume 15"
@@ -4295,6 +4389,7 @@
   "prepub_active": [
    {
     "number": 14,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-09T17:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Frontier Lord Begins with Zero Subjects (Manga): Tales of Blue Dias and the Onikin Alna: Volume 14"
@@ -4350,6 +4445,7 @@
   "prepub_active": [
    {
     "number": 20,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-17T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Greatest Magicmaster's Retirement Plan: Volume 20"
@@ -4435,6 +4531,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-25T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World Volume 6"
@@ -4532,7 +4629,15 @@
    2,
    3
   ],
-  "prepub_active": [],
+  "prepub_active": [
+   {
+    "number": 8,
+    "prepub_expiry": "2027-04-15",
+    "publishing": "2027-03-24T10:00:00Z",
+    "readerStreamingEnabled": false,
+    "title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 8"
+   }
+  ],
   "status": "DEFAULT",
   "title": "The Master of Ragnarok & Blesser of Einherjar (Manga)"
  },
@@ -4546,6 +4651,7 @@
   "prepub_active": [
    {
     "number": 17,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-02-03T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Misfit of Demon King Academy: Volume 13 Act 2"
@@ -4594,6 +4700,7 @@
   "prepub_active": [
    {
     "number": 7,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-29T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Otome Heroine's Fight for Survival: Volume 7"
@@ -4622,6 +4729,7 @@
   "prepub_active": [
    {
     "number": 4,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-12T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Petty Villain Plays by the Rules: Rewriting This Otome Game with Honest Work! Volume 4"
@@ -4643,6 +4751,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-27T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Reincarnated Mastermind: Sundering Fate with Magic Swords Volume 3"
@@ -4774,6 +4883,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-28T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Tiny Witch from the Deep Woods: Volume 6"
@@ -4788,6 +4898,7 @@
   "prepub_active": [
    {
     "number": 9,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-15T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Trials and Tribulations of My Next Life as a Noblewoman: Volume 5 Part 2"
@@ -4858,6 +4969,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2026-12-28T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Villainess Speaks Not: Volume 3"
@@ -4872,6 +4984,7 @@
   "prepub_active": [
    {
     "number": 8,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-16T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "The Water Magician: Arc 2 Volume 1"
@@ -4954,6 +5067,7 @@
   "prepub_active": [
    {
     "number": 4,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2027-01-06T15:00:00Z",
     "readerStreamingEnabled": false,
     "title": "This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga) Volume 4"
@@ -5007,6 +5121,7 @@
   "prepub_active": [
    {
     "number": 14,
+    "prepub_expiry": "2026-12-15",
     "publishing": "2026-12-01T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "To Another World... with Land Mines! Volume 14"
@@ -5021,6 +5136,7 @@
   "prepub_active": [
    {
     "number": 3,
+    "prepub_expiry": "2027-03-15",
     "publishing": "2027-02-10T21:00:00Z",
     "readerStreamingEnabled": false,
     "title": "To Another World... with Land Mines! (Manga) Volume 3"
@@ -5177,13 +5293,8 @@
   "library_vols": [],
   "prepub_active": [
    {
-    "number": 7,
-    "publishing": "2026-11-18T06:00:00Z",
-    "readerStreamingEnabled": false,
-    "title": "Worthless at Home, Whiz to the World: Volume 7"
-   },
-   {
     "number": 8,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-27T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Worthless at Home, Whiz to the World: Volume 8"
@@ -5227,6 +5338,7 @@
   "prepub_active": [
    {
     "number": 10,
+    "prepub_expiry": "2027-01-15",
     "publishing": "2027-01-05T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "You Were Experienced, I Was Not: Our Dating Story 10th Date"
@@ -5271,6 +5383,7 @@
   "prepub_active": [
    {
     "number": 6,
+    "prepub_expiry": "2027-02-15",
     "publishing": "2027-01-21T06:00:00Z",
     "readerStreamingEnabled": false,
     "title": "Zero Damage Sword Saint: I Enrolled in a Magic School and Wound Up in a Contract with the Demon Queen: Volume 6"

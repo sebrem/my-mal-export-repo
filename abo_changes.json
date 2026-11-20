@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-17T11:37:24Z",
+ "run_at": "2026-11-20T14:09:56Z",
  "mangaplaza": {
   "new": {},
   "removed": [],
@@ -17,14 +17,64 @@
   "changed": {}
  },
  "mangaup": {
-  "new": {},
+  "new": {
+   "My Fatal Touch Didn&#x27;t Kill the Prince, So Now He&#x27;s Obsessed and I Became a Saintess?!": {
+    "title_id": "1092",
+    "title_url": "https://global.manga-up.com/manga/1092"
+   },
+   "The Destitute Lady Wants to Marry the Cursed Count": {
+    "title_id": "1179",
+    "title_url": "https://global.manga-up.com/manga/1179"
+   }
+  },
   "removed": [],
   "changed": {}
  },
  "mangaplus": {
-  "new": {},
+  "new": {
+   "Extreme Center Part": {
+    "title_id": "100872",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100872",
+    "status": "one-shot"
+   },
+   "No Man’s Satellite": {
+    "title_id": "100871",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100871",
+    "status": "one-shot"
+   },
+   "The Ouroboros of Craving": {
+    "title_id": "100873",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100873",
+    "status": "one-shot"
+   }
+  },
   "removed": [],
-  "changed": {}
+  "changed": {
+   "Märchen Crown": {
+    "old": {
+     "status": "serializing",
+     "title_id": "100468",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/100468"
+    },
+    "new": {
+     "title_id": "100468",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/100468",
+     "status": "completed"
+    }
+   },
+   "The Bateren Tales": {
+    "old": {
+     "status": "serializing",
+     "title_id": "100588",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/100588"
+    },
+    "new": {
+     "title_id": "100588",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/100588",
+     "status": "completed"
+    }
+   }
+  }
  },
  "akibapass": {
   "new": {},
@@ -35,6 +85,516 @@
   "new": {},
   "removed": [],
   "changed": {
+   "a-late-start-tamer-s-laid-back-life": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "publishing": "2026-12-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "A Late-Start Tamer’s Laid-Back Life: Volume 15"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "A Late-Start Tamer’s Laid-Back Life"
+    },
+    "new": {
+     "title": "A Late-Start Tamer’s Laid-Back Life",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "title": "A Late-Start Tamer’s Laid-Back Life: Volume 15",
+       "publishing": "2026-12-23T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "a-late-start-tamer-s-laid-back-life-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "publishing": "2026-12-23T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "A Late-Start Tamer’s Laid-Back Life (Manga) Volume 12"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "A Late-Start Tamer’s Laid-Back Life (Manga)"
+    },
+    "new": {
+     "title": "A Late-Start Tamer’s Laid-Back Life (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "title": "A Late-Start Tamer’s Laid-Back Life (Manga) Volume 12",
+       "publishing": "2026-12-23T17:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 10,
+       "publishing": "2027-01-13T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (Manga) Volume 10"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (Manga)"
+    },
+    "new": {
+     "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 10,
+       "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (Manga) Volume 10",
+       "publishing": "2027-01-13T18:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "a-wicked-lady-s-guide-to-accidentally-saving-the-kingdom": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2026-12-22T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "A Wicked Lady’s Guide to Accidentally Saving the Kingdom: Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "A Wicked Lady’s Guide to Accidentally Saving the Kingdom"
+    },
+    "new": {
+     "title": "A Wicked Lady’s Guide to Accidentally Saving the Kingdom",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "A Wicked Lady’s Guide to Accidentally Saving the Kingdom: Volume 2",
+       "publishing": "2026-12-22T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "after-school-dungeon-diver-level-grinding-in-another-world": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2026-12-03T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "After-School Dungeon Diver: Level Grinding in Another World Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "After-School Dungeon Diver: Level Grinding in Another World"
+    },
+    "new": {
+     "title": "After-School Dungeon Diver: Level Grinding in Another World",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "After-School Dungeon Diver: Level Grinding in Another World Volume 6",
+       "publishing": "2026-12-03T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      },
+      {
+       "number": 7,
+       "title": "After-School Dungeon Diver: Level Grinding in Another World Volume 7",
+       "publishing": "2027-03-17T05:00:00Z",
+       "prepub_expiry": "2027-04-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "publishing": "2026-11-18T10:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 15"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)"
+    },
+    "new": {
+     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": []
+    }
+   },
+   "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2027-01-11T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Ascendance of a Bookworm: Hannelore’s Fifth Year at the Royal Academy Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Ascendance of a Bookworm: Hannelore’s Fifth Year at the Royal Academy"
+    },
+    "new": {
+     "title": "Ascendance of a Bookworm: Hannelore’s Fifth Year at the Royal Academy",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "Ascendance of a Bookworm: Hannelore’s Fifth Year at the Royal Academy Volume 3",
+       "publishing": "2027-01-11T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "ascendance-of-a-bookworm-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 107,
+       "publishing": "2026-12-16T15:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Ascendance of a Bookworm (Manga) Part 3 Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Ascendance of a Bookworm (Manga)"
+    },
+    "new": {
+     "title": "Ascendance of a Bookworm (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 107,
+       "title": "Ascendance of a Bookworm (Manga) Part 3 Volume 7",
+       "publishing": "2026-12-16T15:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "backstabbed-in-a-backwater-dungeon": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "publishing": "2026-12-01T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Backstabbed in a Backwater Dungeon: My Trusted Companions Tried to Kill Me, But Thanks to the Gift of an Unlimited Gacha I Got LVL 9999 Friends and Am Out For Revenge on My Former Party Members and the World Volume 14"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Backstabbed in a Backwater Dungeon: My Trusted Companions Tried to Kill Me, But Thanks to the Gift of an Unlimited Gacha I Got LVL 9999 Friends and Am Out For Revenge on My Former Party Members and the World"
+    },
+    "new": {
+     "title": "Backstabbed in a Backwater Dungeon: My Trusted Companions Tried to Kill Me, But Thanks to the Gift of an Unlimited Gacha I Got LVL 9999 Friends and Am Out For Revenge on My Former Party Members and the World",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "title": "Backstabbed in a Backwater Dungeon: My Trusted Companions Tried to Kill Me, But Thanks to the Gift of an Unlimited Gacha I Got LVL 9999 Friends and Am Out For Revenge on My Former Party Members and the World Volume 14",
+       "publishing": "2026-12-01T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "being-famous-is-neet-going-sister-rank-on-livestream": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2026-11-19T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Being Famous Is NEET! Going Sister-Rank on Livestream Volume 1"
+      },
+      {
+       "number": 2,
+       "publishing": "2027-02-18T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Being Famous Is NEET! Going Sister-Rank on Livestream Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Being Famous Is NEET! Going Sister-Rank on Livestream"
+    },
+    "new": {
+     "title": "Being Famous Is NEET! Going Sister-Rank on Livestream",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Being Famous Is NEET! Going Sister-Rank on Livestream Volume 2",
+       "publishing": "2027-02-18T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "black-summoner": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 23,
+       "publishing": "2027-01-04T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Black Summoner: Volume 23"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Black Summoner"
+    },
+    "new": {
+     "title": "Black Summoner",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 23,
+       "title": "Black Summoner: Volume 23",
+       "publishing": "2027-01-04T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "black-summoner-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 24,
+       "publishing": "2026-12-09T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Black Summoner (Manga) Volume 24"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Black Summoner (Manga)"
+    },
+    "new": {
+     "title": "Black Summoner (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 24,
+       "title": "Black Summoner (Manga) Volume 24",
+       "publishing": "2026-12-09T18:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "chillin-in-another-world-with-level-2-super-cheat-powers": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 21,
+       "publishing": "2026-12-21T06:00:22Z",
+       "readerStreamingEnabled": false,
+       "title": "Chillin’ in Another World with Level 2 Super Cheat Powers: Volume 21"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Chillin’ in Another World with Level 2 Super Cheat Powers"
+    },
+    "new": {
+     "title": "Chillin’ in Another World with Level 2 Super Cheat Powers",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 21,
+       "title": "Chillin’ in Another World with Level 2 Super Cheat Powers: Volume 21",
+       "publishing": "2026-12-21T06:00:22Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "chivalry-of-a-failed-knight": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 13,
+       "publishing": "2026-12-15T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Chivalry of a Failed Knight: Volume 12"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Chivalry of a Failed Knight"
+    },
+    "new": {
+     "title": "Chivalry of a Failed Knight",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 13,
+       "title": "Chivalry of a Failed Knight: Volume 12",
+       "publishing": "2026-12-15T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "clouds-drift-love-follows": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-03T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Clouds Drift, Love Follows: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Clouds Drift, Love Follows"
+    },
+    "new": {
+     "title": "Clouds Drift, Love Follows",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Clouds Drift, Love Follows: Volume 1",
+       "publishing": "2027-02-03T18:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
    "cooking-with-wild-game": {
     "old": {
      "library": true,
@@ -49,6 +609,12 @@
        "publishing": "2026-11-30T06:00:00Z",
        "readerStreamingEnabled": false,
        "title": "Cooking with Wild Game: Volume 36"
+      },
+      {
+       "number": 37,
+       "publishing": "2027-02-08T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Cooking with Wild Game: Volume 37"
       }
      ],
      "status": "DEFAULT",
@@ -68,12 +634,1111 @@
        "number": 36,
        "title": "Cooking with Wild Game: Volume 36",
        "publishing": "2026-11-30T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
        "readerStreamingEnabled": false
       },
       {
        "number": 37,
        "title": "Cooking with Wild Game: Volume 37",
        "publishing": "2027-02-08T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "cooking-with-wild-game-manga": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "publishing": "2027-01-11T15:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Cooking With Wild Game (Manga) Volume 14"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Cooking With Wild Game (Manga)"
+    },
+    "new": {
+     "title": "Cooking With Wild Game (Manga)",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "title": "Cooking With Wild Game (Manga) Volume 14",
+       "publishing": "2027-01-11T15:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "d-j-vute-betrayal-begets-new-beginnings": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-01-27T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Déjà Vute: Betrayal Begets New Beginnings: Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Déjà Vute: Betrayal Begets New Beginnings"
+    },
+    "new": {
+     "title": "Déjà Vute: Betrayal Begets New Beginnings",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Déjà Vute: Betrayal Begets New Beginnings: Volume 2",
+       "publishing": "2027-01-27T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "dungeon-dive-aim-for-the-deepest-level": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "publishing": "2027-03-02T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "DUNGEON DIVE: Aim for the Deepest Level Volume 14"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "DUNGEON DIVE: Aim for the Deepest Level"
+    },
+    "new": {
+     "title": "DUNGEON DIVE: Aim for the Deepest Level",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "title": "DUNGEON DIVE: Aim for the Deepest Level Volume 14",
+       "publishing": "2027-03-02T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "elegance-in-exile-from-alchemy-to-luxury-with-my-ardent-knight": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight"
+    },
+    "new": {
+     "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight Volume 1",
+       "publishing": "2026-11-23T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "exp-is-golden": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-02-10T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "EXP Is Golden: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "EXP Is Golden"
+    },
+    "new": {
+     "title": "EXP Is Golden",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "EXP Is Golden: Volume 6",
+       "publishing": "2027-02-10T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "finding-avalon-the-quest-of-a-chaosbringer": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2026-12-30T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Finding Avalon: The Quest of a Chaosbringer Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Finding Avalon: The Quest of a Chaosbringer"
+    },
+    "new": {
+     "title": "Finding Avalon: The Quest of a Chaosbringer",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "Finding Avalon: The Quest of a Chaosbringer Volume 7",
+       "publishing": "2026-12-30T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "finding-my-way-to-you-in-this-mmo-world": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2027-06-25T05:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Finding My Way to (You) in This MMO World: Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Finding My Way to (You) in This MMO World"
+    },
+    "new": {
+     "title": "Finding My Way to (You) in This MMO World",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "Finding My Way to (You) in This MMO World: Volume 3",
+       "publishing": "2027-06-25T05:00:00Z",
+       "prepub_expiry": "2027-07-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "flung-into-a-new-world-time-to-lift-the-200-year-curse": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-04T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Flung into a New World? Time to Lift the 200-Year Curse! Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Flung into a New World? Time to Lift the 200-Year Curse!"
+    },
+    "new": {
+     "title": "Flung into a New World? Time to Lift the 200-Year Curse!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Flung into a New World? Time to Lift the 200-Year Curse! Volume 6",
+       "publishing": "2027-01-04T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "forget-being-the-villainess-i-want-to-be-an-adventurer-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2026-12-16T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Forget Being the Villainess, I Want to Be an Adventurer! (Manga): Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Forget Being the Villainess, I Want to Be an Adventurer! (Manga)"
+    },
+    "new": {
+     "title": "Forget Being the Villainess, I Want to Be an Adventurer! (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Forget Being the Villainess, I Want to Be an Adventurer! (Manga): Volume 6",
+       "publishing": "2026-12-16T18:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "formerly-the-fallen-daughter-of-the-duke": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Formerly, the Fallen Daughter of the Duke: Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Formerly, the Fallen Daughter of the Duke"
+    },
+    "new": {
+     "title": "Formerly, the Fallen Daughter of the Duke",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "Formerly, the Fallen Daughter of the Duke: Volume 7",
+       "publishing": "2026-11-23T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "fraudulent-fianc-s": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-01-15T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Fraudulent Fiancés Return the Favor"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Fraudulent Fiancés"
+    },
+    "new": {
+     "title": "Fraudulent Fiancés",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Fraudulent Fiancés Return the Favor",
+       "publishing": "2027-01-15T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "from-two-bit-baddie-to-total-heartthrob-this-villainess-will-cross-dress-to-impress": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2026-12-30T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "From Two-Bit Baddie to Total Heartthrob: This Villainess Will Cross-Dress to Impress! Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "From Two-Bit Baddie to Total Heartthrob: This Villainess Will Cross-Dress to Impress!"
+    },
+    "new": {
+     "title": "From Two-Bit Baddie to Total Heartthrob: This Villainess Will Cross-Dress to Impress!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "From Two-Bit Baddie to Total Heartthrob: This Villainess Will Cross-Dress to Impress! Volume 7",
+       "publishing": "2026-12-30T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "genius-in-the-library-this-bookish-rookie-will-save-the-day": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-01-27T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Genius in the Library: This Bookish Rookie Will Save the Day! Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Genius in the Library: This Bookish Rookie Will Save the Day!"
+    },
+    "new": {
+     "title": "Genius in the Library: This Bookish Rookie Will Save the Day!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Genius in the Library: This Bookish Rookie Will Save the Day! Volume 2",
+       "publishing": "2027-01-27T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "god-sleeps-in-seafoam": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-01-25T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "God Sleeps in Seafoam: Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "God Sleeps in Seafoam"
+    },
+    "new": {
+     "title": "God Sleeps in Seafoam",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "God Sleeps in Seafoam: Volume 2",
+       "publishing": "2027-01-25T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "grinding-my-way-to-a-happy-ending-if-only-my-op-big-bro-didn-t-make-things-so-sister-complex": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2026-11-18T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex! Volume 1"
+      },
+      {
+       "number": 2,
+       "publishing": "2027-03-10T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex! Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex!"
+    },
+    "new": {
+     "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Grinding My Way to a Happy Ending: If Only My OP Big Bro Didn’t Make Things So (Sister) Complex! Volume 2",
+       "publishing": "2027-03-10T06:00:00Z",
+       "prepub_expiry": "2027-04-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "haibara-s-teenage-new-game": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 11,
+       "publishing": "2026-12-31T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Haibara’s Teenage New Game+ Volume 11"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Haibara’s Teenage New Game+"
+    },
+    "new": {
+     "title": "Haibara’s Teenage New Game+",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 11,
+       "title": "Haibara’s Teenage New Game+ Volume 11",
+       "publishing": "2026-12-31T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "heir-to-a-monstermancer": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [],
+     "status": "DEFAULT",
+     "title": "Heir to a Monstermancer"
+    },
+    "new": {
+     "title": "Heir to a Monstermancer",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "Heir to a Monstermancer: Volume 3",
+       "publishing": "2027-03-05T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "hell-mode": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 13,
+       "publishing": "2026-12-30T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Hell Mode: Volume 13"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Hell Mode"
+    },
+    "new": {
+     "title": "Hell Mode",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 13,
+       "title": "Hell Mode: Volume 13",
+       "publishing": "2026-12-30T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "publishing": "2026-12-23T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Hell Mode (Manga): Volume 12"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Hell Mode (Manga)"
+    },
+    "new": {
+     "title": "Hell Mode (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "title": "Hell Mode (Manga): Volume 12",
+       "publishing": "2026-12-23T17:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "his-reluctant-thrall": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2026-12-29T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "His Reluctant Thrall: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "His Reluctant Thrall"
+    },
+    "new": {
+     "title": "His Reluctant Thrall",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "His Reluctant Thrall: Volume 1",
+       "publishing": "2026-12-29T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2038-01-19T03:14:06Z",
+       "readerStreamingEnabled": false,
+       "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon 3.1415926535"
+      },
+      {
+       "number": 2,
+       "publishing": "2038-01-19T03:14:06Z",
+       "readerStreamingEnabled": false,
+       "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon √39"
+      },
+      {
+       "number": 3,
+       "publishing": "2038-01-19T03:14:06Z",
+       "readerStreamingEnabled": false,
+       "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon 57/6"
+      }
+     ],
+     "status": "HIATUS",
+     "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?!"
+    },
+    "new": {
+     "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?!",
+     "status": "HIATUS",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon 3.1415926535",
+       "publishing": "2038-01-19T03:14:06Z",
+       "prepub_expiry": "2038-02-15",
+       "readerStreamingEnabled": false
+      },
+      {
+       "number": 2,
+       "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon √39",
+       "publishing": "2038-01-19T03:14:06Z",
+       "prepub_expiry": "2038-02-15",
+       "readerStreamingEnabled": false
+      },
+      {
+       "number": 3,
+       "title": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?! Sermon 57/6",
+       "publishing": "2038-01-19T03:14:06Z",
+       "prepub_expiry": "2038-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "i-ll-become-an-elegant-villainess-time-to-enjoy-my-second-life-to-the-fullest": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2026-12-02T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "I’ll Become an Elegant Villainess! Time to Enjoy My Second Life to the Fullest Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "I’ll Become an Elegant Villainess! Time to Enjoy My Second Life to the Fullest"
+    },
+    "new": {
+     "title": "I’ll Become an Elegant Villainess! Time to Enjoy My Second Life to the Fullest",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "I’ll Become an Elegant Villainess! Time to Enjoy My Second Life to the Fullest Volume 2",
+       "publishing": "2026-12-02T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 10,
+       "publishing": "2027-01-01T21:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic (Manga): Volume 10"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic (Manga)"
+    },
+    "new": {
+     "title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 10,
+       "title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic (Manga): Volume 10",
+       "publishing": "2027-01-01T21:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "i-m-dating-a-dark-summoner": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-10T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "I’m Dating a Dark Summoner: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "I’m Dating a Dark Summoner"
+    },
+    "new": {
+     "title": "I’m Dating a Dark Summoner",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "I’m Dating a Dark Summoner: Volume 1",
+       "publishing": "2027-02-10T17:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "i-parry-everything": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "publishing": "2026-11-19T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "I Parry Everything: Volume 11"
+      },
+      {
+       "number": 12,
+       "publishing": "2027-02-26T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "I Parry Everything: Volume 12"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "I Parry Everything: What Do You Mean I’m the Strongest? I’m Not Even an Adventurer Yet!"
+    },
+    "new": {
+     "title": "I Parry Everything: What Do You Mean I’m the Strongest? I’m Not Even an Adventurer Yet!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "title": "I Parry Everything: Volume 12",
+       "publishing": "2027-02-26T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "imperial-reincarnation-i-came-i-saw-i-survived": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "publishing": "2026-12-03T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Imperial Reincarnation: I Came, I Saw, I Survived Volume 8"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Imperial Reincarnation: I Came, I Saw, I Survived"
+    },
+    "new": {
+     "title": "Imperial Reincarnation: I Came, I Saw, I Survived",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "Imperial Reincarnation: I Came, I Saw, I Survived Volume 8",
+       "publishing": "2026-12-03T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "imperial-reincarnation-i-came-i-saw-i-survived-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [],
+     "status": "DEFAULT",
+     "title": "Imperial Reincarnation: I Came, I Saw, I Survived (Manga)"
+    },
+    "new": {
+     "title": "Imperial Reincarnation: I Came, I Saw, I Survived (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Imperial Reincarnation: I Came, I Saw, I Survived (Manga) Volume 6",
+       "publishing": "2027-01-27T21:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "invaders-of-the-rokujouma": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "prepub_active": [
+      {
+       "number": 51,
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Invaders of the Rokujouma!? Volume 49"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Invaders of the Rokujouma!?"
+    },
+    "new": {
+     "title": "Invaders of the Rokujouma!?",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "prepub_active": [
+      {
+       "number": 51,
+       "title": "Invaders of the Rokujouma!? Volume 49",
+       "publishing": "2026-11-23T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "isekai-tensei-recruited-to-another-world": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "publishing": "2026-12-15T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Isekai Tensei: Recruited to Another World Volume 15"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Isekai Tensei: Recruited to Another World"
+    },
+    "new": {
+     "title": "Isekai Tensei: Recruited to Another World",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "title": "Isekai Tensei: Recruited to Another World Volume 15",
+       "publishing": "2026-12-15T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "isekai-walking": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 8,
+       "publishing": "2026-11-30T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Isekai Walking: Volume 8"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Isekai Walking"
+    },
+    "new": {
+     "title": "Isekai Walking",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "Isekai Walking: Volume 8",
+       "publishing": "2026-11-30T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "it-s-a-grown-man-s-job-to-be-a-magical-girl": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-08T16:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "It’s a Grown Man’s Job to be a Magical Girl: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "It’s a Grown Man’s Job to be a Magical Girl"
+    },
+    "new": {
+     "title": "It’s a Grown Man’s Job to be a Magical Girl",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "It’s a Grown Man’s Job to be a Magical Girl: Volume 1",
+       "publishing": "2027-02-08T16:00:00Z",
+       "prepub_expiry": "2027-02-15",
        "readerStreamingEnabled": false
       }
      ]
@@ -83,7 +1748,14 @@
     "old": {
      "library": false,
      "library_vols": [],
-     "prepub_active": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-02-10T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Keep Me Close: Finding My Home in You Volume 2"
+      }
+     ],
      "status": "DEFAULT",
      "title": "Keep Me Close: Finding My Home in You"
     },
@@ -97,6 +1769,605 @@
        "number": 2,
        "title": "Keep Me Close: Finding My Home in You Volume 2",
        "publishing": "2027-02-10T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "knight-s-magic": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "publishing": "2027-03-04T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Knight's & Magic: Volume 11"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Knight's & Magic"
+    },
+    "new": {
+     "title": "Knight's & Magic",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "title": "Knight's & Magic: Volume 11",
+       "publishing": "2027-03-04T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2026-12-02T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King Volume 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King"
+    },
+    "new": {
+     "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King Volume 4",
+       "publishing": "2026-12-02T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-01-13T21:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King (Manga): Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King (Manga)"
+    },
+    "new": {
+     "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King (Manga): Volume 1",
+       "publishing": "2027-01-13T21:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "let-this-grieving-soul-retire": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 12,
+       "publishing": "2027-03-10T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Let This Grieving Soul Retire: Volume 12"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Let This Grieving Soul Retire"
+    },
+    "new": {
+     "title": "Let This Grieving Soul Retire",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 12,
+       "title": "Let This Grieving Soul Retire: Volume 12",
+       "publishing": "2027-03-10T06:00:00Z",
+       "prepub_expiry": "2027-04-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "little-miss-slime-master": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-12T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Little Miss Slime Master: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Little Miss Slime Master"
+    },
+    "new": {
+     "title": "Little Miss Slime Master",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Little Miss Slime Master: Volume 1",
+       "publishing": "2027-02-12T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "long-story-short-i-m-living-in-the-mountains": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2027-02-18T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Long Story Short, I’m Living in the Mountains: Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Long Story Short, I’m Living in the Mountains"
+    },
+    "new": {
+     "title": "Long Story Short, I’m Living in the Mountains",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "Long Story Short, I’m Living in the Mountains: Volume 7",
+       "publishing": "2027-02-18T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "publishing": "2026-12-28T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid: Volume 5"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid"
+    },
+    "new": {
+     "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid: Volume 5",
+       "publishing": "2026-12-28T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2026-12-02T15:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid (Manga) Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid (Manga)"
+    },
+    "new": {
+     "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid (Manga) Volume 6",
+       "publishing": "2026-12-02T15:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "making-magic": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 10,
+       "publishing": "2027-01-08T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Making Magic: The Sweet Life of a Witch Who Knows an Infinite MP Loophole Volume 10"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Making Magic: The Sweet Life of a Witch Who Knows an Infinite MP Loophole"
+    },
+    "new": {
+     "title": "Making Magic: The Sweet Life of a Witch Who Knows an Infinite MP Loophole",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 10,
+       "title": "Making Magic: The Sweet Life of a Witch Who Knows an Infinite MP Loophole Volume 10",
+       "publishing": "2027-01-08T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "merrily-we-tumble-along": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-01-27T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Merrily, We Tumble Along: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Merrily, We Tumble Along"
+    },
+    "new": {
+     "title": "Merrily, We Tumble Along",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Merrily, We Tumble Along: Volume 1",
+       "publishing": "2027-01-27T18:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "middle-aged-and-mid-no-more-rising-in-ranks-over-drinks-with-an-elite-priest": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest"
+    },
+    "new": {
+     "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest Volume 1",
+       "publishing": "2026-11-23T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "mirror-mirror-on-the-wall": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-02-04T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Mirror, Mirror on the Wall: Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Mirror, Mirror on the Wall"
+    },
+    "new": {
+     "title": "Mirror, Mirror on the Wall",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Mirror, Mirror on the Wall: Volume 2",
+       "publishing": "2027-02-04T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "miss-medic-s-diary-at-war": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2027-02-04T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Miss Medic’s Diary at War: Volume 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Miss Medic’s Diary at War"
+    },
+    "new": {
+     "title": "Miss Medic’s Diary at War",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "Miss Medic’s Diary at War: Volume 4",
+       "publishing": "2027-02-04T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "my-leisure-logbook-a-taste-of-isekai-with-the-goddess": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-05T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "My Leisure Logbook: A Taste of Isekai with the Goddess: Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "My Leisure Logbook: A Taste of Isekai with the Goddess"
+    },
+    "new": {
+     "title": "My Leisure Logbook: A Taste of Isekai with the Goddess",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "My Leisure Logbook: A Taste of Isekai with the Goddess: Volume 1",
+       "publishing": "2027-02-05T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "my-tiny-senpai": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [],
+     "status": "DEFAULT",
+     "title": "My Tiny Senpai"
+    },
+    "new": {
+     "title": "My Tiny Senpai",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "My Tiny Senpai Volume 8",
+       "publishing": "2027-01-20T21:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "nia-liston-the-merciless-maiden": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "publishing": "2026-12-09T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Nia Liston: The Merciless Maiden Volume 11"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Nia Liston: The Merciless Maiden"
+    },
+    "new": {
+     "title": "Nia Liston: The Merciless Maiden",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "title": "Nia Liston: The Merciless Maiden Volume 11",
+       "publishing": "2026-12-09T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "notorious-no-more-the-villainess-enjoys-feigning-incompetence": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2026-12-02T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Notorious No More: The Villainess Enjoys Feigning Incompetence Volume 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Notorious No More: The Villainess Enjoys Feigning Incompetence"
+    },
+    "new": {
+     "title": "Notorious No More: The Villainess Enjoys Feigning Incompetence",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "Notorious No More: The Villainess Enjoys Feigning Incompetence Volume 4",
+       "publishing": "2026-12-02T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "nowhere-isekai-peace-over-power-for-this-nothin-bumpkin": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-10T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Nowhere Isekai: Peace over Power for This Nothin’ Bumpkin Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Nowhere Isekai: Peace over Power for This Nothin’ Bumpkin"
+    },
+    "new": {
+     "title": "Nowhere Isekai: Peace over Power for This Nothin’ Bumpkin",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Nowhere Isekai: Peace over Power for This Nothin’ Bumpkin Volume 1",
+       "publishing": "2027-02-10T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2027-01-13T15:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga) Volume 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga)"
+    },
+    "new": {
+     "title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga) Volume 4",
+       "publishing": "2027-01-13T15:00:00Z",
+       "prepub_expiry": "2027-02-15",
        "readerStreamingEnabled": false
       }
      ]
@@ -116,6 +2387,12 @@
        "publishing": "2026-11-30T06:00:00Z",
        "readerStreamingEnabled": false,
        "title": "Private Tutor to the Duke’s Daughter: Volume 21"
+      },
+      {
+       "number": 23,
+       "publishing": "2027-02-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Private Tutor to the Duke’s Daughter: Volume 22"
       }
      ],
      "status": "DEFAULT",
@@ -135,12 +2412,1447 @@
        "number": 22,
        "title": "Private Tutor to the Duke’s Daughter: Volume 21",
        "publishing": "2026-11-30T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
        "readerStreamingEnabled": false
       },
       {
        "number": 23,
        "title": "Private Tutor to the Duke’s Daughter: Volume 22",
        "publishing": "2027-02-23T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "proud-to-be-the-villainess": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2026-12-16T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Proud to Be the Villainess: Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Proud to Be the Villainess"
+    },
+    "new": {
+     "title": "Proud to Be the Villainess",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "Proud to Be the Villainess: Volume 3",
+       "publishing": "2026-12-16T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "putting-a-price-on-world-peace": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-02T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Putting a Price on World Peace"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Putting a Price on World Peace"
+    },
+    "new": {
+     "title": "Putting a Price on World Peace",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Putting a Price on World Peace",
+       "publishing": "2027-02-02T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "reborn-to-reign-imposing-my-rules-with-my-mastery-of-magic": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2026-12-11T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Reborn to Reign: Imposing My Rules with My Mastery of Magic Volume 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Reborn to Reign: Imposing My Rules with My Mastery of Magic"
+    },
+    "new": {
+     "title": "Reborn to Reign: Imposing My Rules with My Mastery of Magic",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Reborn to Reign: Imposing My Rules with My Mastery of Magic Volume 2",
+       "publishing": "2026-12-11T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "rebuild-world": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "publishing": "2027-02-16T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Rebuild World: Volume 9 Part One"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Rebuild World"
+    },
+    "new": {
+     "title": "Rebuild World",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "title": "Rebuild World: Volume 9 Part One",
+       "publishing": "2027-02-16T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "record-of-wortenia-war": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 31,
+       "publishing": "2026-12-18T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Record of Wortenia War: Volume 31"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Record of Wortenia War"
+    },
+    "new": {
+     "title": "Record of Wortenia War",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 31,
+       "title": "Record of Wortenia War: Volume 31",
+       "publishing": "2026-12-18T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "repeated-vice-i-refuse-to-be-important-enough-to-die": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-13T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Repeated Vice: I Refuse to Be Important Enough to Die Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Repeated Vice: I Refuse to Be Important Enough to Die"
+    },
+    "new": {
+     "title": "Repeated Vice: I Refuse to Be Important Enough to Die",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Repeated Vice: I Refuse to Be Important Enough to Die Volume 6",
+       "publishing": "2027-01-13T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "resetreboot": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "publishing": "2027-01-13T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Reboot Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Reset / Reboot"
+    },
+    "new": {
+     "title": "Reset / Reboot",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 2,
+       "title": "Reboot Volume 1",
+       "publishing": "2027-01-13T17:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "return-of-the-corpse-king-reining-in-my-cringe-secret-society": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2026-11-25T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Return of the Corpse King: Reining in My Cringe Secret Society Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Return of the Corpse King: Reining in My Cringe Secret Society"
+    },
+    "new": {
+     "title": "Return of the Corpse King: Reining in My Cringe Secret Society",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "Return of the Corpse King: Reining in My Cringe Secret Society Volume 3",
+       "publishing": "2026-11-25T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "revenge-of-the-soul-eater-cast-out-as-a-weakling-by-my-sword-saint-father": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2026-12-17T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Revenge of the Soul Eater: Cast Out as a Weakling by My Sword Saint Father Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Revenge of the Soul Eater: Cast Out as a Weakling by My Sword Saint Father"
+    },
+    "new": {
+     "title": "Revenge of the Soul Eater: Cast Out as a Weakling by My Sword Saint Father",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "Revenge of the Soul Eater: Cast Out as a Weakling by My Sword Saint Father Volume 7",
+       "publishing": "2026-12-17T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "royal-spirits-are-a-royal-pain-give-me-a-regular-romance": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-02-03T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance"
+    },
+    "new": {
+     "title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance: Volume 6",
+       "publishing": "2027-02-03T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-25T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer"
+    },
+    "new": {
+     "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer: Volume 6",
+       "publishing": "2027-01-25T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2027-01-20T21:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer (Manga) Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer (Manga)"
+    },
+    "new": {
+     "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer (Manga) Volume 7",
+       "publishing": "2027-01-20T21:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "shut-in-savior-sent-to-another-world-with-my-house-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-01-27T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Shut-in Savior: Sent to Another World with My House! (Manga) Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Shut-in Savior: Sent to Another World with My House! (Manga)"
+    },
+    "new": {
+     "title": "Shut-in Savior: Sent to Another World with My House! (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Shut-in Savior: Sent to Another World with My House! (Manga) Volume 1",
+       "publishing": "2027-01-27T18:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "soldier-maids-otherworld-cleanup-crew": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-11T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Soldier Maids: Otherworld Cleanup Crew Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Soldier Maids: Otherworld Cleanup Crew"
+    },
+    "new": {
+     "title": "Soldier Maids: Otherworld Cleanup Crew",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Soldier Maids: Otherworld Cleanup Crew Volume 1",
+       "publishing": "2027-02-11T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "specter-spectator-from-supernatural-slump-to-viral-vtuber": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-12T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Specter / Spectator: From Supernatural Slump to Viral VTuber! Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Specter / Spectator: From Supernatural Slump to Viral VTuber!"
+    },
+    "new": {
+     "title": "Specter / Spectator: From Supernatural Slump to Viral VTuber!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "Specter / Spectator: From Supernatural Slump to Viral VTuber! Volume 1",
+       "publishing": "2027-02-12T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "tearmoon-empire": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 18,
+       "publishing": "2026-11-20T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Tearmoon Empire: Volume 18"
+      },
+      {
+       "number": 102,
+       "publishing": "2027-03-04T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Tearmoon Empire Short Story Collection 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Tearmoon Empire"
+    },
+    "new": {
+     "title": "Tearmoon Empire",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 102,
+       "title": "Tearmoon Empire Short Story Collection 2",
+       "publishing": "2027-03-04T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "tearmoon-empire-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "publishing": "2026-12-02T15:00:52Z",
+       "readerStreamingEnabled": false,
+       "title": "Tearmoon Empire (Manga) Volume 11"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Tearmoon Empire (Manga)"
+    },
+    "new": {
+     "title": "Tearmoon Empire (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "title": "Tearmoon Empire (Manga) Volume 11",
+       "publishing": "2026-12-02T15:00:52Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-29T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill"
+    },
+    "new": {
+     "title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill: Volume 6",
+       "publishing": "2027-01-29T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-bladesmith-s-enchanted-weapons": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2027-01-20T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Bladesmith's Enchanted Weapons: Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Bladesmith's Enchanted Weapons"
+    },
+    "new": {
+     "title": "The Bladesmith's Enchanted Weapons",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "The Bladesmith's Enchanted Weapons: Volume 7",
+       "publishing": "2027-01-20T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "publishing": "2026-12-21T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Diary of a Middle-Aged Sage's Carefree Life in Another World: Volume 12"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Diary of a Middle-Aged Sage's Carefree Life in Another World"
+    },
+    "new": {
+     "title": "The Diary of a Middle-Aged Sage's Carefree Life in Another World",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 12,
+       "title": "The Diary of a Middle-Aged Sage's Carefree Life in Another World: Volume 12",
+       "publishing": "2026-12-21T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-eternal-fool-s-words-of-wisdom-a-pawsitively-fantastic-adventure-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "publishing": "2026-12-30T18:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Eternal Fool's Words of Wisdom: A Pawsitively Fantastic Adventure (Manga) Volume 11"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Eternal Fool's Words of Wisdom: A Pawsitively Fantastic Adventure (Manga)"
+    },
+    "new": {
+     "title": "The Eternal Fool's Words of Wisdom: A Pawsitively Fantastic Adventure (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 11,
+       "title": "The Eternal Fool's Words of Wisdom: A Pawsitively Fantastic Adventure (Manga) Volume 11",
+       "publishing": "2026-12-30T18:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-eyes-of-god-paint-the-ashen-world-with-color-arise-with-the-power-of-stats-sight-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "publishing": "2027-02-10T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Eyes of God Paint the Ashen World with Color: Arise with the Power of Stats-Sight (Manga) Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Eyes of God Paint the Ashen World with Color: Arise with the Power of Stats-Sight (Manga)"
+    },
+    "new": {
+     "title": "The Eyes of God Paint the Ashen World with Color: Arise with the Power of Stats-Sight (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "title": "The Eyes of God Paint the Ashen World with Color: Arise with the Power of Stats-Sight (Manga) Volume 1",
+       "publishing": "2027-02-10T17:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-fearsome-witch-teaches-in-another-world": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-15T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Fearsome Witch Teaches in Another World: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Fearsome Witch Teaches in Another World"
+    },
+    "new": {
+     "title": "The Fearsome Witch Teaches in Another World",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "The Fearsome Witch Teaches in Another World: Volume 6",
+       "publishing": "2027-01-15T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "publishing": "2026-11-25T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 5"
+      },
+      {
+       "number": 6,
+       "publishing": "2027-02-17T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans"
+    },
+    "new": {
+     "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 5",
+       "publishing": "2026-11-25T17:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      },
+      {
+       "number": 6,
+       "title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 6",
+       "publishing": "2027-02-17T17:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-frontier-lord-begins-with-zero-subjects": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "publishing": "2027-02-26T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Frontier Lord Begins with Zero Subjects: Volume 15"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Frontier Lord Begins with Zero Subjects"
+    },
+    "new": {
+     "title": "The Frontier Lord Begins with Zero Subjects",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 15,
+       "title": "The Frontier Lord Begins with Zero Subjects: Volume 15",
+       "publishing": "2027-02-26T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-beastkin-alna": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 14,
+       "publishing": "2026-12-09T17:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Frontier Lord Begins with Zero Subjects (Manga): Tales of Blue Dias and the Onikin Alna: Volume 14"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Frontier Lord Begins with Zero Subjects (Manga): Tales of Blue Dias and the Onikin Alna"
+    },
+    "new": {
+     "title": "The Frontier Lord Begins with Zero Subjects (Manga): Tales of Blue Dias and the Onikin Alna",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 14,
+       "title": "The Frontier Lord Begins with Zero Subjects (Manga): Tales of Blue Dias and the Onikin Alna: Volume 14",
+       "publishing": "2026-12-09T17:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-greatest-magicmaster-s-retirement-plan": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 20,
+       "publishing": "2026-12-17T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Greatest Magicmaster's Retirement Plan: Volume 20"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Greatest Magicmaster's Retirement Plan"
+    },
+    "new": {
+     "title": "The Greatest Magicmaster's Retirement Plan",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 20,
+       "title": "The Greatest Magicmaster's Retirement Plan: Volume 20",
+       "publishing": "2026-12-17T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-25T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World"
+    },
+    "new": {
+     "title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World Volume 6",
+       "publishing": "2027-01-25T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-master-of-ragnarok-blesser-of-einherjar-manga": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [],
+     "status": "DEFAULT",
+     "title": "The Master of Ragnarok & Blesser of Einherjar (Manga)"
+    },
+    "new": {
+     "title": "The Master of Ragnarok & Blesser of Einherjar (Manga)",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 8",
+       "publishing": "2027-03-24T10:00:00Z",
+       "prepub_expiry": "2027-04-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-misfit-of-demon-king-academy": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 17,
+       "publishing": "2027-02-03T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Misfit of Demon King Academy: Volume 13 Act 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Misfit of Demon King Academy"
+    },
+    "new": {
+     "title": "The Misfit of Demon King Academy",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 17,
+       "title": "The Misfit of Demon King Academy: Volume 13 Act 2",
+       "publishing": "2027-02-03T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-otome-heroine-s-fight-for-survival": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2027-01-29T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Otome Heroine's Fight for Survival: Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Otome Heroine's Fight for Survival"
+    },
+    "new": {
+     "title": "The Otome Heroine's Fight for Survival",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "The Otome Heroine's Fight for Survival: Volume 7",
+       "publishing": "2027-01-29T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-petty-villain-plays-by-the-rules-rewriting-this-otome-game-with-honest-work": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2027-02-12T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Petty Villain Plays by the Rules: Rewriting This Otome Game with Honest Work! Volume 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Petty Villain Plays by the Rules: Rewriting This Otome Game with Honest Work!"
+    },
+    "new": {
+     "title": "The Petty Villain Plays by the Rules: Rewriting This Otome Game with Honest Work!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "The Petty Villain Plays by the Rules: Rewriting This Otome Game with Honest Work! Volume 4",
+       "publishing": "2027-02-12T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-reincarnated-mastermind-sundering-fate-with-magic-swords": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2027-01-27T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Reincarnated Mastermind: Sundering Fate with Magic Swords Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Reincarnated Mastermind: Sundering Fate with Magic Swords"
+    },
+    "new": {
+     "title": "The Reincarnated Mastermind: Sundering Fate with Magic Swords",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "The Reincarnated Mastermind: Sundering Fate with Magic Swords Volume 3",
+       "publishing": "2027-01-27T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-tiny-witch-from-the-deep-woods": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2026-12-28T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Tiny Witch from the Deep Woods: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Tiny Witch from the Deep Woods"
+    },
+    "new": {
+     "title": "The Tiny Witch from the Deep Woods",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "The Tiny Witch from the Deep Woods: Volume 6",
+       "publishing": "2026-12-28T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-trials-and-tribulations-of-my-next-life-as-a-noblewoman": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 9,
+       "publishing": "2027-01-15T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Trials and Tribulations of My Next Life as a Noblewoman: Volume 5 Part 2"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Trials and Tribulations of My Next Life as a Noblewoman"
+    },
+    "new": {
+     "title": "The Trials and Tribulations of My Next Life as a Noblewoman",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 9,
+       "title": "The Trials and Tribulations of My Next Life as a Noblewoman: Volume 5 Part 2",
+       "publishing": "2027-01-15T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-villainess-speaks-not": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2026-12-28T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Villainess Speaks Not: Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Villainess Speaks Not"
+    },
+    "new": {
+     "title": "The Villainess Speaks Not",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "The Villainess Speaks Not: Volume 3",
+       "publishing": "2026-12-28T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "the-water-magician": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "publishing": "2027-02-16T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "The Water Magician: Arc 2 Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The Water Magician"
+    },
+    "new": {
+     "title": "The Water Magician",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "The Water Magician: Arc 2 Volume 1",
+       "publishing": "2027-02-16T06:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "this-alluring-dark-elf-has-the-heart-of-a-middle-aged-man-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2027-01-06T15:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga) Volume 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga)"
+    },
+    "new": {
+     "title": "This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga) Volume 4",
+       "publishing": "2027-01-06T15:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "to-another-world-with-land-mines": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "publishing": "2026-12-01T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "To Another World... with Land Mines! Volume 14"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "To Another World... with Land Mines!"
+    },
+    "new": {
+     "title": "To Another World... with Land Mines!",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 14,
+       "title": "To Another World... with Land Mines! Volume 14",
+       "publishing": "2026-12-01T06:00:00Z",
+       "prepub_expiry": "2026-12-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "to-another-world-with-land-mines-manga": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "publishing": "2027-02-10T21:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "To Another World... with Land Mines! (Manga) Volume 3"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "To Another World... with Land Mines! (Manga)"
+    },
+    "new": {
+     "title": "To Another World... with Land Mines! (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 3,
+       "title": "To Another World... with Land Mines! (Manga) Volume 3",
+       "publishing": "2027-02-10T21:00:00Z",
+       "prepub_expiry": "2027-03-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "worthless-at-home-whiz-to-the-world": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2026-11-18T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Worthless at Home, Whiz to the World: Volume 7"
+      },
+      {
+       "number": 8,
+       "publishing": "2027-01-27T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Worthless at Home, Whiz to the World: Volume 8"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Worthless at Home, Whiz to the World"
+    },
+    "new": {
+     "title": "Worthless at Home, Whiz to the World",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "Worthless at Home, Whiz to the World: Volume 8",
+       "publishing": "2027-01-27T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "you-were-experienced-i-was-not-our-dating-story": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 10,
+       "publishing": "2027-01-05T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "You Were Experienced, I Was Not: Our Dating Story 10th Date"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "You Were Experienced, I Was Not: Our Dating Story"
+    },
+    "new": {
+     "title": "You Were Experienced, I Was Not: Our Dating Story",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 10,
+       "title": "You Were Experienced, I Was Not: Our Dating Story 10th Date",
+       "publishing": "2027-01-05T06:00:00Z",
+       "prepub_expiry": "2027-01-15",
+       "readerStreamingEnabled": false
+      }
+     ]
+    }
+   },
+   "zero-damage-sword-saint-i-enrolled-in-a-magic-school-and-wound-up-in-a-contract-with-the-demon-queen": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-01-21T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Zero Damage Sword Saint: I Enrolled in a Magic School and Wound Up in a Contract with the Demon Queen: Volume 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Zero Damage Sword Saint: I Enrolled in a Magic School and Wound Up in a Contract with the Demon Queen"
+    },
+    "new": {
+     "title": "Zero Damage Sword Saint: I Enrolled in a Magic School and Wound Up in a Contract with the Demon Queen",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Zero Damage Sword Saint: I Enrolled in a Magic School and Wound Up in a Contract with the Demon Queen: Volume 6",
+       "publishing": "2027-01-21T06:00:00Z",
+       "prepub_expiry": "2027-02-15",
        "readerStreamingEnabled": false
       }
      ]
@@ -149,388 +3861,306 @@
   }
  },
  "jnc_nina": {
-  "new": {
+  "new": {},
+  "removed": [
+   "_api_base",
+   "_generated_at"
+  ],
+  "changed": {
    "7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy": {
-    "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 7,
-      "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!: Band 7",
-      "publishing": "2026-11-28T23:00:00Z"
-     }
-    ]
-   },
-   "7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-light-novel": {
-    "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Light Novel)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2026-11-28T23:00:00Z",
+       "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!: Band 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Manga)"
+    },
+    "new": {
+     "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy! (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!: Band 7",
+       "publishing": "2026-11-28T23:00:00Z",
+       "prepub_expiry": "2026-12-15"
+      }
+     ]
+    }
    },
    "86-eightysix": {
-    "title": "86 – EIGHTY-SIX",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 9,
-      "title": "86 – EIGHTY-SIX: Band 9 – Valkyrie Has Landed",
-      "publishing": "2027-01-23T23:00:00Z"
-     }
-    ]
-   },
-   "alya-fluestert-mir-auf-russisch-suesse-worte-zu": {
-    "title": "Alya flüstert mir auf Russisch süße Worte zu",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 9,
+       "publishing": "2027-01-23T23:00:00Z",
+       "title": "86 – EIGHTY-SIX: Band 9 – Valkyrie Has Landed"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "86 – EIGHTY-SIX"
+    },
+    "new": {
+     "title": "86 – EIGHTY-SIX",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 9,
+       "title": "86 – EIGHTY-SIX: Band 9 – Valkyrie Has Landed",
+       "publishing": "2027-01-23T23:00:00Z",
+       "prepub_expiry": "2027-02-15"
+      }
+     ]
+    }
    },
    "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga": {
-    "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 5,
-      "title": "An Archdemon's Dilemma: How to Love Your Elf Bride: Band 5",
-      "publishing": "2026-11-28T23:00:00Z"
-     }
-    ]
-   },
-   "arifureta-der-kampf-zurueck-in-meine-welt": {
-    "title": "Arifureta – Der Kampf zurück in meine Welt",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "asahina-sans-bento": {
-    "title": "Asahina-sans Bento",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "ascendance-of-a-bookworm-kein-weg-ist-zu-weit-um-bibliothekarin-zu-werden": {
-    "title": "Ascendance of a Bookworm: Kein Weg ist zu weit, um Bibliothekarin zu werden",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "brunhild": {
-    "title": "Brunhild",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "d-monin-hexe-und-exorzistin-manga": {
-    "title": "Dämonin, Hexe und Exorzistin (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "publishing": "2026-11-28T23:00:00Z",
+       "title": "An Archdemon's Dilemma: How to Love Your Elf Bride: Band 5"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)"
+    },
+    "new": {
+     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "title": "An Archdemon's Dilemma: How to Love Your Elf Bride: Band 5",
+       "publishing": "2026-11-28T23:00:00Z",
+       "prepub_expiry": "2026-12-15"
+      }
+     ]
+    }
    },
    "dahlia-l-sst-den-kopf-nicht-h-ngen": {
-    "title": "Dahlia lässt den Kopf nicht hängen",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 6,
-      "title": "Dahlia lässt den Kopf nicht hängen: Band 6",
-      "publishing": "2027-03-02T23:00:00Z"
-     }
-    ]
-   },
-   "der-yakuza-ist-ein-papa": {
-    "title": "Der Yakuza ist ein Papa und ...",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2027-03-02T23:00:00Z",
+       "title": "Dahlia lässt den Kopf nicht hängen: Band 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Dahlia lässt den Kopf nicht hängen"
+    },
+    "new": {
+     "title": "Dahlia lässt den Kopf nicht hängen",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Dahlia lässt den Kopf nicht hängen: Band 6",
+       "publishing": "2027-03-02T23:00:00Z",
+       "prepub_expiry": "2027-03-15"
+      }
+     ]
+    }
    },
    "die-leere-schachtel-und-zeroth-maria": {
-    "title": "Die leere Schachtel und Zeroth Maria",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 6,
-      "title": "Die leere Schachtel und Zeroth Maria: Band 6",
-      "publishing": "2026-12-26T23:00:00Z"
-     }
-    ]
-   },
-   "die-legend-re-hexe-wird-als-unterdr-ckte-prinzessin-wiedergeboren-manga": {
-    "title": "Die legendäre Hexe wird als unterdrückte Prinzessin wiedergeboren  (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "die-suche-nach-dem-nichts": {
-    "title": "Die Suche nach dem Nichts",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "publishing": "2026-12-26T23:00:00Z",
+       "title": "Die leere Schachtel und Zeroth Maria: Band 6"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Die leere Schachtel und Zeroth Maria"
+    },
+    "new": {
+     "title": "Die leere Schachtel und Zeroth Maria",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 6,
+       "title": "Die leere Schachtel und Zeroth Maria: Band 6",
+       "publishing": "2026-12-26T23:00:00Z",
+       "prepub_expiry": "2027-01-15"
+      }
+     ]
+    }
    },
    "die-tagebuecher-der-apothekerin": {
-    "title": "Die Tagebücher der Apothekerin",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 8,
-      "title": "Die Tagebücher der Apothekerin: Band 8",
-      "publishing": "2026-12-22T23:00:00Z"
-     }
-    ]
-   },
-   "die-welt-verbeugt-sich-vor-meinen-flammen": {
-    "title": "Die Welt verbeugt sich vor meinen Flammen",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "die-wiederauferstandene-braut-und-der-grausame-prinz-ein-schurkisches-ehepaar-f-r-h-here-ziele-light-novel": {
-    "title": "Die wiederauferstandene Braut und der grausame Prinz: Ein schurkisches Ehepaar für höhere Ziele (Light Novel)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "du-bist-nicht-allein-manga": {
-    "title": "Du bist nicht allein (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "fly-with-me-in-the-endless-sky": {
-    "title": "Fly With Me in the Endless Sky",
-    "status": "COMPLETE",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "hell-mode-un-joueur-hardcore-r-incarn-dans-un-autre-monde-devient-invincible": {
-    "title": "Hell Mode - Un joueur hardcore réincarné dans un autre monde devient invincible",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "publishing": "2026-12-22T23:00:00Z",
+       "title": "Die Tagebücher der Apothekerin: Band 8"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Die Tagebücher der Apothekerin"
+    },
+    "new": {
+     "title": "Die Tagebücher der Apothekerin",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 8,
+       "title": "Die Tagebücher der Apothekerin: Band 8",
+       "publishing": "2026-12-22T23:00:00Z",
+       "prepub_expiry": "2027-01-15"
+      }
+     ]
+    }
    },
    "hell-mode-unterforderter-hardcore-gamer-findet-die-ultimative-challenge-in-einer-anderen-welt": {
-    "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 10,
-      "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt: Band 10",
-      "publishing": "2027-01-20T23:00:00Z"
-     }
-    ]
-   },
-   "i-m-in-love-with-the-villainess": {
-    "title": "I'm in Love with the Villainess",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "lady-tamer-das-comeback-der-versagerinnen": {
-    "title": "Lady Tamer: Das Comeback der Versagerinnen",
-    "status": "COMPLETE",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "lass-mich-dich-flicken": {
-    "title": "Lass mich dich flicken (Manga)",
-    "status": "COMPLETE",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "mushoku-tensei-in-dieser-welt-mach-ich-alles-anders": {
-    "title": "Mushoku Tensei: In dieser Welt mach ich alles anders",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "mushoku-tensei-nouvelle-vie-nouvelle-chance": {
-    "title": "Mushoku Tensei : Nouvelle vie, nouvelle chance",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "my-dreamy-realist": {
-    "title": "My Dreamy Realist",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "reincarnated-as-a-sword-another-wish-manga": {
-    "title": "Reincarnated as a Sword: Another Wish (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "roll-over-and-die-i-will-fight-for-an-ordinary-life-with-my-love-and-cursed-sword-manga": {
-    "title": "Roll over and Die: I Will Fight for an Ordinary Life with My Love and Cursed Sword! (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 10,
+       "publishing": "2027-01-20T23:00:00Z",
+       "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt: Band 10"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt"
+    },
+    "new": {
+     "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 10,
+       "title": "Hell Mode: Unterforderter Hardcore-Gamer findet die ultimative Challenge in einer anderen Welt: Band 10",
+       "publishing": "2027-01-20T23:00:00Z",
+       "prepub_expiry": "2027-02-15"
+      }
+     ]
+    }
    },
    "schritt-f-r-schritt-in-einer-neuen-welt-niemand-hat-mir-gesagt-dass-es-hier-monster-gibt": {
-    "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt!",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 4,
-      "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt! Band 4",
-      "publishing": "2026-12-30T23:00:00Z"
-     }
-    ]
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "publishing": "2026-12-30T23:00:00Z",
+       "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt! Band 4"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt!"
+    },
+    "new": {
+     "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt!",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 4,
+       "title": "Schritt für Schritt in einer neuen Welt: Niemand hat mir gesagt, dass es hier Monster gibt! Band 4",
+       "publishing": "2026-12-30T23:00:00Z",
+       "prepub_expiry": "2027-01-15"
+      }
+     ]
+    }
    },
    "spice-wolf": {
-    "title": "Spice & Wolf",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 7,
-      "title": "Spice & Wolf: Band 7 – Side Colors",
-      "publishing": "2027-02-04T23:00:00Z"
-     }
-    ]
-   },
-   "tearmoon-empire-die-chroniken-der-heiligen-mia": {
-    "title": "Tearmoon Empire: Die Chroniken der Heiligen(?!) Mia",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "tearmoon-empire-story-de-la-guillotine-la-r-demption-d-une-princesse-r-incarn-e": {
-    "title": "Tearmoon Empire Story : De la guillotine à la rédemption d’une princesse réincarnée",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "the-eminence-in-shadow": {
-    "title": "The Eminence in Shadow",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "the-faraway-paladin": {
-    "title": "The Faraway Paladin",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "the-faraway-paladin-fr": {
-    "title": "The Faraway Paladin (FR)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "the-too-perfect-saint-tossed-aside-by-my-fianc-and-sold-to-another-kingdom-manga": {
-    "title": "The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "the-tunnel-to-summer-the-exit-of-goodbyes": {
-    "title": "The Tunnel to Summer, the Exit of Goodbyes ",
-    "status": "COMPLETE",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "publishing": "2027-02-04T23:00:00Z",
+       "title": "Spice & Wolf: Band 7 – Side Colors"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Spice & Wolf"
+    },
+    "new": {
+     "title": "Spice & Wolf",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 7,
+       "title": "Spice & Wolf: Band 7 – Side Colors",
+       "publishing": "2027-02-04T23:00:00Z",
+       "prepub_expiry": "2027-02-15"
+      }
+     ]
+    }
    },
    "the-world-s-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat": {
-    "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": [
-     {
-      "number": 5,
-      "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat Band 5",
-      "publishing": "2026-12-26T23:00:00Z"
-     }
-    ]
-   },
-   "tr-nen-des-homunkulus-alchemie-f-r-alle-die-verschwinden-m-chten": {
-    "title": "Tränen des Homunkulus – Alchemie für alle, die verschwinden möchten",
-    "status": "COMPLETE",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "unnamed-memory-de": {
-    "title": "Unnamed Memory",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "vom-yakuza-zur-villainess-wiedergeboren-in-einem-otome-game-light-novel": {
-    "title": "Vom Yakuza zur Villainess: Wiedergeboren in einem Otome-Game (Light Novel)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "vom-yakuza-zur-villainess-wiedergeboren-in-einem-otome-game-manga": {
-    "title": "Vom Yakuza zur Villainess: Wiedergeboren in einem Otome-Game (Manga)",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
-   },
-   "your-forma": {
-    "title": "Your Forma",
-    "status": "DEFAULT",
-    "library": false,
-    "library_vols": [],
-    "prepub_active": []
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "publishing": "2026-12-26T23:00:00Z",
+       "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat Band 5"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat"
+    },
+    "new": {
+     "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 5,
+       "title": "The World’s Finest Assassin Gets Reincarnated in Another World as an Aristocrat Band 5",
+       "publishing": "2026-12-26T23:00:00Z",
+       "prepub_expiry": "2027-01-15"
+      }
+     ]
+    }
    }
-  },
-  "removed": [],
-  "changed": {}
+  }
  },
  "mal_aliases": {
-  "count": 1726,
+  "count": 1754,
   "with_english": 970,
   "open_titles_matched": 0,
   "jikan_fallback": false
