@@ -6,10 +6,23 @@ Erweitert die JNC-Pre-Pub-Logik (jnc_availability.py) auf JNC Nina
 (deutschsprachige JNC-Schwester, jnc-nina.eu). Sebastian ist Nina-
 Jahres-Mitglied (60 EUR/Jahr) – die Mitgliedschaft gewährt die
 woechentlichen Vorab-Teile (Pre-Pub) ALLER laufenden Nina-Serien,
-analog der Pre-Pub-Seite des JNC-USA-Dual-Pass. Annahme (analog
-JNC USA, 16.11. API-verifiziert dort): Part-Ablauf == Volume-
-"publishing" == E-Book-Release. NOCH NICHT API-verifiziert fuer
-Nina – erster Produktivlauf validiert die Feldsemantik.
+analog der Pre-Pub-Seite des JNC-USA-Dual-Pass. Fuer JNC USA final
+geklaert (funde-quellen.md Sweep 20.11., rev. 5): part.expiration ==
+volume.publishing ist das DIGITAL-Release, das reale Streaming-
+Expiry wird per Mid-Month-Regel berechnet.
+
+BESTAETIGT (20.11.2026, JNC-Expiry-Semantik rev. 5): JNC Nina teilt
+die JNC-USA-Codebasis – das Nina-Frontend (jnc-nina.eu) enthaelt im
+JS-Bundle dieselbe Mid-Month-Formel (15. des Folgemonats bei
+publishing ab dem 9., sonst 15. desselben Monats, jeweils 10 Uhr;
+So -> 16., Sa -> 17.) und koppelt die Streaming-Sichtbarkeit an
+das berechnete Datum (et = catchup || Date.now() > z), nicht an
+publishing (Code-Analyse 20.11.; funde-quellen.md rev. 5 /
+manga-sammlung/abo-katalog.md, Nina-Block, Stand 20.11.).
+Deshalb berechnet auch dieses Skript je aktivem PP-Band das
+Streaming-Expiry als zusaetzliches Feld "prepub_expiry" (analog
+scripts/jnc_availability.py); jnc_anschluss.py wertet fuer Nina
+dieselbe Mid-Month-Regel aus.
 
 Unterschied zu JNC USA: Nina hat KEINE Backlist-Library im Abo
 (kein readerStreamingEnabled-Aequivalent erwartet); "library"-Feld
@@ -39,7 +52,7 @@ import json
 import os
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 REPO = Path(os.environ.get("REPO_ROOT", str(Path.cwd())))
@@ -56,6 +69,32 @@ API_BASE_CANDIDATES = [
     "https://jnc-nina.eu/api/v2",
 ]
 UA_CANDIDATES = ["", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"]
+
+
+def mid_month_expiry(pub):
+    """JNC-Streaming-Expiry per Mid-Month-Regel (rev. 5, 20.11.2026).
+
+    Identische Formel wie JNC USA (gleiche Codebasis): publishing
+    (== part.expiration == Digital-Release) ist NICHT das Streaming-
+    Expiry; Ziel-Datum = 15. des Folgemonats bei publishing ab dem 9.,
+    sonst 15. desselben Monats (jeweils 10 Uhr); Sonntag -> 16.,
+    Samstag -> 17. Belegt per Nina-Frontend-Code-Analyse 20.11.
+    (JS-Bundle-Formel + Sichtbarkeits-Kopplung et = catchup ||
+    Date.now() > z); Belegkette: anime-manga/funde-quellen.md
+    Sweep 20.11. rev. 5, manga-sammlung/abo-katalog.md Nina-Block.
+    """
+    y, m = pub.year, pub.month
+    if pub.day >= 9:
+        m += 1
+        if m > 12:
+            m, y = 1, y + 1
+    exp = date(y, m, 15)
+    wd = exp.weekday()          # Mo=0 ... So=6
+    if wd == 6:                 # Sonntag -> 16.
+        exp = exp + timedelta(days=1)
+    elif wd == 5:               # Samstag -> 17.
+        exp = exp + timedelta(days=2)
+    return exp
 
 
 def api_get(url, ua):
@@ -155,11 +194,15 @@ def main():
                 pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             except ValueError:
                 continue
-            if pub_dt > now:   # PP aktiv = publishing Zukunft (Annahme analog JNC USA)
+            if pub_dt > now:   # PP aktiv = publishing Zukunft (Digital-Release);
+                               # Streaming-Ablauf per Mid-Month-Regel (rev. 5,
+                               # Nina-Bestaetigung 20.11. – gleiche Regel wie JNC USA)
                 prepub.append({
                     "number": v.get("number"),
                     "title": v.get("title", ""),
                     "publishing": pub,
+                    "prepub_expiry": mid_month_expiry(
+                        pub_dt.date()).isoformat(),
                 })
         lib_nums = sorted(
             n for n in (v.get("number") for v in vols
@@ -218,3 +261,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+

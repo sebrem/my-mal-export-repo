@@ -28,9 +28,30 @@ sowie alle mit Library-Zugang als Basisklassifikation):
 - LUECKE       Abo beginnt erst spaeter (min verfuegbares Bd. > 1 und kein
                eigener Anschlussstand dabei)
 - NUR-PP       kein Library-Band, nur Pre-Pub-Fenster
-Plus "eilt"-Flag: aktive Pre-Pubs, deren Ablauf (= publishing,
-E-Book-Release; Part-expiration == publishing, 16.11. API-verifiziert)
-in <= 14 Tagen faellt.
+Plus "eilt"-Flag: aktive Pre-Pubs, deren STREAMING-ABLAUF (Mid-Month-
+Regel, s. u.) in <= 14 Tagen faellt.
+EXPIRY-SEMANTIK FINAL rev. 5 (20.11.2026; Methodik-Heimat:
+manga-sammlung/abo-katalog.md, Belegkette: anime-manga/funde-quellen.md
+Sweep 20.11.): Das Labs-API-Feld part.expiration == volume.publishing
+ist das DIGITAL-RELEASE-Datum, NICHT das Streaming-Ablaufdatum. Das
+reale Streaming-Expiry berechnet die JNC-Website clientseitig per
+Mid-Month-Regel: 15. des Folgemonats, wenn publishing auf den 9. oder
+spaeter faellt, sonst 15. desselben Monats (jeweils 10 Uhr);
+faellt der 15. auf Sonntag -> 16., auf Samstag -> 17. Belegt an
+Elegance in Exile Bd. 1 und Middle-Aged and Mid No More Bd. 1
+(beide publishing 23.11.2026 -> Expires 15.12.2026). Die fruehere
+16.11.-Regel "Ablauf == publishing" ("expiration == publishing,
+API-verifiziert") ist damit UEBERHOLT; die API-Aequivalenz
+expiration == publishing bleibt wahr, bezeichnet aber das
+Digital-Release. EILT-Fenster seit 20.11. auf das berechnete
+Expiry bezogen, nicht auf publishing.
+Fuer JNC NINA gilt dieselbe Mid-Month-Regel: Das Nina-Frontend
+(jnc-nina.eu) enthaelt im JS-Bundle dieselbe Formel wie JNC-USA
+und koppelt die Streaming-Sichtbarkeit an das berechnete Datum
+(et = catchup || Date.now() > z), nicht an publishing (Code-
+Analyse 20.11.2026; funde-quellen.md rev. 5, abo-katalog.md
+Nina-Block, Stand 20.11.). Nina-EILT damit ebenfalls
+Mid-Month-basiert.
 Nina-Serien erscheinen mit Key "nina:<slug>" und "platform": "jnc_nina";
 Nina hat KEINE Backlist-Library - Library-Treffer dort = Loan/
 membership-abhaengig (Semantik: manga-sammlung/abo-katalog.md,
@@ -53,19 +74,61 @@ OUT = SNAP / "jnc_anschluss.json"
 EILT_DAYS = 14
 
 
-def classify(avail, own_vols, mal_read):
+def mid_month_expiry(pub):
+    """JNC-USA-Streaming-Expiry per Mid-Month-Regel (FINAL rev. 5, 20.11.2026).
+
+    publishing (== part.expiration == Digital-Release) ist NICHT das
+    Streaming-Expiry. Ziel-Datum = 15. des Folgemonats, wenn publishing
+    auf den 9. oder spaeter faellt, sonst 15. desselben Monats
+    (jeweils 10 Uhr); Sonntag -> 16., Samstag -> 17.
+    Belege/Belegkette: anime-manga/funde-quellen.md Sweep 20.11.
+    (Elegance in Exile Bd. 1 / Middle-Aged and Mid No More Bd. 1,
+    publishing 23.11.2026 -> Expires 15.12.2026).
+    """
+    y, m = pub.year, pub.month
+    if pub.day >= 9:
+        m += 1
+        if m > 12:
+            m, y = 1, y + 1
+    exp = date(y, m, 15)
+    wd = exp.weekday()          # Mo=0 ... So=6
+    if wd == 6:                 # Sonntag -> 16.
+        exp = exp + timedelta(days=1)
+    elif wd == 5:               # Samstag -> 17.
+        exp = exp + timedelta(days=2)
+    return exp
+
+
+def pp_expiry(pub_date, platform):
+    """Streaming-Ablaufdatum eines PP-Bands.
+
+    Gilt fuer BEIDE Plattformen: JNC USA und JNC Nina teilen dieselbe
+    Codebasis – das Nina-Frontend (jnc-nina.eu) enthaelt im JS-Bundle
+    dieselbe Mid-Month-Formel und koppelt die Streaming-Sichtbarkeit an
+    das berechnete Datum, nicht an publishing (Code-Analyse 20.11.2026;
+    funde-quellen.md rev. 5 / abo-katalog.md Nina-Block, Stand 20.11.).
+    Der platform-Parameter bleibt aus Signatur-Stabilitaet erhalten.
+    """
+    return mid_month_expiry(pub_date)
+
+
+def classify(avail, own_vols, mal_read, platform=None):
     lib = set(avail.get("library_vols") or [])
     pp = {}
     for p in avail.get("prepub_active") or []:
         if p.get("number") is None:
             continue
-        # DEFENSIV: PP-Baende mit publishing in der Vergangenheit sind
-        # abgelaufen (expiration == publishing) - aus dem woechentlichen
-        # Snapshot herausfiltern, egal was der Snapshot noch enthaelt.
+        # DEFENSIV: PP-Baende, deren STREAMING-EXPIRY (je Plattform,
+        # s. pp_expiry; rev. 5 20.11.: JNC-USA-Mid-Month-Regel, publishing
+        # selbst ist NUR das Digital-Release) in der Vergangenheit liegt,
+        # sind abgelaufen - aus dem woechentlichen Snapshot herausfiltern,
+        # egal was der Snapshot noch enthaelt. publishing in der Zukunft
+        # bedeutet digital noch nicht erschienen, aber PP-lesbar (aktiv).
         pub = p.get("publishing")
         if pub:
             try:
-                if date.fromisoformat(pub[:10]) < date.today():
+                pub_d = date.fromisoformat(pub[:10])
+                if pp_expiry(pub_d, platform) < date.today():
                     continue
             except ValueError:
                 pass
@@ -132,19 +195,23 @@ def process_platform(avail, own, mal_vols, mal_status, today,
         o = own.get(slug) or {}
         mid = o.get("mal_id")
         read = mal_vols.get(mid, 0) if mid else 0
-        klass, det = classify(av, o.get("volumes") or [], read)
+        klass, det = classify(av, o.get("volumes") or [], read,
+                              platform=platform)
         eilt = []
         for p in av.get("prepub_active") or []:
             pub = p.get("publishing")
             if not pub:
                 continue
             try:
-                exp = date.fromisoformat(pub[:10])   # Ablauf = publishing
+                # Streaming-Ablauf per Mid-Month-Regel (rev. 5, 20.11.),
+                # publishing selbst = Digital-Release
+                exp = pp_expiry(date.fromisoformat(pub[:10]), platform)
             except ValueError:
                 continue
             if 0 <= (exp - today).days <= EILT_DAYS:
                 eilt.append({"band": p.get("number"),
-                             "ablauf_ca": exp.isoformat()})
+                             "digital_release": pub[:10],
+                             "streaming_ablauf": exp.isoformat()})
         counts[klass] = counts.get(klass, 0) + 1
         entry = {
             "title": av.get("title"),
@@ -216,3 +283,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

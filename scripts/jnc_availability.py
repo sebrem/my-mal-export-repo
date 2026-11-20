@@ -4,11 +4,23 @@ JNC-Verfuegbarkeits-Lane (Stand 14.11.2026, erste Iteration).
 Fragt die JNC-API v2 (labs.j-novel.club) ab und dokumentiert pro Serie:
   - library:        mind. ein Volume mit readerStreamingEnabled: true
   - prepub_active:  Volumes mit publishing-Datum in der ZUKUNFT
-                    (aktualisierte Semantik 16.11.2026: Pre-Pub-Parts
-                    laufen exakt MIT dem E-Book-Release ab - Part-Feld
-                    "expiration" == Volume-"publishing", API-verifiziert
-                    an Fraudulent Fiances Bd. 1/Genius Bd. 1; die alte
-                    "+32 Tage"-Regel war ein Fehlschluss)
+                    (= digital noch nicht erschienen, aber PP-lesbar aktiv).
+                    SEMANTIK KORRIGIERT 20.11.2026 (EXPIRY rev. 5,
+                    Belegkette: anime-manga/funde-quellen.md Sweep 20.11.;
+                    Semantik-Heimat: manga-sammlung/abo-katalog.md):
+                    part.expiration == volume.publishing ist das
+                    DIGITAL-RELEASE-Datum (API-verifiziert), NICHT das
+                    Streaming-Ablaufdatum. Die 16.11.-Regel "Pre-Pub-Parts
+                    laufen exakt MIT dem E-Book-Release ab" ("Ablauf ==
+                    publishing") ist damit UEBERHOLT; reales Streaming-
+                    Expiry berechnet die JNC-Website clientseitig per
+                    Mid-Month-Regel: 15. des Folgemonats bei publishing
+                    ab dem 9., sonst 15. desselben Monats, jeweils 10 Uhr;
+                    Sonntag -> 16., Samstag -> 17. Belegt an Elegance in
+                    Exile Bd. 1 / Middle-Aged and Mid No More Bd. 1
+                    (publishing 23.11.2026 -> Expires 15.12.2026).
+                    Pro akt PP-Band wird das berechnete Streaming-Expiry
+                    als zusaetzliches Feld "prepub_expiry" ausgegeben.
 WICHTIG (blank-UA-Pflicht): Die API antwortet nur mit LEEREM
 User-Agent (explizit ueberschrieben) und Accept: application/json;
 Browser-/Python-Standard-UA = 403.
@@ -20,7 +32,8 @@ Snapshots: abo_snapshots/jnc_availability.json
 Diff (new/removed/changed): Merge nach abo_changes.json["jnc_availability"].
 Bandgenau (Einheiten-Regel 14.11.2026: JNC-Einheit = VOLUME):
 pro Serie "library_vols": [Bandnummern] und "prepub_active":
-[{number, publishing, readerStreamingEnabled}] - Grundlage fuer den
+[{number, publishing (Digital-Release), prepub_expiry (Streaming-Ablauf
+per Mid-Month-Regel), readerStreamingEnabled}] - Grundlage fuer den
 Anschluss-Join (scripts/jnc_anschluss.py x abo_snapshots/own_volumes.json).
 Laeuft im Abo-Katalog-Check-Workflow als eigener Step nach den
 Katalog-Lanes (continue-on-error: true).
@@ -30,7 +43,7 @@ import json
 import os
 import sys
 import urllib.request
-from datetime import datetime, timezone, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 REPO = Path(os.environ.get("REPO_ROOT", str(Path.cwd())))
@@ -38,6 +51,31 @@ SNAP_DIR = REPO / "abo_snapshots"
 SNAP_DIR.mkdir(exist_ok=True)
 SNAP_PATH = SNAP_DIR / "jnc_availability.json"
 CHANGES_PATH = REPO / "abo_changes.json"
+
+
+def mid_month_expiry(pub):
+    """JNC-Streaming-Expiry per Mid-Month-Regel (FINAL rev. 5, 20.11.2026).
+
+    publishing (== part.expiration == Digital-Release) ist NICHT das
+    Streaming-Expiry; Ziel-Datum = 15. des Folgemonats, wenn publishing
+    auf den 9. oder spaeter faellt, sonst 15. desselben Monats (jeweils
+    10 Uhr); Sonntag -> 16., Samstag -> 17. Formel aus den JNC-Website-
+    Bundles extrahiert; Belege: Elegance in Exile Bd. 1, Middle-Aged and
+    Mid No More Bd. 1 (publishing 23.11.2026 -> Expires 15.12.2026).
+    Belegkette: anime-manga/funde-quellen.md Sweep 20.11.
+    """
+    y, m = pub.year, pub.month
+    if pub.day >= 9:
+        m += 1
+        if m > 12:
+            m, y = 1, y + 1
+    exp = date(y, m, 15)
+    wd = exp.weekday()          # Mo=0 ... So=6
+    if wd == 6:                 # Sonntag -> 16.
+        exp = exp + timedelta(days=1)
+    elif wd == 5:               # Samstag -> 17.
+        exp = exp + timedelta(days=2)
+    return exp
 API = "https://labs.j-novel.club/app/v2"
 
 
@@ -108,11 +146,14 @@ def main():
                 pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             except ValueError:
                 continue
-            if pub_dt > now:   # PP aktiv = publishing Zukunft; Ablauf = publishing (expiration == publishing)
+            if pub_dt > now:   # PP aktiv = publishing Zukunft (Digital-Release);
+                               # Streaming-Ablauf per Mid-Month-Regel (rev. 5, 20.11.)
                 prepub.append({
                     "number": v.get("number"),
                     "title": v.get("title", ""),
                     "publishing": pub,
+                    "prepub_expiry": mid_month_expiry(
+                        pub_dt.date()).isoformat(),
                     "readerStreamingEnabled": bool(v.get("readerStreamingEnabled")),
                 })
         lib_nums = sorted(n for n in (v.get("number") for v in vols
@@ -170,3 +211,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
