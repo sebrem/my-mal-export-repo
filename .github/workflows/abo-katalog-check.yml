@@ -164,11 +164,21 @@ jobs:
           REPO_ROOT: ${{ github.workspace }}
         continue-on-error: true
 
+      # NEU 21.11.2026: Abo-Slim-Index (normierte Titel -> Katalog-
+      # Zugehoerigkeit ueber alle 7 Quellkataloge; Schritt-0-Schnelltest
+      # kuenftig in EINEM kleinen Abruf, statt title_index.* mit >1MB
+      # Connector-Grenze). index_manifest.json ("Index-Index") laeuft
+      # bei jedem make_indexes-Aufruf always-on mit.
+      - name: Abo-Slim-Index + Index-Manifest
+        run: python3 scripts/make_indexes.py --aboindex
+        env:
+          REPO_ROOT: ${{ github.workspace }}
+
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add abo_snapshots abo_changes.json jnc_watchlist.json
+          git add abo_snapshots abo_changes.json jnc_watchlist.json index_manifest.json
           git diff --cached --quiet || git commit -m "Abo-Katalog-Check: Snapshot + Changes $(date -u +%F)"
           git pull --rebase origin main
           git push || (sleep 20 && git pull --rebase origin main && git push)
