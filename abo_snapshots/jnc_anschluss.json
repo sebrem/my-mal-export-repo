@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-20T14:11:44+00:00",
+ "generated_at": "2026-11-21T08:23:53+00:00",
  "counts": {
-  "NUR-PP": 307,
+  "NUR-PP": 304,
   "KONFLIKT": 4,
   "START_OK": 161,
-  "LUECKE": 76,
+  "LUECKE": 79,
   "FORTSETZUNG": 6
  },
  "note": "JNC-Anschluss-Klassifikation (START_OK/FORTSETZUNG/KONFLIKT/LUECKE/NUR-PP); KONFLIKT = Abo-Baende content-gleich bereits besessen - nie als 'jetzt lesbar' melden; Einheit = Volume; Fund != Empfehlung. Seit v2 (17.11.): Nina-Serien mit Key 'nina:<slug>', platform jnc_nina, Pre-Pub-Abo ohne Backlist-Library.",
@@ -360,12 +360,19 @@
   },
   "all-eyes-on-nekoyashiki-kun-notice-me-not-my-characters": {
    "title": "All Eyes on Nekoyashiki-kun! Notice Me, Not My Characters",
-   "klassifikation": "NUR-PP",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": []
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    4
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": []
   },
   "altina-the-sword-princess": {
    "title": "Altina the Sword Princess",
@@ -5579,12 +5586,19 @@
   },
   "the-faraway-paladin-manga": {
    "title": "The Faraway Paladin (Manga)",
-   "klassifikation": "NUR-PP",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": []
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    15
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": []
   },
   "the-fearsome-witch-teaches-in-another-world": {
    "title": "The Fearsome Witch Teaches in Another World",
@@ -6949,12 +6963,19 @@
   },
   "young-lady-albert-is-courting-disaster": {
    "title": "Young Lady Albert Is Courting Disaster (Manga)",
-   "klassifikation": "NUR-PP",
+   "klassifikation": "LUECKE",
    "mal_id": null,
    "mal_status": null,
    "own_platform": null,
    "own_edition": null,
-   "eilt": []
+   "eilt": [],
+   "lib_vols": [],
+   "pp_vols": [
+    8
+   ],
+   "own_vols": [],
+   "mal_volumes_read": 0,
+   "overlap": []
   },
   "young-lady-albert-is-courting-disaster-light-novel": {
    "title": "Young Lady Albert Is Courting Disaster",
