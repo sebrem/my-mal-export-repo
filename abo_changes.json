@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-21T08:23:04Z",
+ "run_at": "2026-11-21T09:23:08Z",
  "mangaplaza": {
   "new": {},
   "removed": [],
@@ -22,13 +22,7 @@
   "changed": {}
  },
  "mangaplus": {
-  "new": {
-   "Legend of the Harem Hero": {
-    "title_id": "100859",
-    "title_url": "https://mangaplus.shueisha.co.jp/titles/100859",
-    "status": "serializing"
-   }
-  },
+  "new": {},
   "removed": [],
   "changed": {}
  },
@@ -40,80 +34,7 @@
  "jnc_availability": {
   "new": {},
   "removed": [],
-  "changed": {
-   "all-eyes-on-nekoyashiki-kun-notice-me-not-my-characters": {
-    "old": {
-     "library": false,
-     "library_vols": [],
-     "prepub_active": [],
-     "status": "DEFAULT",
-     "title": "All Eyes on Nekoyashiki-kun! Notice Me, Not My Characters"
-    },
-    "new": {
-     "title": "All Eyes on Nekoyashiki-kun! Notice Me, Not My Characters",
-     "status": "DEFAULT",
-     "library": false,
-     "library_vols": [],
-     "prepub_active": [
-      {
-       "number": 4,
-       "title": "All Eyes on Nekoyashiki-kun! Notice Me, Not My Characters Volume 4",
-       "publishing": "2027-02-17T17:00:00Z",
-       "prepub_expiry": "2027-03-15",
-       "readerStreamingEnabled": false
-      }
-     ]
-    }
-   },
-   "the-faraway-paladin-manga": {
-    "old": {
-     "library": false,
-     "library_vols": [],
-     "prepub_active": [],
-     "status": "DEFAULT",
-     "title": "The Faraway Paladin (Manga)"
-    },
-    "new": {
-     "title": "The Faraway Paladin (Manga)",
-     "status": "DEFAULT",
-     "library": false,
-     "library_vols": [],
-     "prepub_active": [
-      {
-       "number": 15,
-       "title": "The Faraway Paladin (Manga) Volume 15",
-       "publishing": "2027-02-17T15:00:00Z",
-       "prepub_expiry": "2027-03-15",
-       "readerStreamingEnabled": false
-      }
-     ]
-    }
-   },
-   "young-lady-albert-is-courting-disaster": {
-    "old": {
-     "library": false,
-     "library_vols": [],
-     "prepub_active": [],
-     "status": "DEFAULT",
-     "title": "Young Lady Albert Is Courting Disaster (Manga)"
-    },
-    "new": {
-     "title": "Young Lady Albert Is Courting Disaster (Manga)",
-     "status": "DEFAULT",
-     "library": false,
-     "library_vols": [],
-     "prepub_active": [
-      {
-       "number": 8,
-       "title": "Young Lady Albert is Courting Disaster (Manga) Volume 8",
-       "publishing": "2027-02-03T21:00:00Z",
-       "prepub_expiry": "2027-02-15",
-       "readerStreamingEnabled": false
-      }
-     ]
-    }
-   }
-  }
+  "changed": {}
  },
  "jnc_nina": {
   "new": {},
@@ -124,7 +45,7 @@
   "changed": {}
  },
  "mal_aliases": {
-  "count": 1754,
+  "count": 1759,
   "with_english": 970,
   "open_titles_matched": 0,
   "jikan_fallback": false
