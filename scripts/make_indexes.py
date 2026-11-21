@@ -522,8 +522,9 @@ def abo_alias_bridge():
                  "(Kanal-Details NICHT dupliziert -> via "
                  "abo_index.entries[key] nachschlagen). Join: abo_index "
                  "(norm-EXAKT) gegen mal_alias_index-Varianten (MAL "
-                 "alternative_titles + AniList-Synonyms). KEIN Eintrag "
-                 "beweist KEINE Nicht-Verfuegbarkeit. Multi-ID moeglich. "
+                 "alternative_titles + AniList-Synonyms). Ein fehlender "
+                 "Eintrag ist KEIN Beleg fuer Nicht-Verfuegbarkeit "
+                 "(Join = Schnittmenge beider Quellen). Multi-ID moeglich. "
                  "Bewusst schlank: nur der Schnitt beider Quellen, waechst "
                  "nur mit realen Neu-Matches."),
         "sources": ["abo_snapshots/abo_index.json", "mal_alias_index.json"],
