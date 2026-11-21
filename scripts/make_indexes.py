@@ -479,6 +479,64 @@ def abo_index():
     return dst
 
 
+def abo_alias_bridge():
+    """Alias-Bruecke fuer den Schritt-0: MAL-ID -> Abo-Kanaele.
+
+    Schliesst die Luecke, dass der Abo-Katalogtitel (oft EN) nicht unter
+    Romaji-/Haupttitel matcht: Join abo_index (norm-EXAKT) gegen die
+    Varianten aus mal_alias_index. Ein fehlender Eintrag beweist NICHT
+    Nicht-Verfuegbarkeit (Katalogtitel ausserhalb der MAL-Aliase oder
+    Titel nicht auf der Liste). Multi-ID-Treffer moeglich -> Liste."""
+    abo = load_json(os.path.join(ROOT, "abo_snapshots", "abo_index.json"))
+    alias = load_json(os.path.join(ROOT, "mal_alias_index.json"))
+    if abo is None or alias is None:
+        print("SKIP abo_alias_bridge (abo_index.json oder mal_alias_index.json "
+              "fehlt; Bridge laeuft mit, sobald beide existieren)")
+        return None
+    mal_by_norm = {}
+    for mid, meta in (alias.get("entries") or {}).items():
+        meta = meta or {}
+        for v in set((meta.get("variants") or []) + [meta.get("main")]):
+            nrm = norm_title(v)
+            if nrm:
+                mal_by_norm.setdefault(nrm, set()).add(str(mid))
+    entries = {}
+    matched_keys = set()
+    for key, payload in (abo.get("entries") or {}).items():
+        ids = mal_by_norm.get(key)
+        if not ids:
+            continue
+        matched_keys.add(key)
+        for mid in sorted(ids):
+            e = entries.setdefault(mid, {
+                "title": alias["entries"][mid].get("main"),
+                "keys": set()})
+            e["keys"].add(key)
+    entries = {mid: {"title": e["title"], "keys": sorted(e["keys"])}
+               for mid, e in entries.items()}
+    out = {
+        "generated_at": datetime.datetime.now(datetime.timezone.utc)
+                         .strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "count": len(entries),
+        "note": ("Alias-Bruecke Schritt-0: MAL-ID -> abo_index-Norm-Keys "
+                 "(Kanal-Details NICHT dupliziert -> via "
+                 "abo_index.entries[key] nachschlagen). Join: abo_index "
+                 "(norm-EXAKT) gegen mal_alias_index-Varianten (MAL "
+                 "alternative_titles + AniList-Synonyms). KEIN Eintrag "
+                 "beweist KEINE Nicht-Verfuegbarkeit. Multi-ID moeglich. "
+                 "Bewusst schlank: nur der Schnitt beider Quellen, waechst "
+                 "nur mit realen Neu-Matches."),
+        "sources": ["abo_snapshots/abo_index.json", "mal_alias_index.json"],
+        "matched_abo_keys": len(matched_keys),
+        "entries": entries,
+    }
+    dst = os.path.join(ROOT, "abo_snapshots", "abo_alias_bridge.json")
+    dump_json(dst, out)
+    print("OK abo_snapshots/abo_alias_bridge.json (%d MAL-IDs, %d Treffer-Katalogtitel)"
+          % (len(entries), len(matched_keys)))
+    return dst
+
+
 # Index-Manifest ("Index-Index"): Registry aller Index-Dateien.
 # (Datei, Zweck, Quelldatei(en), erzeugendes Flag, erzeugende Workflow(s))
 MANIFEST_REGISTRY = [
@@ -500,6 +558,9 @@ MANIFEST_REGISTRY = [
      "abo_snapshots/de_licenses.json", "--delicenses", "de-license-check.yml (Mo)"),
     ("abo_snapshots/abo_index.json", "norm. Titel -> Abo-Katalog-Zugehoerigkeit (Schritt-0)",
      "7 Katalog-Snapshots (mangaplus/mangaup/mangaplaza/jnc/jnc_nina/mm/akibapass)",
+     "--aboindex", "Abo-Katalog-Check (taegl.)"),
+    ("abo_snapshots/abo_alias_bridge.json", "MAL-ID -> Abo-Kanaele (Alias-Bruecke Schritt-0)",
+     "abo_snapshots/abo_index.json + mal_alias_index.json",
      "--aboindex", "Abo-Katalog-Check (taegl.)"),
     ("mal_alias_index.json", "norm-EXAKT-Titel -> MAL-ID (Alias-Bruecke)",
      "MAL API (alias-harvest in mal-export.yml)", "--mal (mitgefuehrt)",
@@ -609,6 +670,7 @@ def main():
             delicenses_index()
         if args.aboindex:
             abo_index()
+            abo_alias_bridge()
     index_manifest()  # laeuft IMMER mit (billig und aktuell halten)
     return 0
 
