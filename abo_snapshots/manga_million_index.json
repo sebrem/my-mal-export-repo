@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-16T13:08:56+00:00",
- "count": 401,
+ "generated_at": "2026-11-23T15:22:47+00:00",
+ "count": 402,
  "note": "Slim-Index: id -> name/name_de; Voll-Katalog in manga_million_catalog.json",
  "titles": {
   "1": {
@@ -2806,6 +2806,13 @@
   "1257": {
    "name": "Trial Friends",
    "name_de": "Trial Friends",
+   "de_differs": false,
+   "de_chapters": 0,
+   "en_chapters": 0
+  },
+  "1263": {
+   "name": "Onwards! The expendable expedition!",
+   "name_de": "Onwards! The expendable expedition!",
    "de_differs": false,
    "de_chapters": 0,
    "en_chapters": 0
