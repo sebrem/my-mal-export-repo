@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T13:56:39.168Z",
+  "updated": "2026-11-23T16:24:25.895Z",
   "source": "https://animationdigitalnetwork.com/de/video",
   "note": "DE-Katalog = Filter des FR-Gesamtkatalogs auf distributions 'de'. Sprach-/Genre-Codes in FR-Sicht (vostf/vf statt vostde/vde) – DE-Sicht liefert der Show-Seiten-Check im streaming_rollcheck. Titel-IDs und URL-Pfade sind identisch.",
   "total": 212,
@@ -35,7 +35,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -66,7 +66,7 @@
       "qualities": [
         "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -98,11 +98,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
-      "basedOn": "Jeu Vidéo",
+      "basedOn": "video-game",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -137,7 +137,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -171,7 +171,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -207,7 +207,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -235,7 +235,7 @@
       "newEpisode": false,
       "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -264,7 +264,7 @@
       "newEpisode": false,
       "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -299,7 +299,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -334,7 +334,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -371,7 +371,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -405,7 +405,7 @@
       "qualities": [
         "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -441,7 +441,7 @@
         "hd",
         "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -476,7 +476,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -510,7 +510,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -542,11 +542,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "hd",
-        "fhd",
-        "sd"
+        "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -581,7 +581,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -610,7 +610,7 @@
       "newEpisode": false,
       "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -637,7 +637,7 @@
       "newEpisode": false,
       "nextVideoReleaseDate": "2026-11-30T08:00:00Z",
       "qualities": [],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -671,7 +671,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -708,7 +708,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -741,11 +741,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
-        "hd"
+        "hd",
+        "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -776,7 +776,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -812,7 +812,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -848,7 +848,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -884,7 +884,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -918,7 +918,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -948,11 +948,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -988,7 +988,7 @@
         "fhd",
         "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1019,11 +1019,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "sd",
-        "hd"
+        "hd",
+        "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1056,11 +1056,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
+        "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1094,7 +1094,7 @@
       "qualities": [
         "sd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1123,11 +1123,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1159,11 +1159,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1197,7 +1197,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1232,7 +1232,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1265,7 +1265,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1298,7 +1298,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1334,7 +1334,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1346,7 +1346,7 @@
       "url": "https://animationdigitalnetwork.com/video/887-dreamland",
       "urlPath": "/video/887-dreamland",
       "type": "EPS",
-      "episodeCount": 5,
+      "episodeCount": 6,
       "age": "12+",
       "languages": [
         "vostf",
@@ -1364,11 +1364,11 @@
       "newEpisode": true,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1404,7 +1404,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1439,7 +1439,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1475,7 +1475,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1511,7 +1511,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1548,7 +1548,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Roman",
+      "basedOn": "novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1582,7 +1582,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1617,7 +1617,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1650,7 +1650,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1686,7 +1686,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1722,7 +1722,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1758,7 +1758,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1794,7 +1794,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1830,7 +1830,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -1860,11 +1860,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1893,11 +1893,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1909,7 +1909,7 @@
       "url": "https://animationdigitalnetwork.com/video/970-reincarnated-as-a-sword",
       "urlPath": "/video/970-reincarnated-as-a-sword",
       "type": "EPS",
-      "episodeCount": 19,
+      "episodeCount": 20,
       "age": "12+",
       "languages": [
         "vostf"
@@ -1927,13 +1927,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-18T15:30:00Z",
+      "nextVideoReleaseDate": "2026-11-25T15:30:00Z",
       "qualities": [
         "sd",
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -1970,7 +1970,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2007,7 +2007,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2036,11 +2036,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2069,18 +2069,18 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
     },
     {
       "id": 976,
-      "title": "Princess of the Bibliophile",
+      "title": "Bibliophile Princess",
       "originalTitle": "Mushikaburi Hime",
       "url": "https://animationdigitalnetwork.com/video/976-princess-of-the-bibliophile",
       "urlPath": "/video/976-princess-of-the-bibliophile",
@@ -2091,9 +2091,9 @@
         "vostf"
       ],
       "genres": [
-        "Animation japonaise",
         "Drame",
-        "Romance"
+        "Romance",
+        "Animation japonaise"
       ],
       "free": false,
       "simulcast": false,
@@ -2101,11 +2101,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "sd",
         "fhd",
-        "hd"
+        "hd",
+        "sd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2141,7 +2141,7 @@
         "sd",
         "hd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2178,7 +2178,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2208,9 +2208,9 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "fhd",
         "hd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": null,
       "distributions": "fr,de",
@@ -2241,11 +2241,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2275,11 +2275,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "fhd",
         "hd",
-        "sd",
-        "fhd"
+        "sd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2314,7 +2314,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2348,7 +2348,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2380,7 +2380,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2411,7 +2411,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2443,7 +2443,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2475,7 +2475,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2507,7 +2507,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2542,7 +2542,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2576,7 +2576,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2612,7 +2612,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2646,7 +2646,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2679,7 +2679,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2710,7 +2710,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2741,7 +2741,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2774,7 +2774,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2805,7 +2805,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2841,7 +2841,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2873,7 +2873,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2909,7 +2909,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -2943,7 +2943,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -2977,7 +2977,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3010,7 +3010,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3042,7 +3042,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3073,7 +3073,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3108,7 +3108,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3142,7 +3142,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3178,7 +3178,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3215,7 +3215,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3249,7 +3249,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3283,7 +3283,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3317,7 +3317,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3350,7 +3350,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Jeu Vidéo",
+      "basedOn": "video-game",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3386,7 +3386,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3418,7 +3418,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3450,7 +3450,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3481,7 +3481,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3515,7 +3515,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Roman",
+      "basedOn": "novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3579,7 +3579,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3613,7 +3613,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3646,7 +3646,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3680,7 +3680,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3712,7 +3712,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3749,7 +3749,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3781,7 +3781,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3815,7 +3815,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -3884,7 +3884,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3920,7 +3920,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3957,7 +3957,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -3992,7 +3992,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4029,7 +4029,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4065,7 +4065,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4101,7 +4101,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4135,7 +4135,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4169,7 +4169,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4206,7 +4206,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4237,7 +4237,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4272,7 +4272,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4306,7 +4306,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4341,7 +4341,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4374,7 +4374,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4408,7 +4408,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4441,7 +4441,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4475,7 +4475,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Roman",
+      "basedOn": "novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4507,7 +4507,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4541,7 +4541,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4574,7 +4574,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4609,7 +4609,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4641,7 +4641,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4675,7 +4675,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4712,7 +4712,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4744,7 +4744,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Roman",
+      "basedOn": "novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4778,7 +4778,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4812,7 +4812,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4844,7 +4844,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4877,7 +4877,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4909,7 +4909,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -4944,7 +4944,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -4978,7 +4978,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5011,7 +5011,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5043,7 +5043,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5075,7 +5075,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5109,7 +5109,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5144,7 +5144,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5177,7 +5177,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5209,7 +5209,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5242,7 +5242,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5254,7 +5254,7 @@
       "url": "https://animationdigitalnetwork.com/video/1311-tougen-anki",
       "urlPath": "/video/1311-tougen-anki",
       "type": "EPS",
-      "episodeCount": 33,
+      "episodeCount": 34,
       "age": "16+",
       "languages": [
         "vostf",
@@ -5272,13 +5272,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-20T16:00:00Z",
+      "nextVideoReleaseDate": "2026-11-27T16:00:00Z",
       "qualities": [
         "fhd",
         "hd",
         "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5311,7 +5311,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5345,7 +5345,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5381,7 +5381,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5417,7 +5417,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5453,7 +5453,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5486,7 +5486,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5519,7 +5519,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5555,7 +5555,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5590,7 +5590,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5625,7 +5625,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5660,7 +5660,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5691,7 +5691,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5724,7 +5724,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5760,7 +5760,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5792,7 +5792,7 @@
       "qualities": [
         "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5826,7 +5826,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5859,7 +5859,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5891,7 +5891,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5925,7 +5925,7 @@
         "hd",
         "sd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -5960,7 +5960,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Roman",
+      "basedOn": "novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -5996,7 +5996,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6028,7 +6028,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6061,7 +6061,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6096,7 +6096,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6130,7 +6130,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6165,7 +6165,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6199,7 +6199,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6227,11 +6227,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6260,11 +6260,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "sd",
         "fhd",
-        "hd",
-        "sd"
+        "hd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6300,7 +6300,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6332,7 +6332,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Jeu Vidéo",
+      "basedOn": "video-game",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6366,7 +6366,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6401,7 +6401,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6413,7 +6413,7 @@
       "url": "https://animationdigitalnetwork.com/video/1381-rilakkuma",
       "urlPath": "/video/1381-rilakkuma",
       "type": "EPS",
-      "episodeCount": 32,
+      "episodeCount": 33,
       "age": "0+",
       "languages": [
         "vostf"
@@ -6426,13 +6426,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-21T01:00:00Z",
+      "nextVideoReleaseDate": "2026-11-28T01:00:00Z",
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6466,7 +6466,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6501,7 +6501,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6534,7 +6534,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6567,7 +6567,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6602,7 +6602,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6635,7 +6635,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Roman",
+      "basedOn": "novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6667,7 +6667,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6702,7 +6702,7 @@
         "fhd",
         "hd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6734,7 +6734,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6768,7 +6768,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6795,10 +6795,10 @@
       "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "hd",
-        "sd"
+        "sd",
+        "hd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6830,7 +6830,7 @@
         "sd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6863,7 +6863,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6897,7 +6897,7 @@
         "hd",
         "fhd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de",
       "rating": 3,
       "ratingsCount": 10
@@ -6931,7 +6931,7 @@
         "sd",
         "fhd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6960,11 +6960,11 @@
       "newEpisode": false,
       "nextVideoReleaseDate": null,
       "qualities": [
+        "hd",
         "sd",
-        "fhd",
-        "hd"
+        "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -6976,7 +6976,7 @@
       "url": "https://animationdigitalnetwork.com/video/1428-even-the-student-council-has-its-holes",
       "urlPath": "/video/1428-even-the-student-council-has-its-holes",
       "type": "EPS",
-      "episodeCount": 7,
+      "episodeCount": 8,
       "age": "16+",
       "languages": [
         "vostf"
@@ -6991,13 +6991,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-21T17:00:00Z",
+      "nextVideoReleaseDate": null,
       "qualities": [
         "fhd",
-        "sd",
-        "hd"
+        "hd",
+        "sd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -7009,7 +7009,7 @@
       "url": "https://animationdigitalnetwork.com/video/1429-now-that-i-can-control-reality-with-a-mouse-cursor-im-gonna-click-away-on-the-girls",
       "urlPath": "/video/1429-now-that-i-can-control-reality-with-a-mouse-cursor-im-gonna-click-away-on-the-girls",
       "type": "EPS",
-      "episodeCount": 7,
+      "episodeCount": 8,
       "age": "18+",
       "languages": [
         "vostf"
@@ -7022,11 +7022,11 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-22T16:00:00Z",
+      "nextVideoReleaseDate": null,
       "qualities": [
-        "hd",
         "sd",
-        "fhd"
+        "fhd",
+        "hd"
       ],
       "basedOn": null,
       "distributions": "fr,de,pl",
@@ -7040,7 +7040,7 @@
       "url": "https://animationdigitalnetwork.com/video/1430-my-girlfriends-friend",
       "urlPath": "/video/1430-my-girlfriends-friend",
       "type": "EPS",
-      "episodeCount": 7,
+      "episodeCount": 8,
       "age": "18+",
       "languages": [
         "vostf"
@@ -7053,11 +7053,11 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-22T16:05:00Z",
+      "nextVideoReleaseDate": "2026-11-29T16:05:00Z",
       "qualities": [
         "hd",
-        "fhd",
-        "sd"
+        "sd",
+        "fhd"
       ],
       "basedOn": null,
       "distributions": "fr,de,pl",
@@ -7071,7 +7071,7 @@
       "url": "https://animationdigitalnetwork.com/video/1431-nia-liston-the-merciless-maiden",
       "urlPath": "/video/1431-nia-liston-the-merciless-maiden",
       "type": "EPS",
-      "episodeCount": 6,
+      "episodeCount": 7,
       "age": "12+",
       "languages": [
         "vostf"
@@ -7087,13 +7087,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-17T12:55:00Z",
+      "nextVideoReleaseDate": "2026-11-24T12:55:00Z",
       "qualities": [
-        "sd",
+        "hd",
         "fhd",
-        "hd"
+        "sd"
       ],
-      "basedOn": "Light Novel",
+      "basedOn": "light-novel",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -7105,7 +7105,7 @@
       "url": "https://animationdigitalnetwork.com/video/1432-dragon-ball-super-beerus",
       "urlPath": "/video/1432-dragon-ball-super-beerus",
       "type": "EPS",
-      "episodeCount": 6,
+      "episodeCount": 7,
       "age": "10+",
       "languages": [
         "vostf"
@@ -7122,13 +7122,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-22T17:00:00Z",
+      "nextVideoReleaseDate": "2026-11-29T17:00:00Z",
       "qualities": [
-        "hd",
+        "sd",
         "fhd",
-        "sd"
+        "hd"
       ],
-      "basedOn": "Manga",
+      "basedOn": "manga",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -7140,7 +7140,7 @@
       "url": "https://animationdigitalnetwork.com/video/1433-suikoden",
       "urlPath": "/video/1433-suikoden",
       "type": "EPS",
-      "episodeCount": 6,
+      "episodeCount": 7,
       "age": "10+",
       "languages": [
         "vostf"
@@ -7155,13 +7155,13 @@
       "simulcast": true,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-17T14:30:00Z",
+      "nextVideoReleaseDate": "2026-11-24T14:30:00Z",
       "qualities": [
-        "sd",
+        "hd",
         "fhd",
-        "hd"
+        "sd"
       ],
-      "basedOn": "Jeu Vidéo",
+      "basedOn": "video-game",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
@@ -7173,7 +7173,7 @@
       "url": "https://animationdigitalnetwork.com/video/1434-yu-sanchi-from-yu-hachi",
       "urlPath": "/video/1434-yu-sanchi-from-yu-hachi",
       "type": "EPS",
-      "episodeCount": 6,
+      "episodeCount": 7,
       "age": "0+",
       "languages": [
         "vostf"
@@ -7186,13 +7186,13 @@
       "simulcast": false,
       "available": true,
       "newEpisode": true,
-      "nextVideoReleaseDate": "2026-11-20T07:00:00Z",
+      "nextVideoReleaseDate": "2026-11-27T07:00:00Z",
       "qualities": [
-        "sd",
         "hd",
+        "sd",
         "fhd"
       ],
-      "basedOn": "Oeuvre Originale",
+      "basedOn": "original",
       "distributions": "fr,de,pl",
       "rating": 3,
       "ratingsCount": 10
