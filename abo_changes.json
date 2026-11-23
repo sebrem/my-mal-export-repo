@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-21T09:23:08Z",
+ "run_at": "2026-11-23T15:59:11Z",
  "mangaplaza": {
   "new": {},
   "removed": [],
@@ -17,14 +17,54 @@
   "changed": {}
  },
  "mangaup": {
-  "new": {},
+  "new": {
+   "Date or Kill: A Match Made in Secrecy": {
+    "title_id": "1122",
+    "title_url": "https://global.manga-up.com/manga/1122"
+   },
+   "I&#x27;m Glad My Twin Banished Me! ~An Overworked Saintess Swaps Royal Stress for Food and Fluff~": {
+    "title_id": "1203",
+    "title_url": "https://global.manga-up.com/manga/1203"
+   }
+  },
   "removed": [],
   "changed": {}
  },
  "mangaplus": {
-  "new": {},
+  "new": {
+   "Hizuki of the Ginza Patrol": {
+    "title_id": "100867",
+    "title_url": "https://mangaplus.shueisha.co.jp/titles/100867",
+    "status": "serializing"
+   }
+  },
   "removed": [],
-  "changed": {}
+  "changed": {
+   "SAKAMOTO DAYS": {
+    "old": {
+     "status": "serializing",
+     "title_id": "100127",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/100127"
+    },
+    "new": {
+     "title_id": "200059",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/200059",
+     "status": "serializing"
+    }
+   },
+   "Дни Сакамото": {
+    "old": {
+     "status": "serializing",
+     "title_id": "600008",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/600008"
+    },
+    "new": {
+     "title_id": "600008",
+     "title_url": "https://mangaplus.shueisha.co.jp/titles/600008",
+     "status": "completed"
+    }
+   }
+  }
  },
  "akibapass": {
   "new": {},
@@ -34,7 +74,176 @@
  "jnc_availability": {
   "new": {},
   "removed": [],
-  "changed": {}
+  "changed": {
+   "elegance-in-exile-from-alchemy-to-luxury-with-my-ardent-knight": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "prepub_expiry": "2026-12-15",
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight"
+    },
+    "new": {
+     "title": "Elegance in Exile: From Alchemy to Luxury with My Ardent Knight",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": []
+    }
+   },
+   "formerly-the-fallen-daughter-of-the-duke": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": [
+      {
+       "number": 7,
+       "prepub_expiry": "2026-12-15",
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Formerly, the Fallen Daughter of the Duke: Volume 7"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Formerly, the Fallen Daughter of the Duke"
+    },
+    "new": {
+     "title": "Formerly, the Fallen Daughter of the Duke",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3
+     ],
+     "prepub_active": []
+    }
+   },
+   "invaders-of-the-rokujouma": {
+    "old": {
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "prepub_active": [
+      {
+       "number": 51,
+       "prepub_expiry": "2026-12-15",
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Invaders of the Rokujouma!? Volume 49"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Invaders of the Rokujouma!?"
+    },
+    "new": {
+     "title": "Invaders of the Rokujouma!?",
+     "status": "DEFAULT",
+     "library": true,
+     "library_vols": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "prepub_active": []
+    }
+   },
+   "middle-aged-and-mid-no-more-rising-in-ranks-over-drinks-with-an-elite-priest": {
+    "old": {
+     "library": false,
+     "library_vols": [],
+     "prepub_active": [
+      {
+       "number": 1,
+       "prepub_expiry": "2026-12-15",
+       "publishing": "2026-11-23T06:00:00Z",
+       "readerStreamingEnabled": false,
+       "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest Volume 1"
+      }
+     ],
+     "status": "DEFAULT",
+     "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest"
+    },
+    "new": {
+     "title": "Middle-Aged and Mid No More: Rising in Ranks over Drinks with an Elite Priest",
+     "status": "DEFAULT",
+     "library": false,
+     "library_vols": [],
+     "prepub_active": []
+    }
+   }
+  }
  },
  "jnc_nina": {
   "new": {},
@@ -45,8 +254,8 @@
   "changed": {}
  },
  "mal_aliases": {
-  "count": 1759,
-  "with_english": 970,
+  "count": 1779,
+  "with_english": 999,
   "open_titles_matched": 0,
   "jikan_fallback": false
  }

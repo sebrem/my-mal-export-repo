@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-21T09:24:45.906119+00:00",
+ "generated_at": "2026-11-23T16:00:39.032046+00:00",
  "note": "Vorfilter fuer Abo-Discovery-Check (20./Monat). Fund != Empfehlung: Kandidaten vom Agenten verifizieren (Doppelkauf-Check-Sequenz + MAL-Lesestand nach Format-Lesarten). already_tracked nicht als Neufund melden (Status-Drift pruefen). mp_noise ignorieren.",
  "counts": {
-  "candidates": 116,
-  "already_tracked": 38,
+  "candidates": 113,
+  "already_tracked": 42,
   "mp_noise": 7
  },
  "candidates": {
@@ -71,6 +71,18 @@
     "mal_score": null
    },
    {
+    "title": "I'm Glad My Twin Banished Me! ~An Overworked Saintess Swaps Royal Stress for Food and Fluff~",
+    "title_id": "1203",
+    "title_url": "https://global.manga-up.com/manga/1203",
+    "platform": "mangaup",
+    "patterns": [
+     "Food/Slow-Life"
+    ],
+    "mal_id": null,
+    "mal_status": null,
+    "mal_score": null
+   },
+   {
     "title": "Proud to be the Villainess: I'm Doomed After Stealing my Half-Sister's Fiance and Having Her Banished",
     "title_id": "514",
     "title_url": "https://global.manga-up.com/manga/514",
@@ -89,18 +101,6 @@
     "platform": "mangaup",
     "patterns": [
      "Office/Workplace"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "The Strongest Middle-Aged Hunter Goes to Another World: This Time, He Wants to Have a Simple Life",
-    "title_id": "92",
-    "title_url": "https://global.manga-up.com/manga/92",
-    "platform": "mangaup",
-    "patterns": [
-     "Erwachsenen-Romance"
     ],
     "mal_id": null,
     "mal_status": null,
@@ -136,18 +136,6 @@
     "title": "Food Wars!: Shokugeki no Sanji",
     "title_id": "100172",
     "title_url": "https://mangaplus.shueisha.co.jp/titles/100172",
-    "platform": "mangaplus",
-    "patterns": [
-     "Food/Slow-Life"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "Food Wars!: Shokugeki no Soma",
-    "title_id": "100013",
-    "title_url": "https://mangaplus.shueisha.co.jp/titles/100013",
     "platform": "mangaplus",
     "patterns": [
      "Food/Slow-Life"
@@ -1253,30 +1241,6 @@
     "mal_score": null
    },
    {
-    "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride",
-    "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
-    "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
-    "platform": "jnc",
-    "patterns": [
-     "Ehe-Praemisse"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
-    "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga)",
-    "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
-    "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
-    "platform": "jnc",
-    "patterns": [
-     "Ehe-Praemisse"
-    ],
-    "mal_id": null,
-    "mal_status": null,
-    "mal_score": null
-   },
-   {
     "title": "[jnc] The Exiled Noble Rises as the Holy King: Befriending Fluffy Beasts and a Holy Maiden with My Ultimate Cheat Skill!",
     "title_id": "the-exiled-noble-rises-as-the-holy-king-befriending-fluffy-beasts-and-a-holy-maiden-with-my-ultimate-cheat-skill",
     "title_url": "https://j-novel.club/series/the-exiled-noble-rises-as-the-holy-king-befriending-fluffy-beasts-and-a-holy-maiden-with-my-ultimate-cheat-skill",
@@ -1496,6 +1460,18 @@
    "mal_score": 8
   },
   {
+   "title": "The Strongest Middle-Aged Hunter Goes to Another World: This Time, He Wants to Have a Simple Life",
+   "title_id": "92",
+   "title_url": "https://global.manga-up.com/manga/92",
+   "platform": "mangaup",
+   "patterns": [
+    "Erwachsenen-Romance"
+   ],
+   "mal_id": 121285,
+   "mal_status": "reading",
+   "mal_score": 8
+  },
+  {
    "title": "The Strongest Wizard Becomes a Countryside Guard After Taking an Arrow to the Knee",
    "title_id": "144",
    "title_url": "https://global.manga-up.com/manga/144",
@@ -1506,6 +1482,18 @@
    "mal_id": 119304,
    "mal_status": "reading",
    "mal_score": 8
+  },
+  {
+   "title": "Food Wars!: Shokugeki no Soma",
+   "title_id": "100013",
+   "title_url": "https://mangaplus.shueisha.co.jp/titles/100013",
+   "platform": "mangaplus",
+   "patterns": [
+    "Food/Slow-Life"
+   ],
+   "mal_id": 45757,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
   },
   {
    "title": "Red Cat Ramen",
@@ -1804,6 +1792,30 @@
    "mal_score": 0
   },
   {
+   "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride",
+   "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
+   "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 123513,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
+   "title": "[jnc] The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga)",
+   "title_id": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
+   "title_url": "https://j-novel.club/series/the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
+   "platform": "jnc",
+   "patterns": [
+    "Ehe-Praemisse"
+   ],
+   "mal_id": 123513,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
+  },
+  {
    "title": "[jnc] The Oblivious Saint Can't Contain Her Power: Disgraced No Longer, I'm Finding Happiness with the Prince! (Manga)",
    "title_id": "the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga",
    "title_url": "https://j-novel.club/series/the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga",
@@ -1860,9 +1872,9 @@
     "Katzen",
     "Kreaturen/Fantasy"
    ],
-   "mal_id": 109073,
-   "mal_status": "reading",
-   "mal_score": 8
+   "mal_id": 104117,
+   "mal_status": "plan_to_read",
+   "mal_score": 0
   },
   {
    "title": "[jnc] This Alluring Dark Elf Has the Heart of a Middle-Aged Man! (Manga)",
