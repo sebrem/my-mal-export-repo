@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:50:40.411278+00:00",
+  "generated_at": "2026-11-24T00:04:11.184939+00:00",
   "ok": false,
   "grace_hours": 4,
   "late_alarm_hours": 8,
@@ -7,26 +7,26 @@
     {
       "name": "MAL Sync",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T12:51:29Z (Run 43870356964), aber 8.6h nach Termin 2026-11-16T04:17:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T04:17:00+00:00"
+      "detail": "Erfolg 2026-11-23T14:48:55Z (Run 45198241172), aber 10.5h nach Termin 2026-11-23T04:17:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T04:17:00+00:00"
     },
     {
       "name": "MAL Friends Candidates",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T13:02:19Z (Run 43871986977), aber 8.5h nach Termin 2026-11-16T04:35:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T04:35:00+00:00"
+      "detail": "Erfolg 2026-11-23T15:09:51Z (Run 45202101694), aber 10.6h nach Termin 2026-11-23T04:35:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T04:35:00+00:00"
     },
     {
       "name": "AniList Export",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T13:11:03Z (Run 43873350220), aber 8.4h nach Termin 2026-11-16T04:47:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T04:47:00+00:00"
+      "detail": "Erfolg 2026-11-23T15:24:49Z (Run 45204934607), aber 10.6h nach Termin 2026-11-23T04:47:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T04:47:00+00:00"
     },
     {
       "name": "Abo-Katalog-Check",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T13:39:43Z (Run 43877915388), aber 8.4h nach Termin 2026-11-16T05:17:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T05:17:00+00:00"
+      "detail": "Erfolg 2026-11-23T15:59:00Z (Run 45211288301), aber 10.7h nach Termin 2026-11-23T05:17:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T05:17:00+00:00"
     },
     {
       "name": "Verlags-Announcements",
@@ -43,8 +43,8 @@
     {
       "name": "Streaming Rollcheck",
       "status": "late",
-      "detail": "Erfolg 2026-11-22T11:24:31Z (Run 45017173802), aber 8.1h nach Termin 2026-11-22T03:17:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-22T03:17:00+00:00"
+      "detail": "Erfolg 2026-11-23T12:39:39Z (Run 45176405670), aber 9.4h nach Termin 2026-11-23T03:17:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T03:17:00+00:00"
     },
     {
       "name": "Theme & Seiyuu Harvest",
@@ -55,20 +55,20 @@
     {
       "name": "ADN Katalog Harvest",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T13:56:30Z (Run 43880652875), aber 8.3h nach Termin 2026-11-16T05:40:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T05:40:00+00:00"
+      "detail": "Erfolg 2026-11-23T16:24:17Z (Run 45216107261), aber 10.7h nach Termin 2026-11-23T05:40:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T05:40:00+00:00"
     },
     {
       "name": "Anime2You Feed Harvest",
       "status": "late",
-      "detail": "Erfolg 2026-11-22T14:47:25Z (Run 45034720372), aber 8.3h nach Termin 2026-11-22T06:30:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-22T06:30:00+00:00"
+      "detail": "Erfolg 2026-11-23T18:35:53Z (Run 45240083796), aber 12.1h nach Termin 2026-11-23T06:30:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T06:30:00+00:00"
     },
     {
       "name": "DE-License-Check",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T16:38:46Z (Run 43909783990), aber 9.6h nach Termin 2026-11-16T07:00:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T07:00:00+00:00"
+      "detail": "Erfolg 2026-11-23T18:53:13Z (Run 45243087891), aber 11.9h nach Termin 2026-11-23T07:00:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T07:00:00+00:00"
     },
     {
       "name": "Staff Harvest",
@@ -85,14 +85,14 @@
     {
       "name": "Manga Million Harvest",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T13:08:00Z (Run 43872866298), aber 8.5h nach Termin 2026-11-16T04:40:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T04:40:00+00:00"
+      "detail": "Erfolg 2026-11-23T15:21:44Z (Run 45204358200), aber 10.7h nach Termin 2026-11-23T04:40:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T04:40:00+00:00"
     },
     {
       "name": "Titel-Index",
       "status": "late",
-      "detail": "Erfolg 2026-11-16T13:11:06Z (Run 43873355831), aber 8.4h nach Termin 2026-11-16T04:50:00+00:00 (Schwelle 8h)",
-      "expected": "2026-11-16T04:50:00+00:00"
+      "detail": "Erfolg 2026-11-23T15:26:27Z (Run 45205252149), aber 10.6h nach Termin 2026-11-23T04:50:00+00:00 (Schwelle 8h)",
+      "expected": "2026-11-23T04:50:00+00:00"
     }
   ]
 }
