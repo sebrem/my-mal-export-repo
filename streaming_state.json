@@ -509,7 +509,37 @@
     42590,
     52211,
     62964,
-    59632
+    59632,
+    52034,
+    54846,
+    1589,
+    53407,
+    34420,
+    64535,
+    65539,
+    63789,
+    57947,
+    61335,
+    63326,
+    52973,
+    64006,
+    55089,
+    60948,
+    36982,
+    38778,
+    48483,
+    64554,
+    585,
+    35078,
+    32182,
+    53585,
+    58739,
+    10389,
+    58492,
+    57864,
+    17074,
+    457,
+    65077
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -663,6 +693,60 @@
         "season_video_count": 24,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "457": {
+      "title": "Mushishi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Mushi-Shi",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G6ZX4EMGR"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.9e60cac2-053d-482d-afc8-9bbd3921a80f"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a1e9a0b1-959c-4e15-8457-5b1ed61d5346"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7b3590b0-fa03-4c82-8e17-c50ed86c26f8"
+        },
+        {
+          "provider": "fmd",
+          "name": "freenet video (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://freenet-video.meinvod.de/mushi-shi-s01-se45148453"
+        }
+      ]
     },
     "467": {
       "title": "Koukaku Kidoutai: Stand Alone Complex",
@@ -910,6 +994,45 @@
         "season_video_count": 15,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "1589": {
+      "title": "Bartender",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Bartender",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GWDU8DG0N"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.2b9b514c-4d30-4efe-86ce-fd72641d2921"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "plx",
+          "name": null,
+          "tier": "other",
+          "note": "unmapped shortName – Map verfeinern",
+          "url": "https://watch.plex.tv/show/bartender-1/season/1/episode/2?autoplay=1&utm_content=61b15dcfa0f200438421c518&utm_medium=deeplink&utm_source=justWatch-v2-catalog"
+        }
+      ]
     },
     "1592": {
       "title": "Hataraki Man",
@@ -2191,6 +2314,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "17074": {
+      "title": "Monogatari Series: Second Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Monogatari",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GEVUW339P"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.380b4162-7c0f-4a4f-a54a-4bd56612a7de"
+        }
+      ],
+      "legal_de_other_providers": []
+    },
     "17082": {
       "title": "Aiura",
       "mal_status": "plan_to_watch",
@@ -3357,6 +3511,66 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "32182": {
+      "title": "Mob Psycho 100",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Mob Psycho 100",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/80179798"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00258741ITIT"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/80179798"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.349ce4fb-29fb-4a83-8dca-1c0eef872c15"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "jyn",
+          "name": "Joyn (nicht abonniert)",
+          "tier": "other",
+          "note": "Echter Streaming-Dienst ohne Sebastians Abo -> Re-Lizenz-Monitoring-Signal.",
+          "url": "https://www.joyn.de/serien/mob-psycho-100"
+        },
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.71b9726b-4111-4cbc-928f-766862b88785"
+        }
+      ]
+    },
     "32268": {
       "title": "Koyomimonogatari",
       "mal_status": "plan_to_watch",
@@ -3598,6 +3812,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.00b09a44-31fb-f51e-f6da-b1fbdad1805f"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "34420": {
+      "title": "Isekai Izakaya: Koto Aitheria no Izakaya Nobu",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Isekai Izakaya - Japanese Food From Another World",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GRVDW2MDR"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -4037,6 +4274,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1046a83e-8533-40b0-b584-4ecfa80f9d88"
         }
       ]
+    },
+    "36982": {
+      "title": "Micchiri Neko",
+      "mal_status": "on_hold",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Mitchiri Neko",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G6Q41KK1R"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.05fccaa8-fd01-4805-bda9-2ff158bd3fbe"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "37140": {
       "title": "Gegege no Kitarou (2018)",
@@ -5551,6 +5819,37 @@
         }
       ]
     },
+    "48483": {
+      "title": "Mieruko-chan",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Mieruko-chan",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU4J0JK"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.131c50f8-1f32-4cef-bb94-3db25e21b137"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "48548": {
       "title": "5-toubun no Hanayome Movie",
       "mal_status": "plan_to_watch",
@@ -6272,6 +6571,29 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "52034": {
+      "title": "[Oshi no Ko]",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "[Oshi No Ko]",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.8a959180-b6d3-48eb-90a5-4b109409fa37"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "52173": {
       "title": "Koori Zokusei Danshi to Cool na Douryou Joshi",
       "mal_status": "plan_to_watch",
@@ -6565,6 +6887,68 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.fbada303-83a6-4ce0-a367-1e4e70cfa61b"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "52973": {
+      "title": "Megami no Café Terrace",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Café Terrace and Its Goddesses",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU4J81M"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5366d09d-a1e7-4b99-9571-5135b562c6c3"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "53407": {
+      "title": "Bartender: Kami no Glass",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "BARTENDER Glass of God",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GX9UQEJ37"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6e6c80e3-dcc8-4be6-ad3b-e5216d619814"
         }
       ],
       "adn_channel_caveat": [],
@@ -7792,6 +8176,68 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "57864": {
+      "title": "Monogatari Series: Off & Monster Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Monogatari Series: Off & Monster Season",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G31UXNDZ7"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.84fba6cc-5e5b-455c-a36c-5c5936072d18"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "57947": {
+      "title": "Mayonaka Punch",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "MAYONAKA PUNCH",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G14U47DX7"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e743b0cd-6554-4711-a23d-e60c23d7fda3"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "58259": {
       "title": "Douse, Koishite Shimaunda.",
       "mal_status": "plan_to_watch",
@@ -7818,6 +8264,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b83f8d42-781d-4a60-834d-fe5f990a7d4e"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "58492": {
+      "title": "Mono",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Mono",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GJWUQ1782"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d7a3c858-d6a7-4280-897b-3bb3df02bc4c"
         }
       ],
       "adn_channel_caveat": [],
@@ -7859,6 +8336,37 @@
           "tier": "other",
           "note": null,
           "url": "https://www.viki.com/videos/1261492v-ameku-takaos-detective-karte-episode-1"
+        }
+      ]
+    },
+    "58739": {
+      "title": "Momentary Lily",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Momentary Lily",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc5f0ec8-81cc-42cb-ad96-3a5f3b4db52c"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.28a0111e-8439-488a-96ff-9e0b7c0241d4"
         }
       ]
     },
@@ -8745,6 +9253,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "60948": {
+      "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
+      "mal_status": "watching",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00389229ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.46be8191-8efd-4650-bef7-bd640a44f1b2"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "60951": {
       "title": "Kizetsu Yuusha to Ansatsu Hime",
       "mal_status": "plan_to_watch",
@@ -8941,6 +9480,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.a7039b5f-a029-4e41-a1ed-7b775e94d00f"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "61335": {
+      "title": "Medalist 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "low",
+      "jw_title": "Medalist",
+      "my_direct_hits": [
+        {
+          "provider": "dnp",
+          "name": "Disney+",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.disneyplus.com/browse/entity-bb33d0c2-b077-4bc0-a549-d2ca27d4afa8"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -10249,6 +10811,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "63789": {
+      "title": "Mayonaka Heart Tune 2nd Season",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Tune In to the Midnight Heart",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00367997ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc89c10e-12b8-43ea-94e0-ec990ae827f6"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "63817": {
       "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
       "mal_status": "plan_to_watch",
@@ -10754,6 +11347,51 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.0744ef87-5c21-4f15-a33a-4f028cb9067d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "65077": {
+      "title": "Mushoku Tensei III: Isekai Ittara Honki Dasu Part 2",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-25T12:55:11.801Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Mushoku Tensei: Jobless Reincarnation",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/80987039"
+        },
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G9DU9NK45"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/80987039"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5d750e60-9585-4d8d-8a59-fd720da05bce"
         }
       ],
       "adn_channel_caveat": [],
