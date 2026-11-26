@@ -539,7 +539,37 @@
     57864,
     17074,
     457,
-    65077
+    65077,
+    65551,
+    64374,
+    33323,
+    16067,
+    41168,
+    63472,
+    877,
+    50593,
+    4081,
+    42894,
+    13585,
+    62913,
+    58082,
+    65025,
+    15689,
+    38924,
+    34658,
+    36038,
+    31404,
+    52293,
+    1210,
+    10165,
+    54724,
+    62856,
+    58725,
+    63375,
+    18897,
+    64419,
+    11597,
+    942
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -913,6 +943,59 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "877": {
+      "title": "Nana",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Nana",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/70205010"
+        },
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.66d625a3-74c9-485b-a62f-7aa062d7d625"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/70205010"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.66d625a3-74c9-485b-a62f-7aa062d7d625"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.50e446a4-a1ca-459c-b114-72826a2026cc"
+        }
+      ]
+    },
     "918": {
       "title": "Gintama",
       "mal_status": "plan_to_watch",
@@ -943,6 +1026,37 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "1210": {
+      "title": "NHK ni Youkoso!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Welcome to the N.H.K.",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b5e19a7f-b2f2-4269-aa84-801b868e1264"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7692bd07-bdff-4ce8-901f-bde69f8ccd90"
+        }
+      ]
     },
     "1524": {
       "title": "Fuujin Monogatari",
@@ -1226,6 +1340,44 @@
           "url": "https://www.viki.com/videos/1027821v-mischievous-kiss-love-in-tokyo-episode-1"
         }
       ]
+    },
+    "4081": {
+      "title": "Natsume Yuujinchou",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Natsume’s Book of Friends",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GX9U3179X"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.1fc2894d-4287-4247-84c9-c1feab33d6a4"
+        },
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.6d33d3c5-9f28-4e97-837e-fbc7a9f115f7"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "5081": {
       "title": "Bakemonogatari",
@@ -1847,6 +1999,37 @@
         "note": "ADN-Seite nicht abrufbar (HTTP 451)"
       }
     },
+    "10165": {
+      "title": "Nichijou",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Nichijou – Das ganz normale Leben",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GRZJX09V6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.94aff0d1-03d3-4ee7-b454-9da1b35d3a9a"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "10465": {
       "title": "Manyuu Hikenchou",
       "mal_status": "plan_to_watch",
@@ -1939,6 +2122,29 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.daf6279b-5a4f-4543-b7c1-e093922dfaf9"
         }
       ]
+    },
+    "11597": {
+      "title": "Nisemonogatari",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_adn_channel_caveat",
+      "match_confidence": "exact",
+      "jw_title": "Nisemonogatari",
+      "my_direct_hits": [],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e1d08b5c-00d7-43c0-a49d-7cb86199e4d3"
+        }
+      ],
+      "legal_de_other_providers": []
     },
     "12189": {
       "title": "Hyouka",
@@ -2206,6 +2412,37 @@
           "tier": "other",
           "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.63644ed0-dc00-432f-b1f7-8bc8536d32ef"
+        }
+      ]
+    },
+    "16067": {
+      "title": "Nagi no Asu kara",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Nagi no Asukara",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.30a6c44a-4281-4c9b-9761-af1d52386652"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4903ec01-47b5-43e0-871a-2293425af665"
         }
       ]
     },
@@ -3403,6 +3640,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "31404": {
+      "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "And You Thought There Is Never a Girl Online?",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GPWUKE5GZ"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.db19b71b-b07f-45dd-bb02-194b8eb157b0"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "31793": {
       "title": "Mahou Shoujo Nante Mou Ii desu kara.",
       "mal_status": "plan_to_watch",
@@ -3707,6 +3975,29 @@
         }
       ]
     },
+    "33323": {
+      "title": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "token",
+      "jw_title": "Kamisama Kiss",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5c16f118-df6d-46f6-9aba-20637c5f8f17"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "33487": {
       "title": "Masamune-kun no Revenge",
       "mal_status": "on_hold",
@@ -3875,6 +4166,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d3b558ac-adea-4390-906d-54c24ab594e3"
         }
       ]
+    },
+    "34658": {
+      "title": "Nekopara OVA",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "NekoparA",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G4VUQE31D"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.26ea1ee6-8fd4-43a1-8515-4b4d500953c3"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "34881": {
       "title": "Aho Girl",
@@ -4150,6 +4472,37 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e6a36242-487b-4956-bba3-bc2321f03bb8"
         }
       ]
+    },
+    "36038": {
+      "title": "Net-juu no Susume",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Recovery of an MMO Junkie",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GYME224P6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7645eda3-ae24-4e1b-9346-68e637e86b6f"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "36214": {
       "title": "Asagao to Kase-san.",
@@ -4825,6 +5178,37 @@
         "season_video_count": 24,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "38924": {
+      "title": "Nekopara",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "NekoparA",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G4VUQE31D"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.26ea1ee6-8fd4-43a1-8515-4b4d500953c3"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "38940": {
       "title": "Cop Craft",
@@ -6686,6 +7070,29 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "52293": {
+      "title": "New Panty & Stocking with Garterbelt",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "New PANTY & STOCKING with GARTERBELT",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.7b167752-6b5c-4edd-b498-041df6dc1b21"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "52446": {
       "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
       "mal_status": "plan_to_watch",
@@ -7255,6 +7662,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.dc9aa5fc-eab3-4279-aa64-868f4bb06b59"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "54724": {
+      "title": "Nige Jouzu no Wakagimi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "The Elusive Samurai",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GX9U31Q4M"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.43c119e1-b670-473c-b2d4-4a03d90996d7"
         }
       ],
       "adn_channel_caveat": [],
@@ -8238,6 +8676,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "58082": {
+      "title": "NEET Kunoichi to Nazeka Dousei Hajimemashita",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "token",
+      "jw_title": "I'm Living With an Otaku NEET Kunoichi!?",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d9d5ba3c-4199-4340-a984-c6d3be1c1288"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [
+        {
+          "provider": "ada",
+          "name": "ADN (Amazon-Channel)",
+          "tier": "adn_channel_caveat",
+          "note": "ADN-Prime-Channel: Katalogabweichung wie beim CR-Channel möglich (cra). Fund ≠ ADN-direct.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d9d5ba3c-4199-4340-a984-c6d3be1c1288"
+        }
+      ],
+      "legal_de_other_providers": []
+    },
     "58259": {
       "title": "Douse, Koishite Shimaunda.",
       "mal_status": "plan_to_watch",
@@ -8338,6 +8807,37 @@
           "url": "https://www.viki.com/videos/1261492v-ameku-takaos-detective-karte-episode-1"
         }
       ]
+    },
+    "58725": {
+      "title": "Ninja to Koroshiya no Futarigurashi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "A Ninja and an Assassin Under One Roof",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GQJUM0VVP"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.4620d2ea-b385-415d-b368-2f1f44e5078a"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "58739": {
       "title": "Momentary Lily",
@@ -10241,6 +10741,36 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "62856": {
+      "title": "Nijusseiki Denki Mokuroku: Eureka Evrika",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sparks of Tomorrow",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81698957"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81698957"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "62865": {
       "title": "Dark Gathering 2nd Season",
       "mal_status": "plan_to_watch",
@@ -10291,6 +10821,37 @@
         "season_video_count": 25,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "62913": {
+      "title": "Needy Girl Overdose",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Needy Girl Overdose",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00375043ENUS"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.48eb7744-ebb6-4f2c-82a9-024d1e2b8b8d"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "62922": {
       "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
@@ -10612,6 +11173,29 @@
         "season_video_count": 12,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "63375": {
+      "title": "Nippon Sangoku",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "low",
+      "jw_title": "NIPPON SANGOKU: Die drei Nationen der roten Sonne",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.e510f6c5-42e5-4147-8e4a-2f84ef675e1c"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "63409": {
       "title": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
@@ -11032,6 +11616,45 @@
       ],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
+    },
+    "64419": {
+      "title": "Nisemono no Renkinjutsushi",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-26T12:33:28.361Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "token",
+      "jw_title": "Fullmetal Alchemist",
+      "my_direct_hits": [
+        {
+          "provider": "amp",
+          "name": "Amazon Prime Video",
+          "tier": "direct",
+          "note": null,
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b89f69f2-bc16-4c1e-b249-0514d59dc21b"
+        }
+      ],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b89f69f2-bc16-4c1e-b249-0514d59dc21b"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "amz",
+          "name": "Amazon Video (Kauf/Leihe bzw. Channel-Kohorte)",
+          "tier": "other",
+          "note": "Amazon Video = transaktional/Channel-Ablage, NICHT Prime-Abo-direct. Bei Prime-Fund: Video-Ebene klären.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.693181fe-9515-43a8-a7bc-cb5f9ada60d1"
+        }
+      ]
     },
     "64439": {
       "title": "Akane-banashi 2nd Season",
