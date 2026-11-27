@@ -569,7 +569,37 @@
     18897,
     64419,
     11597,
-    942
+    942,
+    1203,
+    59393,
+    1698,
+    61184,
+    17549,
+    36990,
+    39808,
+    23623,
+    20507,
+    30503,
+    18095,
+    65214,
+    58197,
+    6512,
+    350,
+    62907,
+    53300,
+    52611,
+    28819,
+    63619,
+    13283,
+    63352,
+    51678,
+    31143,
+    12355,
+    23673,
+    2966,
+    63248,
+    54850,
+    32729
   ],
   "cycle": 2,
   "cycle_started": "2026-11-08T10:22:39.737Z",
@@ -1170,6 +1200,36 @@
           "tier": "direct",
           "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
           "url": "https://www.netflix.com/title/82119616"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "1698": {
+      "title": "Nodame Cantabile",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Nodame Cantabile",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/80073596"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/80073596"
         }
       ],
       "my_channel_hits": [],
@@ -3448,6 +3508,37 @@
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
+    "28819": {
+      "title": "Okusama ga Seitokaichou!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "My Wife is the Student Council President",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GR8VX381R"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d12b3f43-5c77-4967-a2a3-66cb993e1abe"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "30370": {
       "title": "Akatsuki no Yona OVA",
       "mal_status": "plan_to_watch",
@@ -3601,6 +3692,29 @@
           "tier": "direct",
           "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
           "url": "https://www.netflix.com/title/80173711"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "31143": {
+      "title": "Onsen Yousei Hakone-chan",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Hakone-chan",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G63VM8DXY"
         }
       ],
       "my_channel_hits": [],
@@ -3916,6 +4030,37 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.63290bfe-95a9-4072-a16f-618f14f3dd79"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "32729": {
+      "title": "Orange",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Orange",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GRZJGGKZ6"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.02b31f5e-9a85-7bbc-6415-5495ed562591"
         }
       ],
       "adn_channel_caveat": [],
@@ -6832,6 +6977,37 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "51678": {
+      "title": "Oniichan wa Oshimai!",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_channel",
+      "match_confidence": "exact",
+      "jw_title": "Onimai: Ab sofort Schwester!",
+      "my_direct_hits": [],
+      "my_channel_hits": [
+        {
+          "provider": "ava",
+          "name": "aniverse (Prime Channel)",
+          "tier": "channel",
+          "note": "Nutzer-verifiziert 23.10.2026 via Prime-Detailseiten.",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.d63967e9-249d-4945-b801-9f06f4d1f086"
+        }
+      ],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": [
+        {
+          "provider": "akp",
+          "name": "Akibapass (nicht abonniert)",
+          "tier": "other",
+          "note": null,
+          "url": "https://www.akibapass.tv/products/onimai-ab-sofort-schwester-omu-season-1"
+        }
+      ]
+    },
     "51916": {
       "title": "Dekiru Neko wa Kyou mo Yuuutsu",
       "mal_status": "plan_to_watch",
@@ -7175,6 +7351,37 @@
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
     },
+    "52611": {
+      "title": "Okashi na Tensei",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Sweet Reincarnation",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G7PU4MDWW"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.b0a5e1d0-8402-48d5-be7d-7042a46d8c15"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "52709": {
       "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
       "mal_status": "on_hold",
@@ -7325,6 +7532,29 @@
           "tier": "cr_channel_caveat",
           "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.5366d09d-a1e7-4b99-9571-5135b562c6c3"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "53300": {
+      "title": "Ojou to Banken-kun",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_cr_channel_caveat",
+      "match_confidence": "exact",
+      "jw_title": "A Girl & Her Guard Dog",
+      "my_direct_hits": [],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.f5057d52-80d4-47f1-aa9a-5bd650167045"
         }
       ],
       "adn_channel_caveat": [],
@@ -7695,6 +7925,36 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.43c119e1-b670-473c-b2d4-4a03d90996d7"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "54850": {
+      "title": "Oooku",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Ōoku: The Inner Chambers",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/81464005"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/81464005"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -8707,6 +8967,37 @@
       ],
       "legal_de_other_providers": []
     },
+    "58197": {
+      "title": "Nyaight of the Living Cat",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Nyaight of the Living Cat",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/G9DU92GNQ"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.cc76bb9c-e658-4fa1-9daa-13c1e48c33de"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
     "58259": {
       "title": "Douse, Koishite Shimaunda.",
       "mal_status": "plan_to_watch",
@@ -9118,6 +9409,43 @@
           "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.064065de-ddcc-41ef-a1eb-e7d6a29c407d"
         }
       ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
+    },
+    "59393": {
+      "title": "Niwatori Fighter",
+      "mal_status": "plan_to_watch",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Rooster Fighter",
+      "my_direct_hits": [
+        {
+          "provider": "nfx",
+          "name": "Netflix",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.netflix.com/title/82647303"
+        },
+        {
+          "provider": "dnp",
+          "name": "Disney+",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.disneyplus.com/browse/entity-eb5b776f-8162-491a-9aca-c1e9b56729e5"
+        },
+        {
+          "provider": "nfa",
+          "name": "Netflix (Standard with Ads)",
+          "tier": "direct",
+          "note": "Netflix-Werbe-Tarif – zählt als Netflix-direct (Abo vorhanden).",
+          "url": "https://www.netflix.com/title/82647303"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [],
       "adn_channel_caveat": [],
       "legal_de_other_providers": []
     },
@@ -10821,6 +11149,37 @@
         "season_video_count": 25,
         "note": "ADN __NEXT_DATA__; available aus Sicht des Abruf-Standorts (Geo-Caveat)"
       }
+    },
+    "62907": {
+      "title": "Ojisan wa Kawaii Mono ga Osuki.",
+      "mal_status": "watching",
+      "checked_at": "2026-11-27T12:19:11.421Z",
+      "cycle": 2,
+      "verdict": "hit_direct",
+      "match_confidence": "exact",
+      "jw_title": "Uncle's Obsession with Cute Things",
+      "my_direct_hits": [
+        {
+          "provider": "cru",
+          "name": "Crunchyroll",
+          "tier": "direct",
+          "note": null,
+          "url": "https://www.crunchyroll.com/watch/GE00385447PTBR"
+        }
+      ],
+      "my_channel_hits": [],
+      "channel_candidates": [],
+      "crunchyroll_channel_caveat": [
+        {
+          "provider": "cra",
+          "name": "Crunchyroll (Amazon-Channel)",
+          "tier": "cr_channel_caveat",
+          "note": "Crunchyroll-Prime-Channel: Katalog weicht von Crunchyroll direkt ab (Nutzer-Erfahrung).",
+          "url": "https://watch.amazon.de/detail?gti=amzn1.dv.gti.019b1343-a3bb-4792-9ad9-acd5d27570df"
+        }
+      ],
+      "adn_channel_caveat": [],
+      "legal_de_other_providers": []
     },
     "62913": {
       "title": "Needy Girl Overdose",
